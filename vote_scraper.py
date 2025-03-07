@@ -1,8 +1,8 @@
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-import time
-import os
+# import requests
+# from bs4 import BeautifulSoup
+# import pandas as pd
+# import time
+# import os
 
 def scrape_votes(member_id, max_pages=None):
     """
