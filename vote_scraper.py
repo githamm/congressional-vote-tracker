@@ -3,7 +3,6 @@
 # import pandas as pd
 # import time
 # import os
-
 def scrape_votes(member_id, max_pages=None):
     """
     Scrape voting data for a specific House member from the clerk.house.gov website.
