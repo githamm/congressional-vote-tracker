@@ -1,4 +1,19 @@
+# import requests
+# from bs4 import BeautifulSoup
+# import pandas as pd
+# import time
+# import os
 def scrape_votes(member_id, max_pages=None):
+    """
+    Scrape voting data for a specific House member from the clerk.house.gov website.
+    
+    Args:
+        member_id (str): The member ID (e.g., 'B000825')
+        max_pages (int, optional): Maximum number of pages to scrape. If None, scrape all pages.
+    
+    Returns:
+        pandas.DataFrame: DataFrame containing all voting data
+    """
     base_url = "https://clerk.house.gov/Members/ViewRecentVotes"
     all_votes = []
     page = 1
