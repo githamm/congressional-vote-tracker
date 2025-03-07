@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def scrape_votes(member_id, max_pages=None):
     base_url = "https://clerk.house.gov/Members/ViewRecentVotes"
     all_votes = []
