@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import requests
-import beautifulsoup4
-# import pandas as pd
+from bs4 import BeautifulSoup4
+import pandas as pd
 import time
 import os
 
