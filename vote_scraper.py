@@ -1,7 +1,7 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 import requests
-import beautifulsoup4
-# import pandas as pd
+from bs4 import BeautifulSoup
+import pandas as pd
 import time
 import os
 
@@ -122,14 +122,15 @@ main("P000620")
 def load_data(filename):
     return pd.read_csv(filename)
 
-all_votes_df = load_data("/Volumes/Lacie Usable/repos/web-scraper/representative_B000825_votes.csv") #This is Boebert's dataframe
-crank_df = load_data("/Volumes/Lacie Usable/repos/web-scraper/representative_C001137_votes.csv")
-crow_df = load_data("/Volumes/Lacie Usable/repos/web-scraper/representative_C001121_votes.csv")
-degette_df = load_data("/Volumes/Lacie Usable/repos/web-scraper/representative_D000197_votes.csv")
-evans_df = load_data("/Volumes/Lacie Usable/repos/web-scraper/representative_E000300_votes.csv")
-hurd_df = load_data("/Volumes/Lacie Usable/repos/web-scraper/representative_H001100_votes.csv")
-neguse_df = load_data("/Volumes/Lacie Usable/repos/web-scraper/representative_N000191_votes.csv")
-pettersen_df = load_data("/Volumes/Lacie Usable/repos/web-scraper/representative_P000620_votes.csv")
+# all_votes_df = load_data("/Volumes/Lacie Usable/repos/web-scraper/representative_B000825_votes.csv") #This is Boebert's dataframe
+all_votes_df = load_data("./representative_B000825_votes.csv") #This is Boebert's dataframe
+crank_df = load_data("./representative_C001137_votes.csv")
+crow_df = load_data("./representative_C001121_votes.csv")
+degette_df = load_data("./representative_D000197_votes.csv")
+evans_df = load_data("./representative_E000300_votes.csv")
+hurd_df = load_data("./representative_H001100_votes.csv")
+neguse_df = load_data("./representative_N000191_votes.csv")
+pettersen_df = load_data("./representative_P000620_votes.csv")
 
 all_votes_df['C001137'] = all_votes_df['Roll Call Number'].map(crank_df.set_index('Roll Call Number')['C001137'])
 all_votes_df['C001121'] = all_votes_df['Roll Call Number'].map(crow_df.set_index('Roll Call Number')['C001121'])

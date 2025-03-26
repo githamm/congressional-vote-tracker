@@ -17,9 +17,10 @@
     <script src="https://cdn.datatables.net/plug-ins/1.12.1/sorting/natural.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
         html body {
-            font-family: 'Roboto Mono', monospace;
+            font-family: 'Roboto', sans-serif;
         }
 
         #filters {
@@ -58,18 +59,13 @@
             font-size: .9em;
         }
 
-        th {
-            text-align: left;
-            font-size: 15px;
-        }
-
         td {
             padding: 6px !important;
         }
 
         select,
         button {
-            font-family: 'Roboto Mono', monospace;
+            font-family: 'Roboto', sans-serif;
         }
 
         select {
@@ -77,35 +73,22 @@
         }
 
         .page-title {
-            font-family: 'Roboto Mono', monospace;
+            font-family: 'Roboto', sans-serif;
             margin-bottom: -10px;
             line-height: 1.2;
         }
 
         .chatter {
-            font-family: 'Roboto Mono', monospace;
+            font-family: 'Roboto', sans-serif;
             margin-bottom: 20px;
 
         }
 
         .source {
-            font-size: .8em;
+            font-size: .9em;
             font-style: italic;
             color: #646464;
             margin: 5px 0 0 0;
-        }
-
-        .filter-note {
-            font-size: .9em;
-            color: #969696;
-            font-style: italic;
-            display: inline-block;
-            margin-top: 5px;
-            line-height: 1.3;
-        }
-
-        legend {
-            font-weight: 700;
         }
 
         .dataTables_info {
@@ -118,16 +101,21 @@
 
         table.dataTable thead th {
             padding: 5px 5px;
+            text-align: left;
+            font-size: .9em;
+            background: #ebebeb;
         }
 
         .passed {
             color: #1b9e77;
             font-weight: bold;
+            font-size: .95em;
         }
 
         .failed {
             color: #d95f02;
             font-weight: bold;
+            font-size: .95em;
         }
 
         .aye {
@@ -138,7 +126,8 @@
             border-radius: 50%;
             text-align: center;
             color: #fff;
-            line-height: 18px;
+            line-height: 21px;
+            font-size: .8em;
         }
 
         .nay {
@@ -149,7 +138,8 @@
             border-radius: 50%;
             text-align: center;
             color: #fff;
-            line-height: 18px;
+            line-height: 20px;
+            font-size: .8em;
         }
 
         .not-voting {
@@ -159,25 +149,29 @@
         #democrat {
             text-align: center;
             text-transform: uppercase;
-            color: #fff;
+            border-bottom: 4px solid #75aed1;
+            color: #75aed1;
             font-weight: bold;
-            background: rgba(116, 173, 209, .8);
-            padding: 10px;
+            letter-spacing: 1px;
+            background: #ebebeb;
+            padding-top: 7px;
         }
         #republican {
             text-align: center;
             text-transform: uppercase;
-            color: #fff;
+            border-bottom: 4px solid #f56c42;
+            color: #f56c42;
             font-weight: bold;
-            background: rgba(244, 109, 67, .8);
-            padding: 10px;
+            letter-spacing: 1px;
+            background: #ebebeb;
+            padding-top: 7px;
         }
     </style>
 </head>
 
 <body>
     <h2 class="page-title">Colorado congressional vote tracker</h2>
-    <p class="chatter">Curious about how your U.S. congressional representative is voting, and what they're voting on? The colored circles indicate how a representative voted on a resolution (NV stands for "not voting"). If a bill is listed more than once, the earlier votes are often <a href="https://www.congress.gov/help/learn-about-the-legislative-process/how-our-laws-are-made">motions</a>, such as a motion to table &mdash; the most recent result is the final vote. Click the date for more information on a bill. Some bill titles are really long &mdash; click the "+" button to see the full title (or hover over the title). The tracker will be updated daily.</p>
+    <p class="chatter">Curious about how your U.S. congressional representative is voting, and what they're voting on? The colored circles indicate if a representative voted <span style="color:#1b9e77;font-weight:bold">yes</span> or <span style="color:#d95f02;font-weight:bold">no</span> on a resolution (NV stands for "not voting"). If a bill is listed more than once, the earlier votes are often <a href="https://www.congress.gov/help/learn-about-the-legislative-process/how-our-laws-are-made" target="_blank">motions</a>, such as a motion to table &mdash; the most recent result is the final vote. Click the date for more information on a bill. Some bill titles are really long &mdash; click the "+" button to see the full title (or hover over the title). Click column headers to sort. Scroll right on mobile to see full table. The tracker will be updated daily.</p>
     <div id="filters">
         <p id="filter-1"></p>
         <p id="filter-2"></p>
@@ -230,16 +224,16 @@
                 }
 
                 var table = $('#votes-table').DataTable({
-                    scrollY: '1000px',
-                //scrollCollapse: true,
+                    scrollY: '500px',
+                    //scrollCollapse: true,
                     data: data,
                     scrollX: true,
                     paging: false,
                     pageLength: 25,
-                //displayStart: 0, // start table at row number; begins at 0
+                    //displayStart: 0, // start table at row number; begins at 0
                     fixedHeader: true,
                     responsive: false,
-                //dom: '<f<t>ilp>',
+                    //dom: '<f<t>ilp>',
                     dom: '<iftp>',
                     order: [
                         [1, 'desc']
@@ -332,7 +326,7 @@
                 yadcf.init(table, [{
                     column_number: 2,
                     filter_container_id: 'filter-1',
-                    filter_default_label: 'Filter by bill'
+                    filter_default_label: 'Filter by bill title'
                 },
                 {
 
