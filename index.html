@@ -118,6 +118,12 @@
             font-size: .95em;
         }
 
+        .other {
+            color: #000;
+            font-weight: bold;
+            font-size: .95em;
+        }
+
         .aye {
             display: inline-block;
             height: 20px;
@@ -255,7 +261,7 @@
                                 return '<span class="passed">' + data + '</span>'
                             } else if (data == 'Failed') {
                                 return '<span class="failed">' + data + '</span>'
-                            } else return data
+                            } else return '<span class="other">' + data + '</span>'
                         }
                     },
                     {
@@ -334,7 +340,7 @@
                     column_number: 3,
                     filter_container_id: 'filter-2',
                     filter_default_label: 'Filter by status',
-                    data: [{ value: 'Passed', label: 'Passed' }, { value: 'Failed', label: 'Failed'}] 
+                    //data: [{ value: 'Passed', label: 'Passed' }, { value: 'Failed', label: 'Failed'}] 
                 },
             ], {
                 cumulative_filtering: false,
