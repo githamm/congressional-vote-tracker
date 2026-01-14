@@ -7,17 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colorado Congressional Vote Tracker | The Denver Post</title>
     <link rel="icon" href="https://www.denverpost.com/wp-content/uploads/2016/05/cropped-DP_bug_denverpost.jpg?w=32" sizes="32x32" />
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" />
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://extras.denverpost.com/foundation/js/vendor/modernizr.js"></script>
-    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+   <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/plug-ins/2.2.2/dataRender/ellipsis.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
-    <script src="https://cdn.datatables.net/plug-ins/1.12.1/sorting/natural.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
         html body {
             font-family: 'Roboto', sans-serif;
@@ -212,9 +210,10 @@
     </table>
     <p class="source">Source: <a href="https://clerk.house.gov/" target="_blank">Clerk of the U.S. House of Representatives</a> / By Kevin Hamm, The Denver Post</p>
     <script>
+
         $(document).ready(function() {
-            //Papa.parse('./all_votes.csv', {
-            Papa.parse('https://raw.githubusercontent.com/githamm/congressional-vote-tracker/refs/heads/main/all_votes.csv', {
+            Papa.parse('./all_votes.csv', {
+            //Papa.parse('https://raw.githubusercontent.com/githamm/congressional-vote-tracker/refs/heads/main/all_votes.csv', {
                 download: true,
                 header: true,
                 skipEmptyLines: true,
@@ -222,12 +221,22 @@
                 complete: function(results) {
                     var data = results.data;
 
-                // Formatting function for row details - modify as you need
+                // Formatting function for row details
                 function format(d) {
                     // `d` is the original data object for the row
                     return (
                         d['Bill Title']
                         );
+                }
+
+                function parseDateToNumber(dateStr) {
+                    if (!dateStr) return 0;
+                    var parts = String(dateStr).split('/');
+                    if (parts.length !== 3) return 0;
+                    var m = parseInt(parts[0], 10);
+                    var d = parseInt(parts[1], 10);
+                    var y = parseInt(parts[2], 10);
+                    return y * 10000 + m * 100 + d;
                 }
 
                 var table = $('#votes-table').DataTable({
@@ -237,19 +246,13 @@
                     scrollX: true,
                     paging: false,
                     pageLength: 25,
-                    //displayStart: 0, // start table at row number; begins at 0
                     fixedHeader: true,
                     responsive: false,
-                    //dom: '<f<t>ilp>',
                     dom: '<iftp>',
                     order: [
                         [1, 'desc']
                     ],
                     columnDefs: [ 
-                        { 
-                            targets: 1,
-                            type: 'natural'
-                        },
                         {
                           targets: 2,
                           render: DataTable.render.ellipsis( 45, true )
@@ -292,10 +295,15 @@
                         },
                         { 
                             data: 'Date',
-                            render: function ( data, type, row, meta ) {
-                                return '<a href="https://clerk.house.gov/Votes/2025' + row['Roll Call Number'] + '" target="_blank">' + data + '</a>'
+                            type: 'num',
+                            render: {
+                                sort: function(data, type, row) {
+                                    return parseDateToNumber(data);
+                                },
+                                display: function(data, type, row) {
+                                    return '<a href="https://clerk.house.gov/Votes/' + row['Roll Call Number'] + '" target="_blank">' + data + '</a>';
+                                }
                             }
-
                         },
                         { data: 'Bill Title' },
                         { data: 'Status' },

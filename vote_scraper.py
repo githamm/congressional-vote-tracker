@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import time
 import os
+from datetime import datetime
 
 def scrape_votes(member_id, max_pages=None):
     """
@@ -23,7 +24,7 @@ def scrape_votes(member_id, max_pages=None):
     while True:
         # Construct URL for current page
         url = f"{base_url}?memberID={member_id}&page={page}"
-        print(f"Scraping page {page}...")
+        print(f"Scraping page {page} for {member_id}...")
         
         # Send request with proper headers
         headers = {
@@ -51,7 +52,7 @@ def scrape_votes(member_id, max_pages=None):
             print("No table found on the page. Stopping.")
             break
 
-        if td.string == 'No votes found':
+        if td and td.string == 'No votes found':
             print("No more votes. Stopping.")
             break   
         
@@ -63,16 +64,35 @@ def scrape_votes(member_id, max_pages=None):
         
         # If no data rows found, we've reached the end
         if not rows:
-            #print("No more data rows found. Stopping.")
             break
         
         # Extract data from each row
         for row in rows:
             cols = row.find_all('td')
             if len(cols) >= 5:  # Ensure we have enough columns
+                date_str = cols[0].text.strip()
+                roll_call = cols[1].text.strip()
+                
+                # Extract year from date and prepend to roll call number
+                try:
+                    # Try parsing common date formats
+                    for fmt in ['%m/%d/%Y', '%m/%d/%y', '%Y-%m-%d']:
+                        try:
+                            date_obj = datetime.strptime(date_str, fmt)
+                            year = str(date_obj.year)
+                            roll_call_with_year = f"{year}{roll_call}"
+                            break
+                        except ValueError:
+                            continue
+                    else:
+                        # If no format matches, keep original
+                        roll_call_with_year = roll_call
+                except:
+                    roll_call_with_year = roll_call
+                
                 vote_data = {
-                    'Date': cols[0].text.strip(),
-                    'Roll Call Number': cols[1].text.strip(),
+                    'Date': date_str,
+                    'Roll Call Number': roll_call_with_year,
                     'Bill Number': cols[2].text.strip(),
                     'Bill Title': cols[3].text.strip(),
                     member_id: cols[4].text.strip(),
@@ -82,7 +102,6 @@ def scrape_votes(member_id, max_pages=None):
         
         # Check if we've reached the maximum number of pages to scrape
         if max_pages and page >= max_pages:
-            #print(f"Reached maximum number of pages ({max_pages}). Stopping.")
             break
         
         # Move to the next page
@@ -93,54 +112,57 @@ def scrape_votes(member_id, max_pages=None):
     
     # Convert to DataFrame
     df = pd.DataFrame(all_votes)
-    print(f"Scraped a total of {len(df)} votes across {page} pages.")
+    print(f"Scraped a total of {len(df)} votes across {page} pages for {member_id}.")
     return df
 
-def main(member_id):
-    # Scrape all pages (or set max_pages to limit)
-    votes_df = scrape_votes(member_id, 1000)
+def main():
+    member_ids = ["B000825", "C001121", "C001137", "D000197", 
+                  "E000300", "H001100", "N000191", "P000620"]
     
-    # Save to CSV
-    output_file = f"representative_{member_id}_votes.csv"
-    votes_df.to_csv(output_file, index=False)
-    print(f"Data saved to {output_file}")
+    # Scrape all members
+    for member_id in member_ids:
+        votes_df = scrape_votes(member_id, 1000)
+        output_file = f"representative_{member_id}_votes.csv"
+        votes_df.to_csv(output_file, index=False)
+        print(f"Data saved to {output_file}\n")
     
-    # Display sample of data
-    # print("\nSample of scraped data:")
-    # print(votes_df.head())
-main("B000825")
-main("C001121")
-main("C001137")
-main("D000197")
-main("E000300")
-main("H001100")
-main("N000191")
-main("P000620")
-# main("C001121", crow_dataframe, crow_votes)
-# all_data = boebert_dataframe.join(crow_dataframe)
+    # Load all dataframes
+    print("Loading and merging data...")
+    all_votes_df = pd.read_csv("./representative_B000825_votes.csv")
+    
+    member_files = {
+        'C001137': "./representative_C001137_votes.csv",
+        'C001121': "./representative_C001121_votes.csv",
+        'D000197': "./representative_D000197_votes.csv",
+        'E000300': "./representative_E000300_votes.csv",
+        'H001100': "./representative_H001100_votes.csv",
+        'N000191': "./representative_N000191_votes.csv",
+        'P000620': "./representative_P000620_votes.csv"
+    }
+    
+    # Merge using left join on Roll Call Number
+    # This handles duplicates by keeping all matches
+    for member_id, filename in member_files.items():
+        member_df = pd.read_csv(filename)
+        # Select only Roll Call Number and the member's vote column
+        member_votes = member_df[['Roll Call Number', member_id]].copy()
+        
+        # Remove duplicates keeping the first occurrence
+        member_votes = member_votes.drop_duplicates(subset=['Roll Call Number'], keep='first')
+        
+        # Merge with the main dataframe
+        all_votes_df = all_votes_df.merge(
+            member_votes, 
+            on='Roll Call Number', 
+            how='left'
+        )
+    
+    print(all_votes_df)
+    output_file = "all_votes.csv"
+    all_votes_df.to_csv(output_file, index=False)
+    print(f"\nData saved to {output_file}")
+    print(f"Total votes: {len(all_votes_df)}")
+    print(f"Columns: {list(all_votes_df.columns)}")
 
-def load_data(filename):
-    return pd.read_csv(filename)
-
-# all_votes_df = load_data("/Volumes/Lacie Usable/repos/web-scraper/representative_B000825_votes.csv") #This is Boebert's dataframe
-all_votes_df = load_data("./representative_B000825_votes.csv") #This is Boebert's dataframe
-crank_df = load_data("./representative_C001137_votes.csv")
-crow_df = load_data("./representative_C001121_votes.csv")
-degette_df = load_data("./representative_D000197_votes.csv")
-evans_df = load_data("./representative_E000300_votes.csv")
-hurd_df = load_data("./representative_H001100_votes.csv")
-neguse_df = load_data("./representative_N000191_votes.csv")
-pettersen_df = load_data("./representative_P000620_votes.csv")
-
-all_votes_df['C001137'] = all_votes_df['Roll Call Number'].map(crank_df.set_index('Roll Call Number')['C001137'])
-all_votes_df['C001121'] = all_votes_df['Roll Call Number'].map(crow_df.set_index('Roll Call Number')['C001121'])
-all_votes_df['D000197'] = all_votes_df['Roll Call Number'].map(degette_df.set_index('Roll Call Number')['D000197'])
-all_votes_df['E000300'] = all_votes_df['Roll Call Number'].map(evans_df.set_index('Roll Call Number')['E000300'])
-all_votes_df['H001100'] = all_votes_df['Roll Call Number'].map(hurd_df.set_index('Roll Call Number')['H001100'])
-all_votes_df['N000191'] = all_votes_df['Roll Call Number'].map(neguse_df.set_index('Roll Call Number')['N000191'])
-all_votes_df['P000620'] = all_votes_df['Roll Call Number'].map(pettersen_df.set_index('Roll Call Number')['P000620'])
-
-print (all_votes_df)
-output_file = f"all_votes.csv"
-all_votes_df.to_csv(output_file, index=False)
-print(f"Data saved to {output_file}")
+if __name__ == "__main__":
+    main()
