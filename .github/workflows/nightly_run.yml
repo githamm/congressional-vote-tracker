@@ -10,7 +10,11 @@ permissions:
 
 concurrency:
   group: scrape-votes
-  cancel-in-progress: false
+  # Changed from false: if an earlier run gets stuck (queued or hung), a
+  # new trigger now cancels it automatically instead of waiting behind it
+  # forever. Safe here since the scraper is idempotent -- restarting a
+  # cancelled run just re-does the same work, nothing is lost.
+  cancel-in-progress: true
 
 jobs:
   scrape:
