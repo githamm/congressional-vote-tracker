@@ -33,7 +33,18 @@ jobs:
         run: pip install requests
 
       - name: Run scraper (incremental)
+        id: scrape
         run: python vote_scraper.py --year "$(date -u +%Y)" --incremental
+
+      - name: Write job summary
+        run: |
+          {
+            echo "## Vote scrape summary"
+            echo ""
+            echo "- **New/updated roll calls this run:** ${{ steps.scrape.outputs.new_count }}"
+            echo "- **Total roll calls tracked:** ${{ steps.scrape.outputs.total_count }}"
+            echo "- **Ran at:** $(date -u +'%Y-%m-%d %H:%M UTC')"
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit and push if the data changed
         run: |
@@ -43,6 +54,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No new or corrected roll calls -- nothing to commit."
           else
-            git commit -m "Update vote data ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git commit -m "Update vote data: ${{ steps.scrape.outputs.new_count }} new/updated (${{ steps.scrape.outputs.total_count }} total) - $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
