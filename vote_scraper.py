@@ -21,6 +21,7 @@ Output: one CSV, one row per roll call, one column per member's vote.
 import argparse
 import csv
 import logging
+import os
 import sys
 import time
 from dataclasses import dataclass, field
@@ -274,8 +275,13 @@ def write_csv(all_results: list[RollCallResult], member_ids: dict[str, str], out
     fieldnames = csv_fieldnames(member_ids)
     rows = [result_to_row(r, member_ids) for r in all_results]
 
+    # Explicit lineterminator: csv.DictWriter defaults to '\r\n' (the Excel
+    # dialect). Left unset, the *first* incremental run against a file that
+    # already has plain '\n' endings flips every single line, making git
+    # see a full-file rewrite even when no data actually changed. Forcing
+    # '\n' here makes output deterministic run-over-run.
     with output_path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -288,7 +294,7 @@ def write_rows(rows: list[dict], member_ids: dict[str, str], output_path: Path) 
     (via result_to_row) and rows loaded back in from the existing CSV."""
     fieldnames = csv_fieldnames(member_ids)
     with output_path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     log.info("Wrote %d rows to %s", len(rows), output_path)
@@ -387,6 +393,18 @@ def parse_args(argv=None) -> argparse.Namespace:
     return parser.parse_args(argv)
 
 
+def emit_github_output(key: str, value: str) -> None:
+    """Write a step output for a GitHub Actions workflow to pick up (e.g.
+    to build a job summary or a richer commit message). Safe no-op when
+    run outside Actions, such as locally on your own machine -- GITHUB_OUTPUT
+    just won't be set."""
+    output_path = os.environ.get("GITHUB_OUTPUT")
+    if not output_path:
+        return
+    with open(output_path, "a", encoding="utf-8") as f:
+        f.write(f"{key}={value}\n")
+
+
 def main(argv=None) -> int:
     args = parse_args(argv)
     logging.basicConfig(
@@ -457,6 +475,8 @@ def main(argv=None) -> int:
             len(merged_rows),
             args.output,
         )
+        emit_github_output("new_count", str(new_or_updated))
+        emit_github_output("total_count", str(len(merged_rows)))
     else:
         write_csv(all_results, member_ids, args.output)
         log.info(
@@ -465,6 +485,8 @@ def main(argv=None) -> int:
             len(args.year),
             len(member_ids),
         )
+        emit_github_output("new_count", str(len(all_results)))
+        emit_github_output("total_count", str(len(all_results)))
     return 0
 
 
