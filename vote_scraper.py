@@ -15,12 +15,16 @@ USAGE
     # Daily cron/scheduled run: only fetch what's new since last time
     python vote_scraper.py --year 2026 --incremental
 
-Output: one CSV, one row per roll call, one column per member's vote.
+Members come from members.json, for the Congress that the --year values
+belong to. Output defaults to data/<congress>/all_votes.csv: one row per
+roll call, one column per member's vote, then House-wide tally columns.
 """
 
 import argparse
 import csv
+import json
 import logging
+import shutil
 import os
 import sys
 import time
@@ -41,19 +45,43 @@ log = logging.getLogger("vote_scraper")
 
 ROLL_URL = "https://clerk.house.gov/evs/{year}/roll{roll:03d}.xml"
 
-# Colorado's House delegation (119th Congress). Bioguide/Clerk member IDs --
-# same ID scheme the original script used, and the same IDs that appear as
-# name-id="..." attributes inside each roll call XML.
-DEFAULT_MEMBERS = {
-    "B000825": "Boebert",
-    "C001121": "Crow",
-    "C001137": "Crank",
-    "D000197": "DeGette",
-    "E000300": "Evans (CO)",
-    "H001100": "Hurd (CO)",
-    "N000191": "Neguse",
-    "P000620": "Pettersen",
-}
+# Colorado's House delegation for each Congress lives in members.json, which
+# index.html also reads. IDs are Bioguide/Clerk member IDs -- the same IDs
+# that appear as name-id="..." attributes inside each roll call XML.
+MEMBERS_FILE = Path(__file__).resolve().parent / "members.json"
+
+# House-wide tally columns, appended after the member columns so older
+# readers of the CSV (which look columns up by name) are unaffected.
+TALLY_COLUMNS = [
+    "Yea Total",
+    "Nay Total",
+    "Present Total",
+    "NV Total",
+    "Dem Yea",
+    "Dem Nay",
+    "Rep Yea",
+    "Rep Nay",
+]
+PARTY_PREFIX = {"Democratic": "Dem", "Republican": "Rep"}
+
+
+def congress_for_year(year: int) -> int:
+    """The 1st Congress began in 1789; each Congress spans two years."""
+    return (year - 1789) // 2 + 1
+
+
+def load_members(congress: int) -> dict[str, str]:
+    """Return {member_id: csv_name} for one Congress from members.json,
+    sorted by ID so the CSV column order is stable."""
+    with MEMBERS_FILE.open(encoding="utf-8") as f:
+        config = json.load(f)
+    entry = config.get("congresses", {}).get(str(congress))
+    if not entry or not entry.get("members"):
+        raise SystemExit(
+            f"No members listed for the {congress}th Congress in {MEMBERS_FILE.name}. "
+            "Add the delegation's Bioguide IDs there before scraping."
+        )
+    return {m["id"]: m["csvName"] for m in sorted(entry["members"], key=lambda m: m["id"])}
 
 REQUEST_TIMEOUT = 15  # seconds
 DELAY_BETWEEN_REQUESTS = 0.5  # seconds -- be a polite scraper
@@ -79,6 +107,7 @@ class RollCallResult:
     result: Optional[str] = None
     description: Optional[str] = None
     votes: dict = field(default_factory=dict)  # member_id -> vote string
+    totals: dict = field(default_factory=dict)  # TALLY_COLUMNS name -> int
 
 
 def build_session() -> requests.Session:
@@ -174,7 +203,46 @@ def fetch_roll_call(
             if member_id in member_ids:
                 result.votes[member_id] = (vote_el.text or "").strip()
 
+    result.totals = parse_totals(meta.find("vote-totals"))
     return result
+
+
+def parse_totals(vote_totals: Optional[ET.Element]) -> dict:
+    """Pull House-wide and per-party Yea/Nay counts out of <vote-totals>.
+    Missing pieces (e.g. a quorum call or Speaker election, which use a
+    different layout) are simply left out, so those cells stay blank."""
+    totals: dict = {}
+    if vote_totals is None:
+        return totals
+
+    def count(el: ET.Element, tag: str) -> Optional[int]:
+        child = el.find(tag)
+        try:
+            return int(child.text.strip()) if child is not None and child.text else None
+        except ValueError:
+            return None
+
+    overall = vote_totals.find("totals-by-vote")
+    if overall is not None:
+        for tag, column in (
+            ("yea-total", "Yea Total"),
+            ("nay-total", "Nay Total"),
+            ("present-total", "Present Total"),
+            ("not-voting-total", "NV Total"),
+        ):
+            value = count(overall, tag)
+            if value is not None:
+                totals[column] = value
+
+    for party_el in vote_totals.findall("totals-by-party"):
+        prefix = PARTY_PREFIX.get((party_el.findtext("party") or "").strip())
+        if not prefix:
+            continue  # independents aren't part of the party-loyalty math
+        for tag, suffix in (("yea-total", "Yea"), ("nay-total", "Nay")):
+            value = count(party_el, tag)
+            if value is not None:
+                totals[f"{prefix} {suffix}"] = value
+    return totals
 
 
 def scrape_year(
@@ -252,6 +320,8 @@ def result_to_row(r: RollCallResult, member_ids: dict[str, str]) -> dict:
     }
     for member_id, name in member_ids.items():
         row[f"{name} ({member_id})"] = r.votes.get(member_id, "")
+    for column in TALLY_COLUMNS:
+        row[column] = r.totals.get(column, "")
     return row
 
 
@@ -268,7 +338,7 @@ def csv_fieldnames(member_ids: dict[str, str]) -> list[str]:
         "Vote Type",
         "Result",
         "Description",
-    ] + [f"{name} ({member_id})" for member_id, name in member_ids.items()]
+    ] + [f"{name} ({member_id})" for member_id, name in member_ids.items()] + TALLY_COLUMNS
 
 
 def write_csv(all_results: list[RollCallResult], member_ids: dict[str, str], output_path: Path) -> None:
@@ -365,7 +435,14 @@ def parse_args(argv=None) -> argparse.Namespace:
         "--members",
         nargs="+",
         default=None,
-        help="Bioguide/Clerk member IDs to track (default: Colorado delegation)",
+        help="Bioguide/Clerk member IDs to track (default: the Colorado delegation "
+        "for this Congress, from members.json)",
+    )
+    parser.add_argument(
+        "--congress",
+        type=int,
+        default=None,
+        help="Congress number (default: derived from --year, e.g. 2025/2026 -> 119)",
     )
     parser.add_argument("--start", type=int, default=1, help="First roll call number to try (default: 1)")
     parser.add_argument(
@@ -378,8 +455,15 @@ def parse_args(argv=None) -> argparse.Namespace:
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("all_votes.csv"),
-        help="Output CSV path (default: all_votes.csv)",
+        default=None,
+        help="Output CSV path (default: data/<congress>/all_votes.csv)",
+    )
+    parser.add_argument(
+        "--copy-to",
+        type=Path,
+        default=None,
+        help="Also copy the finished CSV here. The nightly workflow uses this to keep "
+        "the root all_votes.csv current for the previously deployed page.",
     )
     parser.add_argument(
         "--incremental",
@@ -412,12 +496,26 @@ def main(argv=None) -> int:
         format="%(asctime)s [%(levelname)s] %(message)s",
     )
 
+    congresses = {congress_for_year(y) for y in args.year}
+    if args.congress is None and len(congresses) > 1:
+        log.error(
+            "--year values span more than one Congress (%s); scrape each Congress separately.",
+            ", ".join(str(c) for c in sorted(congresses)),
+        )
+        return 1
+    congress = args.congress or congresses.pop()
+
     if args.members:
         # User-supplied IDs: we don't have display names for these, so just
         # label them by their ID.
         member_ids = {m: m for m in args.members}
     else:
-        member_ids = DEFAULT_MEMBERS
+        member_ids = load_members(congress)
+
+    if args.output is None:
+        args.output = Path("data") / str(congress) / "all_votes.csv"
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    log.info("Congress %d: tracking %d members -> %s", congress, len(member_ids), args.output)
 
     existing_rows: dict[tuple[int, int], dict] = {}
     if args.incremental:
@@ -487,6 +585,10 @@ def main(argv=None) -> int:
         )
         emit_github_output("new_count", str(len(all_results)))
         emit_github_output("total_count", str(len(all_results)))
+
+    if args.copy_to and args.copy_to.resolve() != args.output.resolve():
+        shutil.copyfile(args.output, args.copy_to)
+        log.info("Copied %s -> %s", args.output, args.copy_to)
     return 0
 
 

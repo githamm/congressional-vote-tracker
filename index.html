@@ -210,7 +210,7 @@
 
         .list-head, .vote-row {
             display: grid;
-            grid-template-columns: 1fr 64px 88px repeat(8, 30px);
+            grid-template-columns: 1fr 64px 88px repeat(var(--member-count, 8), 30px);
             gap: 2px;
         }
 
@@ -286,7 +286,11 @@
         .bill-number { font-family: var(--font-mono); font-size: 0.68rem; color: var(--ink-soft); display: block; }
 
         .vote-row .date-cell { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-soft); padding: 9px 6px; }
-        .vote-row .status-cell { padding: 9px 6px; }
+        .vote-row .status-cell { padding: 9px 6px; flex-direction: column; align-items: flex-start; justify-content: center; gap: 3px; }
+
+        .tally { font-family: var(--font-mono); font-size: 0.66rem; color: var(--ink-soft); white-space: nowrap; }
+        .card-head .tally { margin-left: 8px; }
+        .card-head-left { display: flex; align-items: center; min-width: 0; }
         .vote-row .member-cell { justify-content: center; padding: 9px 0; }
 
         /* full-column highlight: header cell + every row's cell for that member */
@@ -351,6 +355,80 @@
         .card-member-row.highlighted { background: var(--highlight-bg); }
         .card-member-row .member-name { font-size: 0.84rem; }
 
+        /* ---------------- Final-votes toggle ---------------- */
+        .toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.84rem;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .toggle input { width: 16px; height: 16px; margin: 0; accent-color: var(--dp-red); }
+
+        .active-filter { margin-left: 6px; }
+        .active-filter button {
+            all: unset;
+            cursor: pointer;
+            color: var(--dp-red);
+            text-decoration: underline;
+            margin-left: 4px;
+        }
+
+        /* ---------------- Member summary cards ---------------- */
+        .member-summary { margin: 0 0 16px; }
+        .member-summary h2 {
+            font-family: 'Libre Franklin', var(--font-ui);
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0 0 8px;
+        }
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+            gap: 8px;
+        }
+        @media (max-width: 420px) {
+            .summary-grid { grid-template-columns: 1fr 1fr; }
+        }
+        .summary-card {
+            background: var(--paper-raised);
+            border: 1px solid var(--rule);
+            border-top: 3px solid var(--rule-strong);
+            border-radius: var(--radius);
+            padding: 9px 11px 10px;
+            font-size: 0.78rem;
+            min-width: 0;
+        }
+        .summary-card.dem { border-top-color: var(--dem-blue); }
+        .summary-card.rep { border-top-color: var(--gop-rust); }
+        .summary-card.highlighted { background: var(--highlight-bg); }
+        .summary-name { font-weight: 700; font-size: 0.86rem; margin: 0 0 4px; }
+        .summary-name .district { font-weight: 400; color: var(--ink-soft); font-size: 0.74rem; }
+        .summary-stat { display: flex; justify-content: space-between; gap: 6px; color: var(--ink-soft); }
+        .summary-stat strong { font-family: var(--font-mono); color: var(--ink); font-weight: 600; }
+        .summary-card button.broke {
+            all: unset;
+            box-sizing: border-box;
+            display: block;
+            width: 100%;
+            margin-top: 6px;
+            padding: 4px 6px;
+            border: 1px solid var(--rule-strong);
+            border-radius: 4px;
+            font-size: 0.74rem;
+            font-weight: 600;
+            text-align: center;
+            cursor: pointer;
+            color: var(--ink);
+        }
+        .summary-card button.broke:hover { border-color: var(--dp-red); color: var(--dp-red); }
+        .summary-card button.broke[aria-pressed="true"] { background: var(--dp-red); border-color: var(--dp-red); color: #fff; }
+        .summary-card button.broke:disabled { cursor: default; color: var(--ink-soft); border-style: dashed; }
+        .summary-note { font-size: 0.72rem; color: var(--ink-soft); margin: 6px 0 0; line-height: 1.4; }
+
         /* ---------------- Status / source line ---------------- */
         #status-msg {
             font-family: var(--font-ui);
@@ -387,7 +465,15 @@
         <span class="legend-item"><span class="vote-badge present">P</span> Present (no vote)</span>
     </section>
 
+    <section class="member-summary" id="member-summary" aria-labelledby="summary-heading" hidden>
+        <h2 id="summary-heading">How each member votes</h2>
+        <div class="summary-grid" id="summary-grid"></div>
+        <p class="summary-note">Party loyalty is the share of a member&rsquo;s yes/no votes that matched the majority of their party in the full House. Ties and votes without party totals are left out. &ldquo;Broke with party&rdquo; lists the votes where they didn&rsquo;t match.</p>
+    </section>
+
     <section class="controls" aria-label="Filter votes">
+        <select id="congress-select" aria-label="Choose a Congress"></select>
+        <label class="toggle"><input type="checkbox" id="final-toggle"> Final votes only</label>
         <input type="search" id="search-input" placeholder="Search bill titles or numbers&hellip;" aria-label="Search bill titles or numbers">
         <select id="status-select" aria-label="Filter by outcome">
             <option value="">All outcomes</option>
@@ -426,26 +512,35 @@
 
         // ============================================================
         // DATA MODEL
-        // Matches new_vote_scraper.py's columns: Year, Congress, Session,
-        // Roll Call Number, Date, Time, Bill Number, Vote Question, Vote
-        // Type, Result, Description, plus one column per member named
-        // "Name (ID)" -- e.g. "Evans (CO) (E000300)". `name` below must
-        // stay "(CO)" to match that CSV header; `displayName` is the full
-        // name shown in the UI -- names are never abbreviated.
+        // members.json lists each Congress's delegation; the scraper
+        // (vote_scraper.py) writes data/<congress>/all_votes.csv with
+        // columns: Year, Congress, Session, Roll Call Number, Date, Time,
+        // Bill Number, Vote Question, Vote Type, Result, Description, one
+        // column per member named "csvName (ID)" -- e.g.
+        // "Evans (CO) (E000300)" -- then House-wide tally columns
+        // (Yea Total, Nay Total, Present Total, NV Total, Dem Yea, Dem Nay,
+        // Rep Yea, Rep Nay).
         // ============================================================
-        var MEMBERS = [
-            { id: 'C001121', name: 'Crow', displayName: 'Crow', party: 'D' },
-            { id: 'D000197', name: 'DeGette', displayName: 'DeGette', party: 'D' },
-            { id: 'N000191', name: 'Neguse', displayName: 'Neguse', party: 'D' },
-            { id: 'P000620', name: 'Pettersen', displayName: 'Pettersen', party: 'D' },
-            { id: 'B000825', name: 'Boebert', displayName: 'Boebert', party: 'R' },
-            { id: 'C001137', name: 'Crank', displayName: 'Crank', party: 'R' },
-            { id: 'E000300', name: 'Evans (CO)', displayName: 'Evans', party: 'R' },
-            { id: 'H001100', name: 'Hurd (CO)', displayName: 'Hurd', party: 'R' }
-        ];
-        MEMBERS.forEach(function (m) { m.csvKey = m.name + ' (' + m.id + ')'; });
-        var DEM = MEMBERS.filter(function (m) { return m.party === 'D'; });
-        var REP = MEMBERS.filter(function (m) { return m.party === 'R'; });
+
+        // Served from GitHub so the nightly scraper's commits show up
+        // without redeploying the page. A local preview
+        // (python3 -m http.server) reads the files next to this page.
+        var IS_LOCAL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname) || location.protocol === 'file:';
+        var BASE_URL = IS_LOCAL ? '' : 'https://raw.githubusercontent.com/githamm/congressional-vote-tracker/main/';
+        var CONFIG_URL = BASE_URL + 'members.json';
+        function dataUrl(congress) { return BASE_URL + 'data/' + congress + '/all_votes.csv'; }
+
+        var CONFIG = null;
+        var MEMBERS = [], DEM = [], REP = [];
+
+        function setMembers(list) {
+            MEMBERS = list.map(function (m) {
+                return { id: m.id, displayName: m.displayName, party: m.party, district: m.district,
+                         csvKey: m.csvName + ' (' + m.id + ')' };
+            });
+            DEM = MEMBERS.filter(function (m) { return m.party === 'D'; });
+            REP = MEMBERS.filter(function (m) { return m.party === 'R'; });
+        }
 
         var MONTHS = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
 
@@ -548,14 +643,72 @@
             return 'Roll call ' + (row['Roll Call Number'] || '?');
         }
 
+        // "Final" = the vote that actually decides a bill or resolution,
+        // as opposed to amendments, motions to recommit/table, rules, etc.
+        var FINAL_QUESTION = /^(On Passage|Passage, Objections of the President|On Motion to Suspend the Rules and (Pass|Agree|Concur)|On Motion to Concur in the Senate Amendments?|On Agreeing to the Conference Report|On Agreeing to the Resolution)\b/i;
+
+        function isFinalVote(row) {
+            var q = String(row['Vote Question'] || '');
+            if (!FINAL_QUESTION.test(q)) return false;
+            // A resolution "providing for consideration" of other bills is
+            // a rule -- procedural, even though it's agreed to by a vote.
+            if (/^On Agreeing to the Resolution/i.test(q) &&
+                /^Providing for (the )?consideration/i.test(String(row['Description'] || ''))) return false;
+            return true;
+        }
+
+        function num(v) { return typeof v === 'number' && isFinite(v) ? v : null; }
+
+        // How the member's party voted in the full House: 'aye', 'nay', or
+        // null when we can't say (missing totals, or a tie).
+        function partyMajority(row, party) {
+            var prefix = party === 'D' ? 'Dem' : party === 'R' ? 'Rep' : null;
+            if (!prefix) return null;
+            var yea = num(row[prefix + ' Yea']), nay = num(row[prefix + ' Nay']);
+            if (yea === null || nay === null || yea === nay) return null;
+            return yea > nay ? 'aye' : 'nay';
+        }
+
+        function tallyText(row) {
+            var yea = num(row['Yea Total']), nay = num(row['Nay Total']);
+            return (yea === null || nay === null) ? '' : yea + '–' + nay;
+        }
+
         function prepareRow(row) {
             row.__date = parseClerkDate(row['Date']);
             row.__pattern = classifyPattern(tally(row));
+            row.__final = isFinalVote(row);
+            row.__broke = {};
+            row.__withParty = {};
+            MEMBERS.forEach(function (m) {
+                var cls = voteClass(row[m.csvKey]);
+                var majority = partyMajority(row, m.party);
+                if (majority && (cls === 'aye' || cls === 'nay')) {
+                    row.__withParty[m.id] = cls === majority;
+                    row.__broke[m.id] = cls !== majority;
+                }
+            });
             return row;
+        }
+
+        function memberStats(rows) {
+            return MEMBERS.map(function (m) {
+                var counted = 0, withParty = 0, broke = 0, missed = 0;
+                rows.forEach(function (r) {
+                    if (m.id in r.__withParty) {
+                        counted += 1;
+                        if (r.__withParty[m.id]) withParty += 1; else broke += 1;
+                    }
+                    if (voteClass(r[m.csvKey]) === 'nv') missed += 1;
+                });
+                return { member: m, counted: counted, withParty: withParty, broke: broke, missed: missed, total: rows.length };
+            });
         }
 
         function filterRows(rows, filters) {
             return rows.filter(function (r) {
+                if (filters.finalOnly && !r.__final) return false;
+                if (filters.brokeWith && !r.__broke[filters.brokeWith]) return false;
                 if (filters.text) {
                     var hay = ((r['Description'] || '') + ' ' + (r['Bill Number'] || '')).toLowerCase();
                     if (hay.indexOf(filters.text.toLowerCase()) === -1) return false;
@@ -602,6 +755,11 @@
             return '<span class="vote-badge ' + cls + '" title="' + escapeHTML(full) + '" aria-label="' + escapeHTML(full) + '">' + escapeHTML(label) + '</span>';
         }
 
+        function tallyHTML(row) {
+            var t = tallyText(row);
+            return t ? '<span class="tally" title="House-wide: yeas–nays">' + t + '</span>' : '';
+        }
+
         function statusBadgeClass(result) {
             if (result === 'Passed') return 'passed';
             if (result === 'Failed') return 'failed';
@@ -612,7 +770,8 @@
         // APP STATE
         // ============================================================
         var ALL_ROWS = [];
-        var filters = { text: '', status: '', pattern: '' };
+        function emptyFilters() { return { text: '', status: '', pattern: '', finalOnly: false, brokeWith: '' }; }
+        var filters = emptyFilters();
         var sortKey = 'date';
         var sortDir = 'desc';
         var highlightedMember = '';
@@ -628,10 +787,15 @@
             patternSelect: document.getElementById('pattern-select'),
             repSelect: document.getElementById('rep-select'),
             resetBtn: document.getElementById('reset-filters'),
+            congressSelect: document.getElementById('congress-select'),
+            finalToggle: document.getElementById('final-toggle'),
+            summary: document.getElementById('member-summary'),
+            summaryGrid: document.getElementById('summary-grid'),
             sortableButtons: null
         };
 
         function buildListHead() {
+            document.documentElement.style.setProperty('--member-count', MEMBERS.length);
             var demCells = DEM.map(function (m) {
                 return '<span class="member-head-cell dem" data-member="' + m.id + '"><span class="vname">' + escapeHTML(m.displayName) + ' (' + m.party + ')</span></span>';
             }).join('');
@@ -670,6 +834,8 @@
         }
 
         function populateSelectOptions() {
+            els.statusSelect.length = 1;  // keep only "All outcomes"
+            els.repSelect.length = 1;     // keep only "Highlight a rep..."
             var statuses = Array.from(new Set(ALL_ROWS.map(function (r) { return r['Result']; }).filter(Boolean))).sort();
             statuses.forEach(function (s) {
                 var opt = document.createElement('option');
@@ -711,7 +877,7 @@
                     '<div class="vote-row">' +
                     '<div class="title-cell">' + titleCellHTML(row) + '</div>' +
                     '<div class="date-cell">' + escapeHTML(formatDateDisplay(row.__date)) + '</div>' +
-                    '<div class="status-cell"><span class="badge ' + badgeCls + '" title="' + escapeHTML(row['Result'] || 'No result recorded') + '">' + escapeHTML(row['Result'] || '—') + '</span></div>' +
+                    '<div class="status-cell"><span class="badge ' + badgeCls + '" title="' + escapeHTML(row['Result'] || 'No result recorded') + '">' + escapeHTML(row['Result'] || '—') + '</span>' + tallyHTML(row) + '</div>' +
                     memberCells +
                     '</div>'
                 );
@@ -731,7 +897,7 @@
                 return (
                     '<article class="vote-card">' +
                     '<div class="card-head">' +
-                        '<span class="badge ' + badgeCls + '" title="' + escapeHTML(row['Result'] || 'No result recorded') + '">' + escapeHTML(row['Result'] || '—') + '</span>' +
+                        '<span class="card-head-left"><span class="badge ' + badgeCls + '" title="' + escapeHTML(row['Result'] || 'No result recorded') + '">' + escapeHTML(row['Result'] || '—') + '</span>' + tallyHTML(row) + '</span>' +
                         '<time>' + escapeHTML(formatDateDisplay(row.__date)) + '</time>' +
                     '</div>' +
                     '<h3 class="card-title">' + titleCellHTML(row) + '</h3>' +
@@ -752,16 +918,60 @@
             });
         }
 
+        function pct(part, whole) { return whole ? Math.round(100 * part / whole) + '%' : '—'; }
+
+        function memberById(id) {
+            for (var i = 0; i < MEMBERS.length; i++) if (MEMBERS[i].id === id) return MEMBERS[i];
+            return null;
+        }
+
+        function renderSummary() {
+            // Stats follow the "Final votes only" toggle but ignore the
+            // search/outcome filters, so they always describe a full record.
+            var base = filters.finalOnly ? ALL_ROWS.filter(function (r) { return r.__final; }) : ALL_ROWS;
+            var stats = memberStats(base);
+            var byId = {};
+            stats.forEach(function (s) { byId[s.member.id] = s; });
+            els.summaryGrid.innerHTML = DEM.concat(REP).map(function (m) {
+                var s = byId[m.id];
+                var pressed = filters.brokeWith === m.id;
+                var district = m.district ? ' <span class="district">CO-' + m.district + '</span>' : '';
+                return (
+                    '<div class="summary-card ' + (m.party === 'D' ? 'dem' : 'rep') + '" data-member="' + m.id + '">' +
+                    '<p class="summary-name">' + escapeHTML(m.displayName) + ' (' + m.party + ')' + district + '</p>' +
+                    '<div class="summary-stat"><span>Party loyalty</span><strong>' + pct(s.withParty, s.counted) + '</strong></div>' +
+                    '<div class="summary-stat"><span>Missed votes</span><strong>' + s.missed + ' <small>(' + pct(s.missed, s.total) + ')</small></strong></div>' +
+                    '<button type="button" class="broke" data-broke="' + m.id + '" aria-pressed="' + pressed + '"' + (s.broke ? '' : ' disabled') + '>' +
+                        'Broke with party: ' + s.broke +
+                    '</button>' +
+                    '</div>'
+                );
+            }).join('');
+            els.summary.removeAttribute('hidden');
+        }
+
+        function latestDate() {
+            var max = null;
+            ALL_ROWS.forEach(function (r) { if (r.__date && (!max || r.__date > max)) max = r.__date; });
+            return max;
+        }
+
         function render() {
             var visible = filterRows(ALL_ROWS, filters);
             visible = sortRows(visible, sortKey, sortDir);
-            els.resultCount.textContent = 'Showing ' + visible.length + ' of ' + ALL_ROWS.length + ' votes';
+            var latest = latestDate();
+            els.resultCount.innerHTML = escapeHTML('Showing ' + visible.length + ' of ' + ALL_ROWS.length + ' votes' +
+                (latest ? ' · Votes through ' + formatDateDisplay(latest) : ''));
+            var broke = filters.brokeWith && memberById(filters.brokeWith);
+            if (broke) {
+                els.resultCount.innerHTML += '<span class="active-filter">· Votes where ' + escapeHTML(broke.displayName) +
+                    ' broke with party<button type="button" id="clear-broke">clear</button></span>';
+            }
+            renderSummary();
             renderGrid(visible);
             renderCards(visible);
             applyHighlight();
         }
-
-        buildListHead();
 
         var searchTimer = null;
         els.searchInput.addEventListener('input', function () {
@@ -773,20 +983,48 @@
         els.patternSelect.addEventListener('change', function () { filters.pattern = els.patternSelect.value; render(); });
         els.repSelect.addEventListener('change', function () { highlightedMember = els.repSelect.value; applyHighlight(); });
 
-        els.resetBtn.addEventListener('click', function () {
-            filters = { text: '', status: '', pattern: '' };
+        els.finalToggle.addEventListener('change', function () { filters.finalOnly = els.finalToggle.checked; render(); });
+
+        function setBrokeWith(id) {
+            filters.brokeWith = id;
+            highlightedMember = id;
+            els.repSelect.value = id;
+            render();
+        }
+
+        els.summaryGrid.addEventListener('click', function (e) {
+            var btn = e.target.closest('button[data-broke]');
+            if (!btn) return;
+            var id = btn.getAttribute('data-broke');
+            setBrokeWith(filters.brokeWith === id ? '' : id);
+        });
+        els.resultCount.addEventListener('click', function (e) {
+            if (e.target.id === 'clear-broke') setBrokeWith('');
+        });
+
+        function resetControls() {
+            filters = emptyFilters();
             highlightedMember = '';
             els.searchInput.value = '';
             els.statusSelect.value = '';
             els.patternSelect.value = '';
             els.repSelect.value = '';
+            els.finalToggle.checked = false;
             sortKey = 'date'; sortDir = 'desc';
             updateSortHeaders();
-            render();
-        });
+        }
 
-        var DATA_URL = 'https://raw.githubusercontent.com/githamm/congressional-vote-tracker/main/all_votes.csv';
-        // var DATA_URL = 'all_votes.csv'; // use this instead if serving index.html from the same repo/host as the CSV
+        els.resetBtn.addEventListener('click', function () { resetControls(); render(); });
+
+        els.congressSelect.addEventListener('change', function () {
+            var c = els.congressSelect.value;
+            try {
+                var url = new URL(location.href);
+                url.searchParams.set('congress', c);
+                history.replaceState(null, '', url);
+            } catch (e) { /* URL update is a convenience only */ }
+            loadCongress(c);
+        });
 
         function showError(message) {
             els.statusMsg.textContent = message;
@@ -794,21 +1032,67 @@
             els.statusMsg.removeAttribute('hidden');
         }
 
-        fetch(DATA_URL)
+        function ordinal(n) { return n + ordinalSuffix(parseInt(n, 10)); }
+
+        function populateCongressSelect(selected) {
+            var keys = Object.keys(CONFIG.congresses).filter(function (k) {
+                return CONFIG.congresses[k].members && CONFIG.congresses[k].members.length;
+            }).sort(function (a, b) { return b - a; });
+            els.congressSelect.innerHTML = keys.map(function (k) {
+                var years = CONFIG.congresses[k].years || [];
+                var span = years.length ? ' (' + years[0] + (years[1] ? '–' + String(years[1]).slice(2) : '') + ')' : '';
+                return '<option value="' + k + '"' + (k === selected ? ' selected' : '') + '>' + ordinal(k) + ' Congress' + span + '</option>';
+            }).join('');
+            els.congressSelect.hidden = keys.length < 2;  // nothing to choose yet
+        }
+
+        function loadCongress(congress) {
+            var url = dataUrl(congress);
+            setMembers(CONFIG.congresses[congress].members);
+            resetControls();
+            buildListHead();
+            ALL_ROWS = [];
+            els.listBody.innerHTML = '';
+            els.cardScroll.innerHTML = '';
+            els.resultCount.textContent = '';
+            els.statusMsg.classList.remove('error');
+            els.statusMsg.textContent = 'Loading vote data…';
+            els.statusMsg.removeAttribute('hidden');
+
+            return fetch(url)
+                .then(function (res) {
+                    if (!res.ok) throw new Error('Could not load vote data (HTTP ' + res.status + ')');
+                    return res.text();
+                })
+                .then(function (text) {
+                    var parsed = Papa.parse(text, { header: true, skipEmptyLines: true, dynamicTyping: true });
+                    if (!parsed.data || !parsed.data.length) throw new Error('the file loaded but contained no rows.');
+                    ALL_ROWS = parsed.data.map(prepareRow);
+                    populateSelectOptions();
+                    els.statusMsg.setAttribute('hidden', '');
+                    render();
+                })
+                .catch(function (err) {
+                    showError('Couldn’t load vote data: ' + err.message + '. Check that ' + url + ' is reachable.');
+                });
+        }
+
+        fetch(CONFIG_URL)
             .then(function (res) {
-                if (!res.ok) throw new Error('Could not load vote data (HTTP ' + res.status + ')');
-                return res.text();
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                return res.json();
             })
-            .then(function (text) {
-                var parsed = Papa.parse(text, { header: true, skipEmptyLines: true, dynamicTyping: true });
-                if (!parsed.data || !parsed.data.length) throw new Error('all_votes.csv loaded but contained no rows.');
-                ALL_ROWS = parsed.data.map(prepareRow);
-                populateSelectOptions();
-                els.statusMsg.setAttribute('hidden', '');
-                render();
+            .then(function (config) {
+                CONFIG = config;
+                var requested = null;
+                try { requested = new URL(location.href).searchParams.get('congress'); } catch (e) {}
+                var congress = (requested && config.congresses[requested] &&
+                                config.congresses[requested].members.length) ? requested : String(config.current);
+                populateCongressSelect(congress);
+                return loadCongress(congress);
             })
             .catch(function (err) {
-                showError('Couldn’t load vote data: ' + err.message + '. Check that ' + DATA_URL + ' is reachable.');
+                showError('Couldn’t load the member list (' + err.message + '). Check that ' + CONFIG_URL + ' is reachable.');
             });
 
     })();
