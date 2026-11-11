@@ -7,368 +7,812 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colorado Congressional Vote Tracker | The Denver Post</title>
     <link rel="icon" href="https://www.denverpost.com/wp-content/uploads/2016/05/cropped-DP_bug_denverpost.jpg?w=32" sizes="32x32" />
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://extras.denverpost.com/foundation/js/vendor/modernizr.js"></script>
-   <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/plug-ins/2.2.2/dataRender/ellipsis.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.min.js"></script>
+    <script src="https://extras.denverpost.com/embed-height.js"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
-
-        html body {
-            font-family: 'Roboto', sans-serif;
+        :root {
+            --paper: #F7F5F1;
+            --paper-raised: #FFFFFF;
+            --ink: #1C1B1A;
+            --ink-soft: #5A564D;
+            --rule: #DDD8CC;
+            --rule-strong: #C7C1B2;
+            --dp-red: #990012;
+            --dp-red-ink: #7A000F;
+            --dem-blue: #2E5C99;
+            --gop-rust: #B5482B;
+            --aye-green: #1B7A5B;
+            --nay-orange: #C1571A;
+            --nv-gray: #A9A49B;
+            --highlight-bg: #FFF4D6;
+            --focus-ring: #1E63C9;
+            --radius: 6px;
+            --font-display: 'Newsreader', Georgia, serif;
+            --font-ui: 'IBM Plex Sans', -apple-system, Segoe UI, sans-serif;
+            --font-mono: 'Roboto Mono', 'SFMono-Regular', Consolas, monospace;
         }
 
-        #filters {
-            font-size: .85rem;
+        * { box-sizing: border-box; }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font-family: var(--font-ui);
         }
 
-        button.yadcf-filter-reset-button {
-            color: red;
-            margin-left: 10px;
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 22px 18px 36px;
         }
 
-        select {
-            margin-top: 7px;
-            margin-bottom: 0;
-            font-size: .95rem;
+        a { color: var(--dp-red); }
+        a:hover { color: var(--dp-red-ink); }
+
+        :focus-visible {
+            outline: 3px solid var(--focus-ring);
+            outline-offset: 2px;
+            border-radius: 2px;
         }
 
-        .yadcf-filter-range {
-            height: 2.9em;
-            border: 1px solid silver;
+        @media (prefers-reduced-motion: reduce) {
+            * { transition-duration: 0.001ms !important; animation-duration: 0.001ms !important; }
         }
 
-        .filter-text {
-            font-weight: bold;
-            margin-top: .5em;
-            margin-bottom: .5em;
+        .header {
+            font-family: 'Libre Franklin', var(--font-ui);
+            padding-bottom: 14px;
+            margin-bottom: 16px;
+            border-bottom: 3px solid var(--ink);
         }
 
-
-        button.yadcf-filter-reset-button {
-            color: #990012;
-            font-weight: normal;
+        .header-eyebrow {
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--dp-red);
+            margin-bottom: 6px;
         }
 
-        #votes-table {
-            font-size: .9em;
+        .header-title {
+            font-size: clamp(1.35rem, 6vw, 1.7rem);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            line-height: 1.15;
+            color: var(--ink);
+            margin: 0 0 10px;
         }
 
-        td {
-            padding: 6px !important;
+        .header-byline {
+            font-size: 0.72rem;
+            color: var(--ink-soft);
+        }
+        .header-byline a { color: inherit; text-decoration: underline; text-decoration-color: var(--rule-strong); }
+        .header-byline a:hover { color: var(--dp-red); }
+        .header-byline-credit::before { content: '\2022'; margin: 0 6px; }
+
+        .dek { font-family: var(--font-ui); font-size: 0.92rem; line-height: 1.5; color: var(--ink-soft); margin: 12px 0 0; }
+        .dek a { color: var(--dem-blue); }
+
+        /* ---------------- Legend ---------------- */
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 18px;
+            align-items: center;
+            margin: 16px 0;
+            padding: 10px 14px;
+            background: var(--paper-raised);
+            border: 1px solid var(--rule);
+            border-radius: var(--radius);
+            font-size: 0.8rem;
+        }
+        .legend-item { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+
+        /* ---------------- Controls ---------------- */
+        .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+
+        .controls input[type="search"], .controls select {
+            font-family: var(--font-ui);
+            font-size: 0.84rem;
+            padding: 7px 10px;
+            border: 1px solid var(--rule-strong);
+            border-radius: var(--radius);
+            background: var(--paper-raised);
+            color: var(--ink);
+        }
+        .controls input[type="search"] { flex: 1 1 180px; min-width: 140px; }
+        .controls select { flex: 0 1 auto; max-width: 100%; }
+
+        .controls button#reset-filters {
+            font-family: var(--font-ui);
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 7px 12px;
+            border: 1px solid var(--dp-red);
+            color: var(--dp-red);
+            background: transparent;
+            border-radius: var(--radius);
+            cursor: pointer;
+        }
+        .controls button#reset-filters:hover { background: var(--dp-red); color: #fff; }
+
+        .result-count { font-family: var(--font-mono); font-size: 0.75rem; color: var(--ink-soft); margin: 4px 0 10px; }
+
+        /* ---------------- Status badges ---------------- */
+        .badge {
+            display: inline-block;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 999px;
+            white-space: nowrap;
+            vertical-align: bottom;
+        }
+        .badge.passed { background: #E4F3EC; color: var(--aye-green); }
+        .badge.failed { background: #FBEAE0; color: var(--nay-orange); }
+        .badge.other  { background: #EDEBE5; color: var(--ink-soft); }
+
+        /* Vote badges: shape + color + symbol are all distinct, not color alone. */
+        .vote-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            font-size: 0.66rem;
+            font-weight: 700;
+            color: #fff;
+            flex-shrink: 0;
+        }
+        .vote-badge.aye { background: var(--aye-green); border-radius: 50%; }
+        .vote-badge.nay { background: var(--nay-orange); border-radius: 5px; }
+        .vote-badge.nv  { background: transparent; border: 1.5px solid var(--nv-gray); border-radius: 50%; }
+        .vote-badge.present {
+            background: #6E6552;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            font-size: 0.58rem;
+        }
+        .vote-badge.unknown {
+            background: #5B6B7A;
+            border-radius: 4px;
+            font-size: 0.56rem;
+            letter-spacing: -0.02em;
+            width: 22px;
         }
 
-        select,
-        button {
-            font-family: 'Roboto', sans-serif;
+        .grid-view { display: none; }
+        .card-view { display: block; }
+
+        @media (min-width: 700px) {
+            .grid-view { display: block; }
+            .card-view { display: none; }
         }
 
-        select {
-            width: 250px;
+        .list-scroll {
+            max-height: 1000px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            border: 1px solid var(--rule);
+            border-radius: var(--radius);
+            background: var(--paper-raised);
         }
 
-        .page-title {
-            font-family: 'Roboto', sans-serif;
-            margin-bottom: -10px;
-            line-height: 1.2;
+        .list-head, .vote-row {
+            display: grid;
+            grid-template-columns: 1fr 64px 88px repeat(8, 30px);
+            gap: 2px;
         }
 
-        .chatter {
-            font-family: 'Roboto', sans-serif;
-            margin-bottom: 20px;
-
+        .list-head {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            background: #EFEBE1;
+            border-bottom: 2px solid var(--rule-strong);
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            color: var(--ink-soft);
         }
 
-        .source {
-            font-size: .9em;
+       .list-head > * {
+            display: flex;
+            align-items: flex-end;
+            min-width: 0;
+        }
+        .vote-row > * {
+            display: flex;
+            align-items: center;
+            min-width: 0;
+        }
+
+        .list-head button.sortable {
+            all: unset;
+            box-sizing: border-box;
+            display: flex;
+            align-items: flex-end;
+            cursor: pointer;
+            font: inherit;
+            color: inherit;
+            text-transform: inherit;
+            letter-spacing: inherit;
+            padding: 8px 6px;
+            width: 100%;
+        }
+        .list-head button.sortable:hover { color: var(--ink); }
+        .list-head .arrow { display: inline-block; width: 0.8em; opacity: 0.45; margin-left: 2px; }
+        .list-head [aria-sort="ascending"] .arrow::after { content: '\2191'; opacity: 1; }
+        .list-head [aria-sort="descending"] .arrow::after { content: '\2193'; opacity: 1; }
+        .list-head [aria-sort="none"] .arrow::after { content: '\2195'; }
+
+        .member-head-cell {
+            justify-content: center;
+            align-items: flex-end;
+            padding: 10px 0 8px;
+            min-height: 160px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: none;
+            letter-spacing: normal;
+        }
+        .member-head-cell .vname {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            white-space: nowrap;
+        }
+        .member-head-cell.dem { color: var(--dem-blue); }
+        .member-head-cell.rep { color: var(--gop-rust); }
+
+        .vote-row { border-bottom: 1px solid var(--rule); font-size: 0.82rem; }
+        .vote-row:last-child { border-bottom: none; }
+        .vote-row:hover > * { background: #F1EEE6; }
+
+        .vote-row .title-cell { padding: 9px 8px 9px 10px; line-height: 1.28; }
+        .vote-row .title-cell a { color: var(--ink); text-decoration: none; }
+        .vote-row .title-cell a:hover { color: var(--dp-red); text-decoration: underline; }
+
+        .bill-number { font-family: var(--font-mono); font-size: 0.68rem; color: var(--ink-soft); display: block; }
+
+        .vote-row .date-cell { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-soft); padding: 9px 6px; }
+        .vote-row .status-cell { padding: 9px 6px; }
+        .vote-row .member-cell { justify-content: center; padding: 9px 0; }
+
+        /* full-column highlight: header cell + every row's cell for that member */
+        .member-head-cell.highlighted,
+        .vote-row .member-cell.highlighted {
+            background: var(--highlight-bg);
+        }
+
+        .card-scroll {
+            max-height: 1000px;
+            overflow-y: auto;
+            border: 1px solid var(--rule);
+            border-radius: var(--radius);
+            background: var(--paper);
+            padding: 10px;
+        }
+
+        .vote-stage {
+            display: block;
+            font-size: 0.68rem;
             font-style: italic;
-            color: #646464;
-            margin: 5px 0 0 0;
+            color: var(--ink-soft);
+            margin: 1px 0 2px;
         }
 
-        .dataTables_info {
-            margin-bottom: 15px;
+        .vote-card {
+            background: var(--paper-raised);
+            border: 1px solid var(--rule);
+            border-radius: var(--radius);
+            padding: 12px 14px;
+            margin-bottom: 10px;
         }
+        .vote-card:last-child { margin-bottom: 0; }
 
-        #votes-table_filter {
-            margin-bottom: 30px;
-        }
+        .card-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 6px; }
+        .card-head time { font-family: var(--font-mono); font-size: 0.74rem; color: var(--ink-soft); }
 
-        table.dataTable thead th {
-            padding: 5px 5px;
-            text-align: left;
-            font-size: .9em;
-            background: #ebebeb;
-        }
+        .card-title { font-family: var(--font-display); font-weight: 600; font-size: 1rem; line-height: 1.3; margin: 0 0 10px; }
+        .card-title a { color: var(--ink); text-decoration: none; }
+        .card-title a:hover { color: var(--dp-red); text-decoration: underline; }
+        .card-title .bill-number { display: inline; margin-right: 6px; }
 
-        .passed {
-            color: #1b9e77;
-            font-weight: bold;
-            font-size: .95em;
-        }
-
-        .failed {
-            color: #d95f02;
-            font-weight: bold;
-            font-size: .95em;
-        }
-
-        .other {
-            color: #000;
-            font-weight: bold;
-            font-size: .95em;
-        }
-
-        .aye {
-            display: inline-block;
-            height: 20px;
-            width: 20px;
-            background: #1b9e77;
-            border-radius: 50%;
-            text-align: center;
-            color: #fff;
-            line-height: 21px;
-            font-size: .8em;
-        }
-
-        .nay {
-            display: inline-block;
-            height: 20px;
-            width: 20px;
-            background: #d95f02;
-            border-radius: 50%;
-            text-align: center;
-            color: #fff;
-            line-height: 20px;
-            font-size: .8em;
-        }
-
-        .not-voting {
-            color: lightgray;
-        }
-
-        #democrat {
-            text-align: center;
+        .card-members { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+        .card-party-group h4 {
+            font-size: 0.66rem;
             text-transform: uppercase;
-            border-bottom: 4px solid #75aed1;
-            color: #75aed1;
-            font-weight: bold;
-            letter-spacing: 1px;
-            background: #ebebeb;
-            padding-top: 7px;
+            letter-spacing: 0.05em;
+            margin: 0 0 6px;
+            font-family: var(--font-ui);
         }
-        #republican {
+        .card-party-group.dem h4 { color: var(--dem-blue); }
+        .card-party-group.rep h4 { color: var(--gop-rust); }
+
+        .card-member-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 6px;
+            border-radius: 4px;
+            margin-bottom: 2px;
+        }
+        .card-member-row.highlighted { background: var(--highlight-bg); }
+        .card-member-row .member-name { font-size: 0.84rem; }
+
+        /* ---------------- Status / source line ---------------- */
+        #status-msg {
+            font-family: var(--font-ui);
+            font-size: 0.88rem;
+            color: var(--ink-soft);
+            padding: 26px 0;
             text-align: center;
-            text-transform: uppercase;
-            border-bottom: 4px solid #f56c42;
-            color: #f56c42;
-            font-weight: bold;
-            letter-spacing: 1px;
-            background: #ebebeb;
-            padding-top: 7px;
         }
+        #status-msg.error { color: var(--nay-orange); font-weight: 600; }
+        #status-msg[hidden] { display: none; }
+
     </style>
 </head>
 
 <body>
-    <h2 class="page-title">Colorado congressional vote tracker</h2>
-    <p class="chatter">Curious about how your U.S. congressional representative is voting, and what they're voting on? The colored circles indicate if a representative voted <span style="color:#1b9e77;font-weight:bold">yes</span> or <span style="color:#d95f02;font-weight:bold">no</span> on a resolution (NV stands for "not voting"). If a bill is listed more than once, the earlier votes are often <a href="https://www.congress.gov/help/learn-about-the-legislative-process/how-our-laws-are-made" target="_blank">motions</a>, such as a motion to table &mdash; the most recent result is the final vote. Click the date for more information on a bill. Some bill titles are really long &mdash; click the "+" button to see the full title (or hover over the title). Click column headers to sort. Scroll right on mobile to see full table. The tracker will be updated daily.</p>
-    <div id="filters">
-        <p id="filter-1"></p>
-        <p id="filter-2"></p>
-    </div>
-    <table id="votes-table" class="display" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th colspan="4" id="democrat">Democrats</th>
-                <th colspan="4" id="republican">Republicans</th>
-            </tr>
-            <tr>
-                <th></th>
-                <th>Date</th>
-                <th>Bill title</th>
-                <th>Status</th>
-                <th>Crow</th>
-                <th>DeGette</th>
-                <th>Neguse</th>
-                <th>Pettersen</th>
-                <th>Boebert</th>
-                <th>Crank</th>
-                <th>Evans</th>
-                <th>Hurd</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
-    <p class="source">Source: <a href="https://clerk.house.gov/" target="_blank">Clerk of the U.S. House of Representatives</a> / By Kevin Hamm, The Denver Post</p>
+
+    <header class="header">
+        <div class="header-eyebrow">The Denver Post</div>
+        <h1 class="header-title">Colorado Congressional Vote Tracker</h1>
+        <div class="header-byline">
+            <span class="header-byline-source">Source: <a href="https://clerk.house.gov/" target="_blank" rel="noopener">Clerk of the U.S. House of Representatives</a></span>
+            <span class="header-byline-credit">Kevin Hamm / The Denver Post</span>
+        </div>
+    </header>
+    <p class="dek">
+        Every recorded roll-call vote cast by Colorado's U.S. House members this session, updated daily.
+        Click a title to read the bill on <a href="https://www.congress.gov/" target="_blank" rel="noopener">congress.gov</a>.
+    </p>
+
+    <section class="legend" aria-label="How to read this table">
+        <span class="legend-item"><span class="vote-badge aye">&#10003;</span> Voted yes</span>
+        <span class="legend-item"><span class="vote-badge nay">&#10007;</span> Voted no</span>
+        <span class="legend-item"><span class="vote-badge nv"></span> Not voting</span>
+        <span class="legend-item"><span class="vote-badge present">P</span> Present (no vote)</span>
+    </section>
+
+    <section class="controls" aria-label="Filter votes">
+        <input type="search" id="search-input" placeholder="Search bill titles or numbers&hellip;" aria-label="Search bill titles or numbers">
+        <select id="status-select" aria-label="Filter by outcome">
+            <option value="">All outcomes</option>
+        </select>
+        <select id="pattern-select" aria-label="Filter by vote pattern">
+            <option value="">All votes</option>
+            <option value="party-line">Party-line votes</option>
+            <option value="bipartisan">Bipartisan agreement</option>
+            <option value="mixed">Crossover / mixed votes</option>
+        </select>
+        <select id="rep-select" aria-label="Highlight a representative">
+            <option value="">Highlight a rep&hellip;</option>
+        </select>
+        <button type="button" id="reset-filters">Reset</button>
+    </section>
+
+    <p class="result-count" id="result-count"></p>
+
+    <p id="status-msg" role="status">Loading vote data&hellip;</p>
+
+    <section class="grid-view" aria-label="Votes (table view)">
+        <div class="list-scroll">
+            <div class="list-head" id="list-head"></div>
+            <div id="list-body"></div>
+        </div>
+    </section>
+
+    <section class="card-view" aria-label="Votes (card view)">
+        <div class="card-scroll" id="card-scroll"></div>
+    </section>
+
+
     <script>
+    (function () {
+        'use strict';
 
-        $(document).ready(function() {
-            //Papa.parse('./all_votes.csv', {
-            Papa.parse('https://raw.githubusercontent.com/githamm/congressional-vote-tracker/refs/heads/main/all_votes.csv', {
-                download: true,
-                header: true,
-                skipEmptyLines: true,
-                dynamicTyping: true,
-                complete: function(results) {
-                    var data = results.data;
+        // ============================================================
+        // DATA MODEL
+        // Matches new_vote_scraper.py's columns: Year, Congress, Session,
+        // Roll Call Number, Date, Time, Bill Number, Vote Question, Vote
+        // Type, Result, Description, plus one column per member named
+        // "Name (ID)" -- e.g. "Evans (CO) (E000300)". `name` below must
+        // stay "(CO)" to match that CSV header; `displayName` is the full
+        // name shown in the UI -- names are never abbreviated.
+        // ============================================================
+        var MEMBERS = [
+            { id: 'C001121', name: 'Crow', displayName: 'Crow', party: 'D' },
+            { id: 'D000197', name: 'DeGette', displayName: 'DeGette', party: 'D' },
+            { id: 'N000191', name: 'Neguse', displayName: 'Neguse', party: 'D' },
+            { id: 'P000620', name: 'Pettersen', displayName: 'Pettersen', party: 'D' },
+            { id: 'B000825', name: 'Boebert', displayName: 'Boebert', party: 'R' },
+            { id: 'C001137', name: 'Crank', displayName: 'Crank', party: 'R' },
+            { id: 'E000300', name: 'Evans (CO)', displayName: 'Evans', party: 'R' },
+            { id: 'H001100', name: 'Hurd (CO)', displayName: 'Hurd', party: 'R' }
+        ];
+        MEMBERS.forEach(function (m) { m.csvKey = m.name + ' (' + m.id + ')'; });
+        var DEM = MEMBERS.filter(function (m) { return m.party === 'D'; });
+        var REP = MEMBERS.filter(function (m) { return m.party === 'R'; });
 
-                // Formatting function for row details
-                function format(d) {
-                    // `d` is the original data object for the row
-                    return (
-                        d['Bill Title']
-                        );
+        var MONTHS = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
+
+        function parseClerkDate(str) {
+            if (!str) return null;
+            var m = String(str).trim().match(/^(\d{1,2})-([A-Za-z]{3})-(\d{4})$/);
+            if (!m) return null;
+            var month = MONTHS[m[2]];
+            if (month === undefined) return null;
+            return new Date(parseInt(m[3], 10), month, parseInt(m[1], 10));
+        }
+
+        function formatDateDisplay(d) {
+            if (!d) return '—';
+            return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+
+        function voteClass(v) {
+            if (v === 'Aye' || v === 'Yea') return 'aye';
+            if (v === 'Nay' || v === 'No') return 'nay';
+            if (v === 'Not Voting') return 'nv';
+            if (v === 'Present') return 'present';
+            return 'unknown';
+        }
+
+        function voteLabel(v) {
+            if (v === 'Aye' || v === 'Yea') return '✓';
+            if (v === 'Nay' || v === 'No') return '✕';
+            if (v === 'Not Voting') return '';
+            if (v === 'Present') return 'P';
+            return v ? v.slice(0, 2).toUpperCase() : '';
+        }
+
+        function tally(row) {
+            var t = { D: { Aye: 0, Nay: 0, NV: 0 }, R: { Aye: 0, Nay: 0, NV: 0 } };
+            MEMBERS.forEach(function (m) {
+                var cls = voteClass(row[m.csvKey]);
+                var bucket = t[m.party];
+                if (cls === 'aye') bucket.Aye += 1;
+                else if (cls === 'nay') bucket.Nay += 1;
+                else bucket.NV += 1;
+            });
+            return t;
+        }
+
+        function classifyPattern(t) {
+            var demSplit = t.D.Aye > 0 && t.D.Nay > 0;
+            var repSplit = t.R.Aye > 0 && t.R.Nay > 0;
+            var demPos = t.D.Aye > 0 ? 'Aye' : (t.D.Nay > 0 ? 'Nay' : null);
+            var repPos = t.R.Aye > 0 ? 'Aye' : (t.R.Nay > 0 ? 'Nay' : null);
+            if (demSplit || repSplit) return 'mixed';
+            if (demPos && repPos && demPos !== repPos) return 'party-line';
+            if (demPos && repPos && demPos === repPos) return 'bipartisan';
+            return 'mixed';
+        }
+
+        function clerkLink(row) {
+            var rc = row['Roll Call Number'];
+            if (!row['Year'] || rc === undefined || rc === null || rc === '') return null;
+            return 'https://clerk.house.gov/cgi-bin/vote.asp?year=' + row['Year'] + '&rollnumber=' + rc;
+        }
+
+        function ordinalSuffix(n) {
+            var j = n % 10, k = n % 100;
+            if (j === 1 && k !== 11) return 'st';
+            if (j === 2 && k !== 12) return 'nd';
+            if (j === 3 && k !== 13) return 'rd';
+            return 'th';
+        }
+
+        // Confirmed against congress.gov/help/legislation and a live
+        // roll-call lookup (H.Res.1423 -> .../house-resolution/1423).
+        var BILL_TYPE_SLUGS = {
+            H: { R: 'house-bill', RES: 'house-resolution', 'CON RES': 'house-concurrent-resolution', 'J RES': 'house-joint-resolution' },
+            S: { '': 'senate-bill', RES: 'senate-resolution', 'CON RES': 'senate-concurrent-resolution', 'J RES': 'senate-joint-resolution' }
+        };
+
+        function congressLink(row) {
+            var raw = row['Bill Number'];
+            var congress = row['Congress'];
+            if (!raw || !congress) return clerkLink(row);
+            var normalized = String(raw).replace(/\./g, '').replace(/\s+/g, ' ').trim().toUpperCase();
+            var m = normalized.match(/^(H|S)\s*(J RES|CON RES|RES|R)?\s*(\d+)$/);
+            if (!m) return clerkLink(row);
+            var chamber = m[1];
+            var type = m[2] || '';
+            var number = m[3];
+            var slug = BILL_TYPE_SLUGS[chamber] && BILL_TYPE_SLUGS[chamber][type];
+            if (!slug) return clerkLink(row);
+            var congressNum = parseInt(congress, 10);
+            if (!congressNum) return clerkLink(row);
+            var congressSlug = congressNum + ordinalSuffix(congressNum) + '-congress';
+            return 'https://www.congress.gov/bill/' + congressSlug + '/' + slug + '/' + number;
+        }
+
+        function rowTitle(row) {
+            if (row['Description']) return row['Description'];
+            if (row['Bill Number']) return row['Bill Number'];
+            if (row['Vote Question']) return row['Vote Question'];
+            return 'Roll call ' + (row['Roll Call Number'] || '?');
+        }
+
+        function prepareRow(row) {
+            row.__date = parseClerkDate(row['Date']);
+            row.__pattern = classifyPattern(tally(row));
+            return row;
+        }
+
+        function filterRows(rows, filters) {
+            return rows.filter(function (r) {
+                if (filters.text) {
+                    var hay = ((r['Description'] || '') + ' ' + (r['Bill Number'] || '')).toLowerCase();
+                    if (hay.indexOf(filters.text.toLowerCase()) === -1) return false;
                 }
+                if (filters.status && r['Result'] !== filters.status) return false;
+                if (filters.pattern && r.__pattern !== filters.pattern) return false;
+                return true;
+            });
+        }
 
-                function parseDateToNumber(dateStr) {
-                    if (!dateStr) return 0;
-                    var parts = String(dateStr).split('/');
-                    if (parts.length !== 3) return 0;
-                    var m = parseInt(parts[0], 10);
-                    var d = parseInt(parts[1], 10);
-                    var y = parseInt(parts[2], 10);
-                    return y * 10000 + m * 100 + d;
+        function sortRows(rows, sortKey, sortDir) {
+            var dir = sortDir === 'asc' ? 1 : -1;
+            var out = rows.slice();
+            out.sort(function (a, b) {
+                var av, bv;
+                if (sortKey === 'date') {
+                    av = a.__date ? a.__date.getTime() : 0;
+                    bv = b.__date ? b.__date.getTime() : 0;
+                } else if (sortKey === 'title') {
+                    av = rowTitle(a).toLowerCase();
+                    bv = rowTitle(b).toLowerCase();
+                } else if (sortKey === 'status') {
+                    av = a['Result'] || '';
+                    bv = b['Result'] || '';
+                } else {
+                    av = a[sortKey]; bv = b[sortKey];
                 }
+                if (av < bv) return -1 * dir;
+                if (av > bv) return 1 * dir;
+                return 0;
+            });
+            return out;
+        }
 
-                var table = $('#votes-table').DataTable({
-                    scrollY: '500px',
-                    //scrollCollapse: true,
-                    data: data,
-                    scrollX: true,
-                    paging: false,
-                    pageLength: 25,
-                    fixedHeader: true,
-                    responsive: false,
-                    dom: '<iftp>',
-                    order: [
-                        [1, 'desc']
-                    ],
-                    columnDefs: [ 
-                        {
-                          targets: 2,
-                          render: DataTable.render.ellipsis( 45, true )
-                      },
-                      {
-                        targets: [3],
-                        render: function ( data, type, row, meta ) {
-                            if (data == 'Passed') {
-                                return '<span class="passed">' + data + '</span>'
-                            } else if (data == 'Failed') {
-                                return '<span class="failed">' + data + '</span>'
-                            } else return '<span class="other">' + data + '</span>'
-                        }
-                    },
-                    {
-                        targets: [4, 5, 6, 7, 8, 9, 10, 11],
-                        render: function ( data, type, row, meta ) {
-                            if (data == 'Aye' || data == 'Yea') {
-                                return '<span class="aye">Y</span>'
-                            } else if (data == 'Nay' || data == 'No') {
-                                return '<span class="nay">N</span>'
-                            } else if (data == 'Not Voting') {
-                                return '<span class="not-voting">NV</span>'
-                            } else return data
-                        }
-                    },
-                    {targets: [4, 5, 6, 7, 8, 9, 10, 11],
-                        render: function ( data, type, row, meta ) {
-                            if (data == 'Not Voting') {
-                                return 'NV'
-                            } else return data
-                        }
-                    }],
-                    columns: [
-                        {
-                            className: 'dt-control',
-                            orderable: false,
-                            data: null,
-                            defaultContent: ''
-                        },
-                        { 
-                            data: 'Date',
-                            type: 'num',
-                            render: {
-                                sort: function(data, type, row) {
-                                    return parseDateToNumber(data);
-                                },
-                                display: function(data, type, row) {
-                                    return '<a href="https://clerk.house.gov/Votes/' + row['Roll Call Number'] + '" target="_blank">' + data + '</a>';
-                                }
-                            }
-                        },
-                        { data: 'Bill Title' },
-                        { data: 'Status' },
-                        { data: 'C001121' },
-                        { data: 'D000197' },
-                        { data: 'N000191' },
-                        { data: 'P000620' },
-                        { data: 'B000825' },
-                        { data: 'C001137' },
-                        { data: 'E000300' },
-                        { data: 'H001100' }
-                    ],
-                });
+        function escapeHTML(str) {
+            return String(str === null || str === undefined ? '' : str)
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
 
-                // Add event listener for opening and closing details
-                table.on('click', 'td.dt-control', function (e) {
-                    let tr = e.target.closest('tr');
-                    let row = table.row(tr);
+        function voteBadgeHTML(v) {
+            var cls = voteClass(v);
+            var label = voteLabel(v);
+            var full = v || 'No data';
+            return '<span class="vote-badge ' + cls + '" title="' + escapeHTML(full) + '" aria-label="' + escapeHTML(full) + '">' + escapeHTML(label) + '</span>';
+        }
 
-                    if (row.child.isShown()) {
-                        // This row is already open - close it
-                        row.child.hide();
+        function statusBadgeClass(result) {
+            if (result === 'Passed') return 'passed';
+            if (result === 'Failed') return 'failed';
+            return 'other';
+        }
+
+        // ============================================================
+        // APP STATE
+        // ============================================================
+        var ALL_ROWS = [];
+        var filters = { text: '', status: '', pattern: '' };
+        var sortKey = 'date';
+        var sortDir = 'desc';
+        var highlightedMember = '';
+
+        var els = {
+            statusMsg: document.getElementById('status-msg'),
+            resultCount: document.getElementById('result-count'),
+            listBody: document.getElementById('list-body'),
+            listHead: document.getElementById('list-head'),
+            cardScroll: document.getElementById('card-scroll'),
+            searchInput: document.getElementById('search-input'),
+            statusSelect: document.getElementById('status-select'),
+            patternSelect: document.getElementById('pattern-select'),
+            repSelect: document.getElementById('rep-select'),
+            resetBtn: document.getElementById('reset-filters'),
+            sortableButtons: null
+        };
+
+        function buildListHead() {
+            var demCells = DEM.map(function (m) {
+                return '<span class="member-head-cell dem" data-member="' + m.id + '"><span class="vname">' + escapeHTML(m.displayName) + ' (' + m.party + ')</span></span>';
+            }).join('');
+            var repCells = REP.map(function (m) {
+                return '<span class="member-head-cell rep" data-member="' + m.id + '"><span class="vname">' + escapeHTML(m.displayName) + ' (' + m.party + ')</span></span>';
+            }).join('');
+            els.listHead.innerHTML =
+                '<button class="sortable" data-sort="title" aria-sort="none">Bill <span class="arrow"></span></button>' +
+                '<button class="sortable" data-sort="date" aria-sort="descending">Date <span class="arrow"></span></button>' +
+                '<button class="sortable" data-sort="status" aria-sort="none">Outcome <span class="arrow"></span></button>' +
+                demCells + repCells;
+
+            els.sortableButtons = els.listHead.querySelectorAll('button.sortable');
+            els.sortableButtons.forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var key = btn.getAttribute('data-sort');
+                    if (sortKey === key) {
+                        sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        sortKey = key;
+                        sortDir = key === 'date' ? 'desc' : 'asc';
                     }
-                    else {
-                        // Open this row
-                        row.child(format(row.data())).show();
-                    }
+                    updateSortHeaders();
+                    render();
                 });
+            });
+            updateSortHeaders();
+        }
 
-                $('#reset-button').on('click', function(e) {
-                // e.preventDefault();
-                    $.fn.dataTableExt.afnFiltering.length = 0;
-                    table.draw();
-                });
-                yadcf.init(table, [{
-                    column_number: 2,
-                    filter_container_id: 'filter-1',
-                    filter_default_label: 'Filter by bill title'
-                },
-                {
+        function updateSortHeaders() {
+            if (!els.sortableButtons) return;
+            els.sortableButtons.forEach(function (btn) {
+                var key = btn.getAttribute('data-sort');
+                btn.setAttribute('aria-sort', key === sortKey ? (sortDir === 'asc' ? 'ascending' : 'descending') : 'none');
+            });
+        }
 
-                    column_number: 3,
-                    filter_container_id: 'filter-2',
-                    filter_default_label: 'Filter by status',
-                    //data: [{ value: 'Passed', label: 'Passed' }, { value: 'Failed', label: 'Failed'}] 
-                },
-            ], {
-                cumulative_filtering: false,
-                filter_reset_button_text: 'Reset'
+        function populateSelectOptions() {
+            var statuses = Array.from(new Set(ALL_ROWS.map(function (r) { return r['Result']; }).filter(Boolean))).sort();
+            statuses.forEach(function (s) {
+                var opt = document.createElement('option');
+                opt.value = s; opt.textContent = s;
+                els.statusSelect.appendChild(opt);
+            });
+            MEMBERS.forEach(function (m) {
+                var opt = document.createElement('option');
+                opt.value = m.id;
+                opt.textContent = m.displayName + ' (' + m.party + ')';
+                els.repSelect.appendChild(opt);
+            });
+        }
+
+        function titleCellHTML(row) {
+            var link = congressLink(row);
+            var hasDescription = !!row['Description'];
+            // If Description is missing, rowTitle() already falls back to
+            // showing the Bill Number as the main text -- don't repeat it.
+            var billNumHTML = (hasDescription && row['Bill Number'])
+                ? '<span class="bill-number">' + escapeHTML(row['Bill Number']) + '</span>'
+                : '';
+            var stageHTML = row['Vote Question']
+                ? '<span class="vote-stage">' + escapeHTML(row['Vote Question']) + '</span>'
+                : '';
+            var inner = billNumHTML + stageHTML + escapeHTML(rowTitle(row));
+            return link
+                ? '<a href="' + link + '" target="_blank" rel="noopener" title="View bill on congress.gov">' + inner + '</a>'
+                : inner;
+        }
+
+        function renderGrid(rows) {
+            var html = rows.map(function (row) {
+                var badgeCls = statusBadgeClass(row['Result']);
+                var memberCells = DEM.concat(REP).map(function (m) {
+                    return '<span class="member-cell" data-member="' + m.id + '">' + voteBadgeHTML(row[m.csvKey]) + '</span>';
+                }).join('');
+                return (
+                    '<div class="vote-row">' +
+                    '<div class="title-cell">' + titleCellHTML(row) + '</div>' +
+                    '<div class="date-cell">' + escapeHTML(formatDateDisplay(row.__date)) + '</div>' +
+                    '<div class="status-cell"><span class="badge ' + badgeCls + '" title="' + escapeHTML(row['Result'] || 'No result recorded') + '">' + escapeHTML(row['Result'] || '—') + '</span></div>' +
+                    memberCells +
+                    '</div>'
+                );
+            }).join('');
+            els.listBody.innerHTML = html;
+        }
+
+        function renderCards(rows) {
+            var html = rows.map(function (row) {
+                var badgeCls = statusBadgeClass(row['Result']);
+                var demMembers = DEM.map(function (m) {
+                    return '<div class="card-member-row" data-member="' + m.id + '"><span class="member-name">' + escapeHTML(m.displayName) + '</span>' + voteBadgeHTML(row[m.csvKey]) + '</div>';
+                }).join('');
+                var repMembers = REP.map(function (m) {
+                    return '<div class="card-member-row" data-member="' + m.id + '"><span class="member-name">' + escapeHTML(m.displayName) + '</span>' + voteBadgeHTML(row[m.csvKey]) + '</div>';
+                }).join('');
+                return (
+                    '<article class="vote-card">' +
+                    '<div class="card-head">' +
+                        '<span class="badge ' + badgeCls + '" title="' + escapeHTML(row['Result'] || 'No result recorded') + '">' + escapeHTML(row['Result'] || '—') + '</span>' +
+                        '<time>' + escapeHTML(formatDateDisplay(row.__date)) + '</time>' +
+                    '</div>' +
+                    '<h3 class="card-title">' + titleCellHTML(row) + '</h3>' +
+                    '<div class="card-members">' +
+                        '<div class="card-party-group dem"><h4>Democrats</h4>' + demMembers + '</div>' +
+                        '<div class="card-party-group rep"><h4>Republicans</h4>' + repMembers + '</div>' +
+                    '</div>' +
+                    '</article>'
+                );
+            }).join('');
+            els.cardScroll.innerHTML = html;
+        }
+
+        function applyHighlight() {
+            document.querySelectorAll('[data-member]').forEach(function (el) {
+                var isMatch = !!highlightedMember && el.getAttribute('data-member') === highlightedMember;
+                el.classList.toggle('highlighted', isMatch);
+            });
+        }
+
+        function render() {
+            var visible = filterRows(ALL_ROWS, filters);
+            visible = sortRows(visible, sortKey, sortDir);
+            els.resultCount.textContent = 'Showing ' + visible.length + ' of ' + ALL_ROWS.length + ' votes';
+            renderGrid(visible);
+            renderCards(visible);
+            applyHighlight();
+        }
+
+        buildListHead();
+
+        var searchTimer = null;
+        els.searchInput.addEventListener('input', function () {
+            clearTimeout(searchTimer);
+            var val = els.searchInput.value;
+            searchTimer = setTimeout(function () { filters.text = val; render(); }, 220);
+        });
+        els.statusSelect.addEventListener('change', function () { filters.status = els.statusSelect.value; render(); });
+        els.patternSelect.addEventListener('change', function () { filters.pattern = els.patternSelect.value; render(); });
+        els.repSelect.addEventListener('change', function () { highlightedMember = els.repSelect.value; applyHighlight(); });
+
+        els.resetBtn.addEventListener('click', function () {
+            filters = { text: '', status: '', pattern: '' };
+            highlightedMember = '';
+            els.searchInput.value = '';
+            els.statusSelect.value = '';
+            els.patternSelect.value = '';
+            els.repSelect.value = '';
+            sortKey = 'date'; sortDir = 'desc';
+            updateSortHeaders();
+            render();
+        });
+
+        var DATA_URL = 'https://raw.githubusercontent.com/githamm/congressional-vote-tracker/main/all_votes.csv';
+        // var DATA_URL = 'all_votes.csv'; // use this instead if serving index.html from the same repo/host as the CSV
+
+        function showError(message) {
+            els.statusMsg.textContent = message;
+            els.statusMsg.classList.add('error');
+            els.statusMsg.removeAttribute('hidden');
+        }
+
+        fetch(DATA_URL)
+            .then(function (res) {
+                if (!res.ok) throw new Error('Could not load vote data (HTTP ' + res.status + ')');
+                return res.text();
+            })
+            .then(function (text) {
+                var parsed = Papa.parse(text, { header: true, skipEmptyLines: true, dynamicTyping: true });
+                if (!parsed.data || !parsed.data.length) throw new Error('all_votes.csv loaded but contained no rows.');
+                ALL_ROWS = parsed.data.map(prepareRow);
+                populateSelectOptions();
+                els.statusMsg.setAttribute('hidden', '');
+                render();
+            })
+            .catch(function (err) {
+                showError('Couldn’t load vote data: ' + err.message + '. Check that ' + DATA_URL + ' is reachable.');
             });
 
-                $('.yadcf-filter-reset-button').on('click', function() {
-                    level = parseInt(this.id.split('-')[1]);
-                //disableDependentFilter(level, true);
-                });
-
-                $('.yadcf-filter').on('change', function() {
-                    level = parseInt(this.id.slice(-1));
-                    inuse = $(this).hasClass('inuse');
-                });
-            }
-        })
-
-    })
-</script>
+    })();
+    </script>
 </body>
 
 </html>
