@@ -342,6 +342,15 @@
         .so-what strong { color: var(--ink); }
         .so-part { margin: 2px 0 0; font-size: 0.74rem; color: var(--ink-soft); }
         .amdt-name { font-weight: 600; color: var(--ink); }
+        /* Categories: a vote's type inside a bill's history, and a bill's topics */
+        .kind-tag { display: inline-block; font-size: 0.6rem; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase;
+            padding: 1px 6px; border-radius: 3px; margin-right: 2px; vertical-align: 1px; white-space: nowrap;
+            background: #EEECE7; color: var(--ink-soft); }
+        .kind-tag.k-final { background: var(--ink); color: #FFFFFF; }
+        .kind-tag.k-amendment { background: var(--highlight-bg); color: #6B5310; box-shadow: inset 0 0 0 1px #E8C96B; }
+        /* A bill's topic as a kicker: same spot above every title, for scanning */
+        .kicker { display: block; margin: 0 0 1px; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.7px;
+            text-transform: uppercase; color: var(--ink-soft); line-height: 1.3; }
         .amdt-name a { color: inherit; }
         .so-part .link-btn { margin: 0; text-align: left; }
         .link-btn { all: unset; cursor: pointer; color: var(--dp-red); font-size: 0.76rem; font-weight: 600; text-decoration: underline; margin-top: 6px; display: inline-block; }
@@ -909,6 +918,16 @@
             rows.forEach(function (r) { if (r.__final && r['Bill Number'] === g.key) head = r; });
             return { row: head || rows[rows.length - 1], final: !!head };
         }
+        // A bill's topic for the kicker above its title: its own Congress.gov
+        // policy area, else the topics of the vote shown.
+        function groupTopics(g) {
+            if (g.key === HOUSE_BUSINESS) return [];
+            if (g.topics) return g.topics;
+            var e = TOPICS && TOPICS.bills && TOPICS.bills[g.key], h = groupHead(g);
+            g.topics = (e && e.policyArea) ? [e.policyArea] : h ? topicsFor(h.row) : [];
+            return g.topics;
+        }
+        function groupTopic(g) { return groupTopics(g).join(' · '); }
         function groupTitle(g, head) { return g.title || (head ? title(head.row) : g.key); }
         function voteKind(r) { return r.__kind; }
         var KIND_LABEL = { rule: ['vote on the debate rule', 'votes on the debate rule'], amendment: ['amendment', 'amendments'],
@@ -941,8 +960,16 @@
             var link = /^https:\/\/www\.congress\.gov\//.test(a.url || '') ? '<a href="' + escapeHTML(a.url) + '" target="_blank" rel="noopener">' + name + '</a>' : name;
             return '<strong class="amdt-name">' + link + '</strong>' + (a.purpose ? ': ' + amendmentPurpose(a) : '');
         }
+        // A vote inside a bill's history: a short type tag, then what it was.
+        var KIND_TAG = { rule: 'Debate rule', amendment: 'Amendment', recommit: 'Motion to recommit', final: 'Final vote' };
         function subLabelHTML(r, key) {
-            return r.__amendment ? amendmentHTML(r.__amendment) : escapeHTML(subLabel(r, key));
+            var k = voteKind(r), tag = key !== HOUSE_BUSINESS && KIND_TAG[k];
+            var body = r.__amendment ? amendmentHTML(r.__amendment)
+                : k === 'rule' ? escapeHTML(billLabel(r['Bill Number']) + ': ' + (r['Vote Question'] || ''))
+                // The tag already says it: "On Motion to Recommit with Instructions" -> "with Instructions".
+                : k === 'recommit' ? escapeHTML(String(r['Vote Question'] || '').replace(/^On Motion to Recommit\s*/i, ''))
+                : escapeHTML(subLabel(r, key));
+            return (tag ? '<span class="kind-tag k-' + k + '">' + tag + '</span> ' : '') + body;
         }
         function groupHeadRowFor(key) { var g = GROUP_BY_KEY[key], h = g && groupHead(g); return h ? h.row : {}; }
         function groupMatchesSearch(g, q) {
@@ -1015,6 +1042,7 @@
                     html += '<div class="dvrow"><div>' +
                         '<div class="dv-meta">' + apDate(r.__date) + ' · ' + escapeHTML(billLabel(g.key)) +
                             (bars ? '' : ' · ' + resultHTML(r)) + '</div>' +
+                        (groupTopic(g) ? '<p class="kicker">' + escapeHTML(groupTopic(g)) + '</p>' : '') +
                         '<p class="dv-title">' + (link ? '<a href="' + link + '" target="_blank" rel="noopener">' + t + '</a>' : t) + '</p>' +
                         '<p class="dv-q">' + (h.final ? '' : '<strong>No final vote.</strong> Latest: ') + escapeHTML(subLabel(r, g.key)) + '</p>' +
                         (r.__setAside ? '<p class="dv-note">' + setAsideNote(r) + '</p>' : '') +
@@ -1199,15 +1227,15 @@
         }
         function fillTopicFilter(m) {
             var sel = $('topic-filter');
-            var counts = {};
-            baseRows().forEach(function (r) {
-                if (!inOffice(r[m.csvKey])) return;
-                topicsFor(r).forEach(function (t) { counts[t] = (counts[t] || 0) + 1; });
+            var counts = {};   // bills and resolutions per topic, among those the member voted on
+            GROUPS.forEach(function (g) {
+                if (!g.rows.some(function (r) { return inOffice(r[m.csvKey]); })) return;
+                groupTopics(g).forEach(function (t) { counts[t] = (counts[t] || 0) + 1; });
             });
             var names = Object.keys(counts).sort();
             if (state.topic && !counts[state.topic]) state.topic = '';
             sel.innerHTML = '<option value="">All topics</option>' + names.map(function (t) {
-                return '<option value="' + escapeHTML(t) + '"' + (t === state.topic ? ' selected' : '') + '>' + escapeHTML(t) + ' (' + counts[t] + ')</option>';
+                return '<option value="' + escapeHTML(t) + '"' + (t === state.topic ? ' selected' : '') + '>' + escapeHTML(t) + ' (' + plural(counts[t], 'bill', 'bills') + ')</option>';
             }).join('');
             sel.hidden = !names.length;
         }
@@ -1669,11 +1697,12 @@
             var q = state.search.trim().toLowerCase();
             // Vote-level filters pick out particular votes inside each bill;
             // those bills open to show them.
-            var rowFilter = state.brokeOnly || state.topic;
+            // A topic picks bills (by the bill's own topic, as in its kicker);
+            // "broke with party" picks votes inside them, and opens those bills.
+            var rowFilter = state.brokeOnly;
             function rowMatches(r) {
                 if (!inOffice(r[m.csvKey])) return false;
                 if (state.brokeOnly && !r.__broke[m.id]) return false;
-                if (state.topic && topicsFor(r).indexOf(state.topic) < 0) return false;
                 return true;
             }
             var items = [];
@@ -1681,6 +1710,7 @@
                 if (state.bill && g.key !== state.bill) return;
                 if (state.ownOnly && !own[g.key]) return;
                 if (!groupMatchesSearch(g, q)) return;
+                if (state.topic && groupTopics(g).indexOf(state.topic) < 0) return;
                 var mine = g.rows.filter(function (r) { return inOffice(r[m.csvKey]); });
                 if (!mine.length) return;
                 var hits = mine.filter(rowMatches);
@@ -1692,12 +1722,14 @@
             var seenHit = {}, nHits = 0;
             items.forEach(function (it) { it.hits.forEach(function (r) { var k = rowOrder(r); if (!seenHit[k]) { seenHit[k] = 1; nHits += 1; } }); });
             var what = plural(items.filter(function (it) { return it.g.key !== HOUSE_BUSINESS; }).length, 'bill or resolution', 'bills and resolutions');
+            var topicNote = state.topic ? ' about ' + state.topic : '';
             $('vote-count').innerHTML = state.bill
                 ? '<span class="filter-note"><span>Votes on ' + escapeHTML(billLabel(state.bill)) + '</span>' +
                     '<button type="button" class="link-btn" data-action="clear-bill">Show all bills</button></span>'
-                : rowFilter
-                    ? escapeHTML(plural(nHits, 'vote', 'votes') + (state.brokeOnly ? ' against most ' + (PARTY_PLURAL[m.party] || 'of their party') : '') + ' on ' + what)
-                    : 'Showing ' + shown.length + ' of ' + what;
+                : '<span class="filter-note"><span>' + escapeHTML(rowFilter
+                        ? plural(nHits, 'vote', 'votes') + ' against most ' + (PARTY_PLURAL[m.party] || 'of their party') + ' on ' + what + topicNote
+                        : 'Showing ' + shown.length + ' of ' + what + topicNote) + '</span>' +
+                    (state.topic ? '<button type="button" class="link-btn" data-action="topic-filter" data-topic="' + escapeHTML(state.topic) + '">Show all topics</button>' : '') + '</span>';
 
             function voteRow(r, g, sub, hit) {
                 var v = r[m.csvKey], c = voteClass(v), broke = !!r.__broke[m.id];
@@ -1709,11 +1741,11 @@
                 } else {
                     var link = g.key === HOUSE_BUSINESS ? null : billLink(Object.assign({}, r, { 'Bill Number': g.key }));
                     var t = escapeHTML(groupTitle(g, { row: r }));
-                    var tp = topicsFor(r);
-                    label = '<span class="vtitle">' + (link ? '<a href="' + link + '" target="_blank" rel="noopener">' + t + '</a>' : t) +
+                    var kick = groupTopic(g);
+                    label = '<span class="vtitle">' + (kick ? '<span class="kicker">' + escapeHTML(kick) + '</span>' : '') +
+                        (link ? '<a href="' + link + '" target="_blank" rel="noopener">' + t + '</a>' : t) +
                         '<span class="vq">' + escapeHTML((g.key !== HOUSE_BUSINESS ? billLabel(g.key) + ' · ' : '') + subLabel(r, g.key)) + '</span>' +
-                        (r.__setAside ? '<span class="vtopic">' + setAsideNote(r) + '</span>' : '') +
-                        (tp.length ? '<span class="vtopic">' + escapeHTML(tp.join(' · ')) + '</span>' : '') + '</span>';
+                        (r.__setAside ? '<span class="vtopic">' + setAsideNote(r) + '</span>' : '') + '</span>';
                 }
                 return '<div class="vrow' + (sub ? ' sub' : '') + (broke ? ' broke' : '') + (hit ? ' hit' : '') + '">' +
                     '<span class="vdate">' + apDate(r.__date) + '</span>' + label +
@@ -1841,6 +1873,13 @@
                 state.billRole = 'all'; state.billStage = progress(m, 'all').counts[ST_LAW] ? ST_LAW : -1; state.legExpanded = false;
                 $('panel-bills').innerHTML = legislationHTML(m);
                 showTab('bills', 'force');
+            }
+            if (action === 'topic-filter') {
+                state.topic = state.topic === b.getAttribute('data-topic') ? '' : b.getAttribute('data-topic');
+                state.listLimit = 40;
+                renderVotes();
+                var band = $('tabs-band');
+                if (band.getBoundingClientRect && band.getBoundingClientRect().top < 0 && band.scrollIntoView) band.scrollIntoView({ block: 'start' });
             }
             if (action === 'topic') {
                 resetVoteFilters();
