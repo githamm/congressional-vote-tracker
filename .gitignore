@@ -8,3 +8,6 @@ __pycache__/
 
 # Backfill run log (backfill.py)
 backfill.log
+
+# Test cache
+.pytest_cache/

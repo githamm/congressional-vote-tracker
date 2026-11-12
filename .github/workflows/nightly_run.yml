@@ -37,7 +37,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       # The Congresses to update: this year's, plus last year's during the
       # first week of January so late-December votes and corrections land
@@ -87,6 +87,12 @@ jobs:
         run: |
           have=$(python -c "import json,sys; c=json.load(open('members.json'))['congresses']; print(' '.join(k for k in sys.argv[1:] if c.get(k, {}).get('members')))" ${{ steps.when.outputs.congresses }})
           if [ -n "$have" ]; then python fetch_legislation.py --congress $have; else echo "No delegation listed yet; skipping."; fi
+
+      # Unit tests plus checks on the data itself (no gaps in roll calls,
+      # every member has votes, vote_info.json current, bill lists complete).
+      # A failure stops the run before anything is committed.
+      - name: Test the code and the data
+        run: python -m pytest -q
 
       - name: Write job summary
         run: |
