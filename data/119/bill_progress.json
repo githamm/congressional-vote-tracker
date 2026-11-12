@@ -1,7 +1,7 @@
 {
  "_comment": "Cache for fetch_legislation.py, keyed by the Clerk's bill number. 'originals': Bioguide IDs of each bill's original cosponsors. 'stages': first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law). 'sponsors': sponsor of each co-led bill.",
  "congress": 119,
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "originals": {
   "H CON RES 114": {
    "originals": [
@@ -3192,7 +3192,7 @@
     "G000604"
    ],
    "total": 2,
-   "checked": "2026-11-11"
+   "checked": "2026-11-12"
   },
   "H R 1076": {
    "originals": [
@@ -3304,7 +3304,7 @@
     "W000797"
    ],
    "total": 35,
-   "checked": "2026-11-11"
+   "checked": "2026-11-12"
   },
   "H R 1083": {
    "originals": [
@@ -3485,7 +3485,7 @@
     "V000130"
    ],
    "total": 8,
-   "checked": "2026-11-11"
+   "checked": "2026-11-12"
   },
   "H R 1099": {
    "originals": [
@@ -8866,7 +8866,7 @@
     "C001112"
    ],
    "total": 45,
-   "checked": "2026-11-11"
+   "checked": "2026-11-12"
   },
   "H R 1909": {
    "originals": [
@@ -34465,7 +34465,7 @@
     "K000375"
    ],
    "total": 34,
-   "checked": "2026-11-11"
+   "checked": "2026-11-12"
   },
   "H R 992": {
    "originals": [
@@ -38010,7 +38010,7 @@
     "J000304"
    ],
    "total": 101,
-   "checked": "2026-11-11"
+   "checked": "2026-11-12"
   },
   "H RES 166": {
    "originals": [
