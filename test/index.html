@@ -883,12 +883,12 @@
         }
         // Bills this member sponsored or co-led (one of a handful of original
         // cosponsors). Each carries 'stages' from its action history.
-        // Steps a bill can reach. "Past committee" counts a bill a committee
+        // Steps a bill can reach. "Cleared committee" counts a bill a committee
         // approved, or one that reached the floor without a committee vote
         // (e.g. under suspension of the rules): either way it got out.
-        var STAGES = ['Introduced', 'Past committee', 'Passed House', 'Passed Senate', 'Became law'];
+        var STAGES = ['Introduced', 'Cleared committee', 'Passed House', 'Passed Senate', 'Became law'];
         var ST_COMMITTEE = 1, ST_HOUSE = 2, ST_SENATE = 3, ST_LAW = 4;
-        var STAGE_PHRASE = ['', 'got past committee', 'passed the House', 'passed the Senate', 'became law'];
+        var STAGE_PHRASE = ['', 'cleared committee', 'passed the House', 'passed the Senate', 'became law'];
         var CO_LEAD_MAX = 5;   // keep in sync with fetch_legislation.py
         function canBecomeLaw(b) { return b.type === 'HR' || b.type === 'HJRES'; }
         function stageOf(b) { var st = b.stages || {}; return (st.law || b.law) ? ST_LAW : st.senate ? ST_SENATE : st.house ? ST_HOUSE : st.reported ? ST_COMMITTEE : 0; }
@@ -966,7 +966,7 @@
             // Progress line (bills only; resolutions don't become law).
             var whose = role === 'sponsor' ? 'sponsored' : role === 'coled' ? 'co-led' : 'sponsored or co-led';
             html.push('<p class="leg-summary">Of the <strong>' + plural(all.counts[0], 'bill', 'bills') + '</strong> ' + name +
-                ' sponsored or co-led in this Congress, <strong>' + all.counts[ST_COMMITTEE] + '</strong> got past committee, <strong>' + all.counts[ST_HOUSE] + '</strong> passed the House and <strong>' + all.counts[ST_LAW] +
+                ' sponsored or co-led in this Congress, <strong>' + all.counts[ST_COMMITTEE] + '</strong> cleared committee, <strong>' + all.counts[ST_HOUSE] + '</strong> passed the House and <strong>' + all.counts[ST_LAW] +
                 '</strong> became law.</p>');
             html.push('<div class="chips" role="group" aria-label="Whose bills to count">' +
                 [['all', 'All (' + (d.sponsored.count + nCoLed) + ')'], ['sponsor', 'Sponsored (' + d.sponsored.count + ')'], ['coled', 'Co-led (' + nCoLed + ')']].map(function (c) {
@@ -983,7 +983,7 @@
             if (pr.vetoed.length) notes.push(plural(pr.vetoed.length, 'bill', 'bills') + ' passed both chambers but ' + (pr.vetoed.length === 1 ? 'was' : 'were') + ' vetoed: ' +
                 pr.vetoed.map(function (b) { return escapeHTML((BILL_PREFIX[b.type] || b.type) + ' ' + b.number); }).join(', ') + '.');
             if (pr.res) notes.push('Not counted above: ' + plural(pr.res, 'resolution', 'resolutions') + ', ' + pr.resAdopted + ' adopted by the House.');
-            notes.push('“Past committee” means a committee approved the bill or it reached the House floor without a committee vote.');
+            notes.push('“Cleared committee” means a committee approved the bill or it reached the House floor without a committee vote.');
             notes.push('“Co-led” means ' + name + ' was one of ' + CO_LEAD_MAX + ' or fewer original cosponsors. ' + name + ' cosponsored ' + d.cosponsored.count + ' bills and resolutions in all.');
             html.push('<p class="progress-note">' + notes.join(' ') + '</p>');
 
