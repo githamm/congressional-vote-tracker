@@ -1247,6 +1247,11 @@
             // Notes become numbered footnotes under the grid so every card
             // stays the same height.
             var noted = ordered.filter(function (m) { return m.note; });
+            // A note for the whole Congress (e.g. proxy voting) gets a "*"
+            // footnote, marked on every card's missed votes with noteOn "missed".
+            var cNote = (CONFIG && CONFIG.congresses[CURRENT_CONGRESS]) || {};
+            var cMarker = cNote.note && cNote.noteOn === 'missed'
+                ? '<a class="note-marker" href="#congress-note" aria-label="See note on this Congress">*</a>' : '';
             var n = ordered.length;
             els.summaryGrid.style.setProperty('--summary-cols', (n % 4 === 0 || n % 3 !== 0) ? 4 : 3);
             // Loyalty lives in the chart; if a Congress has no House-wide
@@ -1271,7 +1276,7 @@
                     (showLoyalty ? '<p class="summary-tenure">' + escapeHTML(pct(s.withParty, s.counted)) + ' with party</p>' : '') +
                     '<div class="summary-pair">' +
                         '<div class="pair-stat" title="' + escapeHTML(pct(s.missed, s.total) + ' of ' + s.total + ' votes') + '">' +
-                            '<strong>' + s.missed + (m.noteOn === 'missed' ? marker : '') + '</strong><span>missed votes</span></div>' +
+                            '<strong>' + s.missed + (m.noteOn === 'missed' ? marker : '') + cMarker + '</strong><span>missed votes</span></div>' +
                         '<button type="button" class="pair-stat broke" data-broke="' + m.id + '" aria-pressed="' + pressed + '"' +
                             (s.broke ? ' title="List these votes below"' : ' disabled') + '>' +
                             '<strong>' + s.broke + '</strong><span>broke with party</span></button>' +
@@ -1284,8 +1289,8 @@
                     escapeHTML(m.fullName) + ':</strong> ' + escapeHTML(m.note) +
                     (m.noteUrl ? ' <a href="' + escapeHTML(m.noteUrl) + '" target="_blank" rel="noopener">Read more</a>' : '') +
                     '</li>';
-            }).join('');
-            els.summaryFootnotes.hidden = !noted.length;
+            }).join('') + (cNote.note ? '<li id="congress-note"><span class="note-num">*</span> <strong>All members:</strong> ' + escapeHTML(cNote.note) + '</li>' : '');
+            els.summaryFootnotes.hidden = !noted.length && !cNote.note;
             els.summary.removeAttribute('hidden');
         }
 

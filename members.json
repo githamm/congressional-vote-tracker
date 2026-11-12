@@ -1,5 +1,5 @@
 {
-  "_comment": "Colorado House delegation by Congress. Shared by vote_scraper.py and index.html. 'csvName' + ' (' + id + ')' is the CSV column header, so never change csvName for a Congress that already has data. 'displayName' is the short name for table headers; 'fullName' is shown on summary cards. 'inCongressSince' is the start of the member's first term in Congress (from the public-domain congress-legislators dataset); the page shows years served as of their last vote in the selected Congress. Optional 'note' is shown on the member's summary card (context for readers, e.g. an extended absence); optional 'noteUrl' (https only) adds a 'Read more' link after it. The note's footnote marker goes after the member's name, or after the missed-votes count with \"noteOn\": \"missed\". A member who served only part of a Congress has blank cells for votes outside their tenure; those are shown as 'not in office' and left out of their stats. 'current' is the Congress the page shows by default. IDs are Bioguide IDs (bioguide.congress.gov), which match the name-id attributes in the Clerk's roll-call XML.",
+  "_comment": "Colorado House delegation by Congress. Shared by vote_scraper.py and index.html. 'csvName' + ' (' + id + ')' is the CSV column header, so never change csvName for a Congress that already has data. 'displayName' is the short name for table headers; 'fullName' is shown on summary cards. 'inCongressSince' is the start of the member's first term in Congress (from the public-domain congress-legislators dataset); the page shows years served as of their last vote in the selected Congress. Optional 'note' is shown on the member's summary card (context for readers, e.g. an extended absence); optional 'noteUrl' (https only) adds a 'Read more' link after it. The note's footnote marker goes after the member's name, or after the missed-votes count with \"noteOn\": \"missed\". A member who served only part of a Congress has blank cells for votes outside their tenure; those are shown as 'not in office' and left out of their stats. A Congress can have its own 'note' (shown on every member's card for that Congress, e.g. proxy voting rules), with 'noteOn': 'missed' to tie it to the missed-votes figure. 'current' is the Congress the page shows by default. IDs are Bioguide IDs (bioguide.congress.gov), which match the name-id attributes in the Clerk's roll-call XML.",
   "current": "119",
   "congresses": {
     "119": {
@@ -36,6 +36,130 @@
         { "id": "L000604", "csvName": "Lopez",     "displayName": "Lopez",     "fullName": "Greg Lopez",         "inCongressSince": "2024-07-08", "party": "R", "district": 4,
           "note": "Won a June 25, 2024, special election to finish Buck's term. Stats cover only votes while he was in office." },
         { "id": "L000564", "csvName": "Lamborn",   "displayName": "Lamborn",   "fullName": "Doug Lamborn",       "inCongressSince": "2007-01-04", "party": "R", "district": 5 }
+      ]
+    },
+    "117": {
+      "years": [2021, 2022],
+      "note": "House rules allowed proxy voting for this entire Congress (a COVID-19 measure, May 2020 to January 2023). A vote cast by proxy counts as the member's own, so missed votes are far lower than in other Congresses and aren't comparable with them.",
+      "noteOn": "missed",
+      "members": [
+        { "id": "C001121", "csvName": "Crow",       "displayName": "Crow",       "fullName": "Jason Crow",     "inCongressSince": "2019-01-03", "party": "D", "district": 6 },
+        { "id": "D000197", "csvName": "DeGette",    "displayName": "DeGette",    "fullName": "Diana DeGette",  "inCongressSince": "1997-01-07", "party": "D", "district": 1 },
+        { "id": "N000191", "csvName": "Neguse",     "displayName": "Neguse",     "fullName": "Joe Neguse",     "inCongressSince": "2019-01-03", "party": "D", "district": 2 },
+        { "id": "P000593", "csvName": "Perlmutter", "displayName": "Perlmutter", "fullName": "Ed Perlmutter",  "inCongressSince": "2007-01-04", "party": "D", "district": 7 },
+        { "id": "B000825", "csvName": "Boebert",    "displayName": "Boebert",    "fullName": "Lauren Boebert", "inCongressSince": "2021-01-03", "party": "R", "district": 3 },
+        { "id": "B001297", "csvName": "Buck",       "displayName": "Buck",       "fullName": "Ken Buck",       "inCongressSince": "2015-01-06", "party": "R", "district": 4 },
+        { "id": "L000564", "csvName": "Lamborn",    "displayName": "Lamborn",    "fullName": "Doug Lamborn",   "inCongressSince": "2007-01-04", "party": "R", "district": 5 }
+      ]
+    },
+    "116": {
+      "years": [2019, 2020],
+      "note": "Starting in May 2020, House rules allowed proxy voting as a COVID-19 measure. A vote cast by proxy counts as the member's own, so missed votes after that point are far lower and aren't comparable with other Congresses.",
+      "noteOn": "missed",
+      "members": [
+        { "id": "C001121", "csvName": "Crow",       "displayName": "Crow",       "fullName": "Jason Crow",     "inCongressSince": "2019-01-03", "party": "D", "district": 6 },
+        { "id": "D000197", "csvName": "DeGette",    "displayName": "DeGette",    "fullName": "Diana DeGette",  "inCongressSince": "1997-01-07", "party": "D", "district": 1 },
+        { "id": "N000191", "csvName": "Neguse",     "displayName": "Neguse",     "fullName": "Joe Neguse",     "inCongressSince": "2019-01-03", "party": "D", "district": 2 },
+        { "id": "P000593", "csvName": "Perlmutter", "displayName": "Perlmutter", "fullName": "Ed Perlmutter",  "inCongressSince": "2007-01-04", "party": "D", "district": 7 },
+        { "id": "B001297", "csvName": "Buck",       "displayName": "Buck",       "fullName": "Ken Buck",       "inCongressSince": "2015-01-06", "party": "R", "district": 4 },
+        { "id": "L000564", "csvName": "Lamborn",    "displayName": "Lamborn",    "fullName": "Doug Lamborn",   "inCongressSince": "2007-01-04", "party": "R", "district": 5 },
+        { "id": "T000470", "csvName": "Tipton",     "displayName": "Tipton",     "fullName": "Scott Tipton",   "inCongressSince": "2011-01-05", "party": "R", "district": 3 }
+      ]
+    },
+    "115": {
+      "years": [2017, 2018],
+      "members": [
+        {"id": "D000197", "csvName": "DeGette", "displayName": "DeGette", "fullName": "Diana DeGette", "inCongressSince": "1997-01-07", "party": "D", "district": 1},
+        {"id": "P000598", "csvName": "Polis", "displayName": "Polis", "fullName": "Jared Polis", "inCongressSince": "2009-01-06", "party": "D", "district": 2},
+        {"id": "P000593", "csvName": "Perlmutter", "displayName": "Perlmutter", "fullName": "Ed Perlmutter", "inCongressSince": "2007-01-04", "party": "D", "district": 7},
+        {"id": "T000470", "csvName": "Tipton", "displayName": "Tipton", "fullName": "Scott Tipton", "inCongressSince": "2011-01-05", "party": "R", "district": 3},
+        {"id": "B001297", "csvName": "Buck", "displayName": "Buck", "fullName": "Ken Buck", "inCongressSince": "2015-01-06", "party": "R", "district": 4},
+        {"id": "L000564", "csvName": "Lamborn", "displayName": "Lamborn", "fullName": "Doug Lamborn", "inCongressSince": "2007-01-04", "party": "R", "district": 5},
+        {"id": "C001077", "csvName": "Coffman", "displayName": "Coffman", "fullName": "Mike Coffman", "inCongressSince": "2009-01-06", "party": "R", "district": 6}
+      ]
+    },
+    "114": {
+      "years": [2015, 2016],
+      "members": [
+        {"id": "D000197", "csvName": "DeGette", "displayName": "DeGette", "fullName": "Diana DeGette", "inCongressSince": "1997-01-07", "party": "D", "district": 1},
+        {"id": "P000598", "csvName": "Polis", "displayName": "Polis", "fullName": "Jared Polis", "inCongressSince": "2009-01-06", "party": "D", "district": 2},
+        {"id": "P000593", "csvName": "Perlmutter", "displayName": "Perlmutter", "fullName": "Ed Perlmutter", "inCongressSince": "2007-01-04", "party": "D", "district": 7},
+        {"id": "T000470", "csvName": "Tipton", "displayName": "Tipton", "fullName": "Scott Tipton", "inCongressSince": "2011-01-05", "party": "R", "district": 3},
+        {"id": "B001297", "csvName": "Buck", "displayName": "Buck", "fullName": "Ken Buck", "inCongressSince": "2015-01-06", "party": "R", "district": 4},
+        {"id": "L000564", "csvName": "Lamborn", "displayName": "Lamborn", "fullName": "Doug Lamborn", "inCongressSince": "2007-01-04", "party": "R", "district": 5},
+        {"id": "C001077", "csvName": "Coffman", "displayName": "Coffman", "fullName": "Mike Coffman", "inCongressSince": "2009-01-06", "party": "R", "district": 6}
+      ]
+    },
+    "113": {
+      "years": [2013, 2014],
+      "members": [
+        {"id": "D000197", "csvName": "DeGette", "displayName": "DeGette", "fullName": "Diana DeGette", "inCongressSince": "1997-01-07", "party": "D", "district": 1},
+        {"id": "P000598", "csvName": "Polis", "displayName": "Polis", "fullName": "Jared Polis", "inCongressSince": "2009-01-06", "party": "D", "district": 2},
+        {"id": "P000593", "csvName": "Perlmutter", "displayName": "Perlmutter", "fullName": "Ed Perlmutter", "inCongressSince": "2007-01-04", "party": "D", "district": 7},
+        {"id": "T000470", "csvName": "Tipton", "displayName": "Tipton", "fullName": "Scott Tipton", "inCongressSince": "2011-01-05", "party": "R", "district": 3},
+        {"id": "G000562", "csvName": "Gardner", "displayName": "Gardner", "fullName": "Cory Gardner", "inCongressSince": "2011-01-05", "party": "R", "district": 4},
+        {"id": "L000564", "csvName": "Lamborn", "displayName": "Lamborn", "fullName": "Doug Lamborn", "inCongressSince": "2007-01-04", "party": "R", "district": 5},
+        {"id": "C001077", "csvName": "Coffman", "displayName": "Coffman", "fullName": "Mike Coffman", "inCongressSince": "2009-01-06", "party": "R", "district": 6}
+      ]
+    },
+    "112": {
+      "years": [2011, 2012],
+      "members": [
+        {"id": "D000197", "csvName": "DeGette", "displayName": "DeGette", "fullName": "Diana DeGette", "inCongressSince": "1997-01-07", "party": "D", "district": 1},
+        {"id": "P000598", "csvName": "Polis", "displayName": "Polis", "fullName": "Jared Polis", "inCongressSince": "2009-01-06", "party": "D", "district": 2},
+        {"id": "P000593", "csvName": "Perlmutter", "displayName": "Perlmutter", "fullName": "Ed Perlmutter", "inCongressSince": "2007-01-04", "party": "D", "district": 7},
+        {"id": "T000470", "csvName": "Tipton", "displayName": "Tipton", "fullName": "Scott Tipton", "inCongressSince": "2011-01-05", "party": "R", "district": 3},
+        {"id": "G000562", "csvName": "Gardner", "displayName": "Gardner", "fullName": "Cory Gardner", "inCongressSince": "2011-01-05", "party": "R", "district": 4},
+        {"id": "L000564", "csvName": "Lamborn", "displayName": "Lamborn", "fullName": "Doug Lamborn", "inCongressSince": "2007-01-04", "party": "R", "district": 5},
+        {"id": "C001077", "csvName": "Coffman", "displayName": "Coffman", "fullName": "Mike Coffman", "inCongressSince": "2009-01-06", "party": "R", "district": 6}
+      ]
+    },
+    "111": {
+      "years": [2009, 2010],
+      "members": [
+        {"id": "D000197", "csvName": "DeGette", "displayName": "DeGette", "fullName": "Diana DeGette", "inCongressSince": "1997-01-07", "party": "D", "district": 1},
+        {"id": "P000598", "csvName": "Polis", "displayName": "Polis", "fullName": "Jared Polis", "inCongressSince": "2009-01-06", "party": "D", "district": 2},
+        {"id": "S001158", "csvName": "Salazar", "displayName": "Salazar", "fullName": "John Salazar", "inCongressSince": "2005-01-04", "party": "D", "district": 3},
+        {"id": "M001172", "csvName": "Markey", "displayName": "Markey", "fullName": "Betsy Markey", "inCongressSince": "2009-01-06", "party": "D", "district": 4},
+        {"id": "P000593", "csvName": "Perlmutter", "displayName": "Perlmutter", "fullName": "Ed Perlmutter", "inCongressSince": "2007-01-04", "party": "D", "district": 7},
+        {"id": "L000564", "csvName": "Lamborn", "displayName": "Lamborn", "fullName": "Doug Lamborn", "inCongressSince": "2007-01-04", "party": "R", "district": 5},
+        {"id": "C001077", "csvName": "Coffman", "displayName": "Coffman", "fullName": "Mike Coffman", "inCongressSince": "2009-01-06", "party": "R", "district": 6}
+      ]
+    },
+    "110": {
+      "years": [2007, 2008],
+      "members": [
+        {"id": "D000197", "csvName": "DeGette", "displayName": "DeGette", "fullName": "Diana DeGette", "inCongressSince": "1997-01-07", "party": "D", "district": 1},
+        {"id": "U000038", "csvName": "Udall", "displayName": "Udall", "fullName": "Mark Udall", "inCongressSince": "1999-01-06", "party": "D", "district": 2},
+        {"id": "S001158", "csvName": "Salazar", "displayName": "Salazar", "fullName": "John Salazar", "inCongressSince": "2005-01-04", "party": "D", "district": 3},
+        {"id": "P000593", "csvName": "Perlmutter", "displayName": "Perlmutter", "fullName": "Ed Perlmutter", "inCongressSince": "2007-01-04", "party": "D", "district": 7},
+        {"id": "M001152", "csvName": "Musgrave", "displayName": "Musgrave", "fullName": "Marilyn Musgrave", "inCongressSince": "2003-01-07", "party": "R", "district": 4},
+        {"id": "L000564", "csvName": "Lamborn", "displayName": "Lamborn", "fullName": "Doug Lamborn", "inCongressSince": "2007-01-04", "party": "R", "district": 5},
+        {"id": "T000458", "csvName": "Tancredo", "displayName": "Tancredo", "fullName": "Tom Tancredo", "inCongressSince": "1999-01-06", "party": "R", "district": 6}
+      ]
+    },
+    "109": {
+      "years": [2005, 2006],
+      "members": [
+        {"id": "D000197", "csvName": "DeGette", "displayName": "DeGette", "fullName": "Diana DeGette", "inCongressSince": "1997-01-07", "party": "D", "district": 1},
+        {"id": "U000038", "csvName": "Udall", "displayName": "Udall", "fullName": "Mark Udall", "inCongressSince": "1999-01-06", "party": "D", "district": 2},
+        {"id": "S001158", "csvName": "Salazar", "displayName": "Salazar", "fullName": "John Salazar", "inCongressSince": "2005-01-04", "party": "D", "district": 3},
+        {"id": "M001152", "csvName": "Musgrave", "displayName": "Musgrave", "fullName": "Marilyn Musgrave", "inCongressSince": "2003-01-07", "party": "R", "district": 4},
+        {"id": "H000444", "csvName": "Hefley", "displayName": "Hefley", "fullName": "Joel Hefley", "inCongressSince": "1987-01-06", "party": "R", "district": 5},
+        {"id": "T000458", "csvName": "Tancredo", "displayName": "Tancredo", "fullName": "Tom Tancredo", "inCongressSince": "1999-01-06", "party": "R", "district": 6},
+        {"id": "B001240", "csvName": "Beauprez", "displayName": "Beauprez", "fullName": "Bob Beauprez", "inCongressSince": "2003-01-07", "party": "R", "district": 7}
+      ]
+    },
+    "108": {
+      "years": [2003, 2004],
+      "members": [
+        {"id": "D000197", "csvName": "DeGette", "displayName": "DeGette", "fullName": "Diana DeGette", "inCongressSince": "1997-01-07", "party": "D", "district": 1},
+        {"id": "U000038", "csvName": "Udall", "displayName": "Udall", "fullName": "Mark Udall", "inCongressSince": "1999-01-06", "party": "D", "district": 2},
+        {"id": "M000477", "csvName": "McInnis", "displayName": "McInnis", "fullName": "Scott McInnis", "inCongressSince": "1993-01-05", "party": "R", "district": 3},
+        {"id": "M001152", "csvName": "Musgrave", "displayName": "Musgrave", "fullName": "Marilyn Musgrave", "inCongressSince": "2003-01-07", "party": "R", "district": 4},
+        {"id": "H000444", "csvName": "Hefley", "displayName": "Hefley", "fullName": "Joel Hefley", "inCongressSince": "1987-01-06", "party": "R", "district": 5},
+        {"id": "T000458", "csvName": "Tancredo", "displayName": "Tancredo", "fullName": "Tom Tancredo", "inCongressSince": "1999-01-06", "party": "R", "district": 6},
+        {"id": "B001240", "csvName": "Beauprez", "displayName": "Beauprez", "fullName": "Bob Beauprez", "inCongressSince": "2003-01-07", "party": "R", "district": 7}
       ]
     }
   }

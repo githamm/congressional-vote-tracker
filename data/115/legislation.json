@@ -1,0 +1,2608 @@
+{
+ "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
+ "congress": 115,
+ "updated": "2026-11-12",
+ "members": {
+  "D000197": {
+   "sponsored": {
+    "count": 13,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 7
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 2
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 1
+     },
+     {
+      "name": "Law",
+      "count": 1
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6560",
+      "title": "ChiPACC Act of 2018",
+      "introduced": "2018-07-26",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2018-07-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6560",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6492",
+      "title": "Colorado Wilderness Act of 2018",
+      "introduced": "2018-07-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Water, Power and Oceans.",
+      "latestActionDate": "2018-08-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6492",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "915",
+      "title": "Expressing the sense of the Congress in support of protecting patients' access to medically appropriate, evidence-based healthcare and information, and the ethical and professional obligations of healthcare professionals to provide that care and information.",
+      "introduced": "2018-05-25",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2018-05-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/915",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "825",
+      "title": "Recognizing the impacts of climate change on outdoor recreation and supporting policies that address the causes and effects of climate change.",
+      "introduced": "2018-04-13",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2018-04-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/825",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4273",
+      "title": "Tobacco to 21 Act",
+      "introduced": "2017-11-07",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-11-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4273",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4082",
+      "title": "Protect Access to Birth Control Act",
+      "introduced": "2017-10-19",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-10-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4082",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3271",
+      "title": "Protecting Access to Diabetes Supplies Act of 2017",
+      "introduced": "2017-07-17",
+      "policyArea": "Health",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 329.",
+      "latestActionDate": "2017-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3271",
+      "stages": {
+       "reported": "2017-12-06"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3124",
+      "title": "Preventing Diabetes in Medicare Act of 2017",
+      "introduced": "2017-06-29",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-07-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3124",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2844",
+      "title": "To authorize 2 additional district judgeships for the district of Colorado.",
+      "introduced": "2017-06-08",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2017-07-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2844",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2843",
+      "title": "Medicaid and CHIP Quality Improvement Act of 2017",
+      "introduced": "2017-06-08",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-06-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2843",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2528",
+      "title": "Respect States' and Citizens' Rights Act of 2017",
+      "introduced": "2017-05-18",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2017-06-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2528",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2012",
+      "title": "Fracturing Responsibility and Awareness of Chemicals Act of 2017",
+      "introduced": "2017-04-06",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment.",
+      "latestActionDate": "2017-04-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2012",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "518",
+      "title": "EPS Improvement Act of 2017",
+      "introduced": "2017-01-13",
+      "policyArea": "Energy",
+      "latestAction": "Became Public Law No: 115-115.",
+      "latestActionDate": "2018-01-12",
+      "law": "115-115",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/518",
+      "stages": {
+       "house": "2017-01-23",
+       "senate": "2017-12-21",
+       "president": "2018-01-02",
+       "law": "2018-01-12"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "P000598": {
+   "sponsored": {
+    "count": 31,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Education",
+      "count": 7
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 5
+     },
+     {
+      "name": "Taxation",
+      "count": 5
+     },
+     {
+      "name": "Labor and Employment",
+      "count": 3
+     },
+     {
+      "name": "Science, Technology, Communications",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "7309",
+      "title": "To authorize the Every Word We Utter Monument to establish a commemorative work in the District of Columbia and its environs, and for other purposes.",
+      "introduced": "2018-12-13",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2018-12-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/7309",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1120",
+      "title": "Expressing support for designation of the week of October 4, 2018, through October 10, 2018, as World Space Week and for the designation of the week of October 14, 2018, through October 20, 2018, as Earth Science Week.",
+      "introduced": "2018-10-05",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Education and the Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2018-10-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/1120",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6832",
+      "title": "Safe Helicopters Now Act",
+      "introduced": "2018-09-17",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2018-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6832",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6831",
+      "title": "To designate the facility of the United States Postal Service located at 35 West Main Street in Frisco, Colorado, as the \"Patrick E. Mahany, Jr., Post Office Building\".",
+      "introduced": "2018-09-17",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Became Public Law No: 115-382.",
+      "latestActionDate": "2018-12-21",
+      "law": "115-382",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6831",
+      "stages": {
+       "house": "2018-11-29",
+       "senate": "2018-12-12",
+       "president": "2018-12-21",
+       "law": "2018-12-21"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "6352",
+      "title": "Know Before You Owe Private Education Loan Act of 2018",
+      "introduced": "2018-07-12",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Committee on Education and the Workforce, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2018-07-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6352",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5928",
+      "title": "Students Over Special Interests Act",
+      "introduced": "2018-05-23",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Development.",
+      "latestActionDate": "2018-10-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5928",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5767",
+      "title": "Teachers Are Leaders Act",
+      "introduced": "2018-05-10",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2018-05-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5767",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5374",
+      "title": "Student Non-Discrimination Act of 2018",
+      "introduced": "2018-03-21",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2018-03-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5374",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5084",
+      "title": "PILT and SRS Certainty Act",
+      "introduced": "2018-02-23",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2018-03-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5084",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4883",
+      "title": "Continental Divide Recreation, Wilderness and Camp Hale Legacy Act",
+      "introduced": "2018-01-25",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2018-01-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4883",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "97",
+      "title": "Directing the Clerk of the House of Representatives to make corrections in the enrollment of H.R. 1.",
+      "introduced": "2017-12-18",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Committee on Ways and Means, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2017-12-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-concurrent-resolution/97",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4610",
+      "title": "Receiving Electronic Statements To Improve Retiree Earnings Act",
+      "introduced": "2017-12-11",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Committee on Education and the Workforce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2017-12-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4610",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4602",
+      "title": "Defending Special Education Students and Families Act of 2017",
+      "introduced": "2017-12-07",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Committee on Education and the Workforce, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2017-12-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4602",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4363",
+      "title": "Veterans Conservation Corps Act of 2017",
+      "introduced": "2017-11-09",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Environment.",
+      "latestActionDate": "2018-05-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4363",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4164",
+      "title": "Industrial Hemp Water Rights Act",
+      "introduced": "2017-10-27",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2017-11-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4164",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "566",
+      "title": "Expressing support for designation of the week of October 4, 2017, through October 10, 2017, as World Space Week and for the designation of the week of October 8, 2017, through October 14, 2017, as Earth Science Week.",
+      "introduced": "2017-10-10",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Space.",
+      "latestActionDate": "2018-05-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/566",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "561",
+      "title": "Commending the cooperative business model and the businesses, employees, and practitioners nationally and internationally who use it for their contributions to the economy and social impacts they make on their communities.",
+      "introduced": "2017-10-06",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Digital Commerce and Consumer Protection.",
+      "latestActionDate": "2017-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/561",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3840",
+      "title": "Affordable College Textbook Act",
+      "introduced": "2017-09-26",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2017-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3840",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3314",
+      "title": "100 by '50 Act",
+      "introduced": "2017-07-19",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy.",
+      "latestActionDate": "2018-05-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3314",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2859",
+      "title": "Advancing Competency-Based Education Act of 2017",
+      "introduced": "2017-06-08",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2017-06-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2859",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2387",
+      "title": "Worker Ownership, Readiness, and Knowledge Act",
+      "introduced": "2017-05-04",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2017-05-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2387",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2275",
+      "title": "Giving Workers a Fair Shot Act",
+      "introduced": "2017-05-01",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Committee on Education and the Workforce, and in addition to the Committees on Financial Services, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2017-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2275",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2217",
+      "title": "Solar EDGE Act",
+      "introduced": "2017-04-27",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2017-04-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2217",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2059",
+      "title": "BREATHE Act",
+      "introduced": "2017-04-06",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment.",
+      "latestActionDate": "2017-04-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2059",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1899",
+      "title": "Protecting Data at the Border Act",
+      "introduced": "2017-04-04",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2017-04-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1899",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1841",
+      "title": "Regulate Marijuana Like Alcohol Act",
+      "introduced": "2017-03-30",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2017-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1841",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1710",
+      "title": "Making Education Affordable and Accessible Act of 2017",
+      "introduced": "2017-03-23",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2017-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1710",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1089",
+      "title": "KOMBUCHA",
+      "introduced": "2017-02-15",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2017-02-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1089",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "752",
+      "title": "For the relief of Jeanette Vizguerra-Ramirez.",
+      "introduced": "2017-01-30",
+      "policyArea": "",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2017-02-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/752",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "689",
+      "title": "Bolts Ditch Access and Use Act",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 71.",
+      "latestActionDate": "2017-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/689",
+      "stages": {
+       "house": "2017-02-06"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "688",
+      "title": "Arapaho National Forest Boundary Adjustment Act of 2017",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 70.",
+      "latestActionDate": "2017-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/688",
+      "stages": {
+       "house": "2017-02-06"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "P000593": {
+   "sponsored": {
+    "count": 9,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Finance and Financial Sector",
+      "count": 2
+     },
+     {
+      "name": "Health",
+      "count": 2
+     },
+     {
+      "name": "Transportation and Public Works",
+      "count": 1
+     },
+     {
+      "name": "Science, Technology, Communications",
+      "count": 1
+     },
+     {
+      "name": "Commerce",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6411",
+      "title": "FinCEN Improvement Act of 2018",
+      "introduced": "2018-07-17",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2018-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6411",
+      "stages": {
+       "house": "2018-09-12"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4808",
+      "title": "Transparent Health Care Pricing Act of 2018",
+      "introduced": "2018-01-16",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2018-01-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4808",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4371",
+      "title": "For the relief of Melecio Andazola-Morales.",
+      "introduced": "2017-11-09",
+      "policyArea": "",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2017-11-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4371",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3150",
+      "title": "Helicopter Fuel System Safety Act",
+      "introduced": "2017-06-29",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2017-06-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3150",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3086",
+      "title": "Space Weather Research and Forecasting Act",
+      "introduced": "2017-06-27",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Space.",
+      "latestActionDate": "2018-05-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3086",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2569",
+      "title": "Transparency in All Health Care Pricing Act of 2017",
+      "introduced": "2017-05-19",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-06-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2569",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2280",
+      "title": "For the relief of Arturo Hernandez-Garcia.",
+      "introduced": "2017-05-01",
+      "policyArea": "",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2017-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2280",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2215",
+      "title": "SAFE Act of 2017",
+      "introduced": "2017-04-27",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2017-09-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2215",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1549",
+      "title": "Foreign Business Bribery Prohibition Act of 2017",
+      "introduced": "2017-03-15",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2017-03-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1549",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "T000470": {
+   "sponsored": {
+    "count": 38,
+    "becameLaw": 3,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 13
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 7
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 4
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 2
+     },
+     {
+      "name": "Water Resources Development",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "7263",
+      "title": "SAFE Act of 2018",
+      "introduced": "2018-12-11",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Committee on Agriculture, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2018-12-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/7263",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7226",
+      "title": "Good Samaritan Remediation of Orphan Hardrock Mines Act of 2018",
+      "introduced": "2018-12-06",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2018-12-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/7226",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6965",
+      "title": "Mancos Water Conservancy District Conveyance Act",
+      "introduced": "2018-09-28",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water, Power and Oceans.",
+      "latestActionDate": "2018-10-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6965",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6963",
+      "title": "Dental Care for Low-Income Veterans Act",
+      "introduced": "2018-09-27",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2018-09-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6963",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6799",
+      "title": "Federal Lands FIRES Act of 2018",
+      "introduced": "2018-09-13",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2018-09-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6799",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6682",
+      "title": "Protection and Transparency for Adjacent Landowners Act",
+      "introduced": "2018-08-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 826.",
+      "latestActionDate": "2018-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6682",
+      "stages": {
+       "reported": "2018-12-03"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "6344",
+      "title": "LOCAL Act of 2018",
+      "introduced": "2018-07-12",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Committee Hearings Held.",
+      "latestActionDate": "2018-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6344",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6332",
+      "title": "Improving Strategies to Counter Weapons Proliferation Act",
+      "introduced": "2018-07-11",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2018-09-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6332",
+      "stages": {
+       "reported": "2018-08-24",
+       "house": "2018-09-26"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "6235",
+      "title": "Securing Airspace For Emergency Responders Act",
+      "introduced": "2018-06-26",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2018-08-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6235",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6217",
+      "title": "To designate the facility of the United States Postal Service located at 241 N 4th Street in Grand Junction, Colorado, as the \"Deputy Sheriff Derek Geer Post Office Building\".",
+      "introduced": "2018-06-25",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Became Public Law No: 115-367.",
+      "latestActionDate": "2018-12-21",
+      "law": "115-367",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6217",
+      "stages": {
+       "house": "2018-11-29",
+       "senate": "2018-12-12",
+       "president": "2018-12-21",
+       "law": "2018-12-21"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "6216",
+      "title": "To designate the facility of the United States Postal Service located at 3025 Woodgate Road in Montrose, Colorado, as the \"Sergeant David Kinterknecht Post Office\".",
+      "introduced": "2018-06-25",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Became Public Law No: 115-366.",
+      "latestActionDate": "2018-12-21",
+      "law": "115-366",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6216",
+      "stages": {
+       "house": "2018-11-29",
+       "senate": "2018-12-12",
+       "president": "2018-12-21",
+       "law": "2018-12-21"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "6158",
+      "title": "Brokered Deposit Affiliate-Subsidiary Modernization Act of 2018",
+      "introduced": "2018-06-20",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 848.",
+      "latestActionDate": "2018-12-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6158",
+      "stages": {
+       "reported": "2018-12-21"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "6083",
+      "title": "To amend the Omnibus Public Land Management Act of 2009 to modify the terms of the Jackson Gulch rehabilitation project in Colorado, and for other purposes.",
+      "introduced": "2018-06-13",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water, Power and Oceans.",
+      "latestActionDate": "2018-06-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6083",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6025",
+      "title": "Law Enforcement Protection Act",
+      "introduced": "2018-06-06",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2018-07-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6025",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5859",
+      "title": "Education and Energy Act of 2018",
+      "introduced": "2018-05-17",
+      "policyArea": "Education",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 871.",
+      "latestActionDate": "2018-12-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5859",
+      "stages": {
+       "reported": "2018-12-06"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "894",
+      "title": "Seeking the return of the USS Pueblo to the United States Navy.",
+      "introduced": "2018-05-15",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Asia and the Pacific.",
+      "latestActionDate": "2018-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/894",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5744",
+      "title": "Shenandoah Parcel 7387 No Surface Occupancy Act of 2018",
+      "introduced": "2018-05-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2018-05-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5744",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "813",
+      "title": "Expressing the sense of the House of Representatives that defense appropriations bills should be considered only as stand-alone measures.",
+      "introduced": "2018-04-10",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2018-04-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/813",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5171",
+      "title": "Ski Area Fee Retention Act",
+      "introduced": "2018-03-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Reported by the Committee on Natural Resources. H. Rept. 115-990, Part I.",
+      "latestActionDate": "2018-10-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5171",
+      "stages": {
+       "reported": "2018-10-23"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4939",
+      "title": "To amend title 10, United States Code, to provide for the membership of the Commandant of the Coast Guard on the Joint Chiefs of Staff.",
+      "introduced": "2018-02-06",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2018-02-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4939",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4642",
+      "title": "Veterans Improved Access and Care Act of 2017",
+      "introduced": "2017-12-14",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-12-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4642",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4609",
+      "title": "West Fork Fire Station Act of 2017",
+      "introduced": "2017-12-11",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "By Senator Murkowski from Committee on Energy and Natural Resources filed written report. Report No. 115-316.",
+      "latestActionDate": "2018-08-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4609",
+      "stages": {
+       "reported": "2018-04-09",
+       "house": "2018-04-16"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4565",
+      "title": "To amend title 38, United States Code, to direct the Secretary of Veterans Affairs to furnish headstones or markers to private cemeteries for graves of certain veterans of World War I.",
+      "introduced": "2017-12-06",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2017-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4565",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4545",
+      "title": "Financial Institutions Examination Fairness and Reform Act",
+      "introduced": "2017-12-04",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2018-03-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4545",
+      "stages": {
+       "reported": "2018-03-06",
+       "house": "2018-03-15"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4302",
+      "title": "Congressional Accountability for Emergency Lending Act of 2017",
+      "introduced": "2017-11-08",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 868.",
+      "latestActionDate": "2018-12-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4302",
+      "stages": {
+       "reported": "2018-11-06"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2939",
+      "title": "Water Rights Protection Act of 2017",
+      "introduced": "2017-06-20",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 187.",
+      "latestActionDate": "2017-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2939",
+      "stages": {
+       "reported": "2017-07-25"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2907",
+      "title": "Planning for American Energy Act of 2017",
+      "introduced": "2017-06-15",
+      "policyArea": "Energy",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 305.",
+      "latestActionDate": "2017-11-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2907",
+      "stages": {
+       "reported": "2017-11-16"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2768",
+      "title": "Fowler and Boskoff Peaks Designation Act",
+      "introduced": "2017-05-30",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "An errata sheet on written report No. 115-321 was printed.",
+      "latestActionDate": "2018-08-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2768",
+      "stages": {
+       "reported": "2017-09-05",
+       "house": "2017-11-28"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2287",
+      "title": "Bureau of Land Management Headquarters Relocation Act",
+      "introduced": "2017-05-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2017-05-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2287",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2278",
+      "title": "Responsible Disposal Reauthorization Act of 2018",
+      "introduced": "2017-05-01",
+      "policyArea": "Energy",
+      "latestAction": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 584.",
+      "latestActionDate": "2018-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2278",
+      "stages": {
+       "reported": "2018-09-07",
+       "house": "2018-09-25"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1966",
+      "title": "REAL Protection Act",
+      "introduced": "2017-04-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2017-04-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1966",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1965",
+      "title": "LAND Act",
+      "introduced": "2017-04-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2017-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1965",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1801",
+      "title": "PACER Act of 2017",
+      "introduced": "2017-03-30",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2017-03-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1801",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1528",
+      "title": "Native American Indian Education Act",
+      "introduced": "2017-03-15",
+      "policyArea": "Native Americans",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2017-03-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1528",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1457",
+      "title": "MOBILE Act of 2017",
+      "introduced": "2017-03-09",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2018-01-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1457",
+      "stages": {
+       "reported": "2018-01-22",
+       "house": "2018-01-29"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1116",
+      "title": "TAILOR Act of 2017",
+      "introduced": "2017-02-16",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2018-03-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1116",
+      "stages": {
+       "reported": "2018-03-06",
+       "house": "2018-03-14"
+      }
+     },
+     {
+      "type": "HJRES",
+      "number": "71",
+      "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the final rule of the Office of Natural Resources Revenue of the Department of the Interior relating to consolidated Federal oil and gas and Federal and Indian coal valuation reform.",
+      "introduced": "2017-02-13",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2017-02-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-joint-resolution/71",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "698",
+      "title": "Elkhorn Ranch and White River National Forest Conveyance Act of 2017",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 115-252.",
+      "latestActionDate": "2018-10-03",
+      "law": "115-252",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/698",
+      "stages": {
+       "house": "2017-02-06",
+       "senate": "2018-09-18",
+       "president": "2018-09-25",
+       "law": "2018-10-03"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "B001297": {
+   "sponsored": {
+    "count": 33,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Congress",
+      "count": 24
+     },
+     {
+      "name": "Taxation",
+      "count": 2
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 1
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 1
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6927",
+      "title": "APEX Act",
+      "introduced": "2018-09-27",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Commodity Exchanges, Energy, and Credit.",
+      "latestActionDate": "2018-10-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6927",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6779",
+      "title": "Using Data to Prevent Opioid Diversion Act of 2018",
+      "introduced": "2018-09-12",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2018-09-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6779",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1051",
+      "title": "Providing for consideration of the bill (H.R. 6691) to amend title 18, United States Code, to clarify the definition of \"crime of violence\", and for other purposes, and providing for consideration of motions to suspend the rules.",
+      "introduced": "2018-09-05",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2018-09-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/1051",
+      "stages": {
+       "reported": "2018-09-05",
+       "house": "2018-09-06"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "934",
+      "title": "Providing for consideration of the bill (H.R. 2851) to amend the Controlled Substances Act to clarify how controlled substance analogues are to be regulated, and for other purposes; providing for consideration of the bill (H.R. 5735) to amend the United States Housing Act of 1937 to establish a demonstration program to set aside section 8 housing vouchers for supportive and transitional housing for individuals recovering from opioid use disorders or other substance use disorders, and for other purposes; and providing for consideration of the bill (H.R. 5788) to provide for the processing by U.S. Customs and Border Protection of certain international mail shipments and to require the provision of advance electronic information on international mail shipments of mail, and for other purposes.",
+      "introduced": "2018-06-12",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2018-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/934",
+      "stages": {
+       "reported": "2018-06-12",
+       "house": "2018-06-13"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5844",
+      "title": "Amache Study Act",
+      "introduced": "2018-05-16",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2018-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5844",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "872",
+      "title": "Providing for consideration of the bill (H.R. 5645) to amend the Clayton Act and the Federal Trade Commission Act to provide that the Federal Trade Commission shall exercise authority with respect to mergers only under the Clayton Act and only in the same procedural manner as the Attorney General exercises such authority; providing for consideration of the bill (H.R. 2152) to require States and units of local government receiving funds under grant programs operated by the Department of Justice, which use such funds for pretrial services programs, to submit to the Attorney General a report relating to such program, and for other purposes; and providing for consideration of the joint resolution (S.J. Res. 57) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by Bureau of Consumer Financial Protection relating to \"Indirect Auto Lending and Compliance with the Equal Credit Opportunity Act\".",
+      "introduced": "2018-05-07",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2018-05-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/872",
+      "stages": {
+       "reported": "2018-05-07",
+       "house": "2018-05-08"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "811",
+      "title": "Providing for consideration of the bill (H.R. 4790) to amend the Volcker rule to give the Board of Governors of the Federal Reserve System sole rulemaking authority, to exclude community banks from the requirements of the Volcker rule, and for other purposes, and providing for consideration of motions to suspend the rules.",
+      "introduced": "2018-04-10",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2018-04-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/811",
+      "stages": {
+       "reported": "2018-04-10",
+       "house": "2018-04-11"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "780",
+      "title": "Providing for consideration of the bill (H.R. 4061) to amend the Financial Stability Act of 2010 to improve the transparency of the Financial Stability Oversight Council, to improve the SIFI designation process, and for other purposes, and providing for consideration of the bill (H.R. 4293) to reform the Comprehensive Capital Analysis and Review process, the Dodd-Frank Act Stress Test process, and for other purposes.",
+      "introduced": "2018-03-14",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2018-03-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/780",
+      "stages": {
+       "reported": "2018-03-14",
+       "house": "2018-03-15"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "773",
+      "title": "Providing for consideration of the bill (H.R. 4545) to amend the Federal Financial Institutions Examination Council Act of 1978 to improve the examination of depository institutions, and for other purposes; providing for consideration of the bill (H.R. 1116) to require the Federal financial institutions regulatory agencies to take risk profiles and business models of institutions into account when taking regulatory actions, and for other purposes; and providing for consideration of the bill (H.R. 4263) to amend the Securities Act of 1933 with respect to small company capital formation, and for other purposes.",
+      "introduced": "2018-03-13",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2018-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/773",
+      "stages": {
+       "reported": "2018-03-13",
+       "house": "2018-03-14"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5198",
+      "title": "Restoring Local Control Act",
+      "introduced": "2018-03-07",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways and Transit.",
+      "latestActionDate": "2018-03-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5198",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "747",
+      "title": "Providing for consideration of the bill (H.R. 4296) to place requirements on operational risk capital requirements for banking organizations established by an appropriate Federal banking agency, and providing for consideration of the bill (H.R. 4607) to amend the Economic Growth and Regulatory Paperwork Reduction Act of 1996 to ensure that Federal financial regulators perform a comprehensive review of regulations to identify outdated or otherwise unnecessary regulatory requirements imposed on covered persons, and for other purposes.",
+      "introduced": "2018-02-26",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2018-02-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/747",
+      "stages": {
+       "reported": "2018-02-26",
+       "house": "2018-02-27"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "725",
+      "title": "Providing for consideration of the bill (H.R. 772) to amend the Federal Food, Drug, and Cosmetic Act to improve and clarify certain disclosure requirements for restaurants and similar retail food establishments, and to amend the authority to bring proceedings under section 403A; providing for consideration of the bill (H.R. 1153) to amend the Truth in Lending Act to improve upon the definitions provided for points and fees in connection with a mortgage transaction; providing for consideration of the bill (H.R. 4771) to raise the consolidated assets threshold under the small bank holding company policy statement, and for other purposes; and for other purposes.",
+      "introduced": "2018-02-05",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2018-02-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/725",
+      "stages": {
+       "reported": "2018-02-05",
+       "house": "2018-02-06"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "693",
+      "title": "Providing for consideration of the bill (H.R. 3326) to increase accountability, combat corruption, and strengthen management effectiveness at the World Bank, and providing for consideration of the bill (H.R. 2954) to amend the Home Mortgage Disclosure Act of 1975 to specify which depository institutions are subject to the maintenance of records and disclosure requirements of such Act, and for other purposes.",
+      "introduced": "2018-01-16",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2018-01-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/693",
+      "stages": {
+       "reported": "2018-01-16",
+       "house": "2018-01-17"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "658",
+      "title": "Providing for consideration of the bill (H.R. 1638) to require the Secretary of the Treasury to submit a report to the appropriate congressional committees on the estimated total assets under direct or indirect control by certain senior Iranian leaders and other figures, and for other purposes, and providing for consideration of the bill (H.R. 4324) to require the Secretary of the Treasury to make certifications with respect to United States and foreign financial institutions' aircraft-related transactions involving Iran, and for other purposes.",
+      "introduced": "2017-12-12",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-12-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/658",
+      "stages": {
+       "reported": "2017-12-12",
+       "house": "2017-12-13"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4495",
+      "title": "STOP Act",
+      "introduced": "2017-11-30",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2017-11-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4495",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "609",
+      "title": "Providing for consideration of the bill (H.R. 2201) to amend the Securities Act of 1933 to exempt certain micro-offerings from the registration requirements of such Act, and for other purposes.",
+      "introduced": "2017-11-07",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-11-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/609",
+      "stages": {
+       "reported": "2017-11-07",
+       "house": "2017-11-08"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "469",
+      "title": "Requesting the Senate to return to the House of Representatives House Joint Resolution 76.",
+      "introduced": "2017-07-24",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/469",
+      "stages": {
+       "house": "2017-07-24"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "468",
+      "title": "Providing for consideration of the joint resolution (H.J. Res. 111) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by Bureau of Consumer Financial Protection relating to \"Arbitration Agreements\".",
+      "introduced": "2017-07-24",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/468",
+      "stages": {
+       "reported": "2017-07-24",
+       "house": "2017-07-25"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "410",
+      "title": "Electing Members to certain standing committees of the House of Representatives.",
+      "introduced": "2017-06-27",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-06-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/410",
+      "stages": {
+       "house": "2017-06-27"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "381",
+      "title": "Electing Members to certain standing committees of the House of Representatives.",
+      "introduced": "2017-06-13",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/381",
+      "stages": {
+       "house": "2017-06-13"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "378",
+      "title": "Providing for consideration of the bill (H.R. 2581) to amend the Internal Revenue Code of 1986 to require the provision of social security numbers as a condition of receiving the health insurance premium tax credit, and providing for consideration of the bill (S. 1094) to amend title 38, United States Code, to improve the accountability of employees of the Department of Veterans Affairs, and for other purposes.",
+      "introduced": "2017-06-12",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/378",
+      "stages": {
+       "reported": "2017-06-12",
+       "house": "2017-06-13"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "375",
+      "title": "Providing for consideration of the bill (H.R. 10) to create hope and opportunity for investors, consumers, and entrepreneurs by ending bailouts and Too Big to Fail, holding Washington and Wall Street accountable, eliminating red tape to increase access to capital and credit, and repealing the provisions of the Dodd-Frank Act that make America less prosperous, less stable, and less free, and for other purposes.",
+      "introduced": "2017-06-06",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-06-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/375",
+      "stages": {
+       "reported": "2017-06-06",
+       "house": "2017-06-07"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "352",
+      "title": "Providing for consideration of the bill (H.R. 1973) to prevent the sexual abuse of minors and amateur athletes by requiring the prompt reporting of sexual abuse to law enforcement authorities, and for other purposes; providing for consideration of the bill (H.R. 1761) to amend title 18, United States Code, to criminalize the knowing consent of the visual depiction, or live transmission, of a minor engaged in sexually explicit conduct, and for other purposes; and providing for proceedings during the period from May 26, 2017, through June 5, 2017.",
+      "introduced": "2017-05-23",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-05-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/352",
+      "stages": {
+       "reported": "2017-05-23",
+       "house": "2017-05-24"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "323",
+      "title": "Providing for consideration of the bill (H.R. 115) to amend title 18, United States Code, to provide additional aggravating factors for the imposition of the death penalty based on the status of the victim.",
+      "introduced": "2017-05-16",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-05-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/323",
+      "stages": {
+       "reported": "2017-05-16",
+       "house": "2017-05-17"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1999",
+      "title": "Federal Budget Accountability Act",
+      "introduced": "2017-04-06",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the House Committee on the Budget.",
+      "latestActionDate": "2017-04-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1999",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "242",
+      "title": "Providing for consideration of the bill (H.R. 1219) to amend the Investment Company Act of 1940 to expand the investor limitation for qualifying venture capital funds under an exemption from the definition of an investment company, and providing for proceedings during the period from April 7, 2017, through April 24, 2017.",
+      "introduced": "2017-04-03",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-04-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/242",
+      "stages": {
+       "reported": "2017-04-03",
+       "house": "2017-04-05"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "240",
+      "title": "Providing for consideration of the bill (H.R. 1343) to direct the Securities and Exchange Commission to revise its rules so as to increase the threshold amount for requiring issuers to provide certain disclosures relating to compensatory benefit plans.",
+      "introduced": "2017-04-03",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-04-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/240",
+      "stages": {
+       "reported": "2017-04-03",
+       "house": "2017-04-04"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "198",
+      "title": "Providing for consideration of the bill (H.R. 1259) to amend title 38, United States Code, to provide for the removal or demotion of employees of the Department of Veterans Affairs based on performance or misconduct, and for other purposes; providing for consideration of the bill (H.R. 1367) to improve the authority of the Secretary of Veterans Affairs to hire and retain physicians and other employees of the Department of Veterans Affairs, and for other purposes; and providing for consideration of the bill (H.R. 1181) to amend title 38, United States Code, to clarify the conditions under which certain persons may be treated as adjudicated mentally incompetent for certain purposes.",
+      "introduced": "2017-03-15",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-03-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/198",
+      "stages": {
+       "reported": "2017-03-15",
+       "house": "2017-03-16"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "175",
+      "title": "Providing for consideration of the bill (H.R. 725) to amend title 28, United States Code, to prevent fraudulent joinder.",
+      "introduced": "2017-03-07",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-03-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/175",
+      "stages": {
+       "reported": "2017-03-07",
+       "house": "2017-03-08"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1132",
+      "title": "Political Appointee Burrowing Prevention Act",
+      "introduced": "2017-02-16",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 673.",
+      "latestActionDate": "2018-11-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1132",
+      "stages": {
+       "reported": "2017-12-05",
+       "house": "2018-03-06"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "725",
+      "title": "Innocent Party Protection Act",
+      "introduced": "2017-01-30",
+      "policyArea": "Law",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
+      "latestActionDate": "2017-03-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/725",
+      "stages": {
+       "reported": "2017-02-24",
+       "house": "2017-03-09"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "71",
+      "title": "Providing for consideration of the joint resolution (H.J. Res. 41) providing for congressional disapproval under chapter 8 of title 5, United States Code, of a rule submitted by the Securities and Exchange Commission relating to \"Disclosure of Payments by Resource Extraction Issuers\", and providing for consideration of the joint resolution (H.J. Res. 40) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Social Security Administration relating to Implementation of the NICS Improvement Amendments Act of 2007.",
+      "introduced": "2017-01-30",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2017-02-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/71",
+      "stages": {
+       "reported": "2017-01-30",
+       "house": "2017-02-01"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "519",
+      "title": "Water and Agriculture Tax Reform Act of 2018",
+      "introduced": "2017-01-13",
+      "policyArea": "Taxation",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Finance.",
+      "latestActionDate": "2018-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/519",
+      "stages": {
+       "reported": "2018-07-23",
+       "house": "2018-07-24"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 5,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "862",
+      "title": "READ IT Resolution",
+      "introduced": "2018-04-27",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2018-04-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/862",
+      "stages": {},
+      "sponsor": {
+       "id": "G000580",
+       "name": "Thomas Garrett",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5617",
+      "title": "No Enforcement, No Grant for Sanctuary Cities Act of 2018",
+      "introduced": "2018-04-25",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2018-05-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5617",
+      "stages": {},
+      "sponsor": {
+       "id": "D000625",
+       "name": "Daniel Donovan",
+       "party": "R",
+       "state": "NY"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4170",
+      "title": "Disclosing Foreign Influence Act",
+      "introduced": "2017-10-31",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Ordered to be Reported (Amended) by the Yeas and Nays: 15 - 6.",
+      "latestActionDate": "2018-01-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4170",
+      "stages": {},
+      "sponsor": {
+       "id": "J000299",
+       "name": "Mike Johnson",
+       "party": "R",
+       "state": "LA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3139",
+      "title": "Hearing Protection Act of 2017",
+      "introduced": "2017-06-29",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2017-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3139",
+      "stages": {},
+      "sponsor": {
+       "id": "K000362",
+       "name": "Steve King",
+       "party": "R",
+       "state": "IA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2654",
+      "title": "Adjusting Davis-Bacon for Inflation Act",
+      "introduced": "2017-05-25",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2017-05-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2654",
+      "stages": {},
+      "sponsor": {
+       "id": "D000615",
+       "name": "Jeff Duncan",
+       "party": "R",
+       "state": "SC"
+      },
+      "originalCosponsors": 5
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 144,
+    "becameLaw": 7,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 19
+     },
+     {
+      "name": "International Affairs",
+      "count": 15
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 14
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 13
+     },
+     {
+      "name": "Immigration",
+      "count": 13
+     }
+    ]
+   }
+  },
+  "L000564": {
+   "sponsored": {
+    "count": 18,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "International Affairs",
+      "count": 5
+     },
+     {
+      "name": "Science, Technology, Communications",
+      "count": 3
+     },
+     {
+      "name": "Arts, Culture, Religion",
+      "count": 2
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 2
+     },
+     {
+      "name": "Water Resources Development",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6451",
+      "title": "UNRWA Reform and Refugee Support Act of 2018",
+      "introduced": "2018-07-19",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2018-07-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6451",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "671",
+      "title": "Expressing strong disapproval of the adoption of United Nations General Assembly Resolution A/ES-10/L.22, which rejects United States recognition of Jerusalem as the capital of Israel.",
+      "introduced": "2017-12-21",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2017-12-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/671",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "637",
+      "title": "Expressing the sense of the House of Representatives that the symbols and traditions of Christmas should be protected for use by those who celebrate Christmas.",
+      "introduced": "2017-11-30",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2017-11-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/637",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4457",
+      "title": "Veterans Empowerment Act",
+      "introduced": "2017-11-21",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2017-12-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4457",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4033",
+      "title": "National Geologic Mapping Act Reauthorization Act",
+      "introduced": "2017-10-12",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2018-11-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4033",
+      "stages": {
+       "reported": "2018-01-12",
+       "house": "2018-11-13"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3281",
+      "title": "Reclamation Title Transfer and Non-Federal Infrastructure Incentivization Act",
+      "introduced": "2017-07-18",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2018-07-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3281",
+      "stages": {
+       "reported": "2017-09-27",
+       "house": "2018-07-12"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "376",
+      "title": "Expressing support for designation of July 2, 2017, as the \"National Day of Personal Reflection and Repentance\".",
+      "introduced": "2017-06-06",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2017-06-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/376",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1967",
+      "title": "Bureau of Reclamation Pumped Storage Hydropower Development Act",
+      "introduced": "2017-04-06",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Message on Senate action sent to the House.",
+      "latestActionDate": "2018-12-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1967",
+      "stages": {
+       "reported": "2017-06-02",
+       "house": "2017-06-27",
+       "senate": "2018-12-22"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1164",
+      "title": "Taylor Force Act",
+      "introduced": "2017-02-16",
+      "policyArea": "International Affairs",
+      "latestAction": "Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 278.",
+      "latestActionDate": "2017-12-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1164",
+      "stages": {
+       "house": "2017-12-05"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "835",
+      "title": "To update the map of, and modify the maximum acreage available for inclusion in, the Florissant Fossil Beds National Monument.",
+      "introduced": "2017-02-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2018-03-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/835",
+      "stages": {
+       "reported": "2018-02-26",
+       "house": "2018-03-19"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "727",
+      "title": "To amend the Communications Act of 1934 to prohibit Federal funding for the Corporation for Public Broadcasting after fiscal year 2019.",
+      "introduced": "2017-01-30",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Communications and Technology.",
+      "latestActionDate": "2017-02-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/727",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "726",
+      "title": "To prohibit Federal funding of National Public Radio and the use of Federal funds to acquire radio content.",
+      "introduced": "2017-01-30",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Communications and Technology.",
+      "latestActionDate": "2017-02-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/726",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "618",
+      "title": "Crags, Colorado Land Exchange Act of 2017",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 69.",
+      "latestActionDate": "2017-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/618",
+      "stages": {
+       "house": "2017-02-06"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "611",
+      "title": "VA Accountability First and Appeals Modernization Act of 2017",
+      "introduced": "2017-01-23",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Economic Opportunity.",
+      "latestActionDate": "2017-02-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/611",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "524",
+      "title": "End Trafficking of the Terminated Unborn Act of 2017",
+      "introduced": "2017-01-13",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2017-01-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/524",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "264",
+      "title": "United Nations Review and Accounting Act",
+      "introduced": "2017-01-04",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2017-01-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/264",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "263",
+      "title": "United States Sovereignty and Commercial Freedom Act",
+      "introduced": "2017-01-04",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2017-01-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/263",
+      "stages": {}
+     },
+     {
+      "type": "HJRES",
+      "number": "16",
+      "title": "Disapproving a rule submitted by the Department of the Interior known as the \"Stream Protection Rule\".",
+      "introduced": "2017-01-04",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2017-01-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-joint-resolution/16",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "C001077": {
+   "sponsored": {
+    "count": 26,
+    "becameLaw": 3,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 11
+     },
+     {
+      "name": "Immigration",
+      "count": 4
+     },
+     {
+      "name": "Foreign Trade and International Finance",
+      "count": 2
+     },
+     {
+      "name": "International Affairs",
+      "count": 2
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "7064",
+      "title": "Fair Environmental Trade Agreements Act of 2018",
+      "introduced": "2018-10-16",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2018-10-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/7064",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6926",
+      "title": "Pilot Act of 2018",
+      "introduced": "2018-09-27",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2018-09-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6926",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6794",
+      "title": "Immigration Innovation Act of 2018",
+      "introduced": "2018-09-13",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Committee on the Judiciary, and in addition to the Committee on Education and the Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2018-09-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6794",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6713",
+      "title": "Safe to Tell Act of 2018",
+      "introduced": "2018-09-06",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2018-09-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6713",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6696",
+      "title": "TPS Extension Act of 2018",
+      "introduced": "2018-09-04",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2018-10-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6696",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6573",
+      "title": "To require a determination on designation of the Russian Federation as a state sponsor of terrorism.",
+      "introduced": "2018-07-26",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2018-07-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6573",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6393",
+      "title": "21st Century Internet Act",
+      "introduced": "2018-07-17",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2018-07-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6393",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5792",
+      "title": "To designate the facility of the United States Postal Service located at 90 North 4th Avenue in Brighton, Colorado, as the \"Detective Heath McDonald Gumm Post Office\".",
+      "introduced": "2018-05-15",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Became Public Law No: 115-360.",
+      "latestActionDate": "2018-12-21",
+      "law": "115-360",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5792",
+      "stages": {
+       "house": "2018-09-28",
+       "senate": "2018-12-12",
+       "president": "2018-12-21",
+       "law": "2018-12-21"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5791",
+      "title": "To designate the facility of the United States Postal Service located at 9609 South University Boulevard in Highlands Ranch, Colorado, as the \"Deputy Sheriff Zackari Spurlock Parrish, III, Post Office Building\".",
+      "introduced": "2018-05-15",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Became Public Law No: 115-359.",
+      "latestActionDate": "2018-12-21",
+      "law": "115-359",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5791",
+      "stages": {
+       "house": "2018-09-28",
+       "senate": "2018-12-12",
+       "president": "2018-12-21",
+       "law": "2018-12-21"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5191",
+      "title": "To amend title 38, United States Code, to direct the Secretary of Veterans Affairs to establish Alzheimer's Disease research, education, and clinical centers.",
+      "introduced": "2018-03-07",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2018-03-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5191",
+      "stages": {}
+     },
+     {
+      "type": "HJRES",
+      "number": "127",
+      "title": "Pay Our Military Continuing Appropriations Resolution, 2018",
+      "introduced": "2018-01-19",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Appropriations.",
+      "latestActionDate": "2018-01-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-joint-resolution/127",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4750",
+      "title": "TPS Act",
+      "introduced": "2018-01-10",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2018-01-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4750",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4635",
+      "title": "To direct the Secretary of Veterans Affairs to increase the number of peer-to-peer counselors providing counseling for women veterans, and for other purposes.",
+      "introduced": "2017-12-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+      "latestActionDate": "2018-06-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4635",
+      "stages": {
+       "reported": "2018-05-18",
+       "house": "2018-06-13"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4099",
+      "title": "To amend title 38, United States Code, to ensure that children of homeless veterans are included in the calculation of the amounts of certain per diem grants.",
+      "introduced": "2017-10-24",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2017-10-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4099",
+      "stages": {}
+     },
+     {
+      "type": "HJRES",
+      "number": "118",
+      "title": "Authorization for Use of Military Force Against al-Qaeda, the Taliban, and the Islamic State of Iraq and Syria",
+      "introduced": "2017-10-12",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2017-10-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-joint-resolution/118",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3673",
+      "title": "Protecting Against Tyranny and Responsible Imports Act (PATRIA) of 2017",
+      "introduced": "2017-09-05",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2017-09-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3673",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3379",
+      "title": "EARN IT Act",
+      "introduced": "2017-07-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2017-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3379",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2802",
+      "title": "First-Time Homebuyer Savings Account Act of 2017",
+      "introduced": "2017-06-07",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2017-06-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2802",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2773",
+      "title": "To authorize the Secretary of Veterans Affairs to sell Pershing Hall.",
+      "introduced": "2017-06-06",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Committee Hearings Held.",
+      "latestActionDate": "2017-10-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2773",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2652",
+      "title": "Veteran Overmedication Prevention Act of 2017",
+      "introduced": "2017-05-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-05-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2652",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2549",
+      "title": "GI Bill Processing Improvement Act",
+      "introduced": "2017-05-19",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Economic Opportunity.",
+      "latestActionDate": "2017-05-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2549",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2147",
+      "title": "Veterans Treatment Court Improvement Act of 2018",
+      "introduced": "2017-04-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Became Public Law No: 115-240.",
+      "latestActionDate": "2018-09-17",
+      "law": "115-240",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2147",
+      "stages": {
+       "reported": "2018-05-18",
+       "house": "2018-06-13",
+       "senate": "2018-08-22",
+       "president": "2018-09-05",
+       "law": "2018-09-17"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2006",
+      "title": "VA Procurement Efficiency and Transparency Act",
+      "introduced": "2017-04-06",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+      "latestActionDate": "2017-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2006",
+      "stages": {
+       "reported": "2017-07-24",
+       "house": "2017-07-24"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1445",
+      "title": "VREASA",
+      "introduced": "2017-03-09",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-03-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1445",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "918",
+      "title": "Veteran Urgent Access to Mental Healthcare Act",
+      "introduced": "2017-02-07",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+      "latestActionDate": "2017-11-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/918",
+      "stages": {
+       "reported": "2017-11-06",
+       "house": "2017-11-07"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "496",
+      "title": "BRIDGE Act",
+      "introduced": "2017-01-12",
+      "policyArea": "Immigration",
+      "latestAction": "Motion to Discharge Committee filed by Mr. Coffman. Petition No: 115-4. (<a href=\"http://clerk.house.gov/115/lrc/pd/petitions/DisPet0004.xml\">Discharge petition</a> text with signatures.)",
+      "latestActionDate": "2017-09-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/496",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  }
+ }
+}

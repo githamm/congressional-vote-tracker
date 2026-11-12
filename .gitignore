@@ -5,3 +5,6 @@
 # Python / macOS clutter
 __pycache__/
 .DS_Store
+
+# Backfill run log (backfill.py)
+backfill.log

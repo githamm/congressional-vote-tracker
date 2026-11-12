@@ -1,0 +1,4206 @@
+{
+ "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
+ "congress": 108,
+ "updated": "2026-11-12",
+ "members": {
+  "D000197": {
+   "sponsored": {
+    "count": 10,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 3
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 2
+     },
+     {
+      "name": "Commemorations",
+      "count": 2
+     },
+     {
+      "name": "Agriculture and Food",
+      "count": 2
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "826",
+      "title": "Expressing the sense of the House of Representatives that Pasqualine J. Gibbons of Denver, Colorado, an African American woman who valiantly served her country in the Army Air Corps during World War II, was unfairly passed over for promotion and should have held the grade of technical sergeant, rather than private first class, upon her discharge from the service on January 2, 1946.",
+      "introduced": "2004-10-06",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2004-10-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/826",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5176",
+      "title": "To amend the Rocky Mountain Arsenal National Wildlife Refuge Act of 1992 to rename the Rocky Mountain Arsenal National Wildlife Refuge as the Pat Schroeder National Wildlife Refuge.",
+      "introduced": "2004-09-29",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Fisheries Conservation, Wildlife and Oceans.",
+      "latestActionDate": "2004-11-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5176",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "408",
+      "title": "Congratulating the University of Denver men's hockey team for winning the 2004 NCAA men's hockey national championship, and for other purposes.",
+      "introduced": "2004-04-21",
+      "policyArea": "Commemorations",
+      "latestAction": "Received in the Senate and referred to the Committee on the Judiciary.",
+      "latestActionDate": "2004-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/408",
+      "stages": {
+       "house": "2004-05-04"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3594",
+      "title": "Protection for Participants in Research Act of 2003",
+      "introduced": "2003-11-21",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2003-12-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3594",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3547",
+      "title": "SAFER Meat, Poultry, and Food Act",
+      "introduced": "2003-11-20",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2003-12-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3547",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3546",
+      "title": "Meat and Poultry Products Traceability and Safety Act of 2003",
+      "introduced": "2003-11-20",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Livestock and Horticulture.",
+      "latestActionDate": "2003-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3546",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3293",
+      "title": "Prevent Prematurity and Improve Child Health Act of 2003",
+      "introduced": "2003-10-15",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2003-10-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3293",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2305",
+      "title": "Colorado Wilderness Act of 2003",
+      "introduced": "2003-06-03",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from USDA, Interior.",
+      "latestActionDate": "2003-06-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2305",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1916",
+      "title": "Diabetes Prevention Access and Care Act",
+      "introduced": "2003-05-01",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2003-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1916",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1444",
+      "title": "Child Abuse Accountability Enhancement Act",
+      "introduced": "2003-03-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2003-03-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1444",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 10,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HCONRES",
+      "number": "499",
+      "title": "Recognizing the 40th anniversary of the Latin American Research and Service Agency and commending the directors and staff of that organization for addressing the needs and concerns of Latino and Hispanic Americans.",
+      "introduced": "2004-09-23",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Government Reform.",
+      "latestActionDate": "2004-09-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/499",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4976",
+      "title": "To amend title 10, United States Code, to require emergency contraception to be included on the uniform formulary of pharmaceutical agents of the pharmacy benefits program of the Department of Defense.",
+      "introduced": "2004-07-22",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2004-07-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4976",
+      "stages": {},
+      "sponsor": {
+       "id": "M001149",
+       "name": "Michael Michaud",
+       "party": "D",
+       "state": "ME"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4076",
+      "title": "Toxic Flame Retardant Prohibition Act",
+      "introduced": "2004-03-30",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Environment and Hazardous Materials.",
+      "latestActionDate": "2004-04-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4076",
+      "stages": {},
+      "sponsor": {
+       "id": "S001153",
+       "name": "HILDA SOLIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "3758",
+      "title": "Flu Protection Act of 2004",
+      "introduced": "2004-02-03",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2004-02-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3758",
+      "stages": {},
+      "sponsor": {
+       "id": "E000287",
+       "name": "Rahm Emanuel",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3719",
+      "title": "Freedom of Choice Act",
+      "introduced": "2004-01-21",
+      "policyArea": "Civil Rights and Liberties, Minority Issues",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2004-03-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3719",
+      "stages": {},
+      "sponsor": {
+       "id": "N000002",
+       "name": "JERROLD NADLER",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3194",
+      "title": "Diabetes Self-Management Training Act of 2003",
+      "introduced": "2003-09-25",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2003-10-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3194",
+      "stages": {},
+      "sponsor": {
+       "id": "W000268",
+       "name": "CURT WELDON",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HCONRES",
+      "number": "186",
+      "title": "Expressing the sense of Congress that the proposed recommendations of the National Public Health Initiative on Diabetes and Women's Health should be funded and implemented by the appropriate agencies and organizations.",
+      "introduced": "2003-05-20",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2003-06-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/186",
+      "stages": {},
+      "sponsor": {
+       "id": "N000051",
+       "name": "GEORGE NETHERCUTT",
+       "party": "R",
+       "state": "WA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1260",
+      "title": "Animal Drug User Fee Act of 2003",
+      "introduced": "2003-03-13",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2003-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1260",
+      "stages": {
+       "reported": "2003-09-30",
+       "house": "2003-10-01"
+      },
+      "sponsor": {
+       "id": "U000031",
+       "name": "FRED UPTON",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "801",
+      "title": "Cloning Prohibition Act of 2003",
+      "introduced": "2003-02-13",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2003-02-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/801",
+      "stages": {},
+      "sponsor": {
+       "id": "G000439",
+       "name": "JAMES GREENWOOD",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "151",
+      "title": "To elevate the position of Director of the Indian Health Service within the Department of Health and Human Services to Assist Secretary for Indian Health, and for other purposes.",
+      "introduced": "2003-01-07",
+      "policyArea": "Native Americans",
+      "latestAction": "Committee Hearings Held.",
+      "latestActionDate": "2003-10-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/151",
+      "stages": {},
+      "sponsor": {
+       "id": "N000051",
+       "name": "GEORGE NETHERCUTT",
+       "party": "R",
+       "state": "WA"
+      },
+      "originalCosponsors": 3
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 189,
+    "becameLaw": 11,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 41
+     },
+     {
+      "name": "Commemorations",
+      "count": 20
+     },
+     {
+      "name": "Taxation",
+      "count": 15
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 14
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 13
+     }
+    ]
+   }
+  },
+  "U000038": {
+   "sponsored": {
+    "count": 37,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 9
+     },
+     {
+      "name": "Science, Technology, Communications",
+      "count": 5
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 5
+     },
+     {
+      "name": "Commemorations",
+      "count": 3
+     },
+     {
+      "name": "Health",
+      "count": 3
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5370",
+      "title": "To designate the facility of the United States Postal Service located at 4985 Moorhead Avenue in Boulder, Colorado, as the \"Donald G. Brotzman Post Office Building\".",
+      "introduced": "2004-11-16",
+      "policyArea": "Commemorations",
+      "latestAction": "Became Public Law No: 108-477.",
+      "latestActionDate": "2004-12-21",
+      "law": "108-477",
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5370",
+      "stages": {
+       "house": "2004-11-19",
+       "senate": "2004-12-07",
+       "president": "2004-12-10",
+       "law": "2004-12-21"
+      }
+     },
+     {
+      "type": "HCONRES",
+      "number": "499",
+      "title": "Recognizing the 40th anniversary of the Latin American Research and Service Agency and commending the directors and staff of that organization for addressing the needs and concerns of Latino and Hispanic Americans.",
+      "introduced": "2004-09-23",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Government Reform.",
+      "latestActionDate": "2004-09-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/499",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "736",
+      "title": "Recognizing the importance of honoring the Nation's children and expressing the sense of the House of Representatives that National Children's Day should be established.",
+      "introduced": "2004-07-21",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2004-09-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/736",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "682",
+      "title": "Supporting the goals and ideas of National Time Out Day to promote the adoption of the Joint Commission on Accreditation of Healthcare Organization's universal protocol for preventing errors in the operating room.",
+      "introduced": "2004-06-18",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2004-07-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/682",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "456",
+      "title": "Recognizing that prevention of suicide is a compelling national priority.",
+      "introduced": "2004-06-17",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2004-07-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/456",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4407",
+      "title": "Technology Administration and National Institute of Standards and Technology Act of 2004",
+      "introduced": "2004-05-19",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Environment, Technology, and Standards.",
+      "latestActionDate": "2004-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4407",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4017",
+      "title": "Western Waters and Farm Lands Protection Act",
+      "introduced": "2004-03-23",
+      "policyArea": "Energy",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2004-03-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4017",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "550",
+      "title": "Expressing the sense of the House of Representatives relating to the extraordinary contributions resulting from the Hubble Space Telescope to scientific research and education, and to the need to reconsider future service missions to the Hubble Space Telescope.",
+      "introduced": "2004-03-03",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Science.",
+      "latestActionDate": "2004-03-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/550",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3843",
+      "title": "Rocky Flats Special Exposure Cohort Act",
+      "introduced": "2004-02-25",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2004-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3843",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3698",
+      "title": "Western Waters and Surface Owners Protection Act",
+      "introduced": "2003-12-08",
+      "policyArea": "Energy",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E431)",
+      "latestActionDate": "2004-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3698",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3303",
+      "title": "Rocky Flats Minerals Acquisition Act",
+      "introduced": "2003-10-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2003-10-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3303",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3133",
+      "title": "Freedom to Establish State High Air Quality (FrESH AIR Quality) Act",
+      "introduced": "2003-09-17",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality.",
+      "latestActionDate": "2003-10-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3133",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2981",
+      "title": "American Indian Trust Fund Management Reform Act Amendments Act of 2003",
+      "introduced": "2003-07-25",
+      "policyArea": "Native Americans",
+      "latestAction": "Referred to the House Committee on Resources.",
+      "latestActionDate": "2003-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2981",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2908",
+      "title": "American Manufacturing Works Act of 2003",
+      "introduced": "2003-07-25",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Environment, Technology, and Standards.",
+      "latestActionDate": "2003-09-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2908",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2788",
+      "title": "Small Business Telework Act",
+      "introduced": "2003-07-17",
+      "policyArea": "Commerce",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E1514)",
+      "latestActionDate": "2003-07-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2788",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2653",
+      "title": "Rocky Flats Minerals Acquisition Act",
+      "introduced": "2003-06-26",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2003-07-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2653",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2201",
+      "title": "National War Permanent Tribute Historical Database Act",
+      "introduced": "2003-05-21",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2004-05-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2201",
+      "stages": {
+       "reported": "2004-05-17",
+       "house": "2004-05-17"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2200",
+      "title": "Environmental Justice Act of 2003",
+      "introduced": "2003-05-21",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment and Hazardous Materials.",
+      "latestActionDate": "2003-06-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2200",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "189",
+      "title": "Celebrating the 50th anniversary of the International Geophysical Year (IGY) and supporting an International Geophysical Year-2 (IGY-2) in 2007-08.",
+      "introduced": "2003-05-21",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Received in the Senate and referred to the Committee on Commerce, Science, and Transportation.",
+      "latestActionDate": "2004-03-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/189",
+      "stages": {
+       "reported": "2004-02-18",
+       "house": "2004-03-24"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1641",
+      "title": "Passenger Van Safety Act of 2003",
+      "introduced": "2003-04-03",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Commerce, Trade and Consumer Protection.",
+      "latestActionDate": "2003-04-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1641",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1640",
+      "title": "To amend the Internal Revenue Code of 1986 to allow a married couple who operates an unincorporated business as co-owners to file separate returns for purposes of the self-employment tax, and for other purposes.",
+      "introduced": "2003-04-03",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-04-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1640",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1639",
+      "title": "R.S. 2477 Rights-of-Way Act of 2003",
+      "introduced": "2003-04-03",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2003-04-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1639",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1578",
+      "title": "Global Change Research and Data Management Act of 2003",
+      "introduced": "2003-04-02",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Motion to Report Measure Defeated by the Yeas and Nays: 18 - 23.",
+      "latestActionDate": "2003-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1578",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1293",
+      "title": "Family Farm and Ranch Innovation Act of 2003",
+      "introduced": "2003-03-13",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Unfavorable Executive Comment Received from USDA.",
+      "latestActionDate": "2004-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1293",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1292",
+      "title": "Remote Sensing Applications Act of 2004",
+      "introduced": "2003-03-13",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 243.",
+      "latestActionDate": "2004-02-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1292",
+      "stages": {
+       "reported": "2004-02-18"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1291",
+      "title": "State High Risk Pool Drug Assistance Program Act of 2003",
+      "introduced": "2003-03-13",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2003-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1291",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1042",
+      "title": "Forest Restoration and Fire Risk Reduction Act",
+      "introduced": "2003-02-27",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from USDA.",
+      "latestActionDate": "2003-03-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1042",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1041",
+      "title": "Distributed Power Hybrid Energy Act",
+      "introduced": "2003-02-27",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy.",
+      "latestActionDate": "2003-03-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1041",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "751",
+      "title": "Responsible Off-Road Vehicle Enforcement and Response Act",
+      "introduced": "2003-02-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E1742)",
+      "latestActionDate": "2004-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/751",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "750",
+      "title": "Colorado Northern Front Range Mountain Backdrop Protection Study Act",
+      "introduced": "2003-02-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from USDA.",
+      "latestActionDate": "2003-02-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/750",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "749",
+      "title": "Cooperative Landscape Conservation Act",
+      "introduced": "2003-02-12",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2003-02-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/749",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "748",
+      "title": "Urban Sprawl and Smart Growth Study Act",
+      "introduced": "2003-02-12",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Executive Comment Requested from CEQ.",
+      "latestActionDate": "2003-02-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/748",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "641",
+      "title": "Federal Laboratory Educational Partners Act of 2003",
+      "introduced": "2003-02-05",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Environment, Technology, and Standards.",
+      "latestActionDate": "2003-02-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/641",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "640",
+      "title": "Rocky Mountain National Park Wilderness Act",
+      "introduced": "2003-02-05",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2003-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/640",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "639",
+      "title": "To amend the Act of March 3, 1875, to permit the State of Colorado to use land held in trust by the State as open space, and for other purposes.",
+      "introduced": "2003-02-05",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Recreation and Public Lands.",
+      "latestActionDate": "2003-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/639",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "638",
+      "title": "International Environmental Defense Act of 2003",
+      "introduced": "2003-02-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2003-02-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/638",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "504",
+      "title": "Abandoned Hardrock Mines Reclamation Act",
+      "introduced": "2003-01-29",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2003-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/504",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 14,
+    "becameLaw": 1,
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "826",
+      "title": "Expressing the sense of the House of Representatives that Pasqualine J. Gibbons of Denver, Colorado, an African American woman who valiantly served her country in the Army Air Corps during World War II, was unfairly passed over for promotion and should have held the grade of technical sergeant, rather than private first class, upon her discharge from the service on January 2, 1946.",
+      "introduced": "2004-10-06",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2004-10-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/826",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "782",
+      "title": "Affirming the commitments made by the United States at the World Summit on Sustainable Development in Johannesburg, South Africa, to improve worldwide access to safe drinking water and basic sanitation services.",
+      "introduced": "2004-09-21",
+      "policyArea": "International Affairs",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H7581)",
+      "latestActionDate": "2004-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/782",
+      "stages": {},
+      "sponsor": {
+       "id": "B000574",
+       "name": "EARL BLUMENAUER",
+       "party": "D",
+       "state": "OR"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4946",
+      "title": "United States Court of Federal Claims Termination Act of 2004",
+      "introduced": "2004-07-22",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, the Internet, and Intellectual Property.",
+      "latestActionDate": "2004-08-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4946",
+      "stages": {},
+      "sponsor": {
+       "id": "H000444",
+       "name": "JOEL HEFLEY",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HCONRES",
+      "number": "480",
+      "title": "Recognizing the spirit of Jacob Mock Doub and his contribution to encouraging youth to be physically active and fit and expressing the sense of Congress that \"National Take a Kid Mountain Biking Day\" should be established in Jacob Mock Doub's honor.",
+      "introduced": "2004-07-22",
+      "policyArea": "Commemorations",
+      "latestAction": "Received in the Senate.",
+      "latestActionDate": "2004-10-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/480",
+      "stages": {
+       "house": "2004-10-05"
+      },
+      "sponsor": {
+       "id": "B001135",
+       "name": "Richard Burr",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4732",
+      "title": "Federal Whistleblower Protection Tax Act of 2004",
+      "introduced": "2004-06-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2004-06-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4732",
+      "stages": {},
+      "sponsor": {
+       "id": "G000549",
+       "name": "Jim Gerlach",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4443",
+      "title": "To amend the National Historic Preservation Act to extend the authorization of appropriations for the historic preservation fund.",
+      "introduced": "2004-05-20",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Recreation and Public Lands.",
+      "latestActionDate": "2004-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4443",
+      "stages": {},
+      "sponsor": {
+       "id": "H000444",
+       "name": "JOEL HEFLEY",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3598",
+      "title": "Manufacturing Technology Competitiveness Act of 2004",
+      "introduced": "2003-11-21",
+      "policyArea": "Commerce",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "latestActionDate": "2004-07-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3598",
+      "stages": {
+       "reported": "2004-07-01",
+       "house": "2004-07-09"
+      },
+      "sponsor": {
+       "id": "E000092",
+       "name": "VERNON EHLERS",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3247",
+      "title": "TRAIL Act",
+      "introduced": "2003-10-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate.",
+      "latestActionDate": "2004-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3247",
+      "stages": {
+       "reported": "2004-05-20",
+       "house": "2004-09-28"
+      },
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2766",
+      "title": "Arapaho and Roosevelt National Forests Land Exchange Act of 2003",
+      "introduced": "2003-07-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2003-11-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2766",
+      "stages": {
+       "reported": "2003-10-28",
+       "house": "2003-11-04"
+      },
+      "sponsor": {
+       "id": "B001240",
+       "name": "Bob Beauprez",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1461",
+      "title": "Clean School Buses Act",
+      "introduced": "2003-03-27",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Energy.",
+      "latestActionDate": "2003-03-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1461",
+      "stages": {},
+      "sponsor": {
+       "id": "B000586",
+       "name": "SHERWOOD BOEHLERT",
+       "party": "R",
+       "state": "NY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1038",
+      "title": "Public Lands Fire Regulations Enforcement Act of 2003",
+      "introduced": "2003-02-27",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 156.",
+      "latestActionDate": "2003-09-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1038",
+      "stages": {
+       "reported": "2003-07-17"
+      },
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "991",
+      "title": "Renewable Fuel Equity Act",
+      "introduced": "2003-02-27",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-02-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/991",
+      "stages": {},
+      "sponsor": {
+       "id": "H000981",
+       "name": "DUNCAN HUNTER",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "421",
+      "title": "Environmental Policy and Conflict Resolution Advancement Act of 2003",
+      "introduced": "2003-01-28",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Became Public Law No: 108-160.",
+      "latestActionDate": "2003-12-06",
+      "law": "108-160",
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/421",
+      "stages": {
+       "reported": "2003-11-17",
+       "house": "2003-11-19",
+       "senate": "2003-11-21",
+       "president": "2003-11-26",
+       "law": "2003-12-06"
+      },
+      "sponsor": {
+       "id": "K000306",
+       "name": "JIM KOLBE",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "250",
+      "title": "Peace Corps Charter for the 21st Century Act",
+      "introduced": "2003-01-08",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2003-01-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/250",
+      "stages": {},
+      "sponsor": {
+       "id": "F000030",
+       "name": "SAM FARR",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 2
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 364,
+    "becameLaw": 16,
+    "topics": [
+     {
+      "name": "Commemorations",
+      "count": 50
+     },
+     {
+      "name": "Health",
+      "count": 34
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 31
+     },
+     {
+      "name": "Taxation",
+      "count": 31
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 30
+     }
+    ]
+   }
+  },
+  "M000477": {
+   "sponsored": {
+    "count": 23,
+    "becameLaw": 2,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 6
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 6
+     },
+     {
+      "name": "Commemorations",
+      "count": 2
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 2
+     },
+     {
+      "name": "Health",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5266",
+      "title": "To amend the Internal Revenue Code of 1986 to encourage investment in facilities which use woody biomass to produce electricity.",
+      "introduced": "2004-10-07",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2004-10-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5266",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5142",
+      "title": "Pitkin County Land Exchange Act of 2004",
+      "introduced": "2004-09-23",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the House Committee on Resources.",
+      "latestActionDate": "2004-09-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5142",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5052",
+      "title": "To designate the facility of the United States Postal Service located at 222 West 8th Street in Durango, Colorado, as the \"Ben Nighthorse Campbell Post Office Building\".",
+      "introduced": "2004-09-09",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Government Reform.",
+      "latestActionDate": "2004-09-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5052",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5051",
+      "title": "To designate the facility of the United States Postal Service located at 1001 Williams Street in Ignacio, Colorado, as the \"Leonard C. Burch Post Office Building\".",
+      "introduced": "2004-09-09",
+      "policyArea": "Commemorations",
+      "latestAction": "Became Public Law No: 108-404.",
+      "latestActionDate": "2004-10-30",
+      "law": "108-404",
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5051",
+      "stages": {
+       "house": "2004-10-06",
+       "senate": "2004-10-10",
+       "president": "2004-10-19",
+       "law": "2004-10-30"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4700",
+      "title": "White River National Forest Improvement Act of 2004",
+      "introduced": "2004-06-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Forests and Forest Health.",
+      "latestActionDate": "2004-07-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4700",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "454",
+      "title": "Commemorating over half a century of adjudication under the McCarran Amendment of rights to the use of water.",
+      "introduced": "2004-06-17",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2004-06-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/454",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3777",
+      "title": "Help Establish Access to Local Timely Healthcare for Your Vets (HEALTHY Vets) Act of 2004",
+      "introduced": "2004-02-04",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2004-04-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3777",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3704",
+      "title": "HEALTH Care Act of 2004",
+      "introduced": "2004-01-20",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2004-01-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3704",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3121",
+      "title": "To override the income tax treaty with Barbados.",
+      "introduced": "2003-09-17",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3121",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2955",
+      "title": "Rio Grande Outstanding Natural Area Act",
+      "introduced": "2003-07-25",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Recreation and Public Lands.",
+      "latestActionDate": "2003-07-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2955",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2835",
+      "title": "Pilot Project, Good Samaritan Provision for Abandoned and Inactive Mined Land Remediation Act",
+      "introduced": "2003-07-23",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2003-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2835",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2057",
+      "title": "Chronic Wasting Disease Support for States Act of 2003",
+      "introduced": "2003-05-09",
+      "policyArea": "Animals",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2003-06-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2057",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2056",
+      "title": "Strategic Materials Act of 2003",
+      "introduced": "2003-05-09",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2003-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2056",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1904",
+      "title": "Healthy Forests Restoration Act of 2003",
+      "introduced": "2003-05-01",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 108-148.",
+      "latestActionDate": "2003-12-03",
+      "law": "108-148",
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1904",
+      "stages": {
+       "reported": "2003-05-09",
+       "house": "2003-05-20",
+       "senate": "2003-10-30",
+       "president": "2003-12-02",
+       "law": "2003-12-03"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1749",
+      "title": "Health Care Parity for Legal Transportation and Recreational Activities Act",
+      "introduced": "2003-04-10",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Employer-Employee Relations.",
+      "latestActionDate": "2003-05-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1749",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1484",
+      "title": "Southern Ute and Colorado Intergovernmental Agreement Implementation Act of 2003",
+      "introduced": "2003-03-27",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality.",
+      "latestActionDate": "2003-04-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1484",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1399",
+      "title": "Black Canyon of the Gunnison National Park and Gunnison Gorge National Conservation Area Boundary Revision Act of 2003",
+      "introduced": "2003-03-20",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2003-10-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1399",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1005",
+      "title": "PILT and Refuge Revenue Sharing Permanent Funding Act",
+      "introduced": "2003-02-27",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2003-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1005",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "830",
+      "title": "Medicare Rural Health Care Preservation Act of 2003",
+      "introduced": "2003-02-13",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health, for a period to be subsequently determined by the Chairman.",
+      "latestActionDate": "2003-02-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/830",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "714",
+      "title": "Small Business and Financial Institutions Tax Relief Act of 2003",
+      "introduced": "2003-02-12",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/714",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "695",
+      "title": "Tamarisk Research and Control Act of 2003",
+      "introduced": "2003-02-11",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Conservation, Credit, Rural Development and Research.",
+      "latestActionDate": "2003-02-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/695",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "478",
+      "title": "Rancher HELP (Help Extend Livestock Proceeds) Act of 2003",
+      "introduced": "2003-01-29",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-01-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/478",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "139",
+      "title": "Permanent Death Tax Repeal Act of 2003",
+      "introduced": "2003-01-07",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-01-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/139",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 14,
+    "becameLaw": 1,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "3247",
+      "title": "TRAIL Act",
+      "introduced": "2003-10-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate.",
+      "latestActionDate": "2004-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3247",
+      "stages": {
+       "reported": "2004-05-20",
+       "house": "2004-09-28"
+      },
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2706",
+      "title": "To clarify the treatment of tax attributes under section 108 of the Internal Revenue Code of 1986 for taxpayers which file consolidated returns.",
+      "introduced": "2003-07-10",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2706",
+      "stages": {},
+      "sponsor": {
+       "id": "M000388",
+       "name": "JIM MCCRERY",
+       "party": "R",
+       "state": "LA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2696",
+      "title": "Southwest Forest Health and Wildfire Prevention Act of 2004",
+      "introduced": "2003-07-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 108-317.",
+      "latestActionDate": "2004-10-05",
+      "law": "108-317",
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2696",
+      "stages": {
+       "reported": "2003-11-21",
+       "house": "2004-02-24",
+       "senate": "2004-09-15",
+       "president": "2004-09-24",
+       "law": "2004-10-05"
+      },
+      "sponsor": {
+       "id": "R000574",
+       "name": "Rick Renzi",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2636",
+      "title": "Chronic Wasting Disease Financial Assistance Act of 2003",
+      "introduced": "2003-06-26",
+      "policyArea": "Animals",
+      "latestAction": "Referred to the Subcommittee on Livestock and Horticulture.",
+      "latestActionDate": "2003-07-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2636",
+      "stages": {},
+      "sponsor": {
+       "id": "G000545",
+       "name": "MARK GREEN",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2102",
+      "title": "To provide a cost-sharing requirement for the construction of the Arkansas Valley Conduit in the State of Colorado.",
+      "introduced": "2003-05-14",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2003-06-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2102",
+      "stages": {},
+      "sponsor": {
+       "id": "M001152",
+       "name": "Marilyn Musgrave",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1896",
+      "title": "Subchapter S Modernization Act of 2003",
+      "introduced": "2003-04-30",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-04-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1896",
+      "stages": {},
+      "sponsor": {
+       "id": "S000303",
+       "name": "E. SHAW",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1814",
+      "title": "Naturalization and Family Protection for Military Members Act of 2003",
+      "introduced": "2003-04-11",
+      "policyArea": "Immigration",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2003-05-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1814",
+      "stages": {},
+      "sponsor": {
+       "id": "S001153",
+       "name": "HILDA SOLIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1791",
+      "title": "To amend the Internal Revenue Code of 1986 to provide an election for a special tax treatment of certain S corporation conversions.",
+      "introduced": "2003-04-11",
+      "policyArea": "Taxation",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E768)",
+      "latestActionDate": "2003-04-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1791",
+      "stages": {},
+      "sponsor": {
+       "id": "C000962",
+       "name": "BARBARA CUBIN",
+       "party": "R",
+       "state": "WY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1550",
+      "title": "To authorize the Secretary of the Interior and the Secretary of Agriculture to make grants to improve the commercial value of forest biomass for electric energy, useful heat, transportation fuels, petroleum-based product substitutes, and other commercial purposes.",
+      "introduced": "2003-04-01",
+      "policyArea": "Energy",
+      "latestAction": "Committee Hearings Held.",
+      "latestActionDate": "2004-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1550",
+      "stages": {},
+      "sponsor": {
+       "id": "R000571",
+       "name": "DENNIS REHBERG",
+       "party": "R",
+       "state": "MT"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HCONRES",
+      "number": "126",
+      "title": "Expressing the sense of the Congress regarding the Earth Liberation Front and ecological terrorism.",
+      "introduced": "2003-03-27",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2003-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/126",
+      "stages": {},
+      "sponsor": {
+       "id": "E000187",
+       "name": "PHIL ENGLISH",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1103",
+      "title": "Air Cargo Security Act",
+      "introduced": "2003-03-05",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2003-03-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1103",
+      "stages": {},
+      "sponsor": {
+       "id": "S001150",
+       "name": "ADAM SCHIFF",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1038",
+      "title": "Public Lands Fire Regulations Enforcement Act of 2003",
+      "introduced": "2003-02-27",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 156.",
+      "latestActionDate": "2003-09-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1038",
+      "stages": {
+       "reported": "2003-07-17"
+      },
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "762",
+      "title": "Reasonable Right-of-Way Fees Act of 2003",
+      "introduced": "2003-02-13",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Committee on Energy and Natural Resources Subcommittee on Public Lands and Forests. Hearings held.",
+      "latestActionDate": "2003-06-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/762",
+      "stages": {
+       "house": "2003-04-01"
+      },
+      "sponsor": {
+       "id": "C000962",
+       "name": "BARBARA CUBIN",
+       "party": "R",
+       "state": "WY"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "81",
+      "title": "Expressing the sense of the House of Representatives that the North Atlantic Treaty Organization must begin to plan steps for the defense of Turkey as requested by that nation.",
+      "introduced": "2003-02-13",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2003-02-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/81",
+      "stages": {},
+      "sponsor": {
+       "id": "B000403",
+       "name": "DOUGLAS BEREUTER",
+       "party": "R",
+       "state": "NE"
+      },
+      "originalCosponsors": 2
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 180,
+    "becameLaw": 14,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 63
+     },
+     {
+      "name": "Health",
+      "count": 17
+     },
+     {
+      "name": "Commemorations",
+      "count": 16
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 13
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 10
+     }
+    ]
+   }
+  },
+  "M001152": {
+   "sponsored": {
+    "count": 12,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Families",
+      "count": 2
+     },
+     {
+      "name": "Taxation",
+      "count": 2
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 1
+     },
+     {
+      "name": "Commemorations",
+      "count": 1
+     },
+     {
+      "name": "International Affairs",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HJRES",
+      "number": "106",
+      "title": "Proposing an amendment to the Constitution of the United States relating to marriage.",
+      "introduced": "2004-09-23",
+      "policyArea": "Families",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2004-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-joint-resolution/106",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4562",
+      "title": "Sand Creek Massacre National Historic Site Trust Act of 2004",
+      "introduced": "2004-06-14",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2004-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4562",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "614",
+      "title": "Supporting the goals of a National Motorcycle Safety and Awareness Month.",
+      "introduced": "2004-04-30",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Highways, Transit and Pipelines.",
+      "latestActionDate": "2004-05-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/614",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "284",
+      "title": "Expressing the sense of Congress that the United States should actively support Taiwan's membership in the United Nations and other international organizations.",
+      "introduced": "2003-09-16",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2003-09-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/284",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2732",
+      "title": "Home School Non-Discrimination Act of 2003",
+      "introduced": "2003-07-15",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2003-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2732",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2672",
+      "title": "To amend title 23, United States Code, to permit voluntary compliance with provisions relating to the rate of wage paid to laborers and mechanics employed on Federal-aid highway projects.",
+      "introduced": "2003-07-09",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2003-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2672",
+      "stages": {}
+     },
+     {
+      "type": "HJRES",
+      "number": "56",
+      "title": "Proposing an amendment to the Constitution of the United States relating to marriage.",
+      "introduced": "2003-05-21",
+      "policyArea": "Families",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2004-05-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-joint-resolution/56",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2102",
+      "title": "To provide a cost-sharing requirement for the construction of the Arkansas Valley Conduit in the State of Colorado.",
+      "introduced": "2003-05-14",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2003-06-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2102",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1489",
+      "title": "Parental Notification and Intervention Act of 2003",
+      "introduced": "2003-03-27",
+      "policyArea": "Civil Rights and Liberties, Minority Issues",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2003-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1489",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "378",
+      "title": "Senior Citizens' Tax Relief Act of 2003",
+      "introduced": "2003-01-27",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-01-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/378",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "377",
+      "title": "To amend the Internal Revenue Code of 1986 to extend the replacement period from 2 to 5 years for livestock sold on account of drought, flood, or other weather-related conditions.",
+      "introduced": "2003-01-27",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-01-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/377",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "376",
+      "title": "Emergency Farmer and Rancher Assistance Act of 2003",
+      "introduced": "2003-01-27",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Executive Comment Requested from USDA.",
+      "latestActionDate": "2003-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/376",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 22,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "4396",
+      "title": "To amend the Fair Labor Standards Act of 1938 to clarify the exemption from the minimum wage and overtime compensation requirements of that Act for certain construction engineering and design professionals.",
+      "introduced": "2004-05-19",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2004-06-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4396",
+      "stages": {},
+      "sponsor": {
+       "id": "D000595",
+       "name": "Jim DeMint",
+       "party": "R",
+       "state": "SC"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4118",
+      "title": "American Justice for American Citizens Act",
+      "introduced": "2004-04-01",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, the Internet, and Intellectual Property.",
+      "latestActionDate": "2004-05-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4118",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4091",
+      "title": "To amend the Internal Revenue Code of 1986 to extend and expand the deduction for certain expenses of elementary and secondary school teachers.",
+      "introduced": "2004-03-31",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2004-03-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4091",
+      "stages": {},
+      "sponsor": {
+       "id": "G000546",
+       "name": "SAM GRAVES",
+       "party": "R",
+       "state": "MO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4034",
+      "title": "National Education Advancement (NEA) and Teacher Relief Act",
+      "introduced": "2004-03-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2004-03-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4034",
+      "stages": {},
+      "sponsor": {
+       "id": "D000595",
+       "name": "Jim DeMint",
+       "party": "R",
+       "state": "SC"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3369",
+      "title": "Nonprofit Athletic Organization Protection Act of 2003",
+      "introduced": "2003-10-21",
+      "policyArea": "Law",
+      "latestAction": "On motion to suspend the rules and pass the bill Failed by the Yeas and Nays: (2/3 required): 217 - 176 (Roll no. 445). (text: CR H7084-7085)",
+      "latestActionDate": "2004-09-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3369",
+      "stages": {
+       "reported": "2004-09-13"
+      },
+      "sponsor": {
+       "id": "S001143",
+       "name": "MARK SOUDER",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3130",
+      "title": "To amend the Head Start Act to require parental consent for nonemergency intrusive physical examinations.",
+      "introduced": "2003-09-17",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2003-10-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3130",
+      "stages": {},
+      "sponsor": {
+       "id": "S001155",
+       "name": "John Sullivan",
+       "party": "R",
+       "state": "OK"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3101",
+      "title": "Thrift Savings Fund Improvement Act",
+      "introduced": "2003-09-16",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Civil Service and Agency Organization.",
+      "latestActionDate": "2003-10-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3101",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2469",
+      "title": "Medicare Reform Act of 2003",
+      "introduced": "2003-06-12",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2003-06-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2469",
+      "stages": {},
+      "sponsor": {
+       "id": "T000459",
+       "name": "LEE TERRY",
+       "party": "R",
+       "state": "NE"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2057",
+      "title": "Chronic Wasting Disease Support for States Act of 2003",
+      "introduced": "2003-05-09",
+      "policyArea": "Animals",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2003-06-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2057",
+      "stages": {},
+      "sponsor": {
+       "id": "M000477",
+       "name": "SCOTT MCINNIS",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1780",
+      "title": "To amend the Internal Revenue Code of 1986 to eliminate the tax on the net capital gain of taxpayers other than corporations, to exclude interest and dividends from gross income, and to repeal the 1993 income tax increase on Social Security benefits.",
+      "introduced": "2003-04-11",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-04-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1780",
+      "stages": {},
+      "sponsor": {
+       "id": "B001240",
+       "name": "Bob Beauprez",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1373",
+      "title": "IDEA Parental Choice Act of 2003",
+      "introduced": "2003-03-20",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2003-04-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1373",
+      "stages": {},
+      "sponsor": {
+       "id": "D000595",
+       "name": "Jim DeMint",
+       "party": "R",
+       "state": "SC"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1038",
+      "title": "Public Lands Fire Regulations Enforcement Act of 2003",
+      "introduced": "2003-02-27",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 156.",
+      "latestActionDate": "2003-09-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1038",
+      "stages": {
+       "reported": "2003-07-17"
+      },
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "994",
+      "title": "Union Member Information Enforcement Act",
+      "introduced": "2003-02-27",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Forwarded by Subcommittee to Full Committee by the Yeas and Nays: 12 - 10.",
+      "latestActionDate": "2003-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/994",
+      "stages": {},
+      "sponsor": {
+       "id": "J000174",
+       "name": "SAM JOHNSON",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "993",
+      "title": "Labor Management Accountability Act",
+      "introduced": "2003-02-27",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Forwarded by Subcommittee to Full Committee by the Yeas and Nays: 12 - 10.",
+      "latestActionDate": "2003-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/993",
+      "stages": {},
+      "sponsor": {
+       "id": "J000174",
+       "name": "SAM JOHNSON",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "992",
+      "title": "Union Members Right-to-Know Act",
+      "introduced": "2003-02-27",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Forwarded by Subcommittee to Full Committee by the Yeas and Nays: 12 - 10.",
+      "latestActionDate": "2003-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/992",
+      "stages": {},
+      "sponsor": {
+       "id": "J000174",
+       "name": "SAM JOHNSON",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "615",
+      "title": "Hope Plus Scholarship Act of 2003",
+      "introduced": "2003-02-05",
+      "policyArea": "Taxation",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E158)",
+      "latestActionDate": "2003-02-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/615",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "612",
+      "title": "Family Education Freedom Act of 2003",
+      "introduced": "2003-02-05",
+      "policyArea": "Taxation",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E1927-1928)",
+      "latestActionDate": "2003-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/612",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "611",
+      "title": "Education Improvement Tax Cut Act",
+      "introduced": "2003-02-05",
+      "policyArea": "Taxation",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E1927-1928)",
+      "latestActionDate": "2003-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/611",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "488",
+      "title": "Terror Immigration Elimination Act of 2003",
+      "introduced": "2003-01-29",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2003-03-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/488",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "483",
+      "title": "Livestock Reinvestment Extension Act of 2003",
+      "introduced": "2003-01-29",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-01-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/483",
+      "stages": {},
+      "sponsor": {
+       "id": "M000934",
+       "name": "Jerry Moran",
+       "party": "R",
+       "state": "KS"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "424",
+      "title": "Senior Citizens Tax Elimination Act",
+      "introduced": "2003-01-28",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Subcommittee on Social Security.",
+      "latestActionDate": "2003-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/424",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "423",
+      "title": "Social Security Beneficiary Tax Reduction Act",
+      "introduced": "2003-01-28",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-01-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/423",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 2
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 323,
+    "becameLaw": 14,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 85
+     },
+     {
+      "name": "Commemorations",
+      "count": 35
+     },
+     {
+      "name": "Health",
+      "count": 35
+     },
+     {
+      "name": "International Affairs",
+      "count": 25
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 20
+     }
+    ]
+   }
+  },
+  "H000444": {
+   "sponsored": {
+    "count": 25,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Commemorations",
+      "count": 4
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 4
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 3
+     },
+     {
+      "name": "Law",
+      "count": 3
+     },
+     {
+      "name": "Taxation",
+      "count": 3
+     }
+    ],
+    "bills": [
+     {
+      "type": "HCONRES",
+      "number": "522",
+      "title": "Expressing the sense of the Congress that the Department of Defense should continue to exercise its statutory authority to support the activities of the Boy Scouts of America, in particular the periodic national and world Boy Scout Jamborees.",
+      "introduced": "2004-11-18",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2004-11-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/522",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4946",
+      "title": "United States Court of Federal Claims Termination Act of 2004",
+      "introduced": "2004-07-22",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, the Internet, and Intellectual Property.",
+      "latestActionDate": "2004-08-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4946",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4831",
+      "title": "Emergency Medical Service Support Act",
+      "introduced": "2004-07-14",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2004-07-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4831",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4691",
+      "title": "To authorize the Secretary of the Interior to engage in a feasibility study relating to long-term water needs for the area served by the Fryingpan-Arkansas Project, Colorado, and for other purposes.",
+      "introduced": "2004-06-24",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2004-07-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4691",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4669",
+      "title": "Ronald Reagan Commemorative Coin Act of 2004",
+      "introduced": "2004-06-23",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Domestic and International Monetary Policy, Trade, and Technology.",
+      "latestActionDate": "2004-06-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4669",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4443",
+      "title": "To amend the National Historic Preservation Act to extend the authorization of appropriations for the historic preservation fund.",
+      "introduced": "2004-05-20",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Recreation and Public Lands.",
+      "latestActionDate": "2004-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4443",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "622",
+      "title": "Supporting the goals and ideals of Peace Officers Memorial Day.",
+      "introduced": "2004-05-04",
+      "policyArea": "Commemorations",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2004-05-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/622",
+      "stages": {
+       "house": "2004-05-11"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4092",
+      "title": "Hospital Billing Fairness Act of 2004",
+      "introduced": "2004-03-31",
+      "policyArea": "Health",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H2398-2399)",
+      "latestActionDate": "2004-04-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4092",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3606",
+      "title": "To amend the Internal Revenue Code of 1986 to eliminate the marriage penalty in the contribution rules for Roth IRAs.",
+      "introduced": "2003-11-21",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-11-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3606",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "231",
+      "title": "Supporting the goals and ideals of Peace Officers Memorial Day.",
+      "introduced": "2003-05-13",
+      "policyArea": "Commemorations",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2003-06-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/231",
+      "stages": {
+       "house": "2003-06-03"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1690",
+      "title": "Ocean Habitat Protection Act",
+      "introduced": "2003-04-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Commerce.",
+      "latestActionDate": "2003-04-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1690",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1476",
+      "title": "To direct the Secretary of Veterans Affairs to establish a national cemetery for veterans in the Colorado Springs, Colorado, metropolitan area.",
+      "introduced": "2003-03-27",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Benefits.",
+      "latestActionDate": "2003-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1476",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1427",
+      "title": "National Heritage Areas Policy Act",
+      "introduced": "2003-03-25",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2003-03-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1427",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "64",
+      "title": "Providing amounts for the expenses of the Committee on Standards of Official Conduct in the One Hundred Eighth Congress.",
+      "introduced": "2003-02-11",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2003-02-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/64",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "575",
+      "title": "Wildfire Response Act of 2003",
+      "introduced": "2003-02-05",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2003-02-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/575",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "362",
+      "title": "National AMBER Alert Network Act of 2003",
+      "introduced": "2003-01-27",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2003-03-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/362",
+      "stages": {}
+     },
+     {
+      "type": "HJRES",
+      "number": "14",
+      "title": "Proposing an amendment to the Constitution of the United States to provide that Federal judges be reconfirmed by the Senate every 10 years.",
+      "introduced": "2003-01-27",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2004-03-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-joint-resolution/14",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "193",
+      "title": "Second Amendment Rights Protection Act of 2003",
+      "introduced": "2003-01-07",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2003-03-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/193",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "119",
+      "title": "Harmful Invasive Weed Control Act",
+      "introduced": "2003-01-07",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior, USDA.",
+      "latestActionDate": "2003-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/119",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "118",
+      "title": "To overrule United States v. Fior D'Italia, Inc.",
+      "introduced": "2003-01-07",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-01-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/118",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "117",
+      "title": "To amend the Internal Revenue Code of 1986 to extend to civilian employees of the Department of Defense serving in combat zones the tax treatment allowed to members of the Armed Forces serving in combat zones.",
+      "introduced": "2003-01-07",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-01-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/117",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "116",
+      "title": "New Fitzsimons Regional Federal Medical Center Act of 2003",
+      "introduced": "2003-01-07",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "See Public Law 108-170.",
+      "latestActionDate": "2003-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/116",
+      "stages": {
+       "reported": "2003-07-14"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "115",
+      "title": "Aviation Biometric Badge Act",
+      "introduced": "2003-01-07",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2003-01-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/115",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "114",
+      "title": "To require that the Secretary of the Interior conduct a study to identify sites and resources, to recommend alternatives for commemorating and interpreting the Cold War, and for other purposes.",
+      "introduced": "2003-01-07",
+      "policyArea": "Commemorations",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2003-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/114",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "112",
+      "title": "To amend title 28, United States Code, to provide for an additional place of holding court in the District of Colorado.",
+      "introduced": "2003-01-07",
+      "policyArea": "Law",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 375.",
+      "latestActionDate": "2004-07-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/112",
+      "stages": {
+       "reported": "2004-07-21"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 10,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "3534",
+      "title": "BE REAL Act of 2003",
+      "introduced": "2003-11-19",
+      "policyArea": "Immigration",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H4754-4758)",
+      "latestActionDate": "2004-06-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3534",
+      "stages": {},
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3263",
+      "title": "To award a congressional gold medal to Lord Robertson of Port Ellen.",
+      "introduced": "2003-10-08",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Domestic and International Monetary Policy, Trade, and Technology.",
+      "latestActionDate": "2003-10-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3263",
+      "stages": {},
+      "sponsor": {
+       "id": "B000403",
+       "name": "DOUGLAS BEREUTER",
+       "party": "R",
+       "state": "NE"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3083",
+      "title": "Country of Origin Labeling Amendment Act of 2003",
+      "introduced": "2003-09-11",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Executive Comment Requested from USDA.",
+      "latestActionDate": "2003-09-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3083",
+      "stages": {},
+      "sponsor": {
+       "id": "P000258",
+       "name": "COLLIN PETERSON",
+       "party": "D",
+       "state": "MN"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3060",
+      "title": "Tax Simplification Act of 2003",
+      "introduced": "2003-09-10",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Committee on Ways and Means, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2003-09-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3060",
+      "stages": {},
+      "sponsor": {
+       "id": "S000597",
+       "name": "NICK SMITH",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2955",
+      "title": "Rio Grande Outstanding Natural Area Act",
+      "introduced": "2003-07-25",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Recreation and Public Lands.",
+      "latestActionDate": "2003-07-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2955",
+      "stages": {},
+      "sponsor": {
+       "id": "M000477",
+       "name": "SCOTT MCINNIS",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2835",
+      "title": "Pilot Project, Good Samaritan Provision for Abandoned and Inactive Mined Land Remediation Act",
+      "introduced": "2003-07-23",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2003-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2835",
+      "stages": {},
+      "sponsor": {
+       "id": "M000477",
+       "name": "SCOTT MCINNIS",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1608",
+      "title": "American LIFE Fund for the Medical Treatment of the Uninsured in Honor of the Victims of September 11th, 2001, Act",
+      "introduced": "2003-04-03",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Subcommittee on Health, for a period to be subsequently determined by the Chairman.",
+      "latestActionDate": "2003-04-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1608",
+      "stages": {},
+      "sponsor": {
+       "id": "G000280",
+       "name": "VIRGIL GOODE",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1038",
+      "title": "Public Lands Fire Regulations Enforcement Act of 2003",
+      "introduced": "2003-02-27",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 156.",
+      "latestActionDate": "2003-09-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1038",
+      "stages": {
+       "reported": "2003-07-17"
+      },
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "81",
+      "title": "Expressing the sense of the House of Representatives that the North Atlantic Treaty Organization must begin to plan steps for the defense of Turkey as requested by that nation.",
+      "introduced": "2003-02-13",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2003-02-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/81",
+      "stages": {},
+      "sponsor": {
+       "id": "B000403",
+       "name": "DOUGLAS BEREUTER",
+       "party": "R",
+       "state": "NE"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "638",
+      "title": "International Environmental Defense Act of 2003",
+      "introduced": "2003-02-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2003-02-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/638",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 181,
+    "becameLaw": 15,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 29
+     },
+     {
+      "name": "Commemorations",
+      "count": 25
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 25
+     },
+     {
+      "name": "Health",
+      "count": 16
+     },
+     {
+      "name": "International Affairs",
+      "count": 12
+     }
+    ]
+   }
+  },
+  "T000458": {
+   "sponsored": {
+    "count": 26,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "International Affairs",
+      "count": 6
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 5
+     },
+     {
+      "name": "Immigration",
+      "count": 3
+     },
+     {
+      "name": "Education",
+      "count": 2
+     },
+     {
+      "name": "Water Resources Development",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5418",
+      "title": "To authorize the Secretary of the Interior to enter into new and renewal contracts with the City of Aurora, Colorado, or an enterprise of the City, for the use of excess capacity water in the Fryingpan-Arkansas Project.",
+      "introduced": "2004-11-19",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2004-11-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5418",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5061",
+      "title": "Comprehensive Peace in Sudan Act",
+      "introduced": "2004-09-09",
+      "policyArea": "International Affairs",
+      "latestAction": "Received in the Senate.",
+      "latestActionDate": "2004-10-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5061",
+      "stages": {
+       "house": "2004-10-07"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "764",
+      "title": "Condemning the terrorist attack in Beslan, Russia, that occurred beginning on September 1, 2004, expressing condolences to the families of the individuals murdered in the terrorist attack, and for other purposes.",
+      "introduced": "2004-09-09",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2004-09-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/764",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4653",
+      "title": "Compassionate Assistance for Parents with Children with Special Needs Act of 2004",
+      "introduced": "2004-06-23",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2004-06-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4653",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "440",
+      "title": "Expressing the sense of Congress that the United States should resume normal diplomatic relations with the Republic of China on Taiwan, and for other purposes.",
+      "introduced": "2004-06-02",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2004-06-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/440",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4466",
+      "title": "To amend the Endangered Species Act of 1973 to exclude the Preble's Meadow Jumping Mouse from lists of endangered species and threatened species published under that Act.",
+      "introduced": "2004-05-20",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the House Committee on Resources.",
+      "latestActionDate": "2004-05-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4466",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "632",
+      "title": "Urging the Government of Romania to provide equitable, prompt, and fair restitution to the Romanian Greek Catholic Church, the Roman Catholic Church, the Evangelical Lutheran Church, the Unitarian Church, the Hungarian Reformed Church, the Jewish community, and other affected religious communities for property confiscated by the former Communist government in Romania.",
+      "introduced": "2004-05-06",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2004-05-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/632",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "402",
+      "title": "Recognizing the involvement in or support for acts of international terrorism by senior officials of the Government of the Republic of the Sudan and calling on Sudan to cease its involvement in acts of international terrorism and to prosecute and punish any Sudanese officials who have supported or have been involved in acts of international terrorism.",
+      "introduced": "2004-03-30",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2004-03-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/402",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3992",
+      "title": "To amend the National Environmental Policy Act of 1969 to require preparation of statements regarding the environmental impacts of legal and illegal immigration.",
+      "introduced": "2004-03-17",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the House Committee on Resources.",
+      "latestActionDate": "2004-03-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3992",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "377",
+      "title": "Recognizing the importance of Western civilization.",
+      "introduced": "2004-03-02",
+      "policyArea": "Education",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H1783)",
+      "latestActionDate": "2004-03-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/377",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "501",
+      "title": "Recognizing and supporting Iranians in their daily struggle for democracy and reform, encouraging the Islamic Republic of Iran to conduct open and fair elections, and urging the President of the United States to engage with and support Iranians in their struggle for freedom and democracy.",
+      "introduced": "2004-01-23",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2004-01-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/501",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3534",
+      "title": "BE REAL Act of 2003",
+      "introduced": "2003-11-19",
+      "policyArea": "Immigration",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H4754-4758)",
+      "latestActionDate": "2004-06-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3534",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3388",
+      "title": "Cold War Victory Medal Act",
+      "introduced": "2003-10-29",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Executive Comment Requested from DOD.",
+      "latestActionDate": "2003-11-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3388",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3302",
+      "title": "Debt Reduction and Fiscal Responsibility Restoration Act of 2003",
+      "introduced": "2003-10-15",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on Ways and Means, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2003-10-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3302",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3247",
+      "title": "TRAIL Act",
+      "introduced": "2003-10-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate.",
+      "latestActionDate": "2004-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3247",
+      "stages": {
+       "reported": "2004-05-20",
+       "house": "2004-09-28"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3052",
+      "title": "State Accountability and Identity Fraud Elimination Act of 2004",
+      "introduced": "2003-09-09",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways, Transit and Pipelines.",
+      "latestActionDate": "2003-09-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3052",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2688",
+      "title": "To amend the Immigration and Nationality Act to repeal authorities relating to H1-B visas for temporary workers.",
+      "introduced": "2003-07-09",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2003-09-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2688",
+      "stages": {}
+     },
+     {
+      "type": "HJRES",
+      "number": "58",
+      "title": "Disapproving the rules submitted by the Secretary of the Treasury relating to section 326(a) of the Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism (USA PATRIOT ACT) Act of 2001.",
+      "introduced": "2003-05-22",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Financial Institutions and Consumer Credit.",
+      "latestActionDate": "2003-06-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-joint-resolution/58",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1679",
+      "title": "Forest Protection and Wildfire Prevention Act of 2003",
+      "introduced": "2003-04-08",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2003-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1679",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1577",
+      "title": "To designate the visitor center in Organ Pipe National Monument in Arizona as the \"Kris Eggle Visitor Center\", and for other purposes.",
+      "introduced": "2003-04-02",
+      "policyArea": "Commemorations",
+      "latestAction": "Became Public Law No: 108-64.",
+      "latestActionDate": "2003-07-29",
+      "law": "108-64",
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1577",
+      "stages": {
+       "house": "2003-05-14",
+       "senate": "2003-07-17",
+       "president": "2003-07-24",
+       "law": "2003-07-29"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1253",
+      "title": "Common Sense Preble's Conservation Act",
+      "introduced": "2003-03-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2003-03-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1253",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1252",
+      "title": "E-Rate Termination Act",
+      "introduced": "2003-03-12",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Telecommunications and the Internet.",
+      "latestActionDate": "2003-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1252",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1038",
+      "title": "Public Lands Fire Regulations Enforcement Act of 2003",
+      "introduced": "2003-02-27",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 156.",
+      "latestActionDate": "2003-09-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1038",
+      "stages": {
+       "reported": "2003-07-17"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "946",
+      "title": "Mass Immigration Reduction Act of 2003",
+      "introduced": "2003-02-26",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2003-03-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/946",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "502",
+      "title": "To require identification that may be used in obtaining Federal public benefits to meet restrictions ensuring that it is secure and verifiable.",
+      "introduced": "2003-01-29",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2003-03-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/502",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "501",
+      "title": "Nurse Loan Forgiveness Act of 2003",
+      "introduced": "2003-01-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on 21st Century Competitiveness.",
+      "latestActionDate": "2003-03-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/501",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 23,
+    "becameLaw": 1,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5373",
+      "title": "To authorize the Secretary of the Interior to enter into contracts for the use of excess storage and conveyance capacity of the Fryingpan-Arkansas Project, Colorado, and for other purposes.",
+      "introduced": "2004-11-17",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2004-11-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5373",
+      "stages": {},
+      "sponsor": {
+       "id": "B001240",
+       "name": "Bob Beauprez",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4946",
+      "title": "United States Court of Federal Claims Termination Act of 2004",
+      "introduced": "2004-07-22",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, the Internet, and Intellectual Property.",
+      "latestActionDate": "2004-08-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4946",
+      "stages": {},
+      "sponsor": {
+       "id": "H000444",
+       "name": "JOEL HEFLEY",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4691",
+      "title": "To authorize the Secretary of the Interior to engage in a feasibility study relating to long-term water needs for the area served by the Fryingpan-Arkansas Project, Colorado, and for other purposes.",
+      "introduced": "2004-06-24",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2004-07-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4691",
+      "stages": {},
+      "sponsor": {
+       "id": "H000444",
+       "name": "JOEL HEFLEY",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4426",
+      "title": "To prohibit certain entities from trading in capital markets in the United States.",
+      "introduced": "2004-05-20",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2004-05-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4426",
+      "stages": {},
+      "sponsor": {
+       "id": "B000013",
+       "name": "SPENCER BACHUS",
+       "party": "R",
+       "state": "AL"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4174",
+      "title": "Voter Citizenship Verification Act",
+      "introduced": "2004-04-20",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2004-04-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4174",
+      "stages": {},
+      "sponsor": {
+       "id": "G000550",
+       "name": "Phil Gingrey",
+       "party": "R",
+       "state": "GA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HRES",
+      "number": "596",
+      "title": "Condemning ethnic violence in Kosovo.",
+      "introduced": "2004-04-02",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2004-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/596",
+      "stages": {},
+      "sponsor": {
+       "id": "B001149",
+       "name": "DAN BURTON",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3708",
+      "title": "To authorize the extension of nondiscriminatory treatment (normal trade relations treatment) to the products of Kazakhstan.",
+      "introduced": "2004-01-20",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2004-01-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3708",
+      "stages": {},
+      "sponsor": {
+       "id": "P000373",
+       "name": "JOSEPH PITTS",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2955",
+      "title": "Rio Grande Outstanding Natural Area Act",
+      "introduced": "2003-07-25",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Recreation and Public Lands.",
+      "latestActionDate": "2003-07-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2955",
+      "stages": {},
+      "sponsor": {
+       "id": "M000477",
+       "name": "SCOTT MCINNIS",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HCONRES",
+      "number": "255",
+      "title": "Expressing the sense of the Congress that the United States military should not become involved in the Liberian civil war, either alone or as part of a United Nations peacekeeping force.",
+      "introduced": "2003-07-24",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2003-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/255",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2835",
+      "title": "Pilot Project, Good Samaritan Provision for Abandoned and Inactive Mined Land Remediation Act",
+      "introduced": "2003-07-23",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2003-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2835",
+      "stages": {},
+      "sponsor": {
+       "id": "M000477",
+       "name": "SCOTT MCINNIS",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2766",
+      "title": "Arapaho and Roosevelt National Forests Land Exchange Act of 2003",
+      "introduced": "2003-07-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2003-11-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2766",
+      "stages": {
+       "reported": "2003-10-28",
+       "house": "2003-11-04"
+      },
+      "sponsor": {
+       "id": "B001240",
+       "name": "Bob Beauprez",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2696",
+      "title": "Southwest Forest Health and Wildfire Prevention Act of 2004",
+      "introduced": "2003-07-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 108-317.",
+      "latestActionDate": "2004-10-05",
+      "law": "108-317",
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2696",
+      "stages": {
+       "reported": "2003-11-21",
+       "house": "2004-02-24",
+       "senate": "2004-09-15",
+       "president": "2004-09-24",
+       "law": "2004-10-05"
+      },
+      "sponsor": {
+       "id": "R000574",
+       "name": "Rick Renzi",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2469",
+      "title": "Medicare Reform Act of 2003",
+      "introduced": "2003-06-12",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2003-06-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2469",
+      "stages": {},
+      "sponsor": {
+       "id": "T000459",
+       "name": "LEE TERRY",
+       "party": "R",
+       "state": "NE"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HCONRES",
+      "number": "211",
+      "title": "Expressing the sense of Congress and appreciation for the support and cooperation from Kuwait, Bahrain, and Qatar in Operation Iraqi Freedom.",
+      "introduced": "2003-06-05",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2003-06-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-concurrent-resolution/211",
+      "stages": {},
+      "sponsor": {
+       "id": "R000435",
+       "name": "ILEANA ROS-LEHTINEN",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1532",
+      "title": "Animal Fighting Prohibition Enforcement Act",
+      "introduced": "2003-04-01",
+      "policyArea": "Animals",
+      "latestAction": "Referred to the Subcommittee on Livestock and Horticulture.",
+      "latestActionDate": "2003-04-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1532",
+      "stages": {},
+      "sponsor": {
+       "id": "B000208",
+       "name": "ROSCOE BARTLETT",
+       "party": "R",
+       "state": "MD"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HJRES",
+      "number": "42",
+      "title": "Proposing an amendment to the Constitution of the United States to deny United States citizenship to individuals born in the United States to parents who are neither United States citizens nor persons who owe permanent allegiance to the United States.",
+      "introduced": "2003-03-20",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2003-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-joint-resolution/42",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "741",
+      "title": "Self-Employed Health Equity Adjustment to Lower Tax Hindrance Act",
+      "introduced": "2003-02-12",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/741",
+      "stages": {},
+      "sponsor": {
+       "id": "S000030",
+       "name": "LORETTA SANCHEZ",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "695",
+      "title": "Tamarisk Research and Control Act of 2003",
+      "introduced": "2003-02-11",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Conservation, Credit, Rural Development and Research.",
+      "latestActionDate": "2003-02-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/695",
+      "stages": {},
+      "sponsor": {
+       "id": "M000477",
+       "name": "SCOTT MCINNIS",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "615",
+      "title": "Hope Plus Scholarship Act of 2003",
+      "introduced": "2003-02-05",
+      "policyArea": "Taxation",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E158)",
+      "latestActionDate": "2003-02-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/615",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "612",
+      "title": "Family Education Freedom Act of 2003",
+      "introduced": "2003-02-05",
+      "policyArea": "Taxation",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E1927-1928)",
+      "latestActionDate": "2003-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/612",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "282",
+      "title": "Education Freedom Act",
+      "introduced": "2003-01-08",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-01-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/282",
+      "stages": {},
+      "sponsor": {
+       "id": "H000676",
+       "name": "PETER HOEKSTRA",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "277",
+      "title": "To amend title 10, United States Code, to authorize the Secretary of Defense to assign members of the Army, Navy, Air Force, and Marine Corps, under certain circumstances and subject to certain conditions, to assist the Department of Homeland Security in the performance of border protection functions.",
+      "introduced": "2003-01-08",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Executive Comment Requested from DOD.",
+      "latestActionDate": "2003-02-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/277",
+      "stages": {},
+      "sponsor": {
+       "id": "G000280",
+       "name": "VIRGIL GOODE",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "219",
+      "title": "Social Security Preservation Act of 2003",
+      "introduced": "2003-01-07",
+      "policyArea": "Social Welfare",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E77)",
+      "latestActionDate": "2003-01-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/219",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 2
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 270,
+    "becameLaw": 16,
+    "topics": [
+     {
+      "name": "International Affairs",
+      "count": 57
+     },
+     {
+      "name": "Taxation",
+      "count": 43
+     },
+     {
+      "name": "Commemorations",
+      "count": 20
+     },
+     {
+      "name": "Health",
+      "count": 20
+     },
+     {
+      "name": "Immigration",
+      "count": 16
+     }
+    ]
+   }
+  },
+  "B001240": {
+   "sponsored": {
+    "count": 12,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 4
+     },
+     {
+      "name": "Transportation and Public Works",
+      "count": 2
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 2
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 2
+     },
+     {
+      "name": "Water Resources Development",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5373",
+      "title": "To authorize the Secretary of the Interior to enter into contracts for the use of excess storage and conveyance capacity of the Fryingpan-Arkansas Project, Colorado, and for other purposes.",
+      "introduced": "2004-11-17",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2004-11-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5373",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5230",
+      "title": "To amend title 49, United States Code, to ensure that the National Driver Registry includes certain information.",
+      "introduced": "2004-10-06",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the House Committee on Transportation and Infrastructure.",
+      "latestActionDate": "2004-10-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5230",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5173",
+      "title": "Alcohol Without Liquid Machine Safety Act of 2004",
+      "introduced": "2004-09-29",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2004-10-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5173",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5081",
+      "title": "To amend title 10, United States Code, to provide for a new program of educational assistance for certain reserve component members of the Armed Forces who perform active service.",
+      "introduced": "2004-09-15",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2004-09-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/5081",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3494",
+      "title": "Highway Trust Fund Commission Act of 2003",
+      "introduced": "2003-11-17",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2003-11-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3494",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3376",
+      "title": "Denver Federal Center Redevelopment Act",
+      "introduced": "2003-10-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.",
+      "latestActionDate": "2003-10-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3376",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3002",
+      "title": "Terrorist Tax Exemption Suspension Act of 2003",
+      "introduced": "2003-09-04",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-09-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3002",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2766",
+      "title": "Arapaho and Roosevelt National Forests Land Exchange Act of 2003",
+      "introduced": "2003-07-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2003-11-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/2766",
+      "stages": {
+       "reported": "2003-10-28",
+       "house": "2003-11-04"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1781",
+      "title": "To amend the Internal Revenue Code of 1986 to allow an above-the-line deduction for certain expenses in connection with the determination, collection, or refund of any tax.",
+      "introduced": "2003-04-11",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-04-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1781",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1780",
+      "title": "To amend the Internal Revenue Code of 1986 to eliminate the tax on the net capital gain of taxpayers other than corporations, to exclude interest and dividends from gross income, and to repeal the 1993 income tax increase on Social Security benefits.",
+      "introduced": "2003-04-11",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2003-04-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1780",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1779",
+      "title": "Guardsmen and Reservists Financial Relief Act of 2004",
+      "introduced": "2003-04-11",
+      "policyArea": "Taxation",
+      "latestAction": "Passed Senate with an amendment by Unanimous Consent.",
+      "latestActionDate": "2004-10-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1779",
+      "stages": {
+       "house": "2004-04-21",
+       "senate": "2004-10-11"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1562",
+      "title": "Veterans Health Care Cost Recovery Act of 2003",
+      "introduced": "2003-04-02",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 104.",
+      "latestActionDate": "2003-07-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1562",
+      "stages": {
+       "reported": "2003-05-19"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 8,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "736",
+      "title": "Recognizing the importance of honoring the Nation's children and expressing the sense of the House of Representatives that National Children's Day should be established.",
+      "introduced": "2004-07-21",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2004-09-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-resolution/736",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4859",
+      "title": "Child Support Improvement Act of 2004",
+      "introduced": "2004-07-19",
+      "policyArea": "Social Welfare",
+      "latestAction": "Referred to the Subcommittee on Commercial and Administrative Law.",
+      "latestActionDate": "2004-08-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4859",
+      "stages": {},
+      "sponsor": {
+       "id": "K000358",
+       "name": "MARK KENNEDY",
+       "party": "R",
+       "state": "MN"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4691",
+      "title": "To authorize the Secretary of the Interior to engage in a feasibility study relating to long-term water needs for the area served by the Fryingpan-Arkansas Project, Colorado, and for other purposes.",
+      "introduced": "2004-06-24",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2004-07-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/4691",
+      "stages": {},
+      "sponsor": {
+       "id": "H000444",
+       "name": "JOEL HEFLEY",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "3843",
+      "title": "Rocky Flats Special Exposure Cohort Act",
+      "introduced": "2004-02-25",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2004-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3843",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3303",
+      "title": "Rocky Flats Minerals Acquisition Act",
+      "introduced": "2003-10-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2003-10-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/3303",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1038",
+      "title": "Public Lands Fire Regulations Enforcement Act of 2003",
+      "introduced": "2003-02-27",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 156.",
+      "latestActionDate": "2003-09-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/1038",
+      "stages": {
+       "reported": "2003-07-17"
+      },
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "695",
+      "title": "Tamarisk Research and Control Act of 2003",
+      "introduced": "2003-02-11",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Conservation, Credit, Rural Development and Research.",
+      "latestActionDate": "2003-02-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/695",
+      "stages": {},
+      "sponsor": {
+       "id": "M000477",
+       "name": "SCOTT MCINNIS",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "641",
+      "title": "Federal Laboratory Educational Partners Act of 2003",
+      "introduced": "2003-02-05",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Environment, Technology, and Standards.",
+      "latestActionDate": "2003-02-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/108th-congress/house-bill/641",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 243,
+    "becameLaw": 19,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 52
+     },
+     {
+      "name": "Commemorations",
+      "count": 32
+     },
+     {
+      "name": "Health",
+      "count": 20
+     },
+     {
+      "name": "International Affairs",
+      "count": 18
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 12
+     }
+    ]
+   }
+  }
+ }
+}

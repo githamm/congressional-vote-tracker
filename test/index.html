@@ -718,6 +718,10 @@
                 top.push('<p class="callout">' + escapeHTML(m.note) +
                     (m.noteUrl ? ' <a href="' + escapeHTML(m.noteUrl) + '" target="_blank" rel="noopener">Read more</a>' : '') + '</p>');
             }
+            // A note for the whole Congress (members.json), e.g. proxy voting rules.
+            var cNote = CONFIG.congresses[CONGRESS] || {};
+            var cMissed = cNote.note && cNote.noteOn === 'missed';
+            if (cNote.note) top.push('<p class="callout">' + (cMissed ? '* ' : '') + escapeHTML(cNote.note) + '</p>');
             var lawTile;
             if (!leg) {
                 lawTile = statTile('—', 'Bills became law', 'Not available yet');
@@ -728,7 +732,7 @@
             }
             top.push('<div class="stats">' +
                 statTile(pct(s.withParty, s.counted), 'Votes with party', escapeHTML(loyaltySub)) +
-                statTile(String(s.missed), 'Missed votes', escapeHTML(missedSub)) +
+                statTile(String(s.missed) + (cMissed ? '*' : ''), 'Missed votes', escapeHTML(missedSub)) +
                 statTile(String(s.broke), 'Broke with party', s.broke ? 'See these votes &rarr;' : 'Never', s.broke ? ' data-action="show-broke"' : '') +
                 lawTile + '</div>');
             $('card-top').innerHTML = top.join('');

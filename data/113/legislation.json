@@ -1,0 +1,4047 @@
+{
+ "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
+ "congress": 113,
+ "updated": "2026-11-12",
+ "members": {
+  "D000197": {
+   "sponsored": {
+    "count": 12,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 7
+     },
+     {
+      "name": "Commerce",
+      "count": 1
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 1
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 1
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5808",
+      "title": "Protecting Access to Diabetes Supplies of 2014",
+      "introduced": "2014-12-08",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-12-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5808",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4494",
+      "title": "Regenerative Medicine Promotion Act of 2014",
+      "introduced": "2014-04-28",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-05-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4494",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3736",
+      "title": "PACES Act",
+      "introduced": "2013-12-12",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2014-01-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3736",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3596",
+      "title": "Start Healthy Act of 2013",
+      "introduced": "2013-11-21",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-11-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3596",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3322",
+      "title": "Eliminating Disparities in Diabetes Prevention, Access, and Care Act of 2013",
+      "introduced": "2013-10-23",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-10-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3322",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2858",
+      "title": "Wildland Firefighters Protection Act",
+      "introduced": "2013-07-30",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2013-07-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2858",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2552",
+      "title": "Colorado Wilderness Act of 2013",
+      "introduced": "2013-06-27",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2552",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2433",
+      "title": "Stem Cell Research Advancement Act of 2013",
+      "introduced": "2013-06-19",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2433",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1921",
+      "title": "Fracturing Responsibility and Awareness of Chemicals Act of 2013",
+      "introduced": "2013-05-09",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment and the Economy.",
+      "latestActionDate": "2013-05-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1921",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1257",
+      "title": "Preventing Diabetes in Medicare Act of 2013",
+      "introduced": "2013-03-19",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-04-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1257",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "964",
+      "title": "Respect States' and Citizens' Rights Act of 2013",
+      "introduced": "2013-03-05",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, And Investigations.",
+      "latestActionDate": "2013-04-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/964",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "963",
+      "title": "Coordination of Pro Bono Medically Recommended Dental Care Act",
+      "introduced": "2013-03-05",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-03-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/963",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 15,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5644",
+      "title": "Medicare CGM Access Act of 2014",
+      "introduced": "2014-09-18",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-09-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5644",
+      "stages": {},
+      "sponsor": {
+       "id": "R000585",
+       "name": "Tom Reed",
+       "party": "R",
+       "state": "NY"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4574",
+      "title": "Strengthening Mental Health in Our Communities Act of 2014",
+      "introduced": "2014-05-06",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2014-07-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4574",
+      "stages": {},
+      "sponsor": {
+       "id": "B001279",
+       "name": "Ron Barber",
+       "party": "D",
+       "state": "AZ"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4325",
+      "title": "Protecting Children from Electronic Cigarette Advertising Act of 2014",
+      "introduced": "2014-03-27",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Commerce, Manufacturing, and Trade.",
+      "latestActionDate": "2014-03-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4325",
+      "stages": {},
+      "sponsor": {
+       "id": "E000293",
+       "name": "Elizabeth Esty",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4216",
+      "title": "Maternal Health Accountability Act of 2014",
+      "introduced": "2014-03-12",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4216",
+      "stages": {},
+      "sponsor": {
+       "id": "C000714",
+       "name": "JOHN CONYERS",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3565",
+      "title": "Biennial Commission on Energy Policy Act of 2013",
+      "introduced": "2013-11-20",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2013-11-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3565",
+      "stages": {},
+      "sponsor": {
+       "id": "M001180",
+       "name": "David McKinley",
+       "party": "R",
+       "state": "WV"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3303",
+      "title": "SOFTWARE Act of 2013",
+      "introduced": "2013-10-22",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-10-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3303",
+      "stages": {},
+      "sponsor": {
+       "id": "B001243",
+       "name": "Marsha Blackburn",
+       "party": "R",
+       "state": "TN"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3089",
+      "title": "Compounding Clarity Act of 2013",
+      "introduced": "2013-09-12",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2013-09-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3089",
+      "stages": {},
+      "sponsor": {
+       "id": "G000568",
+       "name": "H. Griffith",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2977",
+      "title": "Medicare Safe Needle Disposal Coverage Act of 2013",
+      "introduced": "2013-08-01",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-08-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2977",
+      "stages": {},
+      "sponsor": {
+       "id": "W000413",
+       "name": "EDWARD WHITFIELD",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "301",
+      "title": "Expressing support for designation of September 2013 as National Ovarian Cancer Awareness Month.",
+      "introduced": "2013-07-16",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2013-07-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/301",
+      "stages": {},
+      "sponsor": {
+       "id": "I000057",
+       "name": "STEVE ISRAEL",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2510",
+      "title": "Helping Veterans Exposed to Toxic Chemicals Act",
+      "introduced": "2013-06-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2013-08-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2510",
+      "stages": {},
+      "sponsor": {
+       "id": "B001242",
+       "name": "Timothy Bishop",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1274",
+      "title": "Access to Quality Diabetes Education Act of 2013",
+      "introduced": "2013-03-19",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-04-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1274",
+      "stages": {},
+      "sponsor": {
+       "id": "W000413",
+       "name": "EDWARD WHITFIELD",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1263",
+      "title": "Excellence in Mental Health Act",
+      "introduced": "2013-03-19",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-03-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1263",
+      "stages": {},
+      "sponsor": {
+       "id": "M001163",
+       "name": "Doris Matsui",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1252",
+      "title": "Physical Therapist Workforce and Patient Access Act of 2013",
+      "introduced": "2013-03-19",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-03-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1252",
+      "stages": {},
+      "sponsor": {
+       "id": "S000364",
+       "name": "JOHN SHIMKUS",
+       "party": "R",
+       "state": "IL"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "225",
+      "title": "National Pediatric Research Network Act of 2013",
+      "introduced": "2013-01-14",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2013-02-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/225",
+      "stages": {
+       "reported": "2013-02-04",
+       "house": "2013-02-04"
+      },
+      "sponsor": {
+       "id": "C001036",
+       "name": "LOIS CAPPS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "138",
+      "title": "Large Capacity Ammunition Feeding Device Act",
+      "introduced": "2013-01-03",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, And Investigations.",
+      "latestActionDate": "2013-01-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/138",
+      "stages": {},
+      "sponsor": {
+       "id": "M000309",
+       "name": "CAROLYN MCCARTHY",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 226,
+    "becameLaw": 12,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 64
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 18
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 18
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 18
+     },
+     {
+      "name": "Labor and Employment",
+      "count": 13
+     }
+    ]
+   }
+  },
+  "P000598": {
+   "sponsored": {
+    "count": 30,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Education",
+      "count": 13
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 3
+     },
+     {
+      "name": "Congress",
+      "count": 2
+     },
+     {
+      "name": "Immigration",
+      "count": 2
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "743",
+      "title": "Expressing support for designation of the week of September 22, 2014, as National Adult Education and Family Literacy Week.",
+      "introduced": "2014-09-18",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2014-09-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/743",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5311",
+      "title": "Rocky Mountain Recreation and Wilderness Preservation Act",
+      "introduced": "2014-07-31",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Public Lands and Environmental Regulation.",
+      "latestActionDate": "2014-08-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5311",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "678",
+      "title": "Providing for the consideration of the bill (S. 815) to prohibit employment discrimination on the basis of sexual orientation or gender identity.",
+      "introduced": "2014-07-22",
+      "policyArea": "Congress",
+      "latestAction": "Motion to Discharge Committee filed by Mr. Polis. Petition No: 113-11. (<a href=\"http://clerk.house.gov/113/lrc/pd/petitions/DisPet0011.xml\r\n\">Discharge petition</a> text with signatures.)",
+      "latestActionDate": "2014-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/678",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "639",
+      "title": "Providing for the consideration of the bill (S. 815) to prohibit employment discrimination on the basis of sexual orientation or gender identity.",
+      "introduced": "2014-06-23",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2014-06-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/639",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4846",
+      "title": "Arapaho National Forest Boundary Adjustment Act of 2014",
+      "introduced": "2014-06-11",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2014-11-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4846",
+      "stages": {
+       "reported": "2014-11-12",
+       "house": "2014-11-13"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4269",
+      "title": "Great Teaching and Leading for Great Schools Act of 2014",
+      "introduced": "2014-03-14",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2014-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4269",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4179",
+      "title": "Lucid Act",
+      "introduced": "2014-03-06",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways and Transit.",
+      "latestActionDate": "2014-03-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4179",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4178",
+      "title": "American Entrepreneurship and Investment Act of 2014",
+      "introduced": "2014-03-06",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2014-04-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4178",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3921",
+      "title": "IN STATE Act of 2014",
+      "introduced": "2014-01-16",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2014-03-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3921",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3817",
+      "title": "For the relief of Jeanette Vizguerra-Ramirez.",
+      "introduced": "2014-01-07",
+      "policyArea": "Private Legislation",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E41-42)",
+      "latestActionDate": "2014-01-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3817",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3654",
+      "title": "Renewable Electricity Standard Act of 2013",
+      "introduced": "2013-12-04",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2013-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3654",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3612",
+      "title": "Know Before You Owe Private Student Loan Act of 2013",
+      "introduced": "2013-11-21",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2014-01-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3612",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3540",
+      "title": "Demand Letter Transparency Act of 2013",
+      "introduced": "2013-11-19",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2014-01-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3540",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3483",
+      "title": "Protecting Individual Liberties and States' Rights Act",
+      "introduced": "2013-11-14",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2014-01-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3483",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3433",
+      "title": "Investing in Innovation for Education Act of 2013",
+      "introduced": "2013-10-30",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2013-10-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3433",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "358",
+      "title": "Expressing support for designation of the week of September 23, 2013, as National Adult Education and Family Literacy Week.",
+      "introduced": "2013-09-25",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2013-09-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/358",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2562",
+      "title": "SLICE Act",
+      "introduced": "2013-06-27",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-09-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2562",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2339",
+      "title": "Affordable Housing Regulation Simplification Act of 2013",
+      "introduced": "2013-06-12",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the Subcommittee on Commerce, Manufacturing, and Trade.",
+      "latestActionDate": "2013-06-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2339",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2338",
+      "title": "TALENT Act",
+      "introduced": "2013-06-12",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Research and Technology.",
+      "latestActionDate": "2013-09-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2338",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2337",
+      "title": "Lake Hill Administrative Site Affordable Housing Act",
+      "introduced": "2013-06-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 113-141.",
+      "latestActionDate": "2014-07-25",
+      "law": "113-141",
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2337",
+      "stages": {
+       "reported": "2013-09-10",
+       "house": "2013-10-29",
+       "senate": "2014-07-09",
+       "president": "2014-07-15",
+       "law": "2014-07-25"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2252",
+      "title": "All-STAR Act of 2013",
+      "introduced": "2013-06-04",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2252",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1977",
+      "title": "Growth to Excellence Act of 2013",
+      "introduced": "2013-05-14",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1977",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1845",
+      "title": "Pregnant and Parenting Students Access to Education Act of 2013",
+      "introduced": "2013-05-07",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1845",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1755",
+      "title": "Employment Non-Discrimination Act of 2013",
+      "introduced": "2013-04-25",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1755",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1652",
+      "title": "Student Non-Discrimination Act of 2013",
+      "introduced": "2013-04-18",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1652",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1154",
+      "title": "BREATHE Act",
+      "introduced": "2013-03-14",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2013-03-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1154",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "951",
+      "title": "Women WIN Jobs",
+      "introduced": "2013-03-05",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2013-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/951",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "791",
+      "title": "Continuum of Learning Act of 2013",
+      "introduced": "2013-02-15",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/791",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "499",
+      "title": "Ending Federal Marijuana Prohibition Act of 2013",
+      "introduced": "2013-02-05",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, And Investigations.",
+      "latestActionDate": "2013-02-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/499",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "426",
+      "title": "Race to the Top Act of 2013",
+      "introduced": "2013-01-25",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/426",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 44,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5646",
+      "title": "U.S. OUTDOOR Act",
+      "introduced": "2014-09-18",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2014-09-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5646",
+      "stages": {},
+      "sponsor": {
+       "id": "R000578",
+       "name": "David Reichert",
+       "party": "R",
+       "state": "WA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "5414",
+      "title": "Elkhorn Ranch and White River National Forest Patent Correction Act of 2014",
+      "introduced": "2014-09-08",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Public Lands and Environmental Regulation.",
+      "latestActionDate": "2014-09-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5414",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5219",
+      "title": "English Learning and Innovation Act",
+      "introduced": "2014-07-28",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2014-11-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5219",
+      "stages": {},
+      "sponsor": {
+       "id": "G000573",
+       "name": "Joe Garcia",
+       "party": "D",
+       "state": "FL"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "662",
+      "title": "Expressing support for designation of October 2014 as \"National Principals Month\".",
+      "introduced": "2014-07-09",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2014-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/662",
+      "stages": {},
+      "sponsor": {
+       "id": "D000598",
+       "name": "SUSAN DAVIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4425",
+      "title": "Perkins Modernization Act of 2014",
+      "introduced": "2014-04-08",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2014-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4425",
+      "stages": {},
+      "sponsor": {
+       "id": "K000379",
+       "name": "Joseph Kennedy",
+       "party": "D",
+       "state": "MA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4348",
+      "title": "Transferring Credits for College Completion Act of 2014",
+      "introduced": "2014-04-01",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2014-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4348",
+      "stages": {},
+      "sponsor": {
+       "id": "M000725",
+       "name": "GEORGE MILLER",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3984",
+      "title": "Supporting Early Learning Act",
+      "introduced": "2014-02-03",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2014-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3984",
+      "stages": {},
+      "sponsor": {
+       "id": "H001047",
+       "name": "James Himes",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "3879",
+      "title": "To make permanent the Payments in Lieu of Taxes program.",
+      "introduced": "2014-01-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Public Lands and Environmental Regulation.",
+      "latestActionDate": "2014-01-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3879",
+      "stages": {},
+      "sponsor": {
+       "id": "K000368",
+       "name": "Ann Kirkpatrick",
+       "party": "D",
+       "state": "AZ"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3665",
+      "title": "Medical Foods Equity Act of 2013",
+      "introduced": "2013-12-05",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2014-01-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3665",
+      "stages": {},
+      "sponsor": {
+       "id": "D000620",
+       "name": "John Delaney",
+       "party": "D",
+       "state": "MD"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HRES",
+      "number": "400",
+      "title": "Honoring the life and work of Commander M. Scott Carpenter, the second American to orbit the Earth.",
+      "introduced": "2013-10-30",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Science, Space, and Technology.",
+      "latestActionDate": "2013-10-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/400",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3357",
+      "title": "Early Childhood Education Professional Improvement Act of 2013",
+      "introduced": "2013-10-28",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2014-01-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3357",
+      "stages": {},
+      "sponsor": {
+       "id": "M001188",
+       "name": "Grace Meng",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3333",
+      "title": "Wildfire Prevention Act of 2013",
+      "introduced": "2013-10-23",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.",
+      "latestActionDate": "2013-10-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3333",
+      "stages": {},
+      "sponsor": {
+       "id": "R000599",
+       "name": "Raul Ruiz",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3189",
+      "title": "Water Rights Protection Act",
+      "introduced": "2013-09-26",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2014-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3189",
+      "stages": {
+       "reported": "2014-03-04",
+       "house": "2014-03-13"
+      },
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3136",
+      "title": "Advancing Competency-Based Education Demonstration Project Act of 2014",
+      "introduced": "2013-09-19",
+      "policyArea": "Education",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2014-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3136",
+      "stages": {
+       "reported": "2014-07-17",
+       "house": "2014-07-23"
+      },
+      "sponsor": {
+       "id": "S000018",
+       "name": "MATT SALMON",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3022",
+      "title": "National Discovery Trails Act of 2013",
+      "introduced": "2013-08-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Public Lands and Environmental Regulation.",
+      "latestActionDate": "2013-08-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3022",
+      "stages": {},
+      "sponsor": {
+       "id": "F000449",
+       "name": "Jeff Fortenberry",
+       "party": "R",
+       "state": "NE"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2982",
+      "title": "Computer Science in STEM Act of 2013",
+      "introduced": "2013-08-02",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Research and Technology.",
+      "latestActionDate": "2013-09-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2982",
+      "stages": {},
+      "sponsor": {
+       "id": "C001097",
+       "name": "Tony Cárdenas",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2930",
+      "title": "Transition-to-Success Mentoring Act",
+      "introduced": "2013-08-01",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-09-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2930",
+      "stages": {},
+      "sponsor": {
+       "id": "C001072",
+       "name": "André Carson",
+       "party": "D",
+       "state": "IN"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2853",
+      "title": "Hospital Price Transparency and Disclosure Act of 2013",
+      "introduced": "2013-07-30",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-08-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2853",
+      "stages": {},
+      "sponsor": {
+       "id": "L000563",
+       "name": "Daniel Lipinski",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2832",
+      "title": "Philanthropic Facilitation Act",
+      "introduced": "2013-07-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2013-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2832",
+      "stages": {},
+      "sponsor": {
+       "id": "G000562",
+       "name": "Cory Gardner",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2454",
+      "title": "Aaron's Law Act of 2013",
+      "introduced": "2013-06-20",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2013-07-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2454",
+      "stages": {},
+      "sponsor": {
+       "id": "L000397",
+       "name": "ZOE LOFGREN",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2268",
+      "title": "Engaging Students Through Service Learning Act",
+      "introduced": "2013-06-05",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2268",
+      "stages": {},
+      "sponsor": {
+       "id": "L000565",
+       "name": "David Loebsack",
+       "party": "D",
+       "state": "IA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2249",
+      "title": "Disabled Military Child Protection Act of 2013",
+      "introduced": "2013-06-04",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2013-08-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2249",
+      "stages": {},
+      "sponsor": {
+       "id": "M000933",
+       "name": "JAMES MORAN",
+       "party": "D",
+       "state": "VA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2196",
+      "title": "GREAT Teachers and Principals Act",
+      "introduced": "2013-05-23",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2196",
+      "stages": {},
+      "sponsor": {
+       "id": "P000265",
+       "name": "TOM PETRI",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2160",
+      "title": "Promoting Health as Youth Skills In Classrooms And Life Act",
+      "introduced": "2013-05-23",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2160",
+      "stages": {},
+      "sponsor": {
+       "id": "F000455",
+       "name": "Marcia Fudge",
+       "party": "D",
+       "state": "OH"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2141",
+      "title": "To amend the Internal Revenue Code of 1986 to allow Head Start teachers the same above-the-line deduction for supplies as is allowed to elementary and secondary school teachers.",
+      "introduced": "2013-05-23",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2013-05-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2141",
+      "stages": {},
+      "sponsor": {
+       "id": "B001281",
+       "name": "Joyce Beatty",
+       "party": "D",
+       "state": "OH"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2014",
+      "title": "Telephone Records Protection Act",
+      "introduced": "2013-05-16",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2013-06-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2014",
+      "stages": {},
+      "sponsor": {
+       "id": "A000367",
+       "name": "Justin Amash",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1939",
+      "title": "Skills Investment Act of 2013",
+      "introduced": "2013-05-09",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1939",
+      "stages": {},
+      "sponsor": {
+       "id": "K000381",
+       "name": "Derek Kilmer",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1892",
+      "title": "Unlocking Technology Act of 2013",
+      "introduced": "2013-05-08",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2013-06-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1892",
+      "stages": {},
+      "sponsor": {
+       "id": "L000397",
+       "name": "ZOE LOFGREN",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1736",
+      "title": "School Principal Recruitment and Training Act of 2013",
+      "introduced": "2013-04-25",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1736",
+      "stages": {},
+      "sponsor": {
+       "id": "D000598",
+       "name": "SUSAN DAVIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1716",
+      "title": "ExCEL Act of 2013",
+      "introduced": "2013-04-24",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1716",
+      "stages": {},
+      "sponsor": {
+       "id": "P000265",
+       "name": "TOM PETRI",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1715",
+      "title": "Expedited Consideration of Cuts, Consolidations, and Savings Act of 2013",
+      "introduced": "2013-04-24",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on the Budget, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2013-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1715",
+      "stages": {},
+      "sponsor": {
+       "id": "P000595",
+       "name": "Gary Peters",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1635",
+      "title": "National Commission on Federal Marijuana Policy Act of 2013",
+      "introduced": "2013-04-18",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2013-04-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1635",
+      "stages": {},
+      "sponsor": {
+       "id": "C001068",
+       "name": "Steve Cohen",
+       "party": "D",
+       "state": "TN"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1523",
+      "title": "Respect State Marijuana Laws Act of 2013",
+      "introduced": "2013-04-12",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2013-04-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1523",
+      "stages": {},
+      "sponsor": {
+       "id": "R000409",
+       "name": "DANA ROHRABACHER",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1415",
+      "title": "Innovative Technologies Investment Incentive Act of 2013",
+      "introduced": "2013-04-09",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2013-04-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1415",
+      "stages": {},
+      "sponsor": {
+       "id": "V000128",
+       "name": "Chris Van Hollen",
+       "party": "D",
+       "state": "MD"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1295",
+      "title": "Medical Device Tax Elimination Act",
+      "introduced": "2013-03-20",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2013-03-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1295",
+      "stages": {},
+      "sponsor": {
+       "id": "M001171",
+       "name": "Daniel Maffei",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "110",
+      "title": "Public Access to Congressional Research Service Reports Resolution of 2013",
+      "introduced": "2013-03-12",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2013-03-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/110",
+      "stages": {},
+      "sponsor": {
+       "id": "L000567",
+       "name": "Leonard Lance",
+       "party": "R",
+       "state": "NJ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1032",
+      "title": "Making College Affordable Act of 2013",
+      "introduced": "2013-03-07",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2013-03-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1032",
+      "stages": {},
+      "sponsor": {
+       "id": "G000562",
+       "name": "Cory Gardner",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "784",
+      "title": "States' Medical Marijuana Property Rights Protection Act",
+      "introduced": "2013-02-15",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, And Investigations.",
+      "latestActionDate": "2013-04-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/784",
+      "stages": {},
+      "sponsor": {
+       "id": "L000551",
+       "name": "BARBARA LEE",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "768",
+      "title": "STELLAR Act",
+      "introduced": "2013-02-15",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/768",
+      "stages": {},
+      "sponsor": {
+       "id": "D000598",
+       "name": "SUSAN DAVIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "501",
+      "title": "Marijuana Tax Equity Act of 2013",
+      "introduced": "2013-02-05",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2013-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/501",
+      "stages": {},
+      "sponsor": {
+       "id": "B000574",
+       "name": "EARL BLUMENAUER",
+       "party": "D",
+       "state": "OR"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "51",
+      "title": "Expressing the sense of the House of Representatives that adding art and design into Federal programs that target the Science, Technology, Engineering, and Mathematics (STEM) fields encourages innovation and economic growth in the United States.",
+      "introduced": "2013-02-04",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Committee on Education and the Workforce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2013-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/51",
+      "stages": {},
+      "sponsor": {
+       "id": "L000559",
+       "name": "JAMES LANGEVIN",
+       "party": "D",
+       "state": "RI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "423",
+      "title": "To amend title 5, United States Code, to provide for the termination of further retirement benefits for Members of Congress, except the right to continue participating in the Thrift Savings Plan, and for other purposes.",
+      "introduced": "2013-01-25",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2013-01-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/423",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "115",
+      "title": "School Building Enhancement Act",
+      "introduced": "2013-01-03",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/115",
+      "stages": {},
+      "sponsor": {
+       "id": "H001032",
+       "name": "RUSH HOLT",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "113",
+      "title": "WILL Act",
+      "introduced": "2013-01-03",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2013-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/113",
+      "stages": {},
+      "sponsor": {
+       "id": "H001032",
+       "name": "RUSH HOLT",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 2
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 423,
+    "becameLaw": 8,
+    "topics": [
+     {
+      "name": "Education",
+      "count": 72
+     },
+     {
+      "name": "Health",
+      "count": 54
+     },
+     {
+      "name": "Taxation",
+      "count": 30
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 30
+     },
+     {
+      "name": "International Affairs",
+      "count": 29
+     }
+    ]
+   }
+  },
+  "P000593": {
+   "sponsored": {
+    "count": 11,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Housing and Community Development",
+      "count": 3
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 3
+     },
+     {
+      "name": "Energy",
+      "count": 1
+     },
+     {
+      "name": "International Affairs",
+      "count": 1
+     },
+     {
+      "name": "Science, Technology, Communications",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5776",
+      "title": "Tenant Income Verification Relief Act of 2014",
+      "introduced": "2014-12-01",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2014-12-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5776",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "765",
+      "title": "Recognizing the 40th anniversary of passage of the Solar Energy Research, Development, and Demonstration Act of 1974.",
+      "introduced": "2014-11-20",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the House Committee on Science, Space, and Technology.",
+      "latestActionDate": "2014-11-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/765",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5062",
+      "title": "Examination and Supervisory Privilege Parity Act of 2014",
+      "introduced": "2014-07-10",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Became Public Law No: 113-173.",
+      "latestActionDate": "2014-09-26",
+      "law": "113-173",
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5062",
+      "stages": {
+       "house": "2014-07-29",
+       "senate": "2014-09-18",
+       "president": "2014-09-23",
+       "law": "2014-09-26"
+      }
+     },
+     {
+      "type": "HCONRES",
+      "number": "99",
+      "title": "Expressing support for designation of a \"National Lao-Hmong Recognition Day\".",
+      "introduced": "2014-05-21",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2014-05-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-concurrent-resolution/99",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4205",
+      "title": "National Design Services Act of 2014",
+      "introduced": "2014-03-11",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2014-03-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4205",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3754",
+      "title": "Freddie Mac REMIC Reform Act of 2013",
+      "introduced": "2013-12-12",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2013-12-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3754",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "400",
+      "title": "Honoring the life and work of Commander M. Scott Carpenter, the second American to orbit the Earth.",
+      "introduced": "2013-10-30",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Science, Space, and Technology.",
+      "latestActionDate": "2013-10-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/400",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2892",
+      "title": "Fair Debt Collection Practices Technical Clarification Act of 2013",
+      "introduced": "2013-07-31",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2013-07-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2892",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2652",
+      "title": "Marijuana Businesses Access to Banking Act of 2013",
+      "introduced": "2013-07-10",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2013-09-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2652",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2077",
+      "title": "Password Protection Act of 2013",
+      "introduced": "2013-05-21",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2013-06-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2077",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "230",
+      "title": "To recognize and honor our nation's veterans on the 70th anniversaries of World War II battles.",
+      "introduced": "2013-05-21",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2013-05-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/230",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 5,
+    "becameLaw": 1,
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "596",
+      "title": "Recognizing the Khmer and Lao/Hmong Freedom Fighters of Cambodia and Laos for supporting and defending the United States Armed Forces during the conflict in Southeast Asia and for their continued support and defense of the United States.",
+      "introduced": "2014-05-22",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Asia and the Pacific.",
+      "latestActionDate": "2014-06-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/596",
+      "stages": {},
+      "sponsor": {
+       "id": "D000614",
+       "name": "Sean Duffy",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4615",
+      "title": "Sensible Accounting to Value Energy Act of 2014",
+      "introduced": "2014-05-08",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2014-05-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4615",
+      "stages": {},
+      "sponsor": {
+       "id": "K000210",
+       "name": "PETER KING",
+       "party": "R",
+       "state": "NY"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4042",
+      "title": "Community Bank Mortgage Servicing Asset Capital Requirements Study Act of 2014",
+      "introduced": "2014-02-11",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Ordered to be Reported (Amended) by the Yeas and Nays: 44 - 9.",
+      "latestActionDate": "2014-07-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4042",
+      "stages": {},
+      "sponsor": {
+       "id": "L000569",
+       "name": "Blaine Luetkemeyer",
+       "party": "R",
+       "state": "MO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3468",
+      "title": "Credit Union Share Insurance Fund Parity Act",
+      "introduced": "2013-11-13",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Became Public Law No: 113-252.",
+      "latestActionDate": "2014-12-18",
+      "law": "113-252",
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3468",
+      "stages": {
+       "house": "2014-05-06",
+       "senate": "2014-12-11",
+       "president": "2014-12-12",
+       "law": "2014-12-18"
+      },
+      "sponsor": {
+       "id": "R000487",
+       "name": "ED ROYCE",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2815",
+      "title": "FHA In-Person Servicing Improvement Act of 2013",
+      "introduced": "2013-07-24",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2013-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2815",
+      "stages": {},
+      "sponsor": {
+       "id": "G000553",
+       "name": "Al Green",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 275,
+    "becameLaw": 19,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 59
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 31
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 25
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 21
+     },
+     {
+      "name": "Education",
+      "count": 18
+     }
+    ]
+   }
+  },
+  "T000470": {
+   "sponsored": {
+    "count": 13,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 8
+     },
+     {
+      "name": "Water Resources Development",
+      "count": 1
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 1
+     },
+     {
+      "name": "Foreign Trade and International Finance",
+      "count": 1
+     },
+     {
+      "name": "Native Americans",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5414",
+      "title": "Elkhorn Ranch and White River National Forest Patent Correction Act of 2014",
+      "introduced": "2014-09-08",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Public Lands and Environmental Regulation.",
+      "latestActionDate": "2014-09-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5414",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5075",
+      "title": "REAL Protection Act",
+      "introduced": "2014-07-11",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Public Lands and Environmental Regulation.",
+      "latestActionDate": "2014-07-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5075",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5074",
+      "title": "LAND Act",
+      "introduced": "2014-07-11",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2014-09-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5074",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3460",
+      "title": "Education and Energy Act of 2013",
+      "introduced": "2013-11-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2014-01-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3460",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3189",
+      "title": "Water Rights Protection Act",
+      "introduced": "2013-09-26",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2014-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3189",
+      "stages": {
+       "reported": "2014-03-04",
+       "house": "2014-03-13"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2970",
+      "title": "Good Samaritan Cleanup of Abandoned Hardrock Mines Act of 2013",
+      "introduced": "2013-08-01",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2013-08-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2970",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "279",
+      "title": "Expressing the sense of the House of Representatives that allocating the appropriate resources to wildland fire management is needed to protect the environment, the economy, and the people of the United States, and for other purposes.",
+      "introduced": "2013-06-26",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation, Energy, and Forestry.",
+      "latestActionDate": "2013-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/279",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1916",
+      "title": "TRADE for Small Businesses and Jobs Act",
+      "introduced": "2013-05-09",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Terrorism, Nonproliferation, and Trade.",
+      "latestActionDate": "2013-06-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1916",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1839",
+      "title": "Hermosa Creek Watershed Protection Act of 2014",
+      "introduced": "2013-05-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 524.",
+      "latestActionDate": "2014-12-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1839",
+      "stages": {
+       "reported": "2014-12-22"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1658",
+      "title": "Native American Indian Education Act",
+      "introduced": "2013-04-18",
+      "policyArea": "Native Americans",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2013-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1658",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1394",
+      "title": "Planning for American Energy Act of 2013",
+      "introduced": "2013-03-21",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 146.",
+      "latestActionDate": "2013-09-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1394",
+      "stages": {
+       "reported": "2013-09-10"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "818",
+      "title": "Healthy Forest Management and Wildfire Prevention Act",
+      "introduced": "2013-02-25",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2013-04-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/818",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "678",
+      "title": "Bureau of Reclamation Small Conduit Hydropower Development and Rural Jobs Act",
+      "introduced": "2013-02-13",
+      "policyArea": "Energy",
+      "latestAction": "Became Public Law No: 113-24.",
+      "latestActionDate": "2013-08-09",
+      "law": "113-24",
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/678",
+      "stages": {
+       "reported": "2013-03-25",
+       "house": "2013-04-10",
+       "senate": "2013-08-01",
+       "president": "2013-08-06",
+       "law": "2013-08-09"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 4,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "4766",
+      "title": "To prohibit the Secretary of Veterans Affairs from paying bonuses to certain employees of the Department of Veterans Affairs until the backlog of disability claims is resolved, to establish a commission to evaluate such backlog, and for other purposes.",
+      "introduced": "2014-05-29",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2014-06-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4766",
+      "stages": {},
+      "sponsor": {
+       "id": "G000562",
+       "name": "Cory Gardner",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4332",
+      "title": "To direct the Secretary of the Treasury to increase the dollar limitation on the de minimis safe harbor from treatment as a capital expenditure for taxpayers without applicable financial statements.",
+      "introduced": "2014-03-27",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2014-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4332",
+      "stages": {},
+      "sponsor": {
+       "id": "G000562",
+       "name": "Cory Gardner",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3333",
+      "title": "Wildfire Prevention Act of 2013",
+      "introduced": "2013-10-23",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.",
+      "latestActionDate": "2013-10-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3333",
+      "stages": {},
+      "sponsor": {
+       "id": "R000599",
+       "name": "Raul Ruiz",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1926",
+      "title": "State Trade Coordination Act",
+      "introduced": "2013-05-09",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Ordered to be Reported (Amended) by Unanimous Consent.",
+      "latestActionDate": "2013-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1926",
+      "stages": {},
+      "sponsor": {
+       "id": "C000266",
+       "name": "STEVE CHABOT",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 3
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 194,
+    "becameLaw": 15,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 32
+     },
+     {
+      "name": "Taxation",
+      "count": 22
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 16
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 16
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 14
+     }
+    ]
+   }
+  },
+  "G000562": {
+   "sponsored": {
+    "count": 27,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 8
+     },
+     {
+      "name": "Energy",
+      "count": 5
+     },
+     {
+      "name": "Health",
+      "count": 3
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 3
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "737",
+      "title": "Expressing the sense of the House of Representatives that performance-based contracts for energy savings are a budget-neutral means to support the Federal Government in reducing its energy consumption without increasing spending while simultaneously supporting United States based jobs and economic development.",
+      "introduced": "2014-09-18",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the House Committee on the Budget.",
+      "latestActionDate": "2014-09-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/737",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5070",
+      "title": "EARN Act",
+      "introduced": "2014-07-10",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2014-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5070",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5057",
+      "title": "EPS Service Parts Act of 2014",
+      "introduced": "2014-07-10",
+      "policyArea": "Energy",
+      "latestAction": "Became Public Law No: 113-263.",
+      "latestActionDate": "2014-12-18",
+      "law": "113-263",
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5057",
+      "stages": {
+       "reported": "2014-09-08",
+       "house": "2014-09-11",
+       "senate": "2014-12-11",
+       "president": "2014-12-13",
+       "law": "2014-12-18"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4766",
+      "title": "To prohibit the Secretary of Veterans Affairs from paying bonuses to certain employees of the Department of Veterans Affairs until the backlog of disability claims is resolved, to establish a commission to evaluate such backlog, and for other purposes.",
+      "introduced": "2014-05-29",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2014-06-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4766",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4716",
+      "title": "Sage Grouse Protection and Conservation Act",
+      "introduced": "2014-05-22",
+      "policyArea": "Animals",
+      "latestAction": "Referred to the Subcommittee on Fisheries, Wildlife, Oceans, and Insular Affairs.",
+      "latestActionDate": "2014-05-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4716",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4700",
+      "title": "To amend the Internal Revenue Code of 1986 to increase the limitation on the deduction for student loan interest.",
+      "introduced": "2014-05-21",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2014-05-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4700",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4656",
+      "title": "Caring for America's Heroes Act",
+      "introduced": "2014-05-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2014-06-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4656",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4497",
+      "title": "To amend the Internal Revenue Code of 1986 to provide tax relief for damages relating to federally declared disasters during September 2013, and for other purposes.",
+      "introduced": "2014-04-28",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2014-04-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4497",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4496",
+      "title": "Covering People With Pre-Existing Conditions Act of 2014",
+      "introduced": "2014-04-28",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-05-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4496",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4353",
+      "title": "Shutdown Windfall Reimbursement Act",
+      "introduced": "2014-04-01",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Public Lands and Environmental Regulation.",
+      "latestActionDate": "2014-04-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4353",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4332",
+      "title": "To direct the Secretary of the Treasury to increase the dollar limitation on the de minimis safe harbor from treatment as a capital expenditure for taxpayers without applicable financial statements.",
+      "introduced": "2014-03-27",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2014-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4332",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6",
+      "title": "Domestic Prosperity and Global Freedom Act",
+      "introduced": "2014-03-06",
+      "policyArea": "Energy",
+      "latestAction": "Received in the Senate.",
+      "latestActionDate": "2014-06-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/6",
+      "stages": {
+       "reported": "2014-06-19",
+       "house": "2014-06-25"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3679",
+      "title": "To amend the Patient Protection and Affordable Care Act to prohibition on payment of bonuses and pay increases for executives of a State Exchange funded through Federal grants, and for other purposes.",
+      "introduced": "2013-12-09",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-12-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3679",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3587",
+      "title": "Utility Energy Service Contracts Improvement Act of 2013",
+      "introduced": "2013-11-21",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2013-11-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3587",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3174",
+      "title": "To authorize the Secretary of Transportation to obligate funds for emergency relief projects arising from damage caused by severe weather events in 2013, and for other purposes.",
+      "introduced": "2013-09-25",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Read twice and referred to the Committee on Environment and Public Works.",
+      "latestActionDate": "2013-12-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3174",
+      "stages": {
+       "house": "2013-09-30"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3023",
+      "title": "Water and Agriculture Tax Reform Act of 2013",
+      "introduced": "2013-08-02",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2013-08-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3023",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2832",
+      "title": "Philanthropic Facilitation Act",
+      "introduced": "2013-07-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2013-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2832",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2689",
+      "title": "Energy Savings Through Public-Private Partnerships Act of 2014",
+      "introduced": "2013-07-16",
+      "policyArea": "Energy",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 467.",
+      "latestActionDate": "2014-11-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2689",
+      "stages": {
+       "reported": "2014-11-19"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2679",
+      "title": "PURSE Act",
+      "introduced": "2013-07-11",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2013-07-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2679",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2279",
+      "title": "Reducing Excessive Deadline Obligations Act of 2013",
+      "introduced": "2013-06-06",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+      "latestActionDate": "2014-01-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2279",
+      "stages": {
+       "reported": "2013-07-30",
+       "house": "2014-01-09"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "173",
+      "title": "Waste Whistleblower Protection Resolution",
+      "introduced": "2013-04-23",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2013-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/173",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1561",
+      "title": "To authorize the Secretary of the Interior to make improvements to support facilities for National Historic Sites operated by the National Park Service, and for other purposes.",
+      "introduced": "2013-04-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 522.",
+      "latestActionDate": "2014-12-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1561",
+      "stages": {
+       "reported": "2014-12-22"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "160",
+      "title": "COST Savings Resolution",
+      "introduced": "2013-04-15",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2013-04-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/160",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1408",
+      "title": "Animal Generic Drug User Fee Amendments of 2013",
+      "introduced": "2013-04-09",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-04-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1408",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1032",
+      "title": "Making College Affordable Act of 2013",
+      "introduced": "2013-03-07",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2013-03-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1032",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "774",
+      "title": "Small Business Start-up Savings Accounts Act of 2013",
+      "introduced": "2013-02-15",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2013-02-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/774",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "317",
+      "title": "Judgment Fund Transparency Act of 2013",
+      "introduced": "2013-01-18",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on the Constitution And Civil Justice.",
+      "latestActionDate": "2013-02-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/317",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 9,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "4430",
+      "title": "Protecting the Sustainable Use of Spent Grains Act of 2014",
+      "introduced": "2014-04-08",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-04-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4430",
+      "stages": {},
+      "sponsor": {
+       "id": "W000809",
+       "name": "Steve Womack",
+       "party": "R",
+       "state": "AR"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3720",
+      "title": "Next Generation Television Marketplace Act",
+      "introduced": "2013-12-12",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2014-01-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3720",
+      "stages": {},
+      "sponsor": {
+       "id": "S001176",
+       "name": "Steve Scalise",
+       "party": "R",
+       "state": "LA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3541",
+      "title": "Obamacare Taxpayer Bailout Prevention Act",
+      "introduced": "2013-11-19",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-11-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3541",
+      "stages": {},
+      "sponsor": {
+       "id": "G000567",
+       "name": "Tim Griffin",
+       "party": "R",
+       "state": "AR"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "279",
+      "title": "Expressing the sense of the House of Representatives that allocating the appropriate resources to wildland fire management is needed to protect the environment, the economy, and the people of the United States, and for other purposes.",
+      "introduced": "2013-06-26",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation, Energy, and Forestry.",
+      "latestActionDate": "2013-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/279",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1900",
+      "title": "Natural Gas Pipeline Permitting Reform Act",
+      "introduced": "2013-05-09",
+      "policyArea": "Energy",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "latestActionDate": "2013-12-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1900",
+      "stages": {
+       "reported": "2013-11-18",
+       "house": "2013-11-21"
+      },
+      "sponsor": {
+       "id": "P000602",
+       "name": "Mike Pompeo",
+       "party": "R",
+       "state": "KS"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1715",
+      "title": "Expedited Consideration of Cuts, Consolidations, and Savings Act of 2013",
+      "introduced": "2013-04-24",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on the Budget, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2013-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1715",
+      "stages": {},
+      "sponsor": {
+       "id": "P000595",
+       "name": "Gary Peters",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1696",
+      "title": "Master Limited Partnerships Parity Act",
+      "introduced": "2013-04-24",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2013-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1696",
+      "stages": {},
+      "sponsor": {
+       "id": "P000592",
+       "name": "Ted Poe",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1659",
+      "title": "Federal Buildings Energy Savings Act of 2013",
+      "introduced": "2013-04-18",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2013-04-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1659",
+      "stages": {},
+      "sponsor": {
+       "id": "W000800",
+       "name": "Peter Welch",
+       "party": "D",
+       "state": "VT"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "540",
+      "title": "Energy Efficient Government Technology Act",
+      "introduced": "2013-02-06",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2013-02-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/540",
+      "stages": {},
+      "sponsor": {
+       "id": "E000215",
+       "name": "ANNA ESHOO",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 197,
+    "becameLaw": 14,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 39
+     },
+     {
+      "name": "Taxation",
+      "count": 28
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 18
+     },
+     {
+      "name": "International Affairs",
+      "count": 12
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 11
+     }
+    ]
+   }
+  },
+  "L000564": {
+   "sponsored": {
+    "count": 15,
+    "becameLaw": 2,
+    "topics": [
+     {
+      "name": "Government Operations and Politics",
+      "count": 3
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 2
+     },
+     {
+      "name": "Science, Technology, Communications",
+      "count": 2
+     },
+     {
+      "name": "International Affairs",
+      "count": 1
+     },
+     {
+      "name": "Immigration",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5727",
+      "title": "To require certifications by prospective contractors with the United States Government that they are not boycotting persons, and for other purposes.",
+      "introduced": "2014-11-18",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2014-11-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5727",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5041",
+      "title": "To require the Secretary of State to offer rewards totaling up to $5,000,000 for information on the kidnapping and murder of Naftali Fraenkel, a dual United States-Israeli citizen, that began on June 12, 2014.",
+      "introduced": "2014-07-09",
+      "policyArea": "International Affairs",
+      "latestAction": "Ordered to be Reported (Amended) by Unanimous Consent.",
+      "latestActionDate": "2014-07-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5041",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4357",
+      "title": "To deny admission to the United States to any representative to the United Nations who has engaged in espionage activities against the United States, poses a threat to United States national security interests, or has engaged in a terrorist activity against the United States.",
+      "introduced": "2014-04-01",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2014-04-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4357",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "448",
+      "title": "Expressing the sense of the House of Representatives that the symbols and traditions of Christmas should be protected for use by those who celebrate Christmas.",
+      "introduced": "2013-12-19",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2013-12-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/448",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3455",
+      "title": "To designate the facility of the United States Postal Service located at 201 East Pikes Peak Avenue in Colorado Springs, Colorado, as the \"Chaplain (Capt.) Dale Goetz Memorial Post Office Building\".",
+      "introduced": "2013-11-12",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2013-11-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3455",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3375",
+      "title": "To designate the community-based outpatient clinic of the Department of Veterans Affairs to be constructed at 3141 Centennial Boulevard, Colorado Springs, Colorado, as the \"PFC Floyd K. Lindstrom Department of Veterans Affairs Clinic\".",
+      "introduced": "2013-10-29",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Became Public Law No: 113-215.",
+      "latestActionDate": "2014-12-16",
+      "law": "113-215",
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3375",
+      "stages": {
+       "house": "2014-06-17",
+       "senate": "2014-12-03",
+       "president": "2014-12-08",
+       "law": "2014-12-16"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3271",
+      "title": "Military and Federal Civilian Employee Pay Act",
+      "introduced": "2013-10-07",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Committee on Appropriations, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2013-10-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3271",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3217",
+      "title": "Military Pay Act",
+      "introduced": "2013-09-28",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H6064)",
+      "latestActionDate": "2013-10-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3217",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2943",
+      "title": "Schoolchildren's Health Protection Act",
+      "introduced": "2013-08-01",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2013-09-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2943",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2597",
+      "title": "To prohibit Federal funding of National Public Radio and the use of Federal funds to acquire radio content.",
+      "introduced": "2013-06-28",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Communications and Technology.",
+      "latestActionDate": "2013-07-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2597",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2366",
+      "title": "World War I American Veterans Centennial Commemorative Coin Act",
+      "introduced": "2013-06-13",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Became Public Law No: 113-212.",
+      "latestActionDate": "2014-12-16",
+      "law": "113-212",
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2366",
+      "stages": {
+       "house": "2014-12-02",
+       "senate": "2014-12-04",
+       "president": "2014-12-10",
+       "law": "2014-12-16"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1965",
+      "title": "Federal Lands Jobs and Energy Security Act of 2013",
+      "introduced": "2013-05-14",
+      "policyArea": "Energy",
+      "latestAction": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 254.",
+      "latestActionDate": "2013-12-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1965",
+      "stages": {
+       "reported": "2013-11-12",
+       "house": "2013-11-20"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1604",
+      "title": "Map It Once, Use It Many Times Act",
+      "introduced": "2013-04-17",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2013-12-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1604",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1063",
+      "title": "National Strategic and Critical Minerals Policy Act of 2013",
+      "introduced": "2013-03-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 289.",
+      "latestActionDate": "2014-04-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1063",
+      "stages": {
+       "reported": "2014-04-01"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "326",
+      "title": "Budget Before Borrowing Act of 2013",
+      "introduced": "2013-01-22",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on Rules, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2013-01-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/326",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 11,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5766",
+      "title": "21st Century SCASDP Act",
+      "introduced": "2014-11-20",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2014-11-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5766",
+      "stages": {},
+      "sponsor": {
+       "id": "O000170",
+       "name": "Beto O'Rourke",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "681",
+      "title": "Recognizing the National Museum of World War II Aviation in Colorado Springs, Colorado, as America's National World War II Aviation Museum.",
+      "introduced": "2014-07-23",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2014-07-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/681",
+      "stages": {},
+      "sponsor": {
+       "id": "G000546",
+       "name": "SAM GRAVES",
+       "party": "R",
+       "state": "MO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5113",
+      "title": "Protecting Seniors' Medicare Choices from Obamacare Act of 2014",
+      "introduced": "2014-07-15",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-07-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5113",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4766",
+      "title": "To prohibit the Secretary of Veterans Affairs from paying bonuses to certain employees of the Department of Veterans Affairs until the backlog of disability claims is resolved, to establish a commission to evaluate such backlog, and for other purposes.",
+      "introduced": "2014-05-29",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2014-06-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4766",
+      "stages": {},
+      "sponsor": {
+       "id": "G000562",
+       "name": "Cory Gardner",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4672",
+      "title": "To amend the Fair Credit Reporting Act to provide protections for active duty military consumers, and for other purposes.",
+      "introduced": "2014-05-19",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2014-05-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4672",
+      "stages": {},
+      "sponsor": {
+       "id": "S001156",
+       "name": "Linda Sánchez",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3629",
+      "title": "Israel Sovereignty and Security Recognition Act",
+      "introduced": "2013-12-02",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Middle East and North Africa.",
+      "latestActionDate": "2014-01-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3629",
+      "stages": {},
+      "sponsor": {
+       "id": "F000448",
+       "name": "Trent Franks",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2846",
+      "title": "Recognition of Jerusalem as the Capital of the State of Israel Act",
+      "introduced": "2013-07-26",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Middle East and North Africa.",
+      "latestActionDate": "2013-08-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2846",
+      "stages": {},
+      "sponsor": {
+       "id": "F000448",
+       "name": "Trent Franks",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2824",
+      "title": "Preventing Government Waste and Protecting Coal Mining Jobs in America",
+      "introduced": "2013-07-25",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 373.",
+      "latestActionDate": "2014-05-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2824",
+      "stages": {
+       "reported": "2014-02-28",
+       "house": "2014-03-25"
+      },
+      "sponsor": {
+       "id": "J000292",
+       "name": "Bill Johnson",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2735",
+      "title": "PLANT Act",
+      "introduced": "2013-07-18",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2013-09-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2735",
+      "stages": {},
+      "sponsor": {
+       "id": "H001068",
+       "name": "Jared Huffman",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2728",
+      "title": "Protecting States' Rights to Promote American Energy Security Act",
+      "introduced": "2013-07-18",
+      "policyArea": "Energy",
+      "latestAction": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 255.",
+      "latestActionDate": "2013-12-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2728",
+      "stages": {
+       "reported": "2013-11-12",
+       "house": "2013-11-20"
+      },
+      "sponsor": {
+       "id": "F000461",
+       "name": "Bill Flores",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HRES",
+      "number": "279",
+      "title": "Expressing the sense of the House of Representatives that allocating the appropriate resources to wildland fire management is needed to protect the environment, the economy, and the people of the United States, and for other purposes.",
+      "introduced": "2013-06-26",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation, Energy, and Forestry.",
+      "latestActionDate": "2013-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/279",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 257,
+    "becameLaw": 11,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 42
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 40
+     },
+     {
+      "name": "International Affairs",
+      "count": 37
+     },
+     {
+      "name": "Taxation",
+      "count": 22
+     },
+     {
+      "name": "Economics and Public Finance",
+      "count": 15
+     }
+    ]
+   }
+  },
+  "C001077": {
+   "sponsored": {
+    "count": 19,
+    "becameLaw": 3,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 9
+     },
+     {
+      "name": "Health",
+      "count": 4
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 2
+     },
+     {
+      "name": "Immigration",
+      "count": 1
+     },
+     {
+      "name": "Commerce",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5328",
+      "title": "Guaranteed Health Coverage for Pre-Existing Conditions Act of 2014",
+      "introduced": "2014-07-31",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-08-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5328",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5237",
+      "title": "INCLUDE Act",
+      "introduced": "2014-07-29",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2014-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5237",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5196",
+      "title": "USA Act",
+      "introduced": "2014-07-24",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2014-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5196",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5113",
+      "title": "Protecting Seniors' Medicare Choices from Obamacare Act of 2014",
+      "introduced": "2014-07-15",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-07-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5113",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4261",
+      "title": "Gulf War Health Research Reform Act of 2014",
+      "introduced": "2014-03-14",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+      "latestActionDate": "2014-06-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4261",
+      "stages": {
+       "house": "2014-05-28"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3812",
+      "title": "No Bailouts for Insurance Industry Act of 2014",
+      "introduced": "2014-01-07",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-01-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3812",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3593",
+      "title": "VA Construction Assistance Act of 2014",
+      "introduced": "2013-11-21",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+      "latestActionDate": "2014-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3593",
+      "stages": {
+       "reported": "2014-09-15",
+       "house": "2014-09-16"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3210",
+      "title": "Pay Our Military Act",
+      "introduced": "2013-09-28",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Became Public Law No: 113-39.",
+      "latestActionDate": "2013-09-30",
+      "law": "113-39",
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3210",
+      "stages": {
+       "house": "2013-09-29",
+       "senate": "2013-09-30",
+       "president": "2013-09-30",
+       "law": "2013-09-30"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3184",
+      "title": "Audit the Pentagon Act of 2013",
+      "introduced": "2013-09-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2013-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3184",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2882",
+      "title": "Improving Opportunities for Service-Disabled Veteran-Owned Small Businesses Act of 2013",
+      "introduced": "2013-07-31",
+      "policyArea": "Commerce",
+      "latestAction": "Reported (Amended) by the Committee on Small Business. H. Rept. 113-662, Part I.",
+      "latestActionDate": "2014-12-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2882",
+      "stages": {
+       "reported": "2014-12-11"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2677",
+      "title": "Sequestration Tied to Member Pay (STOMP) Act of 2013",
+      "introduced": "2013-07-11",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2013-07-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2677",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1912",
+      "title": "Affordable Care Accountability Act of 2013",
+      "introduced": "2013-05-09",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-05-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1912",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1792",
+      "title": "Infectious Disease Reporting Act",
+      "introduced": "2013-04-26",
+      "policyArea": "Health",
+      "latestAction": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote .",
+      "latestActionDate": "2013-06-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1792",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1412",
+      "title": "Department of Veterans Affairs Expiring Authorities Act of 2013",
+      "introduced": "2013-04-09",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Became Public Law No: 113-37.",
+      "latestActionDate": "2013-09-30",
+      "law": "113-37",
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1412",
+      "stages": {
+       "reported": "2013-05-17",
+       "house": "2013-05-21",
+       "senate": "2013-09-23",
+       "president": "2013-09-28",
+       "law": "2013-09-30"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1402",
+      "title": "VA Expiring Authorities Extension Act of 2013",
+      "introduced": "2013-03-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Became Public Law No: 113-59.",
+      "latestActionDate": "2013-12-20",
+      "law": "113-59",
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1402",
+      "stages": {
+       "house": "2013-12-10",
+       "senate": "2013-12-18",
+       "president": "2013-12-19",
+       "law": "2013-12-20"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "978",
+      "title": "National Emergency Selective Service Act",
+      "introduced": "2013-03-06",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2013-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/978",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "804",
+      "title": "Smarter Than Sequester Defense Spending Reduction Act",
+      "introduced": "2013-02-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on the Budget.",
+      "latestActionDate": "2013-02-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/804",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "435",
+      "title": "Military Enlistment Opportunity Act of 2013",
+      "introduced": "2013-01-29",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Immigration And Border Security.",
+      "latestActionDate": "2013-02-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/435",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "423",
+      "title": "To amend title 5, United States Code, to provide for the termination of further retirement benefits for Members of Congress, except the right to continue participating in the Thrift Savings Plan, and for other purposes.",
+      "introduced": "2013-01-25",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2013-01-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/423",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 16,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5384",
+      "title": "Securing Health Care for Young Americans Act of 2014",
+      "introduced": "2014-07-31",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-08-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/5384",
+      "stages": {},
+      "sponsor": {
+       "id": "V000129",
+       "name": "David Valadao",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "679",
+      "title": "Condemning the Ukrainian separatists illegally occupying the Ukrainian city of Donetsk, and the surrounding territory, as terrorists for shooting down a civilian passenger airliner, Malaysian Airlines Flight MH17, and condemning the Government of the Russian Federation for supplying the arms.",
+      "introduced": "2014-07-22",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Europe, Eurasia, and Emerging Threats.",
+      "latestActionDate": "2014-09-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/679",
+      "stages": {},
+      "sponsor": {
+       "id": "F000451",
+       "name": "Michael Fitzpatrick",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "540",
+      "title": "Supporting the goals and ideals of National Nurses Week on May 6, 2014, through May 12, 2014.",
+      "introduced": "2014-04-03",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2014-04-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/540",
+      "stages": {},
+      "sponsor": {
+       "id": "J000126",
+       "name": "EDDIE JOHNSON",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4370",
+      "title": "Veterans Information Security Improvement Act",
+      "introduced": "2014-04-02",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Oversight and Investigations.",
+      "latestActionDate": "2014-04-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4370",
+      "stages": {},
+      "sponsor": {
+       "id": "W000813",
+       "name": "Jackie Walorski",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4332",
+      "title": "To direct the Secretary of the Treasury to increase the dollar limitation on the de minimis safe harbor from treatment as a capital expenditure for taxpayers without applicable financial statements.",
+      "introduced": "2014-03-27",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2014-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/4332",
+      "stages": {},
+      "sponsor": {
+       "id": "G000562",
+       "name": "Cory Gardner",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3679",
+      "title": "To amend the Patient Protection and Affordable Care Act to prohibition on payment of bonuses and pay increases for executives of a State Exchange funded through Federal grants, and for other purposes.",
+      "introduced": "2013-12-09",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2013-12-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3679",
+      "stages": {},
+      "sponsor": {
+       "id": "G000562",
+       "name": "Cory Gardner",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3146",
+      "title": "SAVE II Act",
+      "introduced": "2013-09-19",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2013-10-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/3146",
+      "stages": {},
+      "sponsor": {
+       "id": "M001191",
+       "name": "Patrick Murphy",
+       "party": "D",
+       "state": "FL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2912",
+      "title": "Afghanistan Suspension and Debarment Reform Act",
+      "introduced": "2013-08-01",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2013-08-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2912",
+      "stages": {},
+      "sponsor": {
+       "id": "C001076",
+       "name": "Jason Chaffetz",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2791",
+      "title": "Responsible Electronics Recycling Act",
+      "introduced": "2013-07-23",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment.",
+      "latestActionDate": "2013-09-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2791",
+      "stages": {},
+      "sponsor": {
+       "id": "G000410",
+       "name": "GENE GREEN",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2590",
+      "title": "21st Century Health Care for Heroes Act",
+      "introduced": "2013-06-28",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2013-08-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2590",
+      "stages": {},
+      "sponsor": {
+       "id": "G000564",
+       "name": "Christopher Gibson",
+       "party": "R",
+       "state": "NY"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2506",
+      "title": "Duplication Elimination Act of 2013",
+      "introduced": "2013-06-26",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2013-06-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2506",
+      "stages": {},
+      "sponsor": {
+       "id": "D000604",
+       "name": "Charles Dent",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "279",
+      "title": "Expressing the sense of the House of Representatives that allocating the appropriate resources to wildland fire management is needed to protect the environment, the economy, and the people of the United States, and for other purposes.",
+      "introduced": "2013-06-26",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation, Energy, and Forestry.",
+      "latestActionDate": "2013-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-resolution/279",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2138",
+      "title": "Ending VA Claims Disability Backlog and Accountability Act",
+      "introduced": "2013-05-23",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2013-11-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/2138",
+      "stages": {},
+      "sponsor": {
+       "id": "M001165",
+       "name": "Kevin McCarthy",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1729",
+      "title": "VA Claims, Operations, and Records Efficiency Act",
+      "introduced": "2013-04-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2013-05-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1729",
+      "stages": {},
+      "sponsor": {
+       "id": "K000368",
+       "name": "Ann Kirkpatrick",
+       "party": "D",
+       "state": "AZ"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1481",
+      "title": "To direct the Secretary of Defense to reprogram amounts appropriated for fiscal year 2013 for the Department of Defense for the Medium Extended Air Defense System.",
+      "introduced": "2013-04-10",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Strategic Forces.",
+      "latestActionDate": "2013-04-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/1481",
+      "stages": {},
+      "sponsor": {
+       "id": "S001154",
+       "name": "Bill Shuster",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "964",
+      "title": "Respect States' and Citizens' Rights Act of 2013",
+      "introduced": "2013-03-05",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, And Investigations.",
+      "latestActionDate": "2013-04-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/113th-congress/house-bill/964",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 300,
+    "becameLaw": 15,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 64
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 48
+     },
+     {
+      "name": "International Affairs",
+      "count": 25
+     },
+     {
+      "name": "Taxation",
+      "count": 24
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 21
+     }
+    ]
+   }
+  }
+ }
+}

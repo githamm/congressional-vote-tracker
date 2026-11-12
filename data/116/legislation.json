@@ -1,0 +1,4737 @@
+{
+ "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
+ "congress": 116,
+ "updated": "2026-11-11",
+ "members": {
+  "C001121": {
+   "sponsored": {
+    "count": 30,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 8
+     },
+     {
+      "name": "Health",
+      "count": 6
+     },
+     {
+      "name": "Commerce",
+      "count": 4
+     },
+     {
+      "name": "Immigration",
+      "count": 3
+     },
+     {
+      "name": "Taxation",
+      "count": 3
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "9001",
+      "title": "Prohibiting Annuities for Sexual Abusers in Congress Act",
+      "introduced": "2020-12-17",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-12-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/9001",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "9000",
+      "title": "Realizing Efforts for Military Equity, Diversity, and Inclusion Act",
+      "introduced": "2020-12-17",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2020-12-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/9000",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8851",
+      "title": "Next Generation Entrepreneurship Corps Act",
+      "introduced": "2020-12-03",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Committee on Small Business, and in addition to the Committee on Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8851",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8799",
+      "title": "End Transfers of Detained Immigrants Act",
+      "introduced": "2020-11-20",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2020-11-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8799",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8449",
+      "title": "Veterans’ Sentinel Act",
+      "introduced": "2020-09-30",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2020-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8449",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8293",
+      "title": "Teacher, Principal, and Leader Residency Access Act",
+      "introduced": "2020-09-17",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2020-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8293",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7927",
+      "title": "Military Spouses Retirement Security Act",
+      "introduced": "2020-08-04",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2020-08-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7927",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7343",
+      "title": "Afghanistan Partnership and Transparency Act",
+      "introduced": "2020-06-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Committee on Armed Services, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-06-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7343",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7342",
+      "title": "Federal Small Businesses Contractor Prompt Payment Reporting Act",
+      "introduced": "2020-06-25",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on Small Business.",
+      "latestActionDate": "2020-06-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7342",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7203",
+      "title": "GRID Act of 2020",
+      "introduced": "2020-06-15",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-06-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7203",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7091",
+      "title": "Defense Community Investment Act",
+      "introduced": "2020-06-04",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2020-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7091",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7069",
+      "title": "WATER Act of 2020",
+      "introduced": "2020-06-01",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2020-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7069",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6966",
+      "title": "RASPP Act of 2020",
+      "introduced": "2020-05-22",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-05-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6966",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "970",
+      "title": "Supporting the designation of May 2020 as \"ALS Awareness Month\".",
+      "introduced": "2020-05-15",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/970",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6808",
+      "title": "Health Force and Resilience Force Act of 2020",
+      "introduced": "2020-05-12",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "latestActionDate": "2020-05-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6808",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6711",
+      "title": "Medical Supply Transparency and Delivery Act",
+      "introduced": "2020-05-05",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Committee on Financial Services, and in addition to the Committees on Transportation and Infrastructure, Armed Services, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6711",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6618",
+      "title": "TRIAGE Act of 2020",
+      "introduced": "2020-04-24",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6618",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6578",
+      "title": "Public Health Workforce Loan Repayment Act of 2020",
+      "introduced": "2020-04-21",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-04-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6578",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6398",
+      "title": "Frontline Health Care Workers Assistance Act",
+      "introduced": "2020-03-26",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "latestActionDate": "2020-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6398",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6303",
+      "title": "Increasing Access to Capital Act of 2020",
+      "introduced": "2020-03-19",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on Small Business.",
+      "latestActionDate": "2020-03-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6303",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5348",
+      "title": "Small Business Innovation Voucher Act of 2019",
+      "introduced": "2019-12-06",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on Small Business.",
+      "latestActionDate": "2019-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5348",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5046",
+      "title": "Global War on Terrorism Memorial Location Act",
+      "introduced": "2019-11-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-12-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5046",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "677",
+      "title": "Supporting the goals and ideals of National Veterans Small Business Week.",
+      "introduced": "2019-11-01",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Small Business.",
+      "latestActionDate": "2019-11-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/677",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4873",
+      "title": "Syrian Partner Protection Act",
+      "introduced": "2019-10-28",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Citizenship.",
+      "latestActionDate": "2019-12-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4873",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3041",
+      "title": "Military Installation Resilience Assuredness Act",
+      "introduced": "2019-05-30",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2019-05-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3041",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2842",
+      "title": "POD Act of 2019",
+      "introduced": "2019-05-20",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Citizenship.",
+      "latestActionDate": "2019-06-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2842",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2634",
+      "title": "Closing the Loophole on Interstate Firearm Sales Act",
+      "introduced": "2019-05-09",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2019-06-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2634",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2331",
+      "title": "SBA Cyber Awareness Act",
+      "introduced": "2019-04-18",
+      "policyArea": "Congress",
+      "latestAction": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 151.",
+      "latestActionDate": "2019-07-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2331",
+      "stages": {
+       "reported": "2019-06-13",
+       "house": "2019-07-15"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1906",
+      "title": "To amend the Internal Revenue Code of 1986 to permanently extend the nonbusiness energy property credit.",
+      "introduced": "2019-03-27",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1906",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "868",
+      "title": "End Dark Money Act",
+      "introduced": "2019-01-30",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-01-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/868",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 18,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "1211",
+      "title": "Commemorating and acknowledging veteran-owned small businesses.",
+      "introduced": "2020-11-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Committee on Veterans' Affairs, and in addition to the Committee on Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-11-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/1211",
+      "stages": {},
+      "sponsor": {
+       "id": "S001190",
+       "name": "Bradley Schneider",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "1051",
+      "title": "Expressing support for the designation of July 20, 2020, as \"National Heroes Day\" to honor the sacrifices of everyday heroes who save lives and improve their communities.",
+      "introduced": "2020-07-16",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H3099)",
+      "latestActionDate": "2020-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/1051",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "7480",
+      "title": "COVID–19 Veterans Memorial Extension Act",
+      "introduced": "2020-07-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2020-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7480",
+      "stages": {},
+      "sponsor": {
+       "id": "B001309",
+       "name": "Tim Burchett",
+       "party": "R",
+       "state": "TN"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "7290",
+      "title": "Defense Communities Coronavirus Relief Act of 2020",
+      "introduced": "2020-06-22",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Committee on Armed Services, and in addition to the Committees on Financial Services, and Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-06-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7290",
+      "stages": {},
+      "sponsor": {
+       "id": "H001064",
+       "name": "Denny Heck",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "6872",
+      "title": "SOS Act of 2020",
+      "introduced": "2020-05-14",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6872",
+      "stages": {},
+      "sponsor": {
+       "id": "P000613",
+       "name": "Jimmy Panetta",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "6858",
+      "title": "COVID–19 Emergency Medical Supplies Enhancement Act of 2020",
+      "introduced": "2020-05-13",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Committee on Financial Services, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-05-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6858",
+      "stages": {},
+      "sponsor": {
+       "id": "V000130",
+       "name": "Juan Vargas",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "6452",
+      "title": "Railroad Rehabilitation and Improvement Financing Equity Act",
+      "introduced": "2020-04-03",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+      "latestActionDate": "2020-04-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6452",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "6208",
+      "title": "Protecting American Space Assets Act",
+      "introduced": "2020-03-11",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Armed Services, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-03-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6208",
+      "stages": {},
+      "sponsor": {
+       "id": "K000378",
+       "name": "Adam Kinzinger",
+       "party": "R",
+       "state": "IL"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "6089",
+      "title": "U.S.-Africa Strategic Security Act",
+      "introduced": "2020-03-04",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2020-03-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6089",
+      "stages": {},
+      "sponsor": {
+       "id": "P000613",
+       "name": "Jimmy Panetta",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5522",
+      "title": "Post-9/11 GI Bill Transferability Entitlement Act",
+      "introduced": "2019-12-19",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Economic Opportunity.",
+      "latestActionDate": "2020-01-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5522",
+      "stages": {},
+      "sponsor": {
+       "id": "P000613",
+       "name": "Jimmy Panetta",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5282",
+      "title": "Military Family Parole in Place Act",
+      "introduced": "2019-12-03",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Citizenship.",
+      "latestActionDate": "2019-12-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5282",
+      "stages": {},
+      "sponsor": {
+       "id": "C001123",
+       "name": "Gilbert Cisneros",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5002",
+      "title": "United States Army Rangers Veterans of World War II Congressional Gold Medal Act",
+      "introduced": "2019-11-08",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Committee on Financial Services, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2019-11-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5002",
+      "stages": {},
+      "sponsor": {
+       "id": "C001120",
+       "name": "Dan Crenshaw",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4915",
+      "title": "Small Business Cybersecurity Enhancement Act",
+      "introduced": "2019-10-30",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Small Business.",
+      "latestActionDate": "2019-10-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4915",
+      "stages": {},
+      "sponsor": {
+       "id": "S001190",
+       "name": "Bradley Schneider",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4663",
+      "title": "Freedom from Price Gouging Act",
+      "introduced": "2019-10-11",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-10-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4663",
+      "stages": {},
+      "sponsor": {
+       "id": "P000618",
+       "name": "Katie Porter",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4040",
+      "title": "Protecting Access to Spinal Surgeries Act",
+      "introduced": "2019-07-25",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4040",
+      "stages": {},
+      "sponsor": {
+       "id": "L000287",
+       "name": "JOHN LEWIS",
+       "party": "D",
+       "state": "GA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3774",
+      "title": "The Small Business Innovation Research and Small Business Technology Transfer Improvements Act of 2019",
+      "introduced": "2019-07-16",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Committee on Small Business, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2019-07-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3774",
+      "stages": {},
+      "sponsor": {
+       "id": "B001307",
+       "name": "James Baird",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2322",
+      "title": "Accelerated Payments for Small Businesses Act of 2019",
+      "introduced": "2019-04-15",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Reform.",
+      "latestActionDate": "2019-04-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2322",
+      "stages": {},
+      "sponsor": {
+       "id": "B001306",
+       "name": "Troy Balderson",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1674",
+      "title": "Veterans Improved Access and Care Act of 2019",
+      "introduced": "2019-03-11",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2019-03-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1674",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 443,
+    "becameLaw": 14,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 72
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 43
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 39
+     },
+     {
+      "name": "International Affairs",
+      "count": 33
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 27
+     }
+    ]
+   }
+  },
+  "D000197": {
+   "sponsored": {
+    "count": 26,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 15
+     },
+     {
+      "name": "Energy",
+      "count": 2
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 2
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 2
+     },
+     {
+      "name": "Science, Technology, Communications",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "9002",
+      "title": "ChiPACC Act of 2020",
+      "introduced": "2020-12-17",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-12-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/9002",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1237",
+      "title": "Supporting the goals and ideals of American Diabetes Month.",
+      "introduced": "2020-11-24",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-11-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/1237",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7517",
+      "title": "Protect Access to Birth Control Act",
+      "introduced": "2020-07-09",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Education and Labor, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7517",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7516",
+      "title": "Clean Energy Innovation and Deployment Act of 2020",
+      "introduced": "2020-07-09",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Coast Guard and Maritime Transportation.",
+      "latestActionDate": "2020-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7516",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7308",
+      "title": "RISE Act",
+      "introduced": "2020-06-24",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Biotechnology, Horticulture, and Research.",
+      "latestActionDate": "2020-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7308",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7026",
+      "title": "Rapid Testing for Communities Act of 2020",
+      "introduced": "2020-05-27",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-05-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7026",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6173",
+      "title": "Covering Coronavirus Test Act of 2020",
+      "introduced": "2020-03-10",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-03-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6173",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6102",
+      "title": "VALID Act of 2020",
+      "introduced": "2020-03-05",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-03-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6102",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4906",
+      "title": "Insulin Price Reduction Act",
+      "introduced": "2019-10-29",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-10-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4906",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4014",
+      "title": "Fracturing Responsibility and Awareness of Chemicals Act of 2019",
+      "introduced": "2019-07-25",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment and Climate Change.",
+      "latestActionDate": "2019-07-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4014",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3443",
+      "title": "To clarify the regulatory framework with respect to certain nonprescription drugs that are marketed without an approved drug application, and for other purposes.",
+      "introduced": "2019-06-24",
+      "policyArea": "Health",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E971)",
+      "latestActionDate": "2019-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3443",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3303",
+      "title": "Strengthening U.S. Olympics Act",
+      "introduced": "2019-06-18",
+      "policyArea": "Sports and Recreation",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2019-06-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3303",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3030",
+      "title": "Patient-Centered Outcomes Research Extension Act of 2019",
+      "introduced": "2019-05-28",
+      "policyArea": "Health",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2019-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3030",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2802",
+      "title": "Physical Therapist Workforce and Patient Access Act of 2019",
+      "introduced": "2019-05-16",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-05-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2802",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2711",
+      "title": "Methane Waste Prevention Act of 2019",
+      "introduced": "2019-05-14",
+      "policyArea": "Energy",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2019-09-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2711",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2668",
+      "title": "Special Diabetes Program Reauthorization Act of 2019",
+      "introduced": "2019-05-10",
+      "policyArea": "Health",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2019-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2668",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2584",
+      "title": "To amend the Congressional Budget Act of 1974 respecting the scoring of preventive health savings.",
+      "introduced": "2019-05-08",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the House Committee on the Budget.",
+      "latestActionDate": "2019-05-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2584",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2546",
+      "title": "Protecting America’s Wilderness Act",
+      "introduced": "2019-05-07",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2020-02-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2546",
+      "stages": {
+       "reported": "2020-02-04",
+       "house": "2020-02-12"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2411",
+      "title": "Tobacco to 21 Act",
+      "introduced": "2019-04-30",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2411",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2235",
+      "title": "HELLPP Act",
+      "introduced": "2019-04-10",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-04-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2235",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2092",
+      "title": "Protecting Communities from Hydrogen Cyanide Act of 2019",
+      "introduced": "2019-04-04",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment and Climate Change.",
+      "latestActionDate": "2019-04-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2092",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2012",
+      "title": "Respect States’ and Citizens’ Rights Act of 2019",
+      "introduced": "2019-04-01",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2019-05-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2012",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2011",
+      "title": "Protecting Access to Biosimilars Act of 2019",
+      "introduced": "2019-04-01",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2011",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1688",
+      "title": "Native American Indian Education Act",
+      "introduced": "2019-03-12",
+      "policyArea": "Native Americans",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2019-03-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1688",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1498",
+      "title": "SAFE Kids Act",
+      "introduced": "2019-03-05",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-03-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1498",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1184",
+      "title": "Every Kid Outdoors Act",
+      "introduced": "2019-02-13",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2019-03-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1184",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 17,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "8861",
+      "title": "PREVENT DIABETES Act",
+      "introduced": "2020-12-03",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8861",
+      "stages": {},
+      "sponsor": {
+       "id": "R000597",
+       "name": "Tom Rice",
+       "party": "R",
+       "state": "SC"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HCONRES",
+      "number": "118",
+      "title": "Directing the Secretary of the Senate to make a correction in the enrollment of the bill S. 2330.",
+      "introduced": "2020-09-18",
+      "policyArea": "Sports and Recreation",
+      "latestAction": "Referred to the Committee on the Judiciary, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-09-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-concurrent-resolution/118",
+      "stages": {},
+      "sponsor": {
+       "id": "L000582",
+       "name": "Ted Lieu",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "7881",
+      "title": "Empowering Olympic, Paralympic, and Amateur Athletes Act of 2020",
+      "introduced": "2020-07-30",
+      "policyArea": "Sports and Recreation",
+      "latestAction": "Referred to the Committee on the Judiciary, and in addition to the Committee on Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-07-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7881",
+      "stages": {},
+      "sponsor": {
+       "id": "L000582",
+       "name": "Ted Lieu",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "7286",
+      "title": "Quit Because of COVID-19 Act",
+      "introduced": "2020-06-22",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-06-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7286",
+      "stages": {},
+      "sponsor": {
+       "id": "B001303",
+       "name": "Lisa Blunt Rochester",
+       "party": "D",
+       "state": "DE"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "6701",
+      "title": "Ensuring Understanding of COVID–19 to Protect Public Health Act",
+      "introduced": "2020-05-05",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6701",
+      "stages": {},
+      "sponsor": {
+       "id": "E000215",
+       "name": "ANNA ESHOO",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "6452",
+      "title": "Railroad Rehabilitation and Improvement Financing Equity Act",
+      "introduced": "2020-04-03",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+      "latestActionDate": "2020-04-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6452",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HCONRES",
+      "number": "89",
+      "title": "Encouraging the Trump Administration to maintain protections under the National Environmental Policy Act and reverse ongoing administrative actions to weaken this landmark law and its protections for American communities.",
+      "introduced": "2020-02-11",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2020-02-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-concurrent-resolution/89",
+      "stages": {},
+      "sponsor": {
+       "id": "D000624",
+       "name": "Debbie Dingell",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5373",
+      "title": "United States Anti-Doping Agency Reauthorization Act of 2020",
+      "introduced": "2019-12-09",
+      "policyArea": "Sports and Recreation",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "latestActionDate": "2020-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5373",
+      "stages": {
+       "reported": "2020-09-29",
+       "house": "2020-09-29"
+      },
+      "sponsor": {
+       "id": "T000460",
+       "name": "MIKE THOMPSON",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5254",
+      "title": "Diabetic Vision Loss and Blindness Prevention Act of 2019",
+      "introduced": "2019-11-22",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-11-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5254",
+      "stages": {},
+      "sponsor": {
+       "id": "S001185",
+       "name": "Terri Sewell",
+       "party": "D",
+       "state": "AL"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4891",
+      "title": "Western Water Security Act of 2020",
+      "introduced": "2019-10-28",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 558.",
+      "latestActionDate": "2020-12-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4891",
+      "stages": {
+       "reported": "2020-12-18"
+      },
+      "sponsor": {
+       "id": "T000484",
+       "name": "Xochitl Torres Small",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4427",
+      "title": "To require the Secretary of Energy to identify and convey to the State of Colorado land for use as a storage site for residual radioactive material, and for other purposes.",
+      "introduced": "2019-09-19",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Environment and Climate Change.",
+      "latestActionDate": "2019-09-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4427",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4040",
+      "title": "Protecting Access to Spinal Surgeries Act",
+      "introduced": "2019-07-25",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4040",
+      "stages": {},
+      "sponsor": {
+       "id": "L000287",
+       "name": "JOHN LEWIS",
+       "party": "D",
+       "state": "GA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3649",
+      "title": "Treatment Family Care Services Act",
+      "introduced": "2019-07-09",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3649",
+      "stages": {},
+      "sponsor": {
+       "id": "D000216",
+       "name": "ROSA DELAURO",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3097",
+      "title": "Fairness in Forgiveness Act of 2019",
+      "introduced": "2019-06-04",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2019-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3097",
+      "stages": {},
+      "sponsor": {
+       "id": "S001193",
+       "name": "Eric Swalwell",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2680",
+      "title": "Special Diabetes Programs for Indians Reauthorization Act of 2019",
+      "introduced": "2019-05-10",
+      "policyArea": "Health",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2019-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2680",
+      "stages": {},
+      "sponsor": {
+       "id": "O000171",
+       "name": "Tom O'Halleran",
+       "party": "D",
+       "state": "AZ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "282",
+      "title": "Expressing the sense of the House of Representatives regarding the importance of local print and digital journalism to the continued welfare, transparency, and prosperity of government at every level and the continuation and freedom of the United States as it is known today.",
+      "introduced": "2019-04-02",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Oversight and Reform.",
+      "latestActionDate": "2019-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/282",
+      "stages": {},
+      "sponsor": {
+       "id": "D000623",
+       "name": "Mark DeSaulnier",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1840",
+      "title": "Expanding Access to DSMT Act of 2019",
+      "introduced": "2019-03-21",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-03-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1840",
+      "stages": {},
+      "sponsor": {
+       "id": "R000585",
+       "name": "Tom Reed",
+       "party": "R",
+       "state": "NY"
+      },
+      "originalCosponsors": 5
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 390,
+    "becameLaw": 13,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 80
+     },
+     {
+      "name": "International Affairs",
+      "count": 24
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 24
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 21
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 21
+     }
+    ]
+   }
+  },
+  "N000191": {
+   "sponsored": {
+    "count": 56,
+    "becameLaw": 3,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 10
+     },
+     {
+      "name": "Taxation",
+      "count": 6
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 5
+     },
+     {
+      "name": "Education",
+      "count": 4
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 4
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "9019",
+      "title": "Securing Helium for Science Act of 2020",
+      "introduced": "2020-12-17",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2020-12-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/9019",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8945",
+      "title": "Wildfire Recovery Act",
+      "introduced": "2020-12-10",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "latestActionDate": "2020-12-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8945",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8877",
+      "title": "Jumpstart for Head Start Act of 2020",
+      "introduced": "2020-12-04",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Appropriations.",
+      "latestActionDate": "2020-12-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8877",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1247",
+      "title": "Expressing the need for the Federal Government to establish a National Biodiversity Strategy for protecting biodiversity for current and future generations.",
+      "introduced": "2020-12-02",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2020-12-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/1247",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8613",
+      "title": "Carbon Cost Act of 2020",
+      "introduced": "2020-10-16",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2020-10-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8613",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8361",
+      "title": "EIDL Forgiveness Act",
+      "introduced": "2020-09-23",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on Small Business.",
+      "latestActionDate": "2020-09-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8361",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8226",
+      "title": "Criminal Antitrust Anti-Retaliation Act of 2019",
+      "introduced": "2020-09-11",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2020-09-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8226",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8052",
+      "title": "Animal Cruelty Enforcement Act of 2020",
+      "introduced": "2020-08-14",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2020-08-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8052",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7940",
+      "title": "Protect America’s Children from Toxic Pesticides Act",
+      "introduced": "2020-08-04",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Biotechnology, Horticulture, and Research.",
+      "latestActionDate": "2020-09-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7940",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7882",
+      "title": "Antitrust Criminal Penalty Enhancement and Reform Permanent Extension Act",
+      "introduced": "2020-07-30",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2020-07-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7882",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7264",
+      "title": "21st Century Conservation Corps for Our Health and Our Jobs Act",
+      "introduced": "2020-06-18",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-06-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7264",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7036",
+      "title": "Antitrust Criminal Penalty Enhancement and Reform Permanent Extension Act",
+      "introduced": "2020-05-27",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 486.",
+      "latestActionDate": "2020-06-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7036",
+      "stages": {
+       "house": "2020-06-25"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "6777",
+      "title": "Secure Our Elections Act",
+      "introduced": "2020-05-08",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2020-05-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6777",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6722",
+      "title": "Food for Families in Crisis Act of 2020",
+      "introduced": "2020-05-05",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Nutrition, Oversight, and Department Operations.",
+      "latestActionDate": "2020-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6722",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6641",
+      "title": "To establish the Commission on the Strategic National Stockpile, and for other purposes.",
+      "introduced": "2020-04-28",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-04-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6641",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6546",
+      "title": "Wildfire and Community Health Response Act of 2020",
+      "introduced": "2020-04-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2020-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6546",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6484",
+      "title": "Hazard Pay for the Frontlines During Health Emergencies Act",
+      "introduced": "2020-04-10",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Committee on Ways and Means, and in addition to the Committee on Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-04-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6484",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6483",
+      "title": "CARE Act for Those Without Homes",
+      "introduced": "2020-04-10",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2020-04-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6483",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6467",
+      "title": "Coronavirus Community Relief Act",
+      "introduced": "2020-04-07",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Reform.",
+      "latestActionDate": "2020-04-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6467",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6451",
+      "title": "Fair Coronavirus Credit Reporting Act of 2020",
+      "introduced": "2020-04-03",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2020-04-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6451",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6450",
+      "title": "Price Gouging Prevention Act",
+      "introduced": "2020-04-03",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-04-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6450",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6449",
+      "title": "Food and Necessities During Public Emergencies Act of 2020",
+      "introduced": "2020-04-03",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the House Committee on Agriculture.",
+      "latestActionDate": "2020-04-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6449",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6425",
+      "title": "Protect Our Post Offices Act",
+      "introduced": "2020-03-31",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-03-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6425",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6119",
+      "title": "Climate Readiness Act of 2020",
+      "introduced": "2020-03-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2020-03-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6119",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5791",
+      "title": "Special Envoy for Refugees Act",
+      "introduced": "2020-02-06",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Immigration and Citizenship.",
+      "latestActionDate": "2020-03-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5791",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5709",
+      "title": "Climate Resilient Communities Act",
+      "introduced": "2020-01-29",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "latestActionDate": "2020-01-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5709",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5520",
+      "title": "Research and Development Tax Credit Expansion Act of 2019",
+      "introduced": "2019-12-19",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-12-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5520",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5485",
+      "title": "Ally’s Act",
+      "introduced": "2019-12-18",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-12-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5485",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5459",
+      "title": "Rocky Mountain National Park Ownership Correction Act",
+      "introduced": "2019-12-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 116-302.",
+      "latestActionDate": "2021-01-05",
+      "law": "116-302",
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5459",
+      "stages": {
+       "reported": "2020-12-02",
+       "house": "2020-12-10",
+       "senate": "2020-12-19",
+       "president": "2020-12-24",
+       "law": "2021-01-05"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5458",
+      "title": "Rocky Mountain National Park Boundary Modification Act",
+      "introduced": "2019-12-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 116-301.",
+      "latestActionDate": "2021-01-05",
+      "law": "116-301",
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5458",
+      "stages": {
+       "reported": "2020-12-02",
+       "house": "2020-12-10",
+       "senate": "2020-12-20",
+       "president": "2020-12-24",
+       "law": "2021-01-05"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5423",
+      "title": "Aircraft Noise Reduction Act",
+      "introduced": "2019-12-12",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2019-12-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5423",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5356",
+      "title": "Federal Labs Modernization Act of 2019",
+      "introduced": "2019-12-06",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Science, Space, and Technology.",
+      "latestActionDate": "2019-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5356",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5355",
+      "title": "Stop Climate Censorship Act of 2019",
+      "introduced": "2019-12-06",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Science, Space, and Technology.",
+      "latestActionDate": "2019-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5355",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "74",
+      "title": "Encouraging the Architect of the Capitol to transition to the exclusive use of electricity derived from renewable energy sources to power the United States Capitol Complex by 2032.",
+      "introduced": "2019-11-14",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "latestActionDate": "2020-11-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-concurrent-resolution/74",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4706",
+      "title": "Advancing Competency-Based Education Act of 2019",
+      "introduced": "2019-10-16",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2019-10-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4706",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4157",
+      "title": "Fairness in Social Security Act of 2019",
+      "introduced": "2019-08-02",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-08-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4157",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4134",
+      "title": "Sustainable Agri­cul­ture Research Act",
+      "introduced": "2019-07-30",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Biotechnology, Horticulture, and Research.",
+      "latestActionDate": "2019-08-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4134",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4133",
+      "title": "Study on Improving Lands Act",
+      "introduced": "2019-07-30",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Biotechnology, Horticulture, and Research.",
+      "latestActionDate": "2019-08-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4133",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3784",
+      "title": "Air Ambulance Affordability Act of 2019",
+      "introduced": "2019-07-16",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-07-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3784",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3747",
+      "title": "On or Under Act",
+      "introduced": "2019-07-12",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2019-07-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3747",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3479",
+      "title": "Save Affordable Housing Act of 2019",
+      "introduced": "2019-06-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-06-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3479",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3478",
+      "title": "Affordable HOUSE Act",
+      "introduced": "2019-06-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-06-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3478",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3455",
+      "title": "For the relief of Ingrid Encalada Latorre.",
+      "introduced": "2019-06-24",
+      "policyArea": "",
+      "latestAction": "Referred to the Subcommittee on Immigration and Citizenship.",
+      "latestActionDate": "2019-06-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3455",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3237",
+      "title": "Platte River Recovery Implementation Program Extension Act",
+      "introduced": "2019-06-12",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2019-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3237",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3048",
+      "title": "To extend the Secure Rural Schools and Community Self-Determination Act of 2000.",
+      "introduced": "2019-05-30",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2019-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3048",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2768",
+      "title": "Reverse Transfer Efficiency Act of 2019",
+      "introduced": "2019-05-15",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2019-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2768",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2274",
+      "title": "Veterans Conservation Corps Act of 2019",
+      "introduced": "2019-04-10",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2019-05-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2274",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2107",
+      "title": "Affordable College Textbook Act",
+      "introduced": "2019-04-04",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2019-04-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2107",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1991",
+      "title": "For the relief of Jeanette Vizguerra-Ramirez.",
+      "introduced": "2019-03-28",
+      "policyArea": "",
+      "latestAction": "Referred to the Subcommittee on Immigration and Citizenship.",
+      "latestActionDate": "2019-04-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1991",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "823",
+      "title": "Colorado Outdoor Recreation and Economy Act",
+      "introduced": "2019-01-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Committee on Energy and Natural Resources Senate Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 116-382.",
+      "latestActionDate": "2020-11-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/823",
+      "stages": {
+       "reported": "2019-10-04",
+       "house": "2019-10-31"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "734",
+      "title": "Next Generation Votes Act",
+      "introduced": "2019-01-23",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2019-01-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/734",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "675",
+      "title": "Safe Helicopters Now Act",
+      "introduced": "2019-01-17",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-01-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/675",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "476",
+      "title": "Solar EDGE Act",
+      "introduced": "2019-01-10",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-01-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/476",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "475",
+      "title": "Arapaho National Forest Boundary Adjustment Act of 2019",
+      "introduced": "2019-01-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/475",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "474",
+      "title": "Bolts Ditch Access and Use Act",
+      "introduced": "2019-01-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/474",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "473",
+      "title": "To authorize the Every Word We Utter Monument to establish a commemorative work in the District of Columbia and its environs, and for other purposes.",
+      "introduced": "2019-01-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 116-217.",
+      "latestActionDate": "2020-12-17",
+      "law": "116-217",
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/473",
+      "stages": {
+       "reported": "2019-10-11",
+       "house": "2020-02-26",
+       "senate": "2020-12-03",
+       "president": "2020-12-11",
+       "law": "2020-12-17"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 17,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "8053",
+      "title": "Protect the Youth Vote Act of 2020",
+      "introduced": "2020-08-14",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2020-08-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8053",
+      "stages": {},
+      "sponsor": {
+       "id": "P000614",
+       "name": "Chris Pappas",
+       "party": "D",
+       "state": "NH"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HRES",
+      "number": "1051",
+      "title": "Expressing support for the designation of July 20, 2020, as \"National Heroes Day\" to honor the sacrifices of everyday heroes who save lives and improve their communities.",
+      "introduced": "2020-07-16",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H3099)",
+      "latestActionDate": "2020-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/1051",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "6923",
+      "title": "Coronavirus Front-Line Responders Commemorative Coin Act",
+      "introduced": "2020-05-19",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2020-05-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6923",
+      "stages": {},
+      "sponsor": {
+       "id": "B001301",
+       "name": "Jack Bergman",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "6904",
+      "title": "Increasing Access to SNAP Delivery During COVID–19 Act of 2020",
+      "introduced": "2020-05-15",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Committee on Agriculture, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6904",
+      "stages": {},
+      "sponsor": {
+       "id": "H001081",
+       "name": "Jahana Hayes",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "6452",
+      "title": "Railroad Rehabilitation and Improvement Financing Equity Act",
+      "introduced": "2020-04-03",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+      "latestActionDate": "2020-04-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6452",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "6445",
+      "title": "Food Assistance for Kids and Families During COVID-19 Act of 2020",
+      "introduced": "2020-04-03",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "latestActionDate": "2020-04-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6445",
+      "stages": {},
+      "sponsor": {
+       "id": "H001081",
+       "name": "Jahana Hayes",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "6401",
+      "title": "Ban Conflicted Trading Act",
+      "introduced": "2020-03-26",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the Committee on Financial Services, and in addition to the Committees on Agriculture, and House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-03-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6401",
+      "stages": {},
+      "sponsor": {
+       "id": "K000391",
+       "name": "Raja Krishnamoorthi",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "6065",
+      "title": "To block the implementation of a recent presidential proclamation restricting individuals from certain countries from entering the United States.",
+      "introduced": "2020-03-03",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2020-03-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6065",
+      "stages": {},
+      "sponsor": {
+       "id": "C001080",
+       "name": "Judy Chu",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "6033",
+      "title": "Pell to Grad Act",
+      "introduced": "2020-02-28",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2020-02-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6033",
+      "stages": {},
+      "sponsor": {
+       "id": "L000581",
+       "name": "Brenda Lawrence",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "835",
+      "title": "Expressing the sense of the House of Representatives that the Federal Government should establish a national goal of conserving at least 30 percent of the land and ocean of the United States by 2030.",
+      "introduced": "2020-02-06",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2020-02-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/835",
+      "stages": {},
+      "sponsor": {
+       "id": "H001080",
+       "name": "Debra Haaland",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4013",
+      "title": "Telehealth Innovation and Improvement Act of 2019",
+      "introduced": "2019-07-25",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-07-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4013",
+      "stages": {},
+      "sponsor": {
+       "id": "C001114",
+       "name": "John Curtis",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "444",
+      "title": "Reaffirming the importance of the United States to promote the safety, health, and well-being of refugees and displaced persons.",
+      "introduced": "2019-06-14",
+      "policyArea": "International Affairs",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2019-09-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/444",
+      "stages": {
+       "house": "2019-09-24"
+      },
+      "sponsor": {
+       "id": "L000582",
+       "name": "Ted Lieu",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2764",
+      "title": "Zero-Emission Vehicles Act of 2019",
+      "introduced": "2019-05-15",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment and Climate Change.",
+      "latestActionDate": "2019-05-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2764",
+      "stages": {},
+      "sponsor": {
+       "id": "L000593",
+       "name": "Mike Levin",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2546",
+      "title": "Protecting America’s Wilderness Act",
+      "introduced": "2019-05-07",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2020-02-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2546",
+      "stages": {
+       "reported": "2020-02-04",
+       "house": "2020-02-12"
+      },
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2532",
+      "title": "Tribal Heritage and Grizzly Bear Protection Act",
+      "introduced": "2019-05-07",
+      "policyArea": "Animals",
+      "latestAction": "Referred to the Subcommittee on Livestock and Foreign Agriculture.",
+      "latestActionDate": "2019-06-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2532",
+      "stages": {},
+      "sponsor": {
+       "id": "G000551",
+       "name": "Raúl Grijalva",
+       "party": "D",
+       "state": "AZ"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "387",
+      "title": "Crags, Colorado Land Exchange Act of 2019",
+      "introduced": "2019-01-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/387",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "386",
+      "title": "To update the map of, and modify the maximum acreage available for inclusion in, the Florissant Fossil Beds National Monument.",
+      "introduced": "2019-01-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/386",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 680,
+    "becameLaw": 17,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 111
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 56
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 54
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 46
+     },
+     {
+      "name": "International Affairs",
+      "count": 40
+     }
+    ]
+   }
+  },
+  "P000593": {
+   "sponsored": {
+    "count": 21,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Congress",
+      "count": 6
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 3
+     },
+     {
+      "name": "Labor and Employment",
+      "count": 2
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 2
+     },
+     {
+      "name": "Health",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "8021",
+      "title": "Green Neighborhoods Act of 2020",
+      "introduced": "2020-08-11",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Committee on Financial Services, and in addition to the Committee on Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-08-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8021",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1053",
+      "title": "Providing for consideration of the bill (H.R. 6395) to authorize appropriations for fiscal year 2021 for military activities of the Department of Defense and for military construction, to prescribe military personnel strengths for such fiscal year, and for other purposes; providing for consideration of the bill (H.R. 7027) making additional supplemental appropriations for disaster relief requirements for the fiscal year ending September 30, 2020, and for other purposes; providing for consideration of the bill (H.R. 7327) making additional supplemental appropriations for disaster relief requirements for the fiscal year ending September 30, 2020, and for other purposes; and providing for consideration of the Senate amendments to the bill (H.R. 1957) to amend the Internal Revenue Code of 1986 to modernize and improve the Internal Revenue Service, and for other purposes.",
+      "introduced": "2020-07-20",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2020-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/1053",
+      "stages": {
+       "reported": "2020-07-20",
+       "house": "2020-07-20"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1051",
+      "title": "Expressing support for the designation of July 20, 2020, as \"National Heroes Day\" to honor the sacrifices of everyday heroes who save lives and improve their communities.",
+      "introduced": "2020-07-16",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H3099)",
+      "latestActionDate": "2020-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/1051",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7560",
+      "title": "Guaranteeing Equipment Safety for Firefighters Act of 2020",
+      "introduced": "2020-07-09",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the House Committee on Science, Space, and Technology.",
+      "latestActionDate": "2020-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7560",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6592",
+      "title": "Coronavirus Relief for States Act",
+      "introduced": "2020-04-21",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Reform.",
+      "latestActionDate": "2020-04-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6592",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6468",
+      "title": "Coronavirus Assistance for States Act",
+      "introduced": "2020-04-07",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Reform.",
+      "latestActionDate": "2020-04-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6468",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6452",
+      "title": "Railroad Rehabilitation and Improvement Financing Equity Act",
+      "introduced": "2020-04-03",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+      "latestActionDate": "2020-04-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6452",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6361",
+      "title": "Relief for Small Businesses and Nonprofits Act",
+      "introduced": "2020-03-23",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2020-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6361",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6009",
+      "title": "Nuclear Workers’ Ombudsman Extension Act",
+      "introduced": "2020-02-27",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Committee on the Judiciary, and in addition to the Committee on Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-02-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6009",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5818",
+      "title": "Truth in Buffalo Labeling Act",
+      "introduced": "2020-02-07",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-02-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5818",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "739",
+      "title": "Providing for consideration of the bill (H.R. 2534) to amend the Securities Exchange Act of 1934 to prohibit certain securities trading and related communications by those who possess material, nonpublic information, and relating to consideration of the concurrent resolution (H. Con. Res. 77) directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities in the Syrian Arab Republic that have not been authorized by Congress.",
+      "introduced": "2019-12-03",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2019-12-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/739",
+      "stages": {
+       "reported": "2019-12-03",
+       "house": "2019-12-04"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5260",
+      "title": "PROSWIFT Act",
+      "introduced": "2019-11-22",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Ordered to be Reported (Amended) by Voice Vote.",
+      "latestActionDate": "2020-01-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5260",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "646",
+      "title": "Providing for consideration of the bill (H.R. 2513) to ensure that persons who form corporations or limited liability companies in the United States disclose the beneficial owners of those corporations or limited liability companies, in order to prevent wrongdoers from exploiting United States corporations and limited liability companies for criminal gain, to assist law enforcement in detecting, preventing, and punishing terrorism, money laundering, and other misconduct involving United States corporations and limited liability companies, and for other purposes.",
+      "introduced": "2019-10-21",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2019-10-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/646",
+      "stages": {
+       "reported": "2019-10-21",
+       "house": "2019-10-22"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "519",
+      "title": "Providing for consideration of the bill (H.R. 3877) to amend the Balanced Budget and Emergency Deficit Control Act of 1985, to establish a congressional budget for fiscal years 2020 and 2021, to temporarily suspend the debt limit, and for other purposes; providing for consideration of the bill (H.R. 549) to designate Venezuela under section 244 of the Immigration and Nationality Act to permit nationals of Venezuela to be eligible for temporary protected status under such section, and for other purposes; and waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+      "introduced": "2019-07-24",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2019-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/519",
+      "stages": {
+       "reported": "2019-07-24",
+       "house": "2019-07-25"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "389",
+      "title": "Providing for consideration of the bill (H.R. 1500) to require the Consumer Financial Protection Bureau to meet its statutory purpose, and for other purposes; providing for consideration of the bill (H.R. 1994) to amend the Internal Revenue Code of 1986 to encourage retirement savings, and for other purposes; providing for proceedings during the period from May 24, 2019, through May 31, 2019; and for other purposes.",
+      "introduced": "2019-05-20",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2019-05-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/389",
+      "stages": {
+       "reported": "2019-05-20",
+       "house": "2019-05-21"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1703",
+      "title": "For the relief of Arturo Hernandez-Garcia.",
+      "introduced": "2019-03-12",
+      "policyArea": "",
+      "latestAction": "Referred to the Subcommittee on Immigration and Citizenship.",
+      "latestActionDate": "2019-04-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1703",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1595",
+      "title": "SAFE Banking Act of 2019",
+      "introduced": "2019-03-07",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2019-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1595",
+      "stages": {
+       "reported": "2019-06-05",
+       "house": "2019-09-25"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1409",
+      "title": "Transparency in All Health Care Pricing Act of 2019",
+      "introduced": "2019-02-27",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-03-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1409",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1280",
+      "title": "No More Shutdowns Act",
+      "introduced": "2019-02-14",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2019-02-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1280",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "131",
+      "title": "Providing for consideration of the conference report to accompany the joint resolution (H.J. Res. 31) making further continuing appropriations for the Department of Homeland Security for fiscal year 2019, and for other purposes, and providing for proceedings during the period from February 15, 2019, through February 22, 2019.",
+      "introduced": "2019-02-14",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2019-02-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/131",
+      "stages": {
+       "reported": "2019-02-14",
+       "house": "2019-02-14"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "781",
+      "title": "Student Loan Relief for Feds Act",
+      "introduced": "2019-01-24",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2019-01-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/781",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 11,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "8895",
+      "title": "Bankruptcy Administration Improvement Act of 2020",
+      "introduced": "2020-12-08",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2020-12-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8895",
+      "stages": {},
+      "sponsor": {
+       "id": "C001084",
+       "name": "David Cicilline",
+       "party": "D",
+       "state": "RI"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "1243",
+      "title": "Recognizing the 20th anniversary of the International Space Station.",
+      "introduced": "2020-11-30",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Science, Space, and Technology.",
+      "latestActionDate": "2020-11-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/1243",
+      "stages": {},
+      "sponsor": {
+       "id": "W000814",
+       "name": "Randy Weber",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "7963",
+      "title": "Credit Union Governance Modernization Act of 2020",
+      "introduced": "2020-08-07",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2020-08-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7963",
+      "stages": {},
+      "sponsor": {
+       "id": "E000294",
+       "name": "Tom Emmer",
+       "party": "R",
+       "state": "MN"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "7688",
+      "title": "Portal for Appraisal Licensing Act of 2020",
+      "introduced": "2020-07-20",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2020-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7688",
+      "stages": {},
+      "sponsor": {
+       "id": "K000392",
+       "name": "David Kustoff",
+       "party": "R",
+       "state": "TN"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5599",
+      "title": "Fulfilling the Promise of the Housing Trust Fund Act",
+      "introduced": "2020-01-14",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2020-01-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5599",
+      "stages": {},
+      "sponsor": {
+       "id": "H001064",
+       "name": "Denny Heck",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4199",
+      "title": "Safer Communities Act of 2019",
+      "introduced": "2019-08-20",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2019-09-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4199",
+      "stages": {},
+      "sponsor": {
+       "id": "T000460",
+       "name": "MIKE THOMPSON",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4040",
+      "title": "Protecting Access to Spinal Surgeries Act",
+      "introduced": "2019-07-25",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4040",
+      "stages": {},
+      "sponsor": {
+       "id": "L000287",
+       "name": "JOHN LEWIS",
+       "party": "D",
+       "state": "GA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3996",
+      "title": "VA Design-Build Construction Enhancement Act of 2019",
+      "introduced": "2019-07-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+      "latestActionDate": "2019-11-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3996",
+      "stages": {
+       "house": "2019-11-12"
+      },
+      "sponsor": {
+       "id": "B001299",
+       "name": "Jim Banks",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3987",
+      "title": "Alleviating Stress Test Burdens to Help Investors Act",
+      "introduced": "2019-07-25",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Commodity Exchanges, Energy, and Credit.",
+      "latestActionDate": "2019-08-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3987",
+      "stages": {},
+      "sponsor": {
+       "id": "L000583",
+       "name": "Barry Loudermilk",
+       "party": "R",
+       "state": "GA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1419",
+      "title": "Public Option Deficit Reduction Act",
+      "introduced": "2019-02-28",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-03-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1419",
+      "stages": {},
+      "sponsor": {
+       "id": "D000191",
+       "name": "PETER DEFAZIO",
+       "party": "D",
+       "state": "OR"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "163",
+      "title": "RESPECT Resolution",
+      "introduced": "2019-02-28",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2019-03-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/163",
+      "stages": {},
+      "sponsor": {
+       "id": "L000551",
+       "name": "BARBARA LEE",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 419,
+    "becameLaw": 15,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 73
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 29
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 29
+     },
+     {
+      "name": "International Affairs",
+      "count": 26
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 25
+     }
+    ]
+   }
+  },
+  "B001297": {
+   "sponsored": {
+    "count": 18,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Government Operations and Politics",
+      "count": 4
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 2
+     },
+     {
+      "name": "Taxation",
+      "count": 2
+     },
+     {
+      "name": "International Affairs",
+      "count": 2
+     },
+     {
+      "name": "Foreign Trade and International Finance",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "1256",
+      "title": "Supporting President Trump's efforts to ensure that every legal vote is counted in the November 2020 Presidential election and to investigate and bring to justice those who perpetrate election fraud.",
+      "introduced": "2020-12-10",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2020-12-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/1256",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8831",
+      "title": "To codify the denial of export privileges and related provisions under title 15, Code of Federal Regulations.",
+      "introduced": "2020-12-02",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2020-12-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8831",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8757",
+      "title": "BRICKS Act of 2020",
+      "introduced": "2020-11-17",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2020-11-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8757",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "8282",
+      "title": "Saving American History Act of 2020",
+      "introduced": "2020-09-17",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2020-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8282",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1071",
+      "title": "Expressing support for the Nation's law enforcement officers.",
+      "introduced": "2020-07-30",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2020-07-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/1071",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7825",
+      "title": "PEEPS Act",
+      "introduced": "2020-07-29",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Subcommittee on Select Revenue Measures.",
+      "latestActionDate": "2020-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7825",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7824",
+      "title": "Slave-Free Business Certification Act of 2020",
+      "introduced": "2020-07-29",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2020-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7824",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7043",
+      "title": "No Bailouts for Illegal Aliens Act",
+      "introduced": "2020-05-28",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Reform.",
+      "latestActionDate": "2020-05-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7043",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6896",
+      "title": "No TikTok on Government Devices Act",
+      "introduced": "2020-05-15",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Committee on Oversight and Reform, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6896",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6046",
+      "title": "Castle Pines Community Act",
+      "introduced": "2020-03-02",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Reform.",
+      "latestActionDate": "2020-03-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6046",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5862",
+      "title": "Stop Greenlighting Driver Licenses for Illegal Immigrants Act",
+      "introduced": "2020-02-12",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Citizenship.",
+      "latestActionDate": "2020-03-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5862",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5557",
+      "title": "Threatened Species Protection Improvement Act of 2020",
+      "introduced": "2020-01-08",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Water, Oceans, and Wildlife.",
+      "latestActionDate": "2020-01-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5557",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5345",
+      "title": "Innocent Party Protection Act",
+      "introduced": "2019-12-06",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on the Constitution, Civil Rights, and Civil Liberties.",
+      "latestActionDate": "2020-01-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5345",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5122",
+      "title": "FARM Act of 2019",
+      "introduced": "2019-11-15",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2019-11-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5122",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2299",
+      "title": "Multilateral Aid Review Act of 2019",
+      "introduced": "2019-04-12",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2019-04-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2299",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1330",
+      "title": "Amache Study Act",
+      "introduced": "2019-02-25",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-03-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1330",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "807",
+      "title": "Water and Agriculture Tax Reform Act of 2019",
+      "introduced": "2019-01-28",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-01-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/807",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "793",
+      "title": "To prohibit the use of funds for the official travel of Members of Congress during any period in which a Government shutdown is in effect.",
+      "introduced": "2019-01-25",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2019-01-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/793",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 9,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6805",
+      "title": "Getting Americans Back to Work Act",
+      "introduced": "2020-05-12",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2020-05-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6805",
+      "stages": {},
+      "sponsor": {
+       "id": "B001305",
+       "name": "Ted Budd",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "6452",
+      "title": "Railroad Rehabilitation and Improvement Financing Equity Act",
+      "introduced": "2020-04-03",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+      "latestActionDate": "2020-04-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6452",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3972",
+      "title": "Regulations from the Executive in Need of Scrutiny Act of 2019",
+      "introduced": "2019-07-25",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Antitrust, Commercial, and Administrative Law.",
+      "latestActionDate": "2019-08-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3972",
+      "stages": {},
+      "sponsor": {
+       "id": "S000244",
+       "name": "F. SENSENBRENNER",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3247",
+      "title": "To provide for a safe transit exception to service level requirements for Department of Defense aircraft flying over Colorado wilderness areas, and for other purposes.",
+      "introduced": "2019-06-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2019-06-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3247",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "440",
+      "title": "Recognizing the critical importance of military aviation training in the State of Colorado, including training conducted at the High-Altitude Army National Guard Aviation Training Site.",
+      "introduced": "2019-06-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2019-06-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/440",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1910",
+      "title": "Export-Import Bank Termination Act",
+      "introduced": "2019-03-27",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2019-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1910",
+      "stages": {},
+      "sponsor": {
+       "id": "A000367",
+       "name": "Justin Amash",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1720",
+      "title": "Limiting Emergency Powers Act of 2019",
+      "introduced": "2019-03-13",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "latestActionDate": "2019-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1720",
+      "stages": {},
+      "sponsor": {
+       "id": "B001302",
+       "name": "Andy Biggs",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1406",
+      "title": "APEX Act",
+      "introduced": "2019-02-27",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Commodity Exchanges, Energy, and Credit.",
+      "latestActionDate": "2019-03-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1406",
+      "stages": {},
+      "sponsor": {
+       "id": "L000586",
+       "name": "Al Lawson",
+       "party": "D",
+       "state": "FL"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "601",
+      "title": "Medical Cannabis Research Act of 2019",
+      "introduced": "2019-01-16",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2019-03-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/601",
+      "stages": {},
+      "sponsor": {
+       "id": "G000578",
+       "name": "Matt Gaetz",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 4
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 156,
+    "becameLaw": 6,
+    "topics": [
+     {
+      "name": "International Affairs",
+      "count": 20
+     },
+     {
+      "name": "Taxation",
+      "count": 17
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 15
+     },
+     {
+      "name": "Health",
+      "count": 14
+     },
+     {
+      "name": "Immigration",
+      "count": 13
+     }
+    ]
+   }
+  },
+  "L000564": {
+   "sponsored": {
+    "count": 9,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Science, Technology, Communications",
+      "count": 4
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 2
+     },
+     {
+      "name": "Arts, Culture, Religion",
+      "count": 1
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 1
+     },
+     {
+      "name": "Water Resources Development",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "984",
+      "title": "Condemning Twitter's partisan censorship of President Donald J. Trump.",
+      "introduced": "2020-05-28",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2020-05-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/984",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "769",
+      "title": "Expressing the sense of the House of Representatives that the symbols and traditions of Christmas should be protected for use by those who celebrate Christmas.",
+      "introduced": "2019-12-17",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the House Committee on Oversight and Reform.",
+      "latestActionDate": "2019-12-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/769",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4725",
+      "title": "To designate the facility of the United States Postal Service located at 8585 Criterion Drive in Colorado Springs, Colorado, as the \"Chaplain (Capt.) Dale Goetz Memorial Post Office Building\".",
+      "introduced": "2019-10-17",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Became Public Law No: 116-239.",
+      "latestActionDate": "2020-12-21",
+      "law": "116-239",
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4725",
+      "stages": {
+       "house": "2020-09-30",
+       "senate": "2020-12-03",
+       "president": "2020-12-11",
+       "law": "2020-12-21"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3393",
+      "title": "To amend the Communications Act of 1934 to prohibit Federal funding for the Corporation for Public Broadcasting after fiscal year 2021.",
+      "introduced": "2019-06-20",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Communications and Technology.",
+      "latestActionDate": "2019-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3393",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3392",
+      "title": "To prohibit Federal funding of National Public Radio and the use of Federal funds to acquire radio content.",
+      "introduced": "2019-06-20",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Communications and Technology.",
+      "latestActionDate": "2019-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3392",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "537",
+      "title": "Bureau of Reclamation Pumped Storage Hydropower Development Act",
+      "introduced": "2019-01-14",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Ordered to be Reported (Amended) by Unanimous Consent.",
+      "latestActionDate": "2019-12-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/537",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "387",
+      "title": "Crags, Colorado Land Exchange Act of 2019",
+      "introduced": "2019-01-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/387",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "386",
+      "title": "To update the map of, and modify the maximum acreage available for inclusion in, the Florissant Fossil Beds National Monument.",
+      "introduced": "2019-01-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/386",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "318",
+      "title": "National Geologic Mapping Act Reauthorization Act",
+      "introduced": "2019-01-08",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/318",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 13,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "8865",
+      "title": "MORE DOT Grants Act",
+      "introduced": "2020-12-03",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+      "latestActionDate": "2020-12-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8865",
+      "stages": {},
+      "sponsor": {
+       "id": "S001192",
+       "name": "Chris Stewart",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "7931",
+      "title": "PIRCS Act",
+      "introduced": "2020-08-04",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Science, Space, and Technology.",
+      "latestActionDate": "2020-08-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7931",
+      "stages": {},
+      "sponsor": {
+       "id": "H001085",
+       "name": "Chrissy Houlahan",
+       "party": "D",
+       "state": "PA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "7540",
+      "title": "PLANT Act of 2020",
+      "introduced": "2020-07-09",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2020-09-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7540",
+      "stages": {},
+      "sponsor": {
+       "id": "L000578",
+       "name": "Doug LaMalfa",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "7091",
+      "title": "Defense Community Investment Act",
+      "introduced": "2020-06-04",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2020-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7091",
+      "stages": {},
+      "sponsor": {
+       "id": "C001121",
+       "name": "Jason Crow",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "7069",
+      "title": "WATER Act of 2020",
+      "introduced": "2020-06-01",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2020-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7069",
+      "stages": {},
+      "sponsor": {
+       "id": "C001121",
+       "name": "Jason Crow",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5890",
+      "title": "To amend title 38, United States Code, to reorganize the Chaplain Service of the Department of Veterans Affairs, and for other purposes.",
+      "introduced": "2020-02-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2020-02-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5890",
+      "stages": {},
+      "sponsor": {
+       "id": "B001299",
+       "name": "Jim Banks",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4299",
+      "title": "Data Preservation Act of 2020",
+      "introduced": "2019-09-12",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 553.",
+      "latestActionDate": "2020-12-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4299",
+      "stages": {
+       "reported": "2020-12-18"
+      },
+      "sponsor": {
+       "id": "V000081",
+       "name": "NYDIA VELAZQUEZ",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3626",
+      "title": "United States-United Kingdom Directed Energy Cooperation Act",
+      "introduced": "2019-07-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Intelligence and Emerging Threats and Capabilities.",
+      "latestActionDate": "2019-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3626",
+      "stages": {},
+      "sponsor": {
+       "id": "L000582",
+       "name": "Ted Lieu",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3303",
+      "title": "Strengthening U.S. Olympics Act",
+      "introduced": "2019-06-18",
+      "policyArea": "Sports and Recreation",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2019-06-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3303",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3247",
+      "title": "To provide for a safe transit exception to service level requirements for Department of Defense aircraft flying over Colorado wilderness areas, and for other purposes.",
+      "introduced": "2019-06-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2019-06-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3247",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "440",
+      "title": "Recognizing the critical importance of military aviation training in the State of Colorado, including training conducted at the High-Altitude Army National Guard Aviation Training Site.",
+      "introduced": "2019-06-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2019-06-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/440",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HJRES",
+      "number": "59",
+      "title": "Expressing support for designation of July 20th as \"National Space Exploration Day\" to commemorate the anniversary of the Apollo 11 moon landing.",
+      "introduced": "2019-06-04",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Oversight and Reform.",
+      "latestActionDate": "2019-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-joint-resolution/59",
+      "stages": {},
+      "sponsor": {
+       "id": "H001083",
+       "name": "Kendra Horn",
+       "party": "D",
+       "state": "OK"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2707",
+      "title": "New START Treaty Improvement Act of 2019",
+      "introduced": "2019-05-14",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Strategic Forces.",
+      "latestActionDate": "2019-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2707",
+      "stages": {},
+      "sponsor": {
+       "id": "C001109",
+       "name": "Liz Cheney",
+       "party": "R",
+       "state": "WY"
+      },
+      "originalCosponsors": 5
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 209,
+    "becameLaw": 12,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 36
+     },
+     {
+      "name": "International Affairs",
+      "count": 25
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 19
+     },
+     {
+      "name": "Taxation",
+      "count": 18
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 16
+     }
+    ]
+   }
+  },
+  "T000470": {
+   "sponsored": {
+    "count": 34,
+    "becameLaw": 2,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 8
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 7
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 3
+     },
+     {
+      "name": "International Affairs",
+      "count": 3
+     },
+     {
+      "name": "Energy",
+      "count": 3
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "8792",
+      "title": "Transparency in Campaign Text Message Act",
+      "introduced": "2020-11-19",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2020-11-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8792",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "7189",
+      "title": "Operation Overlord Study Abroad Program Act of 2020",
+      "introduced": "2020-06-11",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Europe, Eurasia, Energy and the Environment.",
+      "latestActionDate": "2020-06-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7189",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6294",
+      "title": "Improving Emergency Disease Response via Housing Act of 2020",
+      "introduced": "2020-03-19",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2020-09-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6294",
+      "stages": {
+       "house": "2020-09-21"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "6267",
+      "title": "State- and Science-based Gray Wolf Reintroduction Act of 2020",
+      "introduced": "2020-03-12",
+      "policyArea": "Animals",
+      "latestAction": "Referred to the Subcommittee on Water, Oceans, and Wildlife.",
+      "latestActionDate": "2020-03-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6267",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6014",
+      "title": "Employment Fairness for Taiwan Act of 2020",
+      "introduced": "2020-02-28",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2020-02-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6014",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5714",
+      "title": "Safeguarding Readiness in Military Aviation Training Act",
+      "introduced": "2020-01-29",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2020-01-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5714",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5467",
+      "title": "LOCAL Act of 2019",
+      "introduced": "2019-12-17",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Water, Oceans, and Wildlife.",
+      "latestActionDate": "2020-01-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5467",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5077",
+      "title": "REAL Protection Act",
+      "introduced": "2019-11-13",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2019-12-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5077",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4731",
+      "title": "Military Aviation Training Safeguard Act",
+      "introduced": "2019-10-17",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2019-10-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4731",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4465",
+      "title": "Enhance School Safety Act",
+      "introduced": "2019-09-24",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2019-09-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4465",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4427",
+      "title": "To require the Secretary of Energy to identify and convey to the State of Colorado land for use as a storage site for residual radioactive material, and for other purposes.",
+      "introduced": "2019-09-19",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Environment and Climate Change.",
+      "latestActionDate": "2019-09-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4427",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4410",
+      "title": "RE-Coop 21st Century Manufacturing Act",
+      "introduced": "2019-09-19",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy.",
+      "latestActionDate": "2019-09-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4410",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "554",
+      "title": "Supporting the designation of September 2019, as \"School Bus Safety and Security Month\".",
+      "introduced": "2019-09-12",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H8076)",
+      "latestActionDate": "2019-09-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/554",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4200",
+      "title": "To designate the facility of the United States Postal Service located at 321 South 1st Street in Montrose, Colorado, as the \"Sergeant David Kinterknecht Post Office\".",
+      "introduced": "2019-08-20",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Became Public Law No: 116-236.",
+      "latestActionDate": "2020-12-21",
+      "law": "116-236",
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/4200",
+      "stages": {
+       "house": "2020-09-14",
+       "senate": "2020-12-03",
+       "president": "2020-12-11",
+       "law": "2020-12-21"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3955",
+      "title": "Silver Cliff Community Act",
+      "introduced": "2019-07-24",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Reform.",
+      "latestActionDate": "2019-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3955",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "479",
+      "title": "Seeking the return of the USS Pueblo to the United States Navy.",
+      "introduced": "2019-07-09",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2019-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/479",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3247",
+      "title": "To provide for a safe transit exception to service level requirements for Department of Defense aircraft flying over Colorado wilderness areas, and for other purposes.",
+      "introduced": "2019-06-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2019-06-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3247",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "440",
+      "title": "Recognizing the critical importance of military aviation training in the State of Colorado, including training conducted at the High-Altitude Army National Guard Aviation Training Site.",
+      "introduced": "2019-06-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2019-06-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/440",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2661",
+      "title": "RURAL Broadband Act of 2019",
+      "introduced": "2019-05-10",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Commodity Exchanges, Energy, and Credit.",
+      "latestActionDate": "2019-06-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2661",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2509",
+      "title": "Ski Area Fee Retention Act",
+      "introduced": "2019-05-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2019-05-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2509",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2138",
+      "title": "Dental Care for Low-Income Veterans Act",
+      "introduced": "2019-04-08",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2019-04-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/2138",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1936",
+      "title": "Jackson Gulch Rehabilitation Project Modification Act",
+      "introduced": "2019-03-27",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water, Oceans, and Wildlife.",
+      "latestActionDate": "2019-04-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1936",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1674",
+      "title": "Veterans Improved Access and Care Act of 2019",
+      "introduced": "2019-03-11",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2019-03-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1674",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1552",
+      "title": "Private Cemeteries Honoring Veterans in the Absence of Next of Kin Act",
+      "introduced": "2019-03-06",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2019-03-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1552",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1492",
+      "title": "Yucca House National Monument Expansion Act",
+      "introduced": "2019-03-04",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 116-329.",
+      "latestActionDate": "2021-01-13",
+      "law": "116-329",
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1492",
+      "stages": {
+       "reported": "2020-01-10",
+       "house": "2020-02-26",
+       "senate": "2020-12-22",
+       "president": "2021-01-01",
+       "law": "2021-01-13"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1029",
+      "title": "Space Resources Institute Act",
+      "introduced": "2019-02-06",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Space and Aeronautics.",
+      "latestActionDate": "2019-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1029",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "786",
+      "title": "Education and Energy Act of 2019",
+      "introduced": "2019-01-24",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2019-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/786",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "785",
+      "title": "Planning for American Energy Act of 2019",
+      "introduced": "2019-01-24",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2019-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/785",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "741",
+      "title": "TAILOR Act of 2019",
+      "introduced": "2019-01-24",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2019-01-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/741",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "580",
+      "title": "Protection and Transparency for Adjacent Landowners Act",
+      "introduced": "2019-01-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2019-02-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/580",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "579",
+      "title": "Water Rights Protection Act of 2019",
+      "introduced": "2019-01-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2019-02-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/579",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "485",
+      "title": "VREASA",
+      "introduced": "2019-01-10",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Committee Hearings Held.",
+      "latestActionDate": "2019-06-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/485",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "348",
+      "title": "Fowler and Boskoff Peaks Designation Act",
+      "introduced": "2019-01-08",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/348",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "347",
+      "title": "Responsible Disposal Reauthorization Act of 2019",
+      "introduced": "2019-01-08",
+      "policyArea": "Energy",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 187.",
+      "latestActionDate": "2019-09-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/347",
+      "stages": {
+       "house": "2019-03-05"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 14,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "8293",
+      "title": "Teacher, Principal, and Leader Residency Access Act",
+      "introduced": "2020-09-17",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2020-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8293",
+      "stages": {},
+      "sponsor": {
+       "id": "C001121",
+       "name": "Jason Crow",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "8173",
+      "title": "VA High Altitude and Suicide Research Act",
+      "introduced": "2020-09-04",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2020-09-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/8173",
+      "stages": {},
+      "sponsor": {
+       "id": "M001209",
+       "name": "Ben McAdams",
+       "party": "D",
+       "state": "UT"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "7996",
+      "title": "Rural Equal Aid Act",
+      "introduced": "2020-08-11",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Commodity Exchanges, Energy, and Credit.",
+      "latestActionDate": "2020-09-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7996",
+      "stages": {},
+      "sponsor": {
+       "id": "A000378",
+       "name": "Cynthia Axne",
+       "party": "D",
+       "state": "IA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "1051",
+      "title": "Expressing support for the designation of July 20, 2020, as \"National Heroes Day\" to honor the sacrifices of everyday heroes who save lives and improve their communities.",
+      "introduced": "2020-07-16",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H3099)",
+      "latestActionDate": "2020-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/1051",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "7395",
+      "title": "American Flag Production Act of 2020",
+      "introduced": "2020-06-26",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Committee on Oversight and Reform, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2020-06-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/7395",
+      "stages": {},
+      "sponsor": {
+       "id": "V000133",
+       "name": "Jefferson Van Drew",
+       "party": "R",
+       "state": "NJ"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "930",
+      "title": "Supporting the resiliency of America's small businesses.",
+      "introduced": "2020-04-21",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on Small Business.",
+      "latestActionDate": "2020-04-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/930",
+      "stages": {},
+      "sponsor": {
+       "id": "B001306",
+       "name": "Troy Balderson",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "6513",
+      "title": "To defer the year of inclusion for certain capital gains invested in a qualified opportunity fund.",
+      "introduced": "2020-04-14",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2020-04-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6513",
+      "stages": {},
+      "sponsor": {
+       "id": "R000611",
+       "name": "Denver Riggleman",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "6057",
+      "title": "Stop the Spread of Invasive Mussels Act of 2020",
+      "introduced": "2020-03-02",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Water, Oceans, and Wildlife.",
+      "latestActionDate": "2020-03-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/6057",
+      "stages": {},
+      "sponsor": {
+       "id": "M001209",
+       "name": "Ben McAdams",
+       "party": "D",
+       "state": "UT"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5293",
+      "title": "Universal Charitable Giving Act of 2019",
+      "introduced": "2019-12-03",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5293",
+      "stages": {},
+      "sponsor": {
+       "id": "W000819",
+       "name": "Mark Walker",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "5103",
+      "title": "Rural Hospital Frontier Workforce Fairness Act",
+      "introduced": "2019-11-14",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-11-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/5103",
+      "stages": {},
+      "sponsor": {
+       "id": "P000258",
+       "name": "COLLIN PETERSON",
+       "party": "D",
+       "state": "MN"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "593",
+      "title": "Expressing the sense of the House of Representatives that the whistleblower complaint received on August 12, 2019, by the Inspector General of the Intelligence Community should be transmitted immediately to the Select Committee on Intelligence of the Senate and the Permanent Select Committee on Intelligence of the House of Representatives.",
+      "introduced": "2019-09-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Intelligence (Permanent Select).",
+      "latestActionDate": "2019-09-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/593",
+      "stages": {},
+      "sponsor": {
+       "id": "C001114",
+       "name": "John Curtis",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3361",
+      "title": "RIVER Act",
+      "introduced": "2019-06-19",
+      "policyArea": "Energy",
+      "latestAction": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 611.",
+      "latestActionDate": "2020-12-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/3361",
+      "stages": {
+       "reported": "2020-12-08",
+       "house": "2020-12-09"
+      },
+      "sponsor": {
+       "id": "M001180",
+       "name": "David McKinley",
+       "party": "R",
+       "state": "WV"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1961",
+      "title": "KOMBUCHA",
+      "introduced": "2019-03-28",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-03-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1961",
+      "stages": {},
+      "sponsor": {
+       "id": "B000574",
+       "name": "EARL BLUMENAUER",
+       "party": "D",
+       "state": "OR"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1323",
+      "title": "Rural Hospital Frontier Fairness Act",
+      "introduced": "2019-02-22",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-02-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1323",
+      "stages": {},
+      "sponsor": {
+       "id": "P000258",
+       "name": "COLLIN PETERSON",
+       "party": "D",
+       "state": "MN"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 250,
+    "becameLaw": 12,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 39
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 34
+     },
+     {
+      "name": "Taxation",
+      "count": 25
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 21
+     },
+     {
+      "name": "International Affairs",
+      "count": 19
+     }
+    ]
+   }
+  }
+ }
+}

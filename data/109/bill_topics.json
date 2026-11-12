@@ -1,0 +1,3298 @@
+{
+ "_comment": "Congress.gov policy area (topic) for each bill voted on in this Congress, keyed by the Clerk's bill number as in all_votes.csv. Special rules (resolutions 'providing for consideration of' other bills) are all filed under 'Congress'; 'ruleFor' lists the bills they set up, so the page shows those bills' topics instead. Written by fetch_legislation.py.",
+ "congress": 109,
+ "updated": "2026-11-12",
+ "bills": {
+  "H CON RES 126": {
+   "policyArea": "Commemorations",
+   "title": "Expressing the condolences and deepest sympathies of the Congress in the aftermath of the recent school shooting at Red Lake High School in Red Lake, Minnesota.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 127": {
+   "policyArea": "International Affairs",
+   "title": "Calling on the Government of the Federal Republic of Nigeria to transfer Charles Ghankay Taylor, former President of the Republic of Liberia, to the Special Court for Sierra Leone to be tried for war crimes, crimes against humanity, and other serious violations of international humanitarian law.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 149": {
+   "policyArea": "International Affairs",
+   "title": "Recognizing the 57th anniversary of the independence of the State of Israel.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 155": {
+   "policyArea": "International Affairs",
+   "title": "Urging the Government of the Republic of Albania to ensure that the parliamentary elections to be held on July 3, 2005, are conducted in accordance with international standards for free and fair elections.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 16": {
+   "policyArea": "International Affairs",
+   "title": "Congratulating the people of Ukraine for conducting a democratic, transparent, and fair runoff presidential election on December 26, 2004, and congratulating Viktor Yushchenko on his election as President of Ukraine and his commitment to democracy and reform.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 160": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing the historical significance of Juneteenth Independence Day, and expressing the sense of Congress that history should be regarded as a means for understanding the past and solving the challenges of the future.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 168": {
+   "policyArea": "International Affairs",
+   "title": "Condemning the Democratic People's Republic of Korea for the abductions and continued captivity of citizens of the Republic of Korea and Japan as acts of terrorism and gross violations of human rights.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 175": {
+   "policyArea": "International Affairs",
+   "title": "Acknowledging African descendants of the transatlantic slave trade in all of the Americas with an emphasis on descendants in Latin America and the Caribbean, recognizing the injustices suffered by these African descendants, and recommending that the United States and the international community work to improve the situation of Afro-descendant communities in Latin America and the Caribbean.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 178": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing the need to pursue research into the causes, a treatment, and an eventual cure for idiopathic pulmonary fibrosis, supporting the goals and ideals of National Idiopathic Pulmonary Fibrosis Awareness Week, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 18": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the grave concern of Congress regarding the continuing gross violations of human rights and civil liberties of the Syrian and Lebanese people by the Government of the Syrian Arab Republic.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 181": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of National Life Insurance Awareness Month, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 190": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of the Congress that the Russian Federation should fully protect the freedoms of all religious communities without distinction, whether registered and unregistered, as stipulated by the Russian Constitution and international standards.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 191": {
+   "policyArea": "Commemorations",
+   "title": "Commemorating the 60th anniversary of the conclusion of the War in the\r\nPacific and honoring veterans of both the Pacific and Atlantic theaters  of the Second World War.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 196": {
+   "policyArea": "Commemorations",
+   "title": "Honoring the pilots of United States commercial air carriers who volunteer to participate in the Federal flight deck officer program.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 209": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of Domestic Violence Awareness Month and expressing the sense of Congress that Congress should raise awareness of domestic violence in the United States and its devastating effects on families.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 210": {
+   "policyArea": "Health",
+   "title": "Supporting the goal of eliminating suffering and death due to cancer by the year 2015.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 225": {
+   "policyArea": "Congress",
+   "title": "Providing for an adjournment or recess of the two Houses.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 230": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "Expressing the sense of the Congress that the Russian Federation must protect intellectual property rights.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 245": {
+   "policyArea": "Civil Rights and Liberties, Minority Issues",
+   "title": "Expressing the sense of Congress that the United States Supreme Court should speedily find the use of the Pledge of Allegiance in schools to be consistent with the Constitution of the United States.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 248": {
+   "policyArea": "International Affairs",
+   "title": "Honoring the life and work of Simon Wiesenthal and reaffirming the commitment of Congress to the fight against anti-Semitism and intolerance in all forms, in all forums, and in all nations.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 25": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing the contributions of Jibreel Khazan (Ezell Blair, Jr.), David Richmond, Joseph McNeil, and Franklin McCain, the \"Greensboro Four\", to the civil rights movement.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 26": {
+   "policyArea": "Commemorations",
+   "title": "Honoring the Tuskegee Airmen for their bravery in fighting for our freedom in World War II, and for their contribution in creating an integrated United States Air Force.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 260": {
+   "policyArea": "International Affairs",
+   "title": "Concurrent resolution recognizing the 40th anniversary of the Second Vatican Council's promulgation of Noestra Aetate, the declaration on the relation of the Roman Catholic Church to non-Christian religions, and the historic role of Nostra Aetate in fostering mutual interreligious respect and dialogue.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 268": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Expressing the sense of the Congress regarding oversight of the Internet Corporation for Assigned Names and Numbers.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 269": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing the 40th anniversary of the White House Fellows Program.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 275": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of Congress regarding the education curriculum in the Kingdom of Saudi Arabia.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 284": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of Congress with respect to the 2005 presidential and parliamentary elections in Egypt.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 294": {
+   "policyArea": "International Affairs",
+   "title": "Calling on the international community to condemn the Laogai, the system of forced labor prison camps in the People's Republic of China, as a tool for suppression maintained by the Chinese Government.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 30": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of National Black HIV/AIDS Awareness Day.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 308": {
+   "policyArea": "Congress",
+   "title": "Directing the Clerk of the House of Representatives to make a technical correction in the enrollment of H.R. 3058.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 312": {
+   "policyArea": "International Affairs",
+   "title": "Urging the Government of the Russian Federation to withdraw the first draft of the proposed legislation as passed in its first reading in the State Duma that would have the effect of severely restricting the establishment, operations, and activities of domestic, international, and foreign nongovernmental organizations in the Russian Federation, or to modify the proposed legislation to entirely remove these restrictions.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 315": {
+   "policyArea": "Commemorations",
+   "title": "Urging the President to issue a proclamation for the observance of an American Jewish History Month.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 32": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the grave concern of Congress regarding the occupation of the Lebanese Republic by the Syrian Arab Republic.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 320": {
+   "policyArea": "International Affairs",
+   "title": "Calling on the Government of the Socialist Republic of Vietnam to immediately and unconditionally release Dr. Pham Hong Son and other political prisoners and prisoners of conscience, and other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 322": {
+   "policyArea": "Commemorations",
+   "title": "Expressing the appreciation of Congress for the contributions of the United Service Organizations, Incorporated (the USO), to the morale and welfare of the members of the Armed Forces and their families.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 338": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of Congress regarding the activities of Islamist terrorist organizations in the Western Hemisphere.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 34": {
+   "policyArea": "Commemorations",
+   "title": "Honoring the life and contributions of Yogi Bhajan, a leader of Sikhs, and expressing condolences to the Sikh community on his passing.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 341": {
+   "policyArea": "International Affairs",
+   "title": "Condemning the Government of Iran for violating its international nuclear nonproliferation obligations and expressing support for efforts to report Iran to the United Nations Security Council.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 354": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Expressing the continued support of Congress for requiring an institution of higher education to provide military recruiters with access to the institution's campus and students at least equal in quality and scope to that which is provided to any other employer in order to be eligible for the receipt of certain Federal funds.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 359": {
+   "policyArea": "Congress",
+   "title": "Authorizing the use of the Capitol Grounds for the District of Columbia Special Olympics Law Enforcement Torch Run.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 36": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Expressing the continued support of Congress for equal access of military recruiters to institutions of higher education.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 365": {
+   "policyArea": "International Affairs",
+   "title": "Urging the Government of China to reinstate all licenses of Gao Zhisheng and his law firm, remove all legal and political obstacles for lawyers attempting to defend criminal cases in China, including politically sensitive cases, and revise law and practice in China so that it conforms to international standards.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 366": {
+   "policyArea": "Commemorations",
+   "title": "To congratulate the National Aeronautics and Space Administration on the 25th anniversary of the first flight of the Space Transportation System, to honor Commander John Young and the Pilot Robert Crippen, who flew Space Shuttle Columbia on April 12-14, 1981, on its first orbital test flight, and to commend the men and women of the National Aeronautics and Space Administration and all those supporting America's space program for their accomplishments and their role in inspiring the American people.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 376": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Establishing the congressional budget for the United States Government for fiscal year 2007 and setting forth appropriate budgetary levels for fiscal years 2008 through 2011.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 384": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing and honoring the 100th anniversary of the founding of the Alpha Phi Alpha Fraternity, Incorporated, the first intercollegiate Greek-letter fraternity established for African Americans.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 392": {
+   "policyArea": "International Affairs",
+   "title": "Recognizing the 58th anniversary of the independence of the State of Israel.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 408": {
+   "policyArea": "International Affairs",
+   "title": "Commending the Government of Canada for its renewed commitment to the Global War on Terror in Afghanistan.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 415": {
+   "policyArea": "International Affairs",
+   "title": "Condemning the repression of the Iranian Baha'i community and calling for the emancipation of Iranian Baha'is.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 44": {
+   "policyArea": "International Affairs",
+   "title": "Recognizing the historical significance of the Mexican holiday of Cinco de Mayo.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 440": {
+   "policyArea": "Congress",
+   "title": "Providing for an adjournment or recess of the two Houses.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 448": {
+   "policyArea": "Commemorations",
+   "title": "Commending the National Aeronautics and Space Administration on the completion of the Space Shuttle's second Return-to-Flight mission.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 449": {
+   "policyArea": "Commemorations",
+   "title": "Commemorating the 60th anniversary of the historic 1946 season of Major League Baseball Hall of Fame member Bob Feller and his return from military service to the United States.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 459": {
+   "policyArea": "Congress",
+   "title": "Providing for an adjournment or recess of the two Houses.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 483": {
+   "policyArea": "Congress",
+   "title": "Providing for an adjournment or recess of the two Houses.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 5": {
+   "policyArea": "Commemorations",
+   "title": "Providing for the acceptance of a statue of Sarah Winnemucca, presented by the people of Nevada, for placement in National Statuary Hall, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 6": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Expressing the sense of the Congress that the Department of Defense should continue to exercise its statutory authority to support the activities of the Boy Scouts of America, in particular the periodic national and world Boy Scout Jamborees.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 63": {
+   "policyArea": "Commemorations",
+   "title": "Permitting the use of the rotunda of the Capitol for a ceremony as part of the commemoration of the days of remembrance of victims of the Holocaust.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 81": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of Congress regarding the two-year anniversary of the human rights crackdown in Cuba.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 95": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Establishing the congressional budget for the United States Government for fiscal year 2006, revising appropriate budgetary levels for fiscal year 2005, and setting forth appropriate budgetary levels for fiscal years 2007 through 2010.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 98": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the grave concern of Congress regarding the recent passage of the anti-secession law by the National People's Congress of the People's Republic of China.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 10": {
+   "policyArea": "Commemorations",
+   "title": "Proposing an amendment to the Constitution of the United States authorizing the Congress to prohibit the physical desecration of the flag of the United States.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 102": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Making further continuing appropriations for the fiscal year 2007, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 19": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Providing for the appointment of Shirley Ann Jackson as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 20": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Providing for the appointment of Robert P. Kogod as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 27": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "Withdrawing the approval of the United States from the Agreement establishing the World Trade Organization.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 52": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "Approving the renewal of import restrictions contained in the Burmese Freedom and Democracy Act of 2003.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 59": {
+   "policyArea": "Commemorations",
+   "title": "Expressing the sense of Congress with respect to the establishment of an appropriate day for the commemoration of the women suffragists who fought for and won the right of women to vote in the United States.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 61": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of Gold Star Mothers Day.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 65": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Disapproving the recommendations of the Defense Base Closure and Realignment Commission.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 66": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of \"Lights On Afterschool!\", a national celebration of after-school programs.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 68": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Making continuing appropriations for the fiscal year 2006, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 72": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Making further continuing appropriations for the fiscal year 2006, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 81": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Providing for the appointment of Phillip Frost as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 88": {
+   "policyArea": "Families",
+   "title": "Marriage Protection Amendment",
+   "checked": "2026-11-12"
+  },
+  "H R 1053": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "To authorize the extension of nondiscriminatory treatment (normal trade relations treatment) to the products of Ukraine.",
+   "checked": "2026-11-12"
+  },
+  "H R 1065": {
+   "policyArea": "Sports and Recreation",
+   "title": "United States Boxing Commission Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1096": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Act Commemorating the LITE",
+   "checked": "2026-11-12"
+  },
+  "H R 1176": {
+   "policyArea": "Law",
+   "title": "Nonprofit Athletic Organization Protection Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 1185": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Federal Deposit Insurance Reform Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 120": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 30777 Rancho California Road in Temecula, California, as the \"Dalip Singh Saund Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 1224": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Business Checking Freedom Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 1259": {
+   "policyArea": "Commemorations",
+   "title": "To award a congressional gold medal on behalf of the Tuskegee Airmen, collectively,  in recognition of their unique military record, which inspired revolutionary reform in the Armed Forces.",
+   "checked": "2026-11-12"
+  },
+  "H R 1268": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Emergency Supplemental Appropriations Act for Defense, the Global War on Terror, and Tsunami Relief, 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 1270": {
+   "policyArea": "Taxation",
+   "title": "To amend the Internal Revenue Code of 1986 to extend the Leaking Underground Storage Tank Trust Fund financing rate.",
+   "checked": "2026-11-12"
+  },
+  "H R 1279": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Gang Deterrence and Community Protection Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 135": {
+   "policyArea": "Water Resources Development",
+   "title": "Twenty-First Century Water Commission Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 1409": {
+   "policyArea": "International Affairs",
+   "title": "Assistance for Orphans and Other Vulnerable Children in Developing Countries Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 1461": {
+   "policyArea": "Housing and Community Development",
+   "title": "Federal Housing Finance Reform Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 1463": {
+   "policyArea": "Commemorations",
+   "title": "To designate a portion of the Federal building located at 2100 Jamieson Avenue, in Alexandria, Virginia, as the \"Justin W. Williams United States Attorney's Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 1544": {
+   "policyArea": "Emergency Management",
+   "title": "Faster and Smarter Funding for First Responders Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 1564": {
+   "policyArea": "Water Resources Development",
+   "title": "Yakima-Tieton Irrigation District Conveyance Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 1606": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Online Freedom of Speech Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1691": {
+   "policyArea": "Commemorations",
+   "title": "To designate the Department of Veterans Affairs outpatient clinic in Appleton, Wisconsin, as the \"John H. Bradley Department of Veterans Affairs Outpatient Clinic\".",
+   "checked": "2026-11-12"
+  },
+  "H R 1751": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Court Security Improvement Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 1790": {
+   "policyArea": "Education",
+   "title": "Child Medication Safety Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 1815": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "National Defense Authorization Act for Fiscal Year 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 1817": {
+   "policyArea": "Emergency Management",
+   "title": "Department of Homeland Security Authorization Act for Fiscal Year 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 1973": {
+   "policyArea": "International Affairs",
+   "title": "Senator Paul Simon Water for the Poor Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 2107": {
+   "policyArea": "Commemorations",
+   "title": "National Law Enforcement Officers Memorial Maintenance Fund Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 2123": {
+   "policyArea": "Education",
+   "title": "School Readiness Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 22": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Postal Accountability and Enhancement Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2326": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 614 West Old County Road in Belhaven, North Carolina, as the \"Floyd Lupton Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 2360": {
+   "policyArea": "Emergency Management",
+   "title": "Department of Homeland Security Appropriations Act, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 2361": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 2389": {
+   "policyArea": "Law",
+   "title": "Pledge Protection Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 2419": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Energy and Water Development Appropriations Act, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 2475": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Intelligence Authorization Act for Fiscal Year 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 250": {
+   "policyArea": "Commerce",
+   "title": "Manufacturing Technology Competitiveness Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 2520": {
+   "policyArea": "Health",
+   "title": "Stem Cell Therapeutic and Research Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 2528": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Military Quality of Life and Veterans Affairs Appropriations Act, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 2563": {
+   "policyArea": "Water Resources Development",
+   "title": "To authorize the Secretary of the Interior to conduct feasibility studies to address certain water shortages within the Snake, Boise, and Payette River systems in Idaho, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 2601": {
+   "policyArea": "International Affairs",
+   "title": "Foreign Relations Authorization Act, Fiscal Years 2006 and 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 2679": {
+   "policyArea": "Civil Rights and Liberties, Minority Issues",
+   "title": "Veterans' Memorials, Boy Scouts, Public Seals, and Other Public Expressions of Religion Protection Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 27": {
+   "policyArea": "Labor and Employment",
+   "title": "Workforce Investment Act Amendments of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 2744": {
+   "policyArea": "Agriculture and Food",
+   "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 2745": {
+   "policyArea": "International Affairs",
+   "title": "Henry J. Hyde United Nations Reform Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 2808": {
+   "policyArea": "Commemorations",
+   "title": "Abraham Lincoln Commemorative Coin Act",
+   "checked": "2026-11-12"
+  },
+  "H R 282": {
+   "policyArea": "International Affairs",
+   "title": "Iran Freedom Support Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2829": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Office of National Drug Control Policy Reauthorization Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 2830": {
+   "policyArea": "Labor and Employment",
+   "title": "Pension Security and Transparency Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 2862": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Science, State, Justice, Commerce, and Related Agencies Appropriations Act, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 2863": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Department of Defense, Emergency Supplemental Appropriations to Address Hurricanes in the Gulf of Mexico, and Pandemic Influenza Act, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 2864": {
+   "policyArea": "Water Resources Development",
+   "title": "Water Resources Development Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 2894": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 102 South Walters Avenue in Hodgenville, Kentucky, as the \"Abraham Lincoln Birthplace Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 29": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Spy Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2965": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Federal Prison Industries Competition in Contracting Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 2977": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 306 2nd Avenue in Brockway, Montana, as the \"Paul Kasten Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 2985": {
+   "policyArea": "Congress",
+   "title": "Legislative Branch Appropriations Act, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 2990": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Credit Rating Agency Duopoly Relief Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 3": {
+   "policyArea": "Transportation and Public Works",
+   "title": "SAFETEA-LU",
+   "checked": "2026-11-12"
+  },
+  "H R 3010": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 3045": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "Dominican Republic-Central America-United States Free Trade Agreement Implementation Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3057": {
+   "policyArea": "International Affairs",
+   "title": "Foreign Operations, Export Financing, and Related Programs Appropriations Act, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 3058": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Transportation, Treasury, Housing and Urban Development, the Judiciary, the District of Columbia, and Independent Agencies Appropriations Act, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 3070": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "National Aeronautics and Space Administration Authorization Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3085": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "To amend the National Trails System Act to update the feasibility and suitability study originally prepared for the Trail of Tears National Historic Trail and provide for the inclusion of new trail segments, land components, and campgrounds associated with that trail, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 310": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Broadcast Decency Enforcement Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3100": {
+   "policyArea": "International Affairs",
+   "title": "East Asia Security Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3127": {
+   "policyArea": "International Affairs",
+   "title": "Darfur Peace and Accountability Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 3130": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Making supplemental appropriations for fiscal year 2005 for veterans medical services.",
+   "checked": "2026-11-12"
+  },
+  "H R 3132": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Children's Safety Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 315": {
+   "policyArea": "Commemorations",
+   "title": "To designate the United States courthouse at 300 North Hogan Street, Jacksonville, Florida, as the \"John Milton Bryan Simpson United States Courthouse\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3169": {
+   "policyArea": "Education",
+   "title": "Pell Grant Hurricane and Disaster Relief Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3199": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "USA PATRIOT Improvement and Reauthorization Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3200": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Servicemembers' Group Life Insurance Enhancement Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 323": {
+   "policyArea": "Commemorations",
+   "title": "To redesignate the Ellis Island Library on the third floor of the Ellis Island Immigration Museum, located on Ellis Island in New York Harbor, as the \"Bob Hope Memorial Library\".",
+   "checked": "2026-11-12"
+  },
+  "H R 324": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 321 Montgomery Road in Altamonte Springs, Florida, as the \"Arthur Stacey Mastrapa Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3256": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 3038 West Liberty Avenue in Pittsburgh, Pennsylvania, as the \"Congressman James Grove Fulton Memorial Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3283": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "United States Trade Rights Enforcement Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3339": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 2061 South Park Avenue in Buffalo, New York, as the \"James T. Molloy Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3402": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Violence Against Women and Department of Justice Reauthorization Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3422": {
+   "policyArea": "Housing and Community Development",
+   "title": "Small Public Housing Authority Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3496": {
+   "policyArea": "Transportation and Public Works",
+   "title": "National Capital Transportation Amendments Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 3505": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Financial Services Regulatory Relief Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3548": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located on Franklin Avenue in Pearl River, New York, as the \"Heinz Ahlmeyer, Jr. Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3549": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 210 West 3rd Avenue in Warren, Pennsylvania, as the \"William F. Clinger, Jr. Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3649": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Sportfishing and Recreational Boating Safety Amendments Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3650": {
+   "policyArea": "Law",
+   "title": "Federal Judiciary Emergency Special Sessions Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 366": {
+   "policyArea": "Labor and Employment",
+   "title": "Vocational and Technical Education for the Future Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3668": {
+   "policyArea": "Education",
+   "title": "Student Grant Hurricane and Disaster Relief Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3669": {
+   "policyArea": "Emergency Management",
+   "title": "National Flood Insurance Program Enhanced Borrowing Authority Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3673": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Second Emergency Supplemental Appropriations Act to Meet Immediate Needs Arising From the Consequences of Hurricane Katrina, 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3675": {
+   "policyArea": "Commerce",
+   "title": "American Spirit Fraud Prevention Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3729": {
+   "policyArea": "Law",
+   "title": "Federal Judiciary Emergency Tolling Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 3761": {
+   "policyArea": "Labor and Employment",
+   "title": "Flexibility for Displaced Workers Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3770": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 205 West Washington Street in Knox, Indiana, as the \"Grant W. Green Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3824": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Threatened and Endangered Species Recovery Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3829": {
+   "policyArea": "Commemorations",
+   "title": "To designate the Department of Veterans Affairs Medical Center in Muskogee, Oklahoma, as the Jack C. Montgomery Department of Veterans Affairs Medical Center.",
+   "checked": "2026-11-12"
+  },
+  "H R 3853": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 208 South Main Street in Parkdale, Arkansas, as the Willie Vaughn Post Office.",
+   "checked": "2026-11-12"
+  },
+  "H R 3858": {
+   "policyArea": "Emergency Management",
+   "title": "Pets Evacuation and Transportation Standards Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 3893": {
+   "policyArea": "Energy",
+   "title": "Gasoline for America's Security Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3894": {
+   "policyArea": "Housing and Community Development",
+   "title": "Hurricane Katrina Emergency Housing Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3895": {
+   "policyArea": "Housing and Community Development",
+   "title": "Rural Housing Hurricane Relief Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3896": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Hurricane Katrina Emergency Relief CDBG Flexibility Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3945": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Hurricane Katrina Financial Services Relief Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 3989": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 37598 Goodhue Avenue in Dennison, Minnesota, as the \"Albert H. Quie Post Office.\"",
+   "checked": "2026-11-12"
+  },
+  "H R 4": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Pension Protection Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4054": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 6110 East 51st Place in Tulsa, Oklahoma, as the \"Dewey F. Bartlett Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 4061": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Department of Veterans Affairs Information Technology Management Improvement Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 4096": {
+   "policyArea": "Taxation",
+   "title": "Stealth Tax Relief Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 4128": {
+   "policyArea": "Civil Rights and Liberties, Minority Issues",
+   "title": "Private Property Rights Protection Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 4157": {
+   "policyArea": "Health",
+   "title": "Health Information Technology Promotion Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4167": {
+   "policyArea": "Agriculture and Food",
+   "title": "National Uniformity for Food Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 418": {
+   "policyArea": "Immigration",
+   "title": "REAL ID Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 4192": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "To authorize the Secretary of the Interior to designate the President William Jefferson Clinton Birthplace Home in Hope, Arkansas, as a National Historic Site and unit of the National Park System, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 420": {
+   "policyArea": "Law",
+   "title": "Lawsuit Abuse Reduction Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 4200": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Forest Emergency Recovery and Research Act",
+   "checked": "2026-11-12"
+  },
+  "H R 4241": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Deficit Reduction Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 4297": {
+   "policyArea": "Taxation",
+   "title": "Tax Increase Prevention and Reconciliation Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 4340": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "United States-Bahrain Free Trade Agreement Implementation Act",
+   "checked": "2026-11-12"
+  },
+  "H R 438": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 2000 Allston Way in Berkeley, California, as the \"Maudelle Shirek Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 4388": {
+   "policyArea": "Taxation",
+   "title": "Tax Revision Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 4411": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Internet Gambling Prohibition and Enforcement Act",
+   "checked": "2026-11-12"
+  },
+  "H R 4437": {
+   "policyArea": "Immigration",
+   "title": "Border Protection, Antiterrorism, and Illegal Immigration Control Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 4440": {
+   "policyArea": "Taxation",
+   "title": "Gulf Opportunity Zone Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 458": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Military Personnel Financial Services Protection Act",
+   "checked": "2026-11-12"
+  },
+  "H R 4681": {
+   "policyArea": "International Affairs",
+   "title": "Palestinian Anti-Terrorism Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4709": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Telephone Records and Privacy Protection Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4745": {
+   "policyArea": "Commerce",
+   "title": "Making supplemental appropriations for fiscal year 2006 for the Small Business Administration's disaster loans program, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 4761": {
+   "policyArea": "Energy",
+   "title": "Deep Ocean Energy Resources Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4772": {
+   "policyArea": "Law",
+   "title": "Private Property Rights Implementation Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4804": {
+   "policyArea": "Housing and Community Development",
+   "title": "FHA Manufactured Housing Loan Modernization Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4830": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Border Tunnel Prevention Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4843": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Veterans' Compensation Cost-of-Living Adjustment Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4844": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Federal Election Integrity Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4882": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Vietnam Veterans Memorial Visitor Center Enforcement Act",
+   "checked": "2026-11-12"
+  },
+  "H R 4890": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Legislative Line Item Veto Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4893": {
+   "policyArea": "Native Americans",
+   "title": "Restricting Indian Gaming to Homelands of Tribes Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4894": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "To provide for certain access to national crime information databases by schools and educational agencies for employment purposes, with respect to individuals who work with children.",
+   "checked": "2026-11-12"
+  },
+  "H R 4939": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Emergency Supplemental Appropriations Act for Defense, the Global War on Terror, and Hurricane Recovery, 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4944": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "Miscellaneous Trade and Technical Corrections Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4954": {
+   "policyArea": "Emergency Management",
+   "title": "SAFE Port Act",
+   "checked": "2026-11-12"
+  },
+  "H R 4973": {
+   "policyArea": "Emergency Management",
+   "title": "Flood Insurance Reform and Modernization Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 4975": {
+   "policyArea": "Congress",
+   "title": "527 Reform Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5": {
+   "policyArea": "Health",
+   "title": "Help Efficient, Accessible, Low-cost, Timely Healthcare (HEALTH) Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 5013": {
+   "policyArea": "Emergency Management",
+   "title": "Disaster Recovery Personal Protection Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5020": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Intelligence Authorization Act for Fiscal Year 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 503": {
+   "policyArea": "Animals",
+   "title": "To amend the Horse Protection Act to prohibit the shipping, transporting, moving, delivering, receiving, possessing, purchasing, selling, or donation of horses and other equines to be slaughtered for human consumption, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 5037": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Respect for America's Fallen Heroes Act",
+   "checked": "2026-11-12"
+  },
+  "H R 5059": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "New Hampshire Wilderness Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5061": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Paint Bank and Wytheville National Fish Hatcheries Conveyance Act",
+   "checked": "2026-11-12"
+  },
+  "H R 5062": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "New Hampshire Wilderness Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5092": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Bureau of Alcohol, Tobacco, Firearms, and Explosives (BATFE) Modernization and Reform Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5121": {
+   "policyArea": "Housing and Community Development",
+   "title": "Expanding American Homeownership Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5122": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "John Warner National Defense Authorization Act for Fiscal Year 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 513": {
+   "policyArea": "Government Operations and Politics",
+   "title": "527 Reform Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5143": {
+   "policyArea": "Energy",
+   "title": "H-Prize Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5228": {
+   "policyArea": "International Affairs",
+   "title": "To require representatives of governments designated as State Sponsors of Terrorism to disclose to the Attorney General lobbying contacts with legislative branch officials, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 525": {
+   "policyArea": "Health",
+   "title": "Small Business Health Fairness Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 5252": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Communications Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5253": {
+   "policyArea": "Energy",
+   "title": "Federal Energy Price Protection Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5254": {
+   "policyArea": "Energy",
+   "title": "Refinery Permit Process Schedule Act",
+   "checked": "2026-11-12"
+  },
+  "H R 5319": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Deleting Online Predators Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5337": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "National Security Foreign Investment Reform and Strengthened Transparency Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5384": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 5385": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Military Construction and Veterans Affairs, and Related Agencies Appropriations Act, 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 5386": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 54": {
+   "policyArea": "Commemorations",
+   "title": "Congressional Gold Medal Enhancement Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 541": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "To direct the Secretary of Agriculture to convey certain land to Lander County, Nevada, and the Secretary of the Interior to convey certain land to Eureka County, Nevada, for continued use as cemeteries.",
+   "checked": "2026-11-12"
+  },
+  "H R 5427": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Energy and Water Development Appropriations Act, 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 5428": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 202 East Washington Street in Morris, Illinois, as the \"Joshua A. Terando Morris Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 5429": {
+   "policyArea": "Energy",
+   "title": "American-Made Energy and Good Jobs Act",
+   "checked": "2026-11-12"
+  },
+  "H R 5441": {
+   "policyArea": "Emergency Management",
+   "title": "Department of Homeland Security Appropriations Act, 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 5449": {
+   "policyArea": "Transportation and Public Works",
+   "title": "To amend title 49, United States Code, to modify bargaining requirements for proposed changes to the personnel management system of the Federal Aviation Administration.",
+   "checked": "2026-11-12"
+  },
+  "H R 548": {
+   "policyArea": "Commemorations",
+   "title": "To designate the Federal building and United States courthouse located at 200 West 2nd Street in Dayton, Ohio, as the \"Tony Hall Federal Building and United States Courthouse\".",
+   "checked": "2026-11-12"
+  },
+  "H R 5504": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 6029 Broadmoor Street in Mission, Kansas, as the \"Larry Winn, Jr. Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 5521": {
+   "policyArea": "Congress",
+   "title": "Legislative Branch Appropriations Act, 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 5522": {
+   "policyArea": "International Affairs",
+   "title": "Department of State, Foreign Operations, and Related Programs Appropriations Act, 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 5534": {
+   "policyArea": "Energy",
+   "title": "To provide grants from moneys collected from violations of the corporate average fuel economy program to be used to expand infrastructure necessary to increase the availability of alternative fuels.",
+   "checked": "2026-11-12"
+  },
+  "H R 554": {
+   "policyArea": "Law",
+   "title": "Personal Responsibility in Food Consumption Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 5540": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 217 Southeast 2nd Street in Dimmitt, Texas, as the \"Sergeant Jacob Dan Dones Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 5573": {
+   "policyArea": "Health",
+   "title": "Health Centers Renewal Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5574": {
+   "policyArea": "Health",
+   "title": "Children's Hospital GME Support Reauthorization Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5576": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Transportation, Treasury, Housing and Urban Development, the Judiciary, and Related Agencies Appropriations Act, 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 5585": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Financial Netting Improvements Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5602": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "To authorize the extension of nondiscriminatory treatment (normal trade relations treatment) to the products of Vietnam.",
+   "checked": "2026-11-12"
+  },
+  "H R 5631": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Department of Defense Appropriations Act, 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 5637": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Nonadmitted and Reinsurance Reform Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5638": {
+   "policyArea": "Taxation",
+   "title": "Permanent Estate Tax Relief Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5646": {
+   "policyArea": "Energy",
+   "title": "To study and promote the use of energy efficient computer servers in the United States.",
+   "checked": "2026-11-12"
+  },
+  "H R 5672": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Departments of Commerce and Justice, Science, and Related Agencies Appropriations Act, 2007",
+   "checked": "2026-11-12"
+  },
+  "H R 5682": {
+   "policyArea": "International Affairs",
+   "title": "Henry J. Hyde United States and India Nuclear Cooperation Promotion Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5683": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "To preserve the Mt. Soledad Veterans Memorial in San Diego, California, by providing for the immediate acquisition of the memorial by the United States.",
+   "checked": "2026-11-12"
+  },
+  "H R 5684": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "United States-Oman Free Trade Agreement Implementation Act",
+   "checked": "2026-11-12"
+  },
+  "H R 5825": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Electronic Surveillance Modernization Act",
+   "checked": "2026-11-12"
+  },
+  "H R 5852": {
+   "policyArea": "Emergency Management",
+   "title": "21st Century Emergency Communications Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5948": {
+   "policyArea": "International Affairs",
+   "title": "Belarus Democracy Reauthorization Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 5970": {
+   "policyArea": "Taxation",
+   "title": "Estate Tax and Extension of Tax Relief Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 6": {
+   "policyArea": "Energy",
+   "title": "Energy Policy Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 6033": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 39-25 61st Street in Woodside, New York, as the \"Thomas J. Manton Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 6061": {
+   "policyArea": "Immigration",
+   "title": "Secure Fence Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 609": {
+   "policyArea": "Education",
+   "title": "College Access and Opportunity Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 6094": {
+   "policyArea": "Immigration",
+   "title": "Community Protection Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 6095": {
+   "policyArea": "Immigration",
+   "title": "Immigration Law Enforcement Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 6099": {
+   "policyArea": "Health",
+   "title": "Unborn Child Pain Awareness Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 6102": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 200 Lawyers Road, NW in Vienna, Virginia, as the \"Captain Christopher Petty Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 6111": {
+   "policyArea": "Taxation",
+   "title": "Tax Relief and Health Care Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 6115": {
+   "policyArea": "Housing and Community Development",
+   "title": "Mark-to-Market Extension Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 6143": {
+   "policyArea": "Health",
+   "title": "Ryan White HIV/AIDS Treatment Modernization Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 6164": {
+   "policyArea": "Health",
+   "title": "National Institutes of Health Reform Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 6166": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Military Commissions Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 627": {
+   "policyArea": "Commemorations",
+   "title": "To designate the facility of the United States Postal Service located at 40 Putnam Avenue in Hamden, Connecticut, as the \"Linda White-Epps Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 6314": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To amend title 38, United States Code, to extend certain expiring provisions of law and to expand eligibility for the Survivors' and Dependents' Educational Assistance program.",
+   "checked": "2026-11-12"
+  },
+  "H R 6375": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To amend title 10, United States Code, to require the Secretary of Defense to submit to Congress an annual report and to provide notice to the public on congressional initiatives in funds authorized or made available to the Department of Defense.",
+   "checked": "2026-11-12"
+  },
+  "H R 6406": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "To modify temporarily certain rates of duty and make other technical amendments to the trade laws, to extend certain trade preference programs, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 683": {
+   "policyArea": "Commerce",
+   "title": "Trademark Dilution Revision Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 739": {
+   "policyArea": "Labor and Employment",
+   "title": "To amend the Occupational Safety and Health Act of 1970 to provide for \r\nadjudicative flexibility with regard to the filing of a notice of contest by an employer following the issuance of a citation or proposed assessment of a penalty by the Occupational Safety and Health Administration, to provide for greater efficiency at the Occupational Safety and Health Review Commission, to provide for judicial deference to conclusions of law determined by the Occupational Safety and Health Review Commission with respect to an order issued by the Commission, and to provide for the award of attorneys' fees and costs to small employers when such employers prevail in litigation prompted by the issuance of a citation by the Occupational Safety and Health Administration.",
+   "checked": "2026-11-12"
+  },
+  "H R 740": {
+   "policyArea": "Labor and Employment",
+   "title": "Occupational Safety and Health Review Commission Efficiency Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 741": {
+   "policyArea": "Labor and Employment",
+   "title": "Occupational Safety and Health Independent Review of OSHA Citations Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 742": {
+   "policyArea": "Labor and Employment",
+   "title": "Occupational Safety and Health Small Employer Access to Justice Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 744": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Internet Spyware (I-SPY) Prevention Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 748": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Child Interstate Abortion Notification Act",
+   "checked": "2026-11-12"
+  },
+  "H R 787": {
+   "policyArea": "Commemorations",
+   "title": "To designate the United States courthouse located at 501 I Street in Sacramento, California, as the \"Robert T. Matsui United States Courthouse\".",
+   "checked": "2026-11-12"
+  },
+  "H R 8": {
+   "policyArea": "Taxation",
+   "title": "Death Tax Repeal Permanency Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 810": {
+   "policyArea": "Health",
+   "title": "Stem Cell Research Enhancement Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 841": {
+   "policyArea": "Congress",
+   "title": "Continuity in Representation Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 856": {
+   "policyArea": "Families",
+   "title": "Federal Youth Coordination Act",
+   "checked": "2026-11-12"
+  },
+  "H R 864": {
+   "policyArea": "Health",
+   "title": "STOP Act",
+   "checked": "2026-11-12"
+  },
+  "H R 889": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Coast Guard and Maritime Transportation Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 9": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Fannie Lou Hamer, Rosa Parks, and Coretta Scott King Voting Rights Act Reauthorization and Amendments Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "H R 902": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Presidential $1 Coin Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 912": {
+   "policyArea": "International Affairs",
+   "title": "Humanitarian Assistance Code of Conduct Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H R 972": {
+   "policyArea": "International Affairs",
+   "title": "Trafficking Victims Protection Reauthorization Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "H RES 1000": {
+   "policyArea": "Congress",
+   "title": "Providing for earmarking reform in the House of Representatives.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1002": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6061) to establish operational control over the international land and maritime borders of the United States.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 6061"
+   ]
+  },
+  "H RES 1003": {
+   "policyArea": "Congress",
+   "title": "Providing for the adoption of the resolution (H.Res. 1000) providing for earmarking reform in the House of Representatives.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 1000"
+   ]
+  },
+  "H RES 101": {
+   "policyArea": "International Affairs",
+   "title": "Urging the European Union to add Hezbollah to the European Union's wide-ranging list of terrorist organizations.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1015": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4844) to amend the National Voter Registration Act of 1993 to require any individual who desires to register or re-register to vote in an election for Federal office to provide the appropriate State election official with proof that the individual is a citizen of the United States to prevent fraud in Federal elections, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4844"
+   ]
+  },
+  "H RES 1017": {
+   "policyArea": "International Affairs",
+   "title": "Affirming support for the sovereignty and security of Lebanon and the Lebanese people.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1018": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4830) to amend chapter 27 of title 18, United States Code, to prohibit the unauthorized construction, financing, or reckless permitting (on one's land) the construction or use of a tunnel or subterranean passageway between the United States and another country; for consideration of the bill (H.R. 6094) to restore the Secretary of Homeland Security's authority to detain dangerous aliens, to ensure the removal of deportable criminal aliens, and combat alien gang crime; and for consideration of the bill (H.R. 6095) to affirm the inherent authority of State and local law enforcement to assist in the enforcement of immigration laws, to provide for effective prosecution of alien smugglers, and to reform immigration litigation procedures.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4830",
+    "H R 6094",
+    "H R 6095"
+   ]
+  },
+  "H RES 1038": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2679) to amend the Revised Statutes of the United States to eliminate the chilling effect on the constitutionally protected expression of religion by State and local officials that results from the threat that potential litigants may seek damages and attorney's fees.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2679"
+   ]
+  },
+  "H RES 1039": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (S. 403) to amend title 18, United States Code, to prohibit taking minors across State lines in circumvention of laws requiring the involvement of parents in abortion decisions.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "S 403"
+   ]
+  },
+  "H RES 1042": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6166) to amend title 10, United States Code, to authorize trial by military commission for violations of the law of war, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 6166"
+   ]
+  },
+  "H RES 1045": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of motions to suspend the rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1046": {
+   "policyArea": "Congress",
+   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1052": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5825) to update the Foreign Intelligence Surveillance Act of 1978.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5825"
+   ]
+  },
+  "H RES 1053": {
+   "policyArea": "Congress",
+   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1054": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 5441) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2007, and for other purposes and providing for consideration of the bill (S. 3930) to authorize trial by military commission for violations of law of war, and for other purposes and consideration of the bill (H.R. 4772) to simplify and expedite access to the Federal courts for injured parties whose rights and privileges under the United States Constitution have been deprived by final actions of Federal agencies or other governments officials or entities acting under color of State law, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1064": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 4954) to improve maritime and cargo security through enhanced layered defenses, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1070": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Expressing the sense of the House of Representatives that Members of the House should actively engage with employers and the American public at large to encourage the hiring of members and former members of the Armed Forces who were wounded in service and are facing a transition to civilian life.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1078": {
+   "policyArea": "Commemorations",
+   "title": "Congratulating the St. Louis Cardinals on winning the 2006 World Series.",
+   "checked": "2026-11-12"
+  },
+  "H RES 108": {
+   "policyArea": "International Affairs",
+   "title": "Commemorating the life of the late Zurab Zhvania, Prime Minister of the Republic of Georgia.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1082": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Condemning the decision by the city of St. Denis, France, to name a street in honor of Mumia Abu-Jamal, the convicted murderer of Philadelphia Police Officer Danny Faulkner.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1088": {
+   "policyArea": "International Affairs",
+   "title": "Expressing support for Lebanon's democratic institutions and condemning the recent terrorist assassination of Lebanese parliamentarian and Industry Minister Pierre Amine Gemayel.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1091": {
+   "policyArea": "International Affairs",
+   "title": "Condemning in the strongest terms Iran's commitment to hold an international Holocaust denial conference on December 11-12, 2006.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1096": {
+   "policyArea": "Congress",
+   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules and providing for consideration of motions to suspend the rules, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1099": {
+   "policyArea": "Congress",
+   "title": "Relating to consideration of the bill (H.R. 6111) to amend the Internal Revenue Code of 1986 to provide that the Tax Court may review claims for equitable innocent spouse relief and to suspend the running on the period of limitations while such claims are pending.",
+   "checked": "2026-11-12"
+  },
+  "H RES 1100": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6406) to modify temporarily certain rates of duty and make other technical amendments to the trade laws, to extend certain trade preference programs, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 6406"
+   ]
+  },
+  "H RES 1101": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 5682) to exempt from certain requirements of the Atomic Energy Act of 1954 a proposed nuclear agreement for cooperation with India.",
+   "checked": "2026-11-12"
+  },
+  "H RES 120": {
+   "policyArea": "International Affairs",
+   "title": "Commending the outstanding efforts by members of the Armed Forces and civilian employees of the Department of State and the United States Agency for International Development in response to the earthquake and tsunami of December 26, 2004.",
+   "checked": "2026-11-12"
+  },
+  "H RES 122": {
+   "policyArea": "Commemorations",
+   "title": "Expressing the sense of the House of Representatives regarding the study of languages and supporting the designation of a Year of Languages.",
+   "checked": "2026-11-12"
+  },
+  "H RES 126": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 27) to enhance the workforce investment system of the Nation by strengthening one-stop career centers, providing for more effective governance arrangements, promoting access to a more comprehensive array of employment, training, and related services, establishing a targeted approach to serving youth, and improving performance accountability, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 27"
+   ]
+  },
+  "H RES 133": {
+   "policyArea": "Congress",
+   "title": "Providing amounts from the applicable accounts of the House of Representatives for continuing expenses of standing and select committees of the House from April 1, 2005, through April 30, 2005.",
+   "checked": "2026-11-12"
+  },
+  "H RES 135": {
+   "policyArea": "International Affairs",
+   "title": "House Democracy Assistance Commission Resolution",
+   "checked": "2026-11-12"
+  },
+  "H RES 142": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of a \"Rotary International Day\" and celebrating and honoring Rotary International on the occasion of its centennial anniversary.",
+   "checked": "2026-11-12"
+  },
+  "H RES 148": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of Financial Literacy Month, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 151": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1268) making emergency supplemental appropriations for the fiscal year ending September 30, 2005, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1268"
+   ]
+  },
+  "H RES 153": {
+   "policyArea": "Congress",
+   "title": "Raising a question of the privileges of the House.",
+   "checked": "2026-11-12"
+  },
+  "H RES 154": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the concurrent resolution (H. Con. Res. 95) establishing the congressional budget for the United States Government for fiscal year 2006, revising appropriate budgetary levels for fiscal year 2005, and setting forth appropriate budgetary levels for fiscal years 2007 through 2010.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H CON RES 95"
+   ]
+  },
+  "H RES 175": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing the importance of establishing a national memorial at the World Trade Center site to commemorate and mourn the events of February 26, 1993, and September 11, 2001.",
+   "checked": "2026-11-12"
+  },
+  "H RES 190": {
+   "policyArea": "International Affairs",
+   "title": "Honoring the life and achievements of His Holiness Pope John Paul II and expressing profound sorrow on his death.",
+   "checked": "2026-11-12"
+  },
+  "H RES 193": {
+   "policyArea": "International Affairs",
+   "title": "Expressing support to the organizers and participants of the historic meeting of the Assembly to Promote the Civil Society in Cuba on May 20, 2005, in Havana.",
+   "checked": "2026-11-12"
+  },
+  "H RES 195": {
+   "policyArea": "International Affairs",
+   "title": "Recognizing the 60th anniversary of the Liberation of Western \r\nBohemia by United States Armed Forces during World War II and the continued friendship between the people of the United States and the Czech Republic.",
+   "checked": "2026-11-12"
+  },
+  "H RES 199": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of the House of Representatives regarding the massacre at Srebrenica in July 1995.",
+   "checked": "2026-11-12"
+  },
+  "H RES 202": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 8) to make the repeal of the estate tax permanent.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 8"
+   ]
+  },
+  "H RES 208": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing the University of Pittsburgh, Dr. Jonas Salk, the University of Michigan, and Dr. Thomas Frances, Jr., on the fiftieth anniversary of the discovery and the declaration that the Salk vaccine was potent, virtually eliminating the disease and its harmful effects.",
+   "checked": "2026-11-12"
+  },
+  "H RES 210": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals of World Intellectual Property Day, and recognizing the importance of intellectual property in the United States and worldwide.",
+   "checked": "2026-11-12"
+  },
+  "H RES 211": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (S. 256) to amend title 11 of the United States Code, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "S 256"
+   ]
+  },
+  "H RES 213": {
+   "policyArea": "Congress",
+   "title": "Raising a question of the privileges of the House.",
+   "checked": "2026-11-12"
+  },
+  "H RES 219": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6) to ensure jobs for our future with secure, affordable, and reliable energy.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 6"
+   ]
+  },
+  "H RES 22": {
+   "policyArea": "Commerce",
+   "title": "Expressing the sense of the House of Representatives that American small businesses are entitled to a Small Business Bill of Rights.",
+   "checked": "2026-11-12"
+  },
+  "H RES 228": {
+   "policyArea": "International Affairs",
+   "title": "Honoring the contributions of Vietnamese Americans to American \r\n\r\nsociety over the past three decades.",
+   "checked": "2026-11-12"
+  },
+  "H RES 23": {
+   "policyArea": "Commemorations",
+   "title": "Honoring the contributions of Catholic schools.",
+   "checked": "2026-11-12"
+  },
+  "H RES 233": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing the 60th anniversary of Victory in Europe (V-E) Day during World War II.",
+   "checked": "2026-11-12"
+  },
+  "H RES 235": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the resolution (H. Res. 22) expressing the sense of the House of Representatives that American small businesses are entitled to a Small Business Bill of Rights.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 22"
+   ]
+  },
+  "H RES 236": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 748) to amend title 18, United States Code, to prevent the transportation of minors in circumvention of certain laws relating to abortion, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 748"
+   ]
+  },
+  "H RES 240": {
+   "policyArea": "Congress",
+   "title": "Amending the Rules of the House of Representatives to reinstate certain provisions of the rules relating to procedures of the Committee on Standards of Official Conduct to the form in which those provisions existed at the close of the 108th Congress.",
+   "checked": "2026-11-12"
+  },
+  "H RES 241": {
+   "policyArea": "Congress",
+   "title": "Providing for the adoption of the resolution (H. Res. 240) amending the Rules of the House of Representatives to reinstate certain provisions of the rules relating to procedures of the Committee on Standards of Official Conduct to the form in which those provisions existed at the close of the 108th Congress.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 240"
+   ]
+  },
+  "H RES 242": {
+   "policyArea": "Congress",
+   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 248": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the concurrent resolution (H. Con. Res. 95) establishing the congressional budget for the United States Government for fiscal year 2006, revising appropriate budgetary levels for fiscal year 2005, and setting forth appropriate budgetary levels for fiscal years 2007 through 2010, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 253": {
+   "policyArea": "Congress",
+   "title": "Raising a question of the privileges of the House.",
+   "checked": "2026-11-12"
+  },
+  "H RES 258": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 1268) making Emergency Supplemental Appropriations for Defense, the Global War on Terror, and Tsunami Relief, for the fiscal year ending September 30, 2005, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 266": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of Peace Officers Memorial Day.",
+   "checked": "2026-11-12"
+  },
+  "H RES 268": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1279) to amend title 18, United States Code, to reduce violent gang crime and protect law-abiding citizens and communities from violent criminals, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1279"
+   ]
+  },
+  "H RES 276": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of Pancreatic Cancer Awareness Month.",
+   "checked": "2026-11-12"
+  },
+  "H RES 278": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2360) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2360"
+   ]
+  },
+  "H RES 282": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of the House of Representatives regarding manifestations of anti-Semitism by United Nations member states and urging action against anti-Semitism by United Nations officials, United Nations member states, and the Government of the United States, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 283": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1817) to authorize appropriations for fiscal year 2006 for the Department of Homeland Security, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1817"
+   ]
+  },
+  "H RES 287": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2361) making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2361"
+   ]
+  },
+  "H RES 291": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2419) making appropriations for energy and water development for the fiscal year ending September 30, 2006, and for other purposes purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2419"
+   ]
+  },
+  "H RES 293": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1815) to authorize appropriations for fiscal year 2006 for military activities of the Department of Defense, to prescribe military personnel strengths for fiscal year 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1815"
+   ]
+  },
+  "H RES 298": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2528) making appropriations for military quality of life functions of the Department of Defense, military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2528"
+   ]
+  },
+  "H RES 302": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing and commending the continuing dedication and commitment of employers of the members of the National Guard and the other reserve components who have been mobilized during the Global War on Terrorism and in defense of the United States.",
+   "checked": "2026-11-12"
+  },
+  "H RES 308": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals of National Marina Day and urging marinas continue providing environmentally friendly gateways to boating.",
+   "checked": "2026-11-12"
+  },
+  "H RES 310": {
+   "policyArea": "Congress",
+   "title": "Raising a question of the privileges of the House.",
+   "checked": "2026-11-12"
+  },
+  "H RES 314": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2862) making appropriations for Science, the Departments of State, Justice, and Commerce, and related agencies for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2862"
+   ]
+  },
+  "H RES 315": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2863) making appropriations for the Department of Defense for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2863"
+   ]
+  },
+  "H RES 318": {
+   "policyArea": "Commemorations",
+   "title": "Supporting responsible fatherhood, promoting marriage, and encouraging greater involvement of fathers in the lives of their children, especially on Father's Day.",
+   "checked": "2026-11-12"
+  },
+  "H RES 323": {
+   "policyArea": "Health",
+   "title": "Supporting efforts to increase childhood cancer awareness, treatment, and research.",
+   "checked": "2026-11-12"
+  },
+  "H RES 324": {
+   "policyArea": "Congress",
+   "title": "Disapproving the manner in which Representative Sensenbrenner has responded to the minority party's request under rule XI of the House of Representatives for an additional day of oversight hearings on the reauthorization of the USA PATRIOT Act and the manner in which such hearing was conducted.",
+   "checked": "2026-11-12"
+  },
+  "H RES 326": {
+   "policyArea": "International Affairs",
+   "title": "Calling for free and fair parliamentary elections in the Republic of Azerbaijan.",
+   "checked": "2026-11-12"
+  },
+  "H RES 328": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing the 25th anniversary of the workers' strikes in Poland in 1980 that led to the establishment of the Solidarity Trade Union.",
+   "checked": "2026-11-12"
+  },
+  "H RES 331": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2475) to authorize appropriations for fiscal year 2006 for intelligence and intelligence-related activities of the United States Government, the Community Management Account, and the Central Intelligence Agency Retirement and Disability System, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2475"
+   ]
+  },
+  "H RES 333": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of a National Weekend of Prayer and Reflection for Darfur, Sudan.",
+   "checked": "2026-11-12"
+  },
+  "H RES 334": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2985) making appropriations for the Legislative Branch for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2985"
+   ]
+  },
+  "H RES 337": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3010) making appropriations for the Departments of Labor, Health and Human Services, and Education, and Related Agencies for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3010"
+   ]
+  },
+  "H RES 340": {
+   "policyArea": "Law",
+   "title": "Expressing the grave disapproval of the House of Representatives regarding the majority opinion of the Supreme Court in the case of Kelo et al. v. City of New London et al. that nullifies the protections afforded private property owners in the Takings Clause of the Fifth Amendment.",
+   "checked": "2026-11-12"
+  },
+  "H RES 341": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3057) making appropriations for foreign operations, export financing, and related programs for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3057"
+   ]
+  },
+  "H RES 342": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3058) making appropriations for the Departments of Transportation, Treasury, and Housing and Urban Development, the Judiciary, District of Columbia, and independent agencies for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3058"
+   ]
+  },
+  "H RES 343": {
+   "policyArea": "International Affairs",
+   "title": "Commending the State of Kuwait for granting women certain important political rights.",
+   "checked": "2026-11-12"
+  },
+  "H RES 344": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of the House of Representatives that a Chinese state-owned energy company exercising control of critical United States energy infrastructure and energy production capacity could take action that would threaten to impair the national security of the United States.",
+   "checked": "2026-11-12"
+  },
+  "H RES 345": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of motions to suspend the rules, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 351": {
+   "policyArea": "Congress",
+   "title": "Providing for the consideration of the bill (H.R. 739) to amend the Occupational Safety and Health Act of 1970 to provide for adjudicative flexibility with regard to the filing of a notice of contest by an employer following the issuance of a citation or proposed assessment of a penalty by the Occupational Safety and Health Administration; for consideration of the bill (H.R. 740) to amend the Occupational Safety and Health Act of 1970 to provide for greater efficiency at the Occupational Safety and Health Review Commission; for consideration of the bill (H.R. 741) to amend the Occupational Safety and Health Act of 1970 to provide for judicial deference to conclusions of law determined by the Occupational Safety and Health Review Commission with respect to an order issued by the Commission; and for consideration of the bill (H.R. 742) to amend the Occupational Safety and Health Act of 1970 to provide for the award of attorneys' fees and costs to small.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 739",
+    "H R 740",
+    "H R 741",
+    "H R 742"
+   ]
+  },
+  "H RES 352": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Providing that the House of Representatives will focus on removing barriers to competitiveness of the United States economy.",
+   "checked": "2026-11-12"
+  },
+  "H RES 356": {
+   "policyArea": "International Affairs",
+   "title": "Condemning in the strongest terms the terrorist attacks in London, England, on July 7, 2005.",
+   "checked": "2026-11-12"
+  },
+  "H RES 357": {
+   "policyArea": "Commemorations",
+   "title": "Honoring Justice Sandra Day O'Connor.",
+   "checked": "2026-11-12"
+  },
+  "H RES 360": {
+   "policyArea": "Commemorations",
+   "title": "Commemorating the 60th anniversary of V-J Day and the end of World War II in the Pacific.",
+   "checked": "2026-11-12"
+  },
+  "H RES 364": {
+   "policyArea": "International Affairs",
+   "title": "Commending the continuing improvement in relations between the United States and the Republic of India.",
+   "checked": "2026-11-12"
+  },
+  "H RES 365": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2601) to authorize appropriations for the Department of State for the fiscal years 2006 and 2007, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2601"
+   ]
+  },
+  "H RES 368": {
+   "policyArea": "International Affairs",
+   "title": "Congratulating the State of Israel on the election of Ambassador Dan Gillerman as Vice-President of the 60th United Nations General Assembly.",
+   "checked": "2026-11-12"
+  },
+  "H RES 369": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3199) to extend and modify authorities needed to combat terrorism, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3199"
+   ]
+  },
+  "H RES 376": {
+   "policyArea": "Commerce",
+   "title": "Expressing the sense of the House of Representatives that the Federal Trade Commission should investigate the publication of the video game \"Grand Theft Auto: San Andreas' to determine if the publisher deceived the Entertainment Software Ratings Board to avoid an 'Adults-Only' rating.",
+   "checked": "2026-11-12"
+  },
+  "H RES 38": {
+   "policyArea": "International Affairs",
+   "title": "Expressing support for the accession of Israel to the Organisation for Economic Co-operation and Development (OECD).",
+   "checked": "2026-11-12"
+  },
+  "H RES 383": {
+   "policyArea": "International Affairs",
+   "title": "Encouraging the Transitional National Assembly of Iraq to adopt a constitution that grants women equal rights under the law and to work to protect such rights.",
+   "checked": "2026-11-12"
+  },
+  "H RES 384": {
+   "policyArea": "International Affairs",
+   "title": "Condemning in the strongest terms the terrorist attacks in Sharm el-Sheikh, Egypt, on July 23, 2005, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 385": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5) to improve patient access to health care services and provide improved medical care by reducing the excessive burden the liability system places on the health care delivery system.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5"
+   ]
+  },
+  "H RES 386": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3045) to implement the Dominican Republic-Central America-United States Free Trade Agreement.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3045"
+   ]
+  },
+  "H RES 387": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3283) to enhance resources to enforce United States trade rights.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3283"
+   ]
+  },
+  "H RES 388": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of the House of Representatives regarding the July, 2005, measures of extreme repression on the part of the Cuban Government against members of Cuba's prodemocracy movement, calling for the immediate release of all political prisoners, the legalization of political parties and free elections in Cuba, urging the European Union to reexamine its policy toward Cuba, and calling on the representative of the United States to the 62d session of the United Nations Commission on Human Rights to ensure a resolution calling upon the Cuban regime to end its human rights violations, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 39": {
+   "policyArea": "International Affairs",
+   "title": "Commending countries and organizations for marking the 60th anniversary of the liberation of Auschwitz and urging a strengthening of the fight against racism, intolerance, bigotry, prejudice, discrimination, and anti-Semitism.",
+   "checked": "2026-11-12"
+  },
+  "H RES 392": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 2361) making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 396": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 2985) making appropriations for the Legislative Branch for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 409": {
+   "policyArea": "International Affairs",
+   "title": "Condemning the Government of Zimbabwe's \"Operation Murambatsvina\" under which homes, businesses, religious structures, and other buildings and facilities were demolished in an effort characterized by the Government of Zimbabwe as an operation to \"restore order\" to the country.",
+   "checked": "2026-11-12"
+  },
+  "H RES 426": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of motions to suspend the rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 427": {
+   "policyArea": "Commemorations",
+   "title": "Relating to the terrorist attacks against the United States on September 11, 2001.",
+   "checked": "2026-11-12"
+  },
+  "H RES 428": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sincere gratitude of the House of Representatives to the foreign individuals, organizations, and governments that have offered material assistance and other forms of support to those who have been affected by Hurricane Katrina.",
+   "checked": "2026-11-12"
+  },
+  "H RES 437": {
+   "policyArea": "Congress",
+   "title": "To establish the Select Bipartisan Committee to Investigate the Preparation for and Response to Hurricane Katrina.",
+   "checked": "2026-11-12"
+  },
+  "H RES 438": {
+   "policyArea": "International Affairs",
+   "title": "Urging member states of the United Nations to stop supporting resolutions that unfairly castigate Israel and to promote within the United Nations a more balanced and constructive approach to resolving conflict in the Middle East.",
+   "checked": "2026-11-12"
+  },
+  "H RES 439": {
+   "policyArea": "Congress",
+   "title": "Providing for the consideration of the resolution (H. Res. 437) to establish the Select Bipartisan Committee to Investigate the Preparation for and Response to Hurricane Katrina.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 437"
+   ]
+  },
+  "H RES 441": {
+   "policyArea": "Commemorations",
+   "title": "To congratulate the National Aeronautics and Space Administration and the Discovery crew of Commander Eileen Collins, Pilot Jim Kelly, Mission Specialist Charlie Camarda, Mission Specialist Wendy Lawrence, Mission Specialist Soichi Noguchi, Mission Specialist Steve Robinson, and Mission Specialist Andy Thomas on the successful completion of their 14 day test flight to the International Space Station for the first step of the Vision for Space Exploration, begun from the Kennedy Space Center, Florida, on July 26, 2005, and completed at Edwards Air Force Base, California, on August 9, 2005, which historical mission represented a great step forward into the new beginning of the Second Space Age.",
+   "checked": "2026-11-12"
+  },
+  "H RES 444": {
+   "policyArea": "Health",
+   "title": "Gynecological Resolution for Advancement of Ovarian Cancer Education",
+   "checked": "2026-11-12"
+  },
+  "H RES 451": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 250) to establish an interagency committee to coordinate Federal manufacturing research and development efforts in manufacturing, strengthen existing programs to assist manufacturing innovation and education, and expand outreach programs for small and medium-sized manufacturers, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 250"
+   ]
+  },
+  "H RES 454": {
+   "policyArea": "Congress",
+   "title": "Providing for the concurrence by the House with an amendment in the amendment of the Senate to H.R. 3768.",
+   "checked": "2026-11-12"
+  },
+  "H RES 455": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2123) to reauthorize the Head Start Act to improve the school readiness of disadvantaged children, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2123"
+   ]
+  },
+  "H RES 457": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing the importance and positive contributions of chemistry to our everyday lives and supporting the goals and ideals of National Chemistry Week.",
+   "checked": "2026-11-12"
+  },
+  "H RES 46": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of National Mentoring Month.",
+   "checked": "2026-11-12"
+  },
+  "H RES 462": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3402) to authorize appropriations for the Department of Justice for fiscal years 2006 through 2009, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3402"
+   ]
+  },
+  "H RES 470": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3824) to amend and reauthorize the Endangered Species Act of 1973 to provide greater results conserving and recovering listed species, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3824"
+   ]
+  },
+  "H RES 479": {
+   "policyArea": "International Affairs",
+   "title": "Recognizing the 50th Anniversary of the Hungarian Revolution that began on October 23, 1956 and reaffirming the friendship between the people and governments of the United States and Hungary.",
+   "checked": "2026-11-12"
+  },
+  "H RES 481": {
+   "policyArea": "Congress",
+   "title": "Providing for the consideration of the bill (H.R. 3893) to expedite the construction of new refining capacity in the United States, to provide reliable and affordable energy for the American people, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3893"
+   ]
+  },
+  "H RES 487": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of Korean American Day.",
+   "checked": "2026-11-12"
+  },
+  "H RES 491": {
+   "policyArea": "Commemorations",
+   "title": "Expressing the sense of the House of Representatives with respect to raising awareness and enhancing the state of computer security in the United States, and supporting the goals and ideals of National Cyber Security Awareness Month.",
+   "checked": "2026-11-12"
+  },
+  "H RES 492": {
+   "policyArea": "International Affairs",
+   "title": "Mourning the loss of life caused by the earthquake that occurred on October 8, 2005, in Pakistan and India, expressing the condolences of the American people to the families of the victims, and urging assistance to those affected.",
+   "checked": "2026-11-12"
+  },
+  "H RES 494": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 554) to prevent legislative and regulatory functions from being usurped by civil liability actions brought or continued against food manufacturers, marketers, distributors, advertisers, sellers, and trade associations for claims of injury relating to a person's weight gain, obesity, or any health condition associated with weight gain or obesity.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 554"
+   ]
+  },
+  "H RES 498": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of School Bus Safety Week.",
+   "checked": "2026-11-12"
+  },
+  "H RES 5": {
+   "policyArea": "Congress",
+   "title": "Adopting rules for the One Hundred Ninth Congress.",
+   "checked": "2026-11-12"
+  },
+  "H RES 500": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing the 60th anniversary of the disappearance of the 5 naval Avenger torpedo bombers of Flight 19 and the naval Mariner rescue aircraft sent to search for Flight 19.",
+   "checked": "2026-11-12"
+  },
+  "H RES 509": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1461) to reform the regulation of certain housing-related Government-sponsored enterprises, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1461"
+   ]
+  },
+  "H RES 523": {
+   "policyArea": "International Affairs",
+   "title": "Condemning Iranian President Mahmoud Ahmadinejad's threats against Israel.",
+   "checked": "2026-11-12"
+  },
+  "H RES 527": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4128) to protect private property rights.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4128"
+   ]
+  },
+  "H RES 534": {
+   "policyArea": "International Affairs",
+   "title": "Recognizing the importance of an independent Iraqi judiciary in the formation of a new and democratic Iraq.",
+   "checked": "2026-11-12"
+  },
+  "H RES 535": {
+   "policyArea": "International Affairs",
+   "title": "Honoring the life, legacy, and example of Israeli Prime Minister Yitzhak Rabin on the tenth anniversary of his death.",
+   "checked": "2026-11-12"
+  },
+  "H RES 538": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 2862) making appropriations for Science, the Departments of State, Justice, and Commerce, and related agencies for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 539": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 2419) making appropriations for energy and water development for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 540": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1751) to amend title 18, United States Code, to protect judges, prosecutors, witnesses, victims, and their family members, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1751"
+   ]
+  },
+  "H RES 546": {
+   "policyArea": "International Affairs",
+   "title": "Condemning in the strongest terms the terrorist attacks that occurred on November 9, 2005, in Amman, Jordan.",
+   "checked": "2026-11-12"
+  },
+  "H RES 547": {
+   "policyArea": "Education",
+   "title": "Expressing the sense of the House of Representatives that the United States Court of Appeals for the Ninth Circuit deplorably infringed on parental rights in Fields v. Palmdale School District.",
+   "checked": "2026-11-12"
+  },
+  "H RES 553": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1065) to establish the United States Boxing Commission to protect the general welfare of boxers and to ensure fairness in the sport of professional boxing.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1065"
+   ]
+  },
+  "H RES 556": {
+   "policyArea": "Commemorations",
+   "title": "Expressing the sense of the House of Representatives that a National Methamphetamine Prevention Week should be established to increase awareness of methamphetamine and to educate the public on ways to help prevent the use of that damaging narcotic.",
+   "checked": "2026-11-12"
+  },
+  "H RES 558": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 72) making further continuing appropriations for the fiscal year 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H J RES 72"
+   ]
+  },
+  "H RES 559": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 3010) making appropriations for the Departments of Labor, Health and Human Services, and Education, and Related Agencies for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 56": {
+   "policyArea": "International Affairs",
+   "title": "Commending the Palestinian people for conducting a free and fair presidential election on January 9, 2005, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 560": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4241) to provide for reconciliation pursuant to section 201(a) of the concurrent resolution on the budget for fiscal year 2006.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4241"
+   ]
+  },
+  "H RES 563": {
+   "policyArea": "Congress",
+   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 57": {
+   "policyArea": "International Affairs",
+   "title": "Urging the European Union to maintain its arms embargo on the People's Republic of China.",
+   "checked": "2026-11-12"
+  },
+  "H RES 571": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of the House of Representatives that the deployment of United States forces in Iraq be terminated immediately.",
+   "checked": "2026-11-12"
+  },
+  "H RES 572": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the resolution (H. Res. 571) expressing the sense of the House of Representatives that the deployment of United States forces in Iraq be terminated immediately and providing for consideration of the concurrent resolution (H. Con. Res. 308) directing the Clerk of the House of Representatives to make a technical correction in the enrollment of H.R. 3058.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 571",
+    "H CON RES 308"
+   ]
+  },
+  "H RES 575": {
+   "policyArea": "International Affairs",
+   "title": "Asserting that Hamas and other terrorist organizations should not participate in elections held by the Palestinian Authority, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 578": {
+   "policyArea": "International Affairs",
+   "title": "Concerning the Government of Romania's ban on intercountry adoptions and the welfare of orphaned or abandoned children in Romania.",
+   "checked": "2026-11-12"
+  },
+  "H RES 579": {
+   "policyArea": "Arts, Culture, Religion",
+   "title": "Expressing the sense of the House of Representatives that the symbols and traditions of Christmas should be protected for those who celebrate Christmas.",
+   "checked": "2026-11-12"
+  },
+  "H RES 591": {
+   "policyArea": "Congress",
+   "title": "Raising a question of the privileges of the House.",
+   "checked": "2026-11-12"
+  },
+  "H RES 598": {
+   "policyArea": "International Affairs",
+   "title": "Condemning actions by the Government of Syria that have hindered the investigation of the assassination of former Prime Minister of Lebanon Rafik Hariri conducted by the United Nations International Independent Investigation Commission (UNIIIC), expressing support for extending the UNIIIC's investigative mandate, and stating concern about similar assassination attempts apparently aimed at destabilizing Lebanon's security and undermining Lebanon's sovereignty.",
+   "checked": "2026-11-12"
+  },
+  "H RES 599": {
+   "policyArea": "Congress",
+   "title": "Establishing the Task Force on Ocean Policy.",
+   "checked": "2026-11-12"
+  },
+  "H RES 60": {
+   "policyArea": "International Affairs",
+   "title": "Relating to the free election in Iraq held on January 30, 2005.",
+   "checked": "2026-11-12"
+  },
+  "H RES 602": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2830) to amend the Employee Retirement Income Security Act of 1974 and the Internal Revenue Code of 1986 to reform the pension funding rules, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2830"
+   ]
+  },
+  "H RES 605": {
+   "policyArea": "Commemorations",
+   "title": "Recognizing the life of Preston Robert Tisch and his outstanding contributions to New York City, the New York Giants Football Club, the National Football League, and the United States.",
+   "checked": "2026-11-12"
+  },
+  "H RES 608": {
+   "policyArea": "International Affairs",
+   "title": "Condemning the escalating levels of religious persecution in the People's Republic of China.",
+   "checked": "2026-11-12"
+  },
+  "H RES 610": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4437) to amend the Immigration and Nationality Act to strengthen enforcement of the immigration laws, to enhance border security, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4437"
+   ]
+  },
+  "H RES 612": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the commitment of the House of Representatives to achieving victory in Iraq.",
+   "checked": "2026-11-12"
+  },
+  "H RES 619": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the resolution (H. Res. 612) expressing the commitment of the House of Representatives to achieving victory in Iraq.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 612"
+   ]
+  },
+  "H RES 621": {
+   "policyArea": "Congress",
+   "title": "Providing for further consideration of the bill (H.R. 4437) to amend the Immigration and Nationality Act to strengthen enforcement of the immigration laws, to enhance border security, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4437"
+   ]
+  },
+  "H RES 622": {
+   "policyArea": "Commemorations",
+   "title": "To recognize and honor the Filipino World War II veterans for their defense of democratic ideals and their important contribution to the outcome of World War II.",
+   "checked": "2026-11-12"
+  },
+  "H RES 623": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of motions to suspend the rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 639": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 2863) making appropriations for the Department of Defense for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 648": {
+   "policyArea": "Congress",
+   "title": "To eliminate floor privileges and access to Member exercise facilities for registered lobbyists who are former Members or officers of the House.",
+   "checked": "2026-11-12"
+  },
+  "H RES 653": {
+   "policyArea": "Congress",
+   "title": "Relating to consideration of the bill (S. 1932) to provide for reconciliation pursuant to section 202(a) of the concurrent resolution on the budget for fiscal year 2006 (H. Con. Res. 95).",
+   "checked": "2026-11-12"
+  },
+  "H RES 657": {
+   "policyArea": "Commemorations",
+   "title": "Honoring the contributions of Catholic schools.",
+   "checked": "2026-11-12"
+  },
+  "H RES 658": {
+   "policyArea": "International Affairs",
+   "title": "Supporting the goals and ideals of World Water Day.",
+   "checked": "2026-11-12"
+  },
+  "H RES 668": {
+   "policyArea": "Commemorations",
+   "title": "Celebrating the 40th anniversary of Texas Western's 1966 NCAA Basketball Championship and recognizing the groundbreaking impact of the title game victory on diversity in sports and civil rights in America.",
+   "checked": "2026-11-12"
+  },
+  "H RES 670": {
+   "policyArea": "Commemorations",
+   "title": "Congratulating the National Football League champion Pittsburgh Steelers for winning Super Bowl XL and completing one of the greatest postseason runs in professional sports history.",
+   "checked": "2026-11-12"
+  },
+  "H RES 673": {
+   "policyArea": "International Affairs",
+   "title": "Expressing support for the efforts of the people of the Republic of Belarus to establish a full democracy, the rule of law, and respect for human rights and urging the Government of Belarus to conduct a free and fair presidential election on March 19, 2006.",
+   "checked": "2026-11-12"
+  },
+  "H RES 687": {
+   "policyArea": "Congress",
+   "title": "Raising a question of the privileges of the House.",
+   "checked": "2026-11-12"
+  },
+  "H RES 692": {
+   "policyArea": "International Affairs",
+   "title": "Commending the people of the Republic of the Marshall Islands for the contributions and sacrifices they made to the United States nuclear testing program in the Marshall Islands, solemnly acknowledging the first detonation of a hydrogen bomb by the United States on March 1, 1954, on the Bikini Atoll in the Marshall Islands, and remembering that 60 years ago the United States began its nuclear testing program in the Marshall Islands.",
+   "checked": "2026-11-12"
+  },
+  "H RES 697": {
+   "policyArea": "International Affairs",
+   "title": "Congratulating the people and Government of Italy, the Torino Olympic Organizing Committee, the International Olympic Committee, the United States Olympic Committee, the 2006 United States Olympic and Paralympic Teams, and all international athletes upon the successful completion of the 2006 Olympic Winter Games in Turin, Italy.",
+   "checked": "2026-11-12"
+  },
+  "H RES 702": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4167) to amend the Federal Food, Drug, and Cosmetic Act to provide for uniform food safety warning notification requirements, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4167"
+   ]
+  },
+  "H RES 703": {
+   "policyArea": "International Affairs",
+   "title": "Recognizing the 20th anniversary of the Chernobyl nuclear disaster and supporting continued efforts to control radiation and mitigate the adverse health consequences related to the Chernobyl nuclear power plant.",
+   "checked": "2026-11-12"
+  },
+  "H RES 71": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 418) to establish and rapidly implement regulations for State driver's license and identification document security standards, to prevent terrorists from abusing the asylum laws of the United States, to unify terrorism-related grounds for inadmissibility and removal, and to ensure expeditious construction of the San Diego border fence.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 418"
+   ]
+  },
+  "H RES 710": {
+   "policyArea": "Congress",
+   "title": "Providing for further consideration of the bill (H.R. 4167) to amend the Federal Food, Drug, and Cosmetic Act to provide for uniform food safety warning notification requirements, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4167"
+   ]
+  },
+  "H RES 713": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2829) to reauthorize the Office of National Drug Control Policy Act.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2829"
+   ]
+  },
+  "H RES 723": {
+   "policyArea": "International Affairs",
+   "title": "Calling on the President to take immediate steps to help improve the security situation in Darfur, Sudan, with a specific emphasis on civilian protection.",
+   "checked": "2026-11-12"
+  },
+  "H RES 725": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4939) making emergency supplemental appropriations for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4939"
+   ]
+  },
+  "H RES 731": {
+   "policyArea": "Commemorations",
+   "title": "Commending the Patriot Guard Riders for shielding mourning military families from protesters and preserving the memory of fallen service members at funerals.",
+   "checked": "2026-11-12"
+  },
+  "H RES 736": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of the House of Representatives that legal action in Afghanistan against citizens who have already converted or plan to convert to other religions is deplorable and unjust.",
+   "checked": "2026-11-12"
+  },
+  "H RES 737": {
+   "policyArea": "Commemorations",
+   "title": "Supporting the goals and ideals of Financial Literacy Month, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 740": {
+   "policyArea": "International Affairs",
+   "title": "Calling on the Government of the United Kingdom immediately to establish a full, independent, public judicial inquiry into the murder of Northern Ireland defense attorney Patrick Finucane, as recommended by Judge Peter Cory as part of the Weston Park agreement, in order to move forward on the Northern Ireland Peace Process.",
+   "checked": "2026-11-12"
+  },
+  "H RES 741": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 609) to amend and extend the Higher Education Act of 1965.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 609"
+   ]
+  },
+  "H RES 742": {
+   "policyArea": "Congress",
+   "title": "Providing for further consideration of the bill (H.R. 609) to amend and extend the Higher Education Act of 1965.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 609"
+   ]
+  },
+  "H RES 744": {
+   "policyArea": "International Affairs",
+   "title": "Expressing support for the Good Friday Agreement of 1998 as the blueprint for lasting peace in Northern Ireland and support for continued police reform in Northern Ireland as a critical element in the peace process.",
+   "checked": "2026-11-12"
+  },
+  "H RES 746": {
+   "policyArea": "Congress",
+   "title": "Raising a question of the privileges of the House.",
+   "checked": "2026-11-12"
+  },
+  "H RES 75": {
+   "policyArea": "Congress",
+   "title": "Providing for further consideration of the bill (H.R. 418) to establish and rapidly implement regulations for State driver's license and identification document security standards, to prevent terrorists from abusing the asylum laws of the United States, to unify terrorism-related grounds for inadmissibility and removal, and to ensure expeditious construction of the San Diego border fence.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 418"
+   ]
+  },
+  "H RES 755": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 513) to amend the Federal Election Campaign Act of 1971 to clarify when organizations described in section 527 of the Internal Revenue Code of 1986 must register as political committees, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 513"
+   ]
+  },
+  "H RES 762": {
+   "policyArea": "Congress",
+   "title": "Raising a question of the privileges of the House.",
+   "checked": "2026-11-12"
+  },
+  "H RES 766": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the concurrent resolution (H. Con. Res. 376) establishing the congressional budget for the United States Government for fiscal year 2007 and setting forth appropriate budgetary levels for fiscal years 2008 through 2011.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H CON RES 376"
+   ]
+  },
+  "H RES 774": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5020) to authorize appropriations for fiscal year 2007 for intelligence and intelligence-related activities of the United States Government, the Community Management Account, and the Central Intelligence Agency Retirement and Disability System, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5020"
+   ]
+  },
+  "H RES 781": {
+   "policyArea": "Commemorations",
+   "title": "Congratulating charter schools and their students, parents, teachers, and administrators across the United States for their ongoing contributions to education, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 783": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4975) to provide greater transparency with respect to lobbying activities, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4975"
+   ]
+  },
+  "H RES 789": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4954) to improve maritime and cargo security through enhanced layered defenses, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4954"
+   ]
+  },
+  "H RES 794": {
+   "policyArea": "International Affairs",
+   "title": "Recognizing the 17th anniversary of the massacre in Tiananmen Square, Beijing, in the People's Republic of China, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 795": {
+   "policyArea": "International Affairs",
+   "title": "Condemning in the strongest terms the terrorist attacks in Dahab and Northern Sinai, Egypt, on April 24 and 26, 2006.",
+   "checked": "2026-11-12"
+  },
+  "H RES 802": {
+   "policyArea": "Health",
+   "title": "Encouraging all eligible Medicare beneficiaries who have not yet elected to enroll in the new Medicare Part D benefit to review the available options and to determine whether enrollment in a Medicare prescription drug plan best meets their current and future needs for prescription drug coverage.",
+   "checked": "2026-11-12"
+  },
+  "H RES 803": {
+   "policyArea": "Congress",
+   "title": "Providing for the concurrence by the House with amendments in the amendments of the Senate to H.R. 1499.",
+   "checked": "2026-11-12"
+  },
+  "H RES 804": {
+   "policyArea": "International Affairs",
+   "title": "Condemning the People's Republic of China for its continued interference in the internal affairs of the Catholic Church and its persecution of Catholics loyal to the Pope.",
+   "checked": "2026-11-12"
+  },
+  "H RES 805": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 4297) to provide for reconciliation pursuant to section 201 (b) of the concurrent resolution on the budget for fiscal year 2006.",
+   "checked": "2026-11-12"
+  },
+  "H RES 806": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5122) to authorize appropriations for fiscal year 2007 for military activities of the Department of Defense, to prescribe military personnel strengths for fiscal year 2007, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5122"
+   ]
+  },
+  "H RES 811": {
+   "policyArea": "Congress",
+   "title": "Providing for further consideration of the bill (H.R. 5122) to authorize appropriations for fiscal year 2007 for military activities of the Department of Defense, to prescribe military personnel strengths for fiscal year 2007, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5122"
+   ]
+  },
+  "H RES 815": {
+   "policyArea": "Congress",
+   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 817": {
+   "policyArea": "Congress",
+   "title": "Providing for further consideration of the concurrent resolution (H. Con. Res. 376) establishing the congressional budget for the United States Government for fiscal year 2007 and setting forth appropriate budgetary levels for fiscal years 2008 through 2011.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H CON RES 376"
+   ]
+  },
+  "H RES 818": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5386) making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2007, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5386"
+   ]
+  },
+  "H RES 821": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5385) making appropriations for the military quality of life functions of the Department of Defense, military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2007, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5385"
+   ]
+  },
+  "H RES 826": {
+   "policyArea": "Commemorations",
+   "title": "Expressing the sense of the House of Representatives that a National Youth Sports Week should be established.",
+   "checked": "2026-11-12"
+  },
+  "H RES 830": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5384) making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies for the fiscal year ending September 30, 2007, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5384"
+   ]
+  },
+  "H RES 832": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5427) making appropriations for energy and water development for the fiscal year ending September 30, 2007, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5427"
+   ]
+  },
+  "H RES 835": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5429) to direct the Secretary of the Interior to establish and implement a competitive oil and gas leasing program that will result in an environmentally sound program for the exploration, development, and production of the oil and gas resources of the Coastal Plain of Alaska, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5429"
+   ]
+  },
+  "H RES 836": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5441) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2007, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5441"
+   ]
+  },
+  "H RES 842": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5254) to set schedules for the consideration of permits for refineries.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5254"
+   ]
+  },
+  "H RES 844": {
+   "policyArea": "International Affairs",
+   "title": "Congratulating the International AIDS Vaccine Initiative on ten years of significant achievement in the search for an HIV/AIDS vaccine, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 850": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5252) to promote the deployment of broadband networks and services.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5252"
+   ]
+  },
+  "H RES 857": {
+   "policyArea": "Congress",
+   "title": "Waiving points of order against the conference report to accompany the bill (H.R. 4939) making emergency supplemental appropriations for the fiscal year ending September 30, 2006, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 861": {
+   "policyArea": "International Affairs",
+   "title": "Declaring that the United States will prevail in the Global War on Terror, the struggle to protect freedom from the terrorist adversary.",
+   "checked": "2026-11-12"
+  },
+  "H RES 862": {
+   "policyArea": "Congress",
+   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 865": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5576) making appropriations for the Departments of Transportation, Treasury, and Housing and Urban Development, the Judiciary, District of Columbia, and independent agencies for the fiscal year ending September 30, 2007, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5576"
+   ]
+  },
+  "H RES 868": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the resolution (H. Res. 861) declaring that the United States will prevail in the Global War on Terror, the struggle to protect freedom from the terrorist adversary.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 861"
+   ]
+  },
+  "H RES 875": {
+   "policyArea": "Commemorations",
+   "title": "Congratulating Spelman College on the occasion of its 125th anniversary.",
+   "checked": "2026-11-12"
+  },
+  "H RES 877": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5631) making appropriations for the Department of Defense for the fiscal year ending September 30, 2007, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5631"
+   ]
+  },
+  "H RES 885": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5638) to amend the Internal Revenue Code of 1986 to increase the unified credit against the estate tax to an exclusion equivalent of $5,000,000 and to repeal the sunset provision for the estate and generation-skipping taxes, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5638"
+   ]
+  },
+  "H RES 886": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4890) to amend the Congressional and Impoundment Control Act of 1974 to provide for the expedited consideration of certain proposed rescissions of budget authority.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4890"
+   ]
+  },
+  "H RES 890": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5672) making appropriations for Science, the Departments of State, Justice, and Commerce, and related agencies for the fiscal year ending September 30, 2007, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5672"
+   ]
+  },
+  "H RES 895": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Supporting intelligence and law enforcement programs to track terrorists and terrorist finances conducted consistent with Federal law and with appropriate Congressional consultation and specifically condemning the disclosure and publication of classified information that impairs the international fight against terrorism and needlessly exposes Americans to the threat of further terror attacks by revealing a crucial method by which terrorists are traced through their finances.",
+   "checked": "2026-11-12"
+  },
+  "H RES 896": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the resolution (H. Res. 895) supporting intelligence and law enforcement programs to track terrorists and terrorist finances conducted consistent with Federal law and with appropriate Congressional consultation and specifically condemning the disclosure and publication of classified information that impairs the international fight against terrorism and needlessly exposes Americans to the threat of further terror attacks by revealing a crucial method by which terrorists are traced through their finances.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 895"
+   ]
+  },
+  "H RES 897": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4761) to provide for exploration, development, and production activities for mineral resources on the outer Continental Shelf, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4761"
+   ]
+  },
+  "H RES 906": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2990) to improve ratings quality by fostering competition, transparency, and accountability in the credit rating agency industry.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2990"
+   ]
+  },
+  "H RES 907": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4411) to prevent the use of certain payment instruments, credit cards, and fund transfers for unlawful Internet gambling, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4411"
+   ]
+  },
+  "H RES 91": {
+   "policyArea": "International Affairs",
+   "title": "Condemning the terrorist bombing attack that occurred on February 14, 2005, in Beirut, Lebanon, that killed former Lebanese Prime Minister Rafik Hariri and killed and wounded others.",
+   "checked": "2026-11-12"
+  },
+  "H RES 911": {
+   "policyArea": "International Affairs",
+   "title": "Condemning in the strongest possible terms the July 11, 2006, terrorist attacks in India and expressing condolences to the families of the victims and sympathy to the people of India.",
+   "checked": "2026-11-12"
+  },
+  "H RES 920": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2389) to amend title 28, United States Code, with respect to the jurisdiction of Federal courts over certain cases and controversies involving the Pledge of Allegiance.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2389"
+   ]
+  },
+  "H RES 921": {
+   "policyArea": "International Affairs",
+   "title": "Condemning the recent attacks against the State of Israel, holding terrorists and their state-sponsors accountable for such attacks, supporting Israel's right to defend itself, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 925": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5684) to implement the United States-Oman Free Trade Agreement.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5684"
+   ]
+  },
+  "H RES 942": {
+   "policyArea": "International Affairs",
+   "title": "Recognizing the centennial anniversary on August 5, 2006, of the Iranian constitution of 1906.",
+   "checked": "2026-11-12"
+  },
+  "H RES 947": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5682) to exempt from certain requirements of the Atomic Energy Act of 1954 a proposed nuclear agreement for cooperation with India.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5682"
+   ]
+  },
+  "H RES 95": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 310) to increase the penalties for violations by television and radio broadcasters of the prohibitions against transmission of obscene, indecent, and profane material, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 310"
+   ]
+  },
+  "H RES 952": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4157) to amend the Social Security Act to encourage the dissemination, security, confidentiality, and usefulness of health information technology.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4157"
+   ]
+  },
+  "H RES 958": {
+   "policyArea": "Congress",
+   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 966": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5970) to amend the Internal Revenue Code of 1986 to increase the unified credit against the estate tax to an exclusion equivalent of $5,000,000, to repeal the sunset provision for the estate and generation-skipping taxes, and to extend expiring provisions, and for other purposes; and consideration of the bill (H.R. 4) to provide economic security for all Americans, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5970",
+    "H R 4"
+   ]
+  },
+  "H RES 976": {
+   "policyArea": "International Affairs",
+   "title": "Condemning human rights abuses by the Government of the Islamic Republic of Iran and expressing solidarity with the Iranian people.",
+   "checked": "2026-11-12"
+  },
+  "H RES 981": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 503) to amend the Horse Protection Act to prohibit the shipping, transporting, moving, delivering, receiving, possessing, purchasing, selling, or donation of horses and other equines to be slaughtered for human consumption, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 503"
+   ]
+  },
+  "H RES 989": {
+   "policyArea": "International Affairs",
+   "title": "Commending the United Kingdom for its efforts in the War on Terror, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 992": {
+   "policyArea": "International Affairs",
+   "title": "Supporting the appointment of a Presidential Special Envoy for Sudan.",
+   "checked": "2026-11-12"
+  },
+  "H RES 994": {
+   "policyArea": "Commemorations",
+   "title": "Expressing the sense of the House of Representatives on the fifth anniversary of the terrorist attacks launched against the United States on September 11, 2001.",
+   "checked": "2026-11-12"
+  },
+  "H RES 996": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the resolution (H. Res. 994) expressing the sense of the House of Representatives on the fifth anniversary of the terrorist attacks launched against the United States on September 11, 2001.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 994"
+   ]
+  },
+  "S 1047": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Presidential $1 Coin Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S 1235": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Veterans' Housing Opportunity and Benefits Improvement Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "S 1496": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Electronic Duck Stamp Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S 1786": {
+   "policyArea": "Transportation and Public Works",
+   "title": "A bill to authorize the Secretary of Transportation to make emergency airport improvement project grants-in-aid under title 49, United States Code, for repairs and costs related to damage from Hurricanes Katrina and Rita.",
+   "checked": "2026-11-12"
+  },
+  "S 1894": {
+   "policyArea": "Families",
+   "title": "Fair Access Foster Care Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S 193": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Broadcast Decency Enforcement Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S 1932": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Deficit Reduction Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S 1989": {
+   "policyArea": "Commemorations",
+   "title": "A bill to designate the facility of the United States Postal Service located at 57 Rolfe Square in Cranston, Rhode Island, shall be known and designated as the \"Holly A. Charette Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "S 203": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "National Heritage Areas Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "S 2120": {
+   "policyArea": "Agriculture and Food",
+   "title": "Milk Regulatory Equity Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S 2271": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "USA PATRIOT Act Additional Reauthorizing Amendments Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "S 2320": {
+   "policyArea": "Social Welfare",
+   "title": "A bill to make available funds included in the Deficit Reduction Act of 2005 for the Low-Income Home Energy Assistance Program for fiscal year 2006, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "S 250": {
+   "policyArea": "Labor and Employment",
+   "title": "Carl D. Perkins Career and Technical Education Improvement Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "S 256": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Bankruptcy Abuse Prevention and Consumer Protection Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S 2754": {
+   "policyArea": "Health",
+   "title": "Alternative Pluripotent Stem Cell Therapies Enhancement Act",
+   "checked": "2026-11-12"
+  },
+  "S 276": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Wind Cave National Park Boundary Revision Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S 2803": {
+   "policyArea": "Labor and Employment",
+   "title": "MINER Act",
+   "checked": "2026-11-12"
+  },
+  "S 2832": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Appalachian Regional Development Act Amendments of 2006",
+   "checked": "2026-11-12"
+  },
+  "S 2856": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Financial Services Regulatory Relief Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "S 3504": {
+   "policyArea": "Health",
+   "title": "Fetus Farming Prohibition Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "S 3546": {
+   "policyArea": "Health",
+   "title": "Dietary Supplement and Nonprescription Drug Consumer Protection Act",
+   "checked": "2026-11-12"
+  },
+  "S 3661": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Wright Amendment Reform Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "S 3718": {
+   "policyArea": "Commerce",
+   "title": "Pool and Spa Safety Act",
+   "checked": "2026-11-12"
+  },
+  "S 384": {
+   "policyArea": "Government Operations and Politics",
+   "title": "A bill to extend the existence of the Nazi War Crimes and Japanese Imperial Government Records Interagency Working Group for 2 years.",
+   "checked": "2026-11-12"
+  },
+  "S 3930": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Military Commissions Act of 2006",
+   "checked": "2026-11-12"
+  },
+  "S 397": {
+   "policyArea": "Law",
+   "title": "Protection of Lawful Commerce in Arms Act",
+   "checked": "2026-11-12"
+  },
+  "S 403": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Child Custody Protection Act",
+   "checked": "2026-11-12"
+  },
+  "S 418": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Military Personnel Financial Services Protection Act",
+   "checked": "2026-11-12"
+  },
+  "S 45": {
+   "policyArea": "Health",
+   "title": "A bill to amend the Controlled Substances Act to lift the patient limitation on prescribing drug addiction treatments by medical practitioners in group practices, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "S 467": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Terrorism Risk Insurance Extension Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S 5": {
+   "policyArea": "Law",
+   "title": "Class Action Fairness Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S 544": {
+   "policyArea": "Health",
+   "title": "Patient Safety and Quality Improvement Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S 643": {
+   "policyArea": "Agriculture and Food",
+   "title": "A bill to amend the Agricultural Credit Act of 1987 to reauthorize State mediation programs.",
+   "checked": "2026-11-12"
+  },
+  "S 686": {
+   "policyArea": "Law",
+   "title": "A bill to provide for the relief of the parents of Theresa Marie Schiavo.",
+   "checked": "2026-11-12"
+  },
+  "S 819": {
+   "policyArea": "Water Resources Development",
+   "title": "Pactola Reservoir Reallocation Authorization Act of 2005",
+   "checked": "2026-11-12"
+  },
+  "S CON RES 26": {
+   "policyArea": "Commemorations",
+   "title": "A concurrent resolution honoring and memorializing the passengers and crew of United Airlines Flight 93.",
+   "checked": "2026-11-12"
+  },
+  "S CON RES 79": {
+   "policyArea": "International Affairs",
+   "title": "A concurrent resolution expressing the sense of Congress that no United States assistance should be provided directly to the Palestinian Authority if any representative political party holding a majority of parliamentary seats within the Palestinian Authority maintains a position calling for the destruction of Israel.",
+   "checked": "2026-11-12"
+  },
+  "S J RES 19": {
+   "policyArea": "International Affairs",
+   "title": "A joint resolution calling upon the President to issue a proclamation recognizing the 30th anniversary of the Helsinki Final Act.",
+   "checked": "2026-11-12"
+  },
+  "S J RES 28": {
+   "policyArea": "Commemorations",
+   "title": "A joint resolution approving the location of the commemorative work in the District of Columbia honoring former President Dwight D. Eisenhower.",
+   "checked": "2026-11-12"
+  }
+ }
+}

@@ -1,0 +1,2784 @@
+{
+ "_comment": "Congress.gov policy area (topic) for each bill voted on in this Congress, keyed by the Clerk's bill number as in all_votes.csv. Special rules (resolutions 'providing for consideration of' other bills) are all filed under 'Congress'; 'ruleFor' lists the bills they set up, so the page shows those bills' topics instead. Written by fetch_legislation.py.",
+ "congress": 112,
+ "updated": "2026-11-12",
+ "bills": {
+  "H CON RES 105": {
+   "policyArea": "Congress",
+   "title": "Authorizing the use of Emancipation Hall in the Capitol Visitor Center for an event to celebrate the birthday of King Kamehameha.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 112": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Establishing the budget for the United States Government for fiscal year 2013 and setting forth appropriate budgetary levels for fiscal years 2014 through 2022.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 117": {
+   "policyArea": "Congress",
+   "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers' Memorial Service.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 118": {
+   "policyArea": "Congress",
+   "title": "Authorizing the use of the Capitol Grounds for the District of Columbia Special Olympics Law Enforcement Torch Run.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 127": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of Congress regarding actions to preserve and advance the multistakeholder governance model under which the Internet has thrived.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 13": {
+   "policyArea": "Law",
+   "title": "Reaffirming \"In God We Trust\" as the official motto of the United States and supporting and encouraging the public display of the national motto in all public buildings, public schools, and other government institutions.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 17": {
+   "policyArea": "Congress",
+   "title": "Providing for an adjournment or recess of the two Houses.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 27": {
+   "policyArea": "Congress",
+   "title": "Providing for the acceptance of a statue of Gerald R. Ford from the people of Michigan for placement in the United States Capitol.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 28": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from Afghanistan.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 30": {
+   "policyArea": "Congress",
+   "title": "Providing for a conditional adjournment of the House of Representatives and a conditional recess or adjournment of the Senate.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 34": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Establishing the budget for the United States Government for fiscal year 2012 and setting forth appropriate budgetary levels for fiscal years 2013 through 2021.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 35": {
+   "policyArea": "Congress",
+   "title": "Directing the Clerk of the House of Representatives to make a correction in the enrollment of H.R. 1473.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 36": {
+   "policyArea": "Congress",
+   "title": "Directing the Clerk of the House of Representatives to make a correction in the enrollment of H.R. 1473.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 43": {
+   "policyArea": "Congress",
+   "title": "Providing for a conditional adjournment of the House of Representatives and a conditional recess or adjournment of the Senate.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 50": {
+   "policyArea": "Congress",
+   "title": "Providing for a conditional adjournment of the House of Representatives.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 51": {
+   "policyArea": "International Affairs",
+   "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from Libya.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 67": {
+   "policyArea": "Congress",
+   "title": "Authorizing the use of the Capitol Grounds for the District of Columbia Special Olympics Law Enforcement Torch Run.",
+   "checked": "2026-11-12"
+  },
+  "H CON RES 94": {
+   "policyArea": "Congress",
+   "title": "Directing the Clerk of the House of Representatives to make corrections in the enrollment of H.R. 3672.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 117": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Continuing Appropriations Resolution, 2013",
+   "checked": "2026-11-12"
+  },
+  "H J RES 118": {
+   "policyArea": "Social Welfare",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Family Assistance of the Administration for Children and Families of the Department of Health and Human Services relating to waiver and expenditure authority under section 1115 of the Social Security Act (42 U.S.C. 1315) with respect to the Temporary Assistance for Needy Families program.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 2": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Proposing a balanced budget amendment to the Constitution of the United States.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 37": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Disapproving the rule submitted by the Federal Communications Commission with respect to regulating the Internet and broadband industry practices.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 44": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Further Continuing Appropriations Amendments, 2011",
+   "checked": "2026-11-12"
+  },
+  "H J RES 48": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Additional Continuing Appropriations Amendments, 2011",
+   "checked": "2026-11-12"
+  },
+  "H J RES 66": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "Approving the renewal of import restrictions contained in the Burmese Freedom and Democracy Act of 2003.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 68": {
+   "policyArea": "International Affairs",
+   "title": "Authorizing the limited use of the United States Armed Forces in support of the NATO mission in Libya.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 77": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Relating to the disapproval of the President's exercise of authority to increase the debt limit, as submitted under section 3101A of title 31, United States Code, on August 2, 2011.",
+   "checked": "2026-11-12"
+  },
+  "H J RES 98": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Relating to the disapproval of the President's exercise of authority to increase the debt limit, as submitted under section 3101A of title 31, United States Code, on January 12, 2012.",
+   "checked": "2026-11-12"
+  },
+  "H R 1": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Disaster Relief Appropriations Act, 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 10": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Regulations From the Executive in Need of Scrutiny Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1022": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Buffalo Soldiers in the National Parks Study Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1038": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "To authorize the conveyance of two small parcels of land within the boundaries of the Coconino National Forest containing private improvements that were developed based upon the reliance of the landowners in an erroneous survey conducted in May 1960.",
+   "checked": "2026-11-12"
+  },
+  "H R 1059": {
+   "policyArea": "Law",
+   "title": "To protect the safety of judges by extending the authority of the Judicial Conference to redact sensitive information contained in their financial disclosure reports, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 1070": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Small Company Capital Formation Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1076": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "To prohibit Federal funding of National Public Radio and the use of Federal funds to acquire radio content.",
+   "checked": "2026-11-12"
+  },
+  "H R 1141": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Rota Cultural and Natural Resources Study Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1160": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "McKinney Lake National Fish Hatchery Conveyance Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1162": {
+   "policyArea": "Native Americans",
+   "title": "To provide the Quileute Indian Tribe Tsunami and Flood Protection, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 1173": {
+   "policyArea": "Health",
+   "title": "Fiscal Responsibility and Retirement Security Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1213": {
+   "policyArea": "Health",
+   "title": "To repeal mandatory funding provided to States in the Patient Protection and Affordable Care Act to establish American Health Benefit Exchanges.",
+   "checked": "2026-11-12"
+  },
+  "H R 1214": {
+   "policyArea": "Health",
+   "title": "To repeal mandatory funding for school-based health center construction.",
+   "checked": "2026-11-12"
+  },
+  "H R 1216": {
+   "policyArea": "Health",
+   "title": "To amend the Public Health Service Act to convert funding for graduate medical education in qualified teaching health centers from direct appropriations to an authorization of appropriations.",
+   "checked": "2026-11-12"
+  },
+  "H R 1217": {
+   "policyArea": "Health",
+   "title": "To repeal the Prevention and Public Health Fund.",
+   "checked": "2026-11-12"
+  },
+  "H R 1229": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Putting the Gulf of Mexico Back to Work Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1230": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Restarting American Offshore Leasing Now Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1231": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Reversing President Obama's Offshore Moratorium Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1246": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To reduce the amounts otherwise authorized to be appropriated to the Department of Defense for printing and reproduction.",
+   "checked": "2026-11-12"
+  },
+  "H R 1249": {
+   "policyArea": "Commerce",
+   "title": "Leahy-Smith America Invents Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1254": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Synthetic Drug Control Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1255": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Government Shutdown Prevention Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1264": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the property between the United States Federal Courthouse and the Ed Jones Building located at 109 South Highland Avenue in Jackson, Tennessee, as the \"M.D. Anderson Plaza\" and to authorize the placement of a historical/identification marker on the grounds recognizing the achievements and philanthropy of M.D. Anderson.",
+   "checked": "2026-11-12"
+  },
+  "H R 1308": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To amend the Ronald Reagan Centennial Commission Act to extend the termination date for the Commission, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 1309": {
+   "policyArea": "Emergency Management",
+   "title": "Flood Insurance Reform Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1315": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "To amend the Dodd-Frank Wall Street Reform and Consumer\r\n\r\nProtection Act to strengthen the review authority\r\n\r\nof the Financial Stability Oversight Council of regulations\r\n\r\nissued by the Bureau of Consumer Financial Protection,\r\n\r\nto rescind the unobligated funding for the FHA\r\n\r\nRefinance Program and to terminate the program, and\r\n\r\nfor other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 1339": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To designate the City of Salem, Massachusetts, as the Birthplace of the National Guard of the United States.",
+   "checked": "2026-11-12"
+  },
+  "H R 1363": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Further Additional Continuing Appropriations Amendments, 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1383": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Restoring GI Bill Fairness Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1423": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 115 4th Avenue Southwest in Ardmore, Oklahoma, as the \"Specialist Micheal E. Phillips Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 1473": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Department of Defense and Full-Year Continuing Appropriations Act, 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1484": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Veterans Appeals Improvement Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1540": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "National Defense Authorization Act for Fiscal Year 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 1627": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Honoring America's Veterans and Caring for Camp Lejeune Families Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 1632": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 5014 Gary Avenue in Lubbock, Texas, as the \"Sergeant Chris Davis Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 1633": {
+   "policyArea": "Environmental Protection",
+   "title": "Farm Dust Regulation Prevention Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1657": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To amend title 38, United States Code, to revise the enforcement penalties for misrepresentation of a business concern as a small business concern owned and controlled by veterans or as a small business concern owned and controlled by service-disabled veterans.",
+   "checked": "2026-11-12"
+  },
+  "H R 1734": {
+   "policyArea": "Government Operations and Politics",
+   "title": "CPRA",
+   "checked": "2026-11-12"
+  },
+  "H R 1775": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Stolen Valor Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 1801": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Risk-Based Security Screening for Members of the Armed Forces Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1815": {
+   "policyArea": "Arts, Culture, Religion",
+   "title": "Lena Horne Recognition Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1837": {
+   "policyArea": "Water Resources Development",
+   "title": "Sacramento-San Joaquin Valley Water Reliability Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1843": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 489 Army Drive in Barrigada, Guam, as the \"John Pangelinan Gerber Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 1845": {
+   "policyArea": "Health",
+   "title": "Medicare IVIG Access and Strengthening Medicare and Repaying Taxpayers Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 1892": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Intelligence Authorization Act for Fiscal Year 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 1904": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Southeast Arizona Land Exchange and Conservation Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 1905": {
+   "policyArea": "International Affairs",
+   "title": "Iran Threat Reduction and Syria Human Rights Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 1933": {
+   "policyArea": "Immigration",
+   "title": "To amend the Immigration and Nationality Act to modify the requirements for admission of nonimmigrant nurses in health professional shortage areas.",
+   "checked": "2026-11-12"
+  },
+  "H R 1938": {
+   "policyArea": "Energy",
+   "title": "North American-Made Energy Security Act",
+   "checked": "2026-11-12"
+  },
+  "H R 1954": {
+   "policyArea": "Economics and Public Finance",
+   "title": "To implement the President's request to increase the statutory limit on the public debt.",
+   "checked": "2026-11-12"
+  },
+  "H R 1965": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "To amend the securities laws to establish certain thresholds for shareholder registration, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 1975": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 281 East Colorado Boulevard in Pasadena, California, as the \"First Lieutenant Oliver Goodall Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 2": {
+   "policyArea": "Health",
+   "title": "Repealing the Job-Killing Health Care Law Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2017": {
+   "policyArea": "Emergency Management",
+   "title": "Continuing Appropriations Act, 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2018": {
+   "policyArea": "Environmental Protection",
+   "title": "Clean Water Cooperative Federalism Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2021": {
+   "policyArea": "Environmental Protection",
+   "title": "Jobs and Energy Permitting Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 205": {
+   "policyArea": "Native Americans",
+   "title": "HEARTH Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2055": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Consolidated Appropriations Act, 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2061": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Civilian Service Recognition Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2070": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "World War II Memorial Prayer Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2072": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "Export-Import Bank Reauthorization Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2076": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Investigative Assistance for Violent Crimes Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2079": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 10 Main Street in East Rockaway, New York, as the \"John J. Cook Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 2087": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "To remove restrictions from a parcel of land situated in the Atlantic District, Accomack County, Virginia.",
+   "checked": "2026-11-12"
+  },
+  "H R 2096": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Cybersecurity Enhancement Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2105": {
+   "policyArea": "International Affairs",
+   "title": "Iran, North Korea, and Syria Nonproliferation Reform and Modernization Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2112": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Consolidated and Further Continuing Appropriations Act, 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2117": {
+   "policyArea": "Education",
+   "title": "Protecting Academic Freedom in Higher Education Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2139": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Lions Clubs International Century of Service Commemorative Coin Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2157": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "To facilitate a land exchange involving certain National Forest System lands in the Inyo National Forest, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 2158": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 14901 Adelfa Drive in La Mirada, California, as the \"Wayne Grisham Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 2189": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Death in Custody Reporting Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2192": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "National Guard and Reservist Debt Relief Extension Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2213": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 801 West Eastport Street in Iuka, Mississippi, as the \"Sergeant Jason W. Vaughn Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 2218": {
+   "policyArea": "Education",
+   "title": "Empowering Parents through Quality Charter Schools Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2219": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Department of Defense Appropriations Act, 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2244": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 67 Castle Street in Geneva, New York, as the \"Corporal Steven Blaine Riccione Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 2250": {
+   "policyArea": "Environmental Protection",
+   "title": "EPA Regulatory Relief Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2273": {
+   "policyArea": "Environmental Protection",
+   "title": "Coal Residuals Reuse and Management Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2278": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To limit the use of funds appropriated to the Department of Defense for United States Armed Forces in support of North Atlantic Treaty Organization Operation Unified Protector with respect to Libya, unless otherwise specifically authorized by law.",
+   "checked": "2026-11-12"
+  },
+  "H R 2354": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Energy and Water Development and Related Agencies Appropriations Act, 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2362": {
+   "policyArea": "Native Americans",
+   "title": "Indian Tribal Trade and Investment Demonstration Project Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2401": {
+   "policyArea": "Environmental Protection",
+   "title": "Transparency in Regulatory Analysis of Impacts on the Nation Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2417": {
+   "policyArea": "Energy",
+   "title": "Better Use of Light Bulbs Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2422": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 45 Bay Street, Suite 2, in Staten Island, New York, as the \"Sergeant Angel Mendez Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 2433": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Veterans Opportunity to Work Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2447": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To grant the congressional gold medal to the Montford Point Marines.",
+   "checked": "2026-11-12"
+  },
+  "H R 2453": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Mark Twain Commemorative Coin Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2471": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "To amend section 2710 of title 18, United States Code, to clarify that a video tape service provider may obtain a consumer's informed, written consent on an ongoing basis and that consent may be obtained through the Internet.",
+   "checked": "2026-11-12"
+  },
+  "H R 2480": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Administrative Conference of the United States Reauthorization Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2527": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "National Baseball Hall of Fame Commemorative Coin Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2551": {
+   "policyArea": "Congress",
+   "title": "Legislative Branch Appropriations Act, 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2553": {
+   "policyArea": "Taxation",
+   "title": "Airport and Airway Extension Act of 2011, Part IV",
+   "checked": "2026-11-12"
+  },
+  "H R 2560": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Cut, Cap, and Balance Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2576": {
+   "policyArea": "Taxation",
+   "title": "To amend the Internal Revenue Code of 1986 to modify the calculation of modified adjusted gross income for purposes of determining eligibility for certain healthcare-related programs.",
+   "checked": "2026-11-12"
+  },
+  "H R 2578": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Conservation and Economic Growth Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2584": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2587": {
+   "policyArea": "Labor and Employment",
+   "title": "Protecting Jobs From Government Interference Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2608": {
+   "policyArea": "Commerce",
+   "title": "Continuing Appropriations Act, 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2633": {
+   "policyArea": "Law",
+   "title": "Appeal Time Clarification Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2646": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Veterans Health Care Facilities Capital Improvement Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2681": {
+   "policyArea": "Environmental Protection",
+   "title": "Cement Sector Regulatory Relief Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2682": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Business Risk Mitigation and Price Stabilization Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2693": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Budget Control Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2715": {
+   "policyArea": "Commerce",
+   "title": "To provide the Consumer Product Safety Commission with greater authority and discretion in enforcing the consumer product safety laws, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 2719": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Rattlesnake Mountain Public Access Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2767": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 8 West Silver Street in Westfield, Massachusetts, as the \"William T. Trant Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 2779": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "To exempt inter-affiliate swaps from certain regulatory requirements put in place by the Dodd-Frank Wall Street Reform and Consumer Protection Act.",
+   "checked": "2026-11-12"
+  },
+  "H R 2832": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "To extend the Generalized System of Preferences, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 2838": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Coast Guard and Maritime Transportation Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2842": {
+   "policyArea": "Energy",
+   "title": "Bureau of Reclamation Small Conduit Hydropower Development and Rural Jobs Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 2867": {
+   "policyArea": "International Affairs",
+   "title": "United States Commission on International Religious Freedom Reform and Reauthorization Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 2883": {
+   "policyArea": "Social Welfare",
+   "title": "Child and Family Services Improvement and Innovation Act",
+   "checked": "2026-11-12"
+  },
+  "H R 292": {
+   "policyArea": "Congress",
+   "title": "To amend title 44, United States Code, to eliminate the mandatory printing of bills and resolutions for the use of offices of Members of Congress.",
+   "checked": "2026-11-12"
+  },
+  "H R 2930": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Entrepreneur Access to Capital Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2938": {
+   "policyArea": "Native Americans",
+   "title": "Gila Bend Indian Reservation Lands Replacement Clarification Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2940": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Access to Capital for Job Creators Act",
+   "checked": "2026-11-12"
+  },
+  "H R 2944": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "United States Parole Commission Extension Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 298": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 500 East Whitestone Boulevard in Cedar Park, Texas, as the \"Army Specialist Matthew Troy Morris Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3": {
+   "policyArea": "Health",
+   "title": "No Taxpayer Funding for Abortion Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3001": {
+   "policyArea": "International Affairs",
+   "title": "Raoul Wallenberg Centennial Celebration Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3010": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Regulatory Accountability Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 3012": {
+   "policyArea": "Immigration",
+   "title": "Fairness for High-Skilled Immigrants Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 3078": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "United States-Colombia Trade Promotion Agreement Implementation Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3079": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "United States-Panama Trade Promotion Agreement Implementation Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3080": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "United States-Korea Free Trade Agreement Implementation Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3094": {
+   "policyArea": "Labor and Employment",
+   "title": "Workforce Democracy and Fairness Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3117": {
+   "policyArea": "Animals",
+   "title": "Permanent Electronic Duck Stamp Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3159": {
+   "policyArea": "International Affairs",
+   "title": "Foreign Aid Transparency and Accountability Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3197": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To name the Department of Veterans Affairs medical center in Spokane, Washington, as the \"Mann-Grandstaff Department of Veterans Affairs Medical Center\".",
+   "checked": "2026-11-12"
+  },
+  "H R 320": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Distinguished Flying Cross National Memorial Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3220": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 170 Evergreen Square SW in Pine City, Minnesota, as the \"Master Sergeant Daniel L. Fedder Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3246": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 15455 Manchester Road in Ballwin, Missouri, as the \"Specialist Peter J. Navarro Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3247": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 1100 Town and Country Commons in Chesterfield, Missouri, as the \"Lance Corporal Matthew P. Pathenos Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3248": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 112 South 5th Street in Saint Charles, Missouri, as the \"Lance Corporal Drew W. Weaver Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 3298": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Homes for Heroes Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 33": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Church Plan Investment Clarification Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3309": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Federal Communications Commission Process Reform Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3321": {
+   "policyArea": "Transportation and Public Works",
+   "title": "America's Cup Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 3336": {
+   "policyArea": "Agriculture and Food",
+   "title": "Small Business Credit Availability Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3408": {
+   "policyArea": "Energy",
+   "title": "PIONEERS Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3409": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Stop the War on Coal Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3421": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Fallen Heroes of 9/11 Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3463": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To reduce Federal spending and the deficit by terminating taxpayer financing of presidential election campaigns and party conventions and by terminating the Election Assistance Commission.",
+   "checked": "2026-11-12"
+  },
+  "H R 347": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Federal Restricted Buildings and Grounds Improvement Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 3477": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 133 Hare Road in Crosby, Texas, as the Army First Sergeant David McNerney Post Office Building.",
+   "checked": "2026-11-12"
+  },
+  "H R 3521": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Expedited Legislative Line-Item Veto and Rescissions Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3523": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Cyber Intelligence Sharing and Protection Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3541": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Prenatal Nondiscrimination Act (PRENDA) of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3567": {
+   "policyArea": "Social Welfare",
+   "title": "WIN for Children and Families Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3578": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Baseline Reform Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 358": {
+   "policyArea": "Health",
+   "title": "Protect Life Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3581": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Budget and Accounting Transparency Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3582": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Pro-Growth Budgeting Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 359": {
+   "policyArea": "Taxation",
+   "title": "To reduce Federal spending and the deficit by terminating taxpayer financing of presidential election campaigns and party conventions.",
+   "checked": "2026-11-12"
+  },
+  "H R 3606": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Jumpstart Our Business Startups",
+   "checked": "2026-11-12"
+  },
+  "H R 3630": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Middle Class Tax Relief and Job Creation Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3637": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 401 Old Dixie Highway in Jupiter, Florida, as the \"Roy Schallern Rood Post Office Building\".",
+   "checked": "2026-11-12"
+  },
+  "H R 365": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "National Blue Alert Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3672": {
+   "policyArea": "Emergency Management",
+   "title": "Disaster Relief Appropriations Act, 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 368": {
+   "policyArea": "Law",
+   "title": "Removal Clarification Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 3783": {
+   "policyArea": "International Affairs",
+   "title": "Countering Iran in the Western Hemisphere Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3801": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Ultralight Aircraft Smuggling Prevention Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3803": {
+   "policyArea": "Civil Rights and Liberties, Minority Issues",
+   "title": "District of Columbia Pain-Capable Unborn Child Protection Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3813": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Securing Annuities for Federal Employees Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 3835": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To extend the pay limitation for Members of Congress and Federal employees.",
+   "checked": "2026-11-12"
+  },
+  "H R 3857": {
+   "policyArea": "Emergency Management",
+   "title": "Public Transit Security and Local Law Enforcement Support Act",
+   "checked": "2026-11-12"
+  },
+  "H R 3874": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Black Hills Cemetery Act",
+   "checked": "2026-11-12"
+  },
+  "H R 394": {
+   "policyArea": "Law",
+   "title": "Federal Courts Jurisdiction and Venue Clarification Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 398": {
+   "policyArea": "Immigration",
+   "title": "To amend the Immigration and Nationality Act to toll, during active-duty service abroad in the Armed Forces, the periods of time to file a petition and appear for an interview to remove the conditional basis for permanent resident status, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 3992": {
+   "policyArea": "Immigration",
+   "title": "To allow otherwise eligible Israeli nationals to receive E-2  nonimmigrant visas if similarly situated United States nationals are eligible for similar nonimmigrant status in Israel.",
+   "checked": "2026-11-12"
+  },
+  "H R 4": {
+   "policyArea": "Taxation",
+   "title": "Comprehensive 1099 Taxpayer Protection and Repayment of Exchange Subsidy Overpayments Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 4005": {
+   "policyArea": "Emergency Management",
+   "title": "GAPS Act",
+   "checked": "2026-11-12"
+  },
+  "H R 4040": {
+   "policyArea": "Sports and Recreation",
+   "title": "To provide for the award of a gold medal on behalf of Congress to Jack Nicklaus in recognition of his service to the Nation in promoting excellence and good sportsmanship in golf.",
+   "checked": "2026-11-12"
+  },
+  "H R 4053": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Improper Payments Elimination and Recovery Improvement Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 4057": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Improving Transparency of Education Opportunities for Veterans Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 4078": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Red Tape Reduction and Small Business Job Creation Act",
+   "checked": "2026-11-12"
+  },
+  "H R 4089": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Sportsmen's Heritage Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 4105": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "To apply the countervailing duty provisions of the Tariff Act of 1930 to nonmarket economy countries, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 4119": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Border Tunnel Prevention Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 4133": {
+   "policyArea": "International Affairs",
+   "title": "United States-Israel Enhanced Security Cooperation Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 4155": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Veteran Skills to Jobs Act",
+   "checked": "2026-11-12"
+  },
+  "H R 4201": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Servicemember Family Protection Act",
+   "checked": "2026-11-12"
+  },
+  "H R 4212": {
+   "policyArea": "Commerce",
+   "title": "Drywall Safety Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 4251": {
+   "policyArea": "Emergency Management",
+   "title": "SMART Port Security Act",
+   "checked": "2026-11-12"
+  },
+  "H R 4264": {
+   "policyArea": "Housing and Community Development",
+   "title": "FHA Emergency Fiscal Solvency Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 4281": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Surface Transportation Extension Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 4310": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "National Defense Authorization Act for Fiscal Year 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 4348": {
+   "policyArea": "Transportation and Public Works",
+   "title": "MAP-21",
+   "checked": "2026-11-12"
+  },
+  "H R 436": {
+   "policyArea": "Taxation",
+   "title": "Health Care Cost Reduction Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 4365": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To amend title 5, United States Code, to make clear that accounts in the Thrift Savings Fund are subject to certain Federal tax levies.",
+   "checked": "2026-11-12"
+  },
+  "H R 4367": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "To amend the Electronic Fund Transfer Act to limit the fee disclosure requirement for an automatic teller machine to the screen of that machine.",
+   "checked": "2026-11-12"
+  },
+  "H R 440": {
+   "policyArea": "International Affairs",
+   "title": "To provide for the establishment of the Special Envoy to Promote Religious Freedom of Religious Minorities in the Near East and South Central Asia.",
+   "checked": "2026-11-12"
+  },
+  "H R 4402": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "National Strategic and Critical Minerals Production Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 443": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "To provide for the conveyance of certain property from the United States to the Maniilaq Association located in Kotzebue, Alaska.",
+   "checked": "2026-11-12"
+  },
+  "H R 4480": {
+   "policyArea": "Energy",
+   "title": "Domestic Energy and Jobs Act",
+   "checked": "2026-11-12"
+  },
+  "H R 459": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Federal Reserve Transparency Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 4606": {
+   "policyArea": "Energy",
+   "title": "To authorize the issuance of right-of-way permits for natural gas pipelines in Glacier National Park, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 4628": {
+   "policyArea": "Education",
+   "title": "Interest Rate Reduction Act",
+   "checked": "2026-11-12"
+  },
+  "H R 471": {
+   "policyArea": "Education",
+   "title": "SOAR Act",
+   "checked": "2026-11-12"
+  },
+  "H R 4970": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Violence Against Women Reauthorization Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 5": {
+   "policyArea": "Health",
+   "title": "Protecting Access to Healthcare Act",
+   "checked": "2026-11-12"
+  },
+  "H R 5044": {
+   "policyArea": "Taxation",
+   "title": "Andrew P. Carpenter Tax Act",
+   "checked": "2026-11-12"
+  },
+  "H R 514": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "FISA Sunsets Extension Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 519": {
+   "policyArea": "International Affairs",
+   "title": "United Nations Tax Equalization Refund Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 525": {
+   "policyArea": "Animals",
+   "title": "Veterinary Public Health Amendments Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 527": {
+   "policyArea": "Commerce",
+   "title": "Regulatory Flexibility Improvements Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 5325": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Energy and Water Development and Related Agencies Appropriations Act, 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 5326": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Department of Justice Appropriations Act, 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 5544": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Minnesota Education Investment and Employment Act",
+   "checked": "2026-11-12"
+  },
+  "H R 5651": {
+   "policyArea": "Health",
+   "title": "Food and Drug Administration Reform Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 5652": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Sequester Replacement Reconciliation Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 570": {
+   "policyArea": "Emergency Management",
+   "title": "Dental Emergency Responder Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 5740": {
+   "policyArea": "Emergency Management",
+   "title": "National Flood Insurance Program Extension Act",
+   "checked": "2026-11-12"
+  },
+  "H R 5743": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Intelligence Authorization Act for Fiscal Year 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 5854": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Military Construction and Veterans Affairs and Related Agencies Appropriations Act, 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 5855": {
+   "policyArea": "Emergency Management",
+   "title": "Department of Homeland Security Appropriations Act, 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 5856": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Department of Defense Appropriations Act, 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 5865": {
+   "policyArea": "Commerce",
+   "title": "American Manufacturing Competitiveness Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 5872": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Sequestration Transparency Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 5882": {
+   "policyArea": "Congress",
+   "title": "Legislative Branch Appropriations Act, 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 5892": {
+   "policyArea": "Water Resources Development",
+   "title": "Hydropower Regulatory Efficiency Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 5912": {
+   "policyArea": "Taxation",
+   "title": "To amend the Internal Revenue Code of 1986 to prohibit the use of public funds for political party conventions.",
+   "checked": "2026-11-12"
+  },
+  "H R 5949": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "FISA Amendments Act Reauthorization Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 5972": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 5973": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 5987": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Manhattan Project National Historical Park Act",
+   "checked": "2026-11-12"
+  },
+  "H R 5997": {
+   "policyArea": "Emergency Management",
+   "title": "Medical Preparedness Allowable Use Act",
+   "checked": "2026-11-12"
+  },
+  "H R 6016": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Government Employee Accountability Act",
+   "checked": "2026-11-12"
+  },
+  "H R 6018": {
+   "policyArea": "International Affairs",
+   "title": "Foreign Relations Authorization Act, Fiscal Year 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 6020": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Financial Services and General Government Appropriations Act, 2013",
+   "checked": "2026-11-12"
+  },
+  "H R 6079": {
+   "policyArea": "Health",
+   "title": "Repeal of Obamacare Act",
+   "checked": "2026-11-12"
+  },
+  "H R 6082": {
+   "policyArea": "Energy",
+   "title": "Congressional Replacement of President Obama's Energy-Restricting and Job-Limiting Offshore Drilling Plan",
+   "checked": "2026-11-12"
+  },
+  "H R 6122": {
+   "policyArea": "Congress",
+   "title": "To revise the authority of the Librarian of Congress to accept gifts and bequests on behalf of the Library, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 6156": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "Russia and Moldova Jackson-Vanik Repeal and Sergei Magnitsky Rule of Law Accountability Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 6168": {
+   "policyArea": "Energy",
+   "title": "President Obama's Proposed 2012-2017 Offshore Drilling Lease Sale Plan Act",
+   "checked": "2026-11-12"
+  },
+  "H R 6169": {
+   "policyArea": "Taxation",
+   "title": "Pathway to Job Creation through a Simpler, Fairer Tax Code Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 6186": {
+   "policyArea": "Emergency Management",
+   "title": "To require a study of voluntary community-based flood insurance options and how such options could be incorporated into the national flood insurance program, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 6190": {
+   "policyArea": "Environmental Protection",
+   "title": "Asthma Inhalers Relief Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 6213": {
+   "policyArea": "Energy",
+   "title": "No More Solyndras Act",
+   "checked": "2026-11-12"
+  },
+  "H R 6233": {
+   "policyArea": "Agriculture and Food",
+   "title": "Agricultural Disaster Assistance Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 6364": {
+   "policyArea": "Social Sciences and History",
+   "title": "World War I Centennial Commission Act",
+   "checked": "2026-11-12"
+  },
+  "H R 6365": {
+   "policyArea": "Economics and Public Finance",
+   "title": "National Security and Job Protection Act",
+   "checked": "2026-11-12"
+  },
+  "H R 6371": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Streamlining Claims Processing for Federal Contractor Employees Act",
+   "checked": "2026-11-12"
+  },
+  "H R 6429": {
+   "policyArea": "Immigration",
+   "title": "STEM Jobs Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 6443": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To designate the facility of the Department of Veterans Affairs located at 9800 West Commercial Boulevard in Sunrise, Florida, as the \"William 'Bill' Kling VA Clinic\".",
+   "checked": "2026-11-12"
+  },
+  "H R 6504": {
+   "policyArea": "Commerce",
+   "title": "Small Business Investment Company Modernization Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 658": {
+   "policyArea": "Transportation and Public Works",
+   "title": "FAA Modernization and Reform Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 6582": {
+   "policyArea": "Energy",
+   "title": "American Energy Manufacturing Technical Corrections Act",
+   "checked": "2026-11-12"
+  },
+  "H R 6602": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To make revisions in title 36, United States Code, as necessary to keep the title current and make technical corrections and improvements.",
+   "checked": "2026-11-12"
+  },
+  "H R 6612": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "To redesignate the Dryden Flight Research Center as the Neil A. Armstrong Flight Research Center and the Western Aeronautical Test Range as the Hugh L. Dryden Aeronautical Test Range.",
+   "checked": "2026-11-12"
+  },
+  "H R 662": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Surface Transportation Extension Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 6621": {
+   "policyArea": "Commerce",
+   "title": "To correct and improve certain provisions of the Leahy-Smith America Invents Act and title 35, United States Code.",
+   "checked": "2026-11-12"
+  },
+  "H R 665": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Excess Federal Building and Property Disposal Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 6655": {
+   "policyArea": "Families",
+   "title": "Protect our Kids Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 6672": {
+   "policyArea": "Health",
+   "title": "Pandemic and All-Hazards Preparedness Reauthorization Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 6684": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Spending Reduction Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 670": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "To convey certain submerged lands to the Commonwealth of the Northern Mariana Islands in order to give that territory the same benefits in its submerged lands as Guam, the Virgin Islands, and American Samoa have in their submerged lands.",
+   "checked": "2026-11-12"
+  },
+  "H R 672": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Election Support Consolidation and Efficiency Act",
+   "checked": "2026-11-12"
+  },
+  "H R 6726": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Congressional Pay Freeze and Fiscal Responsibility Act",
+   "checked": "2026-11-12"
+  },
+  "H R 674": {
+   "policyArea": "Taxation",
+   "title": "To amend the Internal Revenue Code of 1986 to repeal the imposition of 3 percent withholding on certain payments made to vendors by government entities, to modify the calculation of modified adjusted gross income for purposes of determining eligibility for certain healthcare-related programs, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H R 686": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Utah National Guard Readiness Act",
+   "checked": "2026-11-12"
+  },
+  "H R 7": {
+   "policyArea": "Transportation and Public Works",
+   "title": "American Energy and Infrastructure Jobs Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 754": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Intelligence Authorization Act for Fiscal Year 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 765": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Ski Area Recreational Opportunity Enhancement Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 771": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 1081 Elbel Road in Schertz, Texas, as the \"Schertz Veterans Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 793": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To designate the facility of the United States Postal Service located at 12781 Sir Francis Drake Boulevard in Inverness, California, as the \"Specialist Jake Robert Velloza Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "H R 8": {
+   "policyArea": "Taxation",
+   "title": "American Taxpayer Relief Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 802": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "A bill to amend title 38, United States Code, to direct the Secretary of Veterans Affairs to establish a VetStar Award Program.",
+   "checked": "2026-11-12"
+  },
+  "H R 822": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "National Right-to-Carry Reciprocity Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 828": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Federal Employee Tax Accountability Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "H R 830": {
+   "policyArea": "Housing and Community Development",
+   "title": "FHA Refinance Program Termination Act",
+   "checked": "2026-11-12"
+  },
+  "H R 836": {
+   "policyArea": "Housing and Community Development",
+   "title": "Emergency Mortgage Relief Program Termination Act",
+   "checked": "2026-11-12"
+  },
+  "H R 839": {
+   "policyArea": "Housing and Community Development",
+   "title": "HAMP Termination Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 861": {
+   "policyArea": "Housing and Community Development",
+   "title": "NSP Termination Act",
+   "checked": "2026-11-12"
+  },
+  "H R 872": {
+   "policyArea": "Environmental Protection",
+   "title": "Reducing Regulatory Burdens Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 886": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "United States Marshals Service 225th Anniversary Commemorative Coin Act",
+   "checked": "2026-11-12"
+  },
+  "H R 9": {
+   "policyArea": "Taxation",
+   "title": "Small Business Tax Cut Act",
+   "checked": "2026-11-12"
+  },
+  "H R 910": {
+   "policyArea": "Environmental Protection",
+   "title": "Energy Tax Prevention Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "H R 915": {
+   "policyArea": "Immigration",
+   "title": "Jaime Zapata Border Enforcement Security Task Force Act",
+   "checked": "2026-11-12"
+  },
+  "H RES 115": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 44) making further continuing appropriations for fiscal year 2011, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H J RES 44"
+   ]
+  },
+  "H RES 128": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 662) to provide an extension of Federal-aid highway, highway safety, motor carrier safety, transit, and other programs funded out of the Highway Trust Fund pending enactment of a multiyear law reauthorizing such programs.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 662"
+   ]
+  },
+  "H RES 129": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4) to repeal the expansion of information reporting requirements for payments of $600 or more to corporations, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4"
+   ]
+  },
+  "H RES 150": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 830) to rescind the unobligated funding for the FHA Refinance Program and to terminate the program.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 830"
+   ]
+  },
+  "H RES 167": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 48) making further continuing appropriations for fiscal year 2011, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H J RES 48"
+   ]
+  },
+  "H RES 170": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 839) to amend the Emergency Economic Stabilization Act of 2008 to terminate the authority of the Secretary of the Treasury to provide new assistance under the Home Affordable Modification Program, while preserving assistance to homeowners who were already extended an offer to participate in the Program, either on a trial or permanent basis; and providing for consideration of the bill (H.R. 861) to rescind the third round of funding for the Neighborhood Stabilization Program and to terminate the program.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 839",
+    "H R 861"
+   ]
+  },
+  "H RES 174": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1076) to prohibit Federal funding of National Public Radio and the use of Federal funds to acquire radio content.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1076"
+   ]
+  },
+  "H RES 186": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 471) to reauthorize the DC opportunity scholarship program, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 471"
+   ]
+  },
+  "H RES 189": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 658) to amend title 49, United States Code, to authorize appropriations for the Federal Aviation Administration for fiscal years 2011 through 2014, to streamline programs, create efficiencies, reduce waste, and improve aviation safety and capacity, to provide stable funding for the national aviation system, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 658"
+   ]
+  },
+  "H RES 194": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1255) to prevent a shutdown of the government of the United States, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1255"
+   ]
+  },
+  "H RES 200": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 37) disapproving the rule submitted by the Federal Communications Commission with respect to regulating the Internet and broadband industry practices.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H J RES 37"
+   ]
+  },
+  "H RES 203": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 910) to amend the Clean Air Act to prohibit the Administrator of the Environmental Protection Agency from promulgating any regulation concerning, taking action relating to, or taking into consideration the emission of a greenhouse gas to address climate change, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 910"
+   ]
+  },
+  "H RES 206": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1363) making appropriations for the Department of Defense for the fiscal year ending September 30, 2011, and for other purposes; and waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1363"
+   ]
+  },
+  "H RES 218": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1473) making appropriations for the Department of Defense and the other departments and agencies of the Government for the fiscal year ending September 30, 2011, and for other purposes; providing for consideration of the concurrent resolution (H. Con. Res. 35) directing the Clerk of the House of Representatives to make a correction in the enrollment of H.R. 1473; and providing for consideration of the concurrent resolution (H. Con. Res. 36) directing the Clerk of the House of Representatives to make a correction in the enrollment of H.R. 1473.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1473",
+    "H CON RES 35",
+    "H CON RES 36"
+   ]
+  },
+  "H RES 219": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1217) to repeal the Prevention and Public Health Fund.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1217"
+   ]
+  },
+  "H RES 22": {
+   "policyArea": "Congress",
+   "title": "Reducing the amount authorized for salaries and expenses of Member, committee, and leadership offices in 2011 and 2012.",
+   "checked": "2026-11-12"
+  },
+  "H RES 223": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the concurrent resolution (H. Con. Res. 34) establishing the budget for the United States Government for fiscal year 2012 and setting forth appropriate budgetary levels for fiscal years 2013 through 2021.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H CON RES 34"
+   ]
+  },
+  "H RES 236": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1213) to repeal mandatory funding provided to States in the Patient Protection and Affordable Care Act to establish American Health Benefit Exchanges, and providing for consideration of the bill (H.R. 1214) to repeal mandatory funding for school-based health center construction.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1213",
+    "H R 1214"
+   ]
+  },
+  "H RES 237": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3) to prohibit taxpayer funded abortions and to provide for conscience protections, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3"
+   ]
+  },
+  "H RES 245": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1229) to amend the Outer Continental Shelf Lands Act to facilitate the safe and timely production of American energy resources from the Gulf of Mexico, and providing for consideration of the bill (H.R. 1230) to require the Secretary of the Interior to conduct certain offshore oil and gas lease sales, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1229",
+    "H R 1230"
+   ]
+  },
+  "H RES 257": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1231) to amend the Outer Continental Shelf Lands Act to require that each 5-year offshore oil and gas leasing program offer leasing in the areas with the most prospective oil and gas resources, to establish a domestic oil and natural gas production goal, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1231"
+   ]
+  },
+  "H RES 26": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2) to repeal the job-killing health care law and health care-related provisions in the Health Care and Education Reconciliation Act of 2010; providing for consideration of the resolution (H. Res. 9) instructing certain committees to report legislation replacing the job-killing health care law; and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2",
+    "H RES 9"
+   ]
+  },
+  "H RES 264": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 754) to authorize appropriations for fiscal year 2011 for intelligence and intelligence-related activities of the United States Government, the Community Management Account, and the Central Intelligence Agency Retirement and Disability System, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 754"
+   ]
+  },
+  "H RES 268": {
+   "policyArea": "International Affairs",
+   "title": "Reaffirming the United States' commitment to a negotiated settlement of the Israeli-Palestinian conflict through direct Israeli-Palestinian negotiations, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 269": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1216) to amend the Public Health Service Act to convert funding for graduate medical education in qualified teaching health centers from direct appropriations to an authorization of appropriations; providing for consideration of the bill (H.R. 1540) to authorize appropriations for fiscal year 2012 for military activities of the Department of Defense and for military construction, to prescribe military personnel strengths for fiscal year 2012, and for other purposes; and waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1216",
+    "H R 1540"
+   ]
+  },
+  "H RES 27": {
+   "policyArea": "Congress",
+   "title": "Relating to the status of certain actions taken by Members-elect.",
+   "checked": "2026-11-12"
+  },
+  "H RES 276": {
+   "policyArea": "Congress",
+   "title": "Providing for further consideration of the bill (H.R. 1540) to authorize appropriations for fiscal year 2012 for military activities of the Department of Defense and for military construction, to prescribe military personnel strengths for fiscal year 2012, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1540"
+   ]
+  },
+  "H RES 287": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2017) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2012, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2017"
+   ]
+  },
+  "H RES 292": {
+   "policyArea": "International Affairs",
+   "title": "Declaring that the President shall not deploy, establish, or maintain the presence of units and members of the United States Armed Forces on the ground in Libya, and for other purposes.",
+   "checked": "2026-11-12"
+  },
+  "H RES 294": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the resolution (H. Res. 292) declaring that the President shall not deploy, establish, or maintain the presence of units and members of the United States Armed Forces on the ground in Libya, and for other purposes, and providing for consideration of the concurrent resolution (H. Con. Res. 51) directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from Libya.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 292",
+    "H CON RES 51"
+   ]
+  },
+  "H RES 300": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2112) making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2012, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2112"
+   ]
+  },
+  "H RES 316": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2021) to amend the Clean Air Act regarding air pollution from Outer Continental Shelf activities, and providing for consideration of the bill (H.R. 1249) to amend title 35, United States Code, to provide for patent reform.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2021",
+    "H R 1249"
+   ]
+  },
+  "H RES 320": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2219) making appropriations for the Department of Defense for the fiscal year ending September 30, 2012, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2219"
+   ]
+  },
+  "H RES 328": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 68) authorizing the limited use of the United States Armed Forces in support of the NATO mission in Libya; and providing for consideration of the bill (H.R. 2278) to limit the use of funds appropriated to the Department of Defense for United States Armed Forces in support of North Atlantic Treaty Organization Operation Unified Protector with respect to Libya, unless otherwise specifically authorized by law.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H J RES 68",
+    "H R 2278"
+   ]
+  },
+  "H RES 340": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1309) to extend the authorization of the national flood insurance program, to achieve reforms to improve the financial integrity and stability of the program, and to increase the role of private markets in the management of flood insurance risk, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1309"
+   ]
+  },
+  "H RES 347": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2018) to amend the Federal Water Pollution Control Act to preserve the authority of each State to make determinations relating to the State's water quality standards, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2018"
+   ]
+  },
+  "H RES 355": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2560) to cut, cap, and balance the Federal budget.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2560"
+   ]
+  },
+  "H RES 357": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2553) to amend the Internal Revenue Code of 1986 to extend the funding and expenditure authority of the Airport and Airway Trust Fund, to amend title 49, United States Code, to extend the airport improvement program, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2553"
+   ]
+  },
+  "H RES 358": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1315) to amend the Dodd-Frank Wall Street Reform and Consumer Protection Act to strengthen the review authority of the Financial Stability Oversight Council of regulations issued by the Bureau of Consumer Financial Protection, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1315"
+   ]
+  },
+  "H RES 359": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2551) making appropriations for the Legislative Branch for the fiscal year ending September 30, 2012, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2551"
+   ]
+  },
+  "H RES 363": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2584) making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2012, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2584"
+   ]
+  },
+  "H RES 364": {
+   "policyArea": "Congress",
+   "title": "Designating room HVC 215 of the Capitol Visitor Center as the \"Gabriel Zimmerman Meeting Room\".",
+   "checked": "2026-11-12"
+  },
+  "H RES 370": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1938) to direct the President to expedite the consideration and approval of the construction and operation of the Keystone XL oil pipeline, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1938"
+   ]
+  },
+  "H RES 372": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2587) to prohibit the National Labor Relations Board from ordering any employer to close, relocate, or transfer employment under any circumstance.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2587"
+   ]
+  },
+  "H RES 375": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (S. 627) to establish the Commission on Freedom of Information Act Processing Delays, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "S 627"
+   ]
+  },
+  "H RES 38": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Reducing non-security spending to fiscal year 2008 levels or less.",
+   "checked": "2026-11-12"
+  },
+  "H RES 382": {
+   "policyArea": "Congress",
+   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 383": {
+   "policyArea": "Congress",
+   "title": "Providing for further consideration of the bill (S. 627) to establish the Commission on Freedom of Information Act Processing Delays.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "S 627"
+   ]
+  },
+  "H RES 384": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (S. 365) to make a technical amendment to the Education Sciences Reform Act of 2002.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "S 365"
+   ]
+  },
+  "H RES 392": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2218) to amend the charter school program under the Elementary and Secondary Education Act of 1965, and providing for consideration of the bill (H.R. 1892) to authorize appropriations for fiscal year 2012 for intelligence and intelligence-related activities of the United States Government, the Community Management Account, and the Central Intelligence Agency Retirement and Disability System, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2218",
+    "H R 1892"
+   ]
+  },
+  "H RES 405": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the Senate amendment to the bill (H.R. 2608) to provide for an additional temporary extension of programs under the Small Business Act and the Small Business Investment Act of 1958, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2608"
+   ]
+  },
+  "H RES 406": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2401) to require analyses of the cumulative and incremental impacts of certain rules and actions of the Environmental Protection Agency, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2401"
+   ]
+  },
+  "H RES 409": {
+   "policyArea": "Congress",
+   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 412": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the Senate amendment to the bill (H.R. 2608) to provide for an additional temporary extension of programs under the Small Business Act and the Small Business Investment Act of 1958, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2608"
+   ]
+  },
+  "H RES 419": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2681) to provide additional time for the Administrator of the Environmental Protection Agency to issue achievable standards for cement manufacturing facilities, and for other purposes, and providing for consideration of the bill (H.R. 2250) to provide additional time for the Administrator of the Environmental Protection Agency to issue achievable standards for industrial, commercial, and institutional boilers, process heaters, and incinerators, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2681",
+    "H R 2250"
+   ]
+  },
+  "H RES 425": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the Senate amendment to the bill (H.R. 2832) to extend the Generalized System of Preferences, and for other purposes; providing for consideration of the bill (H.R. 3078) to implement the United States-Colombia Trade Promotion Agreement; providing for consideration of the bill (H.R. 3079) to implement the United States-Panama Trade Promotion Agreement; and providing for consideration of the bill (H.R. 3080) to implement the United States-Korea Free Trade Agreement.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2832",
+    "H R 3078",
+    "H R 3079",
+    "H R 3080"
+   ]
+  },
+  "H RES 43": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the resolution (H. Res. 38) to reduce spending through a transition to non-security spending at fiscal year 2008 levels.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 38"
+   ]
+  },
+  "H RES 430": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 358) to amend the Patient Protection and Affordable Care Act to modify special rules relating to coverage of abortion services under such Act.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 358"
+   ]
+  },
+  "H RES 431": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2273) to amend subtitle D of the Solid Waste Disposal Act to facilitate recovery and beneficial use, and provide for the proper management and disposal, of materials generated by the combustion of coal and other fossil fuels.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2273"
+   ]
+  },
+  "H RES 444": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1904) to facilitate the efficient extraction of mineral resources in southeast Arizona by authorizing and directing an exchange of Federal and non-Federal land, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1904"
+   ]
+  },
+  "H RES 448": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2576) to amend the Internal Revenue Code of 1986 to modify the calculation of modified adjusted gross income for purposes of determining eligibility for certain healthcare-related programs, and providing for consideration of the bill (H.R. 674) to amend the Internal Revenue Code of 1986 to repeal the imposition of 3 percent withholding on certain payments made to vendors by government entities.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2576",
+    "H R 674"
+   ]
+  },
+  "H RES 453": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2930) to amend the securities laws to provide for registration exemptions for certain crowdfunded securities, and for other purposes, and providing for consideration of the bill (H.R. 2940) to direct the Securities and Exchange Commission to eliminate the prohibition against general solicitation as a requirement for a certain exemption under Regulation D.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2930",
+    "H R 2940"
+   ]
+  },
+  "H RES 455": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2838) to authorize appropriations for the Coast Guard for fiscal years 2012 through 2015, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2838"
+   ]
+  },
+  "H RES 463": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 822) to amend title 18, United States Code, to provide a national standard in accordance with which nonresidents of a State may carry concealed firearms in the State.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 822"
+   ]
+  },
+  "H RES 466": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of motions to suspend the rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 467": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the conference report to accompany the bill (H.R. 2112) making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2012, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2112"
+   ]
+  },
+  "H RES 470": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3094) to amend the National Labor Relations Act with respect to representation hearings and the timing of elections of labor organizations under that Act.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3094"
+   ]
+  },
+  "H RES 477": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3463) to reduce Federal spending and the deficit by terminating taxpayer financing of presidential election campaigns and party conventions and by terminating the Election Assistance Commission; providing for consideration of the bill (H.R. 527) to amend chapter 6 of title 5, United States Code (commonly known as the Regulatory Flexibility Act), to ensure complete analysis of potential impacts on small entities of rules, and for other purposes; and providing for consideration of the bill (H.R. 3010) to reform the process by which Federal agencies analyze and formulate new regulations and guidance documents.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3463",
+    "H R 527",
+    "H R 3010"
+   ]
+  },
+  "H RES 479": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 10) to amend chapter 8 of title 5, United States Code, to provide that major rules of the executive branch shall have no force or effect unless a joint resolution of approval is enacted into law, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 10"
+   ]
+  },
+  "H RES 487": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1633) to establish a temporary prohibition against revising any national ambient air quality standard applicable to coarse particulate matter, to limit Federal regulation of nuisance dust in areas in which such dust is regulated under State, tribal, or local law, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1633"
+   ]
+  },
+  "H RES 49": {
+   "policyArea": "Congress",
+   "title": "Staff Sergeant Salvatore A. Giunta Medal of Honor Flag Resolution",
+   "checked": "2026-11-12"
+  },
+  "H RES 491": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3630) to provide incentives for the creation of jobs, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3630"
+   ]
+  },
+  "H RES 493": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the conference report to accompany the bill (H.R. 1540) to authorize appropriations for fiscal year 2012 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; and providing for proceedings during the period from December 16, 2011, through January 16, 2012.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1540"
+   ]
+  },
+  "H RES 5": {
+   "policyArea": "Congress",
+   "title": "Adopting rules for the One Hundred Twelfth Congress.",
+   "checked": "2026-11-12"
+  },
+  "H RES 500": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the conference report to accompany the bill (H.R. 2055) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2012, and for other purposes; providing for consideration of the bill (H.R. 3672) making appropriations for disaster relief requirements for the fiscal year ending September 30, 2012, and for other purposes; providing for consideration of the concurrent resolution (H. Con. Res. 94) directing the Clerk of the House of Representatives to make corrections in the enrollment of H.R. 3672; and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2055",
+    "H R 3672",
+    "H CON RES 94"
+   ]
+  },
+  "H RES 501": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Expressing the sense of the House of Representatives regarding any final measure to extend the payroll tax holiday, extend Federally funded unemployment insurance benefits, or prevent decreases in reimbursement for physicians who provide care to Medicare beneficiaries.",
+   "checked": "2026-11-12"
+  },
+  "H RES 502": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the Senate amendments to the bill (H.R. 3630) to provide incentives for the creation of jobs, and for other purposes; providing for consideration of the resolution (H. Res. 501) expressing the sense of the House of Representatives regarding any final measure to extend the payroll tax holiday, extend Federally funded unemployment insurance benefits, or prevent decreases in reimbursement for physicians who provide care to Medicare beneficiaries; and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3630",
+    "H RES 501"
+   ]
+  },
+  "H RES 504": {
+   "policyArea": "Congress",
+   "title": "Raising a question of the privileges of the House.",
+   "checked": "2026-11-12"
+  },
+  "H RES 515": {
+   "policyArea": "Congress",
+   "title": "Addressing a motion to proceed under section 3101A of title 31, United States Code.",
+   "checked": "2026-11-12"
+  },
+  "H RES 516": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Expressing the sense of the House of Representatives that the passage of a fiscal year 2013 Federal budget is of national importance.",
+   "checked": "2026-11-12"
+  },
+  "H RES 522": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1173) to repeal the CLASS program.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1173"
+   ]
+  },
+  "H RES 534": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3578) to amend the Balanced Budget and Emergency Deficit Control Act of 1985 to reform the budget baseline, and providing for consideration of the bill (H.R. 3582) to amend the Congressional Budget Act of 1974 to provide for macro-economic analysis of the impact of legislation.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3578",
+    "H R 3582"
+   ]
+  },
+  "H RES 537": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1734) to decrease the deficit by realigning, consolidating, selling, disposing, and improving the efficiency of Federal buildings and other civilian real property, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1734"
+   ]
+  },
+  "H RES 539": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3581) to amend the Balanced Budget and Emergency Deficit Control Act of 1985 to increase transparency in Federal budgeting, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3581"
+   ]
+  },
+  "H RES 54": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 359) to reduce Federal spending and the deficit by terminating taxpayer financing of presidential election campaigns and party conventions.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 359"
+   ]
+  },
+  "H RES 540": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3521) to amend the Congressional Budget and Impoundment Control Act of 1974 to provide for a legislative line-item veto to expedite consideration of rescissions, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3521"
+   ]
+  },
+  "H RES 547": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3408) to set clear rules for the development of United States oil shale resources, to promote shale technology research and development, and for other purposes; providing for consideration of the bill (H.R. 3813) to amend title 5, United States Code, to secure the annuities of Federal civilian employees, and for other purposes; and providing for consideration of the bill (H.R. 7) to authorize funds for Federal-aid highway, public transportation, and highway and motor carrier safety programs, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3408",
+    "H R 3813",
+    "H R 7"
+   ]
+  },
+  "H RES 556": {
+   "policyArea": "International Affairs",
+   "title": "Condemning the Government of Iran for its continued persecution, imprisonment, and sentencing of Youcef Nadarkhani on the charge of apostasy.",
+   "checked": "2026-11-12"
+  },
+  "H RES 562": {
+   "policyArea": "Civil Rights and Liberties, Minority Issues",
+   "title": "Directing the Office of the Historian to compile oral histories from current and former Members of the House of Representatives involved in the historic and annual Selma to Montgomery, Alabama, marches, as well as the civil rights movement in general, for the purposes of expanding or augmenting the historic record and for public dissemination and education.",
+   "checked": "2026-11-12"
+  },
+  "H RES 563": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2117) to prohibit the Department of Education from overreaching into academic affairs and program eligibility under title IV of the Higher Education Act of 1965.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2117"
+   ]
+  },
+  "H RES 566": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1837) to address certain water-related concerns on the San Joaquin River, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1837"
+   ]
+  },
+  "H RES 568": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of the House of Representatives regarding the importance of preventing the Government of Iran from acquiring a nuclear weapons capability.",
+   "checked": "2026-11-12"
+  },
+  "H RES 570": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2842) to authorize all Bureau of Reclamation conduit facilities for hydropower development under Federal Reclamation law, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2842"
+   ]
+  },
+  "H RES 572": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3606) to increase American job creation and economic growth by improving access to the public capital markets for emerging growth companies.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3606"
+   ]
+  },
+  "H RES 587": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2087) to remove restrictions from a parcel of land situated in the Atlantic District, Accomack County, Virginia.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2087"
+   ]
+  },
+  "H RES 591": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5) to improve patient access to health care services and provide improved medical care by reducing the excessive burden the liability system places on the health care delivery system.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5"
+   ]
+  },
+  "H RES 595": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3309) to amend the Communications Act of 1934 to provide for greater transparency and efficiency in the procedures followed by the Federal Communications Commission.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3309"
+   ]
+  },
+  "H RES 597": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the concurrent resolution (H. Con. Res. 112) establishing the budget for the United States Government for fiscal year 2013 and setting forth appropriate budgetary levels for fiscal years 2014 through 2022, and providing for consideration of motions to suspend the rules.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H CON RES 112"
+   ]
+  },
+  "H RES 600": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4281) to provide an extension of Federal-aid highway, highway safety, motor carrier safety, transit, and other programs funded out of the Highway Trust Fund pending enactment of a multiyear law reauthorizing such programs, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4281"
+   ]
+  },
+  "H RES 614": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4089) to protect and enhance opportunities for recreational hunting, fishing and shooting, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4089"
+   ]
+  },
+  "H RES 619": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4348) to provide an extension of Federal-aid highway, highway safety, motor carrier safety, transit, and other programs funded out of the Highway Trust Fund pending enactment of a multiyear law reauthorizing such programs, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4348"
+   ]
+  },
+  "H RES 620": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 9) to amend the Internal Revenue Code of 1986 to provide a deduction for domestic business income of qualified small businesses.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 9"
+   ]
+  },
+  "H RES 631": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3523) to provide for the sharing of certain cyber threat intelligence and cyber threat information between the intelligence community and cyber security entities, and for other purposes; providing for consideration of motions to suspend the rules; providing for consideration of the bill (H.R. 4628) to extend student loan interest rates for undergraduate Federal Direct Stafford Loans; and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 3523",
+    "H R 4628"
+   ]
+  },
+  "H RES 643": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5326) making appropriations for the Departments of Commerce and Justice, Science, and Related Agencies for the fiscal year ending September 30, 2013, and for other purposes; waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules; and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5326"
+   ]
+  },
+  "H RES 648": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5652) to provide for reconciliation pursuant to section 201 of the concurrent resolution on the budget for fiscal year 2013.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5652"
+   ]
+  },
+  "H RES 656": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4970) to reauthorize the Violence Against Women Act of 1994, and providing for consideration of the bill (H.R. 4310) to authorize appropriations for fiscal year 2013 for military activities of the Department of Defense, to prescribe military personnel strengths for fiscal year 2013, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4970",
+    "H R 4310"
+   ]
+  },
+  "H RES 661": {
+   "policyArea": "Congress",
+   "title": "Providing for further consideration of the bill (H.R. 4310) to authorize appropriations for fiscal year 2013 for military activities of the Department of Defense, to prescribe military personnel strengths for fiscal year 2013, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4310"
+   ]
+  },
+  "H RES 667": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5743) to authorize appropriations for fiscal year 2013 for intelligence and intelligence-related activities of the United States Government, the Community Management Account, and the Central Intelligence Agency Retirement and Disability System, and for other purposes; providing for consideration of the bill (H.R. 5854) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2013, and for other purposes; providing for consideration of the bill (H.R. 5855) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2013, and for other purposes; and providing for consideration of the bill (H.R. 5325) making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2013, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5743",
+    "H R 5854",
+    "H R 5855",
+    "H R 5325"
+   ]
+  },
+  "H RES 668": {
+   "policyArea": "Native Americans",
+   "title": "To refer H.R. 5862, a bill making congressional reference to the United States Court of Federal Claims pursuant to sections 1492 and 2509 of title 28, United States Code, the Indian trust-related claims of the Quapaw Tribe of Oklahoma (O-Gah-Pah) as well as its individual members.",
+   "checked": "2026-11-12"
+  },
+  "H RES 679": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 436) to amend the Internal Revenue Code of 1986 to repeal the excise tax on medical devices, and providing for consideration of the bill (H.R. 5882) making appropriations for the Legislative Branch for the fiscal year ending September 30, 2013, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 436",
+    "H R 5882"
+   ]
+  },
+  "H RES 688": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2578) to amend the Wild and Scenic Rivers Act related to a segment of the Lower Merced River in California, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 2578"
+   ]
+  },
+  "H RES 691": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4480) to provide for the development of a plan to increase oil and gas exploration, development, and production under oil and gas leases of Federal lands under the jurisdiction of the Secretary of Agriculture, the Secretary of Energy, the Secretary of the Interior, and the Secretary of Defense in response to a drawdown of petroleum reserves from the Strategic Petroleum Reserve.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4480"
+   ]
+  },
+  "H RES 697": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5973) making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2013, and for other purposes; and providing for consideration of the bill (H.R. 5972) making appropriations for the Departments of Transportation, and Housing and Urban Development, and related agencies for the fiscal year ending September 30, 2013, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5973",
+    "H R 5972"
+   ]
+  },
+  "H RES 706": {
+   "policyArea": "Congress",
+   "title": "Authorizing the Committee on Oversight and Government Reform to initiate or intervene in judicial proceedings to enforce certain subpoenas.",
+   "checked": "2026-11-12"
+  },
+  "H RES 708": {
+   "policyArea": "Congress",
+   "title": "Relating to the consideration of House Report 112-546 and an accompanying resolution, and providing for consideration of the resolution (H. Res. 706) authorizing the Committee on Oversight and Government Reform to initiate or intervene in judicial proceedings to enforce certain subpoenas.",
+   "checked": "2026-11-12"
+  },
+  "H RES 711": {
+   "policyArea": "Congress",
+   "title": "Recommending that the House of Representatives find Eric H. Holder, Jr., Attorney General, U.S. Department of Justice, in contempt of Congress for refusal to comply with a subpoena duly issued by the Committee on Oversight and Government Reform.",
+   "checked": "2026-11-12"
+  },
+  "H RES 717": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5856) making appropriations for the Department of Defense for the fiscal year ending September 30, 2013, and for other purposes; providing for consideration of the bill (H.R. 6020) making appropriations for financial services and general government for the fiscal year ending September 30, 2013, and for other purposes; and providing for consideration of the conference report to accompany the bill (H.R. 4348) to provide an extension of Federal-aid highway, highway safety, motor carrier safety, transit, and other programs funded out of the Highway Trust Fund pending enactment of a multiyear law reauthorizing such programs, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5856",
+    "H R 6020",
+    "H R 4348"
+   ]
+  },
+  "H RES 718": {
+   "policyArea": "Congress",
+   "title": "Raising a question of the privileges of the House.",
+   "checked": "2026-11-12"
+  },
+  "H RES 72": {
+   "policyArea": "Congress",
+   "title": "Directing certain standing committees to inventory and review existing, pending, and proposed regulations and orders from agencies of the Federal Government, particularly with respect to their effect on jobs and economic growth.",
+   "checked": "2026-11-12"
+  },
+  "H RES 724": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6079) to repeal the Patient Protection and Affordable Care Act and health care-related provisions in the Health Care and Education Reconciliation Act of 2010.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 6079"
+   ]
+  },
+  "H RES 726": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4402) to require the Secretary of the Interior and the Secretary of Agriculture to more efficiently develop domestic sources of the minerals and mineral materials of strategic and critical importance to United States economic and national security and manufacturing competitiveness.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4402"
+   ]
+  },
+  "H RES 73": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the resolution (H.Res. 72) directing certain standing committees to inventory and review existing, pending, and proposed regulations and orders from agencies of the Federal Government, particularly with respect to their effect on jobs and economic growth.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H RES 72"
+   ]
+  },
+  "H RES 738": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4078) to provide that no agency may take any significant regulatory action until the unemployment rate is equal to or less than 6.0 percent, and providing for consideration of the bill (H.R. 6082) to officially replace, within the 60-day Congressional review period under the Outer Continental Shelf Lands Act, President Obama's Proposed Final Outer Continental Shelf Oil & Gas Leasing Program (2012-2017) with a congressional plan that will conduct additional oil and natural gas lease sales to promote offshore energy development, job creation, and increased domestic energy production to ensure a more secure energy future in the United States, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4078",
+    "H R 6082"
+   ]
+  },
+  "H RES 741": {
+   "policyArea": "Congress",
+   "title": "Providing for further consideration of the bill (H.R. 4078) to provide that no agency may take any significant regulatory action until the unemployment rate is equal to or less than 6.0 percent.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4078"
+   ]
+  },
+  "H RES 747": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6169) to provide for expedited consideration of a bill providing for comprehensive tax reform; providing for consideration of the bill (H.R. 8) to extend certain tax relief provisions enacted in 2001 and 2003, and for other purposes; providing for proceedings during the period from August 3, 2012, through September 7, 2012; providing for consideration of motions to suspend the rules; and waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 6169",
+    "H R 8"
+   ]
+  },
+  "H RES 750": {
+   "policyArea": "Congress",
+   "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 1905, with an amendment.",
+   "checked": "2026-11-12"
+  },
+  "H RES 752": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6233) to make supplemental agricultural disaster assistance available for fiscal year 2012 with the costs of such assistance offset by changes to certain conservation programs, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 6233"
+   ]
+  },
+  "H RES 773": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5544) to authorize and expedite a land exchange involving National Forest System land in the Laurentian District of the Superior National Forest and certain other National Forest System land in the State of Minnesota that has limited recreational and conservation resources and lands owned by the State of Minnesota in trust for the public school system that are largely scattered in checkerboard fashion within the Boundary Waters Canoe Area Wilderness and have important recreational, scenic, and conservation resources, and for other purposes, and providing for consideration of the bill (H.R. 5949) to extend the FISA Amendments Act of 2008 for five years.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 5544",
+    "H R 5949"
+   ]
+  },
+  "H RES 778": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 117) making continuing appropriations for fiscal year 2013, and for other purposes; and providing for consideration of the bill (H.R. 6365) to amend the Balanced Budget and Emergency Deficit Control Act of 1985 to replace the sequester established by the Budget Control Act of 2011.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H J RES 117",
+    "H R 6365"
+   ]
+  },
+  "H RES 779": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6213) to limit further taxpayer exposure from the loan guarantee program established under title XVII of the Energy Policy Act of 2005, and providing for consideration of motions to suspend the rules.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 6213"
+   ]
+  },
+  "H RES 788": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 118) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Family Assistance of the Administration for Children and Families of the Department of Health and Human Services relating to waiver and expenditure authority under section 1115 of the Social Security Act (42 U.S.C. 1315) with respect to the Temporary Assistance for Needy Families program; providing for consideration of the bill (H.R. 3409) to limit the authority of the Secretary of the Interior to issue regulations before December 31, 2013, under the Surface Mining Control and Reclamation Act of 1977; and providing for proceedings during the period from September 22, 2012, through November 12, 2012.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H J RES 118",
+    "H R 3409"
+   ]
+  },
+  "H RES 79": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 514) to extend expiring provisions of the USA PATRIOT Improvement and Reauthorization Act of 2005 and Intelligence Reform and Terrorism Prevention Act of 2004 relating to access to business records, individual terrorists as agents of foreign powers, and roving wiretaps until December 8, 2011.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 514"
+   ]
+  },
+  "H RES 808": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6156) to authorize the extension of nondiscriminatory treatment (normal trade relations treatment) to products of the Russian Federation and Moldova and to require reports on the compliance of the Russian Federation with its obligations as a member of the World Trade Organization, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 6156"
+   ]
+  },
+  "H RES 821": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6429) to amend the Immigration and Nationality Act to promote innovation, investment, and research in the United States, to eliminate the diversity immigrant program, and for other purposes; and providing for consideration of motions to suspend the rules.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 6429"
+   ]
+  },
+  "H RES 827": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of motions to suspend the rules.",
+   "checked": "2026-11-12"
+  },
+  "H RES 840": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the conference report to accompany the bill (H.R. 4310) to authorize appropriations for fiscal year 2013 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 4310"
+   ]
+  },
+  "H RES 841": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the Senate amendment to the joint resolution (H.J. Res. 66) approving the renewal of import restrictions contained in the Burmese Freedom and Democracy Act of 2003, and providing for consideration of the bill (H.R. 6684) to provide for spending reduction.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H J RES 66",
+    "H R 6684"
+   ]
+  },
+  "H RES 844": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the Senate amendments to the bill (H.R. 8) to extend certain tax relief provisions enacted in 2001 and 2003, and to provide for expedited consideration of a bill providing for comprehensive tax reform, and for other purposes.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 8"
+   ]
+  },
+  "H RES 9": {
+   "policyArea": "Congress",
+   "title": "Instructing certain committees to report legislation replacing the job-killing health care law.",
+   "checked": "2026-11-12"
+  },
+  "H RES 92": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1) making appropriations for the Department of Defense and the other departments and agencies of the Government for the fiscal year ending September 30, 2011, and for other purposes, and waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 1"
+   ]
+  },
+  "H RES 93": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the Senate amendment to the bill (H.R. 514) to extend expiring provisions of the USA PATRIOT Improvement and Reauthorization Act of 2005 and Intelligence Reform and Terrorism Prevention Act of 2004 relating to access to business records, individual terrorists as agents of foreign powers, and roving wiretaps until December 8, 2011.",
+   "checked": "2026-11-12",
+   "ruleFor": [
+    "H R 514"
+   ]
+  },
+  "S 1082": {
+   "policyArea": "Commerce",
+   "title": "Small Business Additional Temporary Extension Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "S 1134": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "St. Croix River Crossing Project Authorization Act",
+   "checked": "2026-11-12"
+  },
+  "S 1280": {
+   "policyArea": "International Affairs",
+   "title": "Kate Puzey Peace Corps Volunteer Protection Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "S 1412": {
+   "policyArea": "Government Operations and Politics",
+   "title": "A bill to designate the facility of the United States Postal Service located at 462 Washington Street, Woburn, Massachusetts, as the \"Officer John Maguire Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "S 188": {
+   "policyArea": "Government Operations and Politics",
+   "title": "A bill to designate the United States courthouse under construction at 98 West First Street, Yuma, Arizona, as the \"John M. Roll United States Courthouse\".",
+   "checked": "2026-11-12"
+  },
+  "S 2009": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Insular Areas Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "S 2038": {
+   "policyArea": "Government Operations and Politics",
+   "title": "STOCK Act",
+   "checked": "2026-11-12"
+  },
+  "S 2039": {
+   "policyArea": "Emergency Management",
+   "title": "A bill to allow a State or local government to construct levees on certain properties otherwise designated as open space lands.",
+   "checked": "2026-11-12"
+  },
+  "S 2367": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "21st Century Language Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "S 278": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Sugar Loaf Fire Protection District Land Exchange Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "S 307": {
+   "policyArea": "Government Operations and Politics",
+   "title": "A bill to designate the Federal building and United States courthouse located at 217 West King Street, Martinsburg, West Virginia, as the \"W. Craig Broadwater Federal Building and United States Courthouse\".",
+   "checked": "2026-11-12"
+  },
+  "S 3193": {
+   "policyArea": "Native Americans",
+   "title": "Barona Band of Mission Indians Land Transfer Clarification Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "S 3202": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Dignified Burial and Other Veterans' Benefits Improvement Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "S 3245": {
+   "policyArea": "Immigration",
+   "title": "A bill to extend by 3 years the authorization of the EB-5 Regional Center Program, the E-Verify Program, the Special Immigrant Nonminister Religious Worker Program, and the Conrad State 30 J-1 Visa Waiver Program.",
+   "checked": "2026-11-12"
+  },
+  "S 3454": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Intelligence Authorization Act for Fiscal Year 2013",
+   "checked": "2026-11-12"
+  },
+  "S 349": {
+   "policyArea": "Government Operations and Politics",
+   "title": "A bill to designate the facility of the United States Postal Service located at 4865 Tallmadge Road in Rootstown, Ohio, as the \"Marine Sgt. Jeremy E. Murray Post Office\".",
+   "checked": "2026-11-12"
+  },
+  "S 3564": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Public Interest Declassification Board Reauthorization Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "S 3642": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Theft of Trade Secrets Clarification Act of 2012",
+   "checked": "2026-11-12"
+  },
+  "S 365": {
+   "policyArea": "Education",
+   "title": "Budget Control Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "S 384": {
+   "policyArea": "Government Operations and Politics",
+   "title": "A bill to amend title 39, United States Code, to extend the authority of the United States Postal Service to issue a semipostal to raise funds for breast cancer research.",
+   "checked": "2026-11-12"
+  },
+  "S 404": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "A bill to modify a land grant patent issued by the Secretary of the Interior.",
+   "checked": "2026-11-12"
+  },
+  "S 627": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Faster FOIA Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "S 679": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Presidential Appointment Efficiency and Streamlining Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "S 684": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "A bill to provide for the conveyance of certain parcels of land to the town of Alta, Utah.",
+   "checked": "2026-11-12"
+  },
+  "S 846": {
+   "policyArea": "Government Operations and Politics",
+   "title": "A bill to designate the United States courthouse located at 80 Lafayette Street in Jefferson City, Missouri, as the Christopher S. Bond United States Courthouse.",
+   "checked": "2026-11-12"
+  },
+  "S 925": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Mt. Andrea Lawrence Designation Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "S 990": {
+   "policyArea": "Commerce",
+   "title": "PATRIOT Sunsets Extension Act of 2011",
+   "checked": "2026-11-12"
+  },
+  "S CON RES 28": {
+   "policyArea": "Congress",
+   "title": "A concurrent resolution authorizing the use of Emancipation Hall in the Capitol Visitor Center for an event to award the Congressional Gold Medal, collectively, to the 100th Infantry Battalion, 442nd Regimental Combat Team, and the Military Intelligence Service, United States Army, in recognition of their dedicated service during World War II.",
+   "checked": "2026-11-12"
+  },
+  "S CON RES 50": {
+   "policyArea": "International Affairs",
+   "title": "A concurrent resolution expressing the sense of Congress regarding actions to preserve and advance the multistakeholder governance model under which the Internet has thrived.",
+   "checked": "2026-11-12"
+  },
+  "S CON RES 56": {
+   "policyArea": "Congress",
+   "title": "A concurrent resolution providing for a conditional adjournment or recess of the Senate and an adjournment of the House of Representatives.",
+   "checked": "2026-11-12"
+  }
+ }
+}

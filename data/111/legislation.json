@@ -1,0 +1,4361 @@
+{
+ "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
+ "congress": 111,
+ "updated": "2026-11-12",
+ "members": {
+  "D000197": {
+   "sponsored": {
+    "count": 23,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 15
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 3
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 2
+     },
+     {
+      "name": "Agriculture and Food",
+      "count": 2
+     },
+     {
+      "name": "Private Legislation",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "1690",
+      "title": "Supporting the observance of American Diabetes Month.",
+      "introduced": "2010-09-29",
+      "policyArea": "Health",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-12-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1690",
+      "stages": {
+       "house": "2010-12-02"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4808",
+      "title": "Stem Cell Research Advancement Act of 2009",
+      "introduced": "2010-03-10",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-03-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4808",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4289",
+      "title": "Colorado Wilderness Act of 2009",
+      "introduced": "2009-12-11",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2010-03-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4289",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "914",
+      "title": "Supporting the observance of National Diabetes Month.",
+      "introduced": "2009-11-18",
+      "policyArea": "Health",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-11-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/914",
+      "stages": {
+       "house": "2009-11-19"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3727",
+      "title": "Drinking Water Adaptation, Technology, Education, and Research (WATER) Act",
+      "introduced": "2009-10-06",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Environment.",
+      "latestActionDate": "2009-10-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3727",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3668",
+      "title": "To amend the Public Health Service Act to reauthorize the special diabetes programs for Type I diabetes and Indians under that Act.",
+      "introduced": "2009-09-29",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3668",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3417",
+      "title": "Rocky Mountain Science Collections Center Act of 2009",
+      "introduced": "2009-07-30",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-08-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3417",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2766",
+      "title": "Fracturing Responsibility and Awareness of Chemicals Act of 2009",
+      "introduced": "2009-06-09",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Environment.",
+      "latestActionDate": "2009-06-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2766",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2590",
+      "title": "Preventing Diabetes in Medicare Act of 2009",
+      "introduced": "2009-05-21",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-06-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2590",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2476",
+      "title": "Ski Area Recreational Opportunity Enhancement Act of 2010",
+      "introduced": "2009-05-19",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 636.",
+      "latestActionDate": "2010-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2476",
+      "stages": {
+       "reported": "2010-07-13",
+       "house": "2010-07-30"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2425",
+      "title": "Medicare Diabetes Self-Management Training Act of 2009",
+      "introduced": "2009-05-14",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2425",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2252",
+      "title": "National Health Care Quality Act",
+      "introduced": "2009-05-05",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-05-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2252",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1995",
+      "title": "Diabetes in Minority Populations Evaluation Act of 2010",
+      "introduced": "2009-04-21",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2010-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1995",
+      "stages": {
+       "house": "2010-09-28"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1850",
+      "title": "Quit Smoking for Life Act of 2009",
+      "introduced": "2009-04-01",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1850",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1715",
+      "title": "Protection for Participants in Research Act of 2009",
+      "introduced": "2009-03-25",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-03-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1715",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1625",
+      "title": "Equity and Access for Podiatric Physicians Under Medicaid Act",
+      "introduced": "2009-03-19",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1625",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1056",
+      "title": "For the relief of Rosa Isela Figueroa Rincon, Miguel Angel Figueroa Rincon, Blanca Azucena Figueroa Rincon, and Nancy Araceli Figueroa Rincon.",
+      "introduced": "2009-02-12",
+      "policyArea": "Private Legislation",
+      "latestAction": "Referred to the Subcommittee on Immigration, Citizenship, Refugees, Border Security, and International Law.",
+      "latestActionDate": "2009-03-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1056",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "873",
+      "title": "Stem Cell Research Enhancement Act of 2009",
+      "introduced": "2009-02-04",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-02-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/873",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "872",
+      "title": "Stem Cell Research Improvement Act of 2009",
+      "introduced": "2009-02-04",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-02-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/872",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "815",
+      "title": "SAFER Meat, Poultry, and Food Act of 2009",
+      "introduced": "2009-02-03",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Livestock, Dairy, and Poultry.",
+      "latestActionDate": "2009-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/815",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "814",
+      "title": "TRACE Act of 2009",
+      "introduced": "2009-02-03",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Livestock, Dairy, and Poultry.",
+      "latestActionDate": "2009-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/814",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "758",
+      "title": "Pediatric Research Consortia Establishment Act",
+      "introduced": "2009-01-28",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2010-11-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/758",
+      "stages": {
+       "reported": "2010-09-28",
+       "house": "2010-09-30"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "570",
+      "title": "Protecting Patients and Health Care Act of 2009",
+      "introduced": "2009-01-15",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-01-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/570",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "P000598": {
+   "sponsored": {
+    "count": 50,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Congress",
+      "count": 22
+     },
+     {
+      "name": "Education",
+      "count": 12
+     },
+     {
+      "name": "Taxation",
+      "count": 4
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 3
+     },
+     {
+      "name": "Labor and Employment",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "1782",
+      "title": "Providing for consideration of the Senate amendment to the House amendment to the Senate amendment to the bill (H.R. 3082) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2010, and for other purposes.",
+      "introduced": "2010-12-21",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-12-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1782",
+      "stages": {
+       "reported": "2010-12-21",
+       "house": "2010-12-21"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1776",
+      "title": "Providing for consideration of the joint resolution (H.J. Res. 105) making further continuing appropriations for fiscal year 2011, and for other purposes.",
+      "introduced": "2010-12-17",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-12-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1776",
+      "stages": {
+       "reported": "2010-12-17",
+       "house": "2010-12-17"
+      }
+     },
+     {
+      "type": "HCONRES",
+      "number": "336",
+      "title": "Providing for the sine die adjournment of the second session of the One Hundred Eleventh Congress.",
+      "introduced": "2010-12-17",
+      "policyArea": "Congress",
+      "latestAction": "Message on Senate action sent to the House.",
+      "latestActionDate": "2010-12-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-concurrent-resolution/336",
+      "stages": {
+       "house": "2010-12-17",
+       "senate": "2010-12-22"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1756",
+      "title": "Providing for consideration of the Senate amendments to the bill (H.R. 5281) to amend title 28, United States Code, to clarify and improve certain provisions relating to the removal of litigation against Federal officers or agencies to Federal courts, and for other purposes.",
+      "introduced": "2010-12-08",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-12-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1756",
+      "stages": {
+       "reported": "2010-12-08",
+       "house": "2010-12-08"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1752",
+      "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules, and providing for consideration of motions to suspend the rules.",
+      "introduced": "2010-12-07",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-12-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1752",
+      "stages": {
+       "reported": "2010-12-07",
+       "house": "2010-12-08"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1741",
+      "title": "Providing for consideration of the joint resolution (H.J. Res. 101) making further continuing appropriations for fiscal year 2011, and for other purposes.",
+      "introduced": "2010-11-30",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-12-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1741",
+      "stages": {
+       "reported": "2010-11-30",
+       "house": "2010-12-01"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "6280",
+      "title": "Eagle and Summit County Wilderness Preservation Act",
+      "introduced": "2010-09-29",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2010-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6280",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6244",
+      "title": "Race to the Top Act of 2010",
+      "introduced": "2010-09-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2010-11-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6244",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6194",
+      "title": "National Environmental Education Reauthorization Act of 2010",
+      "introduced": "2010-09-23",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2010-11-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6194",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6079",
+      "title": "Workforce Housing Opportunity Simplification Act of 2010",
+      "introduced": "2010-08-09",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2010-08-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6079",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5989",
+      "title": "Green Credit Enhancement Program Act of 2010",
+      "introduced": "2010-07-30",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2010-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5989",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5929",
+      "title": "Computer Science Education Act of 2010",
+      "introduced": "2010-07-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2010-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5929",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1573",
+      "title": "To amend the Rules of the House of Representatives to prohibit bills and joint resolutions from containing more than one subject.",
+      "introduced": "2010-07-29",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2010-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1573",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5894",
+      "title": "Pregnant and Parenting Students Access to Education Act of 2010",
+      "introduced": "2010-07-28",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and Labor.",
+      "latestActionDate": "2010-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5894",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5863",
+      "title": "Oil Pollution Wildlife Protection Act",
+      "introduced": "2010-07-26",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Insular Affairs, Oceans and Wildlife.",
+      "latestActionDate": "2010-07-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5863",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1543",
+      "title": "Honoring the educational significance of Dr. Jane Goodall's work on this the 50th anniversary of the beginning of her work in Tanzania, Africa.",
+      "introduced": "2010-07-20",
+      "policyArea": "Animals",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1543",
+      "stages": {
+       "house": "2010-07-28"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5763",
+      "title": "Solar EDGE Act",
+      "introduced": "2010-07-15",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2010-07-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5763",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5661",
+      "title": "Oil Pollution Taxpayer and Environment Protection Act",
+      "introduced": "2010-07-01",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2010-07-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5661",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1472",
+      "title": "Expressing support for designation of the week of September 13, 2010, as National Adult Education and Family Literacy Week.",
+      "introduced": "2010-06-24",
+      "policyArea": "Education",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-07-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1472",
+      "stages": {
+       "house": "2010-07-19"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5480",
+      "title": "Ending Childhood Hunger Challenge Act of 2010",
+      "introduced": "2010-06-08",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Healthy Families and Communities.",
+      "latestActionDate": "2010-09-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5480",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5218",
+      "title": "Great Teachers for Great Schools Act of 2010",
+      "introduced": "2010-05-05",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2010-05-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5218",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1305",
+      "title": "Providing for consideration of the bill (H.R. 2499) to provide for a federally sanctioned self-determination process for the people of Puerto Rico.",
+      "introduced": "2010-04-28",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider the vote tabled.",
+      "latestActionDate": "2010-04-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1305",
+      "stages": {
+       "reported": "2010-04-28",
+       "house": "2010-04-29"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5090",
+      "title": "NEW Schools Act",
+      "introduced": "2010-04-21",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Healthy Families and Communities.",
+      "latestActionDate": "2010-05-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5090",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4877",
+      "title": "Community Bank and Automotive Industry Recapitalization Act of 2010",
+      "introduced": "2010-03-18",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to House Financial Services",
+      "latestActionDate": "2010-03-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4877",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1192",
+      "title": "Providing for consideration of the bill (H.R. 3644) to direct the National Oceanic and Atmospheric Administration to establish education and watershed programs which advance environmental literacy, including preparedness and adaptability for the likely impacts of climate change in coastal watershed regions, and providing for consideration of the bill (H.R. 1612) to amend the Public Lands Corps Act of 1993 to expand the authorization of the Secretaries of Agriculture, Commerce, and the Interior to provide service-learning opportunities on public lands, help restore the Nation's natural, cultural, historic, archaeological, recreational, and scenic resources, train a new generation of public land managers and enthusiasts, and promote the value of public service.",
+      "introduced": "2010-03-18",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-03-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1192",
+      "stages": {
+       "reported": "2010-03-18",
+       "house": "2010-03-19"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4870",
+      "title": "Healthy School Meals Act of 2010",
+      "introduced": "2010-03-17",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Healthy Families and Communities.",
+      "latestActionDate": "2010-04-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4870",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4830",
+      "title": "Women WIN Jobs",
+      "introduced": "2010-03-11",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2010-03-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4830",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1083",
+      "title": "Providing for consideration of the bill (H.R. 2314) to express the policy of the United States regarding the United States relationship with Native Hawaiians and to provide a process for the recognition by the United States of the Native Hawaiian governing entity.",
+      "introduced": "2010-02-22",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-02-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1083",
+      "stages": {
+       "reported": "2010-02-22",
+       "house": "2010-02-23"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4530",
+      "title": "Student Nondiscrimination Act of 2010",
+      "introduced": "2010-01-27",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2010-02-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4530",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1038",
+      "title": "Providing for consideration of the bill (H.R. 3726) to establish the Castle Nugent National Historic Site at St. Croix, United States Virgin Islands, and for other purposes; and for consideration of the bill (H.R. 4474) to authorize the continued use of certain water diversions located on National Forest System land in the Frank Church-River of No Return Wilderness and the Selway-Bitterroot Wilderness in the State of Idaho, and for other purposes.",
+      "introduced": "2010-01-26",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-01-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1038",
+      "stages": {
+       "reported": "2010-01-26",
+       "house": "2010-01-27"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4330",
+      "title": "All-STAR Act of 2009",
+      "introduced": "2009-12-16",
+      "policyArea": "Education",
+      "latestAction": "Committee Hearings Held.",
+      "latestActionDate": "2010-02-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4330",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4259",
+      "title": "Employment Benefit Act",
+      "introduced": "2009-12-10",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Citizenship, Refugees, Border Security, and International Law.",
+      "latestActionDate": "2010-03-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4259",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "941",
+      "title": "Providing for consideration of the bill (H.R. 4154) to amend the Internal Revenue Code of 1986 to repeal the new carryover basis rules in order to prevent tax increases and the imposition of compliance burdens on many more estates than would benefit from repeal, to retain the estate tax with a $3,500,000 exemption, and for other purposes.",
+      "introduced": "2009-12-02",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/941",
+      "stages": {
+       "reported": "2009-12-02",
+       "house": "2009-12-03"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3923",
+      "title": "Sugar Loaf Fire Protection District Land Exchange Act",
+      "introduced": "2009-10-23",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 462.",
+      "latestActionDate": "2010-07-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3923",
+      "stages": {
+       "reported": "2010-07-13",
+       "house": "2010-07-13"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "846",
+      "title": "Providing for consideration of the bill (H.R. 3585) to guide and provide for United States research, development, and demonstration of solar energy technologies, and for other purposes.",
+      "introduced": "2009-10-20",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-10-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/846",
+      "stages": {
+       "reported": "2009-10-20",
+       "house": "2009-10-22"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "746",
+      "title": "Providing for consideration of the bill (H.R. 3221) to amend the Higher Education Act of 1965, and for other purposes.",
+      "introduced": "2009-09-15",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-09-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/746",
+      "stages": {
+       "reported": "2009-09-15",
+       "house": "2009-09-16"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "707",
+      "title": "A resolution expressing support for designation of the week of October 18, 2009, as National Adult Education and Family Literacy Week.",
+      "introduced": "2009-07-31",
+      "policyArea": "Education",
+      "latestAction": "The title of the measure was amended. Agreed to without objection.",
+      "latestActionDate": "2009-10-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/707",
+      "stages": {
+       "house": "2009-10-06"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "610",
+      "title": "Providing for consideration of the bill (H.R. 2965) to amend the Small Business Act with respect to the Small Business Innovation Research Program and the Small Business Technology Transfer Program, and for other purposes.",
+      "introduced": "2009-07-07",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-07-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/610",
+      "stages": {
+       "reported": "2009-07-07",
+       "house": "2009-07-08"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "578",
+      "title": "Providing for consideration of the bill (H.R. 2996) making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2010, and for other purposes.",
+      "introduced": "2009-06-24",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-06-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/578",
+      "stages": {
+       "reported": "2009-06-24",
+       "house": "2009-06-25"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "532",
+      "title": "Providing for the consideration of the Senate amendment to the bill (H.R. 1256) to protect the public health by providing the Food and Drug Administration with certain authority to regulate tobacco products, to amend title 5, United States Code, to make certain modifications in the Thrift Savings Plan, the Civil Service Retirement System, and the Federal Employees' Retirement System, and for other purposes.",
+      "introduced": "2009-06-11",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-06-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/532",
+      "stages": {
+       "reported": "2009-06-11",
+       "house": "2009-06-12"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "457",
+      "title": "Providing for consideration of the bill (H.R. 2352) to amend the Small Business Act, and for other purposes.",
+      "introduced": "2009-05-19",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-05-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/457",
+      "stages": {
+       "reported": "2009-05-19",
+       "house": "2009-05-20"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "436",
+      "title": "Mourning the loss of Bea Arthur, celebrating her life and work, and honoring her many contributions to equality and social justice for all Americans.",
+      "introduced": "2009-05-13",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2009-05-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/436",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "427",
+      "title": "Providing for consideration of the bill (H.R. 2187) to direct the Secretary of Education to make grants to State educational agencies for the modernization, renovation, or repair of public school facilities, and for other purposes.",
+      "introduced": "2009-05-12",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-05-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/427",
+      "stages": {
+       "reported": "2009-05-12",
+       "house": "2009-05-13"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2264",
+      "title": "For the relief of Maria Carlota Tribaldo, Jose Vladimir Orellana-Hernandez, Bernardo Tribaldo, Yulieth Tribaldo, and Yedssi Aceneth Moreno Forero.",
+      "introduced": "2009-05-05",
+      "policyArea": "Private Legislation",
+      "latestAction": "Referred to the Subcommittee on Immigration, Citizenship, Refugees, Border Security, and International Law.",
+      "latestActionDate": "2009-06-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2264",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1828",
+      "title": "Charlie Wolf Nuclear Workers Compensation Act",
+      "introduced": "2009-03-31",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2009-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1828",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "307",
+      "title": "Providing for consideration of the bill (H.R. 1256) to protect the public health by providing the Food and Drug Administration with certain authority to regulate tobacco products.",
+      "introduced": "2009-03-31",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-04-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/307",
+      "stages": {
+       "reported": "2009-03-31",
+       "house": "2009-04-01"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1784",
+      "title": "Investment Property Opportunity Act of 2009",
+      "introduced": "2009-03-30",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-03-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1784",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1783",
+      "title": "Enterprise Sector Investment Opportunity Act of 2009",
+      "introduced": "2009-03-30",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-03-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1783",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "281",
+      "title": "Providing for consideration of the bill (H.R. 1404) to authorize a supplemental funding source for catastrophic emergency wildland fire suppression activities on Department of the Interior and National Forest System lands, to require the Secretary of the Interior and the Secretary of Agriculture to develop a cohesive wildland fire management strategy, and for other purposes.",
+      "introduced": "2009-03-24",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-03-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/281",
+      "stages": {
+       "reported": "2009-03-24",
+       "house": "2009-03-25"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "107",
+      "title": "Providing for consideration of the Senate amendment to the bill (H.R. 2) to amend title XXI of the Social Security Act to extend and improve the Childrens's Health Insurance Program, and for other purposes.",
+      "introduced": "2009-02-03",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/107",
+      "stages": {
+       "reported": "2009-02-03",
+       "house": "2009-02-04"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 29,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6274",
+      "title": "INSPIRES Act",
+      "introduced": "2010-09-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2010-11-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6274",
+      "stages": {},
+      "sponsor": {
+       "id": "D000598",
+       "name": "SUSAN DAVIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "6189",
+      "title": "EEOICPA Amendment Act of 2010",
+      "introduced": "2010-09-22",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Immigration, Citizenship, Refugees, Border Security, and International Law.",
+      "latestActionDate": "2010-12-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6189",
+      "stages": {},
+      "sponsor": {
+       "id": "W000413",
+       "name": "EDWARD WHITFIELD",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5974",
+      "title": "To direct the Secretary of Education to pay to Fort Lewis College in the State of Colorado an amount equal to the tuition charges for Indian students who are not residents of the State of Colorado.",
+      "introduced": "2010-07-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2010-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5974",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "1560",
+      "title": "Supporting the increased understanding of, and interest in, computer science and computing careers among the public and in schools, and to ensure an ample and diverse future technology workforce through the designation of National Computer Science Education Week.",
+      "introduced": "2010-07-27",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-09-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1560",
+      "stages": {
+       "house": "2010-09-23"
+      },
+      "sponsor": {
+       "id": "E000092",
+       "name": "VERNON EHLERS",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5767",
+      "title": "Innovative Technologies Investment Incentive Act of 2010",
+      "introduced": "2010-07-15",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2010-07-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5767",
+      "stages": {},
+      "sponsor": {
+       "id": "V000128",
+       "name": "Chris Van Hollen",
+       "party": "D",
+       "state": "MD"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5765",
+      "title": "To amend the Internal Revenue Code of 1986 to increase for 2 years the residential energy credit and the investment tax credit with respect to solar property with a nameplate capacity of less than 20 kilowatts.",
+      "introduced": "2010-07-15",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2010-07-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5765",
+      "stages": {},
+      "sponsor": {
+       "id": "S001156",
+       "name": "Linda Sánchez",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5726",
+      "title": "Federal Contracting Oversight and Reform Act of 2010",
+      "introduced": "2010-07-13",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Government Management, Organization, and Procurement.",
+      "latestActionDate": "2010-07-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5726",
+      "stages": {},
+      "sponsor": {
+       "id": "Q000023",
+       "name": "Mike Quigley",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5715",
+      "title": "Lifelong Learning Accounts Act of 2010",
+      "introduced": "2010-07-13",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions.",
+      "latestActionDate": "2010-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5715",
+      "stages": {},
+      "sponsor": {
+       "id": "L000557",
+       "name": "JOHN LARSON",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5696",
+      "title": "e-KNOW Act",
+      "introduced": "2010-07-01",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-07-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5696",
+      "stages": {},
+      "sponsor": {
+       "id": "M000133",
+       "name": "Edward Markey",
+       "party": "D",
+       "state": "MA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5689",
+      "title": "Predatory Lending Sunset Act",
+      "introduced": "2010-07-01",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2010-07-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5689",
+      "stages": {},
+      "sponsor": {
+       "id": "G000554",
+       "name": "Gabrielle Giffords",
+       "party": "D",
+       "state": "AZ"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5586",
+      "title": "Equity in Excellence Act of 2010",
+      "introduced": "2010-06-23",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2010-09-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5586",
+      "stages": {},
+      "sponsor": {
+       "id": "P000149",
+       "name": "DONALD PAYNE",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5506",
+      "title": "OPERA",
+      "introduced": "2010-06-10",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2010-06-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5506",
+      "stages": {},
+      "sponsor": {
+       "id": "C001078",
+       "name": "Gerald Connolly",
+       "party": "D",
+       "state": "VA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5202",
+      "title": "National School Lunch Protection Act of 2010",
+      "introduced": "2010-05-04",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Healthy Families and Communities.",
+      "latestActionDate": "2010-05-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5202",
+      "stages": {},
+      "sponsor": {
+       "id": "C001080",
+       "name": "Judy Chu",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5172",
+      "title": "Instructional Leadership Act of 2009",
+      "introduced": "2010-04-28",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2010-05-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5172",
+      "stages": {},
+      "sponsor": {
+       "id": "S001168",
+       "name": "John Sarbanes",
+       "party": "D",
+       "state": "MD"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5101",
+      "title": "Wildlife Corridors Conservation Act of 2010",
+      "introduced": "2010-04-21",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Horticulture and Organic Agriculture.",
+      "latestActionDate": "2010-06-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5101",
+      "stages": {},
+      "sponsor": {
+       "id": "H001032",
+       "name": "RUSH HOLT",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5082",
+      "title": "To amend the Public Utility Regulatory Policies Act of 1978 to establish uniform national standards for the interconnection of certain small power production facilities.",
+      "introduced": "2010-04-20",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-04-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5082",
+      "stages": {},
+      "sponsor": {
+       "id": "L000570",
+       "name": "Ben Luján",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4926",
+      "title": "Medical Foods Equity Act of 2010",
+      "introduced": "2010-03-24",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions.",
+      "latestActionDate": "2010-04-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4926",
+      "stages": {},
+      "sponsor": {
+       "id": "B001230",
+       "name": "Tammy Baldwin",
+       "party": "D",
+       "state": "WI"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4913",
+      "title": "Free Speech About Science Act of 2010",
+      "introduced": "2010-03-23",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4913",
+      "stages": {},
+      "sponsor": {
+       "id": "C001076",
+       "name": "Jason Chaffetz",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4037",
+      "title": "LEARN Act",
+      "introduced": "2009-11-06",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2010-01-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4037",
+      "stages": {},
+      "sponsor": {
+       "id": "Y000062",
+       "name": "John Yarmuth",
+       "party": "D",
+       "state": "KY"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "3688",
+      "title": "To encourage programs of health promotion or disease prevention.",
+      "introduced": "2009-10-01",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions.",
+      "latestActionDate": "2009-11-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3688",
+      "stages": {},
+      "sponsor": {
+       "id": "A000363",
+       "name": "Michael Arcuri",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "777",
+      "title": "Honoring all those participating in a production of \"The Laramie Project: 10 Years Later\" in remembrance of Matthew Shepard.",
+      "introduced": "2009-09-24",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the Subcommittee on the Constitution, Civil Rights, and Civil Liberties.",
+      "latestActionDate": "2010-01-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/777",
+      "stages": {},
+      "sponsor": {
+       "id": "M000404",
+       "name": "JIM MCDERMOTT",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3531",
+      "title": "HELP Separated Children Act",
+      "introduced": "2009-07-31",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Citizenship, Refugees, Border Security, and International Law.",
+      "latestActionDate": "2009-09-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3531",
+      "stages": {},
+      "sponsor": {
+       "id": "W000738",
+       "name": "LYNN WOOLSEY",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3417",
+      "title": "Rocky Mountain Science Collections Center Act of 2009",
+      "introduced": "2009-07-30",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-08-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3417",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3168",
+      "title": "U.S. OUTDOOR Act",
+      "introduced": "2009-07-10",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Technology and Innovation.",
+      "latestActionDate": "2009-07-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3168",
+      "stages": {},
+      "sponsor": {
+       "id": "B000574",
+       "name": "EARL BLUMENAUER",
+       "party": "D",
+       "state": "OR"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "558",
+      "title": "Supporting the increased understanding of, and interest in, computer science and computing careers among the public and in schools, and to ensure an ample and diverse future technology workforce through the designation of National Computer Science Education Week.",
+      "introduced": "2009-06-18",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-10-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/558",
+      "stages": {
+       "house": "2009-10-20"
+      },
+      "sponsor": {
+       "id": "E000092",
+       "name": "VERNON EHLERS",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2766",
+      "title": "Fracturing Responsibility and Awareness of Chemicals Act of 2009",
+      "introduced": "2009-06-09",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Environment.",
+      "latestActionDate": "2009-06-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2766",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "442",
+      "title": "Recognizing the importance of the Child and Adult Care Food Program and its positive effect on the lives of low income children and families.",
+      "introduced": "2009-05-14",
+      "policyArea": "Social Welfare",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-05-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/442",
+      "stages": {
+       "house": "2009-05-18"
+      },
+      "sponsor": {
+       "id": "M000725",
+       "name": "GEORGE MILLER",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "433",
+      "title": "Recognizing the 40th anniversary of Stonewall.",
+      "introduced": "2009-05-13",
+      "policyArea": "Civil Rights and Liberties, Minority Issues",
+      "latestAction": "Referred to the Subcommittee on the Constitution, Civil Rights, and Civil Liberties.",
+      "latestActionDate": "2009-08-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/433",
+      "stages": {},
+      "sponsor": {
+       "id": "N000002",
+       "name": "JERROLD NADLER",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "419",
+      "title": "Rocky Mountain National Park Wilderness and Indian Peaks Wilderness Expansion Act",
+      "introduced": "2009-01-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/419",
+      "stages": {},
+      "sponsor": {
+       "id": "M001172",
+       "name": "Betsy Markey",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 438,
+    "becameLaw": 16,
+    "topics": [
+     {
+      "name": "Education",
+      "count": 76
+     },
+     {
+      "name": "Health",
+      "count": 42
+     },
+     {
+      "name": "International Affairs",
+      "count": 39
+     },
+     {
+      "name": "Taxation",
+      "count": 33
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 27
+     }
+    ]
+   }
+  },
+  "S001158": {
+   "sponsored": {
+    "count": 26,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 9
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 4
+     },
+     {
+      "name": "Water Resources Development",
+      "count": 4
+     },
+     {
+      "name": "Education",
+      "count": 1
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6493",
+      "title": "Curecanti National Recreation Area Boundary Establishment Act of 2010",
+      "introduced": "2010-12-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2010-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6493",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5974",
+      "title": "To direct the Secretary of Education to pay to Fort Lewis College in the State of Colorado an amount equal to the tuition charges for Indian students who are not residents of the State of Colorado.",
+      "introduced": "2010-07-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2010-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5974",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5916",
+      "title": "Methamphetamine Prevention Campaign Grant Program Act of 2010",
+      "introduced": "2010-07-28",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5916",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5798",
+      "title": "To name the Department of Veterans Affairs telehealth clinic in Craig, Colorado, as the \"Major William Edward Adams Department of Veterans Affairs Clinic\".",
+      "introduced": "2010-07-20",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2010-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5798",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5706",
+      "title": "To designate the building occupied by the Government Printing Office located at 31451 East United Avenue in Pueblo, Colorado, as the \"Frank Evans Government Printing Office Building\".",
+      "introduced": "2010-07-01",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Became Public Law No: 111-299.",
+      "latestActionDate": "2010-12-14",
+      "law": "111-299",
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5706",
+      "stages": {
+       "reported": "2010-09-14",
+       "house": "2010-09-15",
+       "senate": "2010-12-01",
+       "president": "2010-12-03",
+       "law": "2010-12-14"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5362",
+      "title": "To provide for the release of water from the marketable yield pool of water stored in the Ruedi Reservoir for the benefit of endangered fish habitat in the Colorado River, and for other purposes.",
+      "introduced": "2010-05-20",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2010-05-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5362",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5223",
+      "title": "Chimney Rock National Monument Act of 2010",
+      "introduced": "2010-05-05",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2010-05-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5223",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5059",
+      "title": "Central Rockies Land Exchange and National Park System Enhancement Act of 2010",
+      "introduced": "2010-04-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2010-04-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5059",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4589",
+      "title": "To provide consistent enforcement authority to the Bureau of Land Management, the National Park Service, the United States Fish and Wildlife Service, and the Forest Service to respond to violations of regulations regarding the management, use, and protection of public lands under the jurisdiction of these agencies, and for other purposes.",
+      "introduced": "2010-02-03",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2010-06-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4589",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4398",
+      "title": "National Forest Insect and Disease Emergency Act of 2009",
+      "introduced": "2009-12-16",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2010-06-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4398",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3914",
+      "title": "San Juan Mountains Wilderness Act of 2010",
+      "introduced": "2009-10-22",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 345.",
+      "latestActionDate": "2010-09-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3914",
+      "stages": {
+       "reported": "2010-09-16"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3648",
+      "title": "Rural Physician Pipeline Act of 2009",
+      "introduced": "2009-09-24",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-09-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3648",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3061",
+      "title": "Pine River Indian Irrigation Project Act of 2009",
+      "introduced": "2009-06-25",
+      "policyArea": "Native Americans",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2010-09-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3061",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2288",
+      "title": "Endangered Fish Recovery Programs Improvement Act of 2010",
+      "introduced": "2009-05-06",
+      "policyArea": "Animals",
+      "latestAction": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 399.",
+      "latestActionDate": "2010-05-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2288",
+      "stages": {
+       "reported": "2010-05-18",
+       "house": "2010-05-18"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1860",
+      "title": "Four Corners Television Access Act of 2009",
+      "introduced": "2009-04-01",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Communications, Technology, and the Internet.",
+      "latestActionDate": "2009-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1860",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1770",
+      "title": "Dam Rehabilitation and Repair Act of 2009",
+      "introduced": "2009-03-26",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.",
+      "latestActionDate": "2009-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1770",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1201",
+      "title": "Air Medical Safety Act",
+      "introduced": "2009-02-25",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2009-02-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1201",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1000",
+      "title": "Rural Colorado Water Infrastructure Act",
+      "introduced": "2009-02-11",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2009-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1000",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "667",
+      "title": "Heroes at Home Act of 2009",
+      "introduced": "2009-01-23",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2009-02-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/667",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "666",
+      "title": "Military Valor Roll of Honor Act",
+      "introduced": "2009-01-23",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2009-01-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/666",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "174",
+      "title": "To direct the Secretary of Veterans Affairs to establish a national cemetery for veterans in the southern Colorado region.",
+      "introduced": "2009-01-06",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+      "latestActionDate": "2009-11-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/174",
+      "stages": {
+       "house": "2009-11-02"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "173",
+      "title": "To amend the Internal Revenue Code of 1986 to exempt certain farmland from the estate tax.",
+      "introduced": "2009-01-06",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-01-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/173",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "172",
+      "title": "Arkansas Valley Conduit Act of 2008",
+      "introduced": "2009-01-06",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2009-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/172",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "171",
+      "title": "Sangre de Cristo National Heritage Area Act",
+      "introduced": "2009-01-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/171",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "170",
+      "title": "Dominguez-Escalante National Conservation Area and Dominguez Canyon Wilderness Area Act",
+      "introduced": "2009-01-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/170",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "169",
+      "title": "To amend the Great Sand Dunes National Park and Preserve Act of 2000 to explain the purpose and provide for the administration of the Baca National Wildlife Refuge.",
+      "introduced": "2009-01-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Insular Affairs, Oceans and Wildlife.",
+      "latestActionDate": "2009-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/169",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "M001172": {
+   "sponsored": {
+    "count": 26,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 7
+     },
+     {
+      "name": "Education",
+      "count": 4
+     },
+     {
+      "name": "Transportation and Public Works",
+      "count": 4
+     },
+     {
+      "name": "Taxation",
+      "count": 3
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6211",
+      "title": "Veterans Back and Spinal Therapy Act",
+      "introduced": "2010-09-23",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2010-09-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6211",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6050",
+      "title": "Bent's Old Fort Museum Collections Facility Act of 2010",
+      "introduced": "2010-07-30",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2010-08-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6050",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6049",
+      "title": "Sand Creek Massacre National Historic Site Visitor Center Act of 2010",
+      "introduced": "2010-07-30",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2010-08-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6049",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5911",
+      "title": "Rocky Mountain National Park Boundary Modification Act of 2010",
+      "introduced": "2010-07-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2010-08-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5911",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1541",
+      "title": "Expressing support for designation of October 7, 2010, as national \"Jumpstart's Read for the Record Day\".",
+      "introduced": "2010-07-20",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2010-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1541",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5730",
+      "title": "Surface Transportation Earmark Rescission, Savings, and Accountability Act",
+      "introduced": "2010-07-14",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Read twice and referred to the Committee on Environment and Public Works.",
+      "latestActionDate": "2010-08-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5730",
+      "stages": {
+       "house": "2010-07-27"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1297",
+      "title": "Supporting the goals and ideals of American Craft Beer Week.",
+      "introduced": "2010-04-22",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-05-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1297",
+      "stages": {
+       "house": "2010-05-18"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5097",
+      "title": "Erica's Law",
+      "introduced": "2010-04-21",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways and Transit.",
+      "latestActionDate": "2010-04-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5097",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5008",
+      "title": "Targeted Deficit Reduction Act of 2010",
+      "introduced": "2010-04-13",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to House Budget",
+      "latestActionDate": "2010-04-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5008",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1186",
+      "title": "Expressing support for designation of April as National Distracted Driving Awareness Month.",
+      "introduced": "2010-03-16",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "On motion to suspend the rules and agree to the resolution Agreed to by the Yeas and Nays: (2/3 required): 410 - 2 (Roll no. 175). (text: CR H2229)",
+      "latestActionDate": "2010-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1186",
+      "stages": {
+       "house": "2010-03-23"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1111",
+      "title": "Designating March 2, 2010, as \"Read Across America Day\".",
+      "introduced": "2010-02-25",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2010-03-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1111",
+      "stages": {
+       "house": "2010-03-04"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1020",
+      "title": "Honoring the 95th anniversary of the signing of the Rocky Mountain National Park Act.",
+      "introduced": "2010-01-20",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-01-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1020",
+      "stages": {
+       "house": "2010-01-27"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4238",
+      "title": "To designate the facility of the United States Postal Service located at 930 39th Avenue in Greeley, Colorado, as the \"W.D. Farr Post Office Building\".",
+      "introduced": "2009-12-08",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Became Public Law No: 111-186.",
+      "latestActionDate": "2010-06-09",
+      "law": "111-186",
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4238",
+      "stages": {
+       "house": "2010-02-22",
+       "senate": "2010-05-25",
+       "president": "2010-06-01",
+       "law": "2010-06-09"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4149",
+      "title": "To amend the Internal Revenue Code of 1986 to provide a renewable electricity integration credit for a utility that purchases or produces renewable power.",
+      "introduced": "2009-11-19",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-11-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4149",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3959",
+      "title": "Credit Card Rate Freeze Act of 2009",
+      "introduced": "2009-10-28",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2009-10-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3959",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3781",
+      "title": "Target Practice and Marksmanship Training Support Act",
+      "introduced": "2009-10-08",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Insular Affairs, Oceans and Wildlife.",
+      "latestActionDate": "2009-10-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3781",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "741",
+      "title": "Expressing support for designation of October 8, 2009, as national Jumpstart's \"Read for the Record Day\".",
+      "introduced": "2009-09-14",
+      "policyArea": "Education",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-10-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/741",
+      "stages": {
+       "house": "2009-10-06"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3368",
+      "title": "Honor Act of 2009",
+      "introduced": "2009-07-28",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2009-10-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3368",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3275",
+      "title": "To amend the definition of commercial motor vehicle in section 31101 of title 49, United States Code, to exclude certain farm vehicles, and for other purposes.",
+      "introduced": "2009-07-21",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways and Transit.",
+      "latestActionDate": "2009-07-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3275",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3178",
+      "title": "Small Business Growth Act of 2009",
+      "introduced": "2009-07-10",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3178",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2527",
+      "title": "To provide authority for certain debt refinancing with respect to financings approved under title V of the Small Business Investment Act of 1958, and for other purposes.",
+      "introduced": "2009-05-20",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Finance and Tax.",
+      "latestActionDate": "2009-05-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2527",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1858",
+      "title": "To provide for a boundary adjustment and land conveyances involving Roosevelt National Forest, Colorado, to correct the effects of an erroneous land survey that resulted in approximately 7 acres of the Crystal Lakes Subdivision, Ninth Filing, encroaching on National Forest System land, and for other purposes.",
+      "introduced": "2009-04-01",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.",
+      "latestActionDate": "2010-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1858",
+      "stages": {
+       "house": "2009-09-08"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "146",
+      "title": "Designating March 2, 2009, as \"Read Across America Day\".",
+      "introduced": "2009-02-10",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2009-04-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/146",
+      "stages": {
+       "house": "2009-03-05"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "926",
+      "title": "Cache La Poudre River National Heritage Area Act of 2009",
+      "introduced": "2009-02-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-02-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/926",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "561",
+      "title": "To amend the Internal Revenue Code of 1986 to allow a 5 year carryback of certain net operating losses, and for other purposes.",
+      "introduced": "2009-01-15",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-01-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/561",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "419",
+      "title": "Rocky Mountain National Park Wilderness and Indian Peaks Wilderness Expansion Act",
+      "introduced": "2009-01-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/419",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 13,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5974",
+      "title": "To direct the Secretary of Education to pay to Fort Lewis College in the State of Colorado an amount equal to the tuition charges for Indian students who are not residents of the State of Colorado.",
+      "introduced": "2010-07-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2010-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5974",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "5916",
+      "title": "Methamphetamine Prevention Campaign Grant Program Act of 2010",
+      "introduced": "2010-07-28",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5916",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "1433",
+      "title": "Expressing support for designation of September 2010 as Blood Cancer Awareness Month.",
+      "introduced": "2010-06-10",
+      "policyArea": "Health",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-09-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1433",
+      "stages": {
+       "house": "2010-09-22"
+      },
+      "sponsor": {
+       "id": "J000255",
+       "name": "WALTER JONES",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5030",
+      "title": "College Savings Flexibility Act of 2010",
+      "introduced": "2010-04-15",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2010-04-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5030",
+      "stages": {},
+      "sponsor": {
+       "id": "B001253",
+       "name": "Melissa Bean",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4171",
+      "title": "TARP Sunset and Fiscal Responsibility Act of 2009",
+      "introduced": "2009-12-02",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to House Ways and Means",
+      "latestActionDate": "2009-12-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4171",
+      "stages": {},
+      "sponsor": {
+       "id": "T000466",
+       "name": "Harry Teague",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3648",
+      "title": "Rural Physician Pipeline Act of 2009",
+      "introduced": "2009-09-24",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-09-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3648",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3417",
+      "title": "Rocky Mountain Science Collections Center Act of 2009",
+      "introduced": "2009-07-30",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-08-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3417",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2135",
+      "title": "To amend section 254 of the Communications Act of 1934 to provide that funds received as universal service contributions and the universal service support programs established pursuant to that section are not subject to certain provisions of title 31, United States Code, commonly known as the Antideficiency Act.",
+      "introduced": "2009-04-28",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Communications, Technology, and the Internet.",
+      "latestActionDate": "2009-04-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2135",
+      "stages": {},
+      "sponsor": {
+       "id": "R000571",
+       "name": "DENNY REHBERG",
+       "party": "R",
+       "state": "MT"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1908",
+      "title": "WATER Act of 2009",
+      "introduced": "2009-04-02",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1908",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1770",
+      "title": "Dam Rehabilitation and Repair Act of 2009",
+      "introduced": "2009-03-26",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.",
+      "latestActionDate": "2009-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1770",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "173",
+      "title": "To amend the Internal Revenue Code of 1986 to exempt certain farmland from the estate tax.",
+      "introduced": "2009-01-06",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-01-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/173",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "172",
+      "title": "Arkansas Valley Conduit Act of 2008",
+      "introduced": "2009-01-06",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2009-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/172",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "171",
+      "title": "Sangre de Cristo National Heritage Area Act",
+      "introduced": "2009-01-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/171",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 317,
+    "becameLaw": 18,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 43
+     },
+     {
+      "name": "Taxation",
+      "count": 43
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 40
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 15
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 14
+     }
+    ]
+   }
+  },
+  "P000593": {
+   "sponsored": {
+    "count": 31,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Congress",
+      "count": 21
+     },
+     {
+      "name": "Sports and Recreation",
+      "count": 2
+     },
+     {
+      "name": "Commerce",
+      "count": 2
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 2
+     },
+     {
+      "name": "Housing and Community Development",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "1747",
+      "title": "Congratulating the Colorado Rapids soccer club for winning the 2010 Major League Soccer Championship.",
+      "introduced": "2010-12-01",
+      "policyArea": "Sports and Recreation",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2010-12-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1747",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1736",
+      "title": "Providing for consideration of the Senate amendments to the bill (H.R. 4783) to accelerate the income tax benefits for charitable cash contributions for the relief of victims of the earthquake in Chile, and to extend the period from which such contributions for the relief of victims of the earthquake in Haiti may be accelerated.",
+      "introduced": "2010-11-29",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-11-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1736",
+      "stages": {
+       "reported": "2010-11-29",
+       "house": "2010-11-30"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1490",
+      "title": "Providing for consideration of the conference report to accompany the bill (H.R. 4173) to provide for financial regulatory reform, to protect consumers and investors, to enhance Federal understanding of insurance issues, to regulate the over-the-counter derivatives markets, and for other purposes.",
+      "introduced": "2010-06-30",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-06-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1490",
+      "stages": {
+       "reported": "2010-06-30",
+       "house": "2010-06-30"
+      }
+     },
+     {
+      "type": "HCONRES",
+      "number": "293",
+      "title": "Providing for a conditional adjournment of the House of Representatives and a conditional recess or adjournment of the Senate.",
+      "introduced": "2010-06-30",
+      "policyArea": "Congress",
+      "latestAction": "Message on Senate action sent to the House.",
+      "latestActionDate": "2010-06-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-concurrent-resolution/293",
+      "stages": {
+       "house": "2010-06-30",
+       "senate": "2010-06-30"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1448",
+      "title": "Providing for further consideration of the bill (H.R. 5297) to create the Small Business Lending Fund Program to direct the Secretary of the Treasury to make capital investments in eligible institutions in order to increase the availability of credit for small businesses, and for other purposes.",
+      "introduced": "2010-06-16",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-06-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1448",
+      "stages": {
+       "reported": "2010-06-16",
+       "house": "2010-06-17"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1424",
+      "title": "Providing for consideration of the bill (H.R. 5072) to improve the financial safety and soundness of the FHA mortgage insurance program, and providing for consideration of motions to suspend the rules.",
+      "introduced": "2010-06-08",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-06-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1424",
+      "stages": {
+       "reported": "2010-06-08",
+       "house": "2010-06-09"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5445",
+      "title": "Incentives for Successful Small Businesses Act of 2010",
+      "introduced": "2010-05-27",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2010-05-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5445",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5420",
+      "title": "Incentives for Successful Companies Act of 2010",
+      "introduced": "2010-05-26",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2010-05-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5420",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1344",
+      "title": "Providing for consideration of the bill (H.R. 5116) to invest in innovation through research and development, to improve the competitiveness of the United States, and for other purposes.",
+      "introduced": "2010-05-11",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-05-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1344",
+      "stages": {
+       "reported": "2010-05-11",
+       "house": "2010-05-12"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5249",
+      "title": "Capital Access for Main Street Act of 2010",
+      "introduced": "2010-05-06",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2010-05-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5249",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1286",
+      "title": "Commemorating the 50th anniversary of the inaugural season of the American Football League.",
+      "introduced": "2010-04-21",
+      "policyArea": "Sports and Recreation",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2010-04-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1286",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "257",
+      "title": "Providing for an adjournment or recess of the two Houses.",
+      "introduced": "2010-03-24",
+      "policyArea": "Congress",
+      "latestAction": "Message on Senate action sent to the House.",
+      "latestActionDate": "2010-03-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-concurrent-resolution/257",
+      "stages": {
+       "house": "2010-03-24",
+       "senate": "2010-03-25"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "1204",
+      "title": "Providing for consideration of the bill (H.R. 4899) making emergency supplemental appropriations for disaster relief and summer jobs for the fiscal year ending September 30, 2010, and for other purposes.",
+      "introduced": "2010-03-22",
+      "policyArea": "Congress",
+      "latestAction": "On agreeing to the resolution Agreed to by the Yeas and Nays: 233 - 191 (Roll no. 179). (text: CR H2273)",
+      "latestActionDate": "2010-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1204",
+      "stages": {
+       "reported": "2010-03-22",
+       "house": "2010-03-24"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4690",
+      "title": "Livable Communities Act of 2010",
+      "introduced": "2010-02-25",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2010-02-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4690",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1109",
+      "title": "Providing for consideration of the Senate amendments to the bill (H.R. 3961) to amend title XVIII of the Social Security Act to reform the Medicare SGR payment system for physicians and to reinstitute and update the Pay-As-You-Go requirement of budget neutrality on new tax and mandatory spending legislation, enforced by the threat of annual, automatic sequestration.",
+      "introduced": "2010-02-25",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-02-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1109",
+      "stages": {
+       "reported": "2010-02-25",
+       "house": "2010-02-25"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "964",
+      "title": "Providing for further consideration of the bill (H.R. 4173) to provide for financial regulatory reform, to protect consumers and investors, to enhance Federal understanding of insurance issues, to regulate the over-the-counter derivatives markets, and for other purposes.",
+      "introduced": "2009-12-10",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-12-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/964",
+      "stages": {
+       "reported": "2009-12-10",
+       "house": "2009-12-10"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "956",
+      "title": "Providing for consideration of the bill (H.R. 4173) to provide for financial regulatory reform, to protect consumers and investors, to enhance Federal understanding of insurance issues, to regulate the over-the-counter derivatives markets, and for other purposes.",
+      "introduced": "2009-12-08",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-12-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/956",
+      "stages": {
+       "reported": "2009-12-08",
+       "house": "2009-12-09"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "884",
+      "title": "Providing for consideration of the bill (H.R. 3639) to amend the Credit Card Accountablity Responsibility and Disclosure Act of 2009 to establish an earlier effective date for various consumer protections, and for other purposes.",
+      "introduced": "2009-11-03",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-11-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/884",
+      "stages": {
+       "reported": "2009-11-03",
+       "house": "2009-11-04"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "644",
+      "title": "Providing for consideration of the bill (H.R. 3170) making appropriations for financial services and general government for the fiscal year ending September 30, 2010, and for other purposes.",
+      "introduced": "2009-07-14",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-07-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/644",
+      "stages": {
+       "reported": "2009-07-14",
+       "house": "2009-07-16"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "573",
+      "title": "Providing for consideration of the bill (H.R. 2892) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2010, and for other purposes.",
+      "introduced": "2009-06-23",
+      "policyArea": "Congress",
+      "latestAction": "On motion to reconsider the vote Failed by the Yeas and Nays: 169 - 251 (Roll no. 431).",
+      "latestActionDate": "2009-06-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/573",
+      "stages": {
+       "reported": "2009-06-23",
+       "house": "2009-06-24"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "474",
+      "title": "Providing for consideration of the bill (H.R. 2200) to authorize the Transportation Security Administration's programs relating to the provision of transportation security, and for other purposes.",
+      "introduced": "2009-05-21",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/474",
+      "stages": {
+       "reported": "2009-05-21",
+       "house": "2009-06-04"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "450",
+      "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+      "introduced": "2009-05-18",
+      "policyArea": "Congress",
+      "latestAction": "Pursuant to the provisions of H. Res. 456, H. Res. 450 is laid on the table. (consideration: CR H5808, H5822)",
+      "latestActionDate": "2009-05-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/450",
+      "stages": {
+       "reported": "2009-05-18"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "434",
+      "title": "Providing for consideration of the bill (H.R. 2346) making supplemental appropriations for the fiscal year ending September 30, 2009, and for other purposes.",
+      "introduced": "2009-05-13",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/434",
+      "stages": {
+       "reported": "2009-05-13",
+       "house": "2009-05-14"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2336",
+      "title": "GREEN Act of 2010",
+      "introduced": "2009-05-07",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 361.",
+      "latestActionDate": "2010-09-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2336",
+      "stages": {
+       "reported": "2010-09-22"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "379",
+      "title": "Providing for further consideration of the bill (H.R. 627) to amend the Truth in Lending Act to establish fair and transparent practices relating to the extension of credit under an open end consumer credit plan, and for other purposes.",
+      "introduced": "2009-04-29",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-04-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/379",
+      "stages": {
+       "reported": "2009-04-29",
+       "house": "2009-04-30"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2152",
+      "title": "Foreign Business Bribery Prohibition Act of 2009",
+      "introduced": "2009-04-28",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2009-06-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2152",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "306",
+      "title": "Providing for consideration of the bill (H.R. 1664) to amend the executive compensation provisions of the Emergency Economic Stabilization Act of 2008 to prohibit unreasonable and excessive compensation and compensation not based on performance standards.",
+      "introduced": "2009-03-31",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-04-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/306",
+      "stages": {
+       "reported": "2009-03-31",
+       "house": "2009-04-01"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1499",
+      "title": "Firefighter Fatality Reduction Act of 2009",
+      "introduced": "2009-03-12",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Technology and Innovation.",
+      "latestActionDate": "2009-03-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1499",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1349",
+      "title": "Federal Accounting Oversight Board Act of 2009",
+      "introduced": "2009-03-05",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2009-03-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1349",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "157",
+      "title": "Providing for consideration of motions to suspend the rules, and for other purposes.",
+      "introduced": "2009-02-11",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/157",
+      "stages": {
+       "reported": "2009-02-11",
+       "house": "2009-02-12"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "61",
+      "title": "Providing for the attendance of the House at the Inaugural Ceremonies of the President and Vice President of the United States.",
+      "introduced": "2009-01-14",
+      "policyArea": "Congress",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2009-01-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/61",
+      "stages": {
+       "house": "2009-01-14"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 8,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5974",
+      "title": "To direct the Secretary of Education to pay to Fort Lewis College in the State of Colorado an amount equal to the tuition charges for Indian students who are not residents of the State of Colorado.",
+      "introduced": "2010-07-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2010-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5974",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "1461",
+      "title": "Supporting Olympic Day on June 23, 2010, and congratulating Team USA and World Fit participants.",
+      "introduced": "2010-06-22",
+      "policyArea": "Sports and Recreation",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2010-12-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1461",
+      "stages": {
+       "house": "2010-12-22"
+      },
+      "sponsor": {
+       "id": "L000559",
+       "name": "JAMES LANGEVIN",
+       "party": "D",
+       "state": "RI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5032",
+      "title": "Ponzi Scheme Investor Protection Act of 2010",
+      "introduced": "2010-04-15",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2010-04-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5032",
+      "stages": {},
+      "sponsor": {
+       "id": "A000022",
+       "name": "GARY ACKERMAN",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "943",
+      "title": "Expressing the sense of the House of Representatives that the Federal banking regulators should, with respect to well-managed community-based depository institutions, permit appropriate capital forbearance, troubled debt restructuring accounting practices, and other time-tested measures that would allow such institutions to continue to provide for the financial vitality for our Nation's small businesses and family farms.",
+      "introduced": "2009-12-03",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2009-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/943",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "3417",
+      "title": "Rocky Mountain Science Collections Center Act of 2009",
+      "introduced": "2009-07-30",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-08-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3417",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1888",
+      "title": "TIRE Act of 2009",
+      "introduced": "2009-04-02",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1888",
+      "stages": {},
+      "sponsor": {
+       "id": "J000288",
+       "name": "Henry Johnson",
+       "party": "D",
+       "state": "GA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1828",
+      "title": "Charlie Wolf Nuclear Workers Compensation Act",
+      "introduced": "2009-03-31",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2009-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1828",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "559",
+      "title": "FAST Redress Act of 2009",
+      "introduced": "2009-01-15",
+      "policyArea": "Emergency Management",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "latestActionDate": "2009-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/559",
+      "stages": {
+       "house": "2009-02-03"
+      },
+      "sponsor": {
+       "id": "C001067",
+       "name": "Yvette Clarke",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 3
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 212,
+    "becameLaw": 11,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 37
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 27
+     },
+     {
+      "name": "Education",
+      "count": 15
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 15
+     },
+     {
+      "name": "Taxation",
+      "count": 14
+     }
+    ]
+   }
+  },
+  "L000564": {
+   "sponsored": {
+    "count": 21,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 5
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 5
+     },
+     {
+      "name": "International Affairs",
+      "count": 3
+     },
+     {
+      "name": "Science, Technology, Communications",
+      "count": 2
+     },
+     {
+      "name": "Arts, Culture, Religion",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6471",
+      "title": "EMP Weapons Accountability Assessment Act",
+      "introduced": "2010-12-01",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Intelligence (Permanent Select).",
+      "latestActionDate": "2010-12-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6471",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6417",
+      "title": "To prohibit Federal funding of certain public radio programming, to provide for the transfer of certain public radio funds to reduce the public debt, and for other purposes.",
+      "introduced": "2010-11-17",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-11-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6417",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6349",
+      "title": "To amend title 10, United States Code, to provide for greater transparency in the conversion of Department of Defense functions previously performed by contractors to performance by Department of Defense employees, and for other purposes.",
+      "introduced": "2010-09-29",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2010-10-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6349",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5538",
+      "title": "To amend the Communications Act of 1934 to prohibit Federal funding for the Corporation for Public Broadcasting after fiscal year 2012.",
+      "introduced": "2010-06-16",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-06-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5538",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "265",
+      "title": "Expressing the sense of the Congress that the United States should neither become a signatory to the Rome Statute on the International Criminal Court nor attend the Review Conference of the Rome Statute in Kampala, Uganda, commencing on May 31, 2010.",
+      "introduced": "2010-04-21",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2010-04-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-concurrent-resolution/265",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1207",
+      "title": "Recognizing the National Museum of World War II Aviation in Colorado Springs, Colorado, as America's National World War II Aviation Museum.",
+      "introduced": "2010-03-23",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2010-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1207",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1191",
+      "title": "Urging the expedient relocation of the United States Embassy in Israel to Jerusalem.",
+      "introduced": "2010-03-18",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2010-03-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1191",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4716",
+      "title": "To prohibit the further extension or establishment of national monuments in Colorado, except by express authorization of Congress.",
+      "introduced": "2010-03-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2010-03-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4716",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "945",
+      "title": "Expressing the sense of the House of Representatives regarding the conditions for the United States becoming a signatory to or negotiating any international agreement on greenhouse gas emissions under the United Nations Framework Convention on Climate Change.",
+      "introduced": "2009-12-03",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2009-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/945",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "852",
+      "title": "Recognizing and commending Biblica for contributions made to the United States, and for other purposes.",
+      "introduced": "2009-10-21",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2009-10-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/852",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3203",
+      "title": "Cleanup of Inactive and Abandoned Mines Act",
+      "introduced": "2009-07-14",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2009-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3203",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3201",
+      "title": "Locatable Mineral Royalty and Reclamation Act of 2009",
+      "introduced": "2009-07-14",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2009-07-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3201",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3123",
+      "title": "To direct the Secretary of the Interior, acting through the Bureau of Reclamation, to remedy problems caused by a collapsed drainage tunnel in Leadville, Colorado, and for other purposes.",
+      "introduced": "2009-07-08",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2009-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3123",
+      "stages": {
+       "house": "2009-09-29"
+      }
+     },
+     {
+      "type": "HCONRES",
+      "number": "161",
+      "title": "Recognizing and congratulating the City of Colorado Springs, Colorado, as the new official site of the National Emergency Medical Services Memorial Service and the National EMS Memorial honoring emergency medical services personnel who have died in the line of duty.",
+      "introduced": "2009-07-08",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-concurrent-resolution/161",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2809",
+      "title": "To amend the Wilderness Act to allow recreation organizations consisting of hikers or horseback riders to cross wilderness areas on established trails, and for other purposes.",
+      "introduced": "2009-06-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-06-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2809",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "139",
+      "title": "Congratulating the first graduating class of the United States Air Force Academy on their 50th graduation anniversary and recognizing their contributions to the Nation.",
+      "introduced": "2009-06-03",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Received in the Senate and referred to the Committee on Armed Services.",
+      "latestActionDate": "2009-11-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-concurrent-resolution/139",
+      "stages": {
+       "house": "2009-11-05"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2540",
+      "title": "Protecting Investment in Oil shale the Next generation of Environmental, Energy and Resource Security (PIONEERS) Act",
+      "introduced": "2009-05-21",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2009-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2540",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2458",
+      "title": "Schoolchildren's Health Protection Act",
+      "introduced": "2009-05-18",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2009-10-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2458",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2330",
+      "title": "Camp Hale Study Act",
+      "introduced": "2009-05-07",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 304.",
+      "latestActionDate": "2010-03-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2330",
+      "stages": {
+       "house": "2009-06-02"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "272",
+      "title": "Amending the Rules of the House of Representatives to strike rule XXVIII, popularly known as the \"Gephardt rule\", and to provide that any measure that increases the statutory limit on the public debt shall be stand alone and require a recorded vote.",
+      "introduced": "2009-03-19",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2009-03-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/272",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "794",
+      "title": "To prohibit the use of funds to transfer enemy combatants detained by the United States at Naval Station, Guantanamo Bay, Cuba, to the Florence Federal Correctional Complex in Colorado, or to construct facilities for such enemy combatants at such location.",
+      "introduced": "2009-02-03",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2009-03-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/794",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 16,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6037",
+      "title": "To amend title 18, United States Code, to provide for an exception to the prohibition against mailing tobacco products for products mailed to members of the Armed Forces serving in a combat zone.",
+      "introduced": "2010-07-30",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2010-09-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6037",
+      "stages": {},
+      "sponsor": {
+       "id": "H001048",
+       "name": "Duncan Hunter",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5959",
+      "title": "TEA Act",
+      "introduced": "2010-07-29",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2010-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5959",
+      "stages": {},
+      "sponsor": {
+       "id": "L000566",
+       "name": "Robert Latta",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "1573",
+      "title": "To amend the Rules of the House of Representatives to prohibit bills and joint resolutions from containing more than one subject.",
+      "introduced": "2010-07-29",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2010-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1573",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "1498",
+      "title": "Supporting efforts to retain the ban on the National Highway Traffic Safety Administration's (NHTSA) ability to lobby State legislators using Federal tax dollars and urging the NHTSA to focus on crash prevention and rider education and training.",
+      "introduced": "2010-07-01",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways and Transit.",
+      "latestActionDate": "2010-07-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1498",
+      "stages": {},
+      "sponsor": {
+       "id": "S000244",
+       "name": "F. SENSENBRENNER",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5365",
+      "title": "Sons and Daughters of America Act",
+      "introduced": "2010-05-20",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts and Competition Policy.",
+      "latestActionDate": "2010-07-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5365",
+      "stages": {},
+      "sponsor": {
+       "id": "T000260",
+       "name": "TODD TIAHRT",
+       "party": "R",
+       "state": "KS"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5251",
+      "title": "Motherhood Fairness Act of 2010",
+      "introduced": "2010-05-06",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2010-05-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5251",
+      "stages": {},
+      "sponsor": {
+       "id": "S001164",
+       "name": "Jean Schmidt",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4221",
+      "title": "Department of Veterans Affairs Acquisition Improvement Act of 2009",
+      "introduced": "2009-12-08",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to House Oversight and Government Reform",
+      "latestActionDate": "2009-12-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4221",
+      "stages": {},
+      "sponsor": {
+       "id": "B001203",
+       "name": "STEPHEN BUYER",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3897",
+      "title": "Removing Reward for Section 8 Fraud Act of 2009",
+      "introduced": "2009-10-21",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2009-10-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3897",
+      "stages": {},
+      "sponsor": {
+       "id": "G000021",
+       "name": "ELTON GALLEGLY",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2845",
+      "title": "Protect the Homeland from North Korean and Iranian Ballistic Missiles Act",
+      "introduced": "2009-06-12",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Strategic Forces.",
+      "latestActionDate": "2009-06-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2845",
+      "stages": {},
+      "sponsor": {
+       "id": "F000448",
+       "name": "Trent Franks",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2842",
+      "title": "To rescind all stimulus funds that remain unobligated.",
+      "introduced": "2009-06-11",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the House Committee on Appropriations.",
+      "latestActionDate": "2009-06-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2842",
+      "stages": {},
+      "sponsor": {
+       "id": "T000260",
+       "name": "TODD TIAHRT",
+       "party": "R",
+       "state": "KS"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2823",
+      "title": "To amend the Uniformed and Overseas Citizens Absentee Voting Act to enhance and improve certain procedures relating to voting by absent members of the uniformed services, and for other purposes.",
+      "introduced": "2009-06-11",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2009-06-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2823",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2605",
+      "title": "Education Tax Deduction for All Act of 2009",
+      "introduced": "2009-05-21",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-05-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2605",
+      "stages": {},
+      "sponsor": {
+       "id": "H000676",
+       "name": "PETER HOEKSTRA",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2472",
+      "title": "Social Security Number Fraud and Identity Theft Prevention Act",
+      "introduced": "2009-05-19",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Citizenship, Refugees, Border Security, and International Law.",
+      "latestActionDate": "2009-06-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2472",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1920",
+      "title": "United Nations Durban Review Conference (Durban II) Funding Prohibition Act of 2009",
+      "introduced": "2009-04-02",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2009-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1920",
+      "stages": {},
+      "sponsor": {
+       "id": "G000548",
+       "name": "Scott Garrett",
+       "party": "R",
+       "state": "NJ"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1908",
+      "title": "WATER Act of 2009",
+      "introduced": "2009-04-02",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1908",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "174",
+      "title": "To direct the Secretary of Veterans Affairs to establish a national cemetery for veterans in the southern Colorado region.",
+      "introduced": "2009-01-06",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+      "latestActionDate": "2009-11-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/174",
+      "stages": {
+       "house": "2009-11-02"
+      },
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 619,
+    "becameLaw": 12,
+    "topics": [
+     {
+      "name": "International Affairs",
+      "count": 109
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 96
+     },
+     {
+      "name": "Taxation",
+      "count": 62
+     },
+     {
+      "name": "Health",
+      "count": 57
+     },
+     {
+      "name": "Congress",
+      "count": 35
+     }
+    ]
+   }
+  },
+  "C001077": {
+   "sponsored": {
+    "count": 11,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 5
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 2
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 1
+     },
+     {
+      "name": "Immigration",
+      "count": 1
+     },
+     {
+      "name": "Taxation",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6134",
+      "title": "To provide for a 10 percent reduction in pay for Members of Congress; to make Federal civilian employees subject to a period of mandatory unpaid leave, and to reduce appropriations for salaries and expenses for offices of the legislative branch, during fiscal year 2011; and for other purposes.",
+      "introduced": "2010-09-15",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to House Judiciary",
+      "latestActionDate": "2010-09-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6134",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5067",
+      "title": "To prohibit any use of eminent domain authority by the United States to expand the Pinon Canyon Maneuver Site in southeastern Colorado.",
+      "introduced": "2010-04-20",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2010-05-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5067",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4866",
+      "title": "RESTART Act",
+      "introduced": "2010-03-17",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2010-03-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4866",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1129",
+      "title": "Expressing the sense of the House that the Secretary of the Treasury should direct the United States Executive Directors to the International Monetary Fund and the World Bank to use the voice and vote of the United States to oppose making any loans to the Government of Antigua and Barbuda until that Government cooperates with the United States and compensates the victims of the Stanford Financial Group fraud.",
+      "introduced": "2010-03-02",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2010-03-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1129",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "230",
+      "title": "Recognizing the 150th anniversary of the Colorado National Guard.",
+      "introduced": "2010-01-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2010-02-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-concurrent-resolution/230",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "943",
+      "title": "Expressing the sense of the House of Representatives that the Federal banking regulators should, with respect to well-managed community-based depository institutions, permit appropriate capital forbearance, troubled debt restructuring accounting practices, and other time-tested measures that would allow such institutions to continue to provide for the financial vitality for our Nation's small businesses and family farms.",
+      "introduced": "2009-12-03",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2009-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/943",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2823",
+      "title": "To amend the Uniformed and Overseas Citizens Absentee Voting Act to enhance and improve certain procedures relating to voting by absent members of the uniformed services, and for other purposes.",
+      "introduced": "2009-06-11",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2009-06-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2823",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2472",
+      "title": "Social Security Number Fraud and Identity Theft Prevention Act",
+      "introduced": "2009-05-19",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Citizenship, Refugees, Border Security, and International Law.",
+      "latestActionDate": "2009-06-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2472",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1908",
+      "title": "WATER Act of 2009",
+      "introduced": "2009-04-02",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1908",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1879",
+      "title": "National Guard Employment Protection Act of 2010",
+      "introduced": "2009-04-02",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+      "latestActionDate": "2010-03-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1879",
+      "stages": {
+       "reported": "2010-03-22",
+       "house": "2010-03-24"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1435",
+      "title": "National Trails System Willing Seller Act",
+      "introduced": "2009-03-11",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-03-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1435",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 13,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6160",
+      "title": "Rare Earths and Critical Materials Revitalization Act of 2010",
+      "introduced": "2010-09-22",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2010-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6160",
+      "stages": {
+       "reported": "2010-09-28",
+       "house": "2010-09-29"
+      },
+      "sponsor": {
+       "id": "D000608",
+       "name": "Kathleen Dahlkemper",
+       "party": "D",
+       "state": "PA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HCONRES",
+      "number": "316",
+      "title": "Expressing the sense of Congress that Taiwan and its 23,000,000 people deserve membership in the United Nations.",
+      "introduced": "2010-09-14",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2010-09-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-concurrent-resolution/316",
+      "stages": {},
+      "sponsor": {
+       "id": "G000548",
+       "name": "Scott Garrett",
+       "party": "R",
+       "state": "NJ"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5974",
+      "title": "To direct the Secretary of Education to pay to Fort Lewis College in the State of Colorado an amount equal to the tuition charges for Indian students who are not residents of the State of Colorado.",
+      "introduced": "2010-07-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2010-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5974",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "1565",
+      "title": "Expressing support for the designation of the third Thursday of April as \"Rachel's Challenge: A Day of Kindness and Compassion\" in honor of the triumph and hope stemming from the life of Rachel Scott and in memoriam of the Columbine High School tragedy.",
+      "introduced": "2010-07-28",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Healthy Families and Communities.",
+      "latestActionDate": "2010-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1565",
+      "stages": {},
+      "sponsor": {
+       "id": "H000067",
+       "name": "RALPH HALL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5445",
+      "title": "Incentives for Successful Small Businesses Act of 2010",
+      "introduced": "2010-05-27",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2010-05-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5445",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5420",
+      "title": "Incentives for Successful Companies Act of 2010",
+      "introduced": "2010-05-26",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2010-05-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5420",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4877",
+      "title": "Community Bank and Automotive Industry Recapitalization Act of 2010",
+      "introduced": "2010-03-18",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to House Financial Services",
+      "latestActionDate": "2010-03-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4877",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4716",
+      "title": "To prohibit the further extension or establishment of national monuments in Colorado, except by express authorization of Congress.",
+      "introduced": "2010-03-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2010-03-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4716",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3781",
+      "title": "Target Practice and Marksmanship Training Support Act",
+      "introduced": "2009-10-08",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Insular Affairs, Oceans and Wildlife.",
+      "latestActionDate": "2009-10-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3781",
+      "stages": {},
+      "sponsor": {
+       "id": "M001172",
+       "name": "Betsy Markey",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "3417",
+      "title": "Rocky Mountain Science Collections Center Act of 2009",
+      "introduced": "2009-07-30",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-08-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3417",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2540",
+      "title": "Protecting Investment in Oil shale the Next generation of Environmental, Energy and Resource Security (PIONEERS) Act",
+      "introduced": "2009-05-21",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2009-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2540",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1860",
+      "title": "Four Corners Television Access Act of 2009",
+      "introduced": "2009-04-01",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Communications, Technology, and the Internet.",
+      "latestActionDate": "2009-04-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1860",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1828",
+      "title": "Charlie Wolf Nuclear Workers Compensation Act",
+      "introduced": "2009-03-31",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2009-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1828",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 286,
+    "becameLaw": 11,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 45
+     },
+     {
+      "name": "Taxation",
+      "count": 34
+     },
+     {
+      "name": "Health",
+      "count": 26
+     },
+     {
+      "name": "International Affairs",
+      "count": 26
+     },
+     {
+      "name": "Congress",
+      "count": 19
+     }
+    ]
+   }
+  }
+ }
+}

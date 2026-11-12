@@ -1,0 +1,3548 @@
+{
+ "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
+ "congress": 112,
+ "updated": "2026-11-12",
+ "members": {
+  "D000197": {
+   "sponsored": {
+    "count": 14,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 8
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 2
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 1
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 1
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6606",
+      "title": "Respect States' and Citizens' Rights Act of 2012",
+      "introduced": "2012-11-27",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2012-12-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6606",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6309",
+      "title": "To amend the Public Health Service Act to reauthorize the special diabetes programs for Type I diabetes and Indians under that Act.",
+      "introduced": "2012-08-02",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2012-08-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6309",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6258",
+      "title": "Start Healthy Act of 2012",
+      "introduced": "2012-08-01",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2012-08-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6258",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6092",
+      "title": "Wildland Firefighters Health Protection Act",
+      "introduced": "2012-07-10",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2012-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6092",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4091",
+      "title": "Coordination of Pro Bono Medically Recommended Dental Care Act",
+      "introduced": "2012-02-27",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2012-02-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4091",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2922",
+      "title": "Colorado Wilderness Act of 2011",
+      "introduced": "2011-09-14",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2011-10-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2922",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2741",
+      "title": "Preventing Diabetes in Medicare Act of 2011",
+      "introduced": "2011-08-01",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-08-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2741",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2625",
+      "title": "Research Participants Protection Modernization Act of 2011",
+      "introduced": "2011-07-22",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-08-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2625",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2420",
+      "title": "Colorado Wilderness Act of 2011",
+      "introduced": "2011-07-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2011-07-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2420",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2376",
+      "title": "Stem Cell Research Advancement Act of 2011",
+      "introduced": "2011-06-24",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-06-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2376",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2245",
+      "title": "Preserving Access to Life-Saving Medications Act of 2011",
+      "introduced": "2011-06-21",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-06-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2245",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1084",
+      "title": "Fracturing Responsibility and Awareness of Chemicals Act of 2011",
+      "introduced": "2011-03-15",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment and the Economy.",
+      "latestActionDate": "2011-03-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1084",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1080",
+      "title": "Pediatric Research Consortia Establishment Act",
+      "introduced": "2011-03-15",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-03-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1080",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "446",
+      "title": "For the relief of Rosa Isela Figueroa Rincon, Miguel Angel Figueroa Rincon, Blanca Azucena Figueroa Rincon, and Nancy Araceli Figueroa Rincon.",
+      "introduced": "2011-01-25",
+      "policyArea": "Private Legislation",
+      "latestAction": "Referred to the Subcommittee on Immigration Policy and Enforcement.",
+      "latestActionDate": "2011-02-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/446",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 13,
+    "becameLaw": 1,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6377",
+      "title": "Mobile Device Privacy Act",
+      "introduced": "2012-09-12",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Commerce, Manufacturing, and Trade.",
+      "latestActionDate": "2012-09-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6377",
+      "stages": {},
+      "sponsor": {
+       "id": "M000133",
+       "name": "Edward Markey",
+       "party": "D",
+       "state": "MA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "6163",
+      "title": "National Pediatric Research Network Act of 2012",
+      "introduced": "2012-07-19",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2012-09-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6163",
+      "stages": {
+       "house": "2012-09-19"
+      },
+      "sponsor": {
+       "id": "M001159",
+       "name": "Cathy McMorris Rodgers",
+       "party": "R",
+       "state": "WA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "6155",
+      "title": "Palliative Care and Hospice Education and Training Act",
+      "introduced": "2012-07-19",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2012-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6155",
+      "stages": {},
+      "sponsor": {
+       "id": "E000179",
+       "name": "ELIOT ENGEL",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5334",
+      "title": "To amend chapter V of the Federal Food, Drug, and Cosmetic Act to expedite the development and review of breakthrough therapies.",
+      "introduced": "2012-05-07",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2012-05-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5334",
+      "stages": {},
+      "sponsor": {
+       "id": "B000461",
+       "name": "BRIAN BILBRAY",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3680",
+      "title": "Hydropower Regulatory Efficiency Act of 2011",
+      "introduced": "2011-12-15",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2012-01-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3680",
+      "stages": {},
+      "sponsor": {
+       "id": "M001159",
+       "name": "Cathy McMorris Rodgers",
+       "party": "R",
+       "state": "WA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3457",
+      "title": "Cleaning Product Right to Know Act of 2011",
+      "introduced": "2011-11-17",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Commerce, Manufacturing, and Trade.",
+      "latestActionDate": "2011-11-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3457",
+      "stages": {},
+      "sponsor": {
+       "id": "I000057",
+       "name": "STEVE ISRAEL",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3382",
+      "title": "Smoke-Free Federal Buildings Act",
+      "introduced": "2011-11-04",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.",
+      "latestActionDate": "2011-11-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3382",
+      "stages": {},
+      "sponsor": {
+       "id": "D000598",
+       "name": "SUSAN DAVIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3364",
+      "title": "Equity and Access for Podiatric Physicians Under Medicaid Act",
+      "introduced": "2011-11-04",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-11-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3364",
+      "stages": {},
+      "sponsor": {
+       "id": "T000459",
+       "name": "LEE TERRY",
+       "party": "R",
+       "state": "NE"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3150",
+      "title": "Medicare Safe Needle Disposal Coverage Act of 2011",
+      "introduced": "2011-10-11",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-10-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3150",
+      "stages": {},
+      "sponsor": {
+       "id": "W000413",
+       "name": "EDWARD WHITFIELD",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2787",
+      "title": "Medicare Diabetes Self-Management Training Act of 2011",
+      "introduced": "2011-08-01",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-08-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2787",
+      "stages": {},
+      "sponsor": {
+       "id": "W000413",
+       "name": "EDWARD WHITFIELD",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1483",
+      "title": "Drug Safety Enhancement Act of 2011",
+      "introduced": "2011-04-12",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-04-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1483",
+      "stages": {},
+      "sponsor": {
+       "id": "D000355",
+       "name": "JOHN DINGELL",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "894",
+      "title": "Maternal Health Accountability Act of 2011",
+      "introduced": "2011-03-03",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-03-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/894",
+      "stages": {},
+      "sponsor": {
+       "id": "C000714",
+       "name": "JOHN CONYERS",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "765",
+      "title": "Ski Area Recreational Opportunity Enhancement Act of 2011",
+      "introduced": "2011-02-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 112-46.",
+      "latestActionDate": "2011-11-07",
+      "law": "112-46",
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/765",
+      "stages": {
+       "reported": "2011-07-20",
+       "house": "2011-10-03",
+       "senate": "2011-10-18",
+       "president": "2011-10-31",
+       "law": "2011-11-07"
+      },
+      "sponsor": {
+       "id": "B001250",
+       "name": "Rob Bishop",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 224,
+    "becameLaw": 6,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 60
+     },
+     {
+      "name": "International Affairs",
+      "count": 20
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 17
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 16
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 15
+     }
+    ]
+   }
+  },
+  "P000598": {
+   "sponsored": {
+    "count": 33,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Education",
+      "count": 13
+     },
+     {
+      "name": "Foreign Trade and International Finance",
+      "count": 6
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 3
+     },
+     {
+      "name": "Taxation",
+      "count": 3
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6394",
+      "title": "Affordable Housing Regulation Simplification Act of 2012",
+      "introduced": "2012-09-13",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the Subcommittee on Capital Markets and Government Sponsored Enterprises.",
+      "latestActionDate": "2012-10-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6394",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6370",
+      "title": "To provide for the conveyance of the Forest Service Lake Hill Administrative Site in Summit County, Colorado.",
+      "introduced": "2012-09-11",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2012-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6370",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6273",
+      "title": "Know Before You Owe Private Student Loan Act of 2012",
+      "introduced": "2012-08-02",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Financial Institutions and Consumer Credit.",
+      "latestActionDate": "2012-10-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6273",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "756",
+      "title": "Expressing support for designation of the week of September 10, 2012, as National Adult Education and Family Literacy Week.",
+      "introduced": "2012-08-02",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2012-08-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/756",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5906",
+      "title": "To amend the Internal Revenue Code of 1986 to repeal the excise tax on medical devices.",
+      "introduced": "2012-06-07",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2012-06-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5906",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5874",
+      "title": "American Entrepreneurship and Investment Act of 2012",
+      "introduced": "2012-05-31",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration Policy and Enforcement.",
+      "latestActionDate": "2012-06-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5874",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5789",
+      "title": "SLICE Act",
+      "introduced": "2012-05-16",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2012-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5789",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5636",
+      "title": "To suspend temporarily the duty on certain rolling duffel bags without a removable backpack or daypack.",
+      "introduced": "2012-05-08",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2012-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5636",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5635",
+      "title": "To suspend temporarily the duty on certain rolling duffel bags with a removable backpack or daypack.",
+      "introduced": "2012-05-08",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2012-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5635",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5634",
+      "title": "To suspend temporarily the duty on certain rolling backpacks without a removable backpack or daypack.",
+      "introduced": "2012-05-08",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2012-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5634",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5633",
+      "title": "To suspend temporarily the duty on certain rolling backpacks with a removable backpack or daypack.",
+      "introduced": "2012-05-08",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2012-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5633",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5632",
+      "title": "To suspend temporarily the duty on certain rolling travel bags without a removable backpack or daypack.",
+      "introduced": "2012-05-08",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2012-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5632",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5631",
+      "title": "To suspend temporarily the duty on certain rolling travel bags with a removable backpack or daypack.",
+      "introduced": "2012-05-08",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2012-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5631",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "541",
+      "title": "Amending the Rules of the House of Representatives to provide that the House may not consider major legislation unless it addresses one issue at a time.",
+      "introduced": "2012-02-08",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2012-02-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/541",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3845",
+      "title": "Growth to Excellence Act of 2012",
+      "introduced": "2012-01-31",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2012-03-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3845",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3535",
+      "title": "ACE Act",
+      "introduced": "2011-12-01",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2012-03-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3535",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3014",
+      "title": "Computer Science Education Act of 2011",
+      "introduced": "2011-09-22",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2011-09-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3014",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2935",
+      "title": "Defending Special Education Students and Families Act",
+      "introduced": "2011-09-15",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Committee on Education and the Workforce, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2011-09-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2935",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2933",
+      "title": "Sound Recording Simplification Act",
+      "introduced": "2011-09-14",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Intellectual Property, Competition and the Internet.",
+      "latestActionDate": "2011-09-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2933",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "385",
+      "title": "Expressing support for designation of the week of September 12, 2011, as National Adult Education and Family Literacy Week.",
+      "introduced": "2011-08-01",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2011-08-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/385",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2635",
+      "title": "COINS Act of 2011",
+      "introduced": "2011-07-25",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Domestic Monetary Policy and Technology.",
+      "latestActionDate": "2011-08-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2635",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2617",
+      "title": "Pregnant and Parenting Students Access to Education Act of 2011",
+      "introduced": "2011-07-21",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2011-09-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2617",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2315",
+      "title": "Women WIN Jobs",
+      "introduced": "2011-06-23",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2011-09-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2315",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2211",
+      "title": "Great Teaching for Great Schools Act of 2011",
+      "introduced": "2011-06-16",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2011-09-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2211",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1984",
+      "title": "Small Business Banking Improvement Act of 2011",
+      "introduced": "2011-05-25",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Financial Institutions and Consumer Credit.",
+      "latestActionDate": "2011-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1984",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1701",
+      "title": "Eagle and Summit County Wilderness Preservation Act",
+      "introduced": "2011-05-03",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2011-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1701",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1532",
+      "title": "Race to the Top Act of 2011",
+      "introduced": "2011-04-14",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2011-05-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1532",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1525",
+      "title": "All-STAR Act of 2011",
+      "introduced": "2011-04-13",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2011-05-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1525",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1481",
+      "title": "Investment Property Opportunity Act of 2011",
+      "introduced": "2011-04-12",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-04-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1481",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1313",
+      "title": "Community Bank and Automotive Industry Recapitalization Act of 2011",
+      "introduced": "2011-04-01",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-04-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1313",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1204",
+      "title": "To amend the Clean Air Act to eliminate the exemption for aggregation of emissions from oil and gas development sources, and for other purposes.",
+      "introduced": "2011-03-17",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2011-03-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1204",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "998",
+      "title": "Student Non-Discrimination Act of 2011",
+      "introduced": "2011-03-10",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2011-03-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/998",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "643",
+      "title": "Sugar Loaf Fire Protection District Land Exchange Act",
+      "introduced": "2011-02-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 106.",
+      "latestActionDate": "2011-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/643",
+      "stages": {
+       "reported": "2011-07-20"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 37,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6480",
+      "title": "Internet Radio Fairness Act of 2012",
+      "introduced": "2012-09-21",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Intellectual Property, Competition and the Internet.",
+      "latestActionDate": "2012-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6480",
+      "stages": {},
+      "sponsor": {
+       "id": "C001076",
+       "name": "Jason Chaffetz",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "781",
+      "title": "Expressing support for designation of the month of October 2012 as National Principals Month.",
+      "introduced": "2012-09-13",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2012-09-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/781",
+      "stages": {},
+      "sponsor": {
+       "id": "D000598",
+       "name": "SUSAN DAVIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "6099",
+      "title": "SEED Act of 2012",
+      "introduced": "2012-07-11",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Subcommittee on Capital Markets and Government Sponsored Enterprises.",
+      "latestActionDate": "2012-07-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6099",
+      "stages": {},
+      "sponsor": {
+       "id": "C001060",
+       "name": "Russ Carnahan",
+       "party": "D",
+       "state": "MO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4469",
+      "title": "Four Corners Television Access Act of 2012",
+      "introduced": "2012-04-19",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Intellectual Property, Competition and the Internet.",
+      "latestActionDate": "2012-05-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4469",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4329",
+      "title": "Disabled Military Child Protection Act of 2012",
+      "introduced": "2012-03-29",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2012-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4329",
+      "stages": {},
+      "sponsor": {
+       "id": "M000933",
+       "name": "JAMES MORAN",
+       "party": "D",
+       "state": "VA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3714",
+      "title": "School Building Enhancement Act",
+      "introduced": "2011-12-16",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2012-03-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3714",
+      "stages": {},
+      "sponsor": {
+       "id": "H001032",
+       "name": "RUSH HOLT",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3460",
+      "title": "American Jobs First Act of 2011",
+      "introduced": "2011-11-17",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-11-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3460",
+      "stages": {},
+      "sponsor": {
+       "id": "B001231",
+       "name": "SHELLEY BERKLEY",
+       "party": "D",
+       "state": "NV"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HJRES",
+      "number": "87",
+      "title": "Proposing a balanced budget amendment to the Constitution of the United States.",
+      "introduced": "2011-11-15",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2011-11-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-joint-resolution/87",
+      "stages": {},
+      "sponsor": {
+       "id": "C001083",
+       "name": "John Carney",
+       "party": "D",
+       "state": "DE"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3420",
+      "title": "Philanthropic Facilitation Act",
+      "introduced": "2011-11-14",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-11-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3420",
+      "stages": {},
+      "sponsor": {
+       "id": "S001179",
+       "name": "Aaron Schock",
+       "party": "R",
+       "state": "IL"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3322",
+      "title": "Supporting State Systems of Early Learning Act",
+      "introduced": "2011-11-02",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2011-11-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3322",
+      "stages": {},
+      "sponsor": {
+       "id": "H001047",
+       "name": "James Himes",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "415",
+      "title": "Expressing support for designation of the month of October 2011 as National Principals Month.",
+      "introduced": "2011-09-23",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2011-09-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/415",
+      "stages": {},
+      "sponsor": {
+       "id": "D000598",
+       "name": "SUSAN DAVIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2794",
+      "title": "Continuum of Learning Act of 2011",
+      "introduced": "2011-08-05",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2011-09-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2794",
+      "stages": {},
+      "sponsor": {
+       "id": "H001042",
+       "name": "Mazie Hirono",
+       "party": "D",
+       "state": "HI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2611",
+      "title": "Promoting Partnerships to Transform Opportunities Act",
+      "introduced": "2011-07-21",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2011-09-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2611",
+      "stages": {},
+      "sponsor": {
+       "id": "G000551",
+       "name": "Raúl Grijalva",
+       "party": "D",
+       "state": "AZ"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2593",
+      "title": "Wasteful Presidential Coin Act of 2011",
+      "introduced": "2011-07-19",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Domestic Monetary Policy and Technology.",
+      "latestActionDate": "2011-08-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2593",
+      "stages": {},
+      "sponsor": {
+       "id": "S001175",
+       "name": "Jackie Speier",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2394",
+      "title": "Rebuilding America's Schools Act",
+      "introduced": "2011-06-24",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-06-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2394",
+      "stages": {},
+      "sponsor": {
+       "id": "R000053",
+       "name": "CHARLES RANGEL",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2339",
+      "title": "Lobbyist Disclosure Enhancement Act",
+      "introduced": "2011-06-23",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2011-08-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2339",
+      "stages": {},
+      "sponsor": {
+       "id": "Q000023",
+       "name": "Mike Quigley",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2306",
+      "title": "Ending Federal Marijuana Prohibition Act of 2011",
+      "introduced": "2011-06-23",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2011-08-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2306",
+      "stages": {},
+      "sponsor": {
+       "id": "F000339",
+       "name": "BARNEY FRANK",
+       "party": "D",
+       "state": "MA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1985",
+      "title": "Small Business Tax Equity Act of 2011",
+      "introduced": "2011-05-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-05-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1985",
+      "stages": {},
+      "sponsor": {
+       "id": "S000810",
+       "name": "PETE STARK",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1983",
+      "title": "States' Medical Marijuana Patient Protection Act",
+      "introduced": "2011-05-25",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-06-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1983",
+      "stages": {},
+      "sponsor": {
+       "id": "F000339",
+       "name": "BARNEY FRANK",
+       "party": "D",
+       "state": "MA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1929",
+      "title": "Emergency Nursing Supply Relief Act",
+      "introduced": "2011-05-13",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Immigration Policy and Enforcement.",
+      "latestActionDate": "2011-07-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1929",
+      "stages": {},
+      "sponsor": {
+       "id": "S000244",
+       "name": "F. SENSENBRENNER",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1869",
+      "title": "Lifelong Learning Accounts Act of 2011",
+      "introduced": "2011-05-12",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2011-09-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1869",
+      "stages": {},
+      "sponsor": {
+       "id": "L000557",
+       "name": "JOHN LARSON",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1834",
+      "title": "Freedom to Invest Act of 2011",
+      "introduced": "2011-05-11",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-05-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1834",
+      "stages": {},
+      "sponsor": {
+       "id": "B000755",
+       "name": "KEVIN BRADY",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1732",
+      "title": "Innovative Technologies Investment Incentive Act of 2011",
+      "introduced": "2011-05-04",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-05-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1732",
+      "stages": {},
+      "sponsor": {
+       "id": "V000128",
+       "name": "Chris Van Hollen",
+       "party": "D",
+       "state": "MD"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1624",
+      "title": "To amend the Public Utility Regulatory Policies Act of 1978 to establish uniform national standards for the interconnection of certain small power production facilities.",
+      "introduced": "2011-04-15",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2011-04-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1624",
+      "stages": {},
+      "sponsor": {
+       "id": "L000570",
+       "name": "Ben Luján",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "230",
+      "title": "Amending the Rules of the House of Representatives to provide that the House may not consider any reported bill until at least 72 hours after it is reported.",
+      "introduced": "2011-04-15",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2011-04-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/230",
+      "stages": {},
+      "sponsor": {
+       "id": "P000595",
+       "name": "Gary Peters",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1368",
+      "title": "STELLAR Act",
+      "introduced": "2011-04-05",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2011-04-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1368",
+      "stages": {},
+      "sponsor": {
+       "id": "D000598",
+       "name": "SUSAN DAVIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1364",
+      "title": "Free Speech About Science Act of 2011",
+      "introduced": "2011-04-05",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-04-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1364",
+      "stages": {},
+      "sponsor": {
+       "id": "C001076",
+       "name": "Jason Chaffetz",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1311",
+      "title": "Medical Foods Equity Act of 2011",
+      "introduced": "2011-04-01",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2011-05-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1311",
+      "stages": {},
+      "sponsor": {
+       "id": "B001230",
+       "name": "Tammy Baldwin",
+       "party": "D",
+       "state": "WI"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1302",
+      "title": "Transparent and Sustainable Budget Act of 2011",
+      "introduced": "2011-03-31",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on the Budget, and in addition to the Committees on Rules, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2011-03-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1302",
+      "stages": {},
+      "sponsor": {
+       "id": "Q000023",
+       "name": "Mike Quigley",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1155",
+      "title": "Expedited Consideration of Terminations, Reductions, and Savings Act of 2011",
+      "introduced": "2011-03-17",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on the Budget, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2011-03-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1155",
+      "stages": {},
+      "sponsor": {
+       "id": "P000595",
+       "name": "Gary Peters",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1030",
+      "title": "EEOICPA Amendment Act of 2011",
+      "introduced": "2011-03-10",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Immigration Policy and Enforcement.",
+      "latestActionDate": "2011-03-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1030",
+      "stages": {},
+      "sponsor": {
+       "id": "W000413",
+       "name": "EDWARD WHITFIELD",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1029",
+      "title": "Energy Employees Occupational Illness Compensation Program Improvement Act of 2011",
+      "introduced": "2011-03-10",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Immigration Policy and Enforcement.",
+      "latestActionDate": "2011-03-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1029",
+      "stages": {},
+      "sponsor": {
+       "id": "W000413",
+       "name": "EDWARD WHITFIELD",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "933",
+      "title": "Immigration Oversight and Fairness Act",
+      "introduced": "2011-03-03",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration Policy and Enforcement.",
+      "latestActionDate": "2011-03-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/933",
+      "stages": {},
+      "sponsor": {
+       "id": "R000486",
+       "name": "LUCILLE ROYBAL-ALLARD",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "101",
+      "title": "Expressing support for the Republic of India to gain a permanent seat on the United Nations Security Council.",
+      "introduced": "2011-02-17",
+      "policyArea": "International Affairs",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E263)",
+      "latestActionDate": "2011-02-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/101",
+      "stages": {},
+      "sponsor": {
+       "id": "H000324",
+       "name": "ALCEE HASTINGS",
+       "party": "D",
+       "state": "FL"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "100",
+      "title": "Honoring the life of David Kato and all who are victims of violence in Uganda because of their sexual orientation or gender identity.",
+      "introduced": "2011-02-17",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Africa, Global Health, and Human Rights.",
+      "latestActionDate": "2011-03-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/100",
+      "stages": {},
+      "sponsor": {
+       "id": "G000535",
+       "name": "LUIS GUTIERREZ",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "521",
+      "title": "To amend the Federal Food, Drug, and Cosmetic Act to prevent the approval of genetically engineered fish.",
+      "introduced": "2011-02-08",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-02-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/521",
+      "stages": {},
+      "sponsor": {
+       "id": "Y000033",
+       "name": "DON YOUNG",
+       "party": "R",
+       "state": "AK"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "67",
+      "title": "To amend the Rules of the House of Representatives to prohibit bills and joint resolutions from containing more than one subject.",
+      "introduced": "2011-01-26",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2011-01-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/67",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 399,
+    "becameLaw": 9,
+    "topics": [
+     {
+      "name": "Education",
+      "count": 62
+     },
+     {
+      "name": "Taxation",
+      "count": 37
+     },
+     {
+      "name": "Health",
+      "count": 35
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 31
+     },
+     {
+      "name": "Immigration",
+      "count": 28
+     }
+    ]
+   }
+  },
+  "P000593": {
+   "sponsored": {
+    "count": 6,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Housing and Community Development",
+      "count": 2
+     },
+     {
+      "name": "Taxation",
+      "count": 1
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 1
+     },
+     {
+      "name": "Commerce",
+      "count": 1
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6615",
+      "title": "To exclude from gross income payments from the Aurora Victim Relief Fund to the victims of the event at the Century 16 Cinema in Aurora, Colorado, on July 20, 2012.",
+      "introduced": "2012-11-29",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2012-11-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6615",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "134",
+      "title": "Condemning, in the strongest possible terms, the heinous atrocities that occurred in Aurora, Colorado.",
+      "introduced": "2012-07-24",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Message on Senate action sent to the House.",
+      "latestActionDate": "2012-07-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-concurrent-resolution/134",
+      "stages": {
+       "house": "2012-07-26",
+       "senate": "2012-07-26"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3531",
+      "title": "Foreign Business Bribery Prohibition Act of 2011",
+      "introduced": "2011-11-30",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Courts, Commercial and Administrative Law.",
+      "latestActionDate": "2011-12-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3531",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3530",
+      "title": "Freddie Mac Debt Reduction Act of 2011",
+      "introduced": "2011-11-30",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the Subcommittee on Capital Markets and Government Sponsored Enterprises.",
+      "latestActionDate": "2012-01-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3530",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3325",
+      "title": "Livable Communities Act of 2011",
+      "introduced": "2011-11-02",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the Subcommittee on Domestic Monetary Policy and Technology.",
+      "latestActionDate": "2012-01-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3325",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1356",
+      "title": "Capital Access for Main Street Act of 2011",
+      "introduced": "2011-04-04",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Capital Markets and Government Sponsored Enterprises.",
+      "latestActionDate": "2011-05-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1356",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 8,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "780",
+      "title": "Supporting the goals and ideals of the Olympic movement.",
+      "introduced": "2012-09-12",
+      "policyArea": "International Affairs",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E1632)",
+      "latestActionDate": "2012-09-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/780",
+      "stages": {},
+      "sponsor": {
+       "id": "L000559",
+       "name": "JAMES LANGEVIN",
+       "party": "D",
+       "state": "RI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "6125",
+      "title": "To amend the Federal Deposit Insurance Act and the Federal Credit Union Act with respect to privilege of information provided to Federal and State agencies, and for other purposes.",
+      "introduced": "2012-07-12",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Financial Institutions and Consumer Credit.",
+      "latestActionDate": "2012-07-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6125",
+      "stages": {},
+      "sponsor": {
+       "id": "R000586",
+       "name": "James Renacci",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "6037",
+      "title": "Small Business Lending for Jobs Act of 2012",
+      "introduced": "2012-06-27",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Financial Institutions and Consumer Credit.",
+      "latestActionDate": "2012-10-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6037",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5936",
+      "title": "Civil Liberties Act of 2012",
+      "introduced": "2012-06-08",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Committee on Armed Services, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2012-06-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5936",
+      "stages": {},
+      "sponsor": {
+       "id": "G000559",
+       "name": "John Garamendi",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HJRES",
+      "number": "87",
+      "title": "Proposing a balanced budget amendment to the Constitution of the United States.",
+      "introduced": "2011-11-15",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2011-11-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-joint-resolution/87",
+      "stages": {},
+      "sponsor": {
+       "id": "C001083",
+       "name": "John Carney",
+       "party": "D",
+       "state": "DE"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3147",
+      "title": "Small Business Lending Extension Act",
+      "introduced": "2011-10-11",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Financial Institutions and Consumer Credit.",
+      "latestActionDate": "2011-10-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3147",
+      "stages": {},
+      "sponsor": {
+       "id": "C001083",
+       "name": "John Carney",
+       "party": "D",
+       "state": "DE"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "298",
+      "title": "Expressing the sense of the House of Representatives that there is need for specified agencies to coordinate and capitalize on existing programs for epilepsy awareness.",
+      "introduced": "2011-06-03",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2011-06-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/298",
+      "stages": {},
+      "sponsor": {
+       "id": "E000172",
+       "name": "JO EMERSON",
+       "party": "R",
+       "state": "MO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1174",
+      "title": "Internet Gambling Regulation, Consumer Protection, and Enforcement Act",
+      "introduced": "2011-03-17",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2011-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1174",
+      "stages": {},
+      "sponsor": {
+       "id": "C001064",
+       "name": "John Campbell",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 159,
+    "becameLaw": 11,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 33
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 16
+     },
+     {
+      "name": "Taxation",
+      "count": 14
+     },
+     {
+      "name": "International Affairs",
+      "count": 14
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 12
+     }
+    ]
+   }
+  },
+  "T000470": {
+   "sponsored": {
+    "count": 14,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 4
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 3
+     },
+     {
+      "name": "Taxation",
+      "count": 2
+     },
+     {
+      "name": "Foreign Trade and International Finance",
+      "count": 1
+     },
+     {
+      "name": "Science, Technology, Communications",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6569",
+      "title": "Survey Savings Accountability Act",
+      "introduced": "2012-10-05",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2012-10-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6569",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6271",
+      "title": "Family Farm and Small Business Tax Relief Act of 2012",
+      "introduced": "2012-08-01",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2012-08-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6271",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6089",
+      "title": "Healthy Forest Management Act of 2012",
+      "introduced": "2012-07-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation, Energy, and Forestry.",
+      "latestActionDate": "2012-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6089",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5513",
+      "title": "TRADE for Small Businesses and Jobs Act",
+      "introduced": "2012-05-07",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2012-05-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/5513",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4469",
+      "title": "Four Corners Television Access Act of 2012",
+      "introduced": "2012-04-19",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Intellectual Property, Competition and the Internet.",
+      "latestActionDate": "2012-05-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4469",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4381",
+      "title": "Planning for American Energy Act of 2012",
+      "introduced": "2012-04-18",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 378.",
+      "latestActionDate": "2012-06-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4381",
+      "stages": {
+       "reported": "2012-06-15"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4370",
+      "title": "Eliminating Duplicative and Inefficient Taxpayer Spending Act",
+      "introduced": "2012-04-17",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2012-04-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4370",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3235",
+      "title": "Education and Energy Act of 2011",
+      "introduced": "2011-10-14",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2011-11-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3235",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3040",
+      "title": "Native American Indian Education Act of 2011",
+      "introduced": "2011-09-23",
+      "policyArea": "Native Americans",
+      "latestAction": "Referred to the Committee on Education and the Workforce, and in addition to the Committee on Appropriations, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2011-09-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3040",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2842",
+      "title": "Bureau of Reclamation Small Conduit Hydropower Development and Rural Jobs Act of 2012",
+      "introduced": "2011-09-06",
+      "policyArea": "Energy",
+      "latestAction": "Committee on Energy and Natural Resources Subcommittee on Water and Power. Hearings held. With printed Hearing: S.Hrg. 112-624.",
+      "latestActionDate": "2012-09-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2842",
+      "stages": {
+       "reported": "2011-12-01",
+       "house": "2012-03-07"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2815",
+      "title": "To revise the Federal charter for the Blue Star Mothers of America, Inc., to reflect a change in eligibility requirements for membership.",
+      "introduced": "2011-08-09",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 213.",
+      "latestActionDate": "2011-12-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2815",
+      "stages": {
+       "reported": "2011-12-05"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2621",
+      "title": "Chimney Rock National Monument Establishment Act",
+      "introduced": "2011-07-21",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2012-05-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2621",
+      "stages": {
+       "reported": "2012-05-10",
+       "house": "2012-05-16"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1658",
+      "title": "To name the Department of Veterans Affairs telehealth clinic in Craig, Colorado, as the \"Major William Edward Adams Department of Veterans Affairs Clinic\".",
+      "introduced": "2011-04-15",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2011-04-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1658",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1074",
+      "title": "To amend the Internal Revenue Code of 1986 to reduce the corporate income tax rate to 10 percent and to lower the rate of tax on capital gains and dividends to 10 percent.",
+      "introduced": "2011-03-14",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1074",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 6,
+    "becameLaw": 1,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6462",
+      "title": "Water and Agriculture Technology Economic Revitalization Act of 2012",
+      "introduced": "2012-09-20",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2012-09-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6462",
+      "stages": {},
+      "sponsor": {
+       "id": "G000562",
+       "name": "Cory Gardner",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "793",
+      "title": "Expressing support for the designation of a \"Small Business Saturday\" and supporting efforts to increase awareness of the value of locally owned small businesses.",
+      "introduced": "2012-09-20",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on Small Business.",
+      "latestActionDate": "2012-09-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/793",
+      "stages": {},
+      "sponsor": {
+       "id": "G000546",
+       "name": "SAM GRAVES",
+       "party": "R",
+       "state": "MO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "6014",
+      "title": "Katie Sepich Enhanced DNA Collection Act of 2012",
+      "introduced": "2012-06-21",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Became Public Law No: 112-253.",
+      "latestActionDate": "2013-01-10",
+      "law": "112-253",
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6014",
+      "stages": {
+       "house": "2012-12-18",
+       "senate": "2012-12-28",
+       "president": "2013-01-01",
+       "law": "2013-01-10"
+      },
+      "sponsor": {
+       "id": "S001150",
+       "name": "ADAM SCHIFF",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1356",
+      "title": "Capital Access for Main Street Act of 2011",
+      "introduced": "2011-04-04",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Capital Markets and Government Sponsored Enterprises.",
+      "latestActionDate": "2011-05-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1356",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "988",
+      "title": "Katie Sepich Enhanced DNA Collection Act of 2011",
+      "introduced": "2011-03-09",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2011-03-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/988",
+      "stages": {},
+      "sponsor": {
+       "id": "S001150",
+       "name": "ADAM SCHIFF",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "67",
+      "title": "To amend the Rules of the House of Representatives to prohibit bills and joint resolutions from containing more than one subject.",
+      "introduced": "2011-01-26",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2011-01-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/67",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 166,
+    "becameLaw": 9,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 23
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 17
+     },
+     {
+      "name": "Taxation",
+      "count": 16
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 13
+     },
+     {
+      "name": "International Affairs",
+      "count": 12
+     }
+    ]
+   }
+  },
+  "G000562": {
+   "sponsored": {
+    "count": 7,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 3
+     },
+     {
+      "name": "Energy",
+      "count": 2
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 1
+     },
+     {
+      "name": "Congress",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6462",
+      "title": "Water and Agriculture Technology Economic Revitalization Act of 2012",
+      "introduced": "2012-09-20",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2012-09-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6462",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6289",
+      "title": "Making College Affordable Act of 2012",
+      "introduced": "2012-08-02",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2012-08-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6289",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4480",
+      "title": "Domestic Energy and Jobs Act",
+      "introduced": "2012-04-24",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2012-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4480",
+      "stages": {
+       "reported": "2012-06-08",
+       "house": "2012-06-21"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4136",
+      "title": "To provide for the development of a plan to increase oil and gas production under oil and gas leases of Federal lands under the jurisdiction of the Secretary of Agriculture, the Secretary of Energy, the Secretary of the Interior, and the Secretary of Defense in conjunction with a drawdown of petroleum reserves from the Strategic Petroleum Reserve.",
+      "introduced": "2012-03-05",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2012-03-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4136",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2021",
+      "title": "Jobs and Energy Permitting Act of 2011",
+      "introduced": "2011-05-26",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 86.",
+      "latestActionDate": "2011-06-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2021",
+      "stages": {
+       "reported": "2011-06-16",
+       "house": "2011-06-22"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1180",
+      "title": "Small Business Start-up Savings Accounts Act of 2011",
+      "introduced": "2011-03-17",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-03-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1180",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "142",
+      "title": "Amending the Rules of the House of Representatives to require authorizing committees to hold annual hearings on GAO investigative reports on the identification, consolidation, and elimination of duplicative Government programs.",
+      "introduced": "2011-03-03",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2011-03-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/142",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 6,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6486",
+      "title": "To amend title 5, United States Code, to decrease the annual effect on the economy that a rule must have to be a major rule from $100,000,000 to $50,000,000 for the purpose of increasing the number of rules for which Congress can use the resolution of disapproval procedure to disapprove a major rule, and for other purposes.",
+      "introduced": "2012-09-21",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Courts, Commercial and Administrative Law.",
+      "latestActionDate": "2012-11-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6486",
+      "stages": {},
+      "sponsor": {
+       "id": "M001180",
+       "name": "David McKinley",
+       "party": "R",
+       "state": "WV"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "6089",
+      "title": "Healthy Forest Management Act of 2012",
+      "introduced": "2012-07-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation, Energy, and Forestry.",
+      "latestActionDate": "2012-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6089",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "494",
+      "title": "Expressing support for designation of the first Tuesday in June as National Cancer Survivor Beauty and Support Day.",
+      "introduced": "2011-12-13",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2011-12-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/494",
+      "stages": {},
+      "sponsor": {
+       "id": "D000613",
+       "name": "Robert Dold",
+       "party": "R",
+       "state": "IL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1356",
+      "title": "Capital Access for Main Street Act of 2011",
+      "introduced": "2011-04-04",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Capital Markets and Government Sponsored Enterprises.",
+      "latestActionDate": "2011-05-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1356",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1155",
+      "title": "Expedited Consideration of Terminations, Reductions, and Savings Act of 2011",
+      "introduced": "2011-03-17",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on the Budget, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2011-03-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1155",
+      "stages": {},
+      "sponsor": {
+       "id": "P000595",
+       "name": "Gary Peters",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HRES",
+      "number": "67",
+      "title": "To amend the Rules of the House of Representatives to prohibit bills and joint resolutions from containing more than one subject.",
+      "introduced": "2011-01-26",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2011-01-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/67",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 175,
+    "becameLaw": 11,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 29
+     },
+     {
+      "name": "Health",
+      "count": 28
+     },
+     {
+      "name": "International Affairs",
+      "count": 14
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 13
+     },
+     {
+      "name": "Economics and Public Finance",
+      "count": 12
+     }
+    ]
+   }
+  },
+  "L000564": {
+   "sponsored": {
+    "count": 20,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Science, Technology, Communications",
+      "count": 4
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 2
+     },
+     {
+      "name": "Economics and Public Finance",
+      "count": 2
+     },
+     {
+      "name": "Energy",
+      "count": 2
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6389",
+      "title": "Sequestration Prevention Act of 2012",
+      "introduced": "2012-09-13",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2012-09-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6389",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "692",
+      "title": "Recognizing the 30th Anniversary of the United States Air Force Space Command headquartered at Peterson Air Force Base, Colorado.",
+      "introduced": "2012-06-19",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2012-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/692",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "677",
+      "title": "Expressing the sense of the Congress regarding the anniversary of the United States Supreme Court decision in the case of District of Columbia v. Heller.",
+      "introduced": "2012-06-05",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2012-06-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/677",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4386",
+      "title": "Budget for Disasters Act of 2012",
+      "introduced": "2012-04-18",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the House Committee on the Budget.",
+      "latestActionDate": "2012-04-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4386",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4383",
+      "title": "Streamlining Permitting of American Energy Act of 2012",
+      "introduced": "2012-04-18",
+      "policyArea": "Energy",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 376.",
+      "latestActionDate": "2012-06-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4383",
+      "stages": {
+       "reported": "2012-06-15"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4233",
+      "title": "Map It Once, Use It Many Times Act",
+      "introduced": "2012-03-21",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2012-05-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4233",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4107",
+      "title": "World War I American Veterans Centennial Commemorative Coin Act",
+      "introduced": "2012-02-29",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Domestic Monetary Policy and Technology.",
+      "latestActionDate": "2012-04-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4107",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4073",
+      "title": "To authorize the Secretary of Agriculture to accept the quitclaim, disclaimer, and relinquishment of a railroad right of way within and adjacent to Pike National Forest in El Paso County, Colorado, originally granted to the Mt. Manitou Park and Incline Railway Company pursuant to the Act of March 3, 1875.",
+      "introduced": "2012-02-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 112-250.",
+      "latestActionDate": "2013-01-10",
+      "law": "112-250",
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4073",
+      "stages": {
+       "reported": "2012-07-17",
+       "house": "2012-08-01",
+       "senate": "2012-12-30",
+       "president": "2013-01-01",
+       "law": "2013-01-10"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4046",
+      "title": "Schoolchildren's Health Protection Act",
+      "introduced": "2012-02-15",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2012-03-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4046",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3778",
+      "title": "Budget Before Borrowing Act of 2012",
+      "introduced": "2012-01-18",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on Rules, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2012-01-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3778",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "489",
+      "title": "Expressing the sense of the House of Representatives that the symbols and traditions of Christmas should be protected for use by those who celebrate Christmas.",
+      "introduced": "2011-12-07",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2011-12-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/489",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3408",
+      "title": "PIONEERS Act",
+      "introduced": "2011-11-14",
+      "policyArea": "Energy",
+      "latestAction": "Laid on the table.",
+      "latestActionDate": "2013-01-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3408",
+      "stages": {
+       "reported": "2012-02-09",
+       "house": "2012-02-16"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2348",
+      "title": "EMP Weapons Accountability Assessment Act",
+      "introduced": "2011-06-24",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Intelligence (Permanent Select).",
+      "latestActionDate": "2011-06-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2348",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "296",
+      "title": "Expressing support for peaceful demonstrations and universal freedoms in Syria and condemning the human rights violations by the Assad Regime.",
+      "introduced": "2011-06-03",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Middle East and South Asia .",
+      "latestActionDate": "2011-08-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/296",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "291",
+      "title": "Urging the expedient relocation of the United States Embassy in Israel to Jerusalem.",
+      "introduced": "2011-06-01",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2011-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/291",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2011",
+      "title": "National Strategic and Critical Minerals Policy Act of 2011",
+      "introduced": "2011-05-26",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 164.",
+      "latestActionDate": "2011-10-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2011",
+      "stages": {
+       "reported": "2011-10-14"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1076",
+      "title": "To prohibit Federal funding of National Public Radio and the use of Federal funds to acquire radio content.",
+      "introduced": "2011-03-15",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "latestActionDate": "2011-03-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1076",
+      "stages": {
+       "house": "2011-03-17"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "67",
+      "title": "To amend the Rules of the House of Representatives to prohibit bills and joint resolutions from containing more than one subject.",
+      "introduced": "2011-01-26",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2011-01-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/67",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "69",
+      "title": "To prohibit Federal funding of certain public radio programming, to provide for the transfer of certain public radio funds to reduce the public debt, and for other purposes.",
+      "introduced": "2011-01-05",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Communications and Technology.",
+      "latestActionDate": "2011-02-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/69",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "68",
+      "title": "To amend the Communications Act of 1934 to prohibit Federal funding for the Corporation for Public Broadcasting after fiscal year 2013.",
+      "introduced": "2011-01-05",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Communications and Technology.",
+      "latestActionDate": "2011-02-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/68",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 13,
+    "becameLaw": 1,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6089",
+      "title": "Healthy Forest Management Act of 2012",
+      "introduced": "2012-07-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation, Energy, and Forestry.",
+      "latestActionDate": "2012-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6089",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2752",
+      "title": "BLM Live Internet Auctions Act",
+      "introduced": "2011-08-01",
+      "policyArea": "Energy",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 252.",
+      "latestActionDate": "2012-01-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2752",
+      "stages": {
+       "reported": "2012-01-18"
+      },
+      "sponsor": {
+       "id": "J000292",
+       "name": "Bill Johnson",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2173",
+      "title": "Advancing Offshore Wind Production Act",
+      "introduced": "2011-06-14",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 168.",
+      "latestActionDate": "2011-10-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2173",
+      "stages": {
+       "reported": "2011-10-14"
+      },
+      "sponsor": {
+       "id": "W000804",
+       "name": "Robert Wittman",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2172",
+      "title": "Utilizing America's Federal Lands for Wind Energy Act",
+      "introduced": "2011-06-14",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 200.",
+      "latestActionDate": "2011-12-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2172",
+      "stages": {
+       "reported": "2011-12-01"
+      },
+      "sponsor": {
+       "id": "N000184",
+       "name": "Kristi Noem",
+       "party": "R",
+       "state": "SD"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2171",
+      "title": "Exploring for Geothermal Energy on Federal Lands Act",
+      "introduced": "2011-06-14",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 167.",
+      "latestActionDate": "2011-10-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2171",
+      "stages": {
+       "reported": "2011-10-14"
+      },
+      "sponsor": {
+       "id": "L000573",
+       "name": "Raul Labrador",
+       "party": "R",
+       "state": "ID"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2170",
+      "title": "Cutting Federal Red Tape to Facilitate Renewable Energy Act",
+      "introduced": "2011-06-14",
+      "policyArea": "Energy",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 166.",
+      "latestActionDate": "2011-10-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2170",
+      "stages": {
+       "reported": "2011-10-14"
+      },
+      "sponsor": {
+       "id": "H000329",
+       "name": "DOC HASTINGS",
+       "party": "R",
+       "state": "WA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1715",
+      "title": "Multilingual Services Accounting Act",
+      "introduced": "2011-05-04",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Government Organization, Efficiency, and Financial Management     .",
+      "latestActionDate": "2011-05-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1715",
+      "stages": {},
+      "sponsor": {
+       "id": "F000450",
+       "name": "Virginia Foxx",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1627",
+      "title": "Honoring America's Veterans and Caring for Camp Lejeune Families Act of 2012",
+      "introduced": "2011-04-15",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Became Public Law No: 112-154.",
+      "latestActionDate": "2012-08-06",
+      "law": "112-154",
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1627",
+      "stages": {
+       "reported": "2011-05-20",
+       "house": "2011-05-23",
+       "senate": "2012-07-18",
+       "president": "2012-08-03",
+       "law": "2012-08-06"
+      },
+      "sponsor": {
+       "id": "M001144",
+       "name": "Jeff Miller",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "849",
+      "title": "Light Bulb Freedom of Choice Act",
+      "introduced": "2011-03-01",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2011-03-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/849",
+      "stages": {},
+      "sponsor": {
+       "id": "B001256",
+       "name": "Michele Bachmann",
+       "party": "R",
+       "state": "MN"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "743",
+      "title": "Hire A Hero Act of 2011",
+      "introduced": "2011-02-16",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-02-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/743",
+      "stages": {},
+      "sponsor": {
+       "id": "J000290",
+       "name": "Lynn Jenkins",
+       "party": "R",
+       "state": "KS"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "508",
+      "title": "Child Tax Credit Preservation Act of 2011",
+      "introduced": "2011-01-26",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-01-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/508",
+      "stages": {},
+      "sponsor": {
+       "id": "P000599",
+       "name": "Bill Posey",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "478",
+      "title": "Military Tribunals for Terrorists Act 2011",
+      "introduced": "2011-01-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2011-02-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/478",
+      "stages": {},
+      "sponsor": {
+       "id": "B001260",
+       "name": "Vern Buchanan",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "23",
+      "title": "Expressing the sense of the House of Representatives that the Federal Government should not bail out State and local government employee pension plans or other plans that provide post-employment benefits to State and local government retirees.",
+      "introduced": "2011-01-06",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2011-01-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/23",
+      "stages": {},
+      "sponsor": {
+       "id": "C001076",
+       "name": "Jason Chaffetz",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 4
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 329,
+    "becameLaw": 13,
+    "topics": [
+     {
+      "name": "International Affairs",
+      "count": 44
+     },
+     {
+      "name": "Taxation",
+      "count": 36
+     },
+     {
+      "name": "Health",
+      "count": 34
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 34
+     },
+     {
+      "name": "Economics and Public Finance",
+      "count": 25
+     }
+    ]
+   }
+  },
+  "C001077": {
+   "sponsored": {
+    "count": 17,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 4
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 4
+     },
+     {
+      "name": "Congress",
+      "count": 3
+     },
+     {
+      "name": "International Affairs",
+      "count": 2
+     },
+     {
+      "name": "Taxation",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6560",
+      "title": "Local Schools and Infrastructure Improvement Act of 2012",
+      "introduced": "2012-09-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2012-09-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6560",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6372",
+      "title": "Veterans Employment Act of 2012",
+      "introduced": "2012-09-11",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Economic Opportunity.",
+      "latestActionDate": "2012-09-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6372",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6037",
+      "title": "Small Business Lending for Jobs Act of 2012",
+      "introduced": "2012-06-27",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Financial Institutions and Consumer Credit.",
+      "latestActionDate": "2012-10-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6037",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4913",
+      "title": "To require designated military command responsibility and accountability for the care, handling, and transportation of the remains of a deceased member of the Army, Navy, Air Force, or Marine Corps who died overseas, from the place of death, through the defense mortuary system, until the remains are accepted by the member's next of kin, in order to ensure that the deceased member is treated with dignity, honor, and respect.",
+      "introduced": "2012-04-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2012-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4913",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4382",
+      "title": "Providing Leasing Certainty for American Energy Act of 2012",
+      "introduced": "2012-04-18",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 379.",
+      "latestActionDate": "2012-06-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4382",
+      "stages": {
+       "reported": "2012-06-15"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4206",
+      "title": "Contracting Oversight for Small Business Jobs Act of 2012",
+      "introduced": "2012-03-19",
+      "policyArea": "Commerce",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 531.",
+      "latestActionDate": "2012-12-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4206",
+      "stages": {
+       "reported": "2012-12-21"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "507",
+      "title": "Expressing the sense of the House of Representatives regarding the Government of Antigua and Barbuda and its actions relating to the Stanford Financial Group fraud.",
+      "introduced": "2011-12-20",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Terrorism, Nonproliferation, and Trade.",
+      "latestActionDate": "2012-02-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/507",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3673",
+      "title": "To prohibit an increase in the compensation of Members of Congress from taking effect unless Congress consents to the increase by concurrent resolution.",
+      "introduced": "2011-12-15",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the Committee on House Administration, and in addition to the Committees on Oversight and Government Reform, and Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2011-12-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3673",
+      "stages": {}
+     },
+     {
+      "type": "HJRES",
+      "number": "93",
+      "title": "Proposing an amendment to the Constitution of the United States relating to limits on the number of terms a Member of Congress may serve.",
+      "introduced": "2011-12-15",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2012-01-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-joint-resolution/93",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3115",
+      "title": "Ensuring the Effective Use of United States Aid to Pakistan Act",
+      "introduced": "2011-10-06",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Rural Development, Research, Biotechnology, and Foreign Agriculture.",
+      "latestActionDate": "2011-10-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/3115",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2913",
+      "title": "To amend title 5, United States Code, to provide for the termination of further retirement benefits for Members of Congress, except the right to continue participating in the Thrift Savings Plan.",
+      "introduced": "2011-09-14",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the Subcommittee on Federal Workforce, U.S. Postal Service, and Labor Policy     .",
+      "latestActionDate": "2011-10-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2913",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2375",
+      "title": "FASTER Act",
+      "introduced": "2011-06-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2011-07-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2375",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2184",
+      "title": "Rare Earth Policy Task Force and Materials Act",
+      "introduced": "2011-06-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2011-06-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/2184",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1811",
+      "title": "National Guard Employment Protection Act of 2011",
+      "introduced": "2011-05-10",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Economic Opportunity.",
+      "latestActionDate": "2011-05-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1811",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1388",
+      "title": "RESTART Act",
+      "introduced": "2011-04-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Environment.",
+      "latestActionDate": "2011-05-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1388",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "621",
+      "title": "National Emergency Selective Service Act of 2011",
+      "introduced": "2011-02-10",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2011-03-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/621",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "270",
+      "title": "To provide for a 10 percent reduction in pay for Members of Congress, to make Federal civilian employees subject to a period of mandatory unpaid leave, to reduce appropriations for salaries and expenses for offices of the legislative branch during fiscal year 2012, and for other purposes.",
+      "introduced": "2011-01-12",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Courts, Commercial and Administrative Law.",
+      "latestActionDate": "2011-02-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/270",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 7,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6089",
+      "title": "Healthy Forest Management Act of 2012",
+      "introduced": "2012-07-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation, Energy, and Forestry.",
+      "latestActionDate": "2012-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/6089",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4469",
+      "title": "Four Corners Television Access Act of 2012",
+      "introduced": "2012-04-19",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Intellectual Property, Competition and the Internet.",
+      "latestActionDate": "2012-05-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/4469",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "282",
+      "title": "Expressing the regret of the House of Representatives for the passage of discriminatory laws against the Chinese in the United States, including the Chinese Exclusion Act.",
+      "introduced": "2011-05-26",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2011-07-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-resolution/282",
+      "stages": {},
+      "sponsor": {
+       "id": "C001080",
+       "name": "Judy Chu",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1481",
+      "title": "Investment Property Opportunity Act of 2011",
+      "introduced": "2011-04-12",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-04-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1481",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1356",
+      "title": "Capital Access for Main Street Act of 2011",
+      "introduced": "2011-04-04",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Capital Markets and Government Sponsored Enterprises.",
+      "latestActionDate": "2011-05-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1356",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1313",
+      "title": "Community Bank and Automotive Industry Recapitalization Act of 2011",
+      "introduced": "2011-04-01",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-04-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1313",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1180",
+      "title": "Small Business Start-up Savings Accounts Act of 2011",
+      "introduced": "2011-03-17",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2011-03-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/112th-congress/house-bill/1180",
+      "stages": {},
+      "sponsor": {
+       "id": "G000562",
+       "name": "Cory Gardner",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 323,
+    "becameLaw": 17,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 51
+     },
+     {
+      "name": "Taxation",
+      "count": 42
+     },
+     {
+      "name": "International Affairs",
+      "count": 30
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 27
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 21
+     }
+    ]
+   }
+  }
+ }
+}

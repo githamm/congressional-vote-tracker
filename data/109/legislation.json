@@ -1,0 +1,3798 @@
+{
+ "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
+ "congress": 109,
+ "updated": "2026-11-12",
+ "members": {
+  "D000197": {
+   "sponsored": {
+    "count": 11,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 4
+     },
+     {
+      "name": "Agriculture and Food",
+      "count": 2
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 2
+     },
+     {
+      "name": "Taxation",
+      "count": 1
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5729",
+      "title": "SAFER Meat, Poultry, and Food Act of 2006",
+      "introduced": "2006-06-29",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Health, for a period to be subsequently determined by the Chairman .",
+      "latestActionDate": "2006-07-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5729",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5728",
+      "title": "Prevent Prematurity and Improve Child Health Act of 2006",
+      "introduced": "2006-06-29",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2006-07-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5728",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5727",
+      "title": "Meat and Poultry Products Traceability and Safety Act of 2006",
+      "introduced": "2006-06-29",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Livestock and Horticulture .",
+      "latestActionDate": "2006-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5727",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5578",
+      "title": "Protection for Participants in Research Act of 2006",
+      "introduced": "2006-06-09",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2006-06-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5578",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5226",
+      "title": "Energy Fairness Act of 2006",
+      "introduced": "2006-04-27",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2006-04-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5226",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5225",
+      "title": "Diabetes Prevention Access and Care Act",
+      "introduced": "2006-04-27",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2006-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5225",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4587",
+      "title": "Colorado Wilderness Act of 2005",
+      "introduced": "2005-12-16",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Forests and Forest Health.",
+      "latestActionDate": "2006-01-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4587",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "257",
+      "title": "Expressing the sense of the House of Representatives that Pasqualine J. Lawson of Denver, Colorado, an African American woman who valiantly served her country in the Army Air Corps during World War II and serving as a hospital neuropsychiatric team member, was unfairly passed over for promotion and should have held the grade of technical sergeant, rather than private first class, upon her discharge from the service on January 2, 1946.",
+      "introduced": "2005-05-04",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2005-06-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/257",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "237",
+      "title": "Congratulating the University of Denver Pioneers for winning the 2005 National Collegiate Athletic Association Division I Men's Ice Hockey Championship.",
+      "introduced": "2005-04-26",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on 21st Century Competitiveness.",
+      "latestActionDate": "2005-05-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/237",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "204",
+      "title": "Expressing the sense of the House of Representatives that Pasqualine J. Gibbons of Denver, Colorado, an African American woman who valiantly served her country in the Army Air Corps during World War II, was unfairly passed over for promotion and should have held the grade of technical sergeant, rather than private first class, upon her discharge from the service on January 2, 1946.",
+      "introduced": "2005-04-12",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2005-05-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/204",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "699",
+      "title": "To amend title XIX of the Social Security Act to include podiatrists as physicians for purposes of covering physicians services under the Medicaid Program.",
+      "introduced": "2005-02-09",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2005-02-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/699",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 8,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6251",
+      "title": "To provide for health care benefits for certain nuclear facility workers.",
+      "introduced": "2006-09-28",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality.",
+      "latestActionDate": "2006-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/6251",
+      "stages": {},
+      "sponsor": {
+       "id": "S001004",
+       "name": "TED STRICKLAND",
+       "party": "D",
+       "state": "OH"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4036",
+      "title": "To amend the Public Health Service Act to allow qualifying children's hospitals to participate in the 340B drug discount program.",
+      "introduced": "2005-10-07",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2005-10-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4036",
+      "stages": {},
+      "sponsor": {
+       "id": "G000210",
+       "name": "PAUL GILLMOR",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3612",
+      "title": "Diabetes Self Management Training Act of 2005",
+      "introduced": "2005-07-28",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2005-08-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3612",
+      "stages": {},
+      "sponsor": {
+       "id": "W000268",
+       "name": "CURT WELDON",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2421",
+      "title": "Combating Autism Act of 2005",
+      "introduced": "2005-05-18",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2005-06-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2421",
+      "stages": {},
+      "sponsor": {
+       "id": "B001228",
+       "name": "Mary Bono",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1822",
+      "title": "Human Cloning Ban and Stem Cell Research Protection Act of 2005",
+      "introduced": "2005-04-26",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2005-05-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1822",
+      "stages": {},
+      "sponsor": {
+       "id": "B001228",
+       "name": "Mary Bono",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1709",
+      "title": "Prevention First Act",
+      "introduced": "2005-04-19",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2005-05-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1709",
+      "stages": {},
+      "sponsor": {
+       "id": "S000480",
+       "name": "LOUISE SLAUGHTER",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1043",
+      "title": "Ombudsman Reauthorization Act of 2005",
+      "introduced": "2005-03-02",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment and Hazardous Materials.",
+      "latestActionDate": "2005-03-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1043",
+      "stages": {},
+      "sponsor": {
+       "id": "B000463",
+       "name": "MICHAEL BILIRAKIS",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "632",
+      "title": "Fort Carson Conservation Act of 2005",
+      "introduced": "2005-02-08",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2005-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/632",
+      "stages": {},
+      "sponsor": {
+       "id": "H000444",
+       "name": "JOEL HEFLEY",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 245,
+    "becameLaw": 11,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 64
+     },
+     {
+      "name": "Commemorations",
+      "count": 27
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 16
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 14
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 11
+     }
+    ]
+   }
+  },
+  "U000038": {
+   "sponsored": {
+    "count": 45,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 13
+     },
+     {
+      "name": "Commemorations",
+      "count": 5
+     },
+     {
+      "name": "Native Americans",
+      "count": 4
+     },
+     {
+      "name": "Economics and Public Finance",
+      "count": 3
+     },
+     {
+      "name": "Energy",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6435",
+      "title": "To amend the Internal Revenue Code of 1986 to extend the credit for electricity produced from certain renewable resources.",
+      "introduced": "2006-12-08",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2006-12-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/6435",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "979",
+      "title": "Urging the President to issue a proclamation designating a National Ski & Snowboard Month to call attention to the need for all people to exercise and get outdoors during winter.",
+      "introduced": "2006-07-28",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Government Reform.",
+      "latestActionDate": "2006-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/979",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5780",
+      "title": "To amend the Indian Financing Act of 1974 to provide for sale and assignment of loans and underlying security, and for other purposes.",
+      "introduced": "2006-07-12",
+      "policyArea": "Native Americans",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2006-07-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5780",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5779",
+      "title": "To establish the treatment of actual rental proceeds from leases of land acquired under an Act providing for loans to Indian tribes and tribal corporations.",
+      "introduced": "2006-07-12",
+      "policyArea": "Native Americans",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2006-07-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5779",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "417",
+      "title": "Expressing the sense of Congress in support of a broad-based political settlement in Iraq.",
+      "introduced": "2006-05-25",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2006-05-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/417",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5383",
+      "title": "Credit CARD Act of 2006",
+      "introduced": "2006-05-11",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H6023, E1585)",
+      "latestActionDate": "2006-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5383",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5163",
+      "title": "Federal and Small Business Telework Promotion Act",
+      "introduced": "2006-04-06",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality, for a period to be subsequently determined by the Chairman .",
+      "latestActionDate": "2006-04-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5163",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5111",
+      "title": "Royalty In-Kind for Energy Assistance Improvement Act of 2006",
+      "introduced": "2006-04-05",
+      "policyArea": "Energy",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2006-04-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5111",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5110",
+      "title": "More Water and More Energy Act of 2006",
+      "introduced": "2006-04-05",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Received in the Senate.",
+      "latestActionDate": "2006-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5110",
+      "stages": {
+       "house": "2006-12-05"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4936",
+      "title": "National Fund for Excellence in American Indian Education Amendments Act of 2006",
+      "introduced": "2006-03-09",
+      "policyArea": "Native Americans",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2006-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4936",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4935",
+      "title": "Rocky Mountain National Park Wilderness and Indian Peaks Wilderness Expansion Act",
+      "introduced": "2006-03-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from USDA, Interior.",
+      "latestActionDate": "2006-03-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4935",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4934",
+      "title": "To amend the Carl D. Perkins Vocational and Technical Education Act of 1998 to modify the definition of \"Indian student count\".",
+      "introduced": "2006-03-09",
+      "policyArea": "Native Americans",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2006-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4934",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4897",
+      "title": "Renewable Energy Systems and Energy Efficiency Improvements Program Act of 2006",
+      "introduced": "2006-03-07",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2006-03-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4897",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4875",
+      "title": "Rocky Mountain FIRES Act",
+      "introduced": "2006-03-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Research.",
+      "latestActionDate": "2006-05-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4875",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "696",
+      "title": "Expressing the sense of the House of Representatives that there should be established a National Physical Education and Sports Week and a National Physical Education and Sports Month.",
+      "introduced": "2006-02-16",
+      "policyArea": "Commemorations",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E186)",
+      "latestActionDate": "2006-02-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/696",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4738",
+      "title": "Commission to Strengthen Confidence in Congress Act of 2006",
+      "introduced": "2006-02-08",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2006-02-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4738",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4699",
+      "title": "Stimulating Leadership in Cutting Expenditures Act (or SLICE Act) of 2006",
+      "introduced": "2006-02-01",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on the Budget, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2006-02-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4699",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "557",
+      "title": "Urging the president to issue a proclamation declaring a Winter Outdoors Month to call attention to the need for all people to exercise and to get outdoors in the winter.",
+      "introduced": "2005-11-16",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Government Reform.",
+      "latestActionDate": "2005-11-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/557",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4289",
+      "title": "HIPAA Recreational Injury Technical Correction Act",
+      "introduced": "2005-11-09",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Employer-Employee Relations.",
+      "latestActionDate": "2006-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4289",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4181",
+      "title": "Rocky Flats Minerals Acquisition Act",
+      "introduced": "2005-10-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E2329)",
+      "latestActionDate": "2005-11-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4181",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3966",
+      "title": "Stimulating Leadership in Cutting Expenditures Act of 2005",
+      "introduced": "2005-09-29",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H8989)",
+      "latestActionDate": "2005-10-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3966",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3816",
+      "title": "To reestablish the Federal Emergency Management Agency as an independent agency and to require that its Director be adequately qualified.",
+      "introduced": "2005-09-15",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Management, Integration, and Oversight.",
+      "latestActionDate": "2005-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3816",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3448",
+      "title": "Oak Park Medical Center Property Acquisition",
+      "introduced": "2005-07-26",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Environment, Technology, and Standards.",
+      "latestActionDate": "2005-08-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3448",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3447",
+      "title": "Highway Claims Resolution Act of 2005",
+      "introduced": "2005-07-26",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Fisheries and Oceans.",
+      "latestActionDate": "2005-08-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3447",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3193",
+      "title": "Rocky Mountain National Park Wilderness Act",
+      "introduced": "2005-06-30",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2005-08-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3193",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2995",
+      "title": "Weather Modification Research and Technology Transfer Authorization Act of 2005",
+      "introduced": "2005-06-20",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Environment, Technology, and Standards.",
+      "latestActionDate": "2005-06-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2995",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2358",
+      "title": "Aeronautics Research and Development Revitalization Act of 2005",
+      "introduced": "2005-05-12",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Space and Aeronautics.",
+      "latestActionDate": "2005-05-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2358",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2111",
+      "title": "Rocky Flats Minerals Acquisition Act",
+      "introduced": "2005-05-04",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2005-05-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2111",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2110",
+      "title": "Colorado Northern Front Range Mountain Backdrop Protection Study Act",
+      "introduced": "2005-05-04",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2006-11-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2110",
+      "stages": {
+       "reported": "2006-09-06",
+       "house": "2006-09-27"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2064",
+      "title": "Western Waters and Farm Lands Protection Act",
+      "introduced": "2005-05-03",
+      "policyArea": "Energy",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2005-05-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2064",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "251",
+      "title": "Congratulating all of the individuals and organizations on the 15th anniversary of the launch of the Hubble Space Telescope that have helped make Hubble one of the most important astronomical instruments in history.",
+      "introduced": "2005-04-28",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Science.",
+      "latestActionDate": "2005-04-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/251",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1479",
+      "title": "Rural Access to Broadband Service Act",
+      "introduced": "2005-04-05",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Research.",
+      "latestActionDate": "2005-05-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1479",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1266",
+      "title": "Abandoned Hardrock Mines Reclamation Facilitation Act",
+      "introduced": "2005-03-10",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2005-03-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1266",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1265",
+      "title": "Abandoned Hardrock Mines Reclamation Funding Act",
+      "introduced": "2005-03-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2005-03-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1265",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "150",
+      "title": "Recognizing the goals and ideals of a National Time Out Day to support the universal protocol, developed by the Joint Commission on Accreditation of Healthcare Organizations, for preventing errors in the operating room, and for other purposes.",
+      "introduced": "2005-03-10",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2005-03-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/150",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1129",
+      "title": "Pitkin County Land Exchange Act of 2006",
+      "introduced": "2005-03-03",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 109-377.",
+      "latestActionDate": "2006-12-01",
+      "law": "109-377",
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1129",
+      "stages": {
+       "reported": "2005-10-25",
+       "house": "2005-12-06",
+       "senate": "2006-09-29",
+       "president": "2006-11-21",
+       "law": "2006-12-01"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "982",
+      "title": "Expedited Rescissions Act of 2005",
+      "introduced": "2005-02-17",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H8527-8528)",
+      "latestActionDate": "2005-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/982",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "103",
+      "title": "Recognizing the importance of honoring the Nation's children and expressing the sense of the House of Representatives that a National Children's Day should be established.",
+      "introduced": "2005-02-15",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2005-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/103",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "788",
+      "title": "PILT and Refuge Revenue Sharing Permanent Funding Act",
+      "introduced": "2005-02-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Fisheries and Oceans.",
+      "latestActionDate": "2005-03-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/788",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "731",
+      "title": "Reaffirmation of State Regulation of Resident and Nonresident Hunting and Fishing Act of 2005",
+      "introduced": "2005-02-09",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Fisheries and Oceans.",
+      "latestActionDate": "2005-02-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/731",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "599",
+      "title": "Federal Lands Restoration, Enhancement, Public Education, and Information Resources Act of 2005",
+      "introduced": "2005-02-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E2536)",
+      "latestActionDate": "2005-12-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/599",
+      "stages": {
+       "reported": "2005-06-14"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "432",
+      "title": "Betty Dick Residence Protection Act",
+      "introduced": "2005-01-26",
+      "policyArea": "Private Legislation",
+      "latestAction": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held. With printed Hearing: S.Hrg. 109-201.",
+      "latestActionDate": "2005-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/432",
+      "stages": {
+       "reported": "2005-06-08",
+       "house": "2005-06-29"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "428",
+      "title": "Rocky Flats Special Exposure Cohort Act",
+      "introduced": "2005-01-26",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2005-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/428",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "427",
+      "title": "Environmental Justice Act of 2005",
+      "introduced": "2005-01-26",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment and Hazardous Materials.",
+      "latestActionDate": "2005-02-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/427",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "426",
+      "title": "Remote Sensing Applications Act of 2005",
+      "introduced": "2005-01-26",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 95.",
+      "latestActionDate": "2005-06-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/426",
+      "stages": {
+       "reported": "2005-06-27"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 23,
+    "becameLaw": 2,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6251",
+      "title": "To provide for health care benefits for certain nuclear facility workers.",
+      "introduced": "2006-09-28",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality.",
+      "latestActionDate": "2006-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/6251",
+      "stages": {},
+      "sponsor": {
+       "id": "S001004",
+       "name": "TED STRICKLAND",
+       "party": "D",
+       "state": "OH"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5904",
+      "title": "Renewable Schools Energy Act of 2006",
+      "introduced": "2006-07-26",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2006-07-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5904",
+      "stages": {},
+      "sponsor": {
+       "id": "M001142",
+       "name": "JIM MATHESON",
+       "party": "D",
+       "state": "UT"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5840",
+      "title": "Energy Employees Occupational Illness Compensation Program Improvement Act of 2006",
+      "introduced": "2006-07-19",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2006-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5840",
+      "stages": {},
+      "sponsor": {
+       "id": "J000032",
+       "name": "SHEILA JACKSON-LEE",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "892",
+      "title": "Recognizing the dedication of the employees at the National Aeronautics and Space Administration's Michoud Assembly Facility, the \"Michoud Hurricane Ride-Out Team\", who risked their lives during Hurricane Katrina's assault on southeast Louisiana, and kept the generators and pumps running to protect the facilities and flight hardware, and whose dedication kept the Michoud Assembly Facility an island of dry land, which made it possible to resume External Tank production less than 5 weeks after the storm passed.",
+      "introduced": "2006-06-26",
+      "policyArea": "Commemorations",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2006-07-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/892",
+      "stages": {
+       "house": "2006-07-24"
+      },
+      "sponsor": {
+       "id": "M001161",
+       "name": "Charlie Melancon",
+       "party": "D",
+       "state": "LA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5346",
+      "title": "Alternative Energy Refueling System Act of 2006",
+      "introduced": "2006-05-10",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment and Hazardous Materials.",
+      "latestActionDate": "2006-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5346",
+      "stages": {},
+      "sponsor": {
+       "id": "M000934",
+       "name": "Jerry Moran",
+       "party": "R",
+       "state": "KS"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "780",
+      "title": "Expressing the sense of the House of Representatives that King Gyanendra should immediately release all political detainees, restore constitutional liberties, and undertake good faith negotiations with all involved parties to restore democracy.",
+      "introduced": "2006-04-26",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2006-04-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/780",
+      "stages": {},
+      "sponsor": {
+       "id": "E000215",
+       "name": "ANNA ESHOO",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5136",
+      "title": "National Integrated Drought Information System Act of 2006",
+      "introduced": "2006-04-06",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Became Public Law No: 109-430.",
+      "latestActionDate": "2006-12-20",
+      "law": "109-430",
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5136",
+      "stages": {
+       "reported": "2006-06-15",
+       "house": "2006-09-26",
+       "senate": "2006-12-06",
+       "president": "2006-12-11",
+       "law": "2006-12-20"
+      },
+      "sponsor": {
+       "id": "H000067",
+       "name": "RALPH HALL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4623",
+      "title": "Clean Alternatives for Energy Independence Act of 2005",
+      "introduced": "2005-12-17",
+      "policyArea": "Taxation",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H1956)",
+      "latestActionDate": "2006-05-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4623",
+      "stages": {},
+      "sponsor": {
+       "id": "K000358",
+       "name": "MARK KENNEDY",
+       "party": "R",
+       "state": "MN"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HCONRES",
+      "number": "304",
+      "title": "Expressing support for tax incentives for charitable gifts of conservation easements.",
+      "introduced": "2005-11-17",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-11-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/304",
+      "stages": {},
+      "sponsor": {
+       "id": "F000451",
+       "name": "Michael Fitzpatrick",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4300",
+      "title": "Clean and Green Solar Tax Act of 2005",
+      "introduced": "2005-11-10",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-11-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4300",
+      "stages": {},
+      "sponsor": {
+       "id": "F000443",
+       "name": "MIKE FERGUSON",
+       "party": "R",
+       "state": "NJ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "443",
+      "title": "Congratulating the United States Men's National Soccer Team on qualifying for the 2006 FIFA World Cup.",
+      "introduced": "2005-09-14",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Government Reform.",
+      "latestActionDate": "2005-09-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/443",
+      "stages": {},
+      "sponsor": {
+       "id": "W000099",
+       "name": "JAMES WALSH",
+       "party": "R",
+       "state": "NY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3550",
+      "title": "Morris K. Udall Parkinson's Disease Research Act Amendments of 2005",
+      "introduced": "2005-07-28",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2005-08-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3550",
+      "stages": {},
+      "sponsor": {
+       "id": "E000250",
+       "name": "LANE EVANS",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3521",
+      "title": "Rural Colorado Water Infrastructure Act",
+      "introduced": "2005-07-28",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2005-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3521",
+      "stages": {},
+      "sponsor": {
+       "id": "B001240",
+       "name": "Bob Beauprez",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3443",
+      "title": "To direct the Secretary of the Interior to convey certain water distribution facilities to the Northern Colorado Water Conservancy District.",
+      "introduced": "2005-07-26",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Became Public Law No: 109-321.",
+      "latestActionDate": "2006-10-11",
+      "law": "109-321",
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3443",
+      "stages": {
+       "reported": "2005-11-10",
+       "house": "2005-12-13",
+       "senate": "2006-09-29",
+       "president": "2006-10-02",
+       "law": "2006-10-11"
+      },
+      "sponsor": {
+       "id": "M001152",
+       "name": "Marilyn Musgrave",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3275",
+      "title": "United States Army Relief Act of 2005",
+      "introduced": "2005-07-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2005-08-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3275",
+      "stages": {},
+      "sponsor": {
+       "id": "T000057",
+       "name": "ELLEN TAUSCHER",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HCONRES",
+      "number": "205",
+      "title": "Recognizing the spirit of Jacob Mock Doub and his contribution to encouraging youth to be physically active and fit and expressing the sense of Congress that \"National Take a Kid Mountain Biking Day\" should be established in Jacob Mock Doub's honor.",
+      "introduced": "2005-07-11",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2005-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/205",
+      "stages": {},
+      "sponsor": {
+       "id": "F000450",
+       "name": "Virginia Foxx",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3038",
+      "title": "Guantanamo Detainees Procedures Act of 2005",
+      "introduced": "2005-06-22",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E1322)",
+      "latestActionDate": "2005-06-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3038",
+      "stages": {},
+      "sponsor": {
+       "id": "S001150",
+       "name": "ADAM SCHIFF",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2332",
+      "title": "National Trails System Willing Seller Act",
+      "introduced": "2005-05-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Forests and Forest Health.",
+      "latestActionDate": "2005-05-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2332",
+      "stages": {},
+      "sponsor": {
+       "id": "B001240",
+       "name": "Bob Beauprez",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "257",
+      "title": "Expressing the sense of the House of Representatives that Pasqualine J. Lawson of Denver, Colorado, an African American woman who valiantly served her country in the Army Air Corps during World War II and serving as a hospital neuropsychiatric team member, was unfairly passed over for promotion and should have held the grade of technical sergeant, rather than private first class, upon her discharge from the service on January 2, 1946.",
+      "introduced": "2005-05-04",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2005-06-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/257",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "204",
+      "title": "Expressing the sense of the House of Representatives that Pasqualine J. Gibbons of Denver, Colorado, an African American woman who valiantly served her country in the Army Air Corps during World War II, was unfairly passed over for promotion and should have held the grade of technical sergeant, rather than private first class, upon her discharge from the service on January 2, 1946.",
+      "introduced": "2005-04-12",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2005-05-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/204",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "975",
+      "title": "TRAIL Act",
+      "introduced": "2005-02-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2005-12-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/975",
+      "stages": {
+       "reported": "2005-06-14",
+       "house": "2005-12-13"
+      },
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "774",
+      "title": "Rocky Mountain National Park Boundary Adjustment Act of 2005",
+      "introduced": "2005-02-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 60.",
+      "latestActionDate": "2005-06-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/774",
+      "stages": {
+       "reported": "2005-06-08"
+      },
+      "sponsor": {
+       "id": "M001152",
+       "name": "Marilyn Musgrave",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "632",
+      "title": "Fort Carson Conservation Act of 2005",
+      "introduced": "2005-02-08",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2005-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/632",
+      "stages": {},
+      "sponsor": {
+       "id": "H000444",
+       "name": "JOEL HEFLEY",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 392,
+    "becameLaw": 22,
+    "topics": [
+     {
+      "name": "Commemorations",
+      "count": 60
+     },
+     {
+      "name": "Health",
+      "count": 47
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 43
+     },
+     {
+      "name": "International Affairs",
+      "count": 35
+     },
+     {
+      "name": "Taxation",
+      "count": 23
+     }
+    ]
+   }
+  },
+  "S001158": {
+   "sponsored": {
+    "count": 11,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 3
+     },
+     {
+      "name": "International Affairs",
+      "count": 1
+     },
+     {
+      "name": "Energy",
+      "count": 1
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 1
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "1036",
+      "title": "Demanding the return of the U.S.S. Pueblo to the United States Navy from North Korea.",
+      "introduced": "2006-09-21",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Asia and the Pacific.",
+      "latestActionDate": "2006-09-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/1036",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5588",
+      "title": "Comprehensive Veterans' Data Protection and Identity Theft Prevention Act of 2006",
+      "introduced": "2006-06-12",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Unfavorable Executive Comment Received from Veterans' Affairs.",
+      "latestActionDate": "2006-07-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5588",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5455",
+      "title": "Veterans Identity Protection Act of 2006",
+      "introduced": "2006-05-23",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Unfavorable Executive Comment Received from Veterans' Affairs.",
+      "latestActionDate": "2006-07-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5455",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5398",
+      "title": "USA Fuels Act of 2006",
+      "introduced": "2006-05-16",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality.",
+      "latestActionDate": "2006-06-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5398",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5071",
+      "title": "Animas River Good Samaritan Mined Land Remediation Pilot Project Act",
+      "introduced": "2006-03-30",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2006-03-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5071",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4383",
+      "title": "Sangre de Cristo National Heritage Area Act",
+      "introduced": "2005-11-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks.",
+      "latestActionDate": "2005-11-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4383",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4179",
+      "title": "To authorize appropriate action if negotiations with Japan to allow the resumption of United States beef exports are not successful, and for other purposes.",
+      "introduced": "2005-10-28",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-10-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4179",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3352",
+      "title": "Stolen Valor Act of 2005",
+      "introduced": "2005-07-19",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2005-08-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3352",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "297",
+      "title": "Supporting the goals and ideals of a National Medal of Honor Day to celebrate and honor the recipients of the Medal of Honor on the anniversary of the inception of that medal in 1863.",
+      "introduced": "2005-05-24",
+      "policyArea": "Commemorations",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H5643)",
+      "latestActionDate": "2005-07-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/297",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1330",
+      "title": "Social Security Trust Funds Protection Act",
+      "introduced": "2005-03-16",
+      "policyArea": "Social Welfare",
+      "latestAction": "Referred to the Subcommittee on Social Security.",
+      "latestActionDate": "2005-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1330",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "416",
+      "title": "To prohibit the use of Department of Defense funds for any study related to the transportation of chemical munitions across State lines.",
+      "introduced": "2005-01-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Terrorism, Unconventional Threats and Capabilities.",
+      "latestActionDate": "2005-02-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/416",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 8,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5904",
+      "title": "Renewable Schools Energy Act of 2006",
+      "introduced": "2006-07-26",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2006-07-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5904",
+      "stages": {},
+      "sponsor": {
+       "id": "M001142",
+       "name": "JIM MATHESON",
+       "party": "D",
+       "state": "UT"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5696",
+      "title": "To respond to the unreasonable and unnecessary Japanese prohibition on the importation of United States beef by prohibiting importation of Japanese beef into the United States.",
+      "introduced": "2006-06-28",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2006-06-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5696",
+      "stages": {},
+      "sponsor": {
+       "id": "C001059",
+       "name": "Jim Costa",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4875",
+      "title": "Rocky Mountain FIRES Act",
+      "introduced": "2006-03-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Research.",
+      "latestActionDate": "2006-05-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4875",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3521",
+      "title": "Rural Colorado Water Infrastructure Act",
+      "introduced": "2005-07-28",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2005-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3521",
+      "stages": {},
+      "sponsor": {
+       "id": "B001240",
+       "name": "Bob Beauprez",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1479",
+      "title": "Rural Access to Broadband Service Act",
+      "introduced": "2005-04-05",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Research.",
+      "latestActionDate": "2005-05-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1479",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1266",
+      "title": "Abandoned Hardrock Mines Reclamation Facilitation Act",
+      "introduced": "2005-03-10",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2005-03-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1266",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "788",
+      "title": "PILT and Refuge Revenue Sharing Permanent Funding Act",
+      "introduced": "2005-02-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Fisheries and Oceans.",
+      "latestActionDate": "2005-03-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/788",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "632",
+      "title": "Fort Carson Conservation Act of 2005",
+      "introduced": "2005-02-08",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2005-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/632",
+      "stages": {},
+      "sponsor": {
+       "id": "H000444",
+       "name": "JOEL HEFLEY",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 263,
+    "becameLaw": 12,
+    "topics": [
+     {
+      "name": "Commemorations",
+      "count": 47
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 35
+     },
+     {
+      "name": "Health",
+      "count": 33
+     },
+     {
+      "name": "Taxation",
+      "count": 19
+     },
+     {
+      "name": "Agriculture and Food",
+      "count": 14
+     }
+    ]
+   }
+  },
+  "M001152": {
+   "sponsored": {
+    "count": 23,
+    "becameLaw": 2,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 6
+     },
+     {
+      "name": "Taxation",
+      "count": 4
+     },
+     {
+      "name": "Commemorations",
+      "count": 3
+     },
+     {
+      "name": "Energy",
+      "count": 2
+     },
+     {
+      "name": "Water Resources Development",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6245",
+      "title": "Rocky Mountain National Park Wilderness Act",
+      "introduced": "2006-09-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the House Committee on Resources.",
+      "latestActionDate": "2006-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/6245",
+      "stages": {}
+     },
+     {
+      "type": "HJRES",
+      "number": "98",
+      "title": "Proposing a balanced budget amendment to the Constitution of the United States.",
+      "introduced": "2006-09-28",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2006-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-joint-resolution/98",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "937",
+      "title": "To congratulate Fort Collins, Colorado, on being named the best place to live in the United States for 2006.",
+      "introduced": "2006-07-20",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Government Reform.",
+      "latestActionDate": "2006-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/937",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "929",
+      "title": "To congratulate Fort Collins, Colorado, on being named the best place to live in the United States for 2006.",
+      "introduced": "2006-07-19",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Government Reform.",
+      "latestActionDate": "2006-07-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/929",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "431",
+      "title": "Calling on the President to proclaim 2007 as the \"National Year of the Bible\".",
+      "introduced": "2006-06-21",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Government Reform.",
+      "latestActionDate": "2006-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/431",
+      "stages": {}
+     },
+     {
+      "type": "HJRES",
+      "number": "88",
+      "title": "Marriage Protection Amendment",
+      "introduced": "2006-06-06",
+      "policyArea": "Families",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2006-07-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-joint-resolution/88",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5463",
+      "title": "To amend the Internal Revenue Code of 1986 to repeal the increase in the age of minor children whose unearned income is taxed as if parent's income.",
+      "introduced": "2006-05-23",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2006-05-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5463",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5462",
+      "title": "To suspend the Federal highway fuels taxes, to authorize the leasing, development, production, and transportation of oil and gas in and from the Coastal Plain of Alaska, and for other purposes.",
+      "introduced": "2006-05-23",
+      "policyArea": "Energy",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2006-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5462",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5379",
+      "title": "To authorize the Secretary of the Army to acquire land for expansion of Pinon Canyon Maneuver Site, subject to certain conditions.",
+      "introduced": "2006-05-11",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2006-05-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5379",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5305",
+      "title": "Headwaters Protection and Restoration Act",
+      "introduced": "2006-05-04",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from USDA.",
+      "latestActionDate": "2006-05-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5305",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5283",
+      "title": "Granada Relocation Center National Historic Site Act of 2006",
+      "introduced": "2006-05-03",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2006-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5283",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "369",
+      "title": "Expressing the support of Congress for the \"25 x '25\" initiative, which envisions that farm, forestry, and ranch lands in the United States will provide by 2025 at least 25 percent of the energy consumed in the United States, and, in furtherance of the \"25 x '25\" initiative, promoting the increased production of renewable energy by the forestry and agricultural communities.",
+      "introduced": "2006-03-29",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality, for a period to be subsequently determined by the Chairman .",
+      "latestActionDate": "2006-04-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/369",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4539",
+      "title": "Cache la Poudre River National Heritage Area Technical Amendments Act of 2005",
+      "introduced": "2005-12-14",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks.",
+      "latestActionDate": "2006-01-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4539",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4305",
+      "title": "To amend the Internal Revenue Code of 1986 to provide increased expensing for section 179 property in the Gulf Opportunity Zone.",
+      "introduced": "2005-11-10",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-11-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4305",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3753",
+      "title": "Home School Non-Discrimination Act of 2005",
+      "introduced": "2005-09-13",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2005-10-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3753",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3443",
+      "title": "To direct the Secretary of the Interior to convey certain water distribution facilities to the Northern Colorado Water Conservancy District.",
+      "introduced": "2005-07-26",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Became Public Law No: 109-321.",
+      "latestActionDate": "2006-10-11",
+      "law": "109-321",
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3443",
+      "stages": {
+       "reported": "2005-11-10",
+       "house": "2005-12-13",
+       "senate": "2006-09-29",
+       "president": "2006-10-02",
+       "law": "2006-10-11"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2971",
+      "title": "Parental Notification and Intervention Act of 2005",
+      "introduced": "2005-06-17",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2005-07-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2971",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2555",
+      "title": "Arkansas Valley Conduit Act",
+      "introduced": "2005-05-23",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2005-05-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2555",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1678",
+      "title": "To amend the Internal Revenue Code of 1986 to extend the deduction for increased expensing for small business.",
+      "introduced": "2005-04-19",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-04-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1678",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1253",
+      "title": "To extend a certain high priority corridor in the States of Colorado, Nebraska, South Dakota, and Wyoming.",
+      "introduced": "2005-03-10",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways, Transit and Pipelines.",
+      "latestActionDate": "2005-03-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1253",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1014",
+      "title": "Senior Citizens' Tax Relief Act of 2005",
+      "introduced": "2005-03-01",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-03-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1014",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "774",
+      "title": "Rocky Mountain National Park Boundary Adjustment Act of 2005",
+      "introduced": "2005-02-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 60.",
+      "latestActionDate": "2005-06-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/774",
+      "stages": {
+       "reported": "2005-06-08"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "481",
+      "title": "Sand Creek Massacre National Historic Site Trust Act of 2005",
+      "introduced": "2005-02-01",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 109-45.",
+      "latestActionDate": "2005-08-02",
+      "law": "109-45",
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/481",
+      "stages": {
+       "reported": "2005-06-08",
+       "house": "2005-06-27",
+       "senate": "2005-07-26",
+       "president": "2005-07-27",
+       "law": "2005-08-02"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 11,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5353",
+      "title": "Western Hemisphere Energy Security Act",
+      "introduced": "2006-05-11",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2006-05-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5353",
+      "stages": {},
+      "sponsor": {
+       "id": "F000444",
+       "name": "JEFF FLAKE",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4919",
+      "title": "To extend the educational flexibility program under section 4 of the Education Flexibility Partnership Act of 1999.",
+      "introduced": "2006-03-09",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2006-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4919",
+      "stages": {},
+      "sponsor": {
+       "id": "C000243",
+       "name": "MICHAEL CASTLE",
+       "party": "R",
+       "state": "DE"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4790",
+      "title": "Small Business Expensing Permanency Act of 2006",
+      "introduced": "2006-02-16",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2006-02-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4790",
+      "stages": {},
+      "sponsor": {
+       "id": "H000528",
+       "name": "WALLY HERGER",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4699",
+      "title": "Stimulating Leadership in Cutting Expenditures Act (or SLICE Act) of 2006",
+      "introduced": "2006-02-01",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Committee on the Budget, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2006-02-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4699",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4643",
+      "title": "Davis-Bacon Repeal Act",
+      "introduced": "2005-12-18",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2006-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4643",
+      "stages": {},
+      "sponsor": {
+       "id": "K000362",
+       "name": "Steve King",
+       "party": "R",
+       "state": "IA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4267",
+      "title": "To provide for the coordination and use of the National Domestic Preparedness Consortium by the Department of Homeland Security, and for other purposes.",
+      "introduced": "2005-11-09",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.",
+      "latestActionDate": "2005-11-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4267",
+      "stages": {},
+      "sponsor": {
+       "id": "B001240",
+       "name": "Bob Beauprez",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3966",
+      "title": "Stimulating Leadership in Cutting Expenditures Act of 2005",
+      "introduced": "2005-09-29",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H8989)",
+      "latestActionDate": "2005-10-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3966",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3521",
+      "title": "Rural Colorado Water Infrastructure Act",
+      "introduced": "2005-07-28",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2005-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3521",
+      "stages": {},
+      "sponsor": {
+       "id": "B001240",
+       "name": "Bob Beauprez",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1370",
+      "title": "Federal Land Asset Inventory Reform Act of 2005",
+      "introduced": "2005-03-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2006-03-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1370",
+      "stages": {},
+      "sponsor": {
+       "id": "C000116",
+       "name": "CHRIS CANNON",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "975",
+      "title": "TRAIL Act",
+      "introduced": "2005-02-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2005-12-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/975",
+      "stages": {
+       "reported": "2005-06-14",
+       "house": "2005-12-13"
+      },
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "403",
+      "title": "Hope Plus Scholarship Act of 2005",
+      "introduced": "2005-01-26",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-01-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/403",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 4
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 302,
+    "becameLaw": 4,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 53
+     },
+     {
+      "name": "Health",
+      "count": 32
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 25
+     },
+     {
+      "name": "Commemorations",
+      "count": 24
+     },
+     {
+      "name": "International Affairs",
+      "count": 18
+     }
+    ]
+   }
+  },
+  "H000444": {
+   "sponsored": {
+    "count": 20,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 6
+     },
+     {
+      "name": "Commemorations",
+      "count": 4
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 4
+     },
+     {
+      "name": "Taxation",
+      "count": 2
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6287",
+      "title": "National Heritage Areas Partnership Act",
+      "introduced": "2006-09-29",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the House Committee on Resources.",
+      "latestActionDate": "2006-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/6287",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5839",
+      "title": "Leadership PAC Prohibition Act of 2006",
+      "introduced": "2006-07-19",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2006-07-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5839",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "788",
+      "title": "Supporting the goals and ideals of Peace Officers Memorial Day.",
+      "introduced": "2006-05-02",
+      "policyArea": "Commemorations",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2006-05-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/788",
+      "stages": {
+       "house": "2006-05-16"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "776",
+      "title": "Supporting the observance of a \"National Day of the American Cowboy\".",
+      "introduced": "2006-04-25",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Government Reform.",
+      "latestActionDate": "2006-04-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/776",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4988",
+      "title": "House Ethics Reform Act of 2006",
+      "introduced": "2006-03-16",
+      "policyArea": "Congress",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H1880)",
+      "latestActionDate": "2006-04-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4988",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4907",
+      "title": "To direct the Secretary of Veterans Affairs to establish a national cemetery for veterans in the Pikes Peak region of Colorado.",
+      "introduced": "2006-03-08",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2006-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4907",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4818",
+      "title": "South Park National Heritage Area Act",
+      "introduced": "2006-02-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Interior.",
+      "latestActionDate": "2006-03-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4818",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4235",
+      "title": "Browns Canyon Wilderness Act",
+      "introduced": "2005-11-04",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2006-07-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4235",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3631",
+      "title": "Eminent Domain Limitation Act of 2005",
+      "introduced": "2005-07-29",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.",
+      "latestActionDate": "2005-08-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3631",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2673",
+      "title": "Ocean Habitat Protection Act",
+      "introduced": "2005-05-26",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from Commerce.",
+      "latestActionDate": "2005-06-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2673",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "266",
+      "title": "Supporting the goals and ideals of Peace Officers Memorial Day.",
+      "introduced": "2005-05-05",
+      "policyArea": "Commemorations",
+      "latestAction": "On motion to suspend the rules and agree to the resolution Agreed to by the Yeas and Nays: (2/3 required): 391 - 0 (Roll no. 172). (text: CR H3273)",
+      "latestActionDate": "2005-05-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/266",
+      "stages": {
+       "house": "2005-05-16"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1240",
+      "title": "Emergency Medical Services Support Act",
+      "introduced": "2005-03-10",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2005-03-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1240",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1159",
+      "title": "To direct the Secretary of Veterans Affairs to establish a national cemetery for veterans in the Colorado Springs, Colorado, metropolitan area.",
+      "introduced": "2005-03-08",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2005-04-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1159",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "932",
+      "title": "Ronald Reagan Commemorative Coin Act of 2005",
+      "introduced": "2005-02-17",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Domestic and International Monetary Policy, Trade, and Technology.",
+      "latestActionDate": "2005-03-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/932",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "760",
+      "title": "National Heritage Partnership Act",
+      "introduced": "2005-02-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks.",
+      "latestActionDate": "2005-02-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/760",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "706",
+      "title": "To amend title 28, United States Code, to provide for an additional place of holding court in the District of Colorado.",
+      "introduced": "2005-02-09",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, the Internet, and Intellectual Property.",
+      "latestActionDate": "2005-03-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/706",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "632",
+      "title": "Fort Carson Conservation Act of 2005",
+      "introduced": "2005-02-08",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2005-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/632",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "294",
+      "title": "To amend the Internal Revenue Code of 1986 to extend to civilian employees of the Department of Defense serving in combat zones the tax treatment allowed to members of the Armed Forces serving in combat zones.",
+      "introduced": "2005-01-20",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-01-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/294",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "293",
+      "title": "To amend the Internal Revenue Code of 1986 to eliminate the marriage penalty in the contribution rules for Roth IRAs.",
+      "introduced": "2005-01-20",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-01-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/293",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "6",
+      "title": "Expressing the sense of the Congress that the Department of Defense should continue to exercise its statutory authority to support the activities of the Boy Scouts of America, in particular the periodic national and world Boy Scout Jamborees.",
+      "introduced": "2005-01-04",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Committee on Armed Services.",
+      "latestActionDate": "2005-02-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/6",
+      "stages": {
+       "house": "2005-02-09"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 4,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HJRES",
+      "number": "84",
+      "title": "No Taxation Without Representation Amendment",
+      "introduced": "2006-04-27",
+      "policyArea": "Law",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2006-04-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-joint-resolution/84",
+      "stages": {},
+      "sponsor": {
+       "id": "A000358",
+       "name": "W. AKIN",
+       "party": "R",
+       "state": "MO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2332",
+      "title": "National Trails System Willing Seller Act",
+      "introduced": "2005-05-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Forests and Forest Health.",
+      "latestActionDate": "2005-05-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2332",
+      "stages": {},
+      "sponsor": {
+       "id": "B001240",
+       "name": "Bob Beauprez",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "975",
+      "title": "TRAIL Act",
+      "introduced": "2005-02-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2005-12-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/975",
+      "stages": {
+       "reported": "2005-06-14",
+       "house": "2005-12-13"
+      },
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "549",
+      "title": "To amend the basic pay provisions of title 37, United States Code, to ensure pay equity for enlisted members of the reserve components who are selected to attend the United States Military Academy Preparatory School, the United States Naval Academy Preparatory School, or the United States Air Force Academy Preparatory School.",
+      "introduced": "2005-02-02",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2005-02-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/549",
+      "stages": {},
+      "sponsor": {
+       "id": "H001032",
+       "name": "RUSH HOLT",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 3
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 144,
+    "becameLaw": 7,
+    "topics": [
+     {
+      "name": "Commemorations",
+      "count": 20
+     },
+     {
+      "name": "Health",
+      "count": 18
+     },
+     {
+      "name": "Taxation",
+      "count": 14
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 13
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 8
+     }
+    ]
+   }
+  },
+  "T000458": {
+   "sponsored": {
+    "count": 23,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Immigration",
+      "count": 5
+     },
+     {
+      "name": "International Affairs",
+      "count": 4
+     },
+     {
+      "name": "Education",
+      "count": 3
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 2
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6058",
+      "title": "To direct the Administrator of the Federal Aviation Administration to prohibit the operation of the aircraft known as the Mitsubishi MU-2 in the airspace of the United States until the Administrator of the Federal Aviation Administration certifies that the aircraft is safe and the certification is approved by law.",
+      "introduced": "2006-09-12",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2006-09-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/6058",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5913",
+      "title": "Voter Integrity Protection Act of 2006",
+      "introduced": "2006-07-26",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Highways, Transit and Pipelines.",
+      "latestActionDate": "2006-07-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5913",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5349",
+      "title": "Nurse Loan Forgiveness Act of 2006",
+      "introduced": "2006-05-10",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on 21st Century Competitiveness.",
+      "latestActionDate": "2006-06-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5349",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5048",
+      "title": "To direct the Secretary of Energy to undertake a study of the need for and feasibility of establishing a strategic natural gas reserve.",
+      "introduced": "2006-03-29",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality.",
+      "latestActionDate": "2006-04-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5048",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4754",
+      "title": "Sudanese Diaspora Loan Forgiveness Act",
+      "introduced": "2006-02-15",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on 21st Century Competitiveness.",
+      "latestActionDate": "2006-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4754",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4321",
+      "title": "To repeal the amendment made by section 796 of the Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2006, exempting from harboring sanctions compensation for alien volunteers for certain religious organizations.",
+      "introduced": "2005-11-15",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2006-02-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4321",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4008",
+      "title": "To posthumously award a Congressional gold medal on behalf of each person aboard United Airlines Flight 93 who helped resist the hijackers and caused the plane to crash.",
+      "introduced": "2005-10-06",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Domestic and International Monetary Policy, Trade, and Technology.",
+      "latestActionDate": "2006-01-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4008",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3855",
+      "title": "Emergency Farm Relief Act of 2006",
+      "introduced": "2005-09-21",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2005-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3855",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3700",
+      "title": "Reducing Immigration to a Genuinely Healthy Total (RIGHT) Act of 2005",
+      "introduced": "2005-09-08",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2005-10-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3700",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "435",
+      "title": "Establishment of a select committee to investigate and oversee the awarding and execution of contracts for relief and reconstruction activities in areas affected by hurricane Katrina.",
+      "introduced": "2005-09-08",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2005-09-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/435",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3425",
+      "title": "Veterans Health Administration Employee Protection Act",
+      "introduced": "2005-07-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2005-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3425",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3333",
+      "title": "REAL GUEST Act of 2005",
+      "introduced": "2005-07-19",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2005-08-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3333",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2980",
+      "title": "Eminent Domain Relief Act",
+      "introduced": "2005-06-17",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-06-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2980",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "141",
+      "title": "Calling on the International Olympic Committee (IOC) to change the venue of the 2008 Olympic Games unless the People's Republic of China makes significant progress in ending human rights abuses.",
+      "introduced": "2005-04-28",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Africa, Global Human Rights and International Relations.",
+      "latestActionDate": "2005-05-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/141",
+      "stages": {}
+     },
+     {
+      "type": "HJRES",
+      "number": "43",
+      "title": "Proposing an amendment to the Constitution of the United States to establish English as the official language of the United States.",
+      "introduced": "2005-04-21",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on the Constitution.",
+      "latestActionDate": "2005-05-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-joint-resolution/43",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1587",
+      "title": "To match willing United States workers with employers, to increase and fairly apportion H-2B visas, and to ensure that H-2B visas serve their intended purpose.",
+      "introduced": "2005-04-13",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2005-05-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1587",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1450",
+      "title": "To require additional tariffs be imposed on products of any nonmarket economy country until the President certifies to the Congress that that country is a market economy country, and to direct the Secretary of the Treasury to deposit the amounts generated from those tariffs into the Social Security trust funds.",
+      "introduced": "2005-03-17",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2005-03-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1450",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1325",
+      "title": "To amend the Immigration and Nationality Act to repeal authorities relating to H1-B visas for temporary workers.",
+      "introduced": "2005-03-15",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2005-04-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1325",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "94",
+      "title": "Commending Paul Rusesabagina for his courage and bravery in saving hundreds of lives from the genocide in Rwanda, and for other purposes.",
+      "introduced": "2005-03-10",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Africa, Global Human Rights and International Relations.",
+      "latestActionDate": "2005-03-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/94",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "975",
+      "title": "TRAIL Act",
+      "introduced": "2005-02-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2005-12-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/975",
+      "stages": {
+       "reported": "2005-06-14",
+       "house": "2005-12-13"
+      }
+     },
+     {
+      "type": "HCONRES",
+      "number": "69",
+      "title": "Expressing the sense of Congress that the United States should resume normal diplomatic relations with the Republic of China on Taiwan, and for other purposes.",
+      "introduced": "2005-02-16",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Asia and the Pacific.",
+      "latestActionDate": "2005-03-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/69",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "49",
+      "title": "Recognizing the importance of Western civilization.",
+      "introduced": "2005-02-08",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2005-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/49",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "19",
+      "title": "Expressing the sense of Congress that the people of the United States should observe the 60th anniversary of the liberation of Auschwitz, a Nazi death camp during World War II, and honor all the victims of the Holocaust, and for other purposes.",
+      "introduced": "2005-01-20",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Europe and Emerging Threats.",
+      "latestActionDate": "2005-03-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/19",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 15,
+    "becameLaw": 1,
+    "bills": [
+     {
+      "type": "HCONRES",
+      "number": "487",
+      "title": "Expressing the sense of Congress that the United States should not engage in the construction of a North American Free Trade Agreement (NAFTA) Superhighway System or enter into a North American Union with Mexico and Canada.",
+      "introduced": "2006-09-28",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on International Relations, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2006-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/487",
+      "stages": {},
+      "sponsor": {
+       "id": "G000280",
+       "name": "VIRGIL GOODE",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "992",
+      "title": "Supporting the appointment of a Presidential Special Envoy for Sudan.",
+      "introduced": "2006-09-07",
+      "policyArea": "International Affairs",
+      "latestAction": "The title of the measure was amended. Agreed to without objection.",
+      "latestActionDate": "2006-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/992",
+      "stages": {
+       "house": "2006-09-26"
+      },
+      "sponsor": {
+       "id": "W000672",
+       "name": "FRANK WOLF",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "5977",
+      "title": "American Child Support Enforcement Immigration Act of 2006",
+      "introduced": "2006-07-28",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Committee on the Judiciary, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2006-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5977",
+      "stages": {},
+      "sponsor": {
+       "id": "B000208",
+       "name": "ROSCOE BARTLETT",
+       "party": "R",
+       "state": "MD"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5739",
+      "title": "We the People Act",
+      "introduced": "2006-06-29",
+      "policyArea": "Law",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2006-06-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5739",
+      "stages": {},
+      "sponsor": {
+       "id": "P000583",
+       "name": "RON PAUL",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HCONRES",
+      "number": "396",
+      "title": "Expressing the sense of the Congress that the United States should address the ongoing problem of untouchability in India.",
+      "introduced": "2006-04-27",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Employer-Employee Relations.",
+      "latestActionDate": "2006-05-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/396",
+      "stages": {},
+      "sponsor": {
+       "id": "F000448",
+       "name": "Trent Franks",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HCONRES",
+      "number": "369",
+      "title": "Expressing the support of Congress for the \"25 x '25\" initiative, which envisions that farm, forestry, and ranch lands in the United States will provide by 2025 at least 25 percent of the energy consumed in the United States, and, in furtherance of the \"25 x '25\" initiative, promoting the increased production of renewable energy by the forestry and agricultural communities.",
+      "introduced": "2006-03-29",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality, for a period to be subsequently determined by the Chairman .",
+      "latestActionDate": "2006-04-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/369",
+      "stages": {},
+      "sponsor": {
+       "id": "M001152",
+       "name": "Marilyn Musgrave",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4497",
+      "title": "BOND Act of 2005",
+      "introduced": "2005-12-08",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2006-02-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4497",
+      "stages": {},
+      "sponsor": {
+       "id": "S000250",
+       "name": "PETE SESSIONS",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4168",
+      "title": "Strengthening American Citizenship Act of 2005",
+      "introduced": "2005-10-27",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Border Security, and Claims.",
+      "latestActionDate": "2006-02-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4168",
+      "stages": {},
+      "sponsor": {
+       "id": "R000566",
+       "name": "JIM RYUN",
+       "party": "R",
+       "state": "KS"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HCONRES",
+      "number": "221",
+      "title": "Expressing the sense of the Congress that the President should immediately and unequivocally call for the enforcement of existing immigration laws in order to reduce the threat of a terrorist attack and to reduce the massive influx of illegal aliens into the United States.",
+      "introduced": "2005-07-27",
+      "policyArea": "Immigration",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H7943-7944)",
+      "latestActionDate": "2005-09-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/221",
+      "stages": {},
+      "sponsor": {
+       "id": "G000280",
+       "name": "VIRGIL GOODE",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1973",
+      "title": "Senator Paul Simon Water for the Poor Act of 2005",
+      "introduced": "2005-04-28",
+      "policyArea": "International Affairs",
+      "latestAction": "Became Public Law No: 109-121.",
+      "latestActionDate": "2005-12-01",
+      "law": "109-121",
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1973",
+      "stages": {
+       "reported": "2005-10-28",
+       "house": "2005-11-07",
+       "senate": "2005-11-16",
+       "president": "2005-11-28",
+       "law": "2005-12-01"
+      },
+      "sponsor": {
+       "id": "B000574",
+       "name": "EARL BLUMENAUER",
+       "party": "D",
+       "state": "OR"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "191",
+      "title": "Urging the Government of Romania to recognize its responsibilities to provide equitable, prompt, and fair restitution to all religious communities for property confiscated by the former Communist government in Romania.",
+      "introduced": "2005-04-06",
+      "policyArea": "International Affairs",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2005-05-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/191",
+      "stages": {
+       "house": "2005-05-23"
+      },
+      "sponsor": {
+       "id": "L000090",
+       "name": "TOM LANTOS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1438",
+      "title": "No Social Security for Illegal Immigrants Act of 2005",
+      "introduced": "2005-03-17",
+      "policyArea": "Social Welfare",
+      "latestAction": "Referred to the Subcommittee on Social Security.",
+      "latestActionDate": "2005-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/1438",
+      "stages": {},
+      "sponsor": {
+       "id": "R000409",
+       "name": "DANA ROHRABACHER",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "172",
+      "title": "Expressing the condemnation of the House of Representatives on the one year anniversary of ethnic violence in Kosovo that occurred on March 17 and 18, 2004, and expressing condolences to the families of individuals who were killed or injured.",
+      "introduced": "2005-03-17",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Europe and Emerging Threats.",
+      "latestActionDate": "2005-04-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/172",
+      "stages": {},
+      "sponsor": {
+       "id": "B001149",
+       "name": "DAN BURTON",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "599",
+      "title": "Federal Lands Restoration, Enhancement, Public Education, and Information Resources Act of 2005",
+      "introduced": "2005-02-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E2536)",
+      "latestActionDate": "2005-12-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/599",
+      "stages": {
+       "reported": "2005-06-14"
+      },
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "98",
+      "title": "Illegal Immigration Enforcement and Social Security Protection Act of 2005",
+      "introduced": "2005-01-04",
+      "policyArea": "Immigration",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H3445)",
+      "latestActionDate": "2005-05-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/98",
+      "stages": {},
+      "sponsor": {
+       "id": "D000492",
+       "name": "DAVID DREIER",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 308,
+    "becameLaw": 15,
+    "topics": [
+     {
+      "name": "International Affairs",
+      "count": 85
+     },
+     {
+      "name": "Immigration",
+      "count": 32
+     },
+     {
+      "name": "Commemorations",
+      "count": 28
+     },
+     {
+      "name": "Health",
+      "count": 26
+     },
+     {
+      "name": "Taxation",
+      "count": 24
+     }
+    ]
+   }
+  },
+  "B001240": {
+   "sponsored": {
+    "count": 16,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 4
+     },
+     {
+      "name": "Foreign Trade and International Finance",
+      "count": 2
+     },
+     {
+      "name": "Congress",
+      "count": 2
+     },
+     {
+      "name": "Education",
+      "count": 1
+     },
+     {
+      "name": "Energy",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5854",
+      "title": "PASS Act",
+      "introduced": "2006-07-20",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2006-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5854",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5756",
+      "title": "Colorado Emergency Wildfire and Insect Infestations Response Act of 2006",
+      "introduced": "2006-07-11",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2006-09-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5756",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5127",
+      "title": "To prohibit the Department of Energy from obligating funds for appropriation earmarks in the Energy Efficiency and Renewable Energy program.",
+      "introduced": "2006-04-06",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality, for a period to be subsequently determined by the Chairman .",
+      "latestActionDate": "2006-04-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5127",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5101",
+      "title": "To authorize a major medical facility project for the Department of Veterans Affairs at Denver, Colorado.",
+      "introduced": "2006-04-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2006-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5101",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4267",
+      "title": "To provide for the coordination and use of the National Domestic Preparedness Consortium by the Department of Homeland Security, and for other purposes.",
+      "introduced": "2005-11-09",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.",
+      "latestActionDate": "2005-11-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4267",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3978",
+      "title": "To authorize the Secretary of Energy to purchase certain essential mineral rights and resolve natural resource damage liability claims.",
+      "introduced": "2005-10-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2005-10-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3978",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3521",
+      "title": "Rural Colorado Water Infrastructure Act",
+      "introduced": "2005-07-28",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2005-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3521",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3106",
+      "title": "To suspend temporarily the duty on fabric woven with certain continuous filament wholly nylon type-66 textured yarns.",
+      "introduced": "2005-06-29",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2005-07-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3106",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3105",
+      "title": "To suspend temporarily the duty on certain aramid chopped fiber.",
+      "introduced": "2005-06-29",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2005-07-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/3105",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2332",
+      "title": "National Trails System Willing Seller Act",
+      "introduced": "2005-05-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Forests and Forest Health.",
+      "latestActionDate": "2005-05-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2332",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "621",
+      "title": "Guardsmen and Reservists Financial Relief Act of 2005",
+      "introduced": "2005-02-08",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-02-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/621",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "619",
+      "title": "Denver Federal Center Redevelopment Act",
+      "introduced": "2005-02-08",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.",
+      "latestActionDate": "2005-02-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/619",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "618",
+      "title": "To amend title 49, United States Code, to ensure that the National Driver Registry includes certain information.",
+      "introduced": "2005-02-08",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways, Transit and Pipelines.",
+      "latestActionDate": "2005-02-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/618",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "613",
+      "title": "Alcohol Without Liquid Machine Safety Act of 2005",
+      "introduced": "2005-02-08",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Commerce, Trade and Consumer Protection.",
+      "latestActionDate": "2005-02-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/613",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "21",
+      "title": "Providing for an adjournment or recess of the two Houses.",
+      "introduced": "2005-01-25",
+      "policyArea": "Congress",
+      "latestAction": "Message on Senate action sent to the House.",
+      "latestActionDate": "2005-01-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/21",
+      "stages": {
+       "house": "2005-01-25",
+       "senate": "2005-01-26"
+      }
+     },
+     {
+      "type": "HCONRES",
+      "number": "20",
+      "title": "Providing for a joint session of Congress to receive a message from the President.",
+      "introduced": "2005-01-25",
+      "policyArea": "Congress",
+      "latestAction": "Message on Senate action sent to the House.",
+      "latestActionDate": "2005-02-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-concurrent-resolution/20",
+      "stages": {
+       "house": "2005-01-25",
+       "senate": "2005-01-31"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 9,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5864",
+      "title": "Health Partnership Through Creative Federalism Act",
+      "introduced": "2006-07-24",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2006-08-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5864",
+      "stages": {},
+      "sponsor": {
+       "id": "B001230",
+       "name": "Tammy Baldwin",
+       "party": "D",
+       "state": "WI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5305",
+      "title": "Headwaters Protection and Restoration Act",
+      "introduced": "2006-05-04",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Executive Comment Requested from USDA.",
+      "latestActionDate": "2006-05-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/5305",
+      "stages": {},
+      "sponsor": {
+       "id": "M001152",
+       "name": "Marilyn Musgrave",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4235",
+      "title": "Browns Canyon Wilderness Act",
+      "introduced": "2005-11-04",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2006-07-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/4235",
+      "stages": {},
+      "sponsor": {
+       "id": "H000444",
+       "name": "JOEL HEFLEY",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2991",
+      "title": "To prohibit United States foreign assistance from being provided to any country that refuses to extradite to the United States individuals accused of killing law enforcement officers.",
+      "introduced": "2005-06-20",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on International Relations.",
+      "latestActionDate": "2005-06-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2991",
+      "stages": {},
+      "sponsor": {
+       "id": "M001156",
+       "name": "Patrick McHenry",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2794",
+      "title": "Clean Energy Bonds Act of 2005",
+      "introduced": "2005-06-08",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2005-06-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2794",
+      "stages": {},
+      "sponsor": {
+       "id": "L000293",
+       "name": "RON LEWIS",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2111",
+      "title": "Rocky Flats Minerals Acquisition Act",
+      "introduced": "2005-05-04",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2005-05-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/2111",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "975",
+      "title": "TRAIL Act",
+      "introduced": "2005-02-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2005-12-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/975",
+      "stages": {
+       "reported": "2005-06-14",
+       "house": "2005-12-13"
+      },
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "103",
+      "title": "Recognizing the importance of honoring the Nation's children and expressing the sense of the House of Representatives that a National Children's Day should be established.",
+      "introduced": "2005-02-15",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Education Reform.",
+      "latestActionDate": "2005-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-resolution/103",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "428",
+      "title": "Rocky Flats Special Exposure Cohort Act",
+      "introduced": "2005-01-26",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2005-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/109th-congress/house-bill/428",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 232,
+    "becameLaw": 4,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 52
+     },
+     {
+      "name": "Health",
+      "count": 31
+     },
+     {
+      "name": "Commemorations",
+      "count": 26
+     },
+     {
+      "name": "International Affairs",
+      "count": 15
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 13
+     }
+    ]
+   }
+  }
+ }
+}

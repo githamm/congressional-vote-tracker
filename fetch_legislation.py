@@ -86,7 +86,9 @@ class Client:
 
     def get(self, path, **params):
         params.setdefault("format", "json")
-        for attempt in range(5):
+        rate_waits = 0
+        attempt = 0
+        while attempt < 5:
             try:
                 r = self.session.get(API + path, params=params, timeout=60)
             except requests.RequestException as e:
@@ -97,10 +99,19 @@ class Client:
                     self.calls += 1
                 if r.ok:
                     return r.json()
-                if r.status_code not in (429, 500, 502, 503, 504):
+                if r.status_code == 429 and rate_waits < 12:
+                    # Hourly limit (5,000 calls): wait it out rather than give
+                    # up, so a long backfill can run unattended. Up to ~1 hour.
+                    rate_waits += 1
+                    wait = int(r.headers.get("Retry-After") or 0) or 300
+                    print(f"  rate limit reached; waiting {wait}s ({rate_waits}/12)", file=sys.stderr, flush=True)
+                    time.sleep(wait)
+                    continue
+                if r.status_code not in (500, 502, 503, 504):
                     raise SystemExit(f"Congress.gov returned HTTP {r.status_code} for {path}")
                 err = f"HTTP {r.status_code}"
             wait = 2 ** attempt * 5
+            attempt += 1
             print(f"  {err} on {path}; retrying in {wait}s", file=sys.stderr)
             time.sleep(wait)
         raise SystemExit(f"Gave up on {path} after repeated errors.")

@@ -1,0 +1,1777 @@
+{
+ "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
+ "congress": 114,
+ "updated": "2026-11-12",
+ "members": {
+  "D000197": {
+   "sponsored": {
+    "count": 11,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 6
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 2
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 1
+     },
+     {
+      "name": "Law",
+      "count": 1
+     },
+     {
+      "name": "Environmental Protection",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5542",
+      "title": "Medicaid and CHIP Quality Improvement Act of 2016",
+      "introduced": "2016-06-21",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2016-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5542",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "558",
+      "title": "Condemning violence that targets healthcare for women.",
+      "introduced": "2015-12-08",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2016-01-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/558",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3656",
+      "title": "Tobacco to 21 Act",
+      "introduced": "2015-09-30",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3656",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3629",
+      "title": "Respect States' and Citizens' Rights Act of 2015",
+      "introduced": "2015-09-28",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2015-10-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3629",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3336",
+      "title": "Colorado Wilderness Act of 2015",
+      "introduced": "2015-07-29",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Water, Power and Oceans.",
+      "latestActionDate": "2015-08-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3336",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2919",
+      "title": "To authorize 2 additional district judgeships for the district of Colorado.",
+      "introduced": "2015-06-25",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2015-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2919",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2651",
+      "title": "Eliminating Disparities in Diabetes Prevention, Access, and Care Act of 2015",
+      "introduced": "2015-06-04",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-06-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2651",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1686",
+      "title": "Preventing Diabetes in Medicare Act of 2015",
+      "introduced": "2015-03-26",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-04-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1686",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1482",
+      "title": "Fracturing Responsibility and Awareness of Chemicals Act of 2015",
+      "introduced": "2015-03-19",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment and the Economy.",
+      "latestActionDate": "2015-03-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1482",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "771",
+      "title": "Protecting Access to Diabetes Supplies Act of 2015",
+      "introduced": "2015-02-05",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-02-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/771",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "47",
+      "title": "Supporting women's reproductive health care decisions.",
+      "introduced": "2015-01-22",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-01-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/47",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "P000598": {
+   "sponsored": {
+    "count": 26,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Education",
+      "count": 9
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 3
+     },
+     {
+      "name": "Taxation",
+      "count": 2
+     },
+     {
+      "name": "Immigration",
+      "count": 2
+     },
+     {
+      "name": "Commerce",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "895",
+      "title": "Expressing support for designation of the week of September 26, 2016, as National Adult Education and Family Literacy Week.",
+      "introduced": "2016-09-26",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2016-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/895",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5939",
+      "title": "Giving Workers a Fair Shot Act",
+      "introduced": "2016-09-06",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Committee on Education and the Workforce, and in addition to the Committees on Financial Services, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2016-09-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5939",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "774",
+      "title": "Expressing support for designation of the week of June 6 through June 12, 2016, as \"Hemp History Week\".",
+      "introduced": "2016-06-09",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Biotechnology, Horticulture, and Research.",
+      "latestActionDate": "2016-06-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/774",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5040",
+      "title": "Solar EDGE Act",
+      "introduced": "2016-04-21",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2016-04-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5040",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4594",
+      "title": "Making College Affordable and Accessible Act of 2016",
+      "introduced": "2016-02-23",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2016-09-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4594",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4530",
+      "title": "EB-5 Integrity Act of 2016",
+      "introduced": "2016-02-10",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2016-02-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4530",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4510",
+      "title": "Bolts Ditch Access and Use Act",
+      "introduced": "2016-02-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 617.",
+      "latestActionDate": "2016-09-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4510",
+      "stages": {
+       "reported": "2016-07-14",
+       "house": "2016-09-06"
+      }
+     },
+     {
+      "type": "HRES",
+      "number": "488",
+      "title": "Supporting the goals and ideals of National Retirement Security Week, including raising public awareness of the various tax-preferred retirement vehicles, increasing personal financial literacy, and engaging the people of the United States on the keys to success in achieving and maintaining retirement security throughout their lifetimes.",
+      "introduced": "2015-10-22",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2015-10-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/488",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3752",
+      "title": "ExCEL Act of 2015",
+      "introduced": "2015-10-09",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2016-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3752",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "433",
+      "title": "Expressing support for designation of the week of September 21, 2015, as National Adult Education and Family Literacy Week.",
+      "introduced": "2015-09-22",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2015-09-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/433",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2960",
+      "title": "TALENT Act",
+      "introduced": "2015-07-07",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2015-11-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2960",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2656",
+      "title": "Receiving Electronic Statements To Improve Retiree Earnings Act",
+      "introduced": "2015-06-04",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions.",
+      "latestActionDate": "2015-11-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2656",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2598",
+      "title": "Lucid Act of 2015",
+      "introduced": "2015-06-01",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways and Transit.",
+      "latestActionDate": "2015-06-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2598",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2554",
+      "title": "Continental Divide Wilderness and Recreation Act",
+      "introduced": "2015-05-21",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2015-06-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2554",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1978",
+      "title": "Veterans Conservation Corps Act of 2015",
+      "introduced": "2015-04-22",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Environment.",
+      "latestActionDate": "2015-08-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1978",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1896",
+      "title": "Demand Letter Transparency Act of 2015",
+      "introduced": "2015-04-20",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2015-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1896",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1883",
+      "title": "Breaking Down Barriers to Innovation Act of 2015",
+      "introduced": "2015-04-16",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2015-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1883",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1548",
+      "title": "BREATHE Act",
+      "introduced": "2015-03-23",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2015-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1548",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1507",
+      "title": "IN STATE Act of 2015",
+      "introduced": "2015-03-19",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2015-11-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1507",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1324",
+      "title": "Arapaho National Forest Boundary Adjustment Act of 2015",
+      "introduced": "2015-03-04",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 339.",
+      "latestActionDate": "2015-12-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1324",
+      "stages": {
+       "reported": "2015-04-15",
+       "house": "2015-04-28"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1013",
+      "title": "Regulate Marijuana Like Alcohol Act",
+      "introduced": "2015-02-20",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2015-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1013",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "848",
+      "title": "Great Teaching and Leading for Great Schools Act of 2015",
+      "introduced": "2015-02-10",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2015-04-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/848",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "847",
+      "title": "Investing in Innovation for Education Act of 2015",
+      "introduced": "2015-02-10",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2015-04-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/847",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "846",
+      "title": "Student Non-Discrimination Act of 2015",
+      "introduced": "2015-02-10",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2015-04-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/846",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "616",
+      "title": "American Entrepreneurship and Investment Act of 2015",
+      "introduced": "2015-01-28",
+      "policyArea": "Immigration",
+      "latestAction": "Committee on Small Business and Entrepreneurship. Hearings held. Hearings printed: S.Hrg. 114-603.",
+      "latestActionDate": "2016-02-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/616",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "397",
+      "title": "For the relief of Jeanette Vizguerra-Ramirez.",
+      "introduced": "2015-01-14",
+      "policyArea": "",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2015-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/397",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "P000593": {
+   "sponsored": {
+    "count": 16,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Finance and Financial Sector",
+      "count": 3
+     },
+     {
+      "name": "Transportation and Public Works",
+      "count": 3
+     },
+     {
+      "name": "Housing and Community Development",
+      "count": 3
+     },
+     {
+      "name": "Taxation",
+      "count": 1
+     },
+     {
+      "name": "Commerce",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6032",
+      "title": "Data Breach Insurance Act",
+      "introduced": "2016-09-14",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2016-09-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/6032",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5438",
+      "title": "Foreign Business Bribery Prohibition Act of 2016",
+      "introduced": "2016-06-09",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2016-06-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5438",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4647",
+      "title": "Traditional Banking Regulatory Relief Act of 2015",
+      "introduced": "2016-02-26",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2016-02-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4647",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4574",
+      "title": "Helicopter Fuel System Safety Act",
+      "introduced": "2016-02-12",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2016-02-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4574",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4573",
+      "title": "Lap Children Safety Research Act",
+      "introduced": "2016-02-12",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Research and Technology.",
+      "latestActionDate": "2016-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4573",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "614",
+      "title": "Honoring the Denver Broncos on their victory in Super Bowl 50.",
+      "introduced": "2016-02-11",
+      "policyArea": "Sports and Recreation",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2016-02-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/614",
+      "stages": {}
+     },
+     {
+      "type": "HJRES",
+      "number": "60",
+      "title": "Expressing support for designation of a \"National Lao-Hmong Recognition Day\".",
+      "introduced": "2015-07-21",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2015-07-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-joint-resolution/60",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2938",
+      "title": "National Design Services Act of 2015",
+      "introduced": "2015-06-25",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2015-06-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2938",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2277",
+      "title": "Password Protection Act of 2015",
+      "introduced": "2015-05-12",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2015-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2277",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2076",
+      "title": "Marijuana Businesses Access to Banking Act of 2015",
+      "introduced": "2015-04-28",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2015-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2076",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1408",
+      "title": "Mortgage Servicing Asset Capital Requirements Act of 2015",
+      "introduced": "2015-03-17",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2015-07-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1408",
+      "stages": {
+       "house": "2015-07-14"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1224",
+      "title": "Freddie Mac REMIC Reform Act of 2015",
+      "introduced": "2015-03-03",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2015-03-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1224",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "950",
+      "title": "Prohibiting Automated Traffic Enforcement Act of 2015",
+      "introduced": "2015-02-12",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways and Transit.",
+      "latestActionDate": "2015-02-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/950",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "698",
+      "title": "For the relief of Arturo Hernandez-Garcia.",
+      "introduced": "2015-02-03",
+      "policyArea": "",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2015-02-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/698",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "660",
+      "title": "To amend section 1105 of title 31, United States Code, to allow the President not to make an annual budget resolution until all appropriations for the preceding fiscal year are enacted.",
+      "introduced": "2015-02-02",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the House Committee on the Budget.",
+      "latestActionDate": "2015-02-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/660",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "233",
+      "title": "Tenant Income Verification Relief Act of 2015",
+      "introduced": "2015-01-08",
+      "policyArea": "Housing and Community Development",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2015-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/233",
+      "stages": {
+       "house": "2015-03-23"
+      }
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "T000470": {
+   "sponsored": {
+    "count": 14,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 6
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 5
+     },
+     {
+      "name": "Energy",
+      "count": 1
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 1
+     },
+     {
+      "name": "Taxation",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6288",
+      "title": "REAL Protection Act",
+      "introduced": "2016-09-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2016-10-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/6288",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6287",
+      "title": "MOBILE Act of 2016",
+      "introduced": "2016-09-28",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2016-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/6287",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6162",
+      "title": "Protect Prepaid Accounts Act of 2016",
+      "introduced": "2016-09-22",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Hearings Held by the Subcommittee on Financial Institutions and Consumer Credit Prior to Referral.",
+      "latestActionDate": "2016-09-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/6162",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5950",
+      "title": "To extend the authorization of the Uranium Mill Tailings Radiation Control Act of 1978 relating to the disposal site in Mesa County, Colorado.",
+      "introduced": "2016-09-07",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2016-09-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5950",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5901",
+      "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Pueblo, Colorado, as the \"PFC James Dunn VA Clinic\".",
+      "introduced": "2016-07-14",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2016-07-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5901",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5570",
+      "title": "Western Colorado Wilderness Study Area Release Act",
+      "introduced": "2016-06-22",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2016-06-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5570",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5552",
+      "title": "ACCESS Act of 2016",
+      "introduced": "2016-06-21",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2016-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5552",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2896",
+      "title": "TAILOR Act of 2015",
+      "introduced": "2015-06-25",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 680.",
+      "latestActionDate": "2016-12-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2896",
+      "stages": {
+       "reported": "2016-12-12"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1830",
+      "title": "Water Rights Protection Act",
+      "introduced": "2015-04-16",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Water, Power and Oceans.",
+      "latestActionDate": "2015-05-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1830",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1554",
+      "title": "Elkhorn Ranch and White River National Forest Conveyance Act of 2015",
+      "introduced": "2015-03-23",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 340.",
+      "latestActionDate": "2015-12-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1554",
+      "stages": {
+       "reported": "2015-09-09",
+       "house": "2015-09-16"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1553",
+      "title": "Small Bank Exam Cycle Reform Act of 2015",
+      "introduced": "2015-03-23",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2015-10-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1553",
+      "stages": {
+       "reported": "2015-10-06",
+       "house": "2015-10-06"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1089",
+      "title": "Native American Indian Education Act",
+      "introduced": "2015-02-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2015-04-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1089",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "695",
+      "title": "Healthy Forest Management and Wildfire Prevention Act",
+      "introduced": "2015-02-03",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2015-03-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/695",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "459",
+      "title": "Planning for American Energy Act of 2015",
+      "introduced": "2015-01-21",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2015-03-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/459",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "B001297": {
+   "sponsored": {
+    "count": 8,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "Government Operations and Politics",
+      "count": 2
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 2
+     },
+     {
+      "name": "Economics and Public Finance",
+      "count": 1
+     },
+     {
+      "name": "Taxation",
+      "count": 1
+     },
+     {
+      "name": "Law",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6426",
+      "title": "To amend title 5, United States Code, to provide for a 2 year prohibition on employment in a career civil service position for any former political appointee, and for other purposes.",
+      "introduced": "2016-12-02",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2016-12-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/6426",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4760",
+      "title": "Blue Lives Matter Act of 2016",
+      "introduced": "2016-03-16",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2016-04-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4760",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4371",
+      "title": "Article I Consolidated Appropriations Amendments, 2016",
+      "introduced": "2016-01-12",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Subcommittee on Water, Power and Oceans.",
+      "latestActionDate": "2016-01-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4371",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4220",
+      "title": "Water and Agriculture Tax Reform Act of 2016",
+      "introduced": "2015-12-10",
+      "policyArea": "Taxation",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 675.",
+      "latestActionDate": "2016-12-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4220",
+      "stages": {
+       "reported": "2016-12-08"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4001",
+      "title": "Fix the Footnotes Act of 2015",
+      "introduced": "2015-11-16",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Ordered to be Reported by Voice Vote.",
+      "latestActionDate": "2015-11-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4001",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3624",
+      "title": "Fraudulent Joinder Prevention Act of 2016",
+      "introduced": "2015-09-28",
+      "policyArea": "Law",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
+      "latestActionDate": "2016-02-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3624",
+      "stages": {
+       "reported": "2016-02-16",
+       "house": "2016-02-25"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3023",
+      "title": "To amend title 5, United States Code, to modify probationary periods with respect to positions within the competitive service and the Senior Executive Service, and for other purposes.",
+      "introduced": "2015-07-10",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 358.",
+      "latestActionDate": "2016-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3023",
+      "stages": {
+       "reported": "2016-03-23"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2258",
+      "title": "To amend section 320301 of title 54, United States Code, to modify the authority of the President of the United States to declare national monuments, and for other purposes.",
+      "introduced": "2015-05-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2015-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2258",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 7,
+    "becameLaw": 0,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5904",
+      "title": "Taxpayers Before Insurers Act",
+      "introduced": "2016-07-14",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Appropriations, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2016-07-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5904",
+      "stages": {},
+      "sponsor": {
+       "id": "W000819",
+       "name": "Mark Walker",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4917",
+      "title": "Free Market Flights Act of 2016",
+      "introduced": "2016-04-12",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2016-04-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4917",
+      "stages": {},
+      "sponsor": {
+       "id": "R000604",
+       "name": "Steve Russell",
+       "party": "R",
+       "state": "OK"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4003",
+      "title": "Regulatory Reporting Act of 2015",
+      "introduced": "2015-11-16",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Ordered to be Reported by Voice Vote.",
+      "latestActionDate": "2015-11-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4003",
+      "stages": {},
+      "sponsor": {
+       "id": "W000820",
+       "name": "Mimi Walters",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1944",
+      "title": "Fuel Choice and Deregulation Act of 2015",
+      "introduced": "2015-04-22",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2015-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1944",
+      "stages": {},
+      "sponsor": {
+       "id": "B001294",
+       "name": "Rod Blum",
+       "party": "R",
+       "state": "IA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1736",
+      "title": "To amend the Clean Air Act with respect to the ethanol waiver for the Reid vapor pressure limitations under such Act.",
+      "introduced": "2015-04-13",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2015-04-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1736",
+      "stages": {},
+      "sponsor": {
+       "id": "S001172",
+       "name": "Adrian Smith",
+       "party": "R",
+       "state": "NE"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1461",
+      "title": "DRIVE Act of 2015",
+      "introduced": "2015-03-19",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways and Transit.",
+      "latestActionDate": "2015-03-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1461",
+      "stages": {},
+      "sponsor": {
+       "id": "M001184",
+       "name": "Thomas Massie",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "914",
+      "title": "To direct the Secretary of Defense and the Secretary of Veterans Affairs to jointly operate the Federal Recovery Coordination Program, and for other purposes.",
+      "introduced": "2015-02-12",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2015-11-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/914",
+      "stages": {},
+      "sponsor": {
+       "id": "G000575",
+       "name": "Gwen Graham",
+       "party": "D",
+       "state": "FL"
+      },
+      "originalCosponsors": 1
+     }
+    ]
+   },
+   "cosponsored": {
+    "count": 146,
+    "becameLaw": 3,
+    "topics": [
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 16
+     },
+     {
+      "name": "Health",
+      "count": 13
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 12
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 11
+     },
+     {
+      "name": "Taxation",
+      "count": 10
+     }
+    ]
+   }
+  },
+  "L000564": {
+   "sponsored": {
+    "count": 16,
+    "becameLaw": 0,
+    "topics": [
+     {
+      "name": "International Affairs",
+      "count": 4
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 3
+     },
+     {
+      "name": "Arts, Culture, Religion",
+      "count": 2
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 2
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 2
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6389",
+      "title": "Taylor Force Act",
+      "introduced": "2016-11-18",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2016-11-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/6389",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6086",
+      "title": "Protecting Religious Expression Against Censorship and Harassment Act of 2016",
+      "introduced": "2016-09-20",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2016-09-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/6086",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "790",
+      "title": "Expressing support for designation of July 2, 2016, as the \"National Day of Personal Reflection and Repentance\".",
+      "introduced": "2016-06-16",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2016-06-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/790",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5416",
+      "title": "To amend title 38, United States Code, to expand burial benefits for veterans who die while receiving hospital care or medical services under the Veterans Choice Program of the Department of Veterans Affairs, and for other purposes.",
+      "introduced": "2016-06-09",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2016-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5416",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "768",
+      "title": "Recognizing the sense of the House of Representatives that it is in the United States national security interest for Israel to maintain control of the Golan Heights.",
+      "introduced": "2016-06-07",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2016-06-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/768",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4964",
+      "title": "Directed Energy Weapon Systems Acquisition Act of 2016",
+      "introduced": "2016-04-15",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Emerging Threats and Capabilities.",
+      "latestActionDate": "2016-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4964",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "128",
+      "title": "Expressing the sense of Congress that the United States should continue to exercise its veto in the United Nations Security Council on resolutions regarding the Israeli-Palestinian peace process.",
+      "introduced": "2016-04-15",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2016-04-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-concurrent-resolution/128",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4555",
+      "title": "Non-Discrimination of Israel in Labeling Act",
+      "introduced": "2016-02-12",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2016-02-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4555",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "564",
+      "title": "Expressing the sense of the House of Representatives that the symbols and traditions of Christmas should be protected for use by those who celebrate Christmas.",
+      "introduced": "2015-12-11",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2015-12-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/564",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3843",
+      "title": "Locatable Minerals Claim Location and Maintenance Fees Act of 2015",
+      "introduced": "2015-10-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 556.",
+      "latestActionDate": "2016-09-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3843",
+      "stages": {
+       "reported": "2016-09-06"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "3215",
+      "title": "End Trafficking of the Terminated Unborn Act of 2015",
+      "introduced": "2015-07-27",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-07-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3215",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2223",
+      "title": "Crags, Colorado Land Exchange Act of 2015",
+      "introduced": "2015-05-01",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 341.",
+      "latestActionDate": "2015-12-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2223",
+      "stages": {
+       "reported": "2015-09-09",
+       "house": "2015-09-16"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1649",
+      "title": "Partnering to Detect and Defeat Tunnels Act",
+      "introduced": "2015-03-26",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Emerging Threats and Capabilities.",
+      "latestActionDate": "2015-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1649",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1648",
+      "title": "Ronald Reagan Birthplace Historic Site Establishment Act",
+      "introduced": "2015-03-26",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2015-04-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1648",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1572",
+      "title": "Boycott Our Enemies not Israel Act",
+      "introduced": "2015-03-24",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2015-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1572",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "382",
+      "title": "To designate the facility of the United States Postal Service located at 8585 Criterion Drive in Colorado Springs, Colorado, as the \"Chaplain (Capt.) Dale Goetz Memorial Post Office Building\".",
+      "introduced": "2015-01-14",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2015-01-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/382",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  },
+  "C001077": {
+   "sponsored": {
+    "count": 18,
+    "becameLaw": 1,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 15
+     },
+     {
+      "name": "Taxation",
+      "count": 2
+     },
+     {
+      "name": "Health",
+      "count": 1
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5575",
+      "title": "First-Time Homebuyer Savings Account Act of 2016",
+      "introduced": "2016-06-24",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2016-06-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5575",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5548",
+      "title": "To authorize the Secretary of Veterans Affairs to sell Pershing Hall.",
+      "introduced": "2016-06-21",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2016-06-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5548",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5472",
+      "title": "VA Procurement Efficiency and Transparency Act",
+      "introduced": "2016-06-14",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Oversight and Investigations.",
+      "latestActionDate": "2016-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5472",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5149",
+      "title": "To amend title 38, United States Code, to provide for the circumstances under which the Secretary of Veterans Affairs shall provide reimbursement for emergency ambulance services.",
+      "introduced": "2016-04-29",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2016-05-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5149",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4946",
+      "title": "EARN IT Act",
+      "introduced": "2016-04-14",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2016-04-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4946",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4762",
+      "title": "REGROW Act",
+      "introduced": "2016-03-16",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2016-03-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4762",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4684",
+      "title": "Veteran Urgent Access to Mental Healthcare Act",
+      "introduced": "2016-03-03",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2016-03-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4684",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4683",
+      "title": "Fairness for Veterans Act of 2016",
+      "introduced": "2016-03-03",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2016-03-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4683",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4523",
+      "title": "To repeal the Military Selective Service Act, and thereby terminate the registration requirements of such Act and eliminate civilian local boards, civilian appeal boards, and similar local agencies of the Selective Service System.",
+      "introduced": "2016-02-10",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2016-03-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4523",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4251",
+      "title": "Guard and Reserve Equal Access to Health Act",
+      "introduced": "2015-12-15",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2016-01-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4251",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3945",
+      "title": "Improving Opportunities for Service-Disabled Veteran-Owned Small Businesses Act of 2015",
+      "introduced": "2015-11-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Economic Opportunity.",
+      "latestActionDate": "2015-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3945",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3698",
+      "title": "Military Enlistment Opportunity Act of 2015",
+      "introduced": "2015-10-07",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2016-03-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3698",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3628",
+      "title": "Pay Our Military Act",
+      "introduced": "2015-09-28",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Appropriations.",
+      "latestActionDate": "2015-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3628",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2496",
+      "title": "Construction Authorization and Choice Improvement Act",
+      "introduced": "2015-05-21",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Became Public Law No: 114-19.",
+      "latestActionDate": "2015-05-22",
+      "law": "114-19",
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2496",
+      "stages": {
+       "house": "2015-05-21",
+       "senate": "2015-05-22",
+       "president": "2015-05-22",
+       "law": "2015-05-22"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1681",
+      "title": "VA Construction, Accountability, and Reform Act",
+      "introduced": "2015-03-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Oversight and Investigations.",
+      "latestActionDate": "2015-04-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1681",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1357",
+      "title": "Veterans Beneficiary Fraud Enforcement Act",
+      "introduced": "2015-03-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2015-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1357",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1356",
+      "title": "Women Veterans Access to Quality Care Act of 2015",
+      "introduced": "2015-03-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-03-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1356",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "593",
+      "title": "Aurora VA Hospital Financing and Construction Reform Act of 2015",
+      "introduced": "2015-01-28",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2015-03-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/593",
+      "stages": {}
+     }
+    ]
+   },
+   "coled": {
+    "count": 0,
+    "becameLaw": 0,
+    "bills": []
+   },
+   "cosponsored": {
+    "count": 0,
+    "becameLaw": 0,
+    "topics": []
+   }
+  }
+ }
+}
