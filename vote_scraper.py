@@ -572,13 +572,17 @@ MIN_RANKED_VOTES = 100  # counted (party-majority yea/nay) votes needed to be ra
 # Clerk's XML lists them with state "XX"; the codes cover any other spelling.
 NON_STATE_CODES = {"XX", "DC", "PR", "GU", "VI", "AS", "MP"}
 
-# Keep in sync with FINAL_QUESTION / isFinalVote() in index.html.
+# Keep in sync with FINAL_QUESTION / DISPOSING_QUESTION / markFinalVotes() in index.html.
 FINAL_QUESTION = re.compile(
     r"^(On Passage|Passage, Objections of the President|On Motion to Suspend the Rules and "
     r"(Pass|Agree|Concur)|On Motion to Concur in the Senate Amendments?|On Agreeing to the "
-    r"Conference Report|On Agreeing to the Resolution)\b",
+    r"Conference Report|On Agreeing to the Resolution|On Agreeing to Article [IVXLC]+|Article [IVXLC]+)\b",
     re.IGNORECASE,
 )
+# Privileged resolutions (impeachments, censures, a motion to vacate the
+# chair) are often killed by tabling or referring them, with no up-or-down
+# vote; that vote decided the resolution, so it counts as final.
+DISPOSING_QUESTION = re.compile(r"^On Motion to (Table|Refer)( the Resolution)?$", re.IGNORECASE)
 
 
 def is_final_vote(row: dict) -> bool:
@@ -592,6 +596,20 @@ def is_final_vote(row: dict) -> bool:
     ):
         return False
     return True
+
+
+def final_flags(vote_rows: list[dict]) -> list[bool]:
+    """is_final_vote() for each row, plus a successful motion to table or
+    refer a House resolution that never got a final vote of its own."""
+    flags = [is_final_vote(r) for r in vote_rows]
+    decided = {r.get("Bill Number") for r, f in zip(vote_rows, flags) if f}
+    for i, r in enumerate(vote_rows):
+        bill = r.get("Bill Number") or ""
+        if (not flags[i] and bill.startswith("H RES") and bill not in decided
+                and DISPOSING_QUESTION.match((r.get("Vote Question") or "").strip())
+                and r.get("Result") in ("Passed", "Agreed to")):
+            flags[i] = True
+    return flags
 
 
 def roll_key(year, roll) -> str:
@@ -668,11 +686,11 @@ def compute_house_loyalty(matrix: dict[str, dict], vote_rows: list[dict]) -> dic
     memberStats(): only yea/nay votes where the party had a majority count
     toward loyalty; blank cells (not in office) count toward nothing."""
     rolls = []
-    for row in vote_rows:
+    for row, final in zip(vote_rows, final_flags(vote_rows)):
         year, roll = _int_or_none(row.get("Year")), _int_or_none(row.get("Roll Call Number"))
         if year is None or roll is None:
             continue
-        rolls.append((roll_key(year, roll), row, is_final_vote(row)))
+        rolls.append((roll_key(year, roll), row, final))
 
     covered = {k for entry in matrix.values() for k in entry["codes"]}
     missing = [k for k, _, _ in rolls if k not in covered]
@@ -826,10 +844,10 @@ def compute_closest_matches(matrix: dict[str, dict], vote_rows: list[dict], co_i
     and the closest member of the other major party. Agreement = same vote
     on roll calls where both voted yea or nay."""
     rolls = []
-    for row in vote_rows:
+    for row, final in zip(vote_rows, final_flags(vote_rows)):
         year, roll = _int_or_none(row.get("Year")), _int_or_none(row.get("Roll Call Number"))
         if year is not None and roll is not None:
-            rolls.append((roll_key(year, roll), is_final_vote(row)))
+            rolls.append((roll_key(year, roll), final))
 
     variants = {}
     for variant, include in (("all", lambda final: True), ("final", lambda final: final)):
