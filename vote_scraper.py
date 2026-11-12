@@ -22,6 +22,7 @@ roll call, one column per member's vote, then House-wide tally columns.
 
 import argparse
 import csv
+import html
 import json
 import logging
 import shutil
@@ -151,7 +152,10 @@ def fetch_roll_call(
         return None
 
     if response.status_code == 404:
-        return None
+        # A few roll calls have no XML even though the Clerk lists them --
+        # e.g. 2007's roll calls 1000-1186. Their HTML vote page has the same
+        # data, so fall back to that before calling the roll call missing.
+        return fetch_roll_call_page(session, year, roll_number, member_ids)
     if response.status_code != 200:
         log.warning(
             "Unexpected status %d for roll %d (%d) -- treating as missing",
@@ -216,6 +220,113 @@ def fetch_roll_call(
                 )
 
     result.totals = parse_totals(meta.find("vote-totals"))
+    return result
+
+
+VOTE_PAGE_URL = "https://clerk.house.gov/Votes/{year}{roll}"
+PAGE_PARTY_CODES = {"Democratic": "D", "Republican": "R", "Independent": "I"}
+_TAG = re.compile(r"<[^>]+>")
+
+
+def _page_text(fragment: str) -> str:
+    return " ".join(html.unescape(_TAG.sub(" ", fragment)).split())
+
+
+def parse_vote_page(page: str, year: int, roll_number: int, member_ids: set[str]) -> Optional[RollCallResult]:
+    """Parse a Clerk HTML vote page (clerk.house.gov/Votes/<year><roll>) into
+    the same RollCallResult, in the same formats, that the XML gives. Returns
+    None if the page has no member votes (e.g. a roll call that doesn't exist)."""
+    def find(pattern: str) -> Optional[str]:
+        m = re.search(pattern, page, re.S)
+        return _page_text(m.group(1)) if m else None
+
+    heading = find(r'<div class="col-md-9 roll-call-first-col">\s*<div class="first-row heading"[^>]*>(.*?)</div>') or ""
+    when = re.match(r"(\w{3}) (\d{1,2}), (\d{4}), (\d{1,2}):(\d{2}) ([AP]M)", heading)
+    where = re.search(r"(\d+)th Congress, (\w+) Session", heading)
+    bill = find(r'<span[^>]*class="legisNum"[^>]*>(.*?)</span>')
+
+    result = RollCallResult(
+        year=year,
+        roll_number=roll_number,
+        congress=where.group(1) if where else None,
+        session=where.group(2) if where else None,
+        # "24-Oct-2007" and "3:04 PM", as in the XML.
+        date=f"{int(when.group(2))}-{when.group(1)}-{when.group(3)}" if when else None,
+        time=f"{int(when.group(4))}:{when.group(5)} {when.group(6)}" if when else None,
+        # "H. R. 505" -> "H R 505", as in the XML.
+        bill_number=" ".join(bill.replace(".", " ").upper().split()) if bill else None,
+        vote_question=find(r'<p class="roll-call-first-row"[^>]*><label>Vote Question:</label>(.*?)</p>'),
+        vote_type=find(r'aria-label="Vote Type, ([^"]*)"'),
+        result=find(r'aria-label="Status, ([^"]*)"'),
+        description=find(r'<p class="roll-call-description">\s*<label[^>]*></label>(.*?)</p>'),
+    )
+
+    if not result.bill_number:
+        # The XML names votes that aren't on a bill; the page leaves them blank.
+        question = (result.vote_question or "").lower()
+        result.bill_number = (
+            "QUORUM" if result.vote_type == "QUORUM"
+            else "JOURNAL" if question.startswith("on approving the journal")
+            else "ADJOURN" if question.startswith("on motion to adjourn")
+            else None if question.startswith("election of the speaker")
+            else "MOTION"
+        )
+
+    for row in re.findall(r"<tr>(.*?)</tr>", page, re.S):
+        id_m = re.search(r'href="[^"]*(?:/Members/|index=)([A-Z]\d{6})"', row)
+        vote_m = re.search(r'<td data-label="vote">(.*?)</td>', row, re.S)
+        if not id_m or not vote_m:
+            continue
+        member_id = id_m.group(1)
+        vote_text = _page_text(vote_m.group(1))
+        name = find_in(row, r'<td data-label="member" hidden>(.*?)</td>')
+        party = find_in(row, r'<td data-label="party">(.*?)</td>')
+        state = find_in(row, r'<td data-label="state" class="visible-sm visible-xs">(.*?)</td>')
+        if state in NON_STATE_CODES:
+            state = "XX"  # as in the XML, for delegates and the resident commissioner
+        if member_id in member_ids:
+            result.votes[member_id] = vote_text
+        result.house[member_id] = (vote_code(vote_text), PAGE_PARTY_CODES.get(party, party), state, name)
+
+    if not result.house:
+        return None
+
+    # Recorded votes label the totals "Aye"/"No"; yea-and-nay votes "yea"/"nay".
+    for label, column in (("yea|aye", "Yea Total"), ("nay|no", "Nay Total"),
+                          ("present", "Present Total"), ("not voting", "NV Total")):
+        m = re.search(rf'<p tabindex="0" aria-label="(?:{label}), (\d+)">', page, re.I)
+        if m:
+            result.totals[column] = int(m.group(1))
+    for party, prefix in PARTY_PREFIX.items():
+        m = re.search(rf'aria-label="{party}">{party}</td>(.*?)</tr>', page, re.S)
+        if not m:
+            continue
+        for label, suffix in (("yea", "Yea"), ("nay", "Nay")):
+            n = re.search(rf'aria-label="(\d+) vote on {label}"', m.group(1))
+            if n:
+                result.totals[f"{prefix} {suffix}"] = int(n.group(1))
+    return result
+
+
+def find_in(fragment: str, pattern: str) -> str:
+    m = re.search(pattern, fragment, re.S)
+    return _page_text(m.group(1)) if m else ""
+
+
+def fetch_roll_call_page(
+    session: requests.Session, year: int, roll_number: int, member_ids: set[str]
+) -> Optional[RollCallResult]:
+    url = VOTE_PAGE_URL.format(year=year, roll=roll_number)
+    try:
+        response = session.get(url, timeout=REQUEST_TIMEOUT * 2, headers={"Accept": "text/html,*/*"})
+    except requests.exceptions.RequestException as exc:
+        log.warning("Request error for vote page %d (%d): %s", roll_number, year, exc)
+        return None
+    if response.status_code != 200:
+        return None
+    result = parse_vote_page(response.text, year, roll_number, member_ids)
+    if result is not None:
+        log.info("Roll %d (%d): no XML; used the Clerk's HTML vote page", roll_number, year)
     return result
 
 
