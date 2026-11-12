@@ -1,0 +1,7 @@
+# Local secrets (e.g. CONGRESS_API_KEY) -- never commit
+.env
+*.env
+
+# Python / macOS clutter
+__pycache__/
+.DS_Store
