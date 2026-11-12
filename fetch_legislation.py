@@ -32,6 +32,8 @@ from pathlib import Path
 
 import requests
 
+from vote_rules import write_vote_info
+
 ROOT = Path(__file__).resolve().parent
 API = "https://api.congress.gov/v3"
 PAGE = 250  # the API's maximum page size
@@ -493,6 +495,7 @@ def main():
                         "cosponsored, co-led or not.",
             "congress": cn,
             "updated": today,
+            "coLeadMax": CO_LEAD_MAX,
             "members": members,
         }
         path = ROOT / "data" / c / "legislation.json"
@@ -500,6 +503,9 @@ def main():
         path.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
         print(f"Wrote {path.relative_to(ROOT)}")
         update_bill_topics(client, c)
+        # Topics tell debate rules apart and group votes by bill, so the
+        # page's vote classifications are rebuilt with them.
+        write_vote_info(ROOT / "data" / c)
     print(f"{client.calls} API calls.")
 
 

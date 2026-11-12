@@ -39,6 +39,10 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 
+# Which votes are final, party majorities, delegates and so on: one home for
+# the rules, shared with vote_info.json (which the page reads).
+from vote_rules import NON_STATE_CODES, final_flags, load_bills, party_majority, roll_key, write_vote_info
+
 log = logging.getLogger("vote_scraper")
 
 # --------------------------------------------------------------------------
@@ -180,8 +184,14 @@ def fetch_roll_call(
         )
         return None
 
+    return parse_roll_call_xml(response.content, year, roll_number, member_ids)
+
+
+def parse_roll_call_xml(content: bytes, year: int, roll_number: int, member_ids: set[str]) -> Optional[RollCallResult]:
+    """Parse one Clerk roll-call XML document. None if it has no vote data
+    (the Clerk serves empty documents past the end of a session)."""
     try:
-        root = ET.fromstring(response.content)
+        root = ET.fromstring(content)
     except ET.ParseError as exc:
         log.warning("Malformed XML for roll %d (%d): %s", roll_number, year, exc)
         return None
@@ -582,55 +592,6 @@ HOUSE_MATRIX_NAME = "house_votes.csv"
 HOUSE_LOYALTY_NAME = "house_loyalty.json"
 HOUSE_META_COLUMNS = ["id", "name", "party", "state"]
 MIN_RANKED_VOTES = 100  # counted (party-majority yea/nay) votes needed to be ranked
-# Delegates and the resident commissioner (D.C. and territories) can vote on
-# some amendments but not on final passage, so they're never ranked. The
-# Clerk's XML lists them with state "XX"; the codes cover any other spelling.
-NON_STATE_CODES = {"XX", "DC", "PR", "GU", "VI", "AS", "MP"}
-
-# Keep in sync with FINAL_QUESTION / DISPOSING_QUESTION / markFinalVotes() in index.html.
-FINAL_QUESTION = re.compile(
-    r"^(On Passage|Passage, Objections of the President|On Motion to Suspend the Rules and "
-    r"(Pass|Agree|Concur)|On Motion to Concur in the Senate Amendments?|On Agreeing to the "
-    r"Conference Report|On Agreeing to the Resolution|On Agreeing to Article [IVXLC]+|Article [IVXLC]+)\b",
-    re.IGNORECASE,
-)
-# Privileged resolutions (impeachments, censures, a motion to vacate the
-# chair) are often killed by tabling or referring them, with no up-or-down
-# vote; that vote decided the resolution, so it counts as final.
-DISPOSING_QUESTION = re.compile(r"^On Motion to (Table|Refer)( the Resolution)?$", re.IGNORECASE)
-
-
-def is_final_vote(row: dict) -> bool:
-    """Python twin of isFinalVote() in index.html: the vote that decides a
-    bill or resolution, excluding rules ("Providing for consideration ...")."""
-    question = row.get("Vote Question") or ""
-    if not FINAL_QUESTION.match(question):
-        return False
-    if re.match(r"^On Agreeing to the Resolution", question, re.IGNORECASE) and re.match(
-        r"^Providing for (the )?consideration", row.get("Description") or "", re.IGNORECASE
-    ):
-        return False
-    return True
-
-
-def final_flags(vote_rows: list[dict]) -> list[bool]:
-    """is_final_vote() for each row, plus a successful motion to table or
-    refer a House resolution that never got a final vote of its own."""
-    flags = [is_final_vote(r) for r in vote_rows]
-    decided = {r.get("Bill Number") for r, f in zip(vote_rows, flags) if f}
-    for i, r in enumerate(vote_rows):
-        bill = r.get("Bill Number") or ""
-        if (not flags[i] and bill.startswith("H RES") and bill not in decided
-                and DISPOSING_QUESTION.match((r.get("Vote Question") or "").strip())
-                and r.get("Result") in ("Passed", "Agreed to")):
-            flags[i] = True
-    return flags
-
-
-def roll_key(year, roll) -> str:
-    return f"{int(year)}-{int(roll)}"
-
-
 def load_house_matrix(path: Path) -> dict[str, dict]:
     """{member_id: {"meta": {name, party, state}, "codes": {roll_key: code}}}"""
     matrix: dict[str, dict] = {}
@@ -683,25 +644,13 @@ def _int_or_none(value) -> Optional[int]:
         return None
 
 
-def party_majority(row: dict, party: str) -> Optional[str]:
-    """Twin of partyMajority() in index.html: 'Y', 'N', or None on a tie or
-    missing totals."""
-    prefix = {"D": "Dem", "R": "Rep"}.get(party)
-    if not prefix:
-        return None
-    yea, nay = _int_or_none(row.get(f"{prefix} Yea")), _int_or_none(row.get(f"{prefix} Nay"))
-    if yea is None or nay is None or yea == nay:
-        return None
-    return "Y" if yea > nay else "N"
-
-
-def compute_house_loyalty(matrix: dict[str, dict], vote_rows: list[dict]) -> dict:
+def compute_house_loyalty(matrix: dict[str, dict], vote_rows: list[dict], bills: Optional[dict] = None) -> dict:
     """Party loyalty for every House member, with ranks within party, for all
     votes and for final votes only. Same definitions as the page's
     memberStats(): only yea/nay votes where the party had a majority count
     toward loyalty; blank cells (not in office) count toward nothing."""
     rolls = []
-    for row, final in zip(vote_rows, final_flags(vote_rows)):
+    for row, final in zip(vote_rows, final_flags(vote_rows, bills)):
         year, roll = _int_or_none(row.get("Year")), _int_or_none(row.get("Roll Call Number"))
         if year is None or roll is None:
             continue
@@ -751,6 +700,7 @@ def compute_house_loyalty(matrix: dict[str, dict], vote_rows: list[dict]) -> dic
                 "missed": missed,
                 "total": total,
                 "loyalty": round(with_party / counted, 6) if counted else None,
+                "delegate": entry["meta"].get("state", "") in NON_STATE_CODES,
                 "rank": None,
                 "of": None,
             })
@@ -854,12 +804,13 @@ def load_full_names(cache_path: Path, needed: set[str]) -> dict[str, str]:
     return names
 
 
-def compute_closest_matches(matrix: dict[str, dict], vote_rows: list[dict], co_ids: list[str]) -> dict:
+def compute_closest_matches(matrix: dict[str, dict], vote_rows: list[dict], co_ids: list[str],
+                            bills: Optional[dict] = None) -> dict:
     """For each Colorado member: the House members who vote most like them,
     and the closest member of the other major party. Agreement = same vote
     on roll calls where both voted yea or nay."""
     rolls = []
-    for row, final in zip(vote_rows, final_flags(vote_rows)):
+    for row, final in zip(vote_rows, final_flags(vote_rows, bills)):
         year, roll = _int_or_none(row.get("Year")), _int_or_none(row.get("Roll Call Number"))
         if year is not None and roll is not None:
             rolls.append((roll_key(year, roll), final))
@@ -920,7 +871,8 @@ def update_house_files(output_path: Path, results: list[RollCallResult], increme
     keys = [roll_key(r["Year"], r["Roll Call Number"]) for r in vote_rows]
     write_house_matrix(matrix, keys, matrix_path)
 
-    loyalty = compute_house_loyalty(matrix, vote_rows)
+    bills = load_bills(output_path.parent)
+    loyalty = compute_house_loyalty(matrix, vote_rows, bills)
     with loyalty_path.open("w", encoding="utf-8") as f:
         json.dump(loyalty, f, separators=(",", ":"), sort_keys=True)
         f.write("\n")
@@ -932,7 +884,7 @@ def update_house_files(output_path: Path, results: list[RollCallResult], increme
     congress = _int_or_none(output_path.parent.name)
     co_ids = list(load_members(congress)) if congress else []
     if co_ids:
-        matches = compute_closest_matches(matrix, vote_rows, co_ids)
+        matches = compute_closest_matches(matrix, vote_rows, co_ids, bills)
         needed = {
             m["id"]
             for v in matches["variants"].values()
@@ -1133,6 +1085,7 @@ def main(argv=None) -> int:
     # Congress output (skipped for ad hoc --members runs).
     if not args.members:
         update_house_files(args.output, all_results, args.incremental)
+        write_vote_info(args.output.parent)
 
     if args.copy_to and args.copy_to.resolve() != args.output.resolve():
         shutil.copyfile(args.output, args.copy_to)

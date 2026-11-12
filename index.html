@@ -531,11 +531,13 @@
             votes: function (c) { return BASE + 'data/' + c + '/all_votes.csv'; },
             loyalty: function (c) { return BASE + 'data/' + c + '/house_loyalty.json'; },
             legislation: function (c) { return BASE + 'data/' + c + '/legislation.json'; },
-            topics: function (c) { return BASE + 'data/' + c + '/bill_topics.json'; }
+            topics: function (c) { return BASE + 'data/' + c + '/bill_topics.json'; },
+            info: function (c) { return BASE + 'data/' + c + '/vote_info.json'; }
         };
 
         // ================= State =================
         var CONFIG = null, CONGRESS = null, MEMBERS = [], ROWS = [], HOUSE = null, LEG = null, TOPICS = null, BILL_ROWS = {};
+        var INFO = {}, HOUSE_BUSINESS = '__house';   // vote_info.json; its group key for votes on no bill
         var state = { member: '', search: '', brokeOnly: false, listLimit: 40, open: {}, soExpanded: false, legExpanded: false, topic: '', tab: 'record', billRole: 'all', billStage: -1, bill: '', ownOnly: false };
 
         function $(id) { return document.getElementById(id); }
@@ -598,44 +600,16 @@
             return c === 'aye' ? 'Yes' : c === 'nay' ? 'No' : c === 'nv' ? 'Not voting' : c === 'present' ? 'Present' : String(v || '');
         }
 
-        // Keep in sync with FINAL_QUESTION, DISPOSING_QUESTION and final_flags() in vote_scraper.py.
-        var FINAL_QUESTION = /^(On Passage|Passage, Objections of the President|On Motion to Suspend the Rules and (Pass|Agree|Concur)|On Motion to Concur in the Senate Amendments?|On Agreeing to the Conference Report|On Agreeing to the Resolution|On Agreeing to Article [IVXLC]+|Article [IVXLC]+)\b/i;
-        // Privileged resolutions (impeachments, censures, a motion to vacate
-        // the chair) are often killed by tabling or referring them, with no
-        // up-or-down vote; that vote decided the resolution, so it's final.
-        var DISPOSING_QUESTION = /^On Motion to (Table|Refer)( the Resolution)?$/i;
-        function markFinalVotes(rows) {
-            var decided = {};
-            rows.forEach(function (r) { if (r.__final) decided[r['Bill Number']] = 1; });
-            rows.forEach(function (r) {
-                var bill = String(r['Bill Number'] || '');
-                if (!r.__final && /^H RES/.test(bill) && !decided[bill] && DISPOSING_QUESTION.test(String(r['Vote Question'] || '').trim()) &&
-                    (r['Result'] === 'Passed' || r['Result'] === 'Agreed to')) {
-                    r.__final = true;
-                    r.__setAside = /Table/i.test(r['Vote Question']) ? 'Tabled' : 'Sent to committee';
-                }
-            });
-        }
+        // How each vote is classified (final, set aside, which bill it belongs
+        // to, its kind, topics and each party's majority) comes from
+        // data/<congress>/vote_info.json, written by vote_rules.py: the page
+        // doesn't apply those rules itself.
         // What to call the outcome. On a tabling or referral that decided a
         // resolution, "Passed" would read as the resolution passing.
         function resultWord(r) { return r.__setAside || String(r['Result'] || ''); }
         function setAsideNote(r) {
             return r.__setAside ? 'A yes vote set the resolution aside; it never got an up-or-down vote.' : '';
         }
-        function isFinalVote(row) {
-            var q = String(row['Vote Question'] || '');
-            if (!FINAL_QUESTION.test(q)) return false;
-            if (/^On Agreeing to the Resolution/i.test(q) && /^Providing for (the )?consideration/i.test(String(row['Description'] || ''))) return false;
-            return true;
-        }
-        function partyMajority(row, party) {
-            var p = party === 'D' ? 'Dem' : party === 'R' ? 'Rep' : null;
-            if (!p) return null;
-            var y = num(row[p + ' Yea']), n = num(row[p + ' Nay']);
-            if (y === null || n === null || y === n) return null;
-            return y > n ? 'aye' : 'nay';
-        }
-
         var BILL_TYPE_SLUGS = {
             H: { R: 'house-bill', RES: 'house-resolution', 'CON RES': 'house-concurrent-resolution', 'J RES': 'house-joint-resolution' },
             S: { '': 'senate-bill', RES: 'senate-resolution', 'CON RES': 'senate-concurrent-resolution', 'J RES': 'senate-joint-resolution' }
@@ -684,11 +658,18 @@
         function member(id) { for (var i = 0; i < MEMBERS.length; i++) if (MEMBERS[i].id === id) return MEMBERS[i]; return null; }
 
         function prepareRow(row) {
+            var info = (INFO.rollCalls || {})[row['Year'] + '-' + row['Roll Call Number']] || {};
             row.__date = parseClerkDate(row['Date']);
-            row.__final = isFinalVote(row);
+            row.__final = !!info.final;
+            row.__setAside = info.setAside || '';
+            row.__groups = info.groups || [HOUSE_BUSINESS];
+            row.__kind = info.kind || 'other';
+            row.__topics = info.topics || [];
+            // Broke with party: voted yes or no against most of their party.
             row.__broke = {};
+            var majority = info.majority || {};
             MEMBERS.forEach(function (m) {
-                var c = voteClass(row[m.csvKey]), maj = partyMajority(row, m.party);
+                var c = voteClass(row[m.csvKey]), maj = majority[m.party] === 'Y' ? 'aye' : majority[m.party] === 'N' ? 'nay' : null;
                 if (maj && (c === 'aye' || c === 'nay')) row.__broke[m.id] = c !== maj;
             });
             return row;
@@ -735,11 +716,10 @@
 
         // Share of House members (100+ votes, no delegates) who missed a
         // smaller share of votes than this member.
-        var NON_STATE = { XX: 1, DC: 1, PR: 1, GU: 1, VI: 1, AS: 1, MP: 1 };
         function attendanceContext(id) {
             var l = houseList(), me = houseEntry(id);
             if (!l || !me || !me.total) return null;
-            var pool = l.filter(function (e) { return e.total >= 100 && !NON_STATE[e.state]; });
+            var pool = l.filter(function (e) { return e.total >= 100 && !e.delegate; });
             var mine = me.missed / me.total;
             var fewer = pool.filter(function (e) { return e.missed / e.total < mine; }).length;
             return { pct: Math.round(100 * fewer / pool.length), of: pool.length };
@@ -871,18 +851,11 @@
         // recommit and procedural votes on it. A debate rule's votes go under
         // each bill the rule set up. Votes on no bill (quorum calls, the
         // Journal, adjournment, Speaker elections) go under "House business".
-        var GROUPS = [], GROUP_BY_KEY = {}, HOUSE_BUSINESS = '__house';
-        var BILL_NUM = /^(H|S)( [A-Z]+)* \d+$/;
+        var GROUPS = [], GROUP_BY_KEY = {};
         function rowOrder(r) { return (+r['Year'] || 0) * 10000 + (+r['Roll Call Number'] || 0); }
-        function groupKeys(r) {
-            var b = String(r['Bill Number'] || ''), e = TOPICS && TOPICS.bills && TOPICS.bills[b];
-            if (e && e.ruleFor && e.ruleFor.length) return e.ruleFor.slice();
-            return BILL_NUM.test(b) ? [b] : [HOUSE_BUSINESS];
-        }
         function buildGroups() {
             GROUPS = []; GROUP_BY_KEY = {};
             ROWS.forEach(function (r) {
-                r.__groups = groupKeys(r);
                 r.__groups.forEach(function (k) { (GROUP_BY_KEY[k] = GROUP_BY_KEY[k] || { key: k, rows: [] }).rows.push(r); });
             });
             Object.keys(GROUP_BY_KEY).forEach(function (k) {
@@ -910,25 +883,17 @@
             return { row: head || rows[rows.length - 1], final: !!head };
         }
         function groupTitle(g, head) { return g.title || (head ? title(head.row) : g.key); }
-        function voteKind(r, key) {
-            if (key === HOUSE_BUSINESS) return 'other';
-            if (r['Bill Number'] !== key) return 'rule';
-            var q = String(r['Vote Question'] || '');
-            if (r.__final) return 'final';
-            if (/amendment/i.test(q)) return 'amendment';
-            if (/recommit/i.test(q)) return 'recommit';
-            return 'other';
-        }
+        function voteKind(r) { return r.__kind; }
         var KIND_LABEL = { rule: ['vote on the debate rule', 'votes on the debate rule'], amendment: ['amendment', 'amendments'],
             recommit: ['motion to recommit', 'motions to recommit'], final: ['other final vote', 'other final votes'], other: ['other vote', 'other votes'] };
         function kindSummary(rows, key) {
             var c = {}, order = ['final', 'rule', 'amendment', 'recommit', 'other'];
-            rows.forEach(function (r) { var k = voteKind(r, key); c[k] = (c[k] || 0) + 1; });
+            rows.forEach(function (r) { var k = voteKind(r); c[k] = (c[k] || 0) + 1; });
             return order.filter(function (k) { return c[k]; }).map(function (k) { return c[k] + ' ' + KIND_LABEL[k][c[k] === 1 ? 0 : 1]; }).join(', ');
         }
         // One line describing a vote inside a group, e.g. "Debate rule (H RES 1009): On Ordering the Previous Question".
         function subLabel(r, key) {
-            var k = voteKind(r, key), q = String(r['Vote Question'] || '');
+            var k = voteKind(r), q = String(r['Vote Question'] || '');
             var desc = r['Description'] && r['Description'] !== title(groupHeadRowFor(key)) ? r['Description'] : '';
             if (k === 'rule') return 'Debate rule (' + billLabel(r['Bill Number']) + '): ' + q;
             if (key === HOUSE_BUSINESS) return (q || r['Bill Number'] || 'Vote') + (desc ? ' — ' + desc : '');
@@ -1142,19 +1107,7 @@
         // they set up instead (falling back to their own if those have none).
         var TOPIC_MIN = 10;   // yes/no votes needed before a topic's break rate is shown
         var TOPIC_ROWS = 5;
-        function topicsFor(r) {
-            if (r.__topics) return r.__topics;
-            var out = [], bills = TOPICS && TOPICS.bills, e = bills && bills[r['Bill Number']];
-            if (e) {
-                (e.ruleFor || []).forEach(function (b) {
-                    var t = bills[b] && bills[b].policyArea;
-                    if (t && out.indexOf(t) < 0) out.push(t);
-                });
-                if (!out.length && e.policyArea) out.push(e.policyArea);
-            }
-            r.__topics = out;
-            return out;
-        }
+        function topicsFor(r) { return r.__topics; }
         function topicCounts(m, rows) {
             var by = {};
             rows.forEach(function (r) {
@@ -1234,7 +1187,6 @@
         var STAGES = ['Introduced', 'Cleared committee', 'Passed House', 'Passed Senate', 'Became law'];
         var ST_COMMITTEE = 1, ST_HOUSE = 2, ST_SENATE = 3, ST_LAW = 4;
         var STAGE_PHRASE = ['', 'cleared committee', 'passed the House', 'passed the Senate', 'became law'];
-        var CO_LEAD_MAX = 5;   // keep in sync with fetch_legislation.py
         function canBecomeLaw(b) { return b.type === 'HR' || b.type === 'HJRES'; }
         function stageOf(b) { var st = b.stages || {}; return (st.law || b.law) ? ST_LAW : st.senate ? ST_SENATE : st.house ? ST_HOUSE : st.reported ? ST_COMMITTEE : 0; }
         function memberBills(m, role) {
@@ -1329,7 +1281,7 @@
                 pr.vetoed.map(function (b) { return escapeHTML((BILL_PREFIX[b.type] || b.type) + ' ' + b.number); }).join(', ') + '.');
             if (pr.res) notes.push('Not counted above: ' + plural(pr.res, 'resolution', 'resolutions') + ', ' + pr.resAdopted + ' adopted by the House.');
             notes.push('“Cleared committee” means a committee approved the bill or it reached the House floor without a committee vote.');
-            notes.push('“Co-led” means ' + name + ' was one of ' + CO_LEAD_MAX + ' or fewer original cosponsors. ' + name + ' cosponsored ' + d.cosponsored.count + ' bills and resolutions in all.');
+            notes.push('“Co-led” means ' + name + ' was one of ' + (LEG.coLeadMax ? LEG.coLeadMax + ' or fewer' : 'a few') + ' original cosponsors. ' + name + ' cosponsored ' + d.cosponsored.count + ' bills and resolutions in all.');
             html.push('<p class="progress-note">' + notes.join(' ') + '</p>');
 
             // The list: furthest along first, then newest.
@@ -1788,11 +1740,12 @@
                     if (!r.ok) { var e = new Error('HTTP ' + r.status); e.status = r.status; throw e; }
                     return r.text();
                 }),
-                optional(url.loyalty(c)), optional(url.legislation(c)), optional(url.topics(c))
+                optional(url.loyalty(c)), optional(url.legislation(c)), optional(url.topics(c)),
+                fetch(url.info(c)).then(function (r) { if (!r.ok) throw new Error('vote_info.json: HTTP ' + r.status); return r.json(); })
             ]).then(function (res) {
+                INFO = res[4]; HOUSE_BUSINESS = INFO.houseBusiness || HOUSE_BUSINESS;
                 var parsed = Papa.parse(res[0], { header: true, skipEmptyLines: true, dynamicTyping: true });
                 ROWS = parsed.data.map(prepareRow);
-                markFinalVotes(ROWS);
                 buildBorrowed();
                 HOUSE = res[1]; LEG = res[2]; TOPICS = res[3];
                 buildGroups();
