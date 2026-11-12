@@ -15,13 +15,18 @@ USAGE
     # Daily cron/scheduled run: only fetch what's new since last time
     python vote_scraper.py --year 2026 --incremental
 
-Output: one CSV, one row per roll call, one column per member's vote.
+Members come from members.json, for the Congress that the --year values
+belong to. Output defaults to data/<congress>/all_votes.csv: one row per
+roll call, one column per member's vote, then House-wide tally columns.
 """
 
 import argparse
 import csv
+import json
 import logging
+import shutil
 import os
+import re
 import sys
 import time
 from dataclasses import dataclass, field
@@ -41,19 +46,43 @@ log = logging.getLogger("vote_scraper")
 
 ROLL_URL = "https://clerk.house.gov/evs/{year}/roll{roll:03d}.xml"
 
-# Colorado's House delegation (119th Congress). Bioguide/Clerk member IDs --
-# same ID scheme the original script used, and the same IDs that appear as
-# name-id="..." attributes inside each roll call XML.
-DEFAULT_MEMBERS = {
-    "B000825": "Boebert",
-    "C001121": "Crow",
-    "C001137": "Crank",
-    "D000197": "DeGette",
-    "E000300": "Evans (CO)",
-    "H001100": "Hurd (CO)",
-    "N000191": "Neguse",
-    "P000620": "Pettersen",
-}
+# Colorado's House delegation for each Congress lives in members.json, which
+# index.html also reads. IDs are Bioguide/Clerk member IDs -- the same IDs
+# that appear as name-id="..." attributes inside each roll call XML.
+MEMBERS_FILE = Path(__file__).resolve().parent / "members.json"
+
+# House-wide tally columns, appended after the member columns so older
+# readers of the CSV (which look columns up by name) are unaffected.
+TALLY_COLUMNS = [
+    "Yea Total",
+    "Nay Total",
+    "Present Total",
+    "NV Total",
+    "Dem Yea",
+    "Dem Nay",
+    "Rep Yea",
+    "Rep Nay",
+]
+PARTY_PREFIX = {"Democratic": "Dem", "Republican": "Rep"}
+
+
+def congress_for_year(year: int) -> int:
+    """The 1st Congress began in 1789; each Congress spans two years."""
+    return (year - 1789) // 2 + 1
+
+
+def load_members(congress: int) -> dict[str, str]:
+    """Return {member_id: csv_name} for one Congress from members.json,
+    sorted by ID so the CSV column order is stable."""
+    with MEMBERS_FILE.open(encoding="utf-8") as f:
+        config = json.load(f)
+    entry = config.get("congresses", {}).get(str(congress))
+    if not entry or not entry.get("members"):
+        raise SystemExit(
+            f"No members listed for the {congress}th Congress in {MEMBERS_FILE.name}. "
+            "Add the delegation's Bioguide IDs there before scraping."
+        )
+    return {m["id"]: m["csvName"] for m in sorted(entry["members"], key=lambda m: m["id"])}
 
 REQUEST_TIMEOUT = 15  # seconds
 DELAY_BETWEEN_REQUESTS = 0.5  # seconds -- be a polite scraper
@@ -79,6 +108,10 @@ class RollCallResult:
     result: Optional[str] = None
     description: Optional[str] = None
     votes: dict = field(default_factory=dict)  # member_id -> vote string
+    totals: dict = field(default_factory=dict)  # TALLY_COLUMNS name -> int
+    # Every House member on this roll call: member_id -> (code, party, state, name).
+    # Feeds the House-wide matrix used for party-loyalty rankings.
+    house: dict = field(default_factory=dict)
 
 
 def build_session() -> requests.Session:
@@ -171,10 +204,70 @@ def fetch_roll_call(
             if legislator is None or vote_el is None:
                 continue
             member_id = legislator.get("name-id")
+            vote_text = (vote_el.text or "").strip()
             if member_id in member_ids:
-                result.votes[member_id] = (vote_el.text or "").strip()
+                result.votes[member_id] = vote_text
+            if member_id:
+                result.house[member_id] = (
+                    vote_code(vote_text),
+                    legislator.get("party") or "",
+                    legislator.get("state") or "",
+                    legislator.get("unaccented-name") or (legislator.text or "").strip(),
+                )
 
+    result.totals = parse_totals(meta.find("vote-totals"))
     return result
+
+
+def vote_code(vote_text: str) -> str:
+    """One-letter code for the House-wide matrix."""
+    if vote_text in ("Yea", "Aye"):
+        return "Y"
+    if vote_text in ("Nay", "No"):
+        return "N"
+    if vote_text == "Present":
+        return "P"
+    if vote_text == "Not Voting":
+        return "V"
+    return "O" if vote_text else ""  # "O": e.g. a name in a Speaker election
+
+
+def parse_totals(vote_totals: Optional[ET.Element]) -> dict:
+    """Pull House-wide and per-party Yea/Nay counts out of <vote-totals>.
+    Missing pieces (e.g. a quorum call or Speaker election, which use a
+    different layout) are simply left out, so those cells stay blank."""
+    totals: dict = {}
+    if vote_totals is None:
+        return totals
+
+    def count(el: ET.Element, tag: str) -> Optional[int]:
+        child = el.find(tag)
+        try:
+            return int(child.text.strip()) if child is not None and child.text else None
+        except ValueError:
+            return None
+
+    overall = vote_totals.find("totals-by-vote")
+    if overall is not None:
+        for tag, column in (
+            ("yea-total", "Yea Total"),
+            ("nay-total", "Nay Total"),
+            ("present-total", "Present Total"),
+            ("not-voting-total", "NV Total"),
+        ):
+            value = count(overall, tag)
+            if value is not None:
+                totals[column] = value
+
+    for party_el in vote_totals.findall("totals-by-party"):
+        prefix = PARTY_PREFIX.get((party_el.findtext("party") or "").strip())
+        if not prefix:
+            continue  # independents aren't part of the party-loyalty math
+        for tag, suffix in (("yea-total", "Yea"), ("nay-total", "Nay")):
+            value = count(party_el, tag)
+            if value is not None:
+                totals[f"{prefix} {suffix}"] = value
+    return totals
 
 
 def scrape_year(
@@ -252,6 +345,8 @@ def result_to_row(r: RollCallResult, member_ids: dict[str, str]) -> dict:
     }
     for member_id, name in member_ids.items():
         row[f"{name} ({member_id})"] = r.votes.get(member_id, "")
+    for column in TALLY_COLUMNS:
+        row[column] = r.totals.get(column, "")
     return row
 
 
@@ -268,7 +363,7 @@ def csv_fieldnames(member_ids: dict[str, str]) -> list[str]:
         "Vote Type",
         "Result",
         "Description",
-    ] + [f"{name} ({member_id})" for member_id, name in member_ids.items()]
+    ] + [f"{name} ({member_id})" for member_id, name in member_ids.items()] + TALLY_COLUMNS
 
 
 def write_csv(all_results: list[RollCallResult], member_ids: dict[str, str], output_path: Path) -> None:
@@ -348,6 +443,370 @@ def merge_results(
     return [merged[key] for key in sorted(merged.keys())]
 
 
+# --------------------------------------------------------------------------
+# House-wide matrix and party-loyalty rankings
+# --------------------------------------------------------------------------
+#
+# house_votes.csv: one row per House member, one column per roll call
+# ("2026-247"), cells are vote_code() letters; blank = not on that roll call.
+# house_loyalty.json: per-member loyalty stats and ranks within party,
+# computed over the whole matrix. The page loads only the JSON.
+
+HOUSE_MATRIX_NAME = "house_votes.csv"
+HOUSE_LOYALTY_NAME = "house_loyalty.json"
+HOUSE_META_COLUMNS = ["id", "name", "party", "state"]
+MIN_RANKED_VOTES = 100  # counted (party-majority yea/nay) votes needed to be ranked
+# Delegates and the resident commissioner (D.C. and territories) can vote on
+# some amendments but not on final passage, so they're never ranked. The
+# Clerk's XML lists them with state "XX"; the codes cover any other spelling.
+NON_STATE_CODES = {"XX", "DC", "PR", "GU", "VI", "AS", "MP"}
+
+# Keep in sync with FINAL_QUESTION / isFinalVote() in index.html.
+FINAL_QUESTION = re.compile(
+    r"^(On Passage|Passage, Objections of the President|On Motion to Suspend the Rules and "
+    r"(Pass|Agree|Concur)|On Motion to Concur in the Senate Amendments?|On Agreeing to the "
+    r"Conference Report|On Agreeing to the Resolution)\b",
+    re.IGNORECASE,
+)
+
+
+def is_final_vote(row: dict) -> bool:
+    """Python twin of isFinalVote() in index.html: the vote that decides a
+    bill or resolution, excluding rules ("Providing for consideration ...")."""
+    question = row.get("Vote Question") or ""
+    if not FINAL_QUESTION.match(question):
+        return False
+    if re.match(r"^On Agreeing to the Resolution", question, re.IGNORECASE) and re.match(
+        r"^Providing for (the )?consideration", row.get("Description") or "", re.IGNORECASE
+    ):
+        return False
+    return True
+
+
+def roll_key(year, roll) -> str:
+    return f"{int(year)}-{int(roll)}"
+
+
+def load_house_matrix(path: Path) -> dict[str, dict]:
+    """{member_id: {"meta": {name, party, state}, "codes": {roll_key: code}}}"""
+    matrix: dict[str, dict] = {}
+    if not path.exists():
+        return matrix
+    with path.open(newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            codes = {k: v for k, v in row.items() if k not in HOUSE_META_COLUMNS and v}
+            matrix[row["id"]] = {
+                "meta": {"name": row["name"], "party": row["party"], "state": row["state"]},
+                "codes": codes,
+            }
+    return matrix
+
+
+def merge_house_matrix(matrix: dict[str, dict], results: list[RollCallResult]) -> None:
+    """Fold freshly scraped roll calls into the matrix. Re-scraped roll calls
+    replace their column entirely, so corrections never double-count. Results
+    are applied oldest first, so a member's name/party/state ends up as of
+    their most recent vote."""
+    for r in sorted(results, key=lambda r: (r.year, r.roll_number)):
+        key = roll_key(r.year, r.roll_number)
+        for entry in matrix.values():
+            entry["codes"].pop(key, None)
+        for member_id, (code, party, state, name) in r.house.items():
+            entry = matrix.setdefault(member_id, {"meta": {}, "codes": {}})
+            entry["meta"] = {"name": name, "party": party, "state": state}
+            if code:
+                entry["codes"][key] = code
+
+
+def write_house_matrix(matrix: dict[str, dict], keys: list[str], path: Path) -> None:
+    with path.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f, lineterminator="\n")
+        writer.writerow(HOUSE_META_COLUMNS + keys)
+        for member_id in sorted(matrix):
+            entry = matrix[member_id]
+            meta = entry["meta"]
+            writer.writerow(
+                [member_id, meta.get("name", ""), meta.get("party", ""), meta.get("state", "")]
+                + [entry["codes"].get(k, "") for k in keys]
+            )
+    log.info("Wrote House matrix (%d members x %d roll calls) to %s", len(matrix), len(keys), path)
+
+
+def _int_or_none(value) -> Optional[int]:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def party_majority(row: dict, party: str) -> Optional[str]:
+    """Twin of partyMajority() in index.html: 'Y', 'N', or None on a tie or
+    missing totals."""
+    prefix = {"D": "Dem", "R": "Rep"}.get(party)
+    if not prefix:
+        return None
+    yea, nay = _int_or_none(row.get(f"{prefix} Yea")), _int_or_none(row.get(f"{prefix} Nay"))
+    if yea is None or nay is None or yea == nay:
+        return None
+    return "Y" if yea > nay else "N"
+
+
+def compute_house_loyalty(matrix: dict[str, dict], vote_rows: list[dict]) -> dict:
+    """Party loyalty for every House member, with ranks within party, for all
+    votes and for final votes only. Same definitions as the page's
+    memberStats(): only yea/nay votes where the party had a majority count
+    toward loyalty; blank cells (not in office) count toward nothing."""
+    rolls = []
+    for row in vote_rows:
+        year, roll = _int_or_none(row.get("Year")), _int_or_none(row.get("Roll Call Number"))
+        if year is None or roll is None:
+            continue
+        rolls.append((roll_key(year, roll), row, is_final_vote(row)))
+
+    covered = {k for entry in matrix.values() for k in entry["codes"]}
+    missing = [k for k, _, _ in rolls if k not in covered]
+    if missing:
+        log.warning(
+            "House matrix is missing %d of %d roll calls (e.g. %s) -- rankings cover only the "
+            "rest. Run a full (non-incremental) scrape of this Congress to fill it in.",
+            len(missing), len(rolls), missing[0],
+        )
+
+    variants = {}
+    for variant, include in (("all", lambda final: True), ("final", lambda final: final)):
+        majorities = [
+            (key, party_majority(row, "D"), party_majority(row, "R"))
+            for key, row, final in rolls
+            if include(final)
+        ]
+        entries = []
+        for member_id, entry in matrix.items():
+            party = entry["meta"].get("party", "")
+            counted = with_party = missed = total = 0
+            for key, maj_d, maj_r in majorities:
+                code = entry["codes"].get(key)
+                if not code:
+                    continue  # not in office for this vote
+                total += 1
+                if code == "V":
+                    missed += 1
+                majority = maj_d if party == "D" else maj_r if party == "R" else None
+                if majority and code in ("Y", "N"):
+                    counted += 1
+                    if code == majority:
+                        with_party += 1
+            if not total:
+                continue
+            entries.append({
+                "id": member_id,
+                "name": entry["meta"].get("name", ""),
+                "party": party,
+                "state": entry["meta"].get("state", ""),
+                "counted": counted,
+                "withParty": with_party,
+                "missed": missed,
+                "total": total,
+                "loyalty": round(with_party / counted, 6) if counted else None,
+                "rank": None,
+                "of": None,
+            })
+
+        # Competition ranking ("1, 2, 2, 4") within each party; ties compare
+        # exact fractions, not rounded percentages.
+        for party in ("D", "R"):
+            pool = [
+                e for e in entries
+                if e["party"] == party
+                and e["counted"] >= MIN_RANKED_VOTES
+                and e["state"] not in NON_STATE_CODES
+            ]
+            pool.sort(key=lambda e: e["withParty"] / e["counted"], reverse=True)
+            for i, e in enumerate(pool):
+                if i and pool[i - 1]["withParty"] * e["counted"] == e["withParty"] * pool[i - 1]["counted"]:
+                    e["rank"] = pool[i - 1]["rank"]
+                else:
+                    e["rank"] = i + 1
+                e["of"] = len(pool)
+        entries.sort(key=lambda e: (e["party"], e["rank"] or 10**6, e["name"]))
+        variants[variant] = entries
+
+    return {
+        "minVotes": MIN_RANKED_VOTES,
+        "rollCalls": len(rolls),
+        "missingRollCalls": len(missing),
+        "variants": variants,
+    }
+
+
+HOUSE_MATCHES_NAME = "house_matches.json"
+NAMES_CACHE_NAME = "house_names.json"  # lives in data/, shared by all Congresses
+LEGISLATORS_URLS = [
+    # Public-domain congress-legislators dataset (also the source of the
+    # tenure dates in members.json). Current first; historical (~13MB) only
+    # if a name is still missing, e.g. when backfilling an older Congress.
+    "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "https://unitedstates.github.io/congress-legislators/legislators-historical.json",
+]
+# A match must have voted yea/nay on at least 80% of the roll calls the
+# Colorado member did. Agreement is measured only on shared votes, so a
+# member who skips many votes -- notably the Speaker, who by custom skips
+# lopsided ones -- would otherwise look artificially close (98.7% for
+# Speaker Johnson in the 119th). 80% removes that without dropping
+# ordinary members; 90% starts to.
+MATCH_MIN_SHARE = 0.8
+
+
+def display_name(n: dict) -> str:
+    """The name readers know, from a congress-legislators "name" record:
+    nickname + last name when there is one ("Tom Cole"); otherwise the
+    official name minus initials ("Brian K. Fitzpatrick" -> "Brian
+    Fitzpatrick", "J. French Hill" -> "French Hill")."""
+    if n.get("nickname") and n.get("last"):
+        return f"{n['nickname']} {n['last']}"
+    official = n.get("official_full")
+    if official:
+        words = official.split()
+        trimmed = [w for w in words if not re.fullmatch(r"[A-Z]\.", w)]
+        return " ".join(trimmed if len(trimmed) >= 2 else words)
+    return " ".join(p for p in (n.get("first"), n.get("last")) if p)
+
+
+def load_full_names(cache_path: Path, needed: set[str]) -> dict[str, str]:
+    """{bioguide_id: "First Last"} for the IDs in `needed`, from a cached
+    file that's refreshed from congress-legislators only when an ID is
+    missing. Never raises: on any download problem it returns what it has,
+    and callers fall back to the Clerk's last-name label."""
+    names: dict[str, str] = {}
+    if cache_path.exists():
+        try:
+            names = json.loads(cache_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError) as exc:
+            log.warning("Could not read %s (%s); rebuilding it.", cache_path, exc)
+            names = {}
+    missing = needed - names.keys()
+    for url in LEGISLATORS_URLS:
+        if not missing:
+            break
+        try:
+            response = requests.get(url, timeout=60)
+            response.raise_for_status()
+            for person in response.json():
+                bioguide = person.get("id", {}).get("bioguide")
+                if bioguide in missing:
+                    n = person.get("name", {})
+                    full = display_name(n)
+                    if full:
+                        names[bioguide] = full
+            missing = needed - names.keys()
+        except (requests.RequestException, ValueError) as exc:
+            log.warning("Couldn't fetch member names from %s (%s); using Clerk names where needed.", url, exc)
+            break
+    if missing:
+        log.warning("No full name for %d member(s) (e.g. %s); using Clerk names.", len(missing), sorted(missing)[0])
+    try:
+        cache_path.write_text(json.dumps(names, indent=0, sort_keys=True) + "\n", encoding="utf-8")
+    except OSError as exc:
+        log.warning("Could not write %s (%s).", cache_path, exc)
+    return names
+
+
+def compute_closest_matches(matrix: dict[str, dict], vote_rows: list[dict], co_ids: list[str]) -> dict:
+    """For each Colorado member: the House members who vote most like them,
+    and the closest member of the other major party. Agreement = same vote
+    on roll calls where both voted yea or nay."""
+    rolls = []
+    for row in vote_rows:
+        year, roll = _int_or_none(row.get("Year")), _int_or_none(row.get("Roll Call Number"))
+        if year is not None and roll is not None:
+            rolls.append((roll_key(year, roll), is_final_vote(row)))
+
+    variants = {}
+    for variant, include in (("all", lambda final: True), ("final", lambda final: final)):
+        keys = [k for k, final in rolls if include(final)]
+        # Yea/nay votes only, per member, for this variant.
+        yn = {
+            member_id: {k: entry["codes"][k] for k in keys if entry["codes"].get(k) in ("Y", "N")}
+            for member_id, entry in matrix.items()
+        }
+        out = {}
+        for co_id in co_ids:
+            mine = yn.get(co_id, {})
+            if not mine:
+                continue
+            my_party = matrix[co_id]["meta"].get("party")
+            other_party = {"D": "R", "R": "D"}.get(my_party)
+            candidates = []
+            for member_id, theirs in yn.items():
+                meta = matrix[member_id]["meta"]
+                if member_id == co_id or meta.get("state") in NON_STATE_CODES:
+                    continue
+                shared = same = 0
+                for k, v in mine.items():
+                    w = theirs.get(k)
+                    if w:
+                        shared += 1
+                        same += v == w
+                if shared < MATCH_MIN_SHARE * len(mine):
+                    continue  # e.g. the Speaker, or a short-tenure member
+                candidates.append({
+                    "id": member_id,
+                    "name": meta.get("name", ""),
+                    "party": meta.get("party", ""),
+                    "state": meta.get("state", ""),
+                    "same": same,
+                    "shared": shared,
+                    "agree": round(same / shared, 6),
+                })
+            candidates.sort(key=lambda c: (c["same"] / c["shared"], c["shared"]), reverse=True)
+            across = next((c for c in candidates if c["party"] == other_party), None)
+            out[co_id] = {"closest": candidates[:3], "acrossAisle": across}
+        variants[variant] = out
+    return {"minShare": MATCH_MIN_SHARE, "variants": variants}
+
+
+def update_house_files(output_path: Path, results: list[RollCallResult], incremental: bool) -> None:
+    """Refresh house_votes.csv and house_loyalty.json next to the main CSV."""
+    matrix_path = output_path.parent / HOUSE_MATRIX_NAME
+    loyalty_path = output_path.parent / HOUSE_LOYALTY_NAME
+    matrix = load_house_matrix(matrix_path) if incremental else {}
+    merge_house_matrix(matrix, results)
+
+    with output_path.open(newline="", encoding="utf-8") as f:
+        vote_rows = list(csv.DictReader(f))
+    keys = [roll_key(r["Year"], r["Roll Call Number"]) for r in vote_rows]
+    write_house_matrix(matrix, keys, matrix_path)
+
+    loyalty = compute_house_loyalty(matrix, vote_rows)
+    with loyalty_path.open("w", encoding="utf-8") as f:
+        json.dump(loyalty, f, separators=(",", ":"), sort_keys=True)
+        f.write("\n")
+    ranked = sum(1 for e in loyalty["variants"]["all"] if e["rank"])
+    log.info("Wrote party-loyalty stats (%d members, %d ranked) to %s",
+             len(loyalty["variants"]["all"]), ranked, loyalty_path)
+
+    # Closest matches for the Colorado delegation of this Congress.
+    congress = _int_or_none(output_path.parent.name)
+    co_ids = list(load_members(congress)) if congress else []
+    if co_ids:
+        matches = compute_closest_matches(matrix, vote_rows, co_ids)
+        needed = {
+            m["id"]
+            for v in matches["variants"].values()
+            for entry in v.values()
+            for m in entry["closest"] + ([entry["acrossAisle"]] if entry["acrossAisle"] else [])
+        }
+        full = load_full_names(output_path.parent.parent / NAMES_CACHE_NAME, needed)
+        for v in matches["variants"].values():
+            for entry in v.values():
+                for m in entry["closest"] + ([entry["acrossAisle"]] if entry["acrossAisle"] else []):
+                    m["fullName"] = full.get(m["id"], "")
+        matches_path = output_path.parent / HOUSE_MATCHES_NAME
+        with matches_path.open("w", encoding="utf-8") as f:
+            json.dump(matches, f, separators=(",", ":"), sort_keys=True)
+            f.write("\n")
+        log.info("Wrote closest House matches for %d members to %s", len(co_ids), matches_path)
+
+
 def parse_args(argv=None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Scrape House roll call votes from the Clerk's official per-roll-call XML feed.",
@@ -365,7 +824,14 @@ def parse_args(argv=None) -> argparse.Namespace:
         "--members",
         nargs="+",
         default=None,
-        help="Bioguide/Clerk member IDs to track (default: Colorado delegation)",
+        help="Bioguide/Clerk member IDs to track (default: the Colorado delegation "
+        "for this Congress, from members.json)",
+    )
+    parser.add_argument(
+        "--congress",
+        type=int,
+        default=None,
+        help="Congress number (default: derived from --year, e.g. 2025/2026 -> 119)",
     )
     parser.add_argument("--start", type=int, default=1, help="First roll call number to try (default: 1)")
     parser.add_argument(
@@ -378,8 +844,15 @@ def parse_args(argv=None) -> argparse.Namespace:
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("all_votes.csv"),
-        help="Output CSV path (default: all_votes.csv)",
+        default=None,
+        help="Output CSV path (default: data/<congress>/all_votes.csv)",
+    )
+    parser.add_argument(
+        "--copy-to",
+        type=Path,
+        default=None,
+        help="Also copy the finished CSV here. The nightly workflow uses this to keep "
+        "the root all_votes.csv current for the previously deployed page.",
     )
     parser.add_argument(
         "--incremental",
@@ -412,12 +885,26 @@ def main(argv=None) -> int:
         format="%(asctime)s [%(levelname)s] %(message)s",
     )
 
+    congresses = {congress_for_year(y) for y in args.year}
+    if args.congress is None and len(congresses) > 1:
+        log.error(
+            "--year values span more than one Congress (%s); scrape each Congress separately.",
+            ", ".join(str(c) for c in sorted(congresses)),
+        )
+        return 1
+    congress = args.congress or congresses.pop()
+
     if args.members:
         # User-supplied IDs: we don't have display names for these, so just
         # label them by their ID.
         member_ids = {m: m for m in args.members}
     else:
-        member_ids = DEFAULT_MEMBERS
+        member_ids = load_members(congress)
+
+    if args.output is None:
+        args.output = Path("data") / str(congress) / "all_votes.csv"
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    log.info("Congress %d: tracking %d members -> %s", congress, len(member_ids), args.output)
 
     existing_rows: dict[tuple[int, int], dict] = {}
     if args.incremental:
@@ -487,6 +974,15 @@ def main(argv=None) -> int:
         )
         emit_github_output("new_count", str(len(all_results)))
         emit_github_output("total_count", str(len(all_results)))
+
+    # House-wide matrix + loyalty rankings, only for the delegation's own
+    # Congress output (skipped for ad hoc --members runs).
+    if not args.members:
+        update_house_files(args.output, all_results, args.incremental)
+
+    if args.copy_to and args.copy_to.resolve() != args.output.resolve():
+        shutil.copyfile(args.output, args.copy_to)
+        log.info("Copied %s -> %s", args.output, args.copy_to)
     return 0
 
 

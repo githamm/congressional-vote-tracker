@@ -1,0 +1,2542 @@
+{
+ "_comment": "Congress.gov policy area (topic) for each bill voted on in this Congress, keyed by the Clerk's bill number as in all_votes.csv. Special rules (resolutions 'providing for consideration of' other bills) are all filed under 'Congress'; 'ruleFor' lists the bills they set up, so the page shows those bills' topics instead. Written by fetch_legislation.py.",
+ "congress": 119,
+ "updated": "2026-11-12",
+ "bills": {
+  "H CON RES 108": {
+   "policyArea": "International Affairs",
+   "title": "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities in Lebanon.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 113": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 14": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 30": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Expressing support for local law enforcement officers.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 38": {
+   "policyArea": "International Affairs",
+   "title": "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from unauthorized hostilities in the Islamic Republic of Iran.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 40": {
+   "policyArea": "International Affairs",
+   "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 58": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Denouncing the horrors of socialism.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 61": {
+   "policyArea": "International Affairs",
+   "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with presidentially designated terrorist organizations in the Western Hemisphere.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 64": {
+   "policyArea": "International Affairs",
+   "title": "To direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 68": {
+   "policyArea": "International Affairs",
+   "title": "To direct the removal of United States Armed Forces from Venezuela that have not been authorized by Congress.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 75": {
+   "policyArea": "International Affairs",
+   "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from hostilities against the Islamic Republic of Iran.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 84": {
+   "policyArea": "International Affairs",
+   "title": "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from Lebanon.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 86": {
+   "policyArea": "International Affairs",
+   "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 89": {
+   "policyArea": "International Affairs",
+   "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 93": {
+   "policyArea": "International Affairs",
+   "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+   "checked": "2026-11-11"
+  },
+  "H CON RES 96": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Expressing support for law enforcement officers.",
+   "checked": "2026-11-11"
+  },
+  "H J RES 1": {
+   "policyArea": "Law",
+   "title": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices.",
+   "checked": "2026-11-11"
+  },
+  "H J RES 104": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 105": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"North Dakota Field Office Record of Decision and Approved Resource Management Plan\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 106": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Central Yukon Record of Decision and Approved Resource Management Plan\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 117": {
+   "policyArea": "Emergency Management",
+   "title": "Relating to a national emergency by the President on July 30, 2025.",
+   "checked": "2026-11-11"
+  },
+  "H J RES 130": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Buffalo Field Office Record of Decision and Approved Resource Management Plan Amendment.",
+   "checked": "2026-11-11"
+  },
+  "H J RES 131": {
+   "policyArea": "Energy",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Coastal Plain Oil and Gas Leasing Program Record of Decision.",
+   "checked": "2026-11-11"
+  },
+  "H J RES 139": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Proposing an amendment to the Constitution of the United States requiring a balanced budget for the Federal Government.",
+   "checked": "2026-11-11"
+  },
+  "H J RES 140": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Public Land Order No. 7917 for Withdrawal of Federal Lands; Cook, Lake, and Saint Louis Counties, MN.",
+   "checked": "2026-11-11"
+  },
+  "H J RES 142": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025.",
+   "checked": "2026-11-11"
+  },
+  "H J RES 20": {
+   "policyArea": "Energy",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 210": {
+   "policyArea": "Environmental Protection",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Nonroad Engine Pollution Control Standards; Ocean-Going Vessels At-Berth; Notice of Decision\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 213": {
+   "policyArea": "Environmental Protection",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule issued by the Environmental Protection Agency relating to the \"California State Nonroad Engine Pollution Control Standards; Commercial Harbor Craft Regulations; Notice of Decision\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 24": {
+   "policyArea": "Energy",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 25": {
+   "policyArea": "Taxation",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 35": {
+   "policyArea": "Environmental Protection",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 42": {
+   "policyArea": "Energy",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 60": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Park Service relating to \"Glen Canyon National Recreation Area: Motor Vehicles\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 61": {
+   "policyArea": "Environmental Protection",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"National Emission Standards for Hazardous Air Pollutants: Rubber Tire Manufacturing\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 72": {
+   "policyArea": "Immigration",
+   "title": "Relating to a national emergency by the President on February 1, 2025.",
+   "checked": "2026-11-11"
+  },
+  "H J RES 75": {
+   "policyArea": "Energy",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 78": {
+   "policyArea": "Animals",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to \"Endangered and Threatened Wildlife and Plants; Endangered Species Status for the San Francisco Bay-Delta Distinct Population Segment of the Longfin Smelt\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 87": {
+   "policyArea": "Environmental Protection",
+   "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine Pollution Control Standards; Heavy-Duty Vehicle and Engine Emission Warranty and Maintenance Provisions; Advanced Clean Trucks; Zero Emission Airport Shuttle; Zero-Emission Power Train Certification; Waiver of Preemption; Notice of Decision\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 88": {
+   "policyArea": "Environmental Protection",
+   "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision\".",
+   "checked": "2026-11-11"
+  },
+  "H J RES 89": {
+   "policyArea": "Environmental Protection",
+   "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine and Nonroad Engine Pollution Control Standards; The 'Omnibus' Low NOX Regulation; Waiver of Preemption; Notice of Decision\".",
+   "checked": "2026-11-11"
+  },
+  "H R 1": {
+   "policyArea": "Economics and Public Finance",
+   "title": "An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+   "checked": "2026-11-11"
+  },
+  "H R 1005": {
+   "policyArea": "Education",
+   "title": "Combating the Lies of Authoritarians in School Systems Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1011": {
+   "policyArea": "Agriculture and Food",
+   "title": "Emergency Conservation Program Improvement Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 1013": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Retirement Fairness for Charities and Educational Institutions Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 10326": {
+   "policyArea": "Government Operations and Politics",
+   "title": "PROOF Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1039": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Clear Communication for Veterans Claims Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1041": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Veterans 2nd Amendment Protection Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1047": {
+   "policyArea": "Energy",
+   "title": "GRID Power Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1048": {
+   "policyArea": "Education",
+   "title": "DETERRENT Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1049": {
+   "policyArea": "Education",
+   "title": "Transparency in Reporting of Adversarial Contributions to Education Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1069": {
+   "policyArea": "Education",
+   "title": "PROTECT Our Kids Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1118": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Value Over Cost Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 1156": {
+   "policyArea": "Labor and Employment",
+   "title": "Pandemic Unemployment Fraud Enforcement Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1181": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Protecting Privacy in Purchases Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1223": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "ANCHOR Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1228": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Prioritizing Veterans’ Survivors Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1263": {
+   "policyArea": "International Affairs",
+   "title": "Strengthening the Quad Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1286": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Simplifying Forms for Veterans Claims Act",
+   "checked": "2026-11-11"
+  },
+  "H R 131": {
+   "policyArea": "Water Resources Development",
+   "title": "Finish the Arkansas Valley Conduit Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1326": {
+   "policyArea": "Agriculture and Food",
+   "title": "DOE and USDA Interagency Research Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1329": {
+   "policyArea": "Arts, Culture, Religion",
+   "title": "Smithsonian American Women’s History Museum Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1346": {
+   "policyArea": "Environmental Protection",
+   "title": "To amend the Clean Air Act with respect to the ethanol waiver for Reid Vapor Pressure under that Act, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H R 1366": {
+   "policyArea": "Environmental Protection",
+   "title": "Mining Regulatory Clarity Act",
+   "checked": "2026-11-11"
+  },
+  "H R 139": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Sunshine Protection Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 1402": {
+   "policyArea": "Commerce",
+   "title": "TICKET Act",
+   "checked": "2026-11-11"
+  },
+  "H R 144": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Tennessee Valley Authority Salary Transparency Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1442": {
+   "policyArea": "Commerce",
+   "title": "To ban the sale of products with a high concentration of sodium nitrite to individuals, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H R 1491": {
+   "policyArea": "Taxation",
+   "title": "Disaster Related Extension of Deadlines Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1501": {
+   "policyArea": "Energy",
+   "title": "Protecting Domestic Mining Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 1503": {
+   "policyArea": "International Affairs",
+   "title": "Stop Forced Organ Harvesting Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 152": {
+   "policyArea": "Emergency Management",
+   "title": "Federal Disaster Assistance Coordination Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1526": {
+   "policyArea": "Law",
+   "title": "NORRA of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 153": {
+   "policyArea": "Emergency Management",
+   "title": "Post-Disaster Assistance Online Accountability Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1531": {
+   "policyArea": "International Affairs",
+   "title": "PROTECT Taiwan Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1534": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "IMPACT Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1608": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 164": {
+   "policyArea": "Emergency Management",
+   "title": "POWER Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 1642": {
+   "policyArea": "Commerce",
+   "title": "Connecting Small Businesses with Career and Technical Education Graduates Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 165": {
+   "policyArea": "Native Americans",
+   "title": "Wounded Knee Massacre Memorial and Sacred Site Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1676": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Make SWAPs Efficient Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 1681": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Expediting Federal Broadband Deployment Reviews Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1689": {
+   "policyArea": "International Affairs",
+   "title": "To require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
+   "checked": "2026-11-11"
+  },
+  "H R 1709": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Understanding Cybersecurity of Mobile Networks Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1717": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Communications Security Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1770": {
+   "policyArea": "Commerce",
+   "title": "Consumer Safety Technology Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1804": {
+   "policyArea": "Commerce",
+   "title": "7(a) Loan Agent Oversight Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1834": {
+   "policyArea": "Congress",
+   "title": "To advance policy priorities that will break the gridlock.",
+   "checked": "2026-11-11"
+  },
+  "H R 186": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Hershel Woody Williams National Medal of Honor Monument Location Act",
+   "checked": "2026-11-11"
+  },
+  "H R 187": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "MAPWaters Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 1897": {
+   "policyArea": "Environmental Protection",
+   "title": "ESA Amendments Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 1917": {
+   "policyArea": "Environmental Protection",
+   "title": "Great Lakes Mass Marking Program Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 1919": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Anti-CBDC Surveillance State Act",
+   "checked": "2026-11-11"
+  },
+  "H R 192": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Amtrak Executive Bonus Disclosure Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1949": {
+   "policyArea": "Energy",
+   "title": "Unlocking our Domestic LNG Potential Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 1958": {
+   "policyArea": "Immigration",
+   "title": "Deporting Fraudsters Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 1968": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 1993": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "25th Anniversary of 9/11 Commemorative Coin Act",
+   "checked": "2026-11-11"
+  },
+  "H R 1998": {
+   "policyArea": "International Affairs",
+   "title": "Sanction Sea Pirates Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2035": {
+   "policyArea": "Transportation and Public Works",
+   "title": "American Cargo for American Ships Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2056": {
+   "policyArea": "Immigration",
+   "title": "District of Columbia Federal Immigration Compliance Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2071": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "Save Our Shrimpers Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2096": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Protecting Our Nation’s Capital Emergency Act",
+   "checked": "2026-11-11"
+  },
+  "H R 21": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Born-Alive Abortion Survivors Protection Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2102": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Major Richard Star Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2140": {
+   "policyArea": "Environmental Protection",
+   "title": "Diesel Emissions Reduction Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2189": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "To modernize Federal firearms laws to account for advancements in technology and less-than-lethal weapons, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H R 22": {
+   "policyArea": "Government Operations and Politics",
+   "title": "SAVE Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2215": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Salem Maritime National Historical Park Redesignation and Boundary Study Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2240": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Improving Law Enforcement Officer Safety and Wellness Through Data Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2243": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "LEOSA Reform Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2255": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Federal Law Enforcement Officer Service Weapon Purchase Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2262": {
+   "policyArea": "Labor and Employment",
+   "title": "Flexibility for Workers Education Act",
+   "checked": "2026-11-11"
+  },
+  "H R 227": {
+   "policyArea": "Social Welfare",
+   "title": "Clergy Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2270": {
+   "policyArea": "Labor and Employment",
+   "title": "Empowering Employer Child and Elder Care Solutions Act",
+   "checked": "2026-11-11"
+  },
+  "H R 23": {
+   "policyArea": "International Affairs",
+   "title": "Illegitimate Court Counteraction Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2312": {
+   "policyArea": "Labor and Employment",
+   "title": "Tipped Employee Protection Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2478": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Financial Exploitation Prevention Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2483": {
+   "policyArea": "Health",
+   "title": "SUPPORT for Patients and Communities Reauthorization Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 249": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "To redesignate certain facilities at Paterson Great Falls National Historical Park in honor of Congressman Bill Pascrell, Jr.",
+   "checked": "2026-11-11"
+  },
+  "H R 2493": {
+   "policyArea": "Health",
+   "title": "Improving Care in Rural America Reauthorization Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2550": {
+   "policyArea": "Labor and Employment",
+   "title": "Protect America's Workforce Act",
+   "checked": "2026-11-11"
+  },
+  "H R 26": {
+   "policyArea": "Energy",
+   "title": "Protecting American Energy Production Act",
+   "checked": "2026-11-11"
+  },
+  "H R 261": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Undersea Cable Protection Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2616": {
+   "policyArea": "Education",
+   "title": "Stopping Indoctrination and Protecting Kids Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2659": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Strengthening Cyber Resilience Against State-Sponsored Threats Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2683": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "Remote Access Security Act",
+   "checked": "2026-11-11"
+  },
+  "H R 27": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "HALT Fentanyl Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2721": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Honoring Our Heroes Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 275": {
+   "policyArea": "Immigration",
+   "title": "Special Interest Alien Reporting Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 276": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Gulf of America Act",
+   "checked": "2026-11-11"
+  },
+  "H R 28": {
+   "policyArea": "Civil Rights and Liberties, Minority Issues",
+   "title": "Protection of Women and Girls in Sports Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2853": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Combating Organized Retail Crime Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2860": {
+   "policyArea": "Environmental Protection",
+   "title": "Northwest Straits Marine Conservation Initiative Reauthorization Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 29": {
+   "policyArea": "Immigration",
+   "title": "Laken Riley Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2913": {
+   "policyArea": "International Affairs",
+   "title": "Ukraine Support Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2931": {
+   "policyArea": "Commerce",
+   "title": "Save SBA from Sanctuary Cities Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2965": {
+   "policyArea": "Commerce",
+   "title": "Small Business Regulatory Reduction Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2966": {
+   "policyArea": "Commerce",
+   "title": "American Entrepreneurs First Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2978": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "GUARD Act",
+   "checked": "2026-11-11"
+  },
+  "H R 2987": {
+   "policyArea": "Commerce",
+   "title": "CEASE Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 2988": {
+   "policyArea": "Labor and Employment",
+   "title": "Protecting Prudent Investment of Retirement Savings Act",
+   "checked": "2026-11-11"
+  },
+  "H R 30": {
+   "policyArea": "Immigration",
+   "title": "Preventing Violence Against Women by Illegal Aliens Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3015": {
+   "policyArea": "Energy",
+   "title": "National Coal Council Reestablishment Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3062": {
+   "policyArea": "Energy",
+   "title": "Promoting Cross-border Energy Infrastructure Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3095": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To direct the United States Postal Service to designate single, unique ZIP Codes for certain communities, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H R 3106": {
+   "policyArea": "Emergency Management",
+   "title": "Weatherizing Infrastructure in the North and Terrorism Emergency Readiness Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 3109": {
+   "policyArea": "Energy",
+   "title": "REFINER Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3123": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Ernest Peltz Accrued Veterans Benefits Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3187": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "To require the Secretary of Agriculture to convey a parcel of property of the Forest Service to Perry County, Arkansas, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H R 3234": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Keeping Deposits Local Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3276": {
+   "policyArea": "Environmental Protection",
+   "title": "Local Communities & Bird Habitat Stewardship Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 33": {
+   "policyArea": "Taxation",
+   "title": "To amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States.",
+   "checked": "2026-11-11"
+  },
+  "H R 3351": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Improving Access to Small Business Information Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3357": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Enhancing Multi-Class Share Disclosures Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3383": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Incentivizing New Ventures and Economic Strength Through Capital Formation Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 3394": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Fair Investment Opportunities for Professional Experts Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3400": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "TRAVEL Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 3422": {
+   "policyArea": "Commerce",
+   "title": "Promoting Opportunities for Non-Traditional Capital Formation Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3424": {
+   "policyArea": "Government Operations and Politics",
+   "title": "SPACE Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 3425": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Personnel Oversight and Shift Tracking Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 3486": {
+   "policyArea": "Immigration",
+   "title": "Stop Illegal Entry Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 3492": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Protect Children’s Innocence Act",
+   "checked": "2026-11-11"
+  },
+  "H R 35": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Agent Raul Gonzalez Officer Safety Act",
+   "checked": "2026-11-11"
+  },
+  "H R 359": {
+   "policyArea": "Energy",
+   "title": "Cost-Share Accountability Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 36": {
+   "policyArea": "International Affairs",
+   "title": "MEGOBARI Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3616": {
+   "policyArea": "Energy",
+   "title": "Reliable Power Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3617": {
+   "policyArea": "Energy",
+   "title": "Securing America’s Critical Minerals Supply Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3628": {
+   "policyArea": "Energy",
+   "title": "State Planning for Reliability and Affordability Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3632": {
+   "policyArea": "Energy",
+   "title": "Power Plant Reliability Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 3633": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Digital Asset Market Clarity Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3638": {
+   "policyArea": "Energy",
+   "title": "Electric Supply Chain Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3668": {
+   "policyArea": "Energy",
+   "title": "Improving Interagency Coordination for Pipeline Reviews Act",
+   "checked": "2026-11-11"
+  },
+  "H R 375": {
+   "policyArea": "Environmental Protection",
+   "title": "Continued Rapid Ohia Death Response Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 3838": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 3898": {
+   "policyArea": "Environmental Protection",
+   "title": "PERMIT Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3937": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Wabeno Economic Development Act",
+   "checked": "2026-11-11"
+  },
+  "H R 3944": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Military Construction and Veterans Affairs, Agriculture, and Legislative Branch Appropriations Act, 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 3978": {
+   "policyArea": "Energy",
+   "title": "Nuclear REFUEL (Recycling Efficient Fuels Utilizing Expedited Licensing) Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Rescissions Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 4016": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Department of Defense Appropriations Act, 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 4058": {
+   "policyArea": "Emergency Management",
+   "title": "Enhancing Stakeholder Support and Outreach for Preparedness Grants Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4090": {
+   "policyArea": "Energy",
+   "title": "Critical Mineral Dominance Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4216": {
+   "policyArea": "International Affairs",
+   "title": "Made-in-America Defense Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4219": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "National Wildlife Refuge System Invasive Species Strike Team Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 4275": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Coast Guard Authorization Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 4294": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "MAWS Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 43": {
+   "policyArea": "Native Americans",
+   "title": "Alaska Native Village Municipal Lands Restoration Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 4305": {
+   "policyArea": "Commerce",
+   "title": "DUMP Red Tape Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4312": {
+   "policyArea": "Sports and Recreation",
+   "title": "SCORE Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4366": {
+   "policyArea": "Labor and Employment",
+   "title": "Save Local Business Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4371": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Kayla Hamilton Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4405": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Epstein Files Transparency Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4423": {
+   "policyArea": "International Affairs",
+   "title": "No New Burma Funds Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4541": {
+   "policyArea": "Health",
+   "title": "To reauthorize the Young Women’s Breast Health Education and Awareness Requires Learning Young Act of 2009.",
+   "checked": "2026-11-11"
+  },
+  "H R 4544": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "American Access to Banking Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4553": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 4593": {
+   "policyArea": "Energy",
+   "title": "SHOWER Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4626": {
+   "policyArea": "Energy",
+   "title": "Home Appliance Protection and Affordability Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4638": {
+   "policyArea": "Immigration",
+   "title": "Federal Working Animal Protection Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4646": {
+   "policyArea": "Housing and Community Development",
+   "title": "Whistleblower Protection Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 4690": {
+   "policyArea": "Energy",
+   "title": "Reliable Federal Infrastructure Act",
+   "checked": "2026-11-11"
+  },
+  "H R 471": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Fix Our Forests Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4758": {
+   "policyArea": "Energy",
+   "title": "Homeowner Energy Freedom Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4776": {
+   "policyArea": "Environmental Protection",
+   "title": "SPEED Act",
+   "checked": "2026-11-11"
+  },
+  "H R 4795": {
+   "policyArea": "Education",
+   "title": "Protect Economic and Academic Freedom Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 4922": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "D. C. Criminal Reforms to Immediately Make Everyone Safe Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 495": {
+   "policyArea": "Immigration",
+   "title": "Subterranean Border Defense Act",
+   "checked": "2026-11-11"
+  },
+  "H R 498": {
+   "policyArea": "Health",
+   "title": "Do No Harm in Medicaid Act",
+   "checked": "2026-11-11"
+  },
+  "H R 504": {
+   "policyArea": "Native Americans",
+   "title": "Miccosukee Reserved Area Amendments Act",
+   "checked": "2026-11-11"
+  },
+  "H R 5103": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Make the District of Columbia Safe and Beautiful Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 5107": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Common-Sense Law Enforcement and Accountability Now in DC Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 5125": {
+   "policyArea": "Law",
+   "title": "District of Columbia Judicial Nominations Reform Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 5140": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "To lower the age at which a minor may be tried as an adult for certain criminal offenses in the District of Columbia to 14 years of age.",
+   "checked": "2026-11-11"
+  },
+  "H R 5143": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "District of Columbia Policing Protection Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 517": {
+   "policyArea": "Taxation",
+   "title": "Filing Relief for Natural Disasters Act",
+   "checked": "2026-11-11"
+  },
+  "H R 5184": {
+   "policyArea": "Energy",
+   "title": "Affordable HOMES Act",
+   "checked": "2026-11-11"
+  },
+  "H R 5200": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Emergency Reporting Act",
+   "checked": "2026-11-11"
+  },
+  "H R 5201": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Kari's Law Reporting Act",
+   "checked": "2026-11-11"
+  },
+  "H R 5214": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "District of Columbia Cash Bail Reform Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 530": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "ACES Act",
+   "checked": "2026-11-11"
+  },
+  "H R 5317": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Community Bank Deposit Access Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 5334": {
+   "policyArea": "International Affairs",
+   "title": "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 5348": {
+   "policyArea": "Social Welfare",
+   "title": "Social Security Child Protection Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 5362": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To name the Department of Veterans Affairs multispecialty clinic in Marietta, Georgia, as the \"Colonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic\".",
+   "checked": "2026-11-11"
+  },
+  "H R 5371": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 5408": {
+   "policyArea": "Labor and Employment",
+   "title": "Faster Labor Contracts Act",
+   "checked": "2026-11-11"
+  },
+  "H R 556": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Protecting Access for Hunters and Anglers Act",
+   "checked": "2026-11-11"
+  },
+  "H R 5587": {
+   "policyArea": "Energy",
+   "title": "HEATS Act",
+   "checked": "2026-11-11"
+  },
+  "H R 5625": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Cashless Bail Reporting Act",
+   "checked": "2026-11-11"
+  },
+  "H R 5763": {
+   "policyArea": "Commerce",
+   "title": "Main Street Parity Act",
+   "checked": "2026-11-11"
+  },
+  "H R 5764": {
+   "policyArea": "Commerce",
+   "title": "AI for Main Street Act",
+   "checked": "2026-11-11"
+  },
+  "H R 586": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Vietnam Veterans Liver Fluke Cancer Study Act",
+   "checked": "2026-11-11"
+  },
+  "H R 6019": {
+   "policyArea": "Congress",
+   "title": "To repeal certain provisions relating to notification to Senate offices regarding legal process on disclosure of Senate data, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H R 6047": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 6260": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Keeping Violent Offenders Off Our Streets Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 6329": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Information Quality Assurance Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 6359": {
+   "policyArea": "Education",
+   "title": "Pregnant Students’ Rights Act",
+   "checked": "2026-11-11"
+  },
+  "H R 6387": {
+   "policyArea": "Environmental Protection",
+   "title": "FIRE Act",
+   "checked": "2026-11-11"
+  },
+  "H R 6398": {
+   "policyArea": "Environmental Protection",
+   "title": "RED Tape Act",
+   "checked": "2026-11-11"
+  },
+  "H R 6409": {
+   "policyArea": "Environmental Protection",
+   "title": "FENCES Act",
+   "checked": "2026-11-11"
+  },
+  "H R 6422": {
+   "policyArea": "Environmental Protection",
+   "title": "American Water Stewardship Act",
+   "checked": "2026-11-11"
+  },
+  "H R 6472": {
+   "policyArea": "Education",
+   "title": "Territorial Student Access to Higher Education Act",
+   "checked": "2026-11-11"
+  },
+  "H R 6500": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Continuing Appropriations and Extensions Act, 2027",
+   "checked": "2026-11-11"
+  },
+  "H R 6504": {
+   "policyArea": "Foreign Trade and International Finance",
+   "title": "Haiti Economic Lift Program Extension Act",
+   "checked": "2026-11-11"
+  },
+  "H R 6644": {
+   "policyArea": "Housing and Community Development",
+   "title": "21st Century ROAD to Housing Act",
+   "checked": "2026-11-11"
+  },
+  "H R 6703": {
+   "policyArea": "Health",
+   "title": "Lower Health Care Premiums for All Americans Act",
+   "checked": "2026-11-11"
+  },
+  "H R 692": {
+   "policyArea": "International Affairs",
+   "title": "China Exchange Rate Transparency Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 6938": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 6945": {
+   "policyArea": "Families",
+   "title": "Supporting Pregnant and Parenting Women and Families Act",
+   "checked": "2026-11-11"
+  },
+  "H R 695": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Medal of Honor Act",
+   "checked": "2026-11-11"
+  },
+  "H R 6955": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Main Street Capital Access Act",
+   "checked": "2026-11-11"
+  },
+  "H R 7006": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 7008": {
+   "policyArea": "Congress",
+   "title": "Stop Insider Trading Act",
+   "checked": "2026-11-11"
+  },
+  "H R 7084": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Defending American Property Abroad Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 7128": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "TRIA Program Reauthorization Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 7147": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
+   "checked": "2026-11-11"
+  },
+  "H R 7148": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Consolidated Appropriations Act, 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 736": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Protect Small Businesses from Excessive Paperwork Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 7401": {
+   "policyArea": "Commerce",
+   "title": "Small Business Lending Fraud Prevention Act",
+   "checked": "2026-11-11"
+  },
+  "H R 747": {
+   "policyArea": "International Affairs",
+   "title": "Stop Chinese Fentanyl Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 7567": {
+   "policyArea": "Agriculture and Food",
+   "title": "Farm, Food, and National Security Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 758": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Mail Traffic Deaths Reporting Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 7613": {
+   "policyArea": "Transportation and Public Works",
+   "title": "ALERT Act",
+   "checked": "2026-11-11"
+  },
+  "H R 7618": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "American Battlefield Protection Program Amendments Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 77": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Midnight Rules Relief Act",
+   "checked": "2026-11-11"
+  },
+  "H R 7726": {
+   "policyArea": "Families",
+   "title": "Stop Child Care Scams Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 7744": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Department of Homeland Security Appropriations Act, 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 7757": {
+   "policyArea": "Commerce",
+   "title": "KIDS Act",
+   "checked": "2026-11-11"
+  },
+  "H R 776": {
+   "policyArea": "Animals",
+   "title": "Nutria Eradication and Control Reauthorization Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 788": {
+   "policyArea": "Commerce",
+   "title": "DOE and SBA Research Act",
+   "checked": "2026-11-11"
+  },
+  "H R 7892": {
+   "policyArea": "Education",
+   "title": "No Aid for Ghost Students Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 7959": {
+   "policyArea": "Taxation",
+   "title": "IRS Whistleblower Program Improvement Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8029": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Pay Our Homeland Defenders Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8035": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through October 20, 2027, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H R 804": {
+   "policyArea": "Commerce",
+   "title": "Rural Small Business Resilience Act",
+   "checked": "2026-11-11"
+  },
+  "H R 818": {
+   "policyArea": "Commerce",
+   "title": "SPUR Act",
+   "checked": "2026-11-11"
+  },
+  "H R 825": {
+   "policyArea": "Commerce",
+   "title": "Assisting Small Businesses Not Fraudsters Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8278": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "Fostering the Use of Technology to Uphold Regulatory Effectiveness in Supervision Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8312": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Fraud Prevention and Accountability Act",
+   "checked": "2026-11-11"
+  },
+  "H R 832": {
+   "policyArea": "Commerce",
+   "title": "Small Business Advocacy Improvements Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 8365": {
+   "policyArea": "Law",
+   "title": "Monitor Accountability Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8428": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Federal Fraud Prevention Workforce Training Act",
+   "checked": "2026-11-11"
+  },
+  "H R 845": {
+   "policyArea": "Environmental Protection",
+   "title": "Pet and Livestock Protection Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8464": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Stopping Fraudulent Payments Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8466": {
+   "policyArea": "Emergency Management",
+   "title": "TRUE Accountability Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8469": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H R 856": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Safe and Smart Federal Purchasing Act",
+   "checked": "2026-11-11"
+  },
+  "H R 859": {
+   "policyArea": "Commerce",
+   "title": "Informing Consumers about Smart Devices Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8595": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H R 8646": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
+   "checked": "2026-11-11"
+  },
+  "H R 875": {
+   "policyArea": "Immigration",
+   "title": "Jeremy and Angel Seay and Sergeant Brandon Mendoza Protect Our Communities from DUIs Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 8800": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "National Defense Authorization Act for Fiscal Year 2027",
+   "checked": "2026-11-11"
+  },
+  "H R 881": {
+   "policyArea": "Education",
+   "title": "DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8823": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
+   "checked": "2026-11-11"
+  },
+  "H R 884": {
+   "policyArea": "Government Operations and Politics",
+   "title": "To prohibit individuals who are not citizens of the United States from voting in elections in the District of Columbia and to repeal the Local Resident Voting Rights Amendment Act of 2022.",
+   "checked": "2026-11-11"
+  },
+  "H R 8872": {
+   "policyArea": "Social Welfare",
+   "title": "Preventing Waste, Fraud, and Abuse in TANF Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8884": {
+   "policyArea": "Social Welfare",
+   "title": "Removing Barriers to Work for Disabled Americans Act",
+   "checked": "2026-11-11"
+  },
+  "H R 8897": {
+   "policyArea": "Transportation and Public Works",
+   "title": "Improving Travel for American Families Act",
+   "checked": "2026-11-11"
+  },
+  "H R 901": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Research Security and Accountability in DHS Act",
+   "checked": "2026-11-11"
+  },
+  "H R 915": {
+   "policyArea": "Commerce",
+   "title": "Small Business Technological Advancement Act",
+   "checked": "2026-11-11"
+  },
+  "H R 9237": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Take Care of America’s Veterans Act",
+   "checked": "2026-11-11"
+  },
+  "H R 9238": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H R 9340": {
+   "policyArea": "Energy",
+   "title": "Ratepayer Protection Act",
+   "checked": "2026-11-11"
+  },
+  "H R 9436": {
+   "policyArea": "Animals",
+   "title": "Northeast Lobsterman Protection Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 9497": {
+   "policyArea": "Water Resources Development",
+   "title": "Water Resources Development Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 9500": {
+   "policyArea": "Taxation",
+   "title": "Tax Relief for Fraud Victims Act",
+   "checked": "2026-11-11"
+  },
+  "H R 9576": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "National Fraud Enforcement Division Act of 2026",
+   "checked": "2026-11-11"
+  },
+  "H R 9612": {
+   "policyArea": "Energy",
+   "title": "American Enrichment Deployment Act",
+   "checked": "2026-11-11"
+  },
+  "H R 973": {
+   "policyArea": "Commerce",
+   "title": "Setting Consumer Standards for Lithium-Ion Batteries Act",
+   "checked": "2026-11-11"
+  },
+  "H R 9770": {
+   "policyArea": "Economics and Public Finance",
+   "title": "Continuing Appropriations Act, 2027",
+   "checked": "2026-11-11"
+  },
+  "H R 980": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Veterans Readiness and Employment Improvement Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H R 993": {
+   "policyArea": "Immigration",
+   "title": "Emerging Innovative Border Technologies Act",
+   "checked": "2026-11-11"
+  },
+  "H R 997": {
+   "policyArea": "Taxation",
+   "title": "National Taxpayer Advocate Enhancement Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "H RES 1009": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6945) to amend part A of title IV of the Social Security Act to clarify the authority of States to use funds for pregnancy centers, and for other purposes; providing for consideration of the bill (H.R. 6359) to require institutions of higher education to disseminate information on the rights of, and accommodations and resources for, pregnant students, and for other purposes; and providing for consideration of the joint resolution (H.J. Res. 140) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Public Land Order No. 7917 for Withdrawal of Federal Lands; Cook, Lake, and Saint Louis Counties, MN.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 6945",
+    "H R 6359",
+    "H J RES 140"
+   ]
+  },
+  "H RES 1014": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 7148) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the bill (H.R. 7147) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 7148",
+    "H R 7147"
+   ]
+  },
+  "H RES 1032": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the Senate amendments to the bill (H.R. 7148) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the joint resolution (H.J. Res. 142) disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025; and providing for consideration of the bill (H.R. 4090) to codify certain provisions of certain Executive Orders relating to domestic mining and hardrock mineral resources, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 7148",
+    "H J RES 142",
+    "H R 4090"
+   ]
+  },
+  "H RES 1042": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2189) to modernize Federal firearms laws to account for advancements in technology and less-than-lethal weapons, and for other purposes; providing for consideration of the bill (H.R. 261) to amend the National Marine Sanctuaries Act to prohibit requiring an authorization for the installation, continued presence, operation, maintenance, repair, or recovery of undersea fiber optic cables in a national marine sanctuary if such activities have previously been authorized by a Federal or State agency; providing for consideration of the bill (H.R. 3617) to amend the Department of Energy Organization Act to secure the supply of critical energy resources, including critical minerals and other materials, and for other purposes; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 2189",
+    "H R 261",
+    "H R 3617"
+   ]
+  },
+  "H RES 1057": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (S. 1383) to establish the Veterans Advisory Committee on Equal Access, and for other purposes; providing for consideration of the bill (H.R. 2189) to modernize Federal firearms laws to account for advancements in technology and less-than-lethal weapons, and for other purposes; providing for consideration of the bill (H.R. 261) to amend the National Marine Sanctuaries Act to prohibit requiring an authorization for the installation, continued presence, operation, maintenance, repair, or recovery of undersea fiber optic cables in a national marine sanctuary if such activities have previously been authorized by a Federal or State agency; providing for consideration of the bill (H.R. 3617) to amend the Department of Energy Organization Act to secure the supply of critical energy resources, including critical minerals and other materials, and for other purposes; and waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "S 1383",
+    "H R 2189",
+    "H R 261",
+    "H R 3617"
+   ]
+  },
+  "H RES 1075": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4626) to amend the Energy Policy and Conservation Act to prohibit the Secretary of Energy from prescribing any new or amended energy conservation standard for a product that is not technologically feasible and economically justified, and for other purposes, and providing for consideration of the bill (H.R. 4758) to repeal provisions of Public Law 117–169 relating to taxpayer subsidies for home electrification, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 4626",
+    "H R 4758"
+   ]
+  },
+  "H RES 1095": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 7744) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 7744"
+   ]
+  },
+  "H RES 1099": {
+   "policyArea": "International Affairs",
+   "title": "Reaffirming Iran remains the largest state sponsor of terrorism.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1100": {
+   "policyArea": "Congress",
+   "title": "Directing the Committee on Ethics to preserve and publicly release records of the Committee's review of violations or alleged violations of clause 9 (as it pertains to acts of sexual harassment) and clause 18 of rule XXIII of the Rules of the House of Representatives.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1115": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 556) to prohibit the Secretary of the Interior and the Secretary of Agriculture from prohibiting the use of lead ammunition or tackle on certain Federal land or water under the jurisdiction of the Secretary of the Interior and the Secretary of Agriculture, and for other purposes; providing for consideration of the bill (H.R. 1958) to amend the Immigration and Nationality Act to clarify that aliens who have been convicted of defrauding the United States Government or the unlawful receipt of public benefits are inadmissible and deportable; providing for consideration of the bill (H.R. 4638) to amend the Immigration and Nationality Act to provide that an alien who has been convicted of harming animals used in law enforcement is inadmissible and deportable, and for other purposes; and relating to consideration of motions to suspend the rules.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 556",
+    "H R 1958",
+    "H R 4638"
+   ]
+  },
+  "H RES 1128": {
+   "policyArea": "Immigration",
+   "title": "Expressing the support of the House of Representatives for the Department of Homeland Security.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1131": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 8029",
+    "H RES 1128",
+    "H R 5103",
+    "H R 7084"
+   ]
+  },
+  "H RES 1140": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5408) to accelerate workplace time-to-contract under the National Labor Relations Act.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 5408"
+   ]
+  },
+  "H RES 1142": {
+   "policyArea": "Congress",
+   "title": "Providing for disposition of the Senate amendment to the bill (H.R. 7147) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 7147"
+   ]
+  },
+  "H RES 1156": {
+   "policyArea": "Taxation",
+   "title": "Expressing support for tax policies that support working families.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1174": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6387) to amend the Clean Air Act to require revisions to regulations governing the review and handling of air quality monitoring data influenced by exceptional events or actions to mitigate wildfire risk; providing for consideration of the bill (H.R. 6398) to amend the Clean Air Act relating to review by the Environmental Protection Agency of proposed legislation; providing for consideration of the bill (H.R. 6409) to amend the Clean Air Act to clarify standards for emissions emanating from outside of the United States, and for other purposes; and providing for consideration of the resolution (H. Res. 1156) expressing support for tax policies that support working families.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 6387",
+    "H R 6398",
+    "H R 6409",
+    "H RES 1156"
+   ]
+  },
+  "H RES 1175": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 8035) to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through October 20, 2027, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 8035"
+   ]
+  },
+  "H RES 1182": {
+   "policyArea": "Commerce",
+   "title": "Expressing support for rural communities across the United States as stewards of the environment, major suppliers of United States energy resources, critical providers of food production and manufacturing capacity, and drivers of national economic stability, and recognizing the work of the House of Representatives in the 119th Congress in support of those vital communities.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1189": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4690) to amend the Energy Conservation and Production Act to repeal certain Federal building energy efficiency performance standards, and for other purposes; providing for consideration of the resolution (H. Res. 1182) expressing support for rural communities across the United States as stewards of the environment, major suppliers of United States energy resources, critical providers of food production and manufacturing capacity, and drivers of national economic stability, and recognizing the work of the House of Representatives in the 119th Congress in support of those vital communities; providing for consideration of the bill (H.R. 1897) to amend the Endangered Species Act of 1973 to optimize conservation through resource prioritization, incentivize wildlife conservation on private lands, provide for greater incentives to recover listed species, create greater transparency and accountability in recovering listed species, streamline the permitting process, eliminate barriers to conservation, and restore congressional intent; and providing for consideration of the bill (H.R. 5587) to amend the Geothermal Steam Act of 1970 to waive the requirement for a Federal drilling permit for certain activities, to exempt certain activities from the requirements of the National Environmental Policy Act of 1969, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 4690",
+    "H RES 1182",
+    "H R 1897",
+    "H R 5587"
+   ]
+  },
+  "H RES 122": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 77) to amend chapter 8 of title 5, United States Code, to provide for en bloc consideration in resolutions of disapproval for \"midnight rules\", and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 77"
+   ]
+  },
+  "H RES 1224": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 7567) to provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2031, and for other purposes; providing for consideration of the bill (H.R. 2616) to require public elementary and middle schools that receive funds under the Elementary and Secondary Education Act of 1965 to obtain parental consent before changing a minor’s gender markers, pronouns, or preferred name on any school form or sex-based accommodations, including locker rooms or bathrooms; providing for consideration of the concurrent resolution (S. Con. Res. 33) setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035; providing for consideration of the bill (S. 1318) to direct the American Battle Monuments Commission to establish a program to identify American-Jewish servicemembers buried in United States military cemeteries overseas under markers that incorrectly represent their religion and heritage, and for other purposes; providing for consideration of the bill (H.R. 1346) to amend the Clean Air Act with respect to the ethanol waiver for Reid Vapor Pressure under that Act, and for other purposes; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 7567",
+    "H R 2616",
+    "S CON RES 33",
+    "S 1318",
+    "H R 1346"
+   ]
+  },
+  "H RES 1247": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2102) to amend title 10, United States Code, to provide for concurrent receipt of veterans' disability compensation and retired pay for disability retirees with combat-related disabilities, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 2102"
+   ]
+  },
+  "H RES 1251": {
+   "policyArea": "Civil Rights and Liberties, Minority Issues",
+   "title": "Calling on elected officials and civil society leaders to counter antisemitism and educate the public on the contributions of the Jewish-American community.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1252": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Resolution memorializing law enforcement officers killed in the line of duty.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1259": {
+   "policyArea": "International Affairs",
+   "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People’s Republic of China during future engagements with Chinese President Xi Jinping.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1274": {
+   "policyArea": "Congress",
+   "title": "Providing that section 11 of House Resolution 1224 shall have no force or effect.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1275": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5625) to direct the Attorney General to make publicly available a list of each State and unit of local government that permits cashless bail, and for other purposes; providing for consideration of the bill (H.R. 6260) to amend title 18, United States Code, to prohibit fraud in connection with posting bail; providing for consideration of the bill (H.R. 8365) to provide for conditions on the appointment of monitors by courts, and for other purposes; providing for consideration of the concurrent resolution (H. Con. Res. 96) expressing support for law enforcement officers; and providing for consideration of the bill (H.R. 8469) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 5625",
+    "H R 6260",
+    "H R 8365",
+    "H CON RES 96",
+    "H R 8469"
+   ]
+  },
+  "H RES 1299": {
+   "policyArea": "Congress",
+   "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1300": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1041) to amend title 38, United States Code, to prohibit the Secretary of Veterans Affairs from transmitting certain information to the Department of Justice for use by the national instant criminal background check system; providing for consideration of the bill (H.R. 6047) to amend title 38, United States Code, to direct the Secretary of Veterans Affairs to increase the dollar amounts for the payment of certain disability compensation and dependency and indemnity compensation under the laws administered by the Secretary; providing for consideration of the bill (H.R. 1329) to permit the Smithsonian American Women’s History Museum to be located within the Reserve of the National Mall, and for other purposes; and waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 1041",
+    "H R 6047",
+    "H R 1329"
+   ]
+  },
+  "H RES 1333": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 8646) making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 7726) to amend the Child Care and Development Block Grant Act of 1990 to withhold funds from noncompliant States under such Act; providing for consideration of the bill (H.R. 7892) to amend the Higher Education Act of 1965 to require to the Secretary of Education to use an identity fraud detection system to review each FAFSA to determine whether the FAFSA presents a reasonable suspicion of identity fraud; and providing for consideration of the bill (H.R. 8872) to amend part A of title IV of the Social Security Act to target funds to low-income families, strengthen program integrity guardrails for State expenditure of funds, require measurement of improper payments, and establish goals for eliminating fraud and improper payments under the program of block grants to States for temporary assistance for needy families, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 8646",
+    "H R 7726",
+    "H R 7892",
+    "H R 8872"
+   ]
+  },
+  "H RES 1335": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Condemning actors seeking to defraud the United States Government, and expressing the sense of the House of Representatives that governmentwide fraud and improper payment prevention reforms will meaningfully improve the financial prosperity of the United States, and that Federal program eligibility should be verified before payment.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1336": {
+   "policyArea": "Congress",
+   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1345": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 8312) to establish fraud prevention and program integrity functions and data sharing authorities within the Department of Treasury and a permanent governmentwide Inspector General for Fraud, Accountability, and Recovery, and for other purposes; providing for consideration of the bill (H.R. 8464) to amend title 31, United States Code, to authorize pausing and segmenting payments, and for other purposes; providing for consideration of the resolution (H. Res. 1335) condemning actors seeking to defraud the United States Government, and expressing the sense of the House of Representatives that governmentwide fraud and improper payment prevention reforms will meaningfully improve the financial prosperity of the United States, and that Federal program eligibility should be verified before payment; and providing for consideration of the bill (S. 2) to provide for reconciliation pursuant to title II of S. Con. Res. 33.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 8312",
+    "H R 8464",
+    "H RES 1335",
+    "S 2"
+   ]
+  },
+  "H RES 1383": {
+   "policyArea": "Taxation",
+   "title": "Commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1398": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 8800) to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; providing for consideration of the bill (H.R. 8595) making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 8884) to amend title II of the Social Security Act to reauthorize demonstration authority for the disability insurance program; providing for consideration of the resolution (H. Res. 1383) commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 8800",
+    "H R 8595",
+    "H R 8884",
+    "H RES 1383"
+   ]
+  },
+  "H RES 1399": {
+   "policyArea": "Congress",
+   "title": "Directing the Committee on Ethics to preserve and publicly release records relating to monetary settlements involving acts of sexual harassment.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1423": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 139) to make daylight savings time permanent, and for other purposes; providing for consideration of the bill (H.R. 8595) making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 9237) to amend titles 10 and 38, United States Code, and other Federal laws, to improve benefits for veterans and the administration of the Department of Veterans Affairs; providing for consideration of the bill (H.R. 1181) to prohibit payment card networks and covered entities from requiring the use of or assigning merchant category codes that distinguish a firearms retailer from general-merchandise retailer or sporting-goods retailer, and for other purposes; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 139",
+    "H R 8595",
+    "H R 9237",
+    "H R 1181"
+   ]
+  },
+  "H RES 1438": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 8800) to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; providing for consideration of the bill (H.R. 8884) to amend title II of the Social Security Act to reauthorize demonstration authority for the disability insurance program; providing for consideration of the concurrent resolution (H. Con. Res. 113) establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036; providing for consideration of the bill (H.R. 7008) to amend chapter 131 of title 5 to require certain restrictions on stocks for Members of Congress and their spouses and dependents, and for other purposes; providing for consideration of the bill (H.R. 6955) to make improvements to the Federal banking laws, and for other purposes; providing for consideration of the bill (H.R. 9770) making continuing appropriations for fiscal year 2027, and for other purposes; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 8800",
+    "H R 8884",
+    "H CON RES 113",
+    "H R 7008",
+    "H R 6955",
+    "H R 9770"
+   ]
+  },
+  "H RES 1486": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Impeaching Donald John Trump, President of the United States, for high crimes and misdemeanors.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1490": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1498": {
+   "policyArea": "Congress",
+   "title": "In the matter of allegations relating to Representative Chuck Edwards.",
+   "checked": "2026-11-11"
+  },
+  "H RES 1499": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1501) to amend the FAST Act to include certain mineral production activities as a covered project, and for other purposes; providing for consideration of the bill (H.R. 9436) to amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective; providing for consideration of the resolution (H. Res. 1490) providing for the condemnation and denouncement of socialism in all its forms, and for other purposes; providing for consideration of the bill (H.R. 4795) to amend the Higher Education Act of 1965 to prohibit an institution that participates in a nonexpressive commercial boycott of Israel from being eligible for certain funds under that Act, to require an institution that participates in certain programs under that Act to certify that students are not unreasonably obstructed from participating in academic programs in Israel, and for other purposes; and relating to consideration of motions to suspend the rules.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 1501",
+    "H R 9436",
+    "H RES 1490",
+    "H R 4795"
+   ]
+  },
+  "H RES 1530": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 9576) to establish the National Fraud Enforcement Division of the Department of Justice; providing for consideration of the bill (H.R. 10326) to enhance information-sharing capabilities between Federal law enforcement and State agencies to detect, investigate, and prosecute fraud in certain Federal programs, and to protect individual privacy; providing for consideration of the joint resolution (H.J. Res. 210) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to ‘‘California State Nonroad Engine Pollution Control Standards; Ocean-Going Vessels At-Berth; Notice of Decision''; providing for consideration of the joint resolution (H.J. Res. 213) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule issued by the Environmental Protection Agency relating to the ‘‘California State Nonroad Engine Pollution Control Standards; Commercial Harbor Craft Regulations; Notice of Decision''; and providing for consideration of the Senate amendments to the bill (H.R. 5334) to amend the Internal Revenue Code of 1986 to allow early childhood educators to take the educator expense deduction, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 9576",
+    "H R 10326",
+    "H J RES 210",
+    "H J RES 213",
+    "H R 5334"
+   ]
+  },
+  "H RES 161": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 20) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to ‘‘Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters’’; providing for consideration of the joint resolution (H.J. Res. 35) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to ‘‘Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions’’; and providing for consideration of the concurrent resolution (H. Con. Res. 14) establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H J RES 20",
+    "H J RES 35",
+    "H CON RES 14"
+   ]
+  },
+  "H RES 1650": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1013) to amend the Federal securities laws to enhance 403(b) plans, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 1013"
+   ]
+  },
+  "H RES 1655": {
+   "policyArea": "",
+   "title": "Impeaching Peter Brian Hegseth, Secretary of Defense, for high crimes and misdemeanors.",
+   "checked": "2026-11-11"
+  },
+  "H RES 177": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 42) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment\"; providing for consideration of the joint resolution (H.J. Res. 61) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"National Emission Standards for Hazardous Air Pollutants: Rubber Tire Manufacturing\"; and providing for consideration of the joint resolution (S.J. Res. 11) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Ocean Energy Management relating to \"Protection of Marine Archaeological Resources\".",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H J RES 42",
+    "H J RES 61",
+    "S J RES 11"
+   ]
+  },
+  "H RES 189": {
+   "policyArea": "Congress",
+   "title": "Censuring Representative Al Green of Texas.",
+   "checked": "2026-11-11"
+  },
+  "H RES 211": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 25) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to ‘‘Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales’’; providing for consideration of the bill (H.R. 1156) to amend the CARES Act to extend the statute of limitations for fraud under certain unemployment programs, and for other purposes; providing for consideration of the bill (H.R. 1968) making further continuing appropriations and other extensions for the fiscal year ending September 30, 2025, and for other purposes; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H J RES 25",
+    "H R 1156",
+    "H R 1968"
+   ]
+  },
+  "H RES 242": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 24) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers\"; providing for consideration of the joint resolution (H.J. Res. 75) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\"; and providing for consideration of the bill (H.R. 1048) to amend the Higher Education Act of 1965 to strengthen disclosure requirements relating to foreign gifts and contracts, to prohibit contracts between institutions of higher education and certain foreign entities and countries of concern, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H J RES 24",
+    "H J RES 75",
+    "H R 1048"
+   ]
+  },
+  "H RES 282": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (S.J. Res. 18) disapproving the rule submitted by the Bureau of Consumer Financial Protection relating to \"Overdraft Lending: Very Large Financial Institutions''; providing for consideration of the joint resolution (S.J. Res. 28) disapproving the rule submitted by the Bureau of Consumer Financial Protection relating to ''Defining Larger Participants of a Market for General-Use Digital Consumer Payment Applications''; providing for consideration of the bill (H.R. 1526) to amend title 28, United States Code, to limit the authority of district courts to provide injunctive relief, and for other purposes; providing for consideration of the bill (H.R. 22) to amend the National Voter Registration Act of 1993 to require proof of United States citizenship to register an individual to vote in elections for Federal office, and for other purposes; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "S J RES 18",
+    "S J RES 28",
+    "H R 1526",
+    "H R 22"
+   ]
+  },
+  "H RES 294": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (S.J. Res. 18) disapproving the rule submitted by the Bureau of Consumer Financial Protection relating to \"Overdraft Lending: Very Large Financial Institutions\"; providing for consideration of the joint resolution (S.J. Res. 28) disapproving the rule submitted by the Bureau of Consumer Financial Protection relating to \"Defining Larger Participants of a Market for General-Use Digital Consumer Payment Applications\"; providing for consideration of the bill (H.R. 1526) to amend title 28, United States Code, to limit the authority of district courts to provide injunctive relief, and for other purposes; providing for consideration of the bill (H.R. 22) to amend the National Voter Registration Act of 1993 to require proof of United States citizenship to register an individual to vote in elections for Federal office, and for other purposes; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "S J RES 18",
+    "S J RES 28",
+    "H R 1526",
+    "H R 22"
+   ]
+  },
+  "H RES 313": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the Senate amendment to the concurrent resolution (H. Con. Res. 14) establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H CON RES 14"
+   ]
+  },
+  "H RES 352": {
+   "policyArea": "Civil Rights and Liberties, Minority Issues",
+   "title": "Calling on elected officials and civil society leaders to counter antisemitism and educate the public on the contributions of the Jewish American community.",
+   "checked": "2026-11-11"
+  },
+  "H RES 354": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (H.J. Res. 60) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Park Service relating to \"Glen Canyon National Recreation Area: Motor Vehicles\"; providing for consideration of the joint resolution (H.J. Res. 78) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to \"Endangered and Threatened Wildlife and Plants; Endangered Species Status for the San Francisco Bay-Delta Distinct Population Segment of the Longfin Smelt\"; providing for consideration of the joint resolution (H.J. Res. 87) providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine Pollution Control Standards; Heavy-Duty Vehicle and Engine Emission Warranty and Maintenance Provisions; Advanced Clean Trucks; Zero Emission Airport Shuttle; Zero-Emission Power Train Certification; Waiver of Preemption; Notice of Decision\"; providing for consideration of the joint resolution (H.J. Res. 88) providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision\"; providing for consideration of the joint resolution (H.J. Res. 89) providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine and Nonroad Engine Pollution Control Standards; The \"Omnibus\" Low NOX Regulation; Waiver of Preemption; Notice of Decision\"; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H J RES 60",
+    "H J RES 78",
+    "H J RES 87",
+    "H J RES 88",
+    "H J RES 89"
+   ]
+  },
+  "H RES 377": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 276) to rename the Gulf of Mexico as the ‘‘Gulf of America”, and providing for consideration of the bill (H.R. 881) to establish Department of Homeland Security funding restrictions on institutions of higher education that have a relationship with Confucius Institutes, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 276",
+    "H R 881"
+   ]
+  },
+  "H RES 405": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2240) to require the Attorney General to develop reports relating to violent attacks against law enforcement officers, and for other purposes; providing for consideration of the bill (H.R. 2243) to amend title 18, United States Code, to improve the Law Enforcement Officer Safety Act and provisions relating to the carrying of concealed weapons by law enforcement officers, and for other purposes; and providing for consideration of the bill (H.R. 2255) to allow Federal law enforcement officers to purchase retired service weapons, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 2240",
+    "H R 2243",
+    "H R 2255"
+   ]
+  },
+  "H RES 426": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (S.J. Res. 13) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of the Comptroller of the Currency of the Department of the Treasury relating to the review of applications under the Bank Merger Act; providing for consideration of the joint resolution (S.J. Res. 31) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Review of Final Rule Reclassification of Major Sources as Area Sources Under Section 112 of the Clean Air Act\"; and waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "S J RES 13",
+    "S J RES 31"
+   ]
+  },
+  "H RES 432": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 2550"
+   ]
+  },
+  "H RES 436": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1) to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 1"
+   ]
+  },
+  "H RES 458": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2483) to reauthorize certain programs that provide for opioid use disorder prevention, treatment, and recovery, and for other purposes; providing for consideration of the bill (H.R. 2931) to direct the Administrator of the Small Business Administration to relocate certain offices of the Small Business Administration in sanctuary jurisdictions, and for other purposes; providing for consideration of the bill (H.R. 2966) to require the Administrator of the Small Business Administration to require an applicant for certain loans of the Administration to provide certain citizenship status documentation, and for other purposes; and providing for consideration of the bill (H.R. 2987) to amend the Small Business Act to require a limit on the number of small business lending companies, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 2483",
+    "H R 2931",
+    "H R 2966",
+    "H R 2987"
+   ]
+  },
+  "H RES 481": {
+   "policyArea": "Civil Rights and Liberties, Minority Issues",
+   "title": "Condemning the rise in ideologically motivated attacks on Jewish individuals in the United States, including the recent violent assault in Boulder, Colorado, and reaffirming the House of Representatives commitment to combating antisemitism and politically motivated violence.",
+   "checked": "2026-11-11"
+  },
+  "H RES 488": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Denouncing the antisemitic terrorist attack in Boulder, Colorado.",
+   "checked": "2026-11-11"
+  },
+  "H RES 489": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 884) to prohibit individuals who are not citizens of the United States from voting in elections in the District of Columbia and to repeal the Local Resident Voting Rights Amendment Act of 2022; providing for consideration of the bill (H.R. 2056) to require the District of Columbia to comply with federal immigration laws; providing for consideration of the bill (H.R. 2096) to restore the right to negotiate matters pertaining to the discipline of law enforcement officers of the District of Columbia through collective bargaining, to restore the statute of limitations for bringing disciplinary cases against members or civilian employees of the Metropolitan Police Department of the District of Columbia, and for other purposes; and providing for consideration of the bill (S. 331) to amend the Controlled Substances Act with respect to the scheduling of fentanyl-related substances, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 884",
+    "H R 2056",
+    "H R 2096",
+    "S 331"
+   ]
+  },
+  "H RES 499": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 4"
+   ]
+  },
+  "H RES 5": {
+   "policyArea": "Congress",
+   "title": "Adopting the Rules of the House of Representatives for the One Hundred Nineteenth Congress, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "H RES 516": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Condemning the violent June 2025 riots in Los Angeles, California.",
+   "checked": "2026-11-11"
+  },
+  "H RES 518": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2913) to authorize support for Ukraine, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 2913"
+   ]
+  },
+  "H RES 519": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Condemning the attacks on Minnesota lawmakers in Brooklyn Park and Champlin, Minnesota, and calling for unity and the rejection of political violence in Minnesota and across the United States.",
+   "checked": "2026-11-11"
+  },
+  "H RES 53": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 471) to expedite under the National Environmental Policy Act of 1969 and improve forest management activities on National Forest System lands, on public lands under the jurisdiction of the Bureau of Land Management, and on Tribal lands to return resilience to overgrown, fire-prone forested lands, and for other purposes, and providing for consideration of the bill (S. 5) to require the Secretary of Homeland Security to take into custody aliens who have been charged in the United States with theft, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 471",
+    "S 5"
+   ]
+  },
+  "H RES 530": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3944) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the bill (H.R. 275) to require the Secretary of Homeland Security to publish on a monthly basis the number of special interest aliens encountered attempting to unlawfully enter the United States, and for other purposes; providing for consideration of the bill (H.R. 875) to amend the Immigration and Nationality Act to provide that aliens who have been convicted of or who have committed an offense for driving while intoxicated or impaired are inadmissible and deportable; and providing for consideration of the resolution (H. Res. 516) condemning the violent June 2025 riots in Los Angeles, California.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 3944",
+    "H R 275",
+    "H R 875",
+    "H RES 516"
+   ]
+  },
+  "H RES 537": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Impeaching Donald J. Trump, President of the United States, for high crimes and misdemeanors.",
+   "checked": "2026-11-11"
+  },
+  "H RES 539": {
+   "policyArea": "Congress",
+   "title": "Censuring Representative LaMonica McIver and removing her from the Committee on Homeland Security.",
+   "checked": "2026-11-11"
+  },
+  "H RES 566": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the Senate amendment to the bill (H.R. 1) to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 1"
+   ]
+  },
+  "H RES 580": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4016) making appropriations for the Department of Defense for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the bill (H.R. 3633) to provide for a system of regulation of the offer and sale of digital commodities by the Securities and Exchange Commission and the Commodity Futures Trading Commission, and for other purposes; providing for consideration of the bill (H.R. 1919) to amend the Federal Reserve Act to prohibit the Federal reserve banks from offering certain products or services directly to an individual, to prohibit the use of central bank digital currency for monetary policy, and for other purposes; providing for consideration of the bill (S. 1582) to provide for the regulation of payment stablecoins, and for other purposes; and waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 4016",
+    "H R 3633",
+    "H R 1919",
+    "S 1582"
+   ]
+  },
+  "H RES 590": {
+   "policyArea": "Congress",
+   "title": "Relating to consideration of the Senate amendment to the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974.",
+   "checked": "2026-11-11"
+  },
+  "H RES 672": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4553) making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the joint resolution (H.J. Res. 104) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to ‘‘Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment’’; providing for consideration of the joint resolution (H.J. Res. 105) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to ‘‘North Dakota Field Office Record of Decision and Approved Resource Management Plan’’; providing for consideration of the joint resolution (H.J. Res. 106) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to ‘‘Central Yukon Record of Decision and Approved Resource Management Plan’’; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 4553",
+    "H J RES 104",
+    "H J RES 105",
+    "H J RES 106"
+   ]
+  },
+  "H RES 682": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3838) to authorize appropriations for fiscal year 2026 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes, and providing for consideration of the bill (H.R. 3486) to amend the Immigration and Nationality Act to increase penalties for individuals who illegally enter and reenter the United States after being removed, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 3838",
+    "H R 3486"
+   ]
+  },
+  "H RES 707": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4922) to limit youth offender status in the District of Columbia to individuals 18 years of age or younger, to direct the Attorney General of the District of Columbia to establish and operate a publicly accessible website containing updated statistics on juvenile crime in the District of Columbia, to amend the District of Columbia Home Rule Act to prohibit the Council of the District of Columbia from enacting changes to existing criminal liability sentences, and for other purposes; providing for consideration of the bill (H.R. 5143) to establish standards for law enforcement officers in the District of Columbia to engage in vehicular pursuits of suspects, and for other purposes; providing for consideration of the bill (H.R. 5140) to lower the age at which a minor may be tried as an adult for certain criminal offenses in the District of Columbia to 14 years of age; providing for consideration of the bill (H.R. 5125) to amend the District of Columbia Home Rule Act to terminate the District of Columbia Judicial Nomination Commission, and for other purposes; providing for consideration of the bill (H.R. 1047) to require the Federal Energy Regulatory Commission to reform the interconnection queue process for the prioritization and approval of certain projects, and for other purposes; providing for consideration of the bill (H.R. 3015) to reestablish the National Coal Council in the Department of Energy to provide advice and recommendations to the Secretary of Energy on matters related to coal and the coal industry, and for other purposes; providing for consideration of the bill (H.R. 3062) to establish a more uniform, transparent, and modern process to authorize the construction, connection, operation, and maintenance of international border-crossing facilities for the import and export of oil and natural gas and the transmission of electricity; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 4922",
+    "H R 5143",
+    "H R 5140",
+    "H R 5125",
+    "H R 1047",
+    "H R 3015",
+    "H R 3062"
+   ]
+  },
+  "H RES 713": {
+   "policyArea": "Congress",
+   "title": "Censuring Representative Ilhan Omar of Minnesota and removing her from the Committee on Education and Workforce and the Committee on the Budget.",
+   "checked": "2026-11-11"
+  },
+  "H RES 719": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Honoring the life and legacy of Charles Charlie James Kirk.",
+   "checked": "2026-11-11"
+  },
+  "H RES 722": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles Charlie James Kirk; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 5371",
+    "H RES 719"
+   ]
+  },
+  "H RES 780": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1834) to advance policy priorities that will break the gridlock.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 1834"
+   ]
+  },
+  "H RES 873": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the Senate amendment to the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 5371"
+   ]
+  },
+  "H RES 878": {
+   "policyArea": "Congress",
+   "title": "Disapproving the behavior of Representative Jesús G. Chuy García of Illinois.",
+   "checked": "2026-11-11"
+  },
+  "H RES 879": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the joint resolution (S.J. Res. 80) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision; providing for consideration of the joint resolution (H.J. Res. 130) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Buffalo Field Office Record of Decision and Approved Resource Management Plan Amendment; providing for consideration of the joint resolution (H.J. Res. 131) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Coastal Plain Oil and Gas Leasing Program Record of Decision; providing for consideration of the concurrent resolution (H. Con. Res. 58) denouncing the horrors of socialism; providing for consideration of the bill (H.R. 1949) to repeal restrictions on the export and import of natural gas; providing for consideration of the bill (H.R. 3109) to require the Secretary of Energy to direct the National Petroleum Council to issue a report with respect to petrochemical refineries in the United States, and for other purposes; providing for consideration of the bill (H.R. 5107) to repeal the Comprehensive Policing and Justice Reform Amendment Act of 2022 enacted by the District of Columbia Council; providing for consideration of the bill (H.R. 5214) to require mandatory pretrial and post conviction detention for crimes of violence and dangerous crimes and require mandatory cash bail for certain offenses that pose a threat to public safety or order in the District of Columbia, and for other purposes; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "S J RES 80",
+    "H J RES 130",
+    "H J RES 131",
+    "H CON RES 58",
+    "H R 1949",
+    "H R 3109",
+    "H R 5107",
+    "H R 5214"
+   ]
+  },
+  "H RES 888": {
+   "policyArea": "Congress",
+   "title": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing.",
+   "checked": "2026-11-11"
+  },
+  "H RES 893": {
+   "policyArea": "Congress",
+   "title": "Censuring Representative Cory Mills of Florida and removing him from the Committee on Armed Services and the Committee on Foreign Affairs.",
+   "checked": "2026-11-11"
+  },
+  "H RES 916": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4312) to protect the name, image, and likeness rights of student athletes and to promote fair competition with respect to intercollegiate athletics, and for other purposes; providing for consideration of the bill (H.R. 1005) to prohibit elementary and secondary schools from accepting funds from or entering into contracts with the Government of the People’s Republic of China and the Chinese Communist Party, and for other purposes; providing for consideration of the bill (H.R. 1049) to ensure that parents are aware of foreign influence in their child’s public school, and for other purposes; providing for consideration of the bill (H.R. 1069) to prohibit the availability of Federal education funds for elementary and secondary schools that receive direct or indirect support from the Government of the People’s Republic of China; providing for consideration of the bill (H.R. 2965) to require the Administrator of the Small Business Administration to ensure that the small business regulatory budget for a small business concern in a fiscal year is not greater than zero, and for other purposes; and providing for consideration of the bill (H.R. 4305) to direct the Chief Counsel for Advocacy of the Small Business Administration to establish a Red Tape Hotline to receive notifications of burdensome agency rules, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 4312",
+    "H R 1005",
+    "H R 1049",
+    "H R 1069",
+    "H R 2965",
+    "H R 4305"
+   ]
+  },
+  "H RES 93": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 27) to amend the Controlled Substances Act with respect to the scheduling of fentanyl-related substances, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 27"
+   ]
+  },
+  "H RES 936": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 3898) to amend the Federal Water Pollution Control Act to make targeted reforms with respect to waters of the United States and other matters, and for other purposes; providing for consideration of the bill (H.R. 3383) to amend the Investment Company Act of 1940 with respect to the authority of closed-end companies to invest in private funds; providing for consideration of the bill (H.R. 3638) to direct the Secretary of Energy to prepare periodic assessments and submit reports on the supply chain for the generation and transmission of electricity, and for other purposes; providing for consideration of the bill (H.R. 3628) to amend the Public Utility Regulatory Policies Act of 1978 to add a standard related to State consideration of reliable generation, and for other purposes; providing for consideration of the bill (H.R. 3668) to promote interagency coordination for reviewing certain authorizations under section 3 of the Natural Gas Act, and for other purposes; providing for consideration of the bill (S. 1071) to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes; and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 3898",
+    "H R 3383",
+    "H R 3638",
+    "H R 3628",
+    "H R 3668",
+    "S 1071"
+   ]
+  },
+  "H RES 939": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Impeaching Donald John Trump, President of the United States for high crimes and misdemeanors.",
+   "checked": "2026-11-11"
+  },
+  "H RES 951": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4776) to amend the National Environmental Policy Act of 1969 to clarify ambiguous provisions and facilitate a more efficient, effective, and timely environmental review process; providing for consideration of the bill (H.R. 1366) to provide for the location of multiple hardrock mining mill sites, to establish the Abandoned Hardrock Mine Fund, and for other purposes; providing for consideration of the bill (H.R. 845) to require the Secretary of the Interior to reissue regulations removing the gray wolf from the list of endangered and threatened wildlife under the Endangered Species Act of 1973; providing for consideration of the bill (H.R. 3616) to require the Federal Energy Regulatory Commission to review regulations that may affect the reliable operation of the bulk-power system; providing for consideration of the bill (H.R. 3632) to amend the Federal Power Act to adjust the requirements for orders, rules, and regulations relating to furnishing adequate service, to require owners or operators of generating facilities to provide notice of planned retirements of certain electric generating units, and for other purposes; and providing for consideration of the bill (H.R. 4371) to amend the William Wilberforce Trafficking Victims Protection Reauthorization Act of 2008 to enhance efforts to combat the trafficking of children.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 4776",
+    "H R 1366",
+    "H R 845",
+    "H R 3616",
+    "H R 3632",
+    "H R 4371"
+   ]
+  },
+  "H RES 953": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 6703) to ensure access to affordable health insurance; providing for consideration of the bill (H.R. 498) to amend title XIX of the Social Security Act to prohibit Federal Medicaid funding for gender transition procedures for minors; providing for consideration of the bill (H.R. 3492) to amend section 116 of title 18, United States Code, with respect to genital and bodily mutilation and chemical castration of minors; and relating to consideration of the bill (H.R. 4776) to amend the National Environmental Policy Act of 1969 to clarify ambiguous provisions and facilitate a more efficient, effective, and timely environmental review process.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 6703",
+    "H R 498",
+    "H R 3492",
+    "H R 4776"
+   ]
+  },
+  "H RES 965": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 1689) to require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 1689"
+   ]
+  },
+  "H RES 977": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 4593) to amend the Energy Policy and Conservation Act to revise the definition of showerhead; providing for consideration of the bill (H.R. 5184) to prohibit the Secretary of Energy from enforcing energy efficiency standards applicable to manufactured housing, and for other purposes; and providing for consideration of the bill (H.R. 6938) making consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 4593",
+    "H R 5184",
+    "H R 6938"
+   ]
+  },
+  "H RES 988": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 2988) to amend the Employee Retirement Income Security Act of 1974 to specify requirements concerning the consideration of pecuniary and non-pecuniary factors, and for other purposes; providing for consideration of the bill (H.R. 2262) to amend the Fair Labor Standards Act of 1938 to exclude certain activities from hours worked, and for other purposes; providing for consideration of the bill (H.R. 2270) to amend the Fair Labor Standards Act of 1938 to exclude child and dependent care services and payments from the rate used to compute overtime compensation; providing for consideration of the bill (H.R. 2312) to amend the Fair Labor Standards Act of 1938 to revise the definition of the term ''tipped employee'', and for other purposes; and providing for consideration of the bill (H.R. 4366) to clarify the treatment of 2 or more employers as joint employers under the National Labor Relations Act and the Fair Labor Standards Act of 1938.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 2988",
+    "H R 2262",
+    "H R 2270",
+    "H R 2312",
+    "H R 4366"
+   ]
+  },
+  "H RES 992": {
+   "policyArea": "Congress",
+   "title": "Providing for consideration of the bill (H.R. 7006) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
+   "checked": "2026-11-11",
+   "ruleFor": [
+    "H R 7006"
+   ]
+  },
+  "S 1003": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "Lulu’s Law",
+   "checked": "2026-11-11"
+  },
+  "S 1020": {
+   "policyArea": "Energy",
+   "title": "A bill to require the Federal Energy Regulatory Commission to extend the time period during which licensees are required to commence construction of certain hydropower projects.",
+   "checked": "2026-11-11"
+  },
+  "S 1071": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "National Defense Authorization Act for Fiscal Year 2026",
+   "checked": "2026-11-11"
+  },
+  "S 1318": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+   "checked": "2026-11-11"
+  },
+  "S 1383": {
+   "policyArea": "Government Operations and Politics",
+   "title": "Veterans Accessibility Advisory Committee Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "S 146": {
+   "policyArea": "Science, Technology, Communications",
+   "title": "TAKE IT DOWN Act",
+   "checked": "2026-11-11"
+  },
+  "S 1582": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "GENIUS Act",
+   "checked": "2026-11-11"
+  },
+  "S 1596": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Jocelyn Nungaray National Wildlife Refuge Act",
+   "checked": "2026-11-11"
+  },
+  "S 2": {
+   "policyArea": "Immigration",
+   "title": "Secure America Act",
+   "checked": "2026-11-11"
+  },
+  "S 2393": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
+   "checked": "2026-11-11"
+  },
+  "S 2403": {
+   "policyArea": "Labor and Employment",
+   "title": "Retire through Ownership Act",
+   "checked": "2026-11-11"
+  },
+  "S 2503": {
+   "policyArea": "Transportation and Public Works",
+   "title": "ROTOR Act",
+   "checked": "2026-11-11"
+  },
+  "S 254": {
+   "policyArea": "Native Americans",
+   "title": "ARTIST Act",
+   "checked": "2026-11-11"
+  },
+  "S 284": {
+   "policyArea": "Congress",
+   "title": "Congressional Award Program Reauthorization Act",
+   "checked": "2026-11-11"
+  },
+  "S 307": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "Prison Staff Safety Enhancement Act",
+   "checked": "2026-11-11"
+  },
+  "S 32": {
+   "policyArea": "Law",
+   "title": "LACA",
+   "checked": "2026-11-11"
+  },
+  "S 331": {
+   "policyArea": "Crime and Law Enforcement",
+   "title": "HALT Fentanyl Act",
+   "checked": "2026-11-11"
+  },
+  "S 356": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Secure Rural Schools Reauthorization Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "S 3971": {
+   "policyArea": "Commerce",
+   "title": "Small Business Innovation and Economic Security Act",
+   "checked": "2026-11-11"
+  },
+  "S 4465": {
+   "policyArea": "Armed Forces and National Security",
+   "title": "A bill to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes.",
+   "checked": "2026-11-11"
+  },
+  "S 5": {
+   "policyArea": "Immigration",
+   "title": "Laken Riley Act",
+   "checked": "2026-11-11"
+  },
+  "S 629": {
+   "policyArea": "Agriculture and Food",
+   "title": "Emergency Conservation Program Improvement Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "S 723": {
+   "policyArea": "Native Americans",
+   "title": "Tribal Trust Land Homeownership Act of 2025",
+   "checked": "2026-11-11"
+  },
+  "S CON RES 33": {
+   "policyArea": "Economics and Public Finance",
+   "title": "A concurrent resolution setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035.",
+   "checked": "2026-11-11"
+  },
+  "S J RES 11": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Ocean Energy Management relating to \"Protection of Marine Archaeological Resources\".",
+   "checked": "2026-11-11"
+  },
+  "S J RES 13": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of the Comptroller of the Currency of the Department of the Treasury relating to the review of applications under the Bank Merger Act.",
+   "checked": "2026-11-11"
+  },
+  "S J RES 18": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "A joint resolution disapproving the rule submitted by the Bureau of Consumer Financial Protection relating to \"Overdraft Lending: Very Large Financial Institutions\".",
+   "checked": "2026-11-11"
+  },
+  "S J RES 28": {
+   "policyArea": "Finance and Financial Sector",
+   "title": "A joint resolution disapproving the rule submitted by the Bureau of Consumer Financial Protection relating to \"Defining Larger Participants of a Market for General-Use Digital Consumer Payment Applications\".",
+   "checked": "2026-11-11"
+  },
+  "S J RES 31": {
+   "policyArea": "Environmental Protection",
+   "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Review of Final Rule Reclassification of Major Sources as Area Sources Under Section 112 of the Clean Air Act\".",
+   "checked": "2026-11-11"
+  },
+  "S J RES 80": {
+   "policyArea": "Energy",
+   "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision\".",
+   "checked": "2026-11-11"
+  }
+ }
+}
