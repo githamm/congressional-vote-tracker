@@ -378,32 +378,1731 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 11,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "7212",
+      "title": "Empowered at Home Act of 2008",
+      "introduced": "2008-09-28",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality.",
+      "latestActionDate": "2008-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/7212",
+      "stages": {},
+      "sponsor": {
+       "id": "P000034",
+       "name": "FRANK PALLONE",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "1381",
+      "title": "Resolution expressing the sense of the House that there should be an increased public and private commitment prioritizing prevention and public health for all people in the United States.",
+      "introduced": "2008-07-29",
+      "policyArea": "Health",
+      "latestAction": "The title of the measure was amended. Agreed to without objection.",
+      "latestActionDate": "2008-09-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/1381",
+      "stages": {
+       "house": "2008-09-23"
+      },
+      "sponsor": {
+       "id": "R000486",
+       "name": "LUCILLE ROYBAL-ALLARD",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HCONRES",
+      "number": "251",
+      "title": "Commending the National Renewable Energy Laboratory for its work of promoting energy efficiency for 30 years.",
+      "introduced": "2007-11-08",
+      "policyArea": "Commemorations",
+      "latestAction": "Received in the Senate and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2007-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-concurrent-resolution/251",
+      "stages": {
+       "house": "2007-12-05"
+      },
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HCONRES",
+      "number": "245",
+      "title": "Commending the National Renewable Energy Laboratory for its work of promoting energy efficiency for 30.",
+      "introduced": "2007-11-01",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Science and Technology.",
+      "latestActionDate": "2007-11-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-concurrent-resolution/245",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3544",
+      "title": "Catalyst to Better Diabetes Care Act of 2007",
+      "introduced": "2007-09-17",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2007-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3544",
+      "stages": {},
+      "sponsor": {
+       "id": "S001173",
+       "name": "Zachary Space",
+       "party": "D",
+       "state": "OH"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3373",
+      "title": "Catalyst to Better Diabetes Care Act of 2007",
+      "introduced": "2007-08-03",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2007-08-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3373",
+      "stages": {},
+      "sponsor": {
+       "id": "S001173",
+       "name": "Zachary Space",
+       "party": "D",
+       "state": "OH"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2539",
+      "title": "National Guard Redeployment and Homeland Protection Act of 2007",
+      "introduced": "2007-05-24",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2007-05-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2539",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2241",
+      "title": "Diabetes Treatment and Prevention Act of 2007",
+      "introduced": "2007-05-09",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2007-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2241",
+      "stages": {},
+      "sponsor": {
+       "id": "E000179",
+       "name": "ELIOT ENGEL",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1341",
+      "title": "Honest Income Disclosure Act",
+      "introduced": "2007-03-06",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Capital Markets, Insurance and Government Sponsored Enterprises.",
+      "latestActionDate": "2007-04-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1341",
+      "stages": {},
+      "sponsor": {
+       "id": "G000210",
+       "name": "PAUL GILLMOR",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "870",
+      "title": "To amend the Public Health Service Act to provide liability protections for employees and contractors of health centers under section 330 of such Act who provide health services in emergency areas.",
+      "introduced": "2007-02-07",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2007-02-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/870",
+      "stages": {},
+      "sponsor": {
+       "id": "G000210",
+       "name": "PAUL GILLMOR",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HCONRES",
+      "number": "39",
+      "title": "Honoring women's health advocate Cynthia Boles Dailard.",
+      "introduced": "2007-01-19",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2007-01-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-concurrent-resolution/39",
+      "stages": {},
+      "sponsor": {
+       "id": "S000480",
+       "name": "LOUISE SLAUGHTER",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 2
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 406,
+    "becameLaw": 27,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 131
+     },
+     {
+      "name": "Commemorations",
+      "count": 61
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 27
+     },
+     {
+      "name": "Taxation",
+      "count": 24
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 20
+     }
+    ]
    }
   },
   "U000038": {
    "sponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": [],
-    "bills": []
+    "count": 60,
+    "becameLaw": 2,
+    "topics": [
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 14
+     },
+     {
+      "name": "Commemorations",
+      "count": 6
+     },
+     {
+      "name": "Energy",
+      "count": 4
+     },
+     {
+      "name": "Water Resources Development",
+      "count": 4
+     },
+     {
+      "name": "Native Americans",
+      "count": 4
+     }
+    ],
+    "bills": [
+     {
+      "type": "HR",
+      "number": "7239",
+      "title": "American Energy, American Innovation Act of 2008",
+      "introduced": "2008-09-29",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2008-12-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/7239",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6935",
+      "title": "Space Commerce Act of 2008",
+      "introduced": "2008-09-17",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the House Committee on Science and Technology.",
+      "latestActionDate": "2008-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6935",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6767",
+      "title": "Target Practice and Marksmanship Training Support Act",
+      "introduced": "2008-07-31",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Fisheries, Wildlife, and Oceans.",
+      "latestActionDate": "2008-08-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6767",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6766",
+      "title": "CARE Act",
+      "introduced": "2008-07-31",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E1657-1658)",
+      "latestActionDate": "2008-08-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6766",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "1408",
+      "title": "Recognizing the benefits of bus rapid transit and the transportation improvements along the United States Route 36 Corridor to communities, individuals, and businesses in Colorado.",
+      "introduced": "2008-07-31",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways and Transit.",
+      "latestActionDate": "2008-08-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/1408",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6553",
+      "title": "To clarify the authority of the Secretary of Agriculture regarding additional recreational uses of National Forest System lands subject to ski area permits.",
+      "introduced": "2008-07-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2008-10-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6553",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6324",
+      "title": "Imported Ethanol Facilitation Act",
+      "introduced": "2008-06-19",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2008-06-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6324",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6268",
+      "title": "HONOR Warriors Act",
+      "introduced": "2008-06-12",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2008-07-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6268",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "6063",
+      "title": "National Aeronautics and Space Administration Authorization Act of 2008",
+      "introduced": "2008-05-15",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Became Public Law No: 110-422.",
+      "latestActionDate": "2008-10-15",
+      "law": "110-422",
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6063",
+      "stages": {
+       "reported": "2008-06-09",
+       "house": "2008-06-18",
+       "senate": "2008-09-25",
+       "president": "2008-10-06",
+       "law": "2008-10-15"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "5639",
+      "title": "Physical Activity Guidelines for Americans Act of 2008",
+      "introduced": "2008-03-13",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2008-03-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5639",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5241",
+      "title": "Colorado Forest Insect Emergency Response Act of 2008",
+      "introduced": "2008-02-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2008-04-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5241",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5240",
+      "title": "Equitable Mineral Lease Revenue Sharing Restoration Act",
+      "introduced": "2008-02-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2008-02-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5240",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5218",
+      "title": "Fire-Safe Communities Act",
+      "introduced": "2008-01-29",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2008-04-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5218",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5217",
+      "title": "Small Business Telework Promotion Act",
+      "introduced": "2008-01-29",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on Small Business.",
+      "latestActionDate": "2008-01-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5217",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "5216",
+      "title": "Wildfire Risk Reduction and Renewable Biomass Utilization Act",
+      "introduced": "2008-01-29",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality.",
+      "latestActionDate": "2008-01-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5216",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "287",
+      "title": "Celebrating the 50th anniversary of the United States Explorer I satellite, the world's first scientific spacecraft, and the birth of the United States space exploration program.",
+      "introduced": "2008-01-29",
+      "policyArea": "Commemorations",
+      "latestAction": "Received in the Senate and referred to the Committee on Commerce, Science, and Transportation.",
+      "latestActionDate": "2008-02-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-concurrent-resolution/287",
+      "stages": {
+       "house": "2008-02-06"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4928",
+      "title": "Fountain Creek Watershed Feasibility Study Act of 2007",
+      "introduced": "2007-12-19",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2007-12-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/4928",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "4832",
+      "title": "Wildland Fire Safety and Transparency Act of 2007",
+      "introduced": "2007-12-18",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2008-04-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/4832",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "891",
+      "title": "Celebrating 35 years of space-based observations of the Earth by the Landsat spacecraft and looking forward to sustaining the longest unbroken record of civil Earth observations of the land.",
+      "introduced": "2007-12-18",
+      "policyArea": "Commemorations",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2008-04-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/891",
+      "stages": {
+       "house": "2008-04-22"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4249",
+      "title": "Arapaho-Roosevelt National Forests Land Exchange Act of 2007",
+      "introduced": "2007-11-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2007-11-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/4249",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "816",
+      "title": "Congratulating the Colorado Rockies on winning the National League Championship.",
+      "introduced": "2007-11-09",
+      "policyArea": "Commemorations",
+      "latestAction": "The title of the measure was amended. Agreed to without objection.",
+      "latestActionDate": "2007-12-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/816",
+      "stages": {
+       "house": "2007-12-17"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "4011",
+      "title": "Good Samaritan Cleanup of Abandoned Hardrock Mines Act of 2007",
+      "introduced": "2007-10-30",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2007-10-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/4011",
+      "stages": {}
+     },
+     {
+      "type": "HRES",
+      "number": "754",
+      "title": "Congratulating the United States Women's National Soccer Team on its performance at the 2007 FIFA Women's World Cup in China.",
+      "introduced": "2007-10-17",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2007-10-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/754",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "221",
+      "title": "Honoring all Americans serving in the Armed Forces of the United States and condemning the attack by broadcaster Rush Limbaugh on the integrity and professionalism of some of those Americans.",
+      "introduced": "2007-10-01",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2007-10-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-concurrent-resolution/221",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3465",
+      "title": "Greater Cooperation with Local Governments in Water Project Analysis Act",
+      "introduced": "2007-08-04",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2007-09-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3465",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3445",
+      "title": "Weather Mitigation Research and Technology Transfer Authorization Act of 2007",
+      "introduced": "2007-08-03",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Environment.",
+      "latestActionDate": "2007-08-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3445",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3182",
+      "title": "U.S. Participation in Cuban Energy Exploration Act of 2007",
+      "introduced": "2007-07-25",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2007-07-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3182",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3181",
+      "title": "Arapaho-Roosevelt National Forests Land Exchange Act of 2007",
+      "introduced": "2007-07-25",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2007-07-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3181",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3180",
+      "title": "Whistleblower Recovery Act of 2007",
+      "introduced": "2007-07-25",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, the Internet, and Intellectual Property.",
+      "latestActionDate": "2007-09-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3180",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3119",
+      "title": "To prohibit the use of funds for military operations in Iran.",
+      "introduced": "2007-07-19",
+      "policyArea": "International Affairs",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E1577-1578)",
+      "latestActionDate": "2007-07-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3119",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "3072",
+      "title": "Colorado Forest Management Improvement Act of 2007",
+      "introduced": "2007-07-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2008-04-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3072",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2698",
+      "title": "Federal Aviation Research and Development Reauthorization Act of 2007",
+      "introduced": "2007-06-13",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Hearing Held by Subcommittee on Space and Aeronautics Prior to Introduction and Referral (March 29, 2007).",
+      "latestActionDate": "2008-09-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2698",
+      "stages": {
+       "reported": "2007-09-17"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "2574",
+      "title": "Iraq Study Group Recommendations Implementation Act of 2007",
+      "introduced": "2007-06-05",
+      "policyArea": "International Affairs",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H7712)",
+      "latestActionDate": "2007-07-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2574",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2334",
+      "title": "Rocky Mountain National Park Wilderness and Indian Peaks Wilderness Expansion Act",
+      "introduced": "2007-05-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2007-11-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2334",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2070",
+      "title": "Comprehensive Learning Assessment for Students and Schools (CLASS) Act",
+      "introduced": "2007-04-26",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2007-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2070",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "2045",
+      "title": "PLAY Every Day Act",
+      "introduced": "2007-04-25",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2007-04-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2045",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1933",
+      "title": "Department of Energy Carbon Capture and Storage Research, Development, and Demonstration Act of 2007",
+      "introduced": "2007-04-18",
+      "policyArea": "Energy",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 188.",
+      "latestActionDate": "2007-08-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1933",
+      "stages": {
+       "reported": "2007-08-03"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1847",
+      "title": "National Trails System Willing Seller Act",
+      "introduced": "2007-03-29",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 541.",
+      "latestActionDate": "2008-09-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1847",
+      "stages": {
+       "reported": "2008-09-11"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1463",
+      "title": "Federal Lands REPAIR Act",
+      "introduced": "2007-03-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2007-03-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1463",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1462",
+      "title": "Platte River Recovery Implementation Program and Pathfinder Modification Authorization Act",
+      "introduced": "2007-03-09",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Indefinitely postponed by Senate by Unanimous Consent. (consideration: CR S5530)",
+      "latestActionDate": "2008-06-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1462",
+      "stages": {
+       "reported": "2007-10-22",
+       "house": "2007-10-22"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1461",
+      "title": "Credit CARD Act of 2007",
+      "introduced": "2007-03-09",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2007-03-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1461",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1305",
+      "title": "Royalty In-Kind for Energy Assistance Improvement Act of 2007",
+      "introduced": "2007-03-01",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2007-03-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1305",
+      "stages": {}
+     },
+     {
+      "type": "HCONRES",
+      "number": "76",
+      "title": "Honoring the 50th Anniversary of the International Geophysical Year (IGY) and its past contributions to space research, and looking forward to future accomplishments.",
+      "introduced": "2007-03-01",
+      "policyArea": "Commemorations",
+      "latestAction": "Message on Senate action sent to the House.",
+      "latestActionDate": "2007-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-concurrent-resolution/76",
+      "stages": {
+       "house": "2007-04-17",
+       "senate": "2007-06-20"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "1183",
+      "title": "Iraq Contingency Planning Act",
+      "introduced": "2007-02-16",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Committee Hearings Held.",
+      "latestActionDate": "2007-03-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1183",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1182",
+      "title": "To amend the Internal Revenue Code of 1986 to allow section 1031 treatment for exchanges involving certain mutual ditch, reservoir, or irrigation company stock.",
+      "introduced": "2007-02-16",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2007-02-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1182",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1181",
+      "title": "Congress Must Co-Sign Act of 2007",
+      "introduced": "2007-02-16",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+      "latestActionDate": "2007-02-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1181",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1180",
+      "title": "Western Waters and Farm Lands Protection Act",
+      "introduced": "2007-02-16",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2007-03-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1180",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "1179",
+      "title": "To clarify the authority of the Secretary of the Interior with regard to management of elk in Rocky Mountain National Park.",
+      "introduced": "2007-02-16",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2007-02-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1179",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "968",
+      "title": "National Fund for Excellence in American Indian Education Amendments Act of 2007",
+      "introduced": "2007-02-08",
+      "policyArea": "Native Americans",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2007-06-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/968",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "967",
+      "title": "To establish the treatment of actual rental proceeds from leases of land acquired under an Act providing for loans to Indian tribes and tribal corporations.",
+      "introduced": "2007-02-08",
+      "policyArea": "Native Americans",
+      "latestAction": "Sponsor introductory remarks on measure. (CR 2/12/2007 E300-301)",
+      "latestActionDate": "2007-02-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/967",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "966",
+      "title": "To amend the Indian Financing Act of 1974 to provide for sale and assignment of loans and underlying security, and for other purposes.",
+      "introduced": "2007-02-08",
+      "policyArea": "Native Americans",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2007-02-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/966",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "965",
+      "title": "To amend the Carl D. Perkins Vocational and Technical Education Act of 1998 to modify the definition of \"Indian student count\".",
+      "introduced": "2007-02-08",
+      "policyArea": "Native Americans",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2007-06-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/965",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "906",
+      "title": "Global Change Research and Data Management Act of 2007",
+      "introduced": "2007-02-07",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 376.",
+      "latestActionDate": "2008-04-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/906",
+      "stages": {
+       "reported": "2008-04-24"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "905",
+      "title": "Commission on Unfair Tax Breaks and Subsidies (or \"CUTS\") Act of 2007",
+      "introduced": "2007-02-07",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Referred to the Subcommittee on Government Management, Organization, and Procurement.",
+      "latestActionDate": "2007-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/905",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "904",
+      "title": "Rocky Flats Special Exposure Cohort Act",
+      "introduced": "2007-02-07",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2007-06-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/904",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "903",
+      "title": "Colorado Northern Front Range Mountain Backdrop Protection Study Act",
+      "introduced": "2007-02-07",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 1014.",
+      "latestActionDate": "2008-09-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/903",
+      "stages": {
+       "house": "2007-03-05"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "902",
+      "title": "More Water, More Energy, and Less Waste Act of 2007",
+      "introduced": "2007-02-07",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Indefinitely postponed by Senate by Unanimous Consent. (consideration: CR S5530)",
+      "latestActionDate": "2008-06-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/902",
+      "stages": {
+       "house": "2007-03-19"
+      }
+     },
+     {
+      "type": "HR",
+      "number": "790",
+      "title": "PILT and Refuge Revenue Sharing Permanent Funding Act",
+      "introduced": "2007-01-31",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2007-02-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/790",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "595",
+      "title": "Stimulating Leadership in Limiting Expenditures (or 'SLICE') Act of 2007",
+      "introduced": "2007-01-19",
+      "policyArea": "Economics and Public Finance",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E378)",
+      "latestActionDate": "2007-02-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/595",
+      "stages": {}
+     },
+     {
+      "type": "HR",
+      "number": "49",
+      "title": "To designate the facility of the United States Postal Service located at 1300 North Frontage Road West in Vail, Colorado, as the \"Gerald R. Ford, Jr. Post Office Building\".",
+      "introduced": "2007-01-04",
+      "policyArea": "Commemorations",
+      "latestAction": "Became Public Law No: 110-7.",
+      "latestActionDate": "2007-03-07",
+      "law": "110-7",
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/49",
+      "stages": {
+       "house": "2007-01-29",
+       "senate": "2007-02-17",
+       "president": "2007-03-05",
+       "law": "2007-03-07"
+      }
+     }
+    ]
    },
    "coled": {
-    "count": 0,
+    "count": 34,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6748",
+      "title": "To amend the Homeland Security Act of 2002 to limit the number of Urban Area Security Initiative grants awarded and to clarify the risk assessment formula to be used when making such grants, and for other purposes.",
+      "introduced": "2008-07-31",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Emergency Communications, Preparedness, and Response.",
+      "latestActionDate": "2008-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6748",
+      "stages": {},
+      "sponsor": {
+       "id": "L000480",
+       "name": "NITA LOWEY",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "6502",
+      "title": "Arkansas Valley Conduit Act of 2008",
+      "introduced": "2008-07-15",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2008-07-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6502",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "1313",
+      "title": "Celebrating the 25th anniversary of the first American woman in space, Dr. Sally K. Ride, and honoring her contributions to the space program and to science education.",
+      "introduced": "2008-06-26",
+      "policyArea": "Commemorations",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2008-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/1313",
+      "stages": {
+       "house": "2008-07-10"
+      },
+      "sponsor": {
+       "id": "L000043",
+       "name": "NICK LAMPSON",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "1312",
+      "title": "Commemorating the 25th anniversary of the Space Foundation.",
+      "introduced": "2008-06-26",
+      "policyArea": "Commemorations",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2008-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/1312",
+      "stages": {
+       "house": "2008-07-09"
+      },
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "6188",
+      "title": "Foreign Business Bribery Prohibition Act of 2008",
+      "introduced": "2008-06-04",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2008-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6188",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "6121",
+      "title": "To provide for health care benefits for certain nuclear facility workers.",
+      "introduced": "2008-05-21",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Air Quality.",
+      "latestActionDate": "2008-05-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6121",
+      "stages": {},
+      "sponsor": {
+       "id": "T000463",
+       "name": "Michael Turner",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5851",
+      "title": "Roan Plateau Oil and Gas Leasing Improvement Act of 2008",
+      "introduced": "2008-04-17",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2008-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5851",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5574",
+      "title": "To prohibit the transport of hydrolysate from the Pueblo Chemical Depot, Colorado, or the Blue Grass Army Depot, Kentucky, to an off-site location.",
+      "introduced": "2008-03-10",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2008-04-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5574",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5511",
+      "title": "Leadville Mine Drainage Tunnel Remediation Act of 2008",
+      "introduced": "2008-02-28",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2008-06-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5511",
+      "stages": {
+       "reported": "2008-06-17",
+       "house": "2008-06-19"
+      },
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "899",
+      "title": "Recommending that the Langston Golf Course located in northeast Washington, D.C., and owned by the U.S. National Park Service, be recognized for its important legacy and contributions to African American golf history, and for other purposes.",
+      "introduced": "2007-12-19",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2008-01-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/899",
+      "stages": {},
+      "sponsor": {
+       "id": "C001049",
+       "name": "WM. CLAY",
+       "party": "D",
+       "state": "MO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4685",
+      "title": "Minerals Reclamation Foundation Establishment Act of 2007",
+      "introduced": "2007-12-13",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2007-12-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/4685",
+      "stages": {},
+      "sponsor": {
+       "id": "P000588",
+       "name": "Stevan Pearce",
+       "party": "R",
+       "state": "NM"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4244",
+      "title": "Clean Stove Act of 2007",
+      "introduced": "2007-11-15",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2007-11-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/4244",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HCONRES",
+      "number": "251",
+      "title": "Commending the National Renewable Energy Laboratory for its work of promoting energy efficiency for 30 years.",
+      "introduced": "2007-11-08",
+      "policyArea": "Commemorations",
+      "latestAction": "Received in the Senate and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2007-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-concurrent-resolution/251",
+      "stages": {
+       "house": "2007-12-05"
+      },
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HCONRES",
+      "number": "245",
+      "title": "Commending the National Renewable Energy Laboratory for its work of promoting energy efficiency for 30.",
+      "introduced": "2007-11-01",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Science and Technology.",
+      "latestActionDate": "2007-11-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-concurrent-resolution/245",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3797",
+      "title": "New Diplomatic Offensive for Iraq Act",
+      "introduced": "2007-10-10",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2007-10-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3797",
+      "stages": {},
+      "sponsor": {
+       "id": "P000523",
+       "name": "DAVID PRICE",
+       "party": "D",
+       "state": "NC"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HCONRES",
+      "number": "225",
+      "title": "Honoring the 50th anniversary of the dawn of the Space Age, and the ensuing 50 years of productive and peaceful space activities.",
+      "introduced": "2007-10-03",
+      "policyArea": "Commemorations",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 469.",
+      "latestActionDate": "2007-11-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-concurrent-resolution/225",
+      "stages": {
+       "house": "2007-10-16"
+      },
+      "sponsor": {
+       "id": "G000309",
+       "name": "BART GORDON",
+       "party": "D",
+       "state": "TN"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3336",
+      "title": "Camp Hale Study Act",
+      "introduced": "2007-08-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2008-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3336",
+      "stages": {
+       "reported": "2008-07-29",
+       "house": "2008-09-22"
+      },
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2659",
+      "title": "Conservation Reserve Program Tax Fairness Act of 2007",
+      "introduced": "2007-06-11",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2007-06-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2659",
+      "stages": {},
+      "sponsor": {
+       "id": "P000422",
+       "name": "EARL POMEROY",
+       "party": "D",
+       "state": "ND"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2501",
+      "title": "Rocky Mountain Science Collections Center Act of 2007",
+      "introduced": "2007-05-24",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2007-05-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2501",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "446",
+      "title": "Honoring the life and accomplishments of Astronaut Walter Marty Schirra and expressing condolences on his passing.",
+      "introduced": "2007-05-24",
+      "policyArea": "Commemorations",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2007-06-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/446",
+      "stages": {
+       "house": "2007-06-06"
+      },
+      "sponsor": {
+       "id": "B000461",
+       "name": "BRIAN BILBRAY",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "434",
+      "title": "Expressing the sense of the House of Representatives that Pasqualine J. Lawson of Denver, Colorado, an African American woman who valiantly served her country in the Army Air Corps during World War II and serving as a hospital neuropsychiatric team member, was unfairly passed over for promotion and should have held the grade of technical sergeant, rather than private first class, upon her discharge from the service on January 2, 1946.",
+      "introduced": "2007-05-23",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2007-06-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/434",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2441",
+      "title": "Renewable Schools Energy Act of 2007",
+      "introduced": "2007-05-22",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means. (text of measure as introduced: CR S15070-15077)",
+      "latestActionDate": "2007-05-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2441",
+      "stages": {},
+      "sponsor": {
+       "id": "M001142",
+       "name": "JIM MATHESON",
+       "party": "D",
+       "state": "UT"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2255",
+      "title": "EEOICPA Ombudsman Extension and Enhancement Act of 2007",
+      "introduced": "2007-05-09",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2007-07-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2255",
+      "stages": {},
+      "sponsor": {
+       "id": "U000039",
+       "name": "TOM UDALL",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1751",
+      "title": "Federal Land Avalanche Protection Act of 2007",
+      "introduced": "2007-03-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2007-05-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1751",
+      "stages": {},
+      "sponsor": {
+       "id": "Y000033",
+       "name": "DON YOUNG",
+       "party": "R",
+       "state": "AK"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1748",
+      "title": "Workforce Health Improvement Program Act of 2007",
+      "introduced": "2007-03-28",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2007-03-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1748",
+      "stages": {},
+      "sponsor": {
+       "id": "W000119",
+       "name": "ZACH WAMP",
+       "party": "R",
+       "state": "TN"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1659",
+      "title": "Rural Colorado Water Infrastructure Act",
+      "introduced": "2007-03-22",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2007-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1659",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1484",
+      "title": "To provide consistent enforcement authority to the Bureau of Land Management, the National Park Service, the United States Fish and Wildlife Service, and the Forest Service to respond to violations of regulations regarding the management, use, and protection of public lands under the jurisdiction of these agencies, and for other purposes.",
+      "introduced": "2007-03-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2007-03-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1484",
+      "stages": {},
+      "sponsor": {
+       "id": "T000458",
+       "name": "THOMAS TANCREDO",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1478",
+      "title": "To amend the Morris K. Udall Scholarship and Excellence in National Environmental and Native American Public Policy Act of 1992 to provide funds for training in tribal leadership, management, and policy, and for other purposes.",
+      "introduced": "2007-03-12",
+      "policyArea": "Native Americans",
+      "latestAction": "Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.",
+      "latestActionDate": "2007-06-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1478",
+      "stages": {},
+      "sponsor": {
+       "id": "G000551",
+       "name": "Raúl Grijalva",
+       "party": "D",
+       "state": "AZ"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1203",
+      "title": "Candidate Anti-Corruption Act",
+      "introduced": "2007-02-27",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2007-02-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1203",
+      "stages": {},
+      "sponsor": {
+       "id": "E000187",
+       "name": "PHIL ENGLISH",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1103",
+      "title": "Environmental Justice Act of 2007",
+      "introduced": "2007-02-15",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2007-10-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1103",
+      "stages": {},
+      "sponsor": {
+       "id": "S001153",
+       "name": "HILDA SOLIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1080",
+      "title": "Grand Teton National Park Extension Act of 2007",
+      "introduced": "2007-02-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 142.",
+      "latestActionDate": "2007-05-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1080",
+      "stages": {
+       "reported": "2007-05-07",
+       "house": "2007-05-07"
+      },
+      "sponsor": {
+       "id": "C000962",
+       "name": "BARBARA CUBIN",
+       "party": "R",
+       "state": "WY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1028",
+      "title": "To create a Rural Policing Institute as part of the Federal Law Enforcement Training Center.",
+      "introduced": "2007-02-13",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2007-03-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1028",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "295",
+      "title": "To direct the Secretary of Veterans Affairs to establish a national cemetery for veterans in the Pikes Peak region of Colorado.",
+      "introduced": "2007-01-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2007-03-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/295",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "197",
+      "title": "To amend the Internal Revenue Code of 1986 to provide a 5-year extension of the credit for electricity produced from certain renewable resources.",
+      "introduced": "2007-01-04",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2007-01-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/197",
+      "stages": {},
+      "sponsor": {
+       "id": "P000422",
+       "name": "EARL POMEROY",
+       "party": "D",
+       "state": "ND"
+      },
+      "originalCosponsors": 3
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 464,
+    "becameLaw": 23,
+    "topics": [
+     {
+      "name": "Commemorations",
+      "count": 92
+     },
+     {
+      "name": "Health",
+      "count": 55
+     },
+     {
+      "name": "Taxation",
+      "count": 44
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 43
+     },
+     {
+      "name": "International Affairs",
+      "count": 29
+     }
+    ]
    }
   },
   "S001158": {
@@ -819,14 +2518,421 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 20,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "7231",
+      "title": "To repeal the exemption for hydraulic fracturing in the Safe Drinking Water Act, and for other purposes.",
+      "introduced": "2008-09-29",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on Environment and Hazardous Materials.",
+      "latestActionDate": "2008-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/7231",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "6922",
+      "title": "To amend the Small Business Act to provide low-interest loans to small business concerns providing transportation services to assist them in dealing with high motor fuel prices.",
+      "introduced": "2008-09-17",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on Small Business.",
+      "latestActionDate": "2008-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6922",
+      "stages": {},
+      "sponsor": {
+       "id": "B001229",
+       "name": "BRIAN BAIRD",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "6268",
+      "title": "HONOR Warriors Act",
+      "introduced": "2008-06-12",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2008-07-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6268",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5240",
+      "title": "Equitable Mineral Lease Revenue Sharing Restoration Act",
+      "introduced": "2008-02-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2008-02-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5240",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4928",
+      "title": "Fountain Creek Watershed Feasibility Study Act of 2007",
+      "introduced": "2007-12-19",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2007-12-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/4928",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HCONRES",
+      "number": "251",
+      "title": "Commending the National Renewable Energy Laboratory for its work of promoting energy efficiency for 30 years.",
+      "introduced": "2007-11-08",
+      "policyArea": "Commemorations",
+      "latestAction": "Received in the Senate and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2007-12-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-concurrent-resolution/251",
+      "stages": {
+       "house": "2007-12-05"
+      },
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HCONRES",
+      "number": "245",
+      "title": "Commending the National Renewable Energy Laboratory for its work of promoting energy efficiency for 30.",
+      "introduced": "2007-11-01",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the House Committee on Science and Technology.",
+      "latestActionDate": "2007-11-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-concurrent-resolution/245",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3939",
+      "title": "To increase the safety for crew and passengers on an aircraft providing emergency medical services.",
+      "introduced": "2007-10-23",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2007-10-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3939",
+      "stages": {},
+      "sponsor": {
+       "id": "D000429",
+       "name": "JOHN DOOLITTLE",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3502",
+      "title": "Wounded Warriors Commission Implementation Act of 2007",
+      "introduced": "2007-09-07",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2007-10-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3502",
+      "stages": {},
+      "sponsor": {
+       "id": "M000934",
+       "name": "Jerry Moran",
+       "party": "R",
+       "state": "KS"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3024",
+      "title": "Healthy Children and Families Act of 2007",
+      "introduced": "2007-07-12",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2007-07-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3024",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2702",
+      "title": "Post-9/11 Veterans Educational Assistance Act of 2007",
+      "introduced": "2007-06-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Economic Opportunity.",
+      "latestActionDate": "2007-06-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2702",
+      "stages": {},
+      "sponsor": {
+       "id": "S000185",
+       "name": "Robert Scott",
+       "party": "D",
+       "state": "VA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2501",
+      "title": "Rocky Mountain Science Collections Center Act of 2007",
+      "introduced": "2007-05-24",
+      "policyArea": "Arts, Culture, Religion",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2007-05-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2501",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2441",
+      "title": "Renewable Schools Energy Act of 2007",
+      "introduced": "2007-05-22",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means. (text of measure as introduced: CR S15070-15077)",
+      "latestActionDate": "2007-05-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2441",
+      "stages": {},
+      "sponsor": {
+       "id": "M001142",
+       "name": "JIM MATHESON",
+       "party": "D",
+       "state": "UT"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2426",
+      "title": "Ethanol Infrastructure Expansion Act of 2007",
+      "introduced": "2007-05-22",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+      "latestActionDate": "2007-05-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2426",
+      "stages": {},
+      "sponsor": {
+       "id": "B000652",
+       "name": "LEONARD BOSWELL",
+       "party": "D",
+       "state": "IA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2035",
+      "title": "Rural Broadband Improvement Act",
+      "introduced": "2007-04-25",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Specialty Crops, Rural Development, and Foreign Agriculture.",
+      "latestActionDate": "2007-05-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2035",
+      "stages": {},
+      "sponsor": {
+       "id": "H001037",
+       "name": "Stephanie Herseth Sandlin",
+       "party": "D",
+       "state": "SD"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1741",
+      "title": "To impose a 2-year moratorium on implementation of a proposed rule relating to the Federal-State financial partnerships under Medicaid and the State Children's Health Insurance Program.",
+      "introduced": "2007-03-28",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2007-03-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1741",
+      "stages": {},
+      "sponsor": {
+       "id": "K000366",
+       "name": "Ron Klein",
+       "party": "D",
+       "state": "FL"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1462",
+      "title": "Platte River Recovery Implementation Program and Pathfinder Modification Authorization Act",
+      "introduced": "2007-03-09",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Indefinitely postponed by Senate by Unanimous Consent. (consideration: CR S5530)",
+      "latestActionDate": "2008-06-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1462",
+      "stages": {
+       "reported": "2007-10-22",
+       "house": "2007-10-22"
+      },
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1353",
+      "title": "Social Security Protection and Truth in Budgeting Act of 2007",
+      "introduced": "2007-03-06",
+      "policyArea": "Social Welfare",
+      "latestAction": "Referred to the Subcommittee on Social Security.",
+      "latestActionDate": "2007-03-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1353",
+      "stages": {},
+      "sponsor": {
+       "id": "M001140",
+       "name": "DENNIS MOORE",
+       "party": "D",
+       "state": "KS"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1182",
+      "title": "To amend the Internal Revenue Code of 1986 to allow section 1031 treatment for exchanges involving certain mutual ditch, reservoir, or irrigation company stock.",
+      "introduced": "2007-02-16",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2007-02-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1182",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "790",
+      "title": "PILT and Refuge Revenue Sharing Permanent Funding Act",
+      "introduced": "2007-01-31",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2007-02-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/790",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 314,
+    "becameLaw": 20,
+    "topics": [
+     {
+      "name": "Commemorations",
+      "count": 70
+     },
+     {
+      "name": "Health",
+      "count": 53
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 33
+     },
+     {
+      "name": "Taxation",
+      "count": 21
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 11
+     }
+    ]
    }
   },
   "P000593": {
@@ -1587,14 +3693,245 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 11,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6502",
+      "title": "Arkansas Valley Conduit Act of 2008",
+      "introduced": "2008-07-15",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2008-07-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6502",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5865",
+      "title": "To amend chapter 44 of title 18, United States Code, to require a court adjudication before certain veterans may be denied the right to possess a firearm, and for other purposes.",
+      "introduced": "2008-04-22",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2008-04-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5865",
+      "stages": {},
+      "sponsor": {
+       "id": "G000280",
+       "name": "VIRGIL GOODE",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "779",
+      "title": "Recognizing the 100th anniversary of the American Society of Agronomy.",
+      "introduced": "2007-10-30",
+      "policyArea": "Commemorations",
+      "latestAction": "Referred to the Subcommittee on Conservation, Credit, Energy, and Research.",
+      "latestActionDate": "2008-04-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/779",
+      "stages": {},
+      "sponsor": {
+       "id": "L000111",
+       "name": "TOM LATHAM",
+       "party": "R",
+       "state": "IA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3779",
+      "title": "Andrew Larochelle God, Family, and Country Act of 2007",
+      "introduced": "2007-10-09",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2007-10-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3779",
+      "stages": {},
+      "sponsor": {
+       "id": "T000463",
+       "name": "Michael Turner",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2849",
+      "title": "Chisholm and Great Western Cattle Trails Act",
+      "introduced": "2007-06-25",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2007-06-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2849",
+      "stages": {},
+      "sponsor": {
+       "id": "C001053",
+       "name": "Tom Cole",
+       "party": "R",
+       "state": "OK"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2334",
+      "title": "Rocky Mountain National Park Wilderness and Indian Peaks Wilderness Expansion Act",
+      "introduced": "2007-05-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2007-11-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2334",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1797",
+      "title": "Small Business Expensing Expansion and Permanency Act of 2007",
+      "introduced": "2007-03-29",
+      "policyArea": "Taxation",
+      "latestAction": "Sponsor introductory remarks on measure. (CR E701-702)",
+      "latestActionDate": "2007-03-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1797",
+      "stages": {},
+      "sponsor": {
+       "id": "H000528",
+       "name": "WALLY HERGER",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1659",
+      "title": "Rural Colorado Water Infrastructure Act",
+      "introduced": "2007-03-22",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latestActionDate": "2007-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1659",
+      "stages": {},
+      "sponsor": {
+       "id": "S001158",
+       "name": "John Salazar",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1217",
+      "title": "CAFO Tax Credit Act of 2007",
+      "introduced": "2007-02-27",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2007-02-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1217",
+      "stages": {},
+      "sponsor": {
+       "id": "S001172",
+       "name": "Adrian Smith",
+       "party": "R",
+       "state": "NE"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1182",
+      "title": "To amend the Internal Revenue Code of 1986 to allow section 1031 treatment for exchanges involving certain mutual ditch, reservoir, or irrigation company stock.",
+      "introduced": "2007-02-16",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2007-02-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1182",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "295",
+      "title": "To direct the Secretary of Veterans Affairs to establish a national cemetery for veterans in the Pikes Peak region of Colorado.",
+      "introduced": "2007-01-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2007-03-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/295",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 452,
+    "becameLaw": 17,
+    "topics": [
+     {
+      "name": "Taxation",
+      "count": 71
+     },
+     {
+      "name": "Commemorations",
+      "count": 68
+     },
+     {
+      "name": "Health",
+      "count": 50
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 33
+     },
+     {
+      "name": "International Affairs",
+      "count": 32
+     }
+    ]
    }
   },
   "L000564": {
@@ -2493,14 +4830,171 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 7,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6646",
+      "title": "To require the Secretary of State, in consultation with the Secretary of Defense, to provide detailed briefings to Congress on any recent discussions conducted between United States Government and the Government of Taiwan and any potential transfer of defense articles or defense services to the Government of Taiwan.",
+      "introduced": "2008-07-29",
+      "policyArea": "International Affairs",
+      "latestAction": "Read twice and referred to the Committee on Foreign Relations.",
+      "latestActionDate": "2008-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/6646",
+      "stages": {
+       "house": "2008-09-23"
+      },
+      "sponsor": {
+       "id": "R000435",
+       "name": "ILEANA ROS-LEHTINEN",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "5728",
+      "title": "Border Fence Trust Fund Act of 2008",
+      "introduced": "2008-04-08",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Subcommittee on Border, Maritime, and Global Counterterrorism.",
+      "latestActionDate": "2008-04-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/5728",
+      "stages": {},
+      "sponsor": {
+       "id": "C001047",
+       "name": "Shelley Capito",
+       "party": "R",
+       "state": "WV"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "792",
+      "title": "Honoring the dedication and hard work of Professor Eric Reeves on behalf of the people of Sudan.",
+      "introduced": "2007-11-01",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2007-11-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-resolution/792",
+      "stages": {},
+      "sponsor": {
+       "id": "P000149",
+       "name": "DONALD PAYNE",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3531",
+      "title": "Accountability in Enforcing Immigration Laws Act of 2007",
+      "introduced": "2007-09-14",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration, Citizenship, Refugees, Border Security, and International Law.",
+      "latestActionDate": "2007-10-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/3531",
+      "stages": {},
+      "sponsor": {
+       "id": "B001247",
+       "name": "Ginny Brown-Waite",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2277",
+      "title": "To authorize the Secretary of the Interior to conduct a feasibility study relating to long-term water needs for the area served by the Fryingpan-Arkansas Project, Colorado, and for other purposes.",
+      "introduced": "2007-05-10",
+      "policyArea": "Water Resources Development",
+      "latestAction": "Referred to the Subcommittee on Water and Power.",
+      "latestActionDate": "2007-05-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/2277",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1463",
+      "title": "Federal Lands REPAIR Act",
+      "introduced": "2007-03-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Department Operations, Oversight, Nutrition and Forestry.",
+      "latestActionDate": "2007-03-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/1463",
+      "stages": {},
+      "sponsor": {
+       "id": "U000038",
+       "name": "MARK UDALL",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "295",
+      "title": "To direct the Secretary of Veterans Affairs to establish a national cemetery for veterans in the Pikes Peak region of Colorado.",
+      "introduced": "2007-01-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2007-03-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/110th-congress/house-bill/295",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 205,
+    "becameLaw": 10,
+    "topics": [
+     {
+      "name": "International Affairs",
+      "count": 41
+     },
+     {
+      "name": "Commemorations",
+      "count": 37
+     },
+     {
+      "name": "Taxation",
+      "count": 17
+     },
+     {
+      "name": "Immigration",
+      "count": 17
+     },
+     {
+      "name": "Health",
+      "count": 11
+     }
+    ]
    }
   }
  }

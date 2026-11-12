@@ -165,14 +165,345 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 16,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5688",
+      "title": "To amend title XVIII of the Social Security Act to provide for a temporary exception to the application of the Medicare long-term care hospital site neutral provisions for certain spinal cord specialty hospitals.",
+      "introduced": "2016-07-08",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2016-07-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5688",
+      "stages": {},
+      "sponsor": {
+       "id": "P000591",
+       "name": "Tom Price",
+       "party": "R",
+       "state": "GA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4929",
+      "title": "Biennial Commission on Energy Policy Act of 2016",
+      "introduced": "2016-04-13",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2016-04-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4929",
+      "stages": {},
+      "sponsor": {
+       "id": "M001180",
+       "name": "David McKinley",
+       "party": "R",
+       "state": "WV"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4444",
+      "title": "EPS Improvement Act of 2016",
+      "introduced": "2016-02-03",
+      "policyArea": "Energy",
+      "latestAction": "Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2016-07-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4444",
+      "stages": {
+       "house": "2016-02-29"
+      },
+      "sponsor": {
+       "id": "E000291",
+       "name": "Renee Ellmers",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4435",
+      "title": "Comprehensive Behavioral Health Reform and Recovery Act of 2016",
+      "introduced": "2016-02-02",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Indian, Insular and Alaska Native Affairs.",
+      "latestActionDate": "2016-02-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4435",
+      "stages": {},
+      "sponsor": {
+       "id": "G000410",
+       "name": "GENE GREEN",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "523",
+      "title": "Supporting the goals and ideals of American Diabetes Month.",
+      "introduced": "2015-11-05",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-11-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/523",
+      "stages": {},
+      "sponsor": {
+       "id": "R000577",
+       "name": "TIM RYAN",
+       "party": "D",
+       "state": "OH"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "3652",
+      "title": "21st Century Women's Health Act of 2015",
+      "introduced": "2015-09-30",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3652",
+      "stages": {},
+      "sponsor": {
+       "id": "B001278",
+       "name": "Suzanne Bonamici",
+       "party": "D",
+       "state": "OR"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "3602",
+      "title": "Gold King Mine Spill Recovery Act of 2015",
+      "introduced": "2015-09-24",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2015-10-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3602",
+      "stages": {},
+      "sponsor": {
+       "id": "L000570",
+       "name": "Ben Luján",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3463",
+      "title": "Aligning Children's Dental Coverage Act",
+      "introduced": "2015-09-09",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-09-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3463",
+      "stages": {},
+      "sponsor": {
+       "id": "G000568",
+       "name": "H. Griffith",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2724",
+      "title": "RIVER Act",
+      "introduced": "2015-06-10",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Power.",
+      "latestActionDate": "2015-06-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2724",
+      "stages": {},
+      "sponsor": {
+       "id": "M001180",
+       "name": "David McKinley",
+       "party": "R",
+       "state": "WV"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "6",
+      "title": "21st Century Cures Act",
+      "introduced": "2015-05-19",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2015-07-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/6",
+      "stages": {
+       "reported": "2015-07-07",
+       "house": "2015-07-10"
+      },
+      "sponsor": {
+       "id": "U000031",
+       "name": "FRED UPTON",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2342",
+      "title": "Physical Therapist Workforce and Patient Access Act of 2015",
+      "introduced": "2015-05-14",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2342",
+      "stages": {},
+      "sponsor": {
+       "id": "S000364",
+       "name": "JOHN SHIMKUS",
+       "party": "R",
+       "state": "IL"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1727",
+      "title": "Medicare Safe Needle Disposal Coverage Act of 2015",
+      "introduced": "2015-03-26",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-04-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1727",
+      "stages": {},
+      "sponsor": {
+       "id": "W000413",
+       "name": "EDWARD WHITFIELD",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1726",
+      "title": "Access to Quality Diabetes Education Act of 2015",
+      "introduced": "2015-03-26",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-04-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1726",
+      "stages": {},
+      "sponsor": {
+       "id": "W000413",
+       "name": "EDWARD WHITFIELD",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1427",
+      "title": "Medicare CGM Access Act of 2015",
+      "introduced": "2015-03-18",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-03-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1427",
+      "stages": {},
+      "sponsor": {
+       "id": "R000585",
+       "name": "Tom Reed",
+       "party": "R",
+       "state": "NY"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1221",
+      "title": "HELLPP Act",
+      "introduced": "2015-03-03",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-03-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1221",
+      "stages": {},
+      "sponsor": {
+       "id": "E000291",
+       "name": "Renee Ellmers",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "696",
+      "title": "To amend part B of title XVIII of the Social Security Act to exclude customary prompt pay discounts from manufacturers to wholesalers from the average sales price for drugs and biologicals under Medicare, and for other purposes.",
+      "introduced": "2015-02-03",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-02-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/696",
+      "stages": {},
+      "sponsor": {
+       "id": "W000413",
+       "name": "EDWARD WHITFIELD",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 5
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 206,
+    "becameLaw": 3,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 65
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 18
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 13
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 12
+     },
+     {
+      "name": "International Affairs",
+      "count": 11
+     }
+    ]
    }
   },
   "P000598": {
@@ -523,14 +854,868 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 43,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5760",
+      "title": "Searchable Legislation Act of 2016",
+      "introduced": "2016-07-13",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2016-07-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5760",
+      "stages": {},
+      "sponsor": {
+       "id": "A000367",
+       "name": "Justin Amash",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "5759",
+      "title": "Readable Legislation Act of 2016",
+      "introduced": "2016-07-13",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2016-07-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5759",
+      "stages": {},
+      "sponsor": {
+       "id": "A000367",
+       "name": "Justin Amash",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "5758",
+      "title": "Advancing Conservation and Education Act of 2016",
+      "introduced": "2016-07-13",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2016-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5758",
+      "stages": {},
+      "sponsor": {
+       "id": "C001076",
+       "name": "Jason Chaffetz",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5528",
+      "title": "Simplifying the Application for Student Aid Act",
+      "introduced": "2016-06-20",
+      "policyArea": "Education",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2016-07-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5528",
+      "stages": {
+       "reported": "2016-07-11",
+       "house": "2016-07-11"
+      },
+      "sponsor": {
+       "id": "H001055",
+       "name": "Joseph Heck",
+       "party": "R",
+       "state": "NV"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5446",
+      "title": "Foreign ID Review Act of 2016",
+      "introduced": "2016-06-10",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2016-06-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5446",
+      "stages": {},
+      "sponsor": {
+       "id": "V000131",
+       "name": "Marc Veasey",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5372",
+      "title": "United States Digital Service Act",
+      "introduced": "2016-05-27",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2016-05-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5372",
+      "stages": {},
+      "sponsor": {
+       "id": "D000617",
+       "name": "Suzan DelBene",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HCONRES",
+      "number": "132",
+      "title": "SCOTUS Resolution",
+      "introduced": "2016-05-18",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2016-05-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-concurrent-resolution/132",
+      "stages": {},
+      "sponsor": {
+       "id": "E000293",
+       "name": "Elizabeth Esty",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "5157",
+      "title": "SMART Jobs Act",
+      "introduced": "2016-04-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2016-09-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5157",
+      "stages": {},
+      "sponsor": {
+       "id": "M001185",
+       "name": "Sean Maloney",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4843",
+      "title": "Infant Plan of Safe Care Improvement Act",
+      "introduced": "2016-03-23",
+      "policyArea": "Families",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2016-09-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4843",
+      "stages": {
+       "reported": "2016-05-10",
+       "house": "2016-05-11"
+      },
+      "sponsor": {
+       "id": "B001269",
+       "name": "Lou Barletta",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4792",
+      "title": "To update the oil and gas and mining industry guides of the Securities and Exchange Commission.",
+      "introduced": "2016-03-17",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2016-03-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4792",
+      "stages": {},
+      "sponsor": {
+       "id": "C001090",
+       "name": "Matt Cartwright",
+       "party": "D",
+       "state": "PA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4574",
+      "title": "Helicopter Fuel System Safety Act",
+      "introduced": "2016-02-12",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2016-02-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4574",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4568",
+      "title": "Cooperative Research and Development Fund Authorization Act of 2016",
+      "introduced": "2016-02-12",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Energy.",
+      "latestActionDate": "2016-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4568",
+      "stages": {},
+      "sponsor": {
+       "id": "L000570",
+       "name": "Ben Luján",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4523",
+      "title": "To repeal the Military Selective Service Act, and thereby terminate the registration requirements of such Act and eliminate civilian local boards, civilian appeal boards, and similar local agencies of the Selective Service System.",
+      "introduced": "2016-02-10",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2016-03-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4523",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4350",
+      "title": "To repeal the Cybersecurity Act of 2015.",
+      "introduced": "2016-01-08",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Research and Technology.",
+      "latestActionDate": "2016-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4350",
+      "stages": {},
+      "sponsor": {
+       "id": "A000367",
+       "name": "Justin Amash",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3987",
+      "title": "Jobs in America Act",
+      "introduced": "2015-11-05",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2015-12-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3987",
+      "stages": {},
+      "sponsor": {
+       "id": "S001191",
+       "name": "Kyrsten Sinema",
+       "party": "D",
+       "state": "AZ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "522",
+      "title": "Supporting the designation of November 1 through November 7, 2015, as \"National Apprenticeship Week\".",
+      "introduced": "2015-11-05",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2015-11-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/522",
+      "stages": {},
+      "sponsor": {
+       "id": "R000602",
+       "name": "Kathleen Rice",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3721",
+      "title": "Affordable College Textbook Act",
+      "introduced": "2015-10-08",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2016-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3721",
+      "stages": {},
+      "sponsor": {
+       "id": "H000636",
+       "name": "RUBEN HINOJOSA",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "3602",
+      "title": "Gold King Mine Spill Recovery Act of 2015",
+      "introduced": "2015-09-24",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2015-10-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3602",
+      "stages": {},
+      "sponsor": {
+       "id": "L000570",
+       "name": "Ben Luján",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3432",
+      "title": "Investing in Student Success Act of 2015",
+      "introduced": "2015-07-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2015-11-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3432",
+      "stages": {},
+      "sponsor": {
+       "id": "Y000064",
+       "name": "Todd Young",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3257",
+      "title": "PILT and SRS Certainty Act",
+      "introduced": "2015-07-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2015-08-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3257",
+      "stages": {},
+      "sponsor": {
+       "id": "M001187",
+       "name": "Mark Meadows",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3187",
+      "title": "PRIME Act",
+      "introduced": "2015-07-23",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Livestock and Foreign Agriculture.",
+      "latestActionDate": "2015-08-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3187",
+      "stages": {},
+      "sponsor": {
+       "id": "M001184",
+       "name": "Thomas Massie",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2919",
+      "title": "To authorize 2 additional district judgeships for the district of Colorado.",
+      "introduced": "2015-06-25",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2015-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2919",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2725",
+      "title": "21st Century Care for Military and Veterans Act",
+      "introduced": "2015-06-10",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2015-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2725",
+      "stages": {},
+      "sponsor": {
+       "id": "P000608",
+       "name": "Scott Peters",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2659",
+      "title": "Nepal Trade Preferences Act",
+      "introduced": "2015-06-04",
+      "policyArea": "Foreign Trade and International Finance",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2015-06-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2659",
+      "stages": {},
+      "sponsor": {
+       "id": "C001045",
+       "name": "ANDER CRENSHAW",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2655",
+      "title": "Open Our Democracy Act of 2015",
+      "introduced": "2015-06-04",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2015-06-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2655",
+      "stages": {},
+      "sponsor": {
+       "id": "D000620",
+       "name": "John Delaney",
+       "party": "D",
+       "state": "MD"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2616",
+      "title": "Urban Flooding Awareness Act of 2015",
+      "introduced": "2015-06-02",
+      "policyArea": "Emergency Management",
+      "latestAction": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.",
+      "latestActionDate": "2015-06-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2616",
+      "stages": {},
+      "sponsor": {
+       "id": "Q000023",
+       "name": "Mike Quigley",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2317",
+      "title": "Lifetime Income Disclosure Act",
+      "introduced": "2015-05-14",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions.",
+      "latestActionDate": "2015-11-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2317",
+      "stages": {},
+      "sponsor": {
+       "id": "M001189",
+       "name": "Luke Messer",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2304",
+      "title": "SPEAK FREE Act of 2015",
+      "introduced": "2015-05-13",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2015-06-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2304",
+      "stages": {},
+      "sponsor": {
+       "id": "F000460",
+       "name": "Blake Farenthold",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2223",
+      "title": "Crags, Colorado Land Exchange Act of 2015",
+      "introduced": "2015-05-01",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 341.",
+      "latestActionDate": "2015-12-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2223",
+      "stages": {
+       "reported": "2015-09-09",
+       "house": "2015-09-16"
+      },
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2202",
+      "title": "Tax Pollution, Not Profits Act",
+      "introduced": "2015-05-01",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Committee on Ways and Means, and in addition to the Committee on Education and the Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2015-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2202",
+      "stages": {},
+      "sponsor": {
+       "id": "D000620",
+       "name": "John Delaney",
+       "party": "D",
+       "state": "MD"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2092",
+      "title": "Student Digital Privacy and Parental Rights Act of 2015",
+      "introduced": "2015-04-29",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Commerce, Manufacturing, and Trade.",
+      "latestActionDate": "2015-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2092",
+      "stages": {},
+      "sponsor": {
+       "id": "M001189",
+       "name": "Luke Messer",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2057",
+      "title": "Computer Science in STEM Act of 2015",
+      "introduced": "2015-04-28",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Research and Technology.",
+      "latestActionDate": "2015-08-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2057",
+      "stages": {},
+      "sponsor": {
+       "id": "C001097",
+       "name": "Tony Cárdenas",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1918",
+      "title": "Aaron's Law Act of 2015",
+      "introduced": "2015-04-21",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2015-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1918",
+      "stages": {},
+      "sponsor": {
+       "id": "L000397",
+       "name": "ZOE LOFGREN",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1855",
+      "title": "Small Business Tax Equity Act of 2015",
+      "introduced": "2015-04-16",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2015-04-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1855",
+      "stages": {},
+      "sponsor": {
+       "id": "B000574",
+       "name": "EARL BLUMENAUER",
+       "party": "D",
+       "state": "OR"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1675",
+      "title": "Capital Markets Improvement Act of 2016",
+      "introduced": "2015-03-26",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2016-02-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1675",
+      "stages": {
+       "reported": "2016-01-28",
+       "house": "2016-02-03"
+      },
+      "sponsor": {
+       "id": "H001059",
+       "name": "Randy Hultgren",
+       "party": "R",
+       "state": "IL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1587",
+      "title": "Unlocking Technology Act of 2015",
+      "introduced": "2015-03-24",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2015-04-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1587",
+      "stages": {},
+      "sponsor": {
+       "id": "L000397",
+       "name": "ZOE LOFGREN",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1554",
+      "title": "Elkhorn Ranch and White River National Forest Conveyance Act of 2015",
+      "introduced": "2015-03-23",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 340.",
+      "latestActionDate": "2015-12-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1554",
+      "stages": {
+       "reported": "2015-09-09",
+       "house": "2015-09-16"
+      },
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1533",
+      "title": "Medical Device Tax Elimination Act",
+      "introduced": "2015-03-23",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-04-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1533",
+      "stages": {},
+      "sponsor": {
+       "id": "A000370",
+       "name": "Alma Adams",
+       "party": "D",
+       "state": "NC"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1447",
+      "title": "Perkins Modernization Act of 2015",
+      "introduced": "2015-03-18",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2015-04-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1447",
+      "stages": {},
+      "sponsor": {
+       "id": "K000379",
+       "name": "Joseph Kennedy",
+       "party": "D",
+       "state": "MA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "930",
+      "title": "School Principal Recruitment and Training Act",
+      "introduced": "2015-02-12",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2015-04-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/930",
+      "stages": {},
+      "sponsor": {
+       "id": "D000598",
+       "name": "SUSAN DAVIS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "862",
+      "title": "You Own Devices Act",
+      "introduced": "2015-02-11",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2015-03-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/862",
+      "stages": {},
+      "sponsor": {
+       "id": "F000460",
+       "name": "Blake Farenthold",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "541",
+      "title": "Transition-to-Success Mentoring Act",
+      "introduced": "2015-01-27",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2015-04-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/541",
+      "stages": {},
+      "sponsor": {
+       "id": "C001072",
+       "name": "André Carson",
+       "party": "D",
+       "state": "IN"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "34",
+      "title": "Public Access to Congressional Research Service Reports Resolution of 2015",
+      "introduced": "2015-01-14",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2015-01-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/34",
+      "stages": {},
+      "sponsor": {
+       "id": "L000567",
+       "name": "Leonard Lance",
+       "party": "R",
+       "state": "NJ"
+      },
+      "originalCosponsors": 3
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 478,
+    "becameLaw": 13,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 50
+     },
+     {
+      "name": "Education",
+      "count": 44
+     },
+     {
+      "name": "International Affairs",
+      "count": 39
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 34
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 32
+     }
+    ]
    }
   },
   "P000593": {
@@ -759,14 +1944,252 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 11,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HRES",
+      "number": "887",
+      "title": "Supporting efforts to increase competition and accountability in the health insurance marketplace, and to extend accessible, quality, affordable health care coverage to every American through the choice of a public insurance plan.",
+      "introduced": "2016-09-22",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2016-09-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/887",
+      "stages": {},
+      "sponsor": {
+       "id": "D000191",
+       "name": "PETER DEFAZIO",
+       "party": "D",
+       "state": "OR"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5548",
+      "title": "To authorize the Secretary of Veterans Affairs to sell Pershing Hall.",
+      "introduced": "2016-06-21",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2016-06-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5548",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "749",
+      "title": "Expressing support for the designation of May 25 as \"National Moonshot Day\" and recognizing the importance of conquering scientific challenges from medicine to space and beyond.",
+      "introduced": "2016-05-25",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2016-05-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/749",
+      "stages": {},
+      "sponsor": {
+       "id": "D000610",
+       "name": "Theodore Deutch",
+       "party": "D",
+       "state": "FL"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3794",
+      "title": "Nonprofit Property Protection Act",
+      "introduced": "2015-10-21",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2015-10-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3794",
+      "stages": {},
+      "sponsor": {
+       "id": "R000593",
+       "name": "Dennis Ross",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3734",
+      "title": "Mining Schools Enhancement Act",
+      "introduced": "2015-10-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 509.",
+      "latestActionDate": "2016-07-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3734",
+      "stages": {
+       "reported": "2016-07-05"
+      },
+      "sponsor": {
+       "id": "H001070",
+       "name": "Cresent Hardy",
+       "party": "R",
+       "state": "NV"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3602",
+      "title": "Gold King Mine Spill Recovery Act of 2015",
+      "introduced": "2015-09-24",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2015-10-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3602",
+      "stages": {},
+      "sponsor": {
+       "id": "L000570",
+       "name": "Ben Luján",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2919",
+      "title": "To authorize 2 additional district judgeships for the district of Colorado.",
+      "introduced": "2015-06-25",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2015-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2919",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2598",
+      "title": "Lucid Act of 2015",
+      "introduced": "2015-06-01",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Highways and Transit.",
+      "latestActionDate": "2015-06-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2598",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2261",
+      "title": "Commercial Remote Sensing Act of 2015",
+      "introduced": "2015-05-12",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 619.",
+      "latestActionDate": "2016-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2261",
+      "stages": {
+       "reported": "2016-09-28"
+      },
+      "sponsor": {
+       "id": "B001283",
+       "name": "Jim Bridenstine",
+       "party": "R",
+       "state": "OK"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HRES",
+      "number": "210",
+      "title": "Affirming and recognizing the Khmer, Laotian, Hmong, and Montagnard Freedom Fighters and the people of Cambodia and Laos for their support and defense of the United States Armed Forces and freedom in Southeast Asia.",
+      "introduced": "2015-04-17",
+      "policyArea": "International Affairs",
+      "latestAction": "Forwarded by Subcommittee to Full Committee in the Nature of a Substitute (Amended) by Unanimous Consent .",
+      "latestActionDate": "2016-07-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/210",
+      "stages": {},
+      "sponsor": {
+       "id": "D000614",
+       "name": "Sean Duffy",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1480",
+      "title": "SAFE Act Confidentiality and Privilege Enhancement Act",
+      "introduced": "2015-03-19",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latestActionDate": "2015-04-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1480",
+      "stages": {
+       "reported": "2015-04-13",
+       "house": "2015-04-13"
+      },
+      "sponsor": {
+       "id": "D000613",
+       "name": "Robert Dold",
+       "party": "R",
+       "state": "IL"
+      },
+      "originalCosponsors": 1
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 333,
+    "becameLaw": 8,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 58
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 32
+     },
+     {
+      "name": "Taxation",
+      "count": 29
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 24
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 23
+     }
+    ]
    }
   },
   "T000470": {
@@ -975,14 +2398,231 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 10,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5808",
+      "title": "Comprehensive Regulatory Review Act of 2016",
+      "introduced": "2016-07-14",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2016-07-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5808",
+      "stages": {},
+      "sponsor": {
+       "id": "D000614",
+       "name": "Sean Duffy",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5799",
+      "title": "Rural Access to Hospice Act of 2016",
+      "introduced": "2016-07-14",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2016-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5799",
+      "stages": {},
+      "sponsor": {
+       "id": "J000290",
+       "name": "Lynn Jenkins",
+       "party": "R",
+       "state": "KS"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "5751",
+      "title": "Shiras Moose Protection and Recovery Act",
+      "introduced": "2016-07-13",
+      "policyArea": "Animals",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2016-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5751",
+      "stages": {},
+      "sponsor": {
+       "id": "C001076",
+       "name": "Jason Chaffetz",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4510",
+      "title": "Bolts Ditch Access and Use Act",
+      "introduced": "2016-02-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 617.",
+      "latestActionDate": "2016-09-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4510",
+      "stages": {
+       "reported": "2016-07-14",
+       "house": "2016-09-06"
+      },
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4313",
+      "title": "Historic Routes Preservation Act",
+      "introduced": "2016-01-05",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2016-01-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4313",
+      "stages": {},
+      "sponsor": {
+       "id": "C001094",
+       "name": "Paul Cook",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4220",
+      "title": "Water and Agriculture Tax Reform Act of 2016",
+      "introduced": "2015-12-10",
+      "policyArea": "Taxation",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 675.",
+      "latestActionDate": "2016-12-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4220",
+      "stages": {
+       "reported": "2016-12-08"
+      },
+      "sponsor": {
+       "id": "B001297",
+       "name": "Ken Buck",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4025",
+      "title": "To prohibit obligation of Federal funds for admission of refugees from Syria, and for other purposes.",
+      "introduced": "2015-11-17",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2015-12-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4025",
+      "stages": {},
+      "sponsor": {
+       "id": "R000593",
+       "name": "Dennis Ross",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2919",
+      "title": "To authorize 2 additional district judgeships for the district of Colorado.",
+      "introduced": "2015-06-25",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2015-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2919",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1389",
+      "title": "American Jobs and Community Revitalization Act of 2015",
+      "introduced": "2015-03-17",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Subcommittee on Commodity Exchanges, Energy, and Credit.",
+      "latestActionDate": "2015-04-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1389",
+      "stages": {},
+      "sponsor": {
+       "id": "B001282",
+       "name": "Andy Barr",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "945",
+      "title": "State Mineral Revenue Protection Act",
+      "introduced": "2015-02-12",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy and Mineral Resources.",
+      "latestActionDate": "2015-03-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/945",
+      "stages": {},
+      "sponsor": {
+       "id": "L000571",
+       "name": "Cynthia Lummis",
+       "party": "R",
+       "state": "WY"
+      },
+      "originalCosponsors": 5
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 273,
+    "becameLaw": 10,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 62
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 33
+     },
+     {
+      "name": "Taxation",
+      "count": 28
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 15
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 15
+     }
+    ]
    }
   },
   "B001297": {
@@ -1510,14 +3150,291 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 13,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5119",
+      "title": "No 2H2O from Iran Act",
+      "introduced": "2016-04-28",
+      "policyArea": "International Affairs",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
+      "latestActionDate": "2016-07-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5119",
+      "stages": {
+       "house": "2016-07-13"
+      },
+      "sponsor": {
+       "id": "P000602",
+       "name": "Mike Pompeo",
+       "party": "R",
+       "state": "KS"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4945",
+      "title": "American Space Renaissance Act",
+      "introduced": "2016-04-14",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Space.",
+      "latestActionDate": "2016-09-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4945",
+      "stages": {},
+      "sponsor": {
+       "id": "B001283",
+       "name": "Jim Bridenstine",
+       "party": "R",
+       "state": "OK"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4510",
+      "title": "Bolts Ditch Access and Use Act",
+      "introduced": "2016-02-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 617.",
+      "latestActionDate": "2016-09-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4510",
+      "stages": {
+       "reported": "2016-07-14",
+       "house": "2016-09-06"
+      },
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2919",
+      "title": "To authorize 2 additional district judgeships for the district of Colorado.",
+      "introduced": "2015-06-25",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2015-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2919",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "318",
+      "title": "Condemning resolutions or policies calling for or instituting a boycott of Israeli academic institutions or scholars by institutions of higher learning and scholarly associations.",
+      "introduced": "2015-06-16",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2015-06-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/318",
+      "stages": {},
+      "sponsor": {
+       "id": "C001107",
+       "name": "Carlos Curbelo",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2753",
+      "title": "Fairness in Firearm Testing Act",
+      "introduced": "2015-06-12",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2015-07-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2753",
+      "stages": {},
+      "sponsor": {
+       "id": "H001071",
+       "name": "Jody Hice",
+       "party": "R",
+       "state": "GA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2215",
+      "title": "Outdoor Recreation Enhancement Act",
+      "introduced": "2015-05-01",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2015-11-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2215",
+      "stages": {},
+      "sponsor": {
+       "id": "S001192",
+       "name": "Chris Stewart",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2207",
+      "title": "FSA Act",
+      "introduced": "2015-05-01",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2015-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2207",
+      "stages": {},
+      "sponsor": {
+       "id": "W000820",
+       "name": "Mimi Walters",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "222",
+      "title": "Expressing the sense of the House of Representatives that any resolution to the Israeli-Palestinian conflict should come from direct bilateral negotiations without preconditions and without interference from the United Nations.",
+      "introduced": "2015-04-28",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Middle East and North Africa.",
+      "latestActionDate": "2015-05-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/222",
+      "stages": {},
+      "sponsor": {
+       "id": "M001180",
+       "name": "David McKinley",
+       "party": "R",
+       "state": "WV"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "193",
+      "title": "Recognizing the National Museum of World War II Aviation in Colorado Springs, Colorado, as America's National World War II Aviation Museum.",
+      "introduced": "2015-04-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2015-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/193",
+      "stages": {},
+      "sponsor": {
+       "id": "G000546",
+       "name": "SAM GRAVES",
+       "party": "R",
+       "state": "MO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1644",
+      "title": "STREAM Act",
+      "introduced": "2015-03-26",
+      "policyArea": "Energy",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2016-01-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1644",
+      "stages": {
+       "reported": "2015-10-01",
+       "house": "2016-01-12"
+      },
+      "sponsor": {
+       "id": "M001195",
+       "name": "Alexander Mooney",
+       "party": "R",
+       "state": "WV"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1614",
+      "title": "State Partnership Program Enhancement Act of 2015",
+      "introduced": "2015-03-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Armed Services.",
+      "latestActionDate": "2015-03-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1614",
+      "stages": {},
+      "sponsor": {
+       "id": "B001245",
+       "name": "Madeleine Bordallo",
+       "party": "D",
+       "state": "GU"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1425",
+      "title": "Preserve and Protect God in Military Oaths Act of 2015",
+      "introduced": "2015-03-18",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2015-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1425",
+      "stages": {},
+      "sponsor": {
+       "id": "J000174",
+       "name": "SAM JOHNSON",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 2
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 248,
+    "becameLaw": 12,
+    "topics": [
+     {
+      "name": "International Affairs",
+      "count": 43
+     },
+     {
+      "name": "Health",
+      "count": 29
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 27
+     },
+     {
+      "name": "Taxation",
+      "count": 23
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 17
+     }
+    ]
    }
   },
   "C001077": {
@@ -1763,14 +3680,454 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 22,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6288",
+      "title": "REAL Protection Act",
+      "introduced": "2016-09-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2016-10-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/6288",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "861",
+      "title": "Supporting respect for human rights and encouraging inclusive governance in Ethiopia.",
+      "introduced": "2016-09-12",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2016-09-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/861",
+      "stages": {},
+      "sponsor": {
+       "id": "S000522",
+       "name": "CHRISTOPHER SMITH",
+       "party": "R",
+       "state": "NJ"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "5842",
+      "title": "Helping Our Veterans with Chronic Pain and Opioid Addiction Act of 2016",
+      "introduced": "2016-07-14",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2016-07-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5842",
+      "stages": {},
+      "sponsor": {
+       "id": "K000382",
+       "name": "Ann Kuster",
+       "party": "D",
+       "state": "NH"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5814",
+      "title": "Match Veterans to Student Loan Protections Act",
+      "introduced": "2016-07-14",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Higher Education and Workforce Training.",
+      "latestActionDate": "2016-09-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5814",
+      "stages": {},
+      "sponsor": {
+       "id": "C001106",
+       "name": "Ryan Costello",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5688",
+      "title": "To amend title XVIII of the Social Security Act to provide for a temporary exception to the application of the Medicare long-term care hospital site neutral provisions for certain spinal cord specialty hospitals.",
+      "introduced": "2016-07-08",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2016-07-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5688",
+      "stages": {},
+      "sponsor": {
+       "id": "P000591",
+       "name": "Tom Price",
+       "party": "R",
+       "state": "GA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5533",
+      "title": "Recognizing American Children Act",
+      "introduced": "2016-06-20",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Human Resources.",
+      "latestActionDate": "2016-07-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5533",
+      "stages": {},
+      "sponsor": {
+       "id": "C001107",
+       "name": "Carlos Curbelo",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5337",
+      "title": "Veteran Prescription Continuity Act",
+      "introduced": "2016-05-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2016-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/5337",
+      "stages": {},
+      "sponsor": {
+       "id": "O000170",
+       "name": "Beto O'Rourke",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4272",
+      "title": "Support the Families of Fallen Heroes Act",
+      "introduced": "2015-12-16",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2016-01-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4272",
+      "stages": {},
+      "sponsor": {
+       "id": "E000293",
+       "name": "Elizabeth Esty",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4260",
+      "title": "Servicemember Higher Education Protection Act",
+      "introduced": "2015-12-15",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.",
+      "latestActionDate": "2016-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4260",
+      "stages": {},
+      "sponsor": {
+       "id": "S001191",
+       "name": "Kyrsten Sinema",
+       "party": "D",
+       "state": "AZ"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4114",
+      "title": "First Time Homeowner Savings Plan Act",
+      "introduced": "2015-11-19",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2015-11-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/4114",
+      "stages": {},
+      "sponsor": {
+       "id": "M001185",
+       "name": "Sean Maloney",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3991",
+      "title": "Department of Veterans Affairs Veterans Education Relief and Restoration Act of 2015",
+      "introduced": "2015-11-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Economic Opportunity.",
+      "latestActionDate": "2015-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3991",
+      "stages": {},
+      "sponsor": {
+       "id": "T000472",
+       "name": "Mark Takano",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3960",
+      "title": "Reduce Homelessness for Female Veterans Act",
+      "introduced": "2015-11-05",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-12-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3960",
+      "stages": {},
+      "sponsor": {
+       "id": "C001091",
+       "name": "Joaquin Castro",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "3879",
+      "title": "Enhanced Veteran Healthcare Act of 2015",
+      "introduced": "2015-11-03",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-11-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3879",
+      "stages": {},
+      "sponsor": {
+       "id": "O000170",
+       "name": "Beto O'Rourke",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3629",
+      "title": "Respect States' and Citizens' Rights Act of 2015",
+      "introduced": "2015-09-28",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2015-10-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3629",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3433",
+      "title": "PORTS Act",
+      "introduced": "2015-07-31",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions.",
+      "latestActionDate": "2015-11-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/3433",
+      "stages": {},
+      "sponsor": {
+       "id": "R000578",
+       "name": "David Reichert",
+       "party": "R",
+       "state": "WA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2919",
+      "title": "To authorize 2 additional district judgeships for the district of Colorado.",
+      "introduced": "2015-06-25",
+      "policyArea": "Law",
+      "latestAction": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "latestActionDate": "2015-07-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2919",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2667",
+      "title": "School Safety Act of 2015",
+      "introduced": "2015-06-04",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2015-06-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/2667",
+      "stages": {},
+      "sponsor": {
+       "id": "L000560",
+       "name": "RICK LARSEN",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1929",
+      "title": "International Conflicts of Concern Act",
+      "introduced": "2015-04-22",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2015-04-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1929",
+      "stages": {},
+      "sponsor": {
+       "id": "W000804",
+       "name": "Robert Wittman",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1911",
+      "title": "To amend title 38, United States Code, to direct the Secretary of Veterans Affairs to increase certain veteran funeral benefits.",
+      "introduced": "2015-04-21",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2015-05-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/1911",
+      "stages": {},
+      "sponsor": {
+       "id": "H001048",
+       "name": "Duncan Hunter",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "193",
+      "title": "Recognizing the National Museum of World War II Aviation in Colorado Springs, Colorado, as America's National World War II Aviation Museum.",
+      "introduced": "2015-04-13",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2015-08-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-resolution/193",
+      "stages": {},
+      "sponsor": {
+       "id": "G000546",
+       "name": "SAM GRAVES",
+       "party": "R",
+       "state": "MO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "956",
+      "title": "Military TRAC Act",
+      "introduced": "2015-02-12",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2015-11-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/956",
+      "stages": {},
+      "sponsor": {
+       "id": "S001175",
+       "name": "Jackie Speier",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "642",
+      "title": "To amend title 38, United States Code, to provide for the eligibility for beneficiary travel for veterans seeking treatment or care for military sexual trauma in specialized outpatient or residential programs at facilities of the Department of Veterans Affairs, and for other purposes.",
+      "introduced": "2015-02-02",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2015-02-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/114th-congress/house-bill/642",
+      "stages": {},
+      "sponsor": {
+       "id": "W000813",
+       "name": "Jackie Walorski",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 3
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 331,
+    "becameLaw": 14,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 61
+     },
+     {
+      "name": "Health",
+      "count": 57
+     },
+     {
+      "name": "International Affairs",
+      "count": 37
+     },
+     {
+      "name": "Taxation",
+      "count": 30
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 19
+     }
+    ]
    }
   }
  }

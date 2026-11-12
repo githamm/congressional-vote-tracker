@@ -196,14 +196,455 @@
     ]
    },
    "coled": {
-    "count": 0,
-    "becameLaw": 0,
-    "bills": []
+    "count": 21,
+    "becameLaw": 1,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "7328",
+      "title": "Pandemic and All-Hazards Preparedness and Advancing Innovation Act of 2018",
+      "introduced": "2018-12-19",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate.",
+      "latestActionDate": "2018-12-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/7328",
+      "stages": {
+       "house": "2018-12-20"
+      },
+      "sponsor": {
+       "id": "B001284",
+       "name": "Susan Brooks",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "7309",
+      "title": "To authorize the Every Word We Utter Monument to establish a commemorative work in the District of Columbia and its environs, and for other purposes.",
+      "introduced": "2018-12-13",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2018-12-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/7309",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5912",
+      "title": "To amend title XIX of the Social Security Act to delay the reduction in Federal medical assistance percentage for Medicaid personal care services and home health services furnished without an electronic visit verification system, and for other purposes.",
+      "introduced": "2018-05-22",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2018-05-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5912",
+      "stages": {},
+      "sponsor": {
+       "id": "L000559",
+       "name": "JAMES LANGEVIN",
+       "party": "D",
+       "state": "RI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5768",
+      "title": "Expanding Access to DSMT Act of 2018",
+      "introduced": "2018-05-10",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2018-05-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5768",
+      "stages": {},
+      "sponsor": {
+       "id": "R000585",
+       "name": "Tom Reed",
+       "party": "R",
+       "state": "NY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5702",
+      "title": "Preventing NAS and Protecting Babies Act",
+      "introduced": "2018-05-08",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2018-05-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5702",
+      "stages": {},
+      "sponsor": {
+       "id": "B001286",
+       "name": "Cheri Bustos",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5333",
+      "title": "Over-the-Counter Monograph Safety, Innovation, and Reform Act of 2018",
+      "introduced": "2018-03-19",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 518.",
+      "latestActionDate": "2018-07-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5333",
+      "stages": {
+       "reported": "2018-07-16",
+       "house": "2018-07-16"
+      },
+      "sponsor": {
+       "id": "L000566",
+       "name": "Robert Latta",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "5329",
+      "title": "Poison Center Network Enhancement Act of 2018",
+      "introduced": "2018-03-19",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2018-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5329",
+      "stages": {
+       "house": "2018-06-12"
+      },
+      "sponsor": {
+       "id": "B001284",
+       "name": "Susan Brooks",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5197",
+      "title": "ALTO Act",
+      "introduced": "2018-03-07",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2018-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5197",
+      "stages": {
+       "house": "2018-06-12"
+      },
+      "sponsor": {
+       "id": "P000096",
+       "name": "WILLIAM PASCRELL",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4228",
+      "title": "Biennial Commission on Energy Policy Act of 2017",
+      "introduced": "2017-11-02",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the Subcommittee on Energy.",
+      "latestActionDate": "2017-11-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4228",
+      "stages": {},
+      "sponsor": {
+       "id": "M001180",
+       "name": "David McKinley",
+       "party": "R",
+       "state": "WV"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3924",
+      "title": "To amend the Public Health Service Act to extend funding for the special diabetes program for type I diabetes.",
+      "introduced": "2017-10-03",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-10-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3924",
+      "stages": {},
+      "sponsor": {
+       "id": "B001284",
+       "name": "Susan Brooks",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "3256",
+      "title": "RIVER Act of 2017",
+      "introduced": "2017-07-14",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2017-07-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3256",
+      "stages": {},
+      "sponsor": {
+       "id": "M001180",
+       "name": "David McKinley",
+       "party": "R",
+       "state": "WV"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3186",
+      "title": "Every Kid Outdoors Act",
+      "introduced": "2017-07-11",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 680.",
+      "latestActionDate": "2018-11-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3186",
+      "stages": {
+       "reported": "2018-08-03",
+       "house": "2018-09-12"
+      },
+      "sponsor": {
+       "id": "T000465",
+       "name": "Niki Tsongas",
+       "party": "D",
+       "state": "MA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3044",
+      "title": "To amend title XVIII of the Social Security Act to expand supplemental benefits to meet the needs of chronically ill Medicare Advantage enrollees under the Medicare program, and for other purposes.",
+      "introduced": "2017-06-23",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-07-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3044",
+      "stages": {},
+      "sponsor": {
+       "id": "M001181",
+       "name": "Patrick Meehan",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2786",
+      "title": "To amend the Federal Power Act with respect to the criteria and process to qualify as a qualifying conduit hydropower facility.",
+      "introduced": "2017-06-06",
+      "policyArea": "Energy",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 511.",
+      "latestActionDate": "2018-07-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2786",
+      "stages": {
+       "reported": "2017-07-12",
+       "house": "2017-07-18"
+      },
+      "sponsor": {
+       "id": "H001067",
+       "name": "Richard Hudson",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2509",
+      "title": "Medicare Mental Health Inpatient Equity Act of 2017",
+      "introduced": "2017-05-17",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-05-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2509",
+      "stages": {},
+      "sponsor": {
+       "id": "T000469",
+       "name": "Paul Tonko",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2356",
+      "title": "MY DATA Act of 2017",
+      "introduced": "2017-05-04",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the Subcommittee on Digital Commerce and Consumer Protection.",
+      "latestActionDate": "2017-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2356",
+      "stages": {},
+      "sponsor": {
+       "id": "M001166",
+       "name": "Jerry McNerney",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2290",
+      "title": "Family-Based Care Services Act of 2017",
+      "introduced": "2017-05-02",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2290",
+      "stages": {},
+      "sponsor": {
+       "id": "D000216",
+       "name": "ROSA DELAURO",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2244",
+      "title": "Patient Experience in Research Act of 2017",
+      "introduced": "2017-04-28",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2244",
+      "stages": {},
+      "sponsor": {
+       "id": "L000567",
+       "name": "Leonard Lance",
+       "party": "R",
+       "state": "NJ"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1920",
+      "title": "To amend part B of title XVIII of the Social Security Act to exclude customary prompt pay discounts from manufacturers to wholesalers from the average sales price for drugs and biologicals under Medicare, and for other purposes.",
+      "introduced": "2017-04-05",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-04-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1920",
+      "stages": {},
+      "sponsor": {
+       "id": "U000031",
+       "name": "FRED UPTON",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1639",
+      "title": "Physical Therapist Workforce and Patient Access Act of 2017",
+      "introduced": "2017-03-20",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-03-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1639",
+      "stages": {},
+      "sponsor": {
+       "id": "S000364",
+       "name": "JOHN SHIMKUS",
+       "party": "R",
+       "state": "IL"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "1318",
+      "title": "Preventing Maternal Deaths Act of 2018",
+      "introduced": "2017-03-02",
+      "policyArea": "Health",
+      "latestAction": "Became Public Law No: 115-344.",
+      "latestActionDate": "2018-12-21",
+      "law": "115-344",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1318",
+      "stages": {
+       "house": "2018-12-11",
+       "senate": "2018-12-13",
+       "president": "2018-12-19",
+       "law": "2018-12-21"
+      },
+      "sponsor": {
+       "id": "H001056",
+       "name": "Jaime Herrera Beutler",
+       "party": "R",
+       "state": "WA"
+      },
+      "originalCosponsors": 3
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 312,
+    "becameLaw": 13,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 77
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 30
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 25
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 19
+     },
+     {
+      "name": "International Affairs",
+      "count": 18
+     }
+    ]
    }
   },
   "P000598": {
@@ -617,14 +1058,678 @@
     ]
    },
    "coled": {
-    "count": 0,
-    "becameLaw": 0,
-    "bills": []
+    "count": 33,
+    "becameLaw": 1,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "7175",
+      "title": "To amend section 805 of the Federal Lands Recreation Enhancement Act to provide for a lifetime pass for access to Federal recreational lands and waters, and for other purposes.",
+      "introduced": "2018-11-27",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2018-12-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/7175",
+      "stages": {},
+      "sponsor": {
+       "id": "G000577",
+       "name": "Garret Graves",
+       "party": "R",
+       "state": "LA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "1108",
+      "title": "Expressing the sense of the House of Representatives that blockchain has incredible potential that must be nurtured through support for research and development and a thoughtful and innovation-friendly regulatory approach.",
+      "introduced": "2018-09-28",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2018-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/1108",
+      "stages": {},
+      "sponsor": {
+       "id": "S001183",
+       "name": "David Schweikert",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "1102",
+      "title": "Expressing support for digital currencies and blockchain technology.",
+      "introduced": "2018-09-28",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2018-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/1102",
+      "stages": {},
+      "sponsor": {
+       "id": "E000294",
+       "name": "Tom Emmer",
+       "party": "R",
+       "state": "MN"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "6946",
+      "title": "Supporting Early Learning Act",
+      "introduced": "2018-09-27",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2018-09-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6946",
+      "stages": {},
+      "sponsor": {
+       "id": "H001047",
+       "name": "James Himes",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "1097",
+      "title": "Supporting responsible middle class tax cuts.",
+      "introduced": "2018-09-27",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2018-09-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/1097",
+      "stages": {},
+      "sponsor": {
+       "id": "R000608",
+       "name": "Jacklyn Rosen",
+       "party": "D",
+       "state": "NV"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "6533",
+      "title": "CLEAN Politics Act of 2018",
+      "introduced": "2018-07-25",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2018-10-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6533",
+      "stages": {},
+      "sponsor": {
+       "id": "S001168",
+       "name": "John Sarbanes",
+       "party": "D",
+       "state": "MD"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "862",
+      "title": "READ IT Resolution",
+      "introduced": "2018-04-27",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2018-04-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/862",
+      "stages": {},
+      "sponsor": {
+       "id": "G000580",
+       "name": "Thomas Garrett",
+       "party": "R",
+       "state": "VA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5485",
+      "title": "Hemp Farming Act of 2018",
+      "introduced": "2018-04-12",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Committee on Agriculture, and in addition to the Committees on Energy and Commerce, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2018-04-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5485",
+      "stages": {},
+      "sponsor": {
+       "id": "C001108",
+       "name": "James Comer",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5119",
+      "title": "P3 Act",
+      "introduced": "2018-02-27",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2018-02-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5119",
+      "stages": {},
+      "sponsor": {
+       "id": "F000454",
+       "name": "Bill Foster",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4816",
+      "title": "Stop Civil Asset Forfeiture Funding for Marijuana Suppression Act of 2018",
+      "introduced": "2018-01-17",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2018-01-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4816",
+      "stages": {},
+      "sponsor": {
+       "id": "L000582",
+       "name": "Ted Lieu",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4779",
+      "title": "REFER Act of 2018",
+      "introduced": "2018-01-11",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2018-01-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4779",
+      "stages": {},
+      "sponsor": {
+       "id": "L000551",
+       "name": "BARBARA LEE",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4711",
+      "title": "Industrial Hemp Banking Act",
+      "introduced": "2017-12-21",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2017-12-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4711",
+      "stages": {},
+      "sponsor": {
+       "id": "B001282",
+       "name": "Andy Barr",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4257",
+      "title": "Advancing Conservation and Education Act",
+      "introduced": "2017-11-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2018-06-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4257",
+      "stages": {
+       "house": "2018-06-25"
+      },
+      "sponsor": {
+       "id": "S001192",
+       "name": "Chris Stewart",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4094",
+      "title": "Medicare-X Choice Act of 2017",
+      "introduced": "2017-10-23",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-10-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4094",
+      "stages": {},
+      "sponsor": {
+       "id": "H001038",
+       "name": "Brian Higgins",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3774",
+      "title": "Reverse Transfer Efficiency Act of 2017",
+      "introduced": "2017-09-14",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2017-09-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3774",
+      "stages": {},
+      "sponsor": {
+       "id": "M001189",
+       "name": "Luke Messer",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3708",
+      "title": "To amend the Internal Revenue Code of 1986 to exclude from gross income de minimis gains from certain sales or exchanges of virtual currency, and for other purposes.",
+      "introduced": "2017-09-07",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2017-09-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3708",
+      "stages": {},
+      "sponsor": {
+       "id": "S001183",
+       "name": "David Schweikert",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3150",
+      "title": "Helicopter Fuel System Safety Act",
+      "introduced": "2017-06-29",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2017-06-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3150",
+      "stages": {},
+      "sponsor": {
+       "id": "P000593",
+       "name": "Ed Perlmutter",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2981",
+      "title": "Open Our Democracy Act of 2017",
+      "introduced": "2017-06-21",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2017-07-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2981",
+      "stages": {},
+      "sponsor": {
+       "id": "D000620",
+       "name": "John Delaney",
+       "party": "D",
+       "state": "MD"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2700",
+      "title": "Workforce Development Investment Act of 2017",
+      "introduced": "2017-05-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2017-05-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2700",
+      "stages": {},
+      "sponsor": {
+       "id": "K000382",
+       "name": "Ann Kuster",
+       "party": "D",
+       "state": "NH"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2685",
+      "title": "Portable Benefits for Independent Workers Pilot Program Act",
+      "introduced": "2017-05-25",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2017-05-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2685",
+      "stages": {},
+      "sponsor": {
+       "id": "D000617",
+       "name": "Suzan DelBene",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2652",
+      "title": "Veteran Overmedication Prevention Act of 2017",
+      "introduced": "2017-05-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-05-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2652",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2588",
+      "title": "Preventing Unconstitutional Collection Act",
+      "introduced": "2017-05-22",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2017-06-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2588",
+      "stages": {},
+      "sponsor": {
+       "id": "G000571",
+       "name": "Tulsi Gabbard",
+       "party": "D",
+       "state": "HI"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2577",
+      "title": "Jobs in America Act",
+      "introduced": "2017-05-19",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2017-06-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2577",
+      "stages": {},
+      "sponsor": {
+       "id": "S001191",
+       "name": "Kyrsten Sinema",
+       "party": "D",
+       "state": "AZ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2305",
+      "title": "Computer Science in STEM Act of 2017",
+      "introduced": "2017-05-03",
+      "policyArea": "Education",
+      "latestAction": "Referred to the Subcommittee on Research and Technology.",
+      "latestActionDate": "2018-05-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2305",
+      "stages": {},
+      "sponsor": {
+       "id": "C001097",
+       "name": "Tony Cárdenas",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2014",
+      "title": "Tax Pollution, Not Profits Act",
+      "introduced": "2017-04-06",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Committee on Ways and Means, and in addition to the Committee on Education and the Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2017-04-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2014",
+      "stages": {},
+      "sponsor": {
+       "id": "D000620",
+       "name": "John Delaney",
+       "party": "D",
+       "state": "MD"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1820",
+      "title": "Veterans Equal Access Act",
+      "introduced": "2017-03-30",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-03-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1820",
+      "stages": {},
+      "sponsor": {
+       "id": "B000574",
+       "name": "EARL BLUMENAUER",
+       "party": "D",
+       "state": "OR"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1132",
+      "title": "Political Appointee Burrowing Prevention Act",
+      "introduced": "2017-02-16",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 673.",
+      "latestActionDate": "2018-11-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1132",
+      "stages": {
+       "reported": "2017-12-05",
+       "house": "2018-03-06"
+      },
+      "sponsor": {
+       "id": "B001297",
+       "name": "Ken Buck",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "923",
+      "title": "To repeal the Cybersecurity Act of 2015.",
+      "introduced": "2017-02-07",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Research and Technology.",
+      "latestActionDate": "2017-04-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/923",
+      "stages": {},
+      "sponsor": {
+       "id": "A000367",
+       "name": "Justin Amash",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "905",
+      "title": "You Own Devices Act",
+      "introduced": "2017-02-07",
+      "policyArea": "Commerce",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2017-02-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/905",
+      "stages": {},
+      "sponsor": {
+       "id": "F000460",
+       "name": "Blake Farenthold",
+       "party": "R",
+       "state": "TX"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "835",
+      "title": "To update the map of, and modify the maximum acreage available for inclusion in, the Florissant Fossil Beds National Monument.",
+      "introduced": "2017-02-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2018-03-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/835",
+      "stages": {
+       "reported": "2018-02-26",
+       "house": "2018-03-19"
+      },
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "698",
+      "title": "Elkhorn Ranch and White River National Forest Conveyance Act of 2017",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 115-252.",
+      "latestActionDate": "2018-10-03",
+      "law": "115-252",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/698",
+      "stages": {
+       "house": "2017-02-06",
+       "senate": "2018-09-18",
+       "president": "2018-09-25",
+       "law": "2018-10-03"
+      },
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "618",
+      "title": "Crags, Colorado Land Exchange Act of 2017",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 69.",
+      "latestActionDate": "2017-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/618",
+      "stages": {
+       "house": "2017-02-06"
+      },
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "159",
+      "title": "To expand the workforce of veterinarians specialized in the care and conservation of wild animals and their ecosystems, and to develop educational programs focused on wildlife and zoological veterinary medicine.",
+      "introduced": "2017-01-03",
+      "policyArea": "Animals",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2017-02-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/159",
+      "stages": {},
+      "sponsor": {
+       "id": "H000324",
+       "name": "ALCEE HASTINGS",
+       "party": "D",
+       "state": "FL"
+      },
+      "originalCosponsors": 1
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 508,
+    "becameLaw": 17,
+    "topics": [
+     {
+      "name": "Government Operations and Politics",
+      "count": 49
+     },
+     {
+      "name": "Education",
+      "count": 36
+     },
+     {
+      "name": "International Affairs",
+      "count": 35
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 35
+     },
+     {
+      "name": "Immigration",
+      "count": 34
+     }
+    ]
    }
   },
   "P000593": {
@@ -767,14 +1872,311 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 14,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "7309",
+      "title": "To authorize the Every Word We Utter Monument to establish a commemorative work in the District of Columbia and its environs, and for other purposes.",
+      "introduced": "2018-12-13",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2018-12-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/7309",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "6832",
+      "title": "Safe Helicopters Now Act",
+      "introduced": "2018-09-17",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2018-09-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6832",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5534",
+      "title": "GUIDE Compliance Act",
+      "introduced": "2018-04-17",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 847.",
+      "latestActionDate": "2018-12-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5534",
+      "stages": {
+       "reported": "2018-12-21"
+      },
+      "sponsor": {
+       "id": "D000614",
+       "name": "Sean Duffy",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "4205",
+      "title": "Financial Institution Examination Responsiveness Act",
+      "introduced": "2017-11-01",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2017-11-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4205",
+      "stages": {},
+      "sponsor": {
+       "id": "R000598",
+       "name": "Keith Rothfus",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "4142",
+      "title": "Safer Communities Act of 2017",
+      "introduced": "2017-10-26",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2017-11-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4142",
+      "stages": {},
+      "sponsor": {
+       "id": "T000460",
+       "name": "MIKE THOMPSON",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3898",
+      "title": "Otto Warmbier North Korea Nuclear Sanctions Act",
+      "introduced": "2017-10-02",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
+      "latestActionDate": "2017-10-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3898",
+      "stages": {
+       "reported": "2017-10-23",
+       "house": "2017-10-24"
+      },
+      "sponsor": {
+       "id": "B001282",
+       "name": "Andy Barr",
+       "party": "R",
+       "state": "KY"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3774",
+      "title": "Reverse Transfer Efficiency Act of 2017",
+      "introduced": "2017-09-14",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2017-09-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3774",
+      "stages": {},
+      "sponsor": {
+       "id": "M001189",
+       "name": "Luke Messer",
+       "party": "R",
+       "state": "IN"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "3553",
+      "title": "Bankruptcy Administration Improvement Act of 2017",
+      "introduced": "2017-07-28",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2018-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3553",
+      "stages": {},
+      "sponsor": {
+       "id": "M001179",
+       "name": "Tom Marino",
+       "party": "R",
+       "state": "PA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "491",
+      "title": "A resolution affirming and recognizing the Khmer, Laotian, Hmong, and the other ethnic groups commonly referred to as Montagnards of Cambodia and Laos who supported and defended the United States Armed Forces and freedom in Southeast Asia.",
+      "introduced": "2017-07-28",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Asia and the Pacific.",
+      "latestActionDate": "2017-09-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/491",
+      "stages": {},
+      "sponsor": {
+       "id": "D000614",
+       "name": "Sean Duffy",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "442",
+      "title": "Of inquiry directing the Secretary of the Treasury to provide certain documents in the Secretary's possession to the House of Representatives relating to President Trump's financial connections to Russia, certain illegal financial schemes, and related information.",
+      "introduced": "2017-07-13",
+      "policyArea": "Congress",
+      "latestAction": "Placed on the House Calendar, Calendar No. 72.",
+      "latestActionDate": "2017-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/442",
+      "stages": {
+       "reported": "2017-07-28"
+      },
+      "sponsor": {
+       "id": "W000187",
+       "name": "MAXINE WATERS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HRES",
+      "number": "436",
+      "title": "Expressing support for the designation of July 29, 2017, as \"Paralympic and Adaptive Sport Day\".",
+      "introduced": "2017-07-11",
+      "policyArea": "Sports and Recreation",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2017-07-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/436",
+      "stages": {},
+      "sponsor": {
+       "id": "L000559",
+       "name": "JAMES LANGEVIN",
+       "party": "D",
+       "state": "RI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2976",
+      "title": "Deferment for Active Cancer Treatment Act of 2017",
+      "introduced": "2017-06-21",
+      "policyArea": "Education",
+      "latestAction": "Referred to the House Committee on Education and the Workforce.",
+      "latestActionDate": "2017-06-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2976",
+      "stages": {},
+      "sponsor": {
+       "id": "R000435",
+       "name": "ILEANA ROS-LEHTINEN",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2773",
+      "title": "To authorize the Secretary of Veterans Affairs to sell Pershing Hall.",
+      "introduced": "2017-06-06",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Committee Hearings Held.",
+      "latestActionDate": "2017-10-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2773",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2053",
+      "title": "Mining Schools Enhancement Act",
+      "introduced": "2017-04-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 186.",
+      "latestActionDate": "2017-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2053",
+      "stages": {
+       "reported": "2017-07-25"
+      },
+      "sponsor": {
+       "id": "M001197",
+       "name": "Martha McSally",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 4
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 409,
+    "becameLaw": 25,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 55
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 45
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 36
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 34
+     },
+     {
+      "name": "International Affairs",
+      "count": 26
+     }
+    ]
    }
   },
   "T000470": {
@@ -1313,14 +2715,421 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 19,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "7309",
+      "title": "To authorize the Every Word We Utter Monument to establish a commemorative work in the District of Columbia and its environs, and for other purposes.",
+      "introduced": "2018-12-13",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2018-12-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/7309",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "6996",
+      "title": "Veterans Right to Expediency Act",
+      "introduced": "2018-09-28",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2018-09-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6996",
+      "stages": {},
+      "sponsor": {
+       "id": "L000566",
+       "name": "Robert Latta",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HRES",
+      "number": "836",
+      "title": "Expressing support for designation of April 24, 2018, as \"National Business Traveler Day\".",
+      "introduced": "2018-04-23",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the House Committee on Oversight and Government Reform.",
+      "latestActionDate": "2018-04-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/836",
+      "stages": {},
+      "sponsor": {
+       "id": "H001047",
+       "name": "James Himes",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "5498",
+      "title": "Rural Hospital Frontier Fairness Act",
+      "introduced": "2018-04-12",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2018-04-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5498",
+      "stages": {},
+      "sponsor": {
+       "id": "P000258",
+       "name": "COLLIN PETERSON",
+       "party": "D",
+       "state": "MN"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5197",
+      "title": "ALTO Act",
+      "introduced": "2018-03-07",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2018-06-13",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5197",
+      "stages": {
+       "house": "2018-06-12"
+      },
+      "sponsor": {
+       "id": "P000096",
+       "name": "WILLIAM PASCRELL",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4843",
+      "title": "To modify the presumption of service connection for veterans who were exposed to herbicide agents while serving in the Armed Forces in Thailand during the Vietnam era, and for other purposes.",
+      "introduced": "2018-01-18",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "latestActionDate": "2018-01-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4843",
+      "stages": {},
+      "sponsor": {
+       "id": "W000821",
+       "name": "Bruce Westerman",
+       "party": "R",
+       "state": "AR"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3608",
+      "title": "Endangered Species Transparency and Reasonableness Act",
+      "introduced": "2017-07-28",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 815.",
+      "latestActionDate": "2018-11-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3608",
+      "stages": {
+       "reported": "2018-11-27"
+      },
+      "sponsor": {
+       "id": "M001177",
+       "name": "Tom McClintock",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "3607",
+      "title": "To authorize the Secretary of the Interior to establish fees for medical services provided in units of the National Park System, and for other purposes.",
+      "introduced": "2017-07-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held. With printed Hearing: S.Hrg. 115-535.",
+      "latestActionDate": "2018-12-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3607",
+      "stages": {
+       "reported": "2018-02-15",
+       "house": "2018-04-16"
+      },
+      "sponsor": {
+       "id": "M001177",
+       "name": "Tom McClintock",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3543",
+      "title": "Sage-Grouse and Mule Deer Habitat Conservation and Restoration Act of 2017",
+      "introduced": "2017-07-28",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2017-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3543",
+      "stages": {},
+      "sponsor": {
+       "id": "S001192",
+       "name": "Chris Stewart",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3186",
+      "title": "Every Kid Outdoors Act",
+      "introduced": "2017-07-11",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 680.",
+      "latestActionDate": "2018-11-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3186",
+      "stages": {
+       "reported": "2018-08-03",
+       "house": "2018-09-12"
+      },
+      "sponsor": {
+       "id": "T000465",
+       "name": "Niki Tsongas",
+       "party": "D",
+       "state": "MA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2987",
+      "title": "21st Century Conservation Service Corps Act",
+      "introduced": "2017-06-21",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 862.",
+      "latestActionDate": "2018-12-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2987",
+      "stages": {
+       "reported": "2018-12-06"
+      },
+      "sponsor": {
+       "id": "M001197",
+       "name": "Martha McSally",
+       "party": "R",
+       "state": "AZ"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2402",
+      "title": "San Juan County Settlement Implementation Act",
+      "introduced": "2017-05-08",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2017-10-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2402",
+      "stages": {},
+      "sponsor": {
+       "id": "L000570",
+       "name": "Ben Luján",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1089",
+      "title": "KOMBUCHA",
+      "introduced": "2017-02-15",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2017-02-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1089",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "835",
+      "title": "To update the map of, and modify the maximum acreage available for inclusion in, the Florissant Fossil Beds National Monument.",
+      "introduced": "2017-02-02",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "latestActionDate": "2018-03-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/835",
+      "stages": {
+       "reported": "2018-02-26",
+       "house": "2018-03-19"
+      },
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "689",
+      "title": "Bolts Ditch Access and Use Act",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 71.",
+      "latestActionDate": "2017-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/689",
+      "stages": {
+       "house": "2017-02-06"
+      },
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "688",
+      "title": "Arapaho National Forest Boundary Adjustment Act of 2017",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 70.",
+      "latestActionDate": "2017-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/688",
+      "stages": {
+       "house": "2017-02-06"
+      },
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "618",
+      "title": "Crags, Colorado Land Exchange Act of 2017",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 69.",
+      "latestActionDate": "2017-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/618",
+      "stages": {
+       "house": "2017-02-06"
+      },
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "519",
+      "title": "Water and Agriculture Tax Reform Act of 2018",
+      "introduced": "2017-01-13",
+      "policyArea": "Taxation",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Finance.",
+      "latestActionDate": "2018-07-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/519",
+      "stages": {
+       "reported": "2018-07-23",
+       "house": "2018-07-24"
+      },
+      "sponsor": {
+       "id": "B001297",
+       "name": "Ken Buck",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HJRES",
+      "number": "11",
+      "title": "Disapproving the rule submitted by the Department of the Interior known as the Stream Protection Rule.",
+      "introduced": "2017-01-03",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Referred to the House Committee on Natural Resources.",
+      "latestActionDate": "2017-01-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-joint-resolution/11",
+      "stages": {},
+      "sponsor": {
+       "id": "J000297",
+       "name": "Evan Jenkins",
+       "party": "R",
+       "state": "WV"
+      },
+      "originalCosponsors": 4
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 313,
+    "becameLaw": 16,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 58
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 36
+     },
+     {
+      "name": "Finance and Financial Sector",
+      "count": 32
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 25
+     },
+     {
+      "name": "Taxation",
+      "count": 23
+     }
+    ]
    }
   },
   "B001297": {
@@ -2217,14 +4026,258 @@
     ]
    },
    "coled": {
-    "count": 0,
-    "becameLaw": 0,
-    "bills": []
+    "count": 11,
+    "becameLaw": 1,
+    "bills": [
+     {
+      "type": "HR",
+      "number": "5626",
+      "title": "Intercountry Adoption Information Act of 2018",
+      "introduced": "2018-04-26",
+      "policyArea": "International Affairs",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
+      "latestActionDate": "2018-07-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5626",
+      "stages": {
+       "house": "2018-07-10"
+      },
+      "sponsor": {
+       "id": "C001093",
+       "name": "Doug Collins",
+       "party": "R",
+       "state": "GA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "3990",
+      "title": "National Monument CAP Act",
+      "introduced": "2017-10-06",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 840.",
+      "latestActionDate": "2018-12-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3990",
+      "stages": {
+       "reported": "2018-12-19"
+      },
+      "sponsor": {
+       "id": "B001250",
+       "name": "Rob Bishop",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HJRES",
+      "number": "106",
+      "title": "Proposing an amendment to the Constitution of the United States to provide that Representatives shall be apportioned among the several States according to their respective numbers, counting the number of persons in each State who are citizens of the United States.",
+      "introduced": "2017-06-22",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2017-07-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-joint-resolution/106",
+      "stages": {},
+      "sponsor": {
+       "id": "D000626",
+       "name": "Warren Davidson",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2402",
+      "title": "San Juan County Settlement Implementation Act",
+      "introduced": "2017-05-08",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2017-10-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2402",
+      "stages": {},
+      "sponsor": {
+       "id": "L000570",
+       "name": "Ben Luján",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2062",
+      "title": "Defend Israel Act",
+      "introduced": "2017-04-06",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2017-04-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2062",
+      "stages": {},
+      "sponsor": {
+       "id": "R000608",
+       "name": "Jacklyn Rosen",
+       "party": "D",
+       "state": "NV"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "973",
+      "title": "21st Century SCASDP Act",
+      "introduced": "2017-02-07",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Aviation.",
+      "latestActionDate": "2017-02-08",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/973",
+      "stages": {},
+      "sponsor": {
+       "id": "O000170",
+       "name": "Beto O'Rourke",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "903",
+      "title": "To restrict funding for the Preparatory Commission for the Comprehensive Nuclear-Test-Ban Treaty Organization, and for other purposes.",
+      "introduced": "2017-02-07",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2017-02-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/903",
+      "stages": {},
+      "sponsor": {
+       "id": "W000795",
+       "name": "Joe Wilson",
+       "party": "R",
+       "state": "SC"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "808",
+      "title": "Iran Nonnuclear Sanctions Act of 2017",
+      "introduced": "2017-02-01",
+      "policyArea": "International Affairs",
+      "latestAction": "Referred to the Subcommittee on Trade.",
+      "latestActionDate": "2017-02-06",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/808",
+      "stages": {},
+      "sponsor": {
+       "id": "R000580",
+       "name": "Peter Roskam",
+       "party": "R",
+       "state": "IL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "698",
+      "title": "Elkhorn Ranch and White River National Forest Conveyance Act of 2017",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Became Public Law No: 115-252.",
+      "latestActionDate": "2018-10-03",
+      "law": "115-252",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/698",
+      "stages": {
+       "house": "2017-02-06",
+       "senate": "2018-09-18",
+       "president": "2018-09-25",
+       "law": "2018-10-03"
+      },
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "689",
+      "title": "Bolts Ditch Access and Use Act",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 71.",
+      "latestActionDate": "2017-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/689",
+      "stages": {
+       "house": "2017-02-06"
+      },
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "688",
+      "title": "Arapaho National Forest Boundary Adjustment Act of 2017",
+      "introduced": "2017-01-24",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 70.",
+      "latestActionDate": "2017-05-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/688",
+      "stages": {
+       "house": "2017-02-06"
+      },
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 260,
+    "becameLaw": 18,
+    "topics": [
+     {
+      "name": "International Affairs",
+      "count": 41
+     },
+     {
+      "name": "Health",
+      "count": 28
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 24
+     },
+     {
+      "name": "Taxation",
+      "count": 22
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 20
+     }
+    ]
    }
   },
   "C001077": {
@@ -2594,14 +4647,534 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 26,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "7022",
+      "title": "Homes for Our Heroes Act of 2018",
+      "introduced": "2018-10-02",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Committee on Financial Services, and in addition to the Committee on Veterans' Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2018-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/7022",
+      "stages": {},
+      "sponsor": {
+       "id": "P000608",
+       "name": "Scott Peters",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "7021",
+      "title": "To amend the Internal Revenue Code of 1986 to provide for distributions from 529 plans to pay certain early education expenses.",
+      "introduced": "2018-10-02",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2018-10-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/7021",
+      "stages": {},
+      "sponsor": {
+       "id": "P000594",
+       "name": "Erik Paulsen",
+       "party": "R",
+       "state": "MN"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "6867",
+      "title": "To improve the leasing projects of the Department of Veterans Affairs, and for other purposes.",
+      "introduced": "2018-09-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2018-09-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6867",
+      "stages": {},
+      "sponsor": {
+       "id": "K000381",
+       "name": "Derek Kilmer",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "6848",
+      "title": "VA Safe Opioid Return Act",
+      "introduced": "2018-09-20",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2018-09-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/6848",
+      "stages": {},
+      "sponsor": {
+       "id": "B001293",
+       "name": "Mike Bishop",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "5966",
+      "title": "Women Veterans Access to Quality Care Act of 2018",
+      "introduced": "2018-05-24",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2018-05-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5966",
+      "stages": {},
+      "sponsor": {
+       "id": "K000375",
+       "name": "William Keating",
+       "party": "D",
+       "state": "MA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5830",
+      "title": "Veteran PEER Act",
+      "introduced": "2018-05-15",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2018-05-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5830",
+      "stages": {},
+      "sponsor": {
+       "id": "P000608",
+       "name": "Scott Peters",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HRES",
+      "number": "813",
+      "title": "Expressing the sense of the House of Representatives that defense appropriations bills should be considered only as stand-alone measures.",
+      "introduced": "2018-04-10",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2018-04-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/813",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5047",
+      "title": "VA Community Care Enhancement Act",
+      "introduced": "2018-02-15",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2018-02-15",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/5047",
+      "stages": {},
+      "sponsor": {
+       "id": "B001257",
+       "name": "Gus Bilirakis",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "4132",
+      "title": "Veterans Affairs Physician Recruitment Act of 2017",
+      "introduced": "2017-10-25",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2017-10-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4132",
+      "stages": {},
+      "sponsor": {
+       "id": "R000609",
+       "name": "John Rutherford",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4077",
+      "title": "Honest Ads Act",
+      "introduced": "2017-10-19",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the House Committee on House Administration.",
+      "latestActionDate": "2017-10-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/4077",
+      "stages": {},
+      "sponsor": {
+       "id": "K000381",
+       "name": "Derek Kilmer",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3695",
+      "title": "Protect DREAMer Confidentiality Act of 2017",
+      "introduced": "2017-09-07",
+      "policyArea": "Immigration",
+      "latestAction": "Referred to the Subcommittee on Immigration and Border Security.",
+      "latestActionDate": "2017-09-21",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/3695",
+      "stages": {},
+      "sponsor": {
+       "id": "O000170",
+       "name": "Beto O'Rourke",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2808",
+      "title": "First Time Homeowner Savings Plan Act",
+      "introduced": "2017-06-07",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2017-06-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2808",
+      "stages": {},
+      "sponsor": {
+       "id": "M001185",
+       "name": "Sean Maloney",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2528",
+      "title": "Respect States' and Citizens' Rights Act of 2017",
+      "introduced": "2017-05-18",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2017-06-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2528",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2478",
+      "title": "Expanding Veterans' Access to Choice Act",
+      "introduced": "2017-05-17",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-05-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2478",
+      "stages": {},
+      "sponsor": {
+       "id": "C001093",
+       "name": "Doug Collins",
+       "party": "R",
+       "state": "GA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2417",
+      "title": "Pregnant Workers Fairness Act",
+      "introduced": "2017-05-11",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "latestActionDate": "2017-06-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2417",
+      "stages": {},
+      "sponsor": {
+       "id": "N000002",
+       "name": "JERROLD NADLER",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2312",
+      "title": "Enhanced Veteran Healthcare Act of 2017",
+      "introduced": "2017-05-03",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-05-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2312",
+      "stages": {},
+      "sponsor": {
+       "id": "O000170",
+       "name": "Beto O'Rourke",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "2249",
+      "title": "HAND UP Act",
+      "introduced": "2017-04-28",
+      "policyArea": "Social Welfare",
+      "latestAction": "Referred to the Subcommittee on Nutrition.",
+      "latestActionDate": "2017-05-19",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2249",
+      "stages": {},
+      "sponsor": {
+       "id": "R000585",
+       "name": "Tom Reed",
+       "party": "R",
+       "state": "NY"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "2195",
+      "title": "OSC Access Act",
+      "introduced": "2017-04-27",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 193.",
+      "latestActionDate": "2017-07-28",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2195",
+      "stages": {
+       "reported": "2017-07-28"
+      },
+      "sponsor": {
+       "id": "B001294",
+       "name": "Rod Blum",
+       "party": "R",
+       "state": "IA"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1636",
+      "title": "School Safety Act of 2017",
+      "introduced": "2017-03-20",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.",
+      "latestActionDate": "2017-03-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1636",
+      "stages": {},
+      "sponsor": {
+       "id": "L000560",
+       "name": "RICK LARSEN",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HRES",
+      "number": "149",
+      "title": "Amending the Rules of the House of Representatives to require the House to meet 5 days a week for 39 weeks each year.",
+      "introduced": "2017-02-17",
+      "policyArea": "Congress",
+      "latestAction": "Referred to the House Committee on Rules.",
+      "latestActionDate": "2017-02-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/149",
+      "stages": {},
+      "sponsor": {
+       "id": "P000608",
+       "name": "Scott Peters",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "1063",
+      "title": "Veteran Prescription Continuity Act",
+      "introduced": "2017-02-15",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2017-09-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1063",
+      "stages": {},
+      "sponsor": {
+       "id": "O000170",
+       "name": "Beto O'Rourke",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HRES",
+      "number": "128",
+      "title": "Supporting respect for human rights and encouraging inclusive governance in Ethiopia.",
+      "introduced": "2017-02-15",
+      "policyArea": "International Affairs",
+      "latestAction": "Motion to reconsider laid on the table Agreed to without objection.",
+      "latestActionDate": "2018-04-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-resolution/128",
+      "stages": {
+       "house": "2018-04-10"
+      },
+      "sponsor": {
+       "id": "S000522",
+       "name": "CHRISTOPHER SMITH",
+       "party": "R",
+       "state": "NJ"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1049",
+      "title": "Department of Defense Emergency Response Capabilities Database Enhancement Act of 2017",
+      "introduced": "2017-02-14",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Emerging Threats and Capabilities.",
+      "latestActionDate": "2017-03-23",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/1049",
+      "stages": {},
+      "sponsor": {
+       "id": "L000559",
+       "name": "JAMES LANGEVIN",
+       "party": "D",
+       "state": "RI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "628",
+      "title": "Guaranteed Health Coverage for Pre-Existing Conditions Act of 2017",
+      "introduced": "2017-01-24",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2017-01-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/628",
+      "stages": {},
+      "sponsor": {
+       "id": "D000619",
+       "name": "Rodney Davis",
+       "party": "R",
+       "state": "IL"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "473",
+      "title": "Military LAND Act",
+      "introduced": "2017-01-12",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Federal Lands.",
+      "latestActionDate": "2017-02-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/473",
+      "stages": {},
+      "sponsor": {
+       "id": "I000056",
+       "name": "DARRELL ISSA",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "421",
+      "title": "Allowing Greater Access to Safe and Effective Contraception Act",
+      "introduced": "2017-01-10",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2017-01-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/421",
+      "stages": {},
+      "sponsor": {
+       "id": "L000584",
+       "name": "Mia Love",
+       "party": "R",
+       "state": "UT"
+      },
+      "originalCosponsors": 4
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 395,
+    "becameLaw": 18,
+    "topics": [
+     {
+      "name": "Armed Forces and National Security",
+      "count": 74
+     },
+     {
+      "name": "International Affairs",
+      "count": 59
+     },
+     {
+      "name": "Health",
+      "count": 58
+     },
+     {
+      "name": "Taxation",
+      "count": 27
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 25
+     }
+    ]
    }
   }
  }

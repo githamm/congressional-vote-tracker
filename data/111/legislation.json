@@ -321,14 +321,366 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 17,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HR",
+      "number": "6331",
+      "title": "Generating Antibiotic Incentives Now Act of 2010",
+      "introduced": "2010-09-29",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6331",
+      "stages": {},
+      "sponsor": {
+       "id": "G000550",
+       "name": "Phil Gingrey",
+       "party": "R",
+       "state": "GA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "6283",
+      "title": "Repealing Ineffective and Incomplete Abstinence-Only Program Funding Act of 2010",
+      "introduced": "2010-09-29",
+      "policyArea": "Families",
+      "latestAction": "Referred to House Appropriations",
+      "latestActionDate": "2010-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6283",
+      "stages": {},
+      "sponsor": {
+       "id": "L000551",
+       "name": "BARBARA LEE",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "6173",
+      "title": "Regenerative Medicine Promotion Act of 2010",
+      "introduced": "2010-09-22",
+      "policyArea": "Health",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-09-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6173",
+      "stages": {},
+      "sponsor": {
+       "id": "C000243",
+       "name": "MICHAEL CASTLE",
+       "party": "R",
+       "state": "DE"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "6012",
+      "title": "To direct the Secretary of Health and Human Services to review utilization of diabetes screening benefits and make recommendations on outreach programs with respect to such benefits, and for other purposes.",
+      "introduced": "2010-07-30",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2010-09-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/6012",
+      "stages": {
+       "house": "2010-09-28"
+      },
+      "sponsor": {
+       "id": "S001173",
+       "name": "Zachary Space",
+       "party": "D",
+       "state": "OH"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "5820",
+      "title": "Toxic Chemicals Safety Act of 2010",
+      "introduced": "2010-07-22",
+      "policyArea": "Environmental Protection",
+      "latestAction": "Subcommittee Hearings Held.",
+      "latestActionDate": "2010-07-29",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5820",
+      "stages": {},
+      "sponsor": {
+       "id": "R000515",
+       "name": "BOBBY RUSH",
+       "party": "D",
+       "state": "IL"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "5696",
+      "title": "e-KNOW Act",
+      "introduced": "2010-07-01",
+      "policyArea": "Energy",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-07-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/5696",
+      "stages": {},
+      "sponsor": {
+       "id": "M000133",
+       "name": "Edward Markey",
+       "party": "D",
+       "state": "MA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HRES",
+      "number": "1290",
+      "title": "Supporting the goals and ideals of a National Day to Prevent Teen Pregnancy.",
+      "introduced": "2010-04-22",
+      "policyArea": "Families",
+      "latestAction": "Referred to the House Committee on Energy and Commerce.",
+      "latestActionDate": "2010-04-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-resolution/1290",
+      "stages": {},
+      "sponsor": {
+       "id": "M001169",
+       "name": "Christopher Murphy",
+       "party": "D",
+       "state": "CT"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "4750",
+      "title": "Meat Contamination Prevention Act of 2010",
+      "introduced": "2010-03-03",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Referred to the Subcommittee on Livestock, Dairy, and Poultry.",
+      "latestActionDate": "2010-06-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4750",
+      "stages": {},
+      "sponsor": {
+       "id": "S001178",
+       "name": "Mark Schauer",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HCONRES",
+      "number": "230",
+      "title": "Recognizing the 150th anniversary of the Colorado National Guard.",
+      "introduced": "2010-01-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Military Personnel.",
+      "latestActionDate": "2010-02-18",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-concurrent-resolution/230",
+      "stages": {},
+      "sponsor": {
+       "id": "C001077",
+       "name": "Mike Coffman",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4260",
+      "title": "Transitional Federal Medical Assistance Percentage Act",
+      "introduced": "2009-12-10",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-12-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4260",
+      "stages": {},
+      "sponsor": {
+       "id": "G000410",
+       "name": "GENE GREEN",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "4131",
+      "title": "Smoke-Free Federal Workplace Act",
+      "introduced": "2009-11-19",
+      "policyArea": "Government Operations and Politics",
+      "latestAction": "Referred to the Subcommittee on Courts and Competition Policy.",
+      "latestActionDate": "2010-01-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/4131",
+      "stages": {},
+      "sponsor": {
+       "id": "A000364",
+       "name": "John Adler",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3596",
+      "title": "Health Insurance Industry Antitrust Enforcement Act of 2009",
+      "introduced": "2009-09-17",
+      "policyArea": "Commerce",
+      "latestAction": "Placed on the Union Calendar, Calendar No. 184.",
+      "latestActionDate": "2009-11-02",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3596",
+      "stages": {
+       "reported": "2009-11-02"
+      },
+      "sponsor": {
+       "id": "C000714",
+       "name": "JOHN CONYERS",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "2749",
+      "title": "Food Safety Enhancement Act of 2009",
+      "introduced": "2009-06-08",
+      "policyArea": "Agriculture and Food",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2009-08-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2749",
+      "stages": {
+       "reported": "2009-07-29",
+       "house": "2009-07-30"
+      },
+      "sponsor": {
+       "id": "D000355",
+       "name": "JOHN DINGELL",
+       "party": "D",
+       "state": "MI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2688",
+      "title": "Empowered at Home Act of 2009",
+      "introduced": "2009-06-03",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-06-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2688",
+      "stages": {},
+      "sponsor": {
+       "id": "P000034",
+       "name": "FRANK PALLONE",
+       "party": "D",
+       "state": "NJ"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "2231",
+      "title": "Public Health Emergency Response Act of 2009",
+      "introduced": "2009-05-04",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-05-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2231",
+      "stages": {},
+      "sponsor": {
+       "id": "C001036",
+       "name": "LOIS CAPPS",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1828",
+      "title": "Charlie Wolf Nuclear Workers Compensation Act",
+      "introduced": "2009-03-31",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2009-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1828",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1402",
+      "title": "Catalyst to Better Diabetes Care Act of 2009",
+      "introduced": "2009-03-09",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2009-03-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1402",
+      "stages": {},
+      "sponsor": {
+       "id": "S001173",
+       "name": "Zachary Space",
+       "party": "D",
+       "state": "OH"
+      },
+      "originalCosponsors": 5
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 414,
+    "becameLaw": 13,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 133
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 27
+     },
+     {
+      "name": "Education",
+      "count": 26
+     },
+     {
+      "name": "International Affairs",
+      "count": 24
+     },
+     {
+      "name": "Civil Rights and Liberties, Minority Issues",
+      "count": 17
+     }
+    ]
    }
   },
   "P000598": {
@@ -1977,14 +2329,188 @@
     ]
    },
    "coled": {
-    "count": 0,
+    "count": 8,
     "becameLaw": 0,
-    "bills": []
+    "bills": [
+     {
+      "type": "HCONRES",
+      "number": "300",
+      "title": "Recognizing the 40th anniversary of the Cumbres and Toltec Scenic Railroad.",
+      "introduced": "2010-07-21",
+      "policyArea": "Transportation and Public Works",
+      "latestAction": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+      "latestActionDate": "2010-07-22",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-concurrent-resolution/300",
+      "stages": {},
+      "sponsor": {
+       "id": "L000570",
+       "name": "Ben Luján",
+       "party": "D",
+       "state": "NM"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3524",
+      "title": "Family Farm Preservation and Conservation Estate Tax Act",
+      "introduced": "2009-07-31",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-07-31",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3524",
+      "stages": {},
+      "sponsor": {
+       "id": "T000460",
+       "name": "MIKE THOMPSON",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "3417",
+      "title": "Rocky Mountain Science Collections Center Act of 2009",
+      "introduced": "2009-07-30",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests and Public Lands.",
+      "latestActionDate": "2009-08-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/3417",
+      "stages": {},
+      "sponsor": {
+       "id": "D000197",
+       "name": "DIANA DEGETTE",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "2202",
+      "title": "Child Safety and Home Security Act of 2009",
+      "introduced": "2009-04-30",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-04-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/2202",
+      "stages": {},
+      "sponsor": {
+       "id": "C001050",
+       "name": "Dennis Cardoza",
+       "party": "D",
+       "state": "CA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1828",
+      "title": "Charlie Wolf Nuclear Workers Compensation Act",
+      "introduced": "2009-03-31",
+      "policyArea": "Labor and Employment",
+      "latestAction": "Referred to the Subcommittee on Workforce Protections.",
+      "latestActionDate": "2009-05-14",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1828",
+      "stages": {},
+      "sponsor": {
+       "id": "P000598",
+       "name": "Jared Polis",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1276",
+      "title": "Social Security Protection and Truth in Budgeting Act of 2009",
+      "introduced": "2009-03-03",
+      "policyArea": "Social Welfare",
+      "latestAction": "Referred to House Budget",
+      "latestActionDate": "2009-03-03",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1276",
+      "stages": {},
+      "sponsor": {
+       "id": "M001140",
+       "name": "DENNIS MOORE",
+       "party": "D",
+       "state": "KS"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "1223",
+      "title": "Sustain, Support and Defend Act of 2009",
+      "introduced": "2009-02-26",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the Subcommittee on Readiness.",
+      "latestActionDate": "2009-04-27",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1223",
+      "stages": {},
+      "sponsor": {
+       "id": "F000450",
+       "name": "Virginia Foxx",
+       "party": "R",
+       "state": "NC"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "1192",
+      "title": "Alzheimer's Family Assistance Act of 2009",
+      "introduced": "2009-02-25",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2009-02-25",
+      "law": null,
+      "url": "https://www.congress.gov/bill/111th-congress/house-bill/1192",
+      "stages": {},
+      "sponsor": {
+       "id": "J000126",
+       "name": "EDDIE JOHNSON",
+       "party": "D",
+       "state": "TX"
+      },
+      "originalCosponsors": 1
+     }
+    ]
    },
    "cosponsored": {
-    "count": 0,
-    "becameLaw": 0,
-    "topics": []
+    "count": 207,
+    "becameLaw": 13,
+    "topics": [
+     {
+      "name": "Health",
+      "count": 43
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 18
+     },
+     {
+      "name": "Taxation",
+      "count": 17
+     },
+     {
+      "name": "Government Operations and Politics",
+      "count": 15
+     },
+     {
+      "name": "International Affairs",
+      "count": 12
+     }
+    ]
    }
   },
   "M001172": {

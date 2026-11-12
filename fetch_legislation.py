@@ -116,13 +116,15 @@ class Client:
             time.sleep(wait)
         raise SystemExit(f"Gave up on {path} after repeated errors.")
 
-    def member_items(self, bioguide, kind, min_congress):
-        """A member's sponsored- or cosponsored-legislation items, back to min_congress.
+    def member_items(self, bioguide, kind):
+        """All of a member's sponsored- or cosponsored-legislation items.
 
-        The API lists items newest first, so paging stops at the first page
-        that reaches an older Congress (long-serving members have thousands).
+        Every page is fetched: the API does not list items in Congress order
+        (Mark Udall's first page mixes the 109th-113th), so stopping at the
+        first older item dropped whole Congresses for long-serving members.
+        A short read fails loudly rather than silently undercounting.
         """
-        items, offset = [], 0
+        items, offset, total = [], 0, 0
         while True:
             data = self.get(f"/member/{bioguide}/{kind}", limit=PAGE, offset=offset)
             key = next(k for k in data if k.endswith("Legislation"))
@@ -131,9 +133,10 @@ class Client:
             offset += PAGE
             total = (data.get("pagination") or {}).get("count", 0)
             if not page or offset >= total:
-                return items
-            if any((it.get("congress") or 999) < min_congress for it in page):
-                return items
+                break
+        if len(items) < total:
+            raise SystemExit(f"Got {len(items)} of {total} {kind} items for {bioguide}; try again.")
+        return items
 
 
 def bill_record(item):
@@ -436,13 +439,12 @@ def main():
     for c in congresses:
         for m in config["congresses"][c]["members"]:
             wanted[m["id"]] = m
-    oldest = min(int(c) for c in congresses)
     fetched = {}
     for mid, m in wanted.items():
         print(f"{m['fullName']}: fetching sponsored and cosponsored bills...", flush=True)
         fetched[mid] = {
-            "sponsored": split_by_congress(client.member_items(mid, "sponsored-legislation", oldest)),
-            "cosponsored": split_by_congress(client.member_items(mid, "cosponsored-legislation", oldest)),
+            "sponsored": split_by_congress(client.member_items(mid, "sponsored-legislation")),
+            "cosponsored": split_by_congress(client.member_items(mid, "cosponsored-legislation")),
         }
 
     today = dt.date.today().isoformat()

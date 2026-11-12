@@ -1,7 +1,7 @@
 {
  "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
  "congress": 116,
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "members": {
   "C001121": {
    "sponsored": {
@@ -1115,7 +1115,7 @@
     ]
    },
    "coled": {
-    "count": 17,
+    "count": 20,
     "becameLaw": 0,
     "bills": [
      {
@@ -1445,32 +1445,93 @@
        "state": "NY"
       },
       "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "601",
+      "title": "Medical Cannabis Research Act of 2019",
+      "introduced": "2019-01-16",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2019-03-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/601",
+      "stages": {},
+      "sponsor": {
+       "id": "G000578",
+       "name": "Matt Gaetz",
+       "party": "R",
+       "state": "FL"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "501",
+      "title": "Poison Center Network Enhancement Act of 2019",
+      "introduced": "2019-01-11",
+      "policyArea": "Health",
+      "latestAction": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "latestActionDate": "2019-02-26",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/501",
+      "stages": {
+       "house": "2019-02-25"
+      },
+      "sponsor": {
+       "id": "E000179",
+       "name": "ELIOT ENGEL",
+       "party": "D",
+       "state": "NY"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "347",
+      "title": "Responsible Disposal Reauthorization Act of 2019",
+      "introduced": "2019-01-08",
+      "policyArea": "Energy",
+      "latestAction": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 187.",
+      "latestActionDate": "2019-09-10",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/347",
+      "stages": {
+       "house": "2019-03-05"
+      },
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
      }
     ]
    },
    "cosponsored": {
-    "count": 390,
-    "becameLaw": 13,
+    "count": 456,
+    "becameLaw": 18,
     "topics": [
      {
       "name": "Health",
-      "count": 80
-     },
-     {
-      "name": "International Affairs",
-      "count": 24
+      "count": 87
      },
      {
       "name": "Government Operations and Politics",
-      "count": 24
+      "count": 36
      },
      {
       "name": "Crime and Law Enforcement",
-      "count": 21
+      "count": 30
      },
      {
-      "name": "Environmental Protection",
-      "count": 21
+      "name": "International Affairs",
+      "count": 29
+     },
+     {
+      "name": "Public Lands and Natural Resources",
+      "count": 26
      }
     ]
    }
@@ -2863,7 +2924,7 @@
     ]
    },
    "coled": {
-    "count": 11,
+    "count": 13,
     "becameLaw": 0,
     "bills": [
      {
@@ -3076,32 +3137,70 @@
        "state": "CA"
       },
       "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "1029",
+      "title": "Space Resources Institute Act",
+      "introduced": "2019-02-06",
+      "policyArea": "Science, Technology, Communications",
+      "latestAction": "Referred to the Subcommittee on Space and Aeronautics.",
+      "latestActionDate": "2019-02-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1029",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "675",
+      "title": "Safe Helicopters Now Act",
+      "introduced": "2019-01-17",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2019-01-17",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/675",
+      "stages": {},
+      "sponsor": {
+       "id": "N000191",
+       "name": "Joe Neguse",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 1
      }
     ]
    },
    "cosponsored": {
-    "count": 419,
-    "becameLaw": 15,
+    "count": 471,
+    "becameLaw": 19,
     "topics": [
      {
       "name": "Health",
-      "count": 73
+      "count": 75
      },
      {
       "name": "Armed Forces and National Security",
-      "count": 29
-     },
-     {
-      "name": "Crime and Law Enforcement",
-      "count": 29
-     },
-     {
-      "name": "International Affairs",
-      "count": 26
+      "count": 37
      },
      {
       "name": "Government Operations and Politics",
-      "count": 25
+      "count": 36
+     },
+     {
+      "name": "Crime and Law Enforcement",
+      "count": 35
+     },
+     {
+      "name": "Taxation",
+      "count": 28
      }
     ]
    }
@@ -3698,7 +3797,7 @@
     ]
    },
    "coled": {
-    "count": 13,
+    "count": 18,
     "becameLaw": 0,
     "bills": [
      {
@@ -3949,32 +4048,127 @@
        "state": "WY"
       },
       "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "606",
+      "title": "Fairness in Firearm Testing Act",
+      "introduced": "2019-01-16",
+      "policyArea": "Crime and Law Enforcement",
+      "latestAction": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "latestActionDate": "2019-03-04",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/606",
+      "stages": {},
+      "sponsor": {
+       "id": "H001071",
+       "name": "Jody Hice",
+       "party": "R",
+       "state": "GA"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "580",
+      "title": "Protection and Transparency for Adjacent Landowners Act",
+      "introduced": "2019-01-15",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on Conservation and Forestry.",
+      "latestActionDate": "2019-02-07",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/580",
+      "stages": {},
+      "sponsor": {
+       "id": "T000470",
+       "name": "Scott Tipton",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HRES",
+      "number": "44",
+      "title": "Expressing support for the designation of the week of January 20 through January 26, 2019, as \"National School Choice Week\".",
+      "introduced": "2019-01-15",
+      "policyArea": "Education",
+      "latestAction": "Sponsor introductory remarks on measure. (CR H665-667)",
+      "latestActionDate": "2019-01-16",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/44",
+      "stages": {},
+      "sponsor": {
+       "id": "M001201",
+       "name": "Paul Mitchell",
+       "party": "R",
+       "state": "MI"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "475",
+      "title": "Arapaho National Forest Boundary Adjustment Act of 2019",
+      "introduced": "2019-01-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/475",
+      "stages": {},
+      "sponsor": {
+       "id": "N000191",
+       "name": "Joe Neguse",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "474",
+      "title": "Bolts Ditch Access and Use Act",
+      "introduced": "2019-01-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/474",
+      "stages": {},
+      "sponsor": {
+       "id": "N000191",
+       "name": "Joe Neguse",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
      }
     ]
    },
    "cosponsored": {
-    "count": 209,
-    "becameLaw": 12,
+    "count": 255,
+    "becameLaw": 13,
     "topics": [
      {
       "name": "Health",
-      "count": 36
+      "count": 43
      },
      {
       "name": "International Affairs",
-      "count": 25
-     },
-     {
-      "name": "Armed Forces and National Security",
-      "count": 19
+      "count": 31
      },
      {
       "name": "Taxation",
-      "count": 18
+      "count": 23
      },
      {
       "name": "Crime and Law Enforcement",
-      "count": 16
+      "count": 23
+     },
+     {
+      "name": "Armed Forces and National Security",
+      "count": 21
      }
     ]
    }
@@ -4432,7 +4626,7 @@
     ]
    },
    "coled": {
-    "count": 14,
+    "count": 23,
     "becameLaw": 0,
     "bills": [
      {
@@ -4703,28 +4897,199 @@
        "state": "MN"
       },
       "originalCosponsors": 1
+     },
+     {
+      "type": "HR",
+      "number": "900",
+      "title": "ACO Assignment Improvement Act of 2019",
+      "introduced": "2019-01-30",
+      "policyArea": "Health",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-01-30",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/900",
+      "stages": {},
+      "sponsor": {
+       "id": "K000381",
+       "name": "Derek Kilmer",
+       "party": "D",
+       "state": "WA"
+      },
+      "originalCosponsors": 4
+     },
+     {
+      "type": "HR",
+      "number": "749",
+      "title": "Veterans Right to Expediency Act",
+      "introduced": "2019-01-24",
+      "policyArea": "Armed Forces and National Security",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2019-01-24",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/749",
+      "stages": {},
+      "sponsor": {
+       "id": "L000566",
+       "name": "Robert Latta",
+       "party": "R",
+       "state": "OH"
+      },
+      "originalCosponsors": 5
+     },
+     {
+      "type": "HR",
+      "number": "603",
+      "title": "Health Savings Account Expansion Act of 2019",
+      "introduced": "2019-01-16",
+      "policyArea": "Taxation",
+      "latestAction": "Referred to the Subcommittee on Health.",
+      "latestActionDate": "2019-03-01",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/603",
+      "stages": {},
+      "sponsor": {
+       "id": "G000579",
+       "name": "Mike Gallagher",
+       "party": "R",
+       "state": "WI"
+      },
+      "originalCosponsors": 3
+     },
+     {
+      "type": "HR",
+      "number": "475",
+      "title": "Arapaho National Forest Boundary Adjustment Act of 2019",
+      "introduced": "2019-01-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/475",
+      "stages": {},
+      "sponsor": {
+       "id": "N000191",
+       "name": "Joe Neguse",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "474",
+      "title": "Bolts Ditch Access and Use Act",
+      "introduced": "2019-01-10",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/474",
+      "stages": {},
+      "sponsor": {
+       "id": "N000191",
+       "name": "Joe Neguse",
+       "party": "D",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "388",
+      "title": "Financial Reporting Threshold Modernization Act",
+      "introduced": "2019-01-09",
+      "policyArea": "Finance and Financial Sector",
+      "latestAction": "Referred to the House Committee on Financial Services.",
+      "latestActionDate": "2019-01-09",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/388",
+      "stages": {},
+      "sponsor": {
+       "id": "L000583",
+       "name": "Barry Loudermilk",
+       "party": "R",
+       "state": "GA"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "387",
+      "title": "Crags, Colorado Land Exchange Act of 2019",
+      "introduced": "2019-01-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/387",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "386",
+      "title": "To update the map of, and modify the maximum acreage available for inclusion in, the Florissant Fossil Beds National Monument.",
+      "introduced": "2019-01-09",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/386",
+      "stages": {},
+      "sponsor": {
+       "id": "L000564",
+       "name": "Doug Lamborn",
+       "party": "R",
+       "state": "CO"
+      },
+      "originalCosponsors": 2
+     },
+     {
+      "type": "HR",
+      "number": "258",
+      "title": "To authorize the Secretary of the Interior to establish fees for medical services provided in units of the National Park System, and for other purposes.",
+      "introduced": "2019-01-04",
+      "policyArea": "Public Lands and Natural Resources",
+      "latestAction": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
+      "latestActionDate": "2019-02-05",
+      "law": null,
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/258",
+      "stages": {},
+      "sponsor": {
+       "id": "M001177",
+       "name": "Tom McClintock",
+       "party": "R",
+       "state": "CA"
+      },
+      "originalCosponsors": 1
      }
     ]
    },
    "cosponsored": {
-    "count": 250,
-    "becameLaw": 12,
+    "count": 284,
+    "becameLaw": 15,
     "topics": [
      {
-      "name": "Health",
-      "count": 39
+      "name": "Armed Forces and National Security",
+      "count": 42
      },
      {
-      "name": "Armed Forces and National Security",
-      "count": 34
+      "name": "Health",
+      "count": 41
      },
      {
       "name": "Taxation",
-      "count": 25
+      "count": 28
      },
      {
       "name": "Crime and Law Enforcement",
-      "count": 21
+      "count": 23
      },
      {
       "name": "International Affairs",
