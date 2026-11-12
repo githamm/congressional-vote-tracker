@@ -20,6 +20,10 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      # 'true' when the Congress.gov key secret exists (secrets can't be
+      # tested directly in a step's if:).
+      HAS_CONGRESS_KEY: ${{ secrets.CONGRESS_API_KEY != '' }}
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -38,6 +42,17 @@ jobs:
         # --copy-to keeps the root all_votes.csv current for the previously
         # deployed page; drop it once the website runs the new index.html.
         run: python vote_scraper.py --year "$(date -u +%Y)" --incremental --copy-to all_votes.csv
+
+      # Sponsored/cosponsored bills from the Congress.gov API, written to
+      # data/<congress>/legislation.json. Needs the CONGRESS_API_KEY
+      # repository secret; skipped without it. continue-on-error so an API
+      # outage never blocks the vote data from being committed.
+      - name: Fetch sponsored and cosponsored bills
+        if: env.HAS_CONGRESS_KEY == 'true'
+        continue-on-error: true
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        run: python fetch_legislation.py
 
       - name: Write job summary
         run: |
