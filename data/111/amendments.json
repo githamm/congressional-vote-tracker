@@ -1,0 +1,2139 @@
+{
+ "_comment": "Amendments that got a recorded House vote, keyed by roll call: who offered them and what they did, from the Congress.gov API (fetch_legislation.py). 'bills' records when each bill's amendments were last checked.",
+ "congress": 111,
+ "updated": "2026-11-12",
+ "bills": {
+  "H CON RES 85": "2026-11-12",
+  "H R 1": "2026-11-12",
+  "H R 1018": "2026-11-12",
+  "H R 1106": "2026-11-12",
+  "H R 1145": "2026-11-12",
+  "H R 1256": "2026-11-12",
+  "H R 1262": "2026-11-12",
+  "H R 1388": "2026-11-12",
+  "H R 1404": "2026-11-12",
+  "H R 146": "2026-11-12",
+  "H R 1586": "2026-11-12",
+  "H R 1612": "2026-11-12",
+  "H R 1664": "2026-11-12",
+  "H R 1728": "2026-11-12",
+  "H R 1777": "2026-11-12",
+  "H R 1886": "2026-11-12",
+  "H R 2187": "2026-11-12",
+  "H R 2200": "2026-11-12",
+  "H R 2314": "2026-11-12",
+  "H R 2352": "2026-11-12",
+  "H R 2410": "2026-11-12",
+  "H R 2454": "2026-11-12",
+  "H R 2499": "2026-11-12",
+  "H R 2647": "2026-11-12",
+  "H R 2701": "2026-11-12",
+  "H R 2847": "2026-11-12",
+  "H R 2868": "2026-11-12",
+  "H R 2892": "2026-11-12",
+  "H R 2920": "2026-11-12",
+  "H R 2965": "2026-11-12",
+  "H R 2996": "2026-11-12",
+  "H R 2997": "2026-11-12",
+  "H R 3081": "2026-11-12",
+  "H R 3082": "2026-11-12",
+  "H R 3170": "2026-11-12",
+  "H R 3183": "2026-11-12",
+  "H R 3221": "2026-11-12",
+  "H R 3246": "2026-11-12",
+  "H R 3269": "2026-11-12",
+  "H R 3288": "2026-11-12",
+  "H R 3293": "2026-11-12",
+  "H R 3326": "2026-11-12",
+  "H R 3534": "2026-11-12",
+  "H R 3548": "2026-11-12",
+  "H R 3585": "2026-11-12",
+  "H R 3590": "2026-11-12",
+  "H R 3619": "2026-11-12",
+  "H R 3639": "2026-11-12",
+  "H R 3644": "2026-11-12",
+  "H R 3791": "2026-11-12",
+  "H R 384": "2026-11-12",
+  "H R 3854": "2026-11-12",
+  "H R 3961": "2026-11-12",
+  "H R 3962": "2026-11-12",
+  "H R 4061": "2026-11-12",
+  "H R 4173": "2026-11-12",
+  "H R 4247": "2026-11-12",
+  "H R 4715": "2026-11-12",
+  "H R 4785": "2026-11-12",
+  "H R 4853": "2026-11-12",
+  "H R 4872": "2026-11-12",
+  "H R 4899": "2026-11-12",
+  "H R 5013": "2026-11-12",
+  "H R 5019": "2026-11-12",
+  "H R 5072": "2026-11-12",
+  "H R 5114": "2026-11-12",
+  "H R 5116": "2026-11-12",
+  "H R 5136": "2026-11-12",
+  "H R 5175": "2026-11-12",
+  "H R 5281": "2026-11-12",
+  "H R 5297": "2026-11-12",
+  "H R 5822": "2026-11-12",
+  "H R 5850": "2026-11-12",
+  "H R 626": "2026-11-12",
+  "H R 627": "2026-11-12",
+  "H R 730": "2026-11-12",
+  "H R 915": "2026-11-12",
+  "H RES 1737": "2026-11-12"
+ },
+ "votes": {
+  "2009-19": {
+   "author": "Frank (MA)",
+   "purpose": "to make sundry clarifications with respect to the use of TARP funds.",
+   "amendment": "H.Amdt. 2",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/2"
+  },
+  "2009-20": {
+   "author": "Hensarling",
+   "purpose": "An amendment numbered 3 in House Report 111-3 to remove the Secretary's authority to delegate an observer to attend meetings of the board of directors of any assisted institution.",
+   "amendment": "H.Amdt. 4",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/4"
+  },
+  "2009-21": {
+   "author": "Bachmann",
+   "purpose": "to eliminate changes and additional funding for the HOPE for Homeowners program.",
+   "amendment": "H.Amdt. 6",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/6"
+  },
+  "2009-22": {
+   "author": "Murphy, Patrick",
+   "purpose": "An amendment printed 7 printed in House Report 111-3 to require the Federal Reserve to disclose detailed information regarding the Federal Reserves Mortgage-Backed Securities purchase program.",
+   "amendment": "H.Amdt. 7",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/7"
+  },
+  "2009-23": {
+   "author": "Hinchey",
+   "purpose": "to require Treasury to immediately obtain information from recipients of TARP funds and their precise use of funds allocated prior to January 1, 2009, and require the Treasury to conduct an analysis of the use of those funds within 30 days of enactment.",
+   "amendment": "H.Amdt. 11",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/11"
+  },
+  "2009-42": {
+   "author": "Neugebauer",
+   "purpose": "to strike the appropriations provisions from the bill.",
+   "amendment": "H.Amdt. 16",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/16"
+  },
+  "2009-43": {
+   "author": "Flake",
+   "purpose": "to strike funding for Amtrak.",
+   "amendment": "H.Amdt. 18",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/18"
+  },
+  "2009-44": {
+   "author": "Camp",
+   "purpose": "An amendment in the nature of a substitute numbered 11 printed in Part B of House Report 111-9 to strike everything after enacting clause and adds income tax rate deductions for bottom two income tax brackets, alternative minimum tax relief, small business deduction, bonus depreciation, small business expensing, expanded carryback of net operating losses, improved home buyer credit, unemployment benefit tax exemption, health insurance premium deduction, repeal of 3 percent withholdings requirement for government contractors, extension of unemployment benefits, and a Sense of Congress against tax increases to offset outlays.",
+   "amendment": "H.Amdt. 22",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/22"
+  },
+  "2009-100": {
+   "author": "Lofgren, Zoe",
+   "purpose": "to allow a court to consider, lowering the interest rate to reduce the debtor's mortgage payments according to the Administration's Homeowner Affordability and Stability Plan as implemented March 4, 2009; give the mortgage holder a greater proportion of the appreciation in a home on a graduated basis if it is sold during the 5-year period that the case is pending; and provide that when a debtor seeks to reduce a mortgage's principal, the court must determine wheter such relief is in good faith based on whether debtor was offered a mortgage modification under the Administration's plan and the debtor was able to afford payments under such plan.",
+   "amendment": "H.Amdt. 24",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/24"
+  },
+  "2009-101": {
+   "author": "Price (GA)",
+   "purpose": "to provide that if a homeowner who has had a mortgage modified in a bankruptcy proceeding sells the home at a profit, the lender can recapture the amount of principal lost in the modification.",
+   "amendment": "H.Amdt. 25",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/25"
+  },
+  "2009-102": {
+   "author": "Peters",
+   "purpose": "to provide that, in the case of a debtor whose home is in foreclosure, the debtor could meet the pre-filing credit counseling requirement by receiving counseling either before filing or up to 30 days after filing.",
+   "amendment": "H.Amdt. 26",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/26"
+  },
+  "2009-122": {
+   "author": "Mack",
+   "purpose": "to remove all Davis-Bacon prevailing wage provisions from the bill.",
+   "amendment": "H.Amdt. 29",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/29"
+  },
+  "2009-133": {
+   "author": "Pingree (ME)",
+   "purpose": "to add to the list of approved Clean Energy Corps activities the development of clean energy programs designed to meet the needs of rural communities.",
+   "amendment": "H.Amdt. 39",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/39"
+  },
+  "2009-134": {
+   "author": "Loebsack",
+   "purpose": "to authorize a new grant program, the Volunteer Generation Fund, to be administered by the Corporation for National and Community Service.",
+   "amendment": "H.Amdt. 41",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/41"
+  },
+  "2009-135": {
+   "author": "Roe (TN)",
+   "purpose": "to set an authorization for AmeriCorps, the Trust, Innovative programs, audits and evaluations at the FY 2008 level for FY 2010, and as such sums as may be necessary for fiscal years 2011 through 2014.",
+   "amendment": "H.Amdt. 42",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/42"
+  },
+  "2009-136": {
+   "author": "Kilroy",
+   "purpose": "to provide volunteers to supervise physical education classes at elementary and secondary schools, provide nutrition education to students, and supervise, organize, and manage after school physical activity/education programs. The amendment would also provide services to these elderly people through food deliveries, legal and medical services provided in the home, and transportation.",
+   "amendment": "H.Amdt. 43",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/43"
+  },
+  "2009-137": {
+   "author": "Markey (CO)",
+   "purpose": "to increase the operational support given to organizations for full-time individuals enrolled in an approved national service position. The amendment proposes increasing the support from $600 to $800 and from $800 to $1000 if program supports at least 50 percent disadvantaged youth.",
+   "amendment": "H.Amdt. 45",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/45"
+  },
+  "2009-138": {
+   "author": "Titus",
+   "purpose": "to create a National Service Reserve Corps and requires an annual service requirement of at least 10 hours and/or annual training. A member of the National Service Reserve Corps is one who has completed a term of national service, fulfilled training, and will respond to national disasters and other emergencies. These individuals will be listed in a national database for the ease of immediate deployment in case of emergency.",
+   "amendment": "H.Amdt. 48",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/48"
+  },
+  "2009-157": {
+   "author": "Perlmutter",
+   "purpose": "to clarify that authorized suppression activities for the Flame Fund include containment activities in response to crisis insect infestations to reduce the likelihood of wildfires.",
+   "amendment": "H.Amdt. 51",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/51"
+  },
+  "2009-158": {
+   "author": "Hastings (WA)",
+   "purpose": "to require advance notice, in writing, to adjacent landowners whenever the Department of Agriculture sets a prescribed fire on National Forest System land.",
+   "amendment": "H.Amdt. 53",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/53"
+  },
+  "2009-159": {
+   "author": "Minnick",
+   "purpose": "to require that the Secretaries, in considering severity of and threat posed by a fire for the purposes of determining whether to declare that a wildland fire suppression activity is eligible for funding from the Flame Fund, take into account areas where insect infestation has created an extreme risk for wildfire.",
+   "amendment": "H.Amdt. 57",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/57"
+  },
+  "2009-160": {
+   "author": "Kirkpatrick (AZ)",
+   "purpose": "to amend the definition of `fire-ready community' in the bill to provide that a community satisfies the definition if it is located within a priority area identified by the fire risk maps required by the bill, and meets two of the other four criteria listed in the bill for `fire-ready communities.'.",
+   "amendment": "H.Amdt. 60",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/60"
+  },
+  "2009-161": {
+   "author": "Goodlatte",
+   "purpose": "to authorize the Secretary of Agriculture to enter into contracts or cooperative agreements with a State Forester to prepare and implement `good neighbor' projects on National Forest System land to complement any similar project being performed on bordering or adjacent non-Federal land. Would provide that the decision to proceed with a good neighbor project is in the Secretary's sole discretion. Defines good neighbor projects to include certain fuels reduction projects.",
+   "amendment": "H.Amdt. 61",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/61"
+  },
+  "2009-180": {
+   "author": "Bean",
+   "purpose": "to allow institutions that enter into a payment schedule with Treasury on terms set by Treasury to no longer be subject to the bonus and compensation restrictions created by the Act. If an institution defaults on its payment schedule, any bonuses and compensation that exceeds the regulations promulgated in accordance to the Act would be subject to clawback.",
+   "amendment": "H.Amdt. 66",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/66"
+  },
+  "2009-181": {
+   "author": "Dahlkemper",
+   "purpose": "to clarify the definition of executive compensation to include payments made before, during and after employment, and would make explicit that the definition of compensation considered under the standards to be prepared by the Secretary to include payment of money, transfers of property or provision of services.",
+   "amendment": "H.Amdt. 69",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/69"
+  },
+  "2009-185": {
+   "author": "Buyer",
+   "purpose": "An amendment in the nature of a substitute printed in part B of House Report 111-72 to create a Tobacco Harm Reduction Center under the Department of HHS to regulate all tobacco products and establishes a regulatory scheme to provide for tobacco prevention, education, and cessation programs.",
+   "amendment": "H.Amdt. 71",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/71"
+  },
+  "2009-188": {
+   "author": "Woolsey",
+   "purpose": "An amendment in the nature of a substitute numbered 1 printed in House Report 111-73 to provide $991 billion for non-military di scretionary spending in FY10, $469 billion above President Obama's request; provides $479 billion as sufficient defense spending level; and reduces the deficit by 58% by FY2012. Savings come from eliminating Cold War era weapons systems, targeting waste, fraud, and abuse at the Pentagon, military redeployment and military contractors out of Iraq, repeal of Bush tax cuts for those making more than $250,000 a year, crackdown on corporate welfare and reinstating a quarter-cent tax (0.25%) on all stock transactions. Spending increases include health care for all Americans, cutting poverty in half in ten years, additional economic stimulus, increased Foreign Assistance, combating global warming and establishing energy independence, providing comprehensive education, and providing health care to veterans as an entitlement.",
+   "amendment": "H.Amdt. 72",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/72"
+  },
+  "2009-189": {
+   "author": "Jordan (OH)",
+   "purpose": "An amendment in the nature of a substitute numbered 2 printed in House Report 111-73 to set spending levels, revenue levels, and deficit levels at lower amounts than what is projected by the CBO baseline or what is proposed in the President's budget request. The substitute provides defense funding at the President's level and for non-defense discretionary spending, the substitute provides a hard freeze to non-defense discretionary spending, plus a one percent reduction to prior year spending levels, and also assumes other savings from reductions to lower-priority spending.",
+   "amendment": "H.Amdt. 73",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/73"
+  },
+  "2009-190": {
+   "author": "Lee (CA)",
+   "purpose": "An amendment in the nature of a substitute numbered 3 printed in House Report 111-73 to build upon the historic investments made by the President's budget and the Majority's budget. However, the budget builds on these investments by immediately repealing the 2001 and 2003 Bush-era tax cuts that benefit the wealthiest Americans. The budget also adds an extremely modest 0.565% surtax on adjustable gross income exceeding $500,000 for individuals ($1 million for joint filers). The budget shifts those savings and additional revenue towards Education, Health Care, Job Training, International Aid, Justice, Transportation, and Veterans, while still producing a five year deficit that is $67 billion smaller than the Majority's budget.",
+   "amendment": "H.Amdt. 74",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/74"
+  },
+  "2009-191": {
+   "author": "Ryan (WI)",
+   "purpose": "An amendment in the nature of a substitute numbered 4 printed in House Report 111-73 which seeks to spend $4.8 trillion less than the President's budget over 10 years; sets spending levels which are 20.7% of GDP; freezes non-defense/non- veterans spending; borrows $3.6 trillion less than the President's budget over 10 years; seeks to hold debt to 65% of GDP; and puts forward a long-term budget to bring debt under control. The substitute also seeks to permanently extend 2001 and 2003 tax relief; permanently fix the Alternative Minimum Tax; create 2.1 million more jobs than the Democrats' budget; suspend capital gains taxes through 2010; and reduce the corporate tax rate to 25% from the current 35%. The amendment also seeks to provide $5 billion over the President's budget for Defense; $540 million over the President's budget for Veterans; to save $50 billion annually for war or unmet defense needs; and provide for health and retirement security by reforming programs to ensure they provide benefits for future beneficiaries.",
+   "amendment": "H.Amdt. 75",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/75"
+  },
+  "2009-200": {
+   "author": "Kosmas",
+   "purpose": "to direct agencies under the interagency committee to assess the impact of natural disasters, such as floods, hurricanes, and tornadoes on water resources.",
+   "amendment": "H.Amdt. 77",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/77"
+  },
+  "2009-201": {
+   "author": "Teague",
+   "purpose": "to require that the plan's analysis of the energy required to provide reliable water supplies and the water required for the production of alternative and renewable energy resources.",
+   "amendment": "H.Amdt. 83",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/83"
+  },
+  "2009-202": {
+   "author": "Roskam",
+   "purpose": "to require GAO to study whether any of the requirements of the underlying legislation are duplicative of existing programs. Prior to implementation of the bill, the President will, based upon the GAO report, determine whether the programs are duplicative or not. If the President differs in his determination from the GAO conclusions, he must offer a justification for his determination. The effective date is delayed until the President has made that determination.",
+   "amendment": "H.Amdt. 84",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/84"
+  },
+  "2009-203": {
+   "author": "Shadegg",
+   "purpose": "to require the interagency committee to identify and recommend against duplication of Federal water-related research, development, and technological innovation activities by more than one agency or program. It also would require the President to ensure that Federal agencies do not request appropriations for activities duplicated by state, local, and tribal governments.",
+   "amendment": "H.Amdt. 86",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/86"
+  },
+  "2009-225": {
+   "author": "Slaughter",
+   "purpose": "to set underwriting standards for students' credit cards, including limiting credit lines to the greater of 20 percent of a student's annual income or $500, without a co-signer and requiring creditors to obtain a proof of income, income history, and credit history from college students before approving credit applications.",
+   "amendment": "H.Amdt. 92",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/92"
+  },
+  "2009-226": {
+   "author": "Maloney",
+   "purpose": "to require credit cardholders to opt-into receiving over-the-limit protection on their credit card in order for a credit card company to charge an over-the-limit fee. Allows for transactions that go over the limit to be completed for operational reasons as long as they are of a de minimis amount, but the credit card company is not allowed to charge a fee.",
+   "amendment": "H.Amdt. 97",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/97"
+  },
+  "2009-238": {
+   "author": "Frank (MA)",
+   "purpose": "to provide that no funds in the bill for legal assistance or housing counseling grants may be distributed to any organization which has been or which employs an individual who has been convicted for a violation under Federal law relating to an election for Federal office. (Description language has been modified pursuant to a previous unanimous consent agreement by the House.).",
+   "amendment": "H.Amdt. 108",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/108"
+  },
+  "2009-239": {
+   "author": "Hensarling",
+   "purpose": "to strike the assignee and securitizer liability provisions from the bill.",
+   "amendment": "H.Amdt. 111",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/111"
+  },
+  "2009-240": {
+   "author": "Price (GA)",
+   "purpose": "to delay the enactment of titles I, II, and III of the bill until the Federal Reserve certifies that they will not reduce the availability or increase the price of credit for qualified mortgages.",
+   "amendment": "H.Amdt. 113",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/113"
+  },
+  "2009-241": {
+   "author": "McHenry",
+   "purpose": "to strike title III from the bill relating to high-cost mortgages.",
+   "amendment": "H.Amdt. 115",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/115"
+  },
+  "2009-249": {
+   "author": "Titus",
+   "purpose": "to add a new section 314 requiring the Secretary of Education to establish an Advisory Council to the Secretary on green, high-performing schools. The Council advises the Secretary on the impact of green, high-performing schools on teaching and learning, health energy costs and environmental impact; works with the Secretary to recommend Federal policies to increase the number of green, high-performing schools; provides technical assistance to states; and identifies Federal policies that are barriers to helping states make schools green and high-performing. The Council consults with the Chair of the Council on Environmental Quality, the Commerce Secretary, Energy Secretary, Health and Human Services Secretary, Labor Secretary, EPA Administrator, and the GSA Administrator.",
+   "amendment": "H.Amdt. 124",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/124"
+  },
+  "2009-250": {
+   "author": "Roe (TN)",
+   "purpose": "to add a new section 314 requiring the Education Secretary to enter into an agreement with the Department's Institute of Educational Sciences to evaluate the impact of projects funded under the bill on student academic achievement, including a comparison of students attending public schools receiving funding under the bill with students attending public schools that are not receiving such funding.",
+   "amendment": "H.Amdt. 125",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/125"
+  },
+  "2009-251": {
+   "author": "Ellsworth",
+   "purpose": "to amend section 309 (green schools) to provide that nothing in the bill shall be construed to prohibit a local educational agency from using sustainable, domestic hardwood lumber for public school modernization, renovation, repairs, or construction. It also would amend section 310 (reporting) to require agencies receiving grant funds under the bill to disclose whether any flooring installed was from renewable sources.",
+   "amendment": "H.Amdt. 126",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/126"
+  },
+  "2009-255": {
+   "author": "Giffords",
+   "purpose": "to specify that local educational agencies receiving funds under the act may encourage schools receiving funds for projects to educate students about those projects, including how they function, and their environmental, energy, sustainability, and other benefits.",
+   "amendment": "H.Amdt. 128",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/128"
+  },
+  "2009-256": {
+   "author": "Bright",
+   "purpose": "to require the Secretary to reserve 5 percent of section 102 grant funds for grants to local educational agencies serving geographic areas with significant economic distress or recovering from a natural disaster.",
+   "amendment": "H.Amdt. 131",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/131"
+  },
+  "2009-257": {
+   "author": "Griffith",
+   "purpose": "to include reducing the incidence and effects of asthma and other respiratory illnesses in children among the voluntary guidelines for high performing school buildings. It also would add reducing the incidence and effects of asthma and other respiratory illnesses to the list of demonstrable and expected benefits. The amendment includes the reduction and elimination of human exposure to airborne particles such as dust, sand, and pollens among the approved uses for grant funds used by local educational agencies.",
+   "amendment": "H.Amdt. 132",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/132"
+  },
+  "2009-260": {
+   "author": "Kline (MN)",
+   "purpose": "to amend the title of the bill.",
+   "amendment": "H.Amdt. 136",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/136"
+  },
+  "2009-279": {
+   "author": "Kratovil",
+   "purpose": "to establish a Rural Entrepreneurship Advisory Council within the Small Business Administration, comprised of appropriate officials from the SBA, the rural development programs of the Department of Agriculture, and the Department of Commerce and of representatives from the academic, small business, agriculture, and high-tech communities. The council is tasked with providing a report to Congress on rural entrepreneurship, and to provide ongoing advice and recommendations to foster rural entrepreneurs.",
+   "amendment": "H.Amdt. 143",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/143"
+  },
+  "2009-288": {
+   "author": "Burgess",
+   "purpose": "to express the sense of Congress that FAA whistleblowers be granted the full protection of the law.",
+   "amendment": "H.Amdt. 151",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/151"
+  },
+  "2009-289": {
+   "author": "McCaul",
+   "purpose": "to prohibit authorized funds from being used to name a project or program for an individual then serving as a Member, Delegate, Resident Commissioner, or Senator of the United States Congress.",
+   "amendment": "H.Amdt. 153",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/153"
+  },
+  "2009-304": {
+   "author": "Mica",
+   "purpose": "to alter the standard for when TSA can issue an emergency regulation or security device without adhering to the rule making and public notice and comment provisions of the Administrative Procedures Act (APA). Allows TSA to issue a regulation or security directive when needed \"to respond to an imminent threat of finite duration\" and would require TSA to comply with the rule making requirements of the APA when a security directive or emergency order has been in place for more than 180 days.",
+   "amendment": "H.Amdt. 164",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/164"
+  },
+  "2009-305": {
+   "author": "Chaffetz",
+   "purpose": "to prohibit the TSA from using Whole Body-Imaging machines for primary screening at airports, and would require the TSA to give passengers the option of a pat-down search in place of going through a WBI machine, information on the images generated by the WBI, the privacy policies in place, and the right to request a pat-down search, and would prohibit the TSA from storing, transferring, or copying the images.",
+   "amendment": "H.Amdt. 172",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/172"
+  },
+  "2009-306": {
+   "author": "Thompson (MS)",
+   "purpose": "to secure aviation from extreme terrorist threats.",
+   "amendment": "H.Amdt. 177",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/177"
+  },
+  "2009-308": {
+   "author": "Issa",
+   "purpose": "to require employees to use all accrued leave before receiving additional paid parental leave and would require additional paid parental leave to be treated as a repayable advance.",
+   "amendment": "H.Amdt. 178",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/178"
+  },
+  "2009-320": {
+   "author": "Berman",
+   "purpose": "to (1) make a number of minor, technical and conforming changes, including changes to address concerns of other Committees that have jurisdiction over certain provisions of H.R. 2410 and making changes to certain authorizations; (2) add the relevant text from H.R. 2828, 110th Congress, as passed by the House, relating to compensation of Foreign Service victims of terrorism; (3) add a provision relating to streamlining export controls to better serve the scientific and research community, consistent with the protection of U.S. national security interests; (4) add a provision on monitoring and evaluating certain provision U.S. overseas activities; (5) add a provision to improve the stabilization and reconstruction activities of the Department of State; (6) add a provision on implementation of an international nuclear fuel bank; (7) add a provision relating to the development of a food security strategy; (8) adds certain other sense of congress provisions; and (9) add a new subsection to section 334 providing that nothing in that section shall be construed as affecting existing statutory prohibitions relating to abortion.",
+   "amendment": "H.Amdt. 181",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/181"
+  },
+  "2009-321": {
+   "author": "Ros-Lehtinen",
+   "purpose": "to require the Secretary of State to withhold from the U.S. contribution to the International Atomic Energy Agency an amount equal to nuclear technical cooperation provided by the IAEA in 2007 to Iran, Syria, Sudan and Cuba.",
+   "amendment": "H.Amdt. 182",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/182"
+  },
+  "2009-322": {
+   "author": "McCaul",
+   "purpose": "to direct the President to develop and transmit to the appropriate congressional committees a comprehensive interagency strategy and implementation plan to address the ongoing crisis in Sudan. This includes a description of how the United States assistance will be used to achieve a U.S. policy towards Sudan, financial plan, management of U.S. foreign assistance, and criteria used to determine their prioritization.",
+   "amendment": "H.Amdt. 186",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/186"
+  },
+  "2009-323": {
+   "author": "Larsen (WA)",
+   "purpose": "to provide that the policy of the United States, with respect to the UN Framework Convention on Climate Change, shall be to prevent any weakening of, and ensure robust compliance with and enforcement of, existing international legal requirements for the protection of intellectual property rights, related to energy or environmental technologies.",
+   "amendment": "H.Amdt. 187",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/187"
+  },
+  "2009-324": {
+   "author": "Brown-Waite, Ginny",
+   "purpose": "to strike Sec. 505, domestic release of the Voice of America film entitled 'A Fateful Harvest'.",
+   "amendment": "H.Amdt. 190",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/190"
+  },
+  "2009-325": {
+   "author": "Royce",
+   "purpose": "to express the sense of Congress that Eritrea's support for armed insurgents in Somalia poses a direct threat to the national security interests of the United States, that the Secretary of State should designate Eritrea a State Sponsor of Terrorism, and that the United Nations Security Council should impose sanctions against Eritrea.",
+   "amendment": "H.Amdt. 195",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/195"
+  },
+  "2009-326": {
+   "author": "Kirk",
+   "purpose": "to allow the Secretary of State, at her discretion, to make payments from the Rewards for Justice program to officers or employees of foreign governments who provide information leading to the capture of exceptional and high-profile terrorists.",
+   "amendment": "H.Amdt. 198",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/198"
+  },
+  "2009-331": {
+   "author": "Ros-Lehtinen",
+   "purpose": "An amendment in the nature of a substitute printed in part B of House Report to fully fund the administration's request for non-military assistance to Pakistan ($1.5 billion) for FY 2010 and provides \"such sums\" as may be necessary through 2013. It also requires that the administration submit a comprehensive interagency strategy and implementation plan; requires quarterly briefings on developments in Pakistan; as well as written notification to the Congress of adjustments in strategy and related changes in allocations and expenditures.",
+   "amendment": "H.Amdt. 209",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/209"
+  },
+  "2009-356": {
+   "author": "Roe (TN)",
+   "purpose": "to decrease appropriations for the Federal Prison system by $97,400,000.",
+   "amendment": "H.Amdt. 216",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/216"
+  },
+  "2009-357": {
+   "author": "Nadler (NY)",
+   "purpose": "to redirect $5 million by transfer from the Office of Justice programs to the Community Oriented Policing Services.",
+   "amendment": "H.Amdt. 217",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/217"
+  },
+  "2009-359": {
+   "author": "Hensarling",
+   "purpose": "to strike appropriations for the Legal Services Corporation.",
+   "amendment": "H.Amdt. 219",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/219"
+  },
+  "2009-361": {
+   "author": "Lewis (CA)",
+   "purpose": "to prohibit the use of funds to implement Executive Order 13492, issued January 22, 2009, titled \"Review and Disposition of Individuals Detained at the Guantanamo Bay Naval Base and Closure of Detention Facilities\".",
+   "amendment": "H.Amdt. 220",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/220"
+  },
+  "2009-362": {
+   "author": "Tiahrt",
+   "purpose": "to prohibit the use of funds for the salaries or expenses of personnel who obligate, funds made available under the following headings in title II of division A of Public Law 111-5: (1) \"Economic Development Administration - Economic Development Assistance Programs\". (2) \"National Telecommunications and Information Administration - Digital-to-Analog Converter Box Program\". (3) \"National Institute of Standards and Technology - Construction of Research Facilities\".",
+   "amendment": "H.Amdt. 221",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/221"
+  },
+  "2009-364": {
+   "author": "Price (GA)",
+   "purpose": "to reduce the appropriations made to the Department of Justice General Administration salaries and expenses by $100,000,000.",
+   "amendment": "H.Amdt. 223",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/223"
+  },
+  "2009-366": {
+   "author": "Nunes",
+   "purpose": "to prohibit the use of funds for the biological opinion entitled \"Biological Opinion and conference Opinion on the Long-Term Operations of the Central Valley Project and State Water Project\", issued by the National Marine fisheries Service and dated June 4, 2009.",
+   "amendment": "H.Amdt. 225",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/225"
+  },
+  "2009-367": {
+   "author": "Blackburn",
+   "purpose": "to decrease by 5% funds that are not required to be appropriated or otherwise made available by a provision of law.",
+   "amendment": "H.Amdt. 226",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/226"
+  },
+  "2009-369": {
+   "author": "Price (GA)",
+   "purpose": "to reduce the funds appropriated in the Act by $644,150,000.",
+   "amendment": "H.Amdt. 228",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/228"
+  },
+  "2009-370": {
+   "author": "Jordan (OH)",
+   "purpose": "to reduce the appropriation in the bill by $12,511,000,000 across-the board.",
+   "amendment": "H.Amdt. 229",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/229"
+  },
+  "2009-372": {
+   "author": "Broun (GA)",
+   "purpose": "to prohibit use of funds for establishment or implementation of a National Climate Service.",
+   "amendment": "H.Amdt. 231",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/231"
+  },
+  "2009-373": {
+   "author": "Hensarling",
+   "purpose": "to prohibit use of funds in the bill by the Art Center of the Grand Prairie, Stuttgart, AR, for the Grand Prairie Arts Initiative.",
+   "amendment": "H.Amdt. 233",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/233"
+  },
+  "2009-374": {
+   "author": "Hensarling",
+   "purpose": "to prohibit use of funds in the bill for the Maine Department of Marine Resources, Augusta, ME, for Maine Lobster Research and Inshore Trawl Survey.",
+   "amendment": "H.Amdt. 234",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/234"
+  },
+  "2009-375": {
+   "author": "Campbell",
+   "purpose": "to prohibit use of funds in the bill for the Training the Next Generation of Weather Forecasters project of San Jose State University, San Jose, California.",
+   "amendment": "H.Amdt. 235",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/235"
+  },
+  "2009-376": {
+   "author": "Campbell",
+   "purpose": "to prohibit use of funds in the bill for the Jamaica Chamber of Commerce, Jamaica, NY, for the Jamaica Export Center.",
+   "amendment": "H.Amdt. 236",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/236"
+  },
+  "2009-377": {
+   "author": "Campbell",
+   "purpose": "to prohibit use of funds for the Summer Flounder and Black Sea Initiative project of the Partnership for the Mid-Atlantic Fisheries, Point Pleasant Beach, New Jersey.",
+   "amendment": "H.Amdt. 237",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/237"
+  },
+  "2009-378": {
+   "author": "Flake",
+   "purpose": "An amendment numbered 87 in the Congressional Record to prohibit the use of funds to be used for operations of the National Drug Intelligence Center and decrease appropriations for the Department of Justice general administration by $44,023,000.",
+   "amendment": "H.Amdt. 238",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/238"
+  },
+  "2009-379": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds to be used for the Innovative Science Learning Center of Science South, Florence, South Carolina, and decrease the appropriations for the National Oceanic and Atmospheric Administration cross agency support by $500,000.",
+   "amendment": "H.Amdt. 239",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/239"
+  },
+  "2009-380": {
+   "author": "Flake",
+   "purpose": "to prohibit the use for the Drew University Environmental Science Initiative of Drew University, Madison, New Jersey, and decrease the appropriations for the National Oceanic and Atmospheric Administration cross agency support by $1 million.",
+   "amendment": "H.Amdt. 240",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/240"
+  },
+  "2009-381": {
+   "author": "Flake",
+   "purpose": "to prohibit the use for the Science Education Through Exploration project of the JASON Project, Ashburn, Virginia, and decrease the appropriations for the National Oceanic and Atmospheric Administration operations, research, and facilities by $4 million.",
+   "amendment": "H.Amdt. 241",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/241"
+  },
+  "2009-382": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds for the Institute for Seafood Studies project of the Nicholls State University Department of Biological Sciences, Thibodaux, Louisiana, and decrease the appropriations for the National Oceanic and Atmospheric Administration operations, research, and facilities by $325,000.",
+   "amendment": "H.Amdt. 242",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/242"
+  },
+  "2009-383": {
+   "author": "Burton (IN)",
+   "purpose": "to prohibit the use of funds to relocate the Office of the Census or employees from the Department of Commerce to the jurisdiction of the Executive Office of the President.",
+   "amendment": "H.Amdt. 227",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/227"
+  },
+  "2009-384": {
+   "author": "Mollohan",
+   "purpose": "to increase funding for the State Criminal Alien Assistance Program to a level of $100,000,000.",
+   "amendment": "H.Amdt. 211",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/211"
+  },
+  "2009-386": {
+   "author": "Schock",
+   "purpose": "to increase the appropriation to the International Trade Administration by $500,000 and to decrease the appropriation for the Bureau of the Census by $500,000.",
+   "amendment": "H.Amdt. 212",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/212"
+  },
+  "2009-388": {
+   "author": "Bordallo",
+   "purpose": "to increase appropriations for National Oceanic and Atmospheric Administration operations, research, and facilities by $500,000 and decrease appropriations for the Department of Commerce salaries and expenses by $500,000.",
+   "amendment": "H.Amdt. 213",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/213"
+  },
+  "2009-390": {
+   "author": "Moore (WI)",
+   "purpose": "to decrease appropriations for Departmental Management by $4 million and increase appropriations for the Office on Violence Against Women by $4 million.",
+   "amendment": "H.Amdt. 214",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/214"
+  },
+  "2009-392": {
+   "author": "Boswell",
+   "purpose": "to redirect $2,500,000 from the \"Department of Justice- General Administration- Salaries and Expenses\" to the \"National Criminal History Improvement Program -State and Local Law Enforcement Assistance.\".",
+   "amendment": "H.Amdt. 215",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/215"
+  },
+  "2009-396": {
+   "author": "Johnson, E. B.",
+   "purpose": "to insert a provision for the Historically Black Colleges and Universities Undergraduate Program.",
+   "amendment": "H.Amdt. 218",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/218"
+  },
+  "2009-398": {
+   "author": "Cuellar",
+   "purpose": "to prohibit the use of funds to purchase light bulbs unless the bulbs have \"Energy Star.\".",
+   "amendment": "H.Amdt. 222",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/222"
+  },
+  "2009-400": {
+   "author": "Hodes",
+   "purpose": "to direct the Director of the Office of Management and Budget to instruct any department, agency, or instrumentality of the United States Government receiving appropriations under this Act to track undisbursed balance in expired grant accounts and include a detailed annual performance plan.",
+   "amendment": "H.Amdt. 224",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/224"
+  },
+  "2009-406": {
+   "author": "Obey",
+   "purpose": "(See item 759 for explanation.).",
+   "amendment": "H.Amdt. 243",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/243"
+  },
+  "2009-435": {
+   "author": "Price (NC)",
+   "purpose": "to increase funding for the Firefighter grant program, nonprofit security grants, the Metropolitan Medical Response System, and the Western Hemisphere Travel Initiative. In addition, the amendment contains two prohibitions on funds in this bill being used: for first class travel, with certain exceptions, and to close or transfer operations of a FEMA recovery office. Finally, the amendment would ensure DHS employees who interact with the public can use personal protective equipment without negative personnel action.",
+   "amendment": "H.Amdt. 246",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/246"
+  },
+  "2009-436": {
+   "author": "Lewis (CA)",
+   "purpose": "to add $34 million to US Customs and Border Protection, intending to fund 200 additional Border Patrol agents, offset by reducing funding for the Offices of the Secretary and Executive Management; Under Secretary for Management; Chief Financial Officer; and Chief Information Officer.",
+   "amendment": "H.Amdt. 247",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/247"
+  },
+  "2009-437": {
+   "author": "King (NY)",
+   "purpose": "to add $50 million in funding to the Domestic Nuclear Detection Office, with $40 million intended for the Securing the Cities initiative and $10 million intended for the procurement of radiation portal monitors, offset by a reduction in the Department's Office of the Secretary and Executive Management and the Office of the Under Secretary for Management.",
+   "amendment": "H.Amdt. 248",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/248"
+  },
+  "2009-438": {
+   "author": "Bilirakis",
+   "purpose": "to increase funding for Immigration and Customs Enforcement (ICE) salaries and expenses by $1.7 million offset by reducing funding for the Office of the Secretary and Executive Management. The funds are intended to be used to expand the Visa Security Program, which places ICE personnel overseas at high-risk locations to screen visa applications.",
+   "amendment": "H.Amdt. 249",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/249"
+  },
+  "2009-439": {
+   "author": "King (IA)",
+   "purpose": "to reduce and then increase funding for United States Customs and Border Protection salaries and expenses by $1 million. This funding would go towards removing the lookout posts that have been established along the U.S.-Mexico border.",
+   "amendment": "H.Amdt. 250",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/250"
+  },
+  "2009-440": {
+   "author": "Duncan",
+   "purpose": "to maintain current (FY2009) funding for the Federal Air Marshals.",
+   "amendment": "H.Amdt. 251",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/251"
+  },
+  "2009-441": {
+   "author": "Poe (TX)",
+   "purpose": "to increase by $32 million funds available for the National Predisaster Mitigation Fund, offset by reducing by the same amount funds available for FEMA Management and Administration.",
+   "amendment": "H.Amdt. 252",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/252"
+  },
+  "2009-442": {
+   "author": "King (IA)",
+   "purpose": "to employ illegal workers as defined in the Immigration and Nationality Act.",
+   "amendment": "H.Amdt. 253",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/253"
+  },
+  "2009-443": {
+   "author": "Neugebauer",
+   "purpose": "to reduce spending in this act by $2,755,000,000 across multiple accounts.",
+   "amendment": "H.Amdt. 254",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/254"
+  },
+  "2009-444": {
+   "author": "Flake",
+   "purpose": "to strike an earmark for the City of Emeryville, CA, from FEMA's National Predisaster Mitigation Fund.",
+   "amendment": "H.Amdt. 255",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/255"
+  },
+  "2009-445": {
+   "author": "Flake",
+   "purpose": "to strike an earmark for the Harris County Flood Control District, Texas, from FEMA's National Predisaster Mitigation Fund.",
+   "amendment": "H.Amdt. 256",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/256"
+  },
+  "2009-446": {
+   "author": "Flake",
+   "purpose": "to prohibit funds in the bill from going to the National Institute for Hometown Security, Kentucky, and would reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 257",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/257"
+  },
+  "2009-447": {
+   "author": "Flake",
+   "purpose": "to prohibit funds in the bill from going to Global Solar, Arizona, for portable solar charging rechargeable battery systems, and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 258",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/258"
+  },
+  "2009-448": {
+   "author": "Flake",
+   "purpose": "to strike the $1 million earmark for SEARCH of Sacramento, CA, for interoperable communications, technical assistance and outreach programs.",
+   "amendment": "H.Amdt. 259",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/259"
+  },
+  "2009-453": {
+   "author": "McGovern",
+   "purpose": "to require the Defense Secretary to report to Congress, not later than December 31, 2009, on a U.S. exit strategy for U.S. military forces in Afghanistan participating in Operation Enduring Freedom.",
+   "amendment": "H.Amdt. 262",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/262"
+  },
+  "2009-454": {
+   "author": "McGovern",
+   "purpose": "to require public disclosure of students and instructors at the Western Hemisphere Institute for Security Cooperation.",
+   "amendment": "H.Amdt. 263",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/263"
+  },
+  "2009-455": {
+   "author": "Franks (AZ)",
+   "purpose": "to provide that it is U.S. policy to continue missile defense testing. It would increase funding for the Missile Defense Agency by $1.2 billion. Offsetting reductions would come from defense environmental cleanup.",
+   "amendment": "H.Amdt. 266",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/266"
+  },
+  "2009-456": {
+   "author": "Akin",
+   "purpose": "to require the Defense Secretary to submit to Congress a report on any non-disclosure agreements signed by DoD employees regarding their official duties (except those relating to security clearances). The report would describe topics covered by the agreements, the number of employees required to sign such agreements, the duration of agreements, the types of persons covered, reasons for requiring such agreements, and the criteria for determining such information should not be disclosed.",
+   "amendment": "H.Amdt. 267",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/267"
+  },
+  "2009-457": {
+   "author": "Holt",
+   "purpose": "to require the videotaping of all military interrogations, with appropriate security classifications.",
+   "amendment": "H.Amdt. 270",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/270"
+  },
+  "2009-458": {
+   "author": "Connolly (VA)",
+   "purpose": "to provide that section 526 of the Energy Independence and Security Act of 2007 (Public Law 110-140) does not prohibit an agency from entering into a contract to purchase a generally-available fuel that is not a synthetic fuel or predominantly produced from a non-conventional petroleum source if the contract does not specifically require such a fuel. The purpose of the contract is not to obtain such a fuel, and the contract does not provide incentives for upgrading or expanding refineries to increase fuel from non-controversial petroleum sources.",
+   "amendment": "H.Amdt. 274",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/274"
+  },
+  "2009-467": {
+   "author": "Heller",
+   "purpose": "to prohibit funds made available by this Act from being spent to build an interagency facility in one specific location in Carson City, Nevada.",
+   "amendment": "H.Amdt. 278",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/278"
+  },
+  "2009-468": {
+   "author": "Jordan (OH)",
+   "purpose": "to reduce overall spending in the bill by $5.75 billion to reflect FY2008 spending levels.",
+   "amendment": "H.Amdt. 279",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/279"
+  },
+  "2009-469": {
+   "author": "Stearns",
+   "purpose": "to decrease the funding included in the Interior and Environment Appropriations Act for the Environmental Protection Agency by 38% to reduce spending to 2009 levels.",
+   "amendment": "H.Amdt. 280",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/280"
+  },
+  "2009-470": {
+   "author": "Campbell",
+   "purpose": "to strike $1 million in funding for the `Restore Good Fellow Lodge, Indiana Dunes National Lakeshore' and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 281",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/281"
+  },
+  "2009-471": {
+   "author": "Campbell",
+   "purpose": "to strike the $150,000 earmark for Traditional Arts in Upstate New York in Canton, New York.",
+   "amendment": "H.Amdt. 282",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/282"
+  },
+  "2009-472": {
+   "author": "Campbell",
+   "purpose": "to strike the $150,000 in funding for the Tarrytown Music Hall Restoration and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 283",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/283"
+  },
+  "2009-473": {
+   "author": "Campbell",
+   "purpose": "to strike the earmark for the Angel Island State Park Immigration Station Hospital Rehabilitation project.",
+   "amendment": "H.Amdt. 284",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/284"
+  },
+  "2009-474": {
+   "author": "Campbell",
+   "purpose": "to strike the $150,000 in funding for the Historic Fort Payne Coal and Iron Building Rehabilitation and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 285",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/285"
+  },
+  "2009-476": {
+   "author": "Forbes",
+   "purpose": "to strike everything and insert the text of H.R. 513, the \"New Manhattan Project for Energy Independence.\".",
+   "amendment": "H.Amdt. 287",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/287"
+  },
+  "2009-483": {
+   "author": "Kosmas",
+   "purpose": "to require commercialization programs established by agencies with space shuttle related activities to include efforts to help small businesses affected by the termination of the space shuttle program commercialize technologies through SBIR.",
+   "amendment": "H.Amdt. 290",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/290"
+  },
+  "2009-498": {
+   "author": "DeLauro",
+   "purpose": "to increase funding for the Agricultural Research Service sal aries and expenses account by $2 million to go toward Colony Collapse Disorder and pollinator decline research, offset by a $1 million reduction in the Office of the Chief Information Officer and a $1 million reduction in Departmental Administration. Would increase funding for the National Institute of Food and Agriculture competitive grants by $3,000,000 to be used for Colony Collapse Disorder (CCD) and pollinator decline research, and offsets the increase by a reduction in funding for the Departmental Administration. Would increase funding for the Office of Inspector General at USDA by $500,000 to determine whether the USDA Organic certification program ensures that the most rigorous standards for certification are honored, and to investigate whether non-organic substances inappropriately remain allowed in small amounts in USDA certified products after organic alternatives have been discovered. The increase is offset by a decrease of the same amount in funding for the Agriculture Buildings and Facilities, General Services Administration account. Would increase the appropriation for the Higher Education Multicultural Scholars Program by $519,000 to a total of $1.5 million. The amount would be offse. by decreasing appropriations for `administrative expenses necessary to carry out direct and guaranteed loan programs' within the Agricultural Credit Insurance Fund Program Account. Appropriates tobacco product user fees authorized under the Family Smoking Prevention and Tobacco Control Act (Public Law 111-31). Would fund the Methamphetamine Inhibitor Grant Program created in the 2008 Farm Bill at $2,000,000. Offsets the increase in spending by reducing spending on Rural Development Salaries and Expenses. Would prohibit the use of funds for first class travel for employees of agencies funded by the bill, in contravention of Federal regulations.",
+   "amendment": "H.Amdt. 293",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/293"
+  },
+  "2009-499": {
+   "author": "Brady (TX)",
+   "purpose": "to transfer $50,000 from the Chief Economist to the Economic Research Service.",
+   "amendment": "H.Amdt. 294",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/294"
+  },
+  "2009-500": {
+   "author": "Capito",
+   "purpose": "to transfer $10,038,000 in the bill from the USDA Office of the Chief Information Officer (OCIO) to the Rural Utilities Service Rural Water and Waste Disposal Program (restoring the latter to FY09 appropriation levels).",
+   "amendment": "H.Amdt. 295",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/295"
+  },
+  "2009-501": {
+   "author": "Broun (GA)",
+   "purpose": "to reduce FDA funding by $373 million to equal the FY09 level.",
+   "amendment": "H.Amdt. 298",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/298"
+  },
+  "2009-502": {
+   "author": "Blackburn",
+   "purpose": "to make an across-the-board cut of 5 percent to all discretionary funding accounts in the bill.",
+   "amendment": "H.Amdt. 299",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/299"
+  },
+  "2009-503": {
+   "author": "Hensarling",
+   "purpose": "to prohibit certain funds in the bill from being used for the National Biodiversity Conservation Strategy project, Kiski Basin, PA and reduces funds under the heading \"Agricultural Research Service--Salaries and Expenses\" by the amount that was to have been spent on the National Biodiversity Conservation Strategy project, Kiski Basin, PA.",
+   "amendment": "H.Amdt. 300",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/300"
+  },
+  "2009-504": {
+   "author": "Campbell",
+   "purpose": "to prohibit certain funds in the bill from being used for Specialty Crops in Indiana and reduces funds under the heading \"National Institute of Food and Agriculture--Research and Education Activities\" by the amount that was to have been spent on Specialty Crops in Indiana.",
+   "amendment": "H.Amdt. 301",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/301"
+  },
+  "2009-505": {
+   "author": "Flake",
+   "purpose": "to prohibit certain funds in the bill from being used for the Foundry Sand By-Products Utilization project in Beltsville, MD and reduces funds under the heading \"Agricultural Research Service--Salaries and Expenses\" by the amount that was to have been spent on the Foundry Sand By-Products Utilization project in Beltsville, MD.",
+   "amendment": "H.Amdt. 302",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/302"
+  },
+  "2009-506": {
+   "author": "Flake",
+   "purpose": "to have been spent on the Agriculture Energy Innovation Center in Georgia.",
+   "amendment": "H.Amdt. 303",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/303"
+  },
+  "2009-507": {
+   "author": "Flake",
+   "purpose": "to prohibit certain funds in the bill from being used for Potato Research in Idaho, Oregon and Washington and reduces funds under the heading \"National Institute of Food and Agriculture--Research and Education Activities\" by the amount that was to have been spent on Potato Research in Idaho, Oregon and Washington.",
+   "amendment": "H.Amdt. 304",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/304"
+  },
+  "2009-508": {
+   "author": "Kingston",
+   "purpose": "to prohibit funds from being used to administer or pay the salary of personnel who administer any broadband loans or loan guarantees on or before September 15, 2010.",
+   "amendment": "H.Amdt. 305",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/305"
+  },
+  "2009-516": {
+   "author": "Lowey",
+   "purpose": "to increase funding for safe water and sanitation programs ($25M); democracy programs ($10M); implementation of the U.S.-Brazil Joint Action Plan to Eliminate Racial and Ethnic Discrimination and Promote Equality ($300,000); maternal health programs ($10M); and oversight of Department of State and USAID programs ($8M). These additions are offset by reductions to the Department of State Capital Investment Fund and USAID's Capital Investment Fund. The amendment also restricts Foreign Military Financing Program funding for Sri Lanka and restrict first-class travel by employees of agencies funded by this Act.",
+   "amendment": "H.Amdt. 306",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/306"
+  },
+  "2009-517": {
+   "author": "Buyer",
+   "purpose": "to reduce funding for: Diplomatic and Consular Programs by $1.2 billion; Operating Expenses for USAID by $330 million; and Global Health by $670 million. This would reflect FY2009 enacted funding levels.",
+   "amendment": "H.Amdt. 307",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/307"
+  },
+  "2009-518": {
+   "author": "Stearns",
+   "purpose": "to reduce the amount appropriated to the Peace Corps (Independent Agencies) by $76,560,000 to match the President's request of $373,440,000.",
+   "amendment": "H.Amdt. 308",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/308"
+  },
+  "2009-519": {
+   "author": "Weiner",
+   "purpose": "to strike Presidential waiver authority on the blocking of aid to Saudi Arabia.",
+   "amendment": "H.Amdt. 309",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/309"
+  },
+  "2009-520": {
+   "author": "Culberson",
+   "purpose": "to reduce the total amount of Title V funding in the bill, Multilateral Assistance, by $505,896,000.",
+   "amendment": "H.Amdt. 310",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/310"
+  },
+  "2009-521": {
+   "author": "Kirk",
+   "purpose": "to prohibit funds in the bill from being used by the Secretary of the Treasury to negotiate an agreement in contravention of certain provisions of law.",
+   "amendment": "H.Amdt. 311",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/311"
+  },
+  "2009-522": {
+   "author": "Flake",
+   "purpose": "to prohibit funds in the bill from being made available for the one-time special educational, professional, and cultural exchange grants program, reducing the cost of the bill by $8 million.",
+   "amendment": "H.Amdt. 312",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/312"
+  },
+  "2009-528": {
+   "author": "Flake",
+   "purpose": "to prohibit funding for all of the member-requested earmarks for military construction projects.",
+   "amendment": "H.Amdt. 318",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/318"
+  },
+  "2009-543": {
+   "author": "Pastor (AZ)",
+   "purpose": "to reduce the appropriation for the Corps of Engineers Expenses by $9 million; would add $1.8 million to the Regulatory account for the Army Corps of Engineers to help address the chronic backlog of project applications, offset by cutting the Corps of Engineers Expenses; would add $45 million for the Hydrogen, Fuel Cells, and Infrastructure Technologies program. The increase is offset by a $30 million reduction for Departmental Administration in the Department of Energy and a $15 million reduction for Electricity Delivery and Energy Reliability. The amendment would increase funding for the Northern Border Regional Commission by $2.5 million, offset by a $2.5 million reduction to Other Defense Activities. The amendment would prohibit funds in the bill from being used to purchase light bulbs unless they have the `Energy Star' or `Federal Energy Management Program' designation. Finally, the amendment would prohibit any funds in the bill from being used to purchase passenger motor vehicles unless they are purchased from Ford, GM, or Chrysler.",
+   "amendment": "H.Amdt. 320",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/320"
+  },
+  "2009-544": {
+   "author": "Connolly (VA)",
+   "purpose": "to provide $7 million for the Chesapeake Bay Oyster Restoration program run by the U.S. Army Corps of Engineers to enhance water quality and fisheries productivity in the bay, offset by a reduction in funding for Army Corps of Engineers Expenses.",
+   "amendment": "H.Amdt. 321",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/321"
+  },
+  "2009-545": {
+   "author": "Hastings (WA)",
+   "purpose": "to make available $5 million from the Bureau of Reclamation Water and Related Resources account to begin installing hydroelectric facilities identified in a report authorized under the Energy and Policy Act of 2005 at Bureau of Reclamation dams. The revision corrects a technical reference to \"Power Program Services\" within the Water and Related Resources account.",
+   "amendment": "H.Amdt. 323",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/323"
+  },
+  "2009-546": {
+   "author": "Boren",
+   "purpose": "to increase by $5 million funding for the Energy Efficiency and Renewable Energy account to be utilized in the EERE Vehicles Technologies, Fuels Technology program for Natural Gas Vehicle Research Development and Demonstration, offset by a reduction in funds for the Department of Energy Departmental Administration account for general expenses.",
+   "amendment": "H.Amdt. 326",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/326"
+  },
+  "2009-547": {
+   "author": "Miller (MI)",
+   "purpose": "to increase the Water Power Program in Energy and Efficiency and Renewable Energy by $10 million, its FY2009 enacted level, offset by a reduction in funds to the D.O.E.'s departmental administration by the same amount.",
+   "amendment": "H.Amdt. 327",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/327"
+  },
+  "2009-555": {
+   "author": "Price (GA)",
+   "purpose": "to strike funding for the President's Council of Economic Advisers ($4.2 million).",
+   "amendment": "H.Amdt. 343",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/343"
+  },
+  "2009-556": {
+   "author": "Emerson",
+   "purpose": "to reduce funding for the Help America Vote Act by $50 million.",
+   "amendment": "H.Amdt. 344",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/344"
+  },
+  "2009-557": {
+   "author": "Blackburn",
+   "purpose": "An amendment numbered 5 printe in House Report 111-208 to provide that each amount appropriated or otherwise made available by the Act that is not required to be appropriated or otherwise made available by a provision of law is hereby reduced by 5 percent.",
+   "amendment": "H.Amdt. 345",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/345"
+  },
+  "2009-558": {
+   "author": "Broun (GA)",
+   "purpose": "to prohibit funding made available in this bill from paying the salaries of specific positions in the Council on Environmental Quality.",
+   "amendment": "H.Amdt. 346",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/346"
+  },
+  "2009-559": {
+   "author": "Flake",
+   "purpose": "to prohibit $100,000 from being used for the small business incubator project of the University of West Georgia in Carrollton, Georgia, and reduce the amount of Section 511 of the bill by the same amount.",
+   "amendment": "H.Amdt. 347",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/347"
+  },
+  "2009-560": {
+   "author": "Flake",
+   "purpose": "to prohibit $200,000 from being used for the Commercial Driver Training Institute project of Arkansas State University in Newport, Arkansas, and reduce the amount of Section 511 of the bill by the same amount.",
+   "amendment": "H.Amdt. 348",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/348"
+  },
+  "2009-561": {
+   "author": "Flake",
+   "purpose": "to prohibit $285,000 from being used for the Proof of Concept Center of Idaho TechConnect, Inc., in Nampa, Idaho, and reduce the amount of Section 511 of the bill by the same amount.",
+   "amendment": "H.Amdt. 349",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/349"
+  },
+  "2009-562": {
+   "author": "Flake",
+   "purpose": "to prohibit $200,000 from being used for the Greenstone Group project of the Northeast Entrepreneur Fund in Virginia, Minnesota, and reduce the amount of Section 511 of the bill by the same amount.",
+   "amendment": "H.Amdt. 350",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/350"
+  },
+  "2009-563": {
+   "author": "Flake",
+   "purpose": "to prohibit $150,000 from being used for the Green Business Incubator Project of Montgomery County, Maryland, and reduce the amount of Section 511 of the bill by the same amount.",
+   "amendment": "H.Amdt. 351",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/351"
+  },
+  "2009-564": {
+   "author": "Flake",
+   "purpose": "to prohibit $100,000 from being used for the Activity Based Total Accountability project of the Florida Institute of Technology, and reduce the amount of section 511 of the bill by the same amount.",
+   "amendment": "H.Amdt. 352",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/352"
+  },
+  "2009-565": {
+   "author": "Flake",
+   "purpose": "to prohibit $90,000 from being used for the Commercial Kitchen Business Incubator project of the El Pajaro Community Development Corporation in Watsonville, California, and reduce the amount of section 511 of the bill by the same amount.",
+   "amendment": "H.Amdt. 353",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/353"
+  },
+  "2009-566": {
+   "author": "Flake",
+   "purpose": "to prohibit $125,000 from being used for the Defense Procurement Assistance Program of the Economic Growth Connection of Westmoreland in Greensburg, Pennsylvania, and reduce the amount of section 511 of the bill by the same amount.",
+   "amendment": "H.Amdt. 354",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/354"
+  },
+  "2009-567": {
+   "author": "Flake",
+   "purpose": "to prohibit $100,000 from being used for the Myrtle Beach International Trade and Conference Center of the City of Myrtle Beach, South Carolina, and reduce the amount of section 511 of the bill by the same amount.",
+   "amendment": "H.Amdt. 355",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/355"
+  },
+  "2009-568": {
+   "author": "Flake",
+   "purpose": "to prohibit $100,000 from being used for the Tech Belt Life Sciences Greenhouse project of the Pittsburgh Life Sciences Greenhouse in Pittsburgh, Pennsylvania, and reduce the amount of section 511 of the bill by the same amount.",
+   "amendment": "H.Amdt. 356",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/356"
+  },
+  "2009-569": {
+   "author": "Flake",
+   "purpose": "to prohibit $900,000 from being used for an infrastructure expansion project to promote small business of the City of Loma Linda and the City of Grand Terrace, California, and reduce the amount of section 511 of the bill by the same amount.",
+   "amendment": "H.Amdt. 357",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/357"
+  },
+  "2009-576": {
+   "author": "Hastings (WA)",
+   "purpose": "An amendment in the nature of a substitute printed in Part B of House Report 111-212 is identical to the text of the wild horses and burros bill as passed by the House in the 110th Congress. It prohibits the commercial slaughter of horses and estimated by CBO to cost less than $500,000 a year to implement.",
+   "amendment": "H.Amdt. 359",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/359"
+  },
+  "2009-578": {
+   "author": "Heinrich",
+   "purpose": "to allow national security laboratories to dedicate an additional 1% (total of 7%) of each lab's annual budget to Laboratory Directed Research and Development (LDRD). LDRD allows laboratories to pursue high-risk, high-reward research and develop innovative technologies to support energy and homeland security priorities.",
+   "amendment": "H.Amdt. 328",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/328"
+  },
+  "2009-579": {
+   "author": "Cao",
+   "purpose": "to reduce the time between preparation of reports and submissions to Congress from 90 days to 60 days.",
+   "amendment": "H.Amdt. 329",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/329"
+  },
+  "2009-580": {
+   "author": "Blackburn",
+   "purpose": "to make an across-the-board cut of 5% to all funding accounts in the bill.",
+   "amendment": "H.Amdt. 330",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/330"
+  },
+  "2009-581": {
+   "author": "Campbell",
+   "purpose": "to strike the $1,000,000 earmark for the Housatonic River Net-Zero Energy Building and reduce the overall cost of the bill by $1,000,000.",
+   "amendment": "H.Amdt. 331",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/331"
+  },
+  "2009-582": {
+   "author": "Flake",
+   "purpose": "to strike $1.5 million in funding for the `Maret Center' and reduce the overall cost of the bill.",
+   "amendment": "H.Amdt. 332",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/332"
+  },
+  "2009-583": {
+   "author": "Flake",
+   "purpose": "to strike $1 million in funding for the `Consortium for Plant Biotechnology Research' and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 333",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/333"
+  },
+  "2009-584": {
+   "author": "Flake",
+   "purpose": "to strike $500,000 in funding for `Ethanol from Agriculture' and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 334",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/334"
+  },
+  "2009-585": {
+   "author": "Flake",
+   "purpose": "to strike $2 million in funding for the `Fort Mason Center Pier 2 Project' and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 335",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/335"
+  },
+  "2009-586": {
+   "author": "Flake",
+   "purpose": "to strike $300,000 in funding for `Whitworth University Stem Equipment' and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 336",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/336"
+  },
+  "2009-587": {
+   "author": "Flake",
+   "purpose": "to strike $1.6 million in funding for `The Boston Architectural College's Urban Sustainable Initiative' and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 337",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/337"
+  },
+  "2009-588": {
+   "author": "Hensarling",
+   "purpose": "to strike $500,000 for the Energy Conservation and Efficiency Upgrade of HVAC project in New York and reduce the overall cost of the bill.",
+   "amendment": "H.Amdt. 338",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/338"
+  },
+  "2009-589": {
+   "author": "Hensarling",
+   "purpose": "An amendment numbered 2 printed Part D of House Report 111-209 to strike $6.22 million for the Pier 36 removal project in California and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 339",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/339"
+  },
+  "2009-590": {
+   "author": "Hensarling",
+   "purpose": "to strike $500,000 for the Automated Remote Electric and Water Meters in South River project and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 340",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/340"
+  },
+  "2009-610": {
+   "author": "Ryan (WI)",
+   "purpose": "An amendment in the nature of a substitute printed in Part C of House Report 111-217 to establish caps on discretionary spending from FY2010 through FY2014 and a cap on total spending as a percentage of gross domestic product. It would also put in place maximum limits on deficits through 2019, again as a percentage of gross domestic product.",
+   "amendment": "H.Amdt. 362",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/362"
+  },
+  "2009-620": {
+   "author": "Hensarling",
+   "purpose": "to strike funding in the bill for the HOPE VI program.",
+   "amendment": "H.Amdt. 364",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/364"
+  },
+  "2009-621": {
+   "author": "Latham",
+   "purpose": "to reduce the `Capital Assistance for High Speed Rail Corridors and Intercity Passenger Rail Service' by $3,000,000,000 to the President's request of $1,000,000,000 and strikes the transfer authority for the National Infrastructure Bank.",
+   "amendment": "H.Amdt. 365",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/365"
+  },
+  "2009-622": {
+   "author": "Frelinghuysen",
+   "purpose": "to require that the FAA restrict the use of any funding for the implementation of the New York/New Jersey/Philadelphia metropolitan area airspace redesign.",
+   "amendment": "H.Amdt. 369",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/369"
+  },
+  "2009-623": {
+   "author": "Blackburn",
+   "purpose": "to an across the board cut of 5% to all funding accounts in the bill.",
+   "amendment": "H.Amdt. 370",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/370"
+  },
+  "2009-624": {
+   "author": "Jordan (OH)",
+   "purpose": "to reduce spending in the bill by $20,050,000,000 in order to reflect FY2008 levels.",
+   "amendment": "H.Amdt. 372",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/372"
+  },
+  "2009-625": {
+   "author": "Neugebauer",
+   "purpose": "to reduce spending in the bill by $13,533,000,000.",
+   "amendment": "H.Amdt. 373",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/373"
+  },
+  "2009-626": {
+   "author": "Stearns",
+   "purpose": "to reduce by 25% the amount appropriated or otherwise made available by the bill that is not required to be appropriated or otherwise made available by a provision of law.",
+   "amendment": "H.Amdt. 374",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/374"
+  },
+  "2009-627": {
+   "author": "Flake",
+   "purpose": "to prohibit $500,000 from being used for the Terminal Replacement project at Grand Forks International Airport in Grand Forks, North Dakota, and reduces the amount of the bill by the same amount.",
+   "amendment": "H.Amdt. 377",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/377"
+  },
+  "2009-628": {
+   "author": "Flake",
+   "purpose": "to prohibit $250,000 from being used for the Murphy Theatre Community Center, Inc. in Wilmington, Ohio, and reduce the amount of the appropriate section of the bill by the same amount.",
+   "amendment": "H.Amdt. 378",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/378"
+  },
+  "2009-629": {
+   "author": "Flake",
+   "purpose": "to prohibit $250,000 from being used for the construction of the Triangle Building by Alianza Dominicana, Inc., in New York, New York, and reduce the amount of the appropriate section of the bill by the same amount.",
+   "amendment": "H.Amdt. 379",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/379"
+  },
+  "2009-630": {
+   "author": "Flake",
+   "purpose": "to prohibit $400,000 from being used for the renovation of a vacant building for economic development by the City of Jal, New Mexico, and reduce the amount of the appropriate section by the same amount.",
+   "amendment": "H.Amdt. 380",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/380"
+  },
+  "2009-631": {
+   "author": "Flake",
+   "purpose": "to prohibit $250,000 from being used for the Monroe County Farmer's Market facility construction project of the Monroe County Fiscal Court and reduce the amount of the appropriate section of the bill by the same amount.",
+   "amendment": "H.Amdt. 381",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/381"
+  },
+  "2009-632": {
+   "author": "Flake",
+   "purpose": "to prohibit $500,000 from being used for the Millennium Technology Park in New Castle, Pennsylvania, and reduce the amount of the appropriate section of the bill by the same amount.",
+   "amendment": "H.Amdt. 382",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/382"
+  },
+  "2009-633": {
+   "author": "Flake",
+   "purpose": "to prohibit $500,000 from being used for the reconstruction of Rib Mountain in Wisconsin, and reduce the amount of the appropriate section of the bill by the same amount.",
+   "amendment": "H.Amdt. 383",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/383"
+  },
+  "2009-634": {
+   "author": "Hensarling",
+   "purpose": "to strike $2 million for the Doyle Drive Replacement project in San Francisco, California and reduce the overall cost of the bill by the same amount.",
+   "amendment": "H.Amdt. 384",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/384"
+  },
+  "2009-635": {
+   "author": "Hensarling",
+   "purpose": "to strike $750,000 for the Philadelphia Museum of Art Transportation Improvement Program in Pennsylvania and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 385",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/385"
+  },
+  "2009-641": {
+   "author": "Obey",
+   "purpose": "to make sundry changes to the bill.",
+   "amendment": "H.Amdt. 386",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/386"
+  },
+  "2009-642": {
+   "author": "Souder",
+   "purpose": "to prohibit funding for any program which distributes sterile needles or syringes for the hypodermic injection of any illegal drug.",
+   "amendment": "H.Amdt. 387",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/387"
+  },
+  "2009-643": {
+   "author": "Pence",
+   "purpose": "to provide that none of the funds in the bill be available to Planned Parenthood for any purpose under title X of the Public Health Services Act (Population Research and Voluntary Family Planning Programs).",
+   "amendment": "H.Amdt. 389",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/389"
+  },
+  "2009-644": {
+   "author": "Wittman",
+   "purpose": "to reduce appropriations in the bill by $803,270,000.",
+   "amendment": "H.Amdt. 390",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/390"
+  },
+  "2009-661": {
+   "author": "Murtha",
+   "purpose": "to (1) provide that funds be made available for the Joint POW/MIA Accounting from within the funds available; (2) increase the amount available for transfer to the Fisher House and Suites; (3) redirect funds otherwise available for advance procurement of additional F-22 aircraft, and provide for spare and repair parts including engines for the F-22 and C-17, aircraft defensive systems, and aircraft weapon systems; (4) include a technical revision in the Defense Health Program and shift $26,000,000 from operation and maintenance funding to research, development, test and evaluation; (5) prohibit further outsourcing of utility functions at the U.S. Military Academy at West Point; (6) make additional funds available for Chemical Agents and Munitions Destruction, Defense; (7) prohibit conversion of government-owned ammunition plants; and (8) allow for funds to be transferred to the Coast Guard for operating expenses.",
+   "amendment": "H.Amdt. 392",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/392"
+  },
+  "2009-662": {
+   "author": "Flake",
+   "purpose": "to prohibit funding for the `Drug Interdiction and Counter-Drug Activities, Defense' account by $160,000,000.",
+   "amendment": "H.Amdt. 394",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/394"
+  },
+  "2009-663": {
+   "author": "Tierney",
+   "purpose": "to strike $80 million for the Kinetic Energy Interceptor program.",
+   "amendment": "H.Amdt. 396",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/396"
+  },
+  "2009-664": {
+   "author": "Flake",
+   "purpose": "to prohibit funding for Enhanced Navy Shore Readiness Integration.",
+   "amendment": "H.Amdt. 397",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/397"
+  },
+  "2009-665": {
+   "author": "Flake",
+   "purpose": "to prohibit funding for Reduced Manning Situation Awareness.",
+   "amendment": "H.Amdt. 398",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/398"
+  },
+  "2009-666": {
+   "author": "Flake",
+   "purpose": "to prohibit funding for a Gulf Range Mobile Instrumentation Capability.",
+   "amendment": "H.Amdt. 400",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/400"
+  },
+  "2009-667": {
+   "author": "Flake",
+   "purpose": "to prohibit funding for an Ultra Low Profile EARS Gunshot Localization System.",
+   "amendment": "H.Amdt. 401",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/401"
+  },
+  "2009-668": {
+   "author": "Flake",
+   "purpose": "to prohibit funding for AARGM Counter Air Defense Future Capabilities.",
+   "amendment": "H.Amdt. 402",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/402"
+  },
+  "2009-669": {
+   "author": "Flake",
+   "purpose": "to prohibit funding for AN/SLQ-25D Integration.",
+   "amendment": "H.Amdt. 403",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/403"
+  },
+  "2009-670": {
+   "author": "Flake",
+   "purpose": "sought to prohibit approximately $200 million for more than 70 earmarks funded in the bill.",
+   "amendment": "H.Amdt. 404",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/404"
+  },
+  "2009-671": {
+   "author": "",
+   "purpose": "An En Bloc amendment consisting of all the amendments printed in Part B of House Report 111-233.",
+   "amendment": "H.Amdt. 405",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/405"
+  },
+  "2009-672": {
+   "author": "Campbell",
+   "purpose": "to prohibit the $3 million in funding for the MGPTS Type III or Rapid Deployable Shelter project and reduce the overall cost of the bill by $3 million.",
+   "amendment": "H.Amdt. 406",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/406"
+  },
+  "2009-673": {
+   "author": "Campbell",
+   "purpose": "to strike $1,500,000 for the Model for Green Laboratories and Clean Rooms project and reduce the overall cost of the bill by a commensurate amount.",
+   "amendment": "H.Amdt. 407",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/407"
+  },
+  "2009-683": {
+   "author": "Frank (MA)",
+   "purpose": "to strike language prohibiting clawbacks of executive compensation approved by shareholders and insert language prohibiting rules of financial regulators from requiring recovery of incentive-based pay under arrangements in effect on the date of enactment.",
+   "amendment": "H.Amdt. 409",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/409"
+  },
+  "2009-684": {
+   "author": "Garrett (NJ)",
+   "purpose": "An amendment in the nature of a substitute numbered 2 printed in House Report 111-237 to insert a complete new text entitled \"Corporate and Financial Institution Compensation Fairness Act of 2009\".",
+   "amendment": "H.Amdt. 410",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/410"
+  },
+  "2009-705": {
+   "author": "Hall (TX)",
+   "purpose": "to freeze authorization amounts at FY2010 levels through FY2013 and cut funding in FY2014.",
+   "amendment": "H.Amdt. 413",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/413"
+  },
+  "2009-706": {
+   "author": "Donnelly (IN)",
+   "purpose": "to include recreational vehicles as eligible under the Medium and Heavy Duty Commercial and Transit Vehicles research and development program (sec. 201).",
+   "amendment": "H.Amdt. 421",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/421"
+  },
+  "2009-707": {
+   "author": "Massa",
+   "purpose": "to authorize support for public-private partnerships and industry programs that seek to overcome barriers to commercial production.",
+   "amendment": "H.Amdt. 423",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/423"
+  },
+  "2009-710": {
+   "author": "Hoekstra",
+   "purpose": "An amendment.",
+   "amendment": "H.Amdt. 425",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/425"
+  },
+  "2009-711": {
+   "author": "McMorris Rodgers",
+   "purpose": "to limit the ability of certain schools that received funding under the economic stimulus package for school construction from receiving additional money through the new Federal school construction program authorized under this bill.",
+   "amendment": "H.Amdt. 427",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/427"
+  },
+  "2009-712": {
+   "author": "Foxx",
+   "purpose": "to strike the entire American Graduation Initiative (but maintain the privacy provisions that apply to the whole Act) and put the savings toward deficit reduction. These privacy provisions ensure that student information is protected from individuals not authorized to view it and that students cannot be identified by any unique identifier.",
+   "amendment": "H.Amdt. 430",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/430"
+  },
+  "2009-713": {
+   "author": "Himes",
+   "purpose": "to make five minor language adjustments to strengthen the financial literacy provisions of the State Innovation Completion Grants, Innovation in College Access and Completion National Activities, and contracting requirements related to private student loan servicers.",
+   "amendment": "H.Amdt. 438",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/438"
+  },
+  "2009-714": {
+   "author": "Minnick",
+   "purpose": "to 111-256 to allow servicemen and women to tranfer academic credits earned while serving in the Armed Forces between institutions of higher education.",
+   "amendment": "H.Amdt. 440",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/440"
+  },
+  "2009-715": {
+   "author": "Schauer",
+   "purpose": "to give priority in awarding Federal grants to schools, states, and non-profits to encourage dislocated workers to complete their degrees.",
+   "amendment": "H.Amdt. 442",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/442"
+  },
+  "2009-716": {
+   "author": "Teague",
+   "purpose": "to clarify that all savings in the bill not otherwise allocated go towards deficit reduction.",
+   "amendment": "H.Amdt. 444",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/444"
+  },
+  "2009-717": {
+   "author": "Guthrie",
+   "purpose": "to extend the ECASLA programs through 2014 and create a commission to develop a new private sector model for student lending.",
+   "amendment": "H.Amdt. 446",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/446"
+  },
+  "2009-801": {
+   "author": "Broun (GA)",
+   "purpose": "to change the number of years for which the Committee is authorized in the bill from five to three. It also would reduce to $250,000,000 the amount authorized in each of the three years, from 2011 to 2013.",
+   "amendment": "H.Amdt. 454",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/454"
+  },
+  "2009-802": {
+   "author": "Kaptur",
+   "purpose": "to require the Roadmap Committee to provide recommendations to strengthen the use of research and development strategies in making domestic industry more competitive and to assist the commercialization of solar technologies.",
+   "amendment": "H.Amdt. 457",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/457"
+  },
+  "2009-803": {
+   "author": "Klein (FL)",
+   "purpose": "to include research on solar energy storage technology as eligible for funding under the Secretary of Energy's research and development program.",
+   "amendment": "H.Amdt. 459",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/459"
+  },
+  "2009-804": {
+   "author": "Titus",
+   "purpose": "to include the development of solar technology products that are water efficient as a focus of the bill.",
+   "amendment": "H.Amdt. 460",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/460"
+  },
+  "2009-805": {
+   "author": "Heinrich",
+   "purpose": "to require the Solar Technology Roadmap Committee to release a draft Roadmap to the public at least one month prior to publication in order to receive public input.",
+   "amendment": "H.Amdt. 461",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/461"
+  },
+  "2009-806": {
+   "author": "Himes",
+   "purpose": "to clarify that solar thermal technologies and concentrating solar photovoltaic technologies will be included within the scope of the research and development program authorized by the bill.",
+   "amendment": "H.Amdt. 462",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/462"
+  },
+  "2009-812": {
+   "author": "Kratovil",
+   "purpose": "to require the Coast Guard to study the facility infrastructure requirements needed to fulfill the Coast Guard's missions and capabilities, and ensure that the department in which the Coast Guard is operating maintains the ability to utilize the latest technologies.",
+   "amendment": "H.Amdt. 473",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/473"
+  },
+  "2009-828": {
+   "author": "Flake",
+   "purpose": "to prohibit the earmarking of grants made available through the Small Business Early-Stage Investment program.",
+   "amendment": "H.Amdt. 481",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/481"
+  },
+  "2009-845": {
+   "author": "Hensarling",
+   "purpose": "to clarify that changes to a credit card agreement that reduce a customer's interest rate or other fees can be implemented immediately, instead of being subject to the 45-day waiting period required under the CARD Act of 2009.",
+   "amendment": "H.Amdt. 494",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/494"
+  },
+  "2009-846": {
+   "author": "McCarthy (NY)",
+   "purpose": "to provide that any card issuer that imposes a moratorium on increases in rates, fees and terms and conditions of a contract would be exempt from the accelerated date for the provision requiring an issuer to apply a customer's payment in excess of the minimum amount due, to the highest rate balance.",
+   "amendment": "H.Amdt. 495",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/495"
+  },
+  "2009-847": {
+   "author": "Maffei",
+   "purpose": "to set the effective date of certain provisions of the CARD Act of 2009 to the enactment date of this Act.",
+   "amendment": "H.Amdt. 496",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/496"
+  },
+  "2009-848": {
+   "author": "Sutton",
+   "purpose": "to prevent the closure of a credit card account in response to the imposition of a new fee from negatively impacting a consumer's credit report or credit score.",
+   "amendment": "H.Amdt. 497",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/497"
+  },
+  "2009-849": {
+   "author": "Sutton",
+   "purpose": "to impose a moratorium on increasing annual percentage rates, fees and finance charges, as well as a moratorium on changing the terms for repayment of outstanding balances on credit card accounts, for nine months after enactment of this Act.",
+   "amendment": "H.Amdt. 498",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/498"
+  },
+  "2009-869": {
+   "author": "Thompson (MS)",
+   "purpose": "to amend the Amendment in the Nature of a Substitute for H.R. 2868 to make a number of technical corrections and fix typos and verbiage issues.",
+   "amendment": "H.Amdt. 499",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/499"
+  },
+  "2009-870": {
+   "author": "Barton (TX)",
+   "purpose": "An amendment numbered 2 printed Part B of House Report 111-327 to place provisions in the bill allowing the new Federal chemical facility regulations enacted by this bill to preempt state and local laws that \"hinder, pose obstacles to, or frustrate the purpose of the federal program\".",
+   "amendment": "H.Amdt. 500",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/500"
+  },
+  "2009-871": {
+   "author": "Dent",
+   "purpose": "to strike Title I, affecting chemical facilities, and replace it with an extension of the Department of Homeland Security's current regulatory authority under section 550(b) of the Department of Homeland Security Appropriations Act, 2007.",
+   "amendment": "H.Amdt. 502",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/502"
+  },
+  "2009-872": {
+   "author": "Dent",
+   "purpose": "to strike section 2111, which requires assessments and implementation of methods to reduce the consequences of a terrorist attack.",
+   "amendment": "H.Amdt. 503",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/503"
+  },
+  "2009-873": {
+   "author": "McCaul",
+   "purpose": "to strike the citizen enforcement section of the bill.",
+   "amendment": "H.Amdt. 506",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/506"
+  },
+  "2009-884": {
+   "author": "Stupak",
+   "purpose": "to codify the Hyde Amendment in H.R. 3962. The amendment prohibits federal funds for abortion services in the public option. It also prohibits individuals who receive affordability credits from purchasing a plan that provides elective abortions. However, it allows individuals, both who receive affordability credits and who do not, to separately purchase with their own funds plans that cover elective abortions. It also clarifies that private plans may still offer elective abortions.",
+   "amendment": "H.Amdt. 509",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/509"
+  },
+  "2009-885": {
+   "author": "Boehner",
+   "purpose": "An amendment in the nature of a substitute printed in Part D of House Report 111-330 to create Universal Access Programs that expand and reform high-risk pools and reinsurance programs to guarantee that all Americans, regardless of pre-existing conditions or past illnesses, have access to affordable care while lowering costs for all Americans. It prevents insurers from unjustly canceling a policy or instituting annual or lifetime spending caps. The amendment would put in place medical liability reforms and gives small businesses the power to pool together and offer health care at lower prices. In addition, the legislation would provide incentive payments to states that reduce premiums and the number of uninsured. The bill would allow Americans living in one state to shop for coverage and purchase insurance in another. The legislation would prohibit all Federal funds, whether they are authorized funds or appropriated funds, from being used to pay for abortion. The amendment would create new incentives to save for future and long-term care needs by allowing qualified participants to use HSAs to pay premiums.",
+   "amendment": "H.Amdt. 510",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/510"
+  },
+  "2009-899": {
+   "author": "Perlmutter",
+   "purpose": "to authorize a nationwide survey to assess compliance of fire departments with certain best practices on firefighter safety. The amendment establishes a task force of fire service industry to make recommendations to Congress on ways to increase compliance with those firefighter safety standards.",
+   "amendment": "H.Amdt. 512",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/512"
+  },
+  "2009-900": {
+   "author": "Flake",
+   "purpose": "to prohibit earmarking of funds appropriated under the Act.",
+   "amendment": "H.Amdt. 513",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/513"
+  },
+  "2009-953": {
+   "author": "Frank (MA)",
+   "purpose": "to make sundry changes to the bill.",
+   "amendment": "H.Amdt. 517",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/517"
+  },
+  "2009-954": {
+   "author": "Sessions",
+   "purpose": "to strike provisions which create a new private right of action against credit rating agencies; the amendment contains enforcement of credit rating agencies to the SEC.",
+   "amendment": "H.Amdt. 518",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/518"
+  },
+  "2009-955": {
+   "author": "Lynch",
+   "purpose": "to provide rules toward the equitable governance of clearing houses and swap exchange facilities.",
+   "amendment": "H.Amdt. 521",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/521"
+  },
+  "2009-956": {
+   "author": "Murphy (NY)",
+   "purpose": "to replace the current definition of Major Swap Participant with the definition that was reported out of the House Agriculture Committee.",
+   "amendment": "H.Amdt. 522",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/522"
+  },
+  "2009-957": {
+   "author": "Frank (MA)",
+   "purpose": "to create authority for the prudential regulators, the CFTC and the SEC, to set margin in swap and security-based swap transactions involving end users.",
+   "amendment": "H.Amdt. 523",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/523"
+  },
+  "2009-958": {
+   "author": "Stupak",
+   "purpose": "to require transparency in swaps contracts by requiring all non-cleared swaps be executed on a registered swap execution facility.",
+   "amendment": "H.Amdt. 524",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/524"
+  },
+  "2009-959": {
+   "author": "Stupak",
+   "purpose": "to allow the Commodity Futures Trading Commission and the Securities and Exchange Commission the authority to ban abusive swaps, amends any proposed commercial risk definition to disregard balance sheet risk, and maintains any illegal swap entered into after enactment of this Act will not be valid.",
+   "amendment": "H.Amdt. 525",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/525"
+  },
+  "2009-960": {
+   "author": "Kanjorski",
+   "purpose": "to strike the provisions exempting public companies with less than $75 million in market capitalization from the requirements of the Sarbanes-Oxley Act related to the external audit of internal controls.",
+   "amendment": "H.Amdt. 527",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/527"
+  },
+  "2009-961": {
+   "author": "McCarthy (CA)",
+   "purpose": "to strike section 6012 (relating to Effect of Rule 436(G)). The amendment would strike increased liability language that would be a barrier to entry, inhibiting increased competition in the rating agency market.",
+   "amendment": "H.Amdt. 528",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/528"
+  },
+  "2009-962": {
+   "author": "Peters",
+   "purpose": "to authorize the FDIC to make assessments for the Systemic Dissolution Fund used to repay any shortfalls in Troubled Asset Relief Program (TARP) to ensure that such shortfalls do not add to the deficit or national debt.",
+   "amendment": "H.Amdt. 531",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/531"
+  },
+  "2009-963": {
+   "author": "Marshall",
+   "purpose": "to allow bankruptcy courts to extend repayment periods, reduce excessive interest rates and fees, and adjust the principal balance of the mortgage to a home's fair market value as necessary to prevent foreclosure and revised to allow the VA, FHA, and RHS to take steps to facilitate mortgage modifications. The amendment is substantively identical to title I, subtitle A and sections 121-123 of subtitle B of H.R. 1106 (Helping Families Save Their Homes Act of 2009), which passed the House on March 5, 2009.",
+   "amendment": "H.Amdt. 534",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/534"
+  },
+  "2009-964": {
+   "author": "Schakowsky",
+   "purpose": "to provide the Director of the Consumer Financial Protection Agency with authority to issue regulations for reverse mortgage transactions within one year of enactment. It would clarify the Directors authority to consider additional consumer protections under both consumer protection statutes and HUD regulations.",
+   "amendment": "H.Amdt. 536",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/536"
+  },
+  "2009-965": {
+   "author": "Minnick",
+   "purpose": "to create a Consumer Financial Protection Council (CFPC) of regulators with rule-writing authority in safety and soundness of institutions and consumer protections regarding all financial products. The CFPC is comprised of 12 members including the Secretary of Treasury, Secretary of Housing and Urban Development, the Chairman of the Federal Reserve, the chairman of the CFTC and SEC, among other federal and state regulators.",
+   "amendment": "H.Amdt. 538",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/538"
+  },
+  "2009-966": {
+   "author": "Bachus",
+   "purpose": "to provide an alternative bill that establishes a new chapter of the bankruptcy code to resolve certain non-bank financial institutions; creates a consumer protection council comprised of existing Federal regulators to revise and promulgate model regulations to enhance consumer protection and improve disclosure; strengthens anti-fraud provisions; regulates over-the-counter derivatives markets; addresses executive compensation; removes statutory reliance on credit ratings; reforms the Government Sponsored Enterprises (Fannie Mae and Freddie Mac); and creates a Federal Insurance Office.",
+   "amendment": "H.Amdt. 539",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/539"
+  },
+  "2010-34": {
+   "author": "Hastings (FL)",
+   "purpose": "to address the lack of minority representation in the cybersecurity industry including women and African-Americans, Hispanics, and Native Americans. The amendment adds language in Sec. 107 to describe how successful programs are engaging said minorities and in Sec. 108 to include minority-serving institutions on the Cybersecurity University-Industry Task Force.",
+   "amendment": "H.Amdt. 545",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/545"
+  },
+  "2010-35": {
+   "author": "Flake",
+   "purpose": "to prohibit the earmarking of funds authorized for grants in the bill.",
+   "amendment": "H.Amdt. 547",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/547"
+  },
+  "2010-36": {
+   "author": "Dahlkemper",
+   "purpose": "to allow collaboration between and among community colleges, universities, and Manufacturing Extension Partnership Centers as an additional use for the Computer and Network Security Capacity Building Grants under the Cyber Security Research and Development Act.",
+   "amendment": "H.Amdt. 552",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/552"
+  },
+  "2010-37": {
+   "author": "Cuellar",
+   "purpose": "to add to the Cybersecurity Strategic Research and Development plan a requirement to determine how to strengthen all levels of cybersecurity education and training programs to secure an adequate, well-trained workforce.",
+   "amendment": "H.Amdt. 558",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/558"
+  },
+  "2010-38": {
+   "author": "Connolly (VA)",
+   "purpose": "to emphasize that promotion of cybersecurity education also must include \"children and young adults\" along with the other targeted audiences.",
+   "amendment": "H.Amdt. 562",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/562"
+  },
+  "2010-39": {
+   "author": "Halvorson",
+   "purpose": "to add veteran status as an additional item for consideration when selecting individuals for the Federal Cyber Scholarship for Service.",
+   "amendment": "H.Amdt. 563",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/563"
+  },
+  "2010-40": {
+   "author": "Kilroy",
+   "purpose": "to amend the Federal Cyber Scholarship for Service program to include support for outreach activities that will improve the recruitment of high school and community college students into cybersecurity-related fields.",
+   "amendment": "H.Amdt. 564",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/564"
+  },
+  "2010-41": {
+   "author": "Kissell",
+   "purpose": "to instruct the National Science Foundation Director to include language in its Computer and Network Security Capacity Building Grants mission statement highlighting importance of curriculum on the principles and techniques of designing secure software.",
+   "amendment": "H.Amdt. 565",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/565"
+  },
+  "2010-42": {
+   "author": "Owens",
+   "purpose": "to require the Cybersecurity Strategic Research and Development plan to include a component on technologies to secure sensitive information shared among Federal agencies.",
+   "amendment": "H.Amdt. 568",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/568"
+  },
+  "2010-56": {
+   "author": "Hastings (WA)",
+   "purpose": "to the amendment in the nature of a substitute offered by Mr. Abercrombie to require that the voters of Hawaii approve the governing documents for the Native Hawaiian governing entity before federal recognition becomes operative.",
+   "amendment": "H.Amdt. 571",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/571"
+  },
+  "2010-57": {
+   "author": "Flake",
+   "purpose": "to the Abercrombie amendment in the nature of a substitute to state that nothing in the Act shall relieve a Native Hawaiian governing authority from complying with the equal protection clause of the 14th amendment to the United States Constitution.",
+   "amendment": "H.Amdt. 572",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/572"
+  },
+  "2010-58": {
+   "author": "Abercrombie",
+   "purpose": "An amendment in the nature of a substitute numbered 1 printed in part A of House Report 111-413 which addresses several issues raised by the Attorney General of the State of Hawaii and others. In particular the amendment clarifies the definition of \"Native Hawaiian\" to ensure that the Native Hawaiian governing entity is a distinctly native community. While recognizing and affirming the sovereign immunity of the Native Hawaiian governing entity, the amendment expressly states the Act does not alter the sovereign immunity of the United States or the State of Hawaii allowing for negotiations. The amendment further clarifies that, pending negotiations and subsequent implementation legislation the following will occur: there will be no \"Indian Country\" within Hawaii; the United States will not take land into trust, nor restrict alienability of land owned by the Native Hawaiian governing entity; the governing entity may not exercise certain powers and authorities such as jurisdiction over non Native Hawaiian individuals without their consent; and the State of Hawaii will retain regulatory and taxation authority over Native Hawaiians and the Native Hawaiian governing entity.",
+   "amendment": "H.Amdt. 570",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/570"
+  },
+  "2010-69": {
+   "author": "Reyes",
+   "purpose": "to make technical and sundry changes.",
+   "amendment": "H.Amdt. 573",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/573"
+  },
+  "2010-70": {
+   "author": "Hastings (FL)",
+   "purpose": "to require the DNI, in coordination with the heads of the elements of the intelligence community, to submit to Congress a report on the plans of each element of the community, including the Office of the Director of National Intelligence, to increase diversity within that element.",
+   "amendment": "H.Amdt. 575",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/575"
+  },
+  "2010-71": {
+   "author": "Schauer",
+   "purpose": "to require the DNI to investigate and report to Congress regarding the attempted terrorist attack on Northwest flight 253 and measures the intelligence community has taken or will take to prevent any intelligence failures within or between elements of the U.S. intelligence community.",
+   "amendment": "H.Amdt. 584",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/584"
+  },
+  "2010-81": {
+   "author": "Flake",
+   "purpose": "to presume that grants awarded under this Act will be awarded using competitive, merit-based procedures, and would require that if a non-competitive basis is used, the Secretary of Education must report to Congress the reason why competition was not used. It also requires that no funds appropriated under this Act may be used for a congressional earmark, as defined in clause 9e of rule XXI of the Rules of the House of Representatives.",
+   "amendment": "H.Amdt. 586",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/586"
+  },
+  "2010-139": {
+   "author": "Flake",
+   "purpose": "to the Capps amendment in the nature of a substitute printed in Part B of House Report 111-445 to prohibit earmarking in the funds authorized for appropriations in the legislation.",
+   "amendment": "H.Amdt. 589",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/589"
+  },
+  "2010-140": {
+   "author": "Capps",
+   "purpose": "An amendment in the nature of a substitute printed in Part A of House Report 111-445 to reflect changes to the bill that address concerns raised by the minorit y during Committee consideration of the bill. In particular the ANS makes several changes to reflect the significant economic importance of coastal areas and resources to the overall economy of the United States and also authorizes specific increases in authorized appropriation levels.",
+   "amendment": "H.Amdt. 588",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/588"
+  },
+  "2010-148": {
+   "author": "Bishop (UT)",
+   "purpose": "to retain the existing authorization level of $12 million a year and only authorizes the program for 5 years.",
+   "amendment": "H.Amdt. 591",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/591"
+  },
+  "2010-149": {
+   "author": "Cole",
+   "purpose": "to amend Section 3(f) to allow the Secretaries to enter into arrangement with tribal governments in order to provide temporary housing with Corps volunteers.",
+   "amendment": "H.Amdt. 590",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/590"
+  },
+  "2010-207": {
+   "author": "Shea-Porter",
+   "purpose": "to ensure that comprehensive conservation and management plans address the impacts and potential effects of sea level change.",
+   "amendment": "H.Amdt. 600",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/600"
+  },
+  "2010-227": {
+   "author": "Hall (NY)",
+   "purpose": "to require the Director of the Office of Performance Assessment and Root Cause Analysis (\"PARCA\") to include performance assessments with significant findings in its annual report. It also requires submission of egregious problems (as defined by the PARCA Director) to the Armed Services Committees.",
+   "amendment": "H.Amdt. 605",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/605"
+  },
+  "2010-228": {
+   "author": "Connolly (VA)",
+   "purpose": "to create an Industrial Base Council within the DOD, supported by existing personnel and funds, to provide recommendations to the Secretary on budget and policy matters related to the industrial base. Would require an annual report to Congress on the Council's activities.",
+   "amendment": "H.Amdt. 612",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/612"
+  },
+  "2010-234": {
+   "author": "Foxx",
+   "purpose": "to allow supporters of the commonwealth status quo the option of voting their preference during the second stage of the plebiscite.",
+   "amendment": "H.Amdt. 619",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/619"
+  },
+  "2010-235": {
+   "author": "Gutierrez",
+   "purpose": "to provide the Puerto Rican people have the option to choose \"none of the above\" with regard to the status of Puerto Rico.",
+   "amendment": "H.Amdt. 620",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/620"
+  },
+  "2010-236": {
+   "author": "Gutierrez",
+   "purpose": "to provide that the ballots in the plebiscite to be conducted under H.R. 2499 are printed in Spanish.",
+   "amendment": "H.Amdt. 621",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/621"
+  },
+  "2010-237": {
+   "author": "Burton (IN)",
+   "purpose": "to retain the requirement that all ballots used for authorized plebiscites include the full content of the ballot printed in English. It would also require the Puerto Rico State Elections Commission to inform voters in all authorized plebiscites that if Puerto Rico retains its current status or is admitted as a State: (1) any official language requirements of the Federal Government shall apply to Puerto Rico to the same extent as throughout the United States; and (2) it is the Sense of Congress that the teaching of English be promoted in Puerto Rico in order for English-language proficiency to be achieved.",
+   "amendment": "H.Amdt. 622",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/622"
+  },
+  "2010-238": {
+   "author": "Velazquez",
+   "purpose": "to expand eligibility to vote in the any plebiscites authorized by this bill to U.S. citizens of Puerto Rican descent residing in any of the 50 States.",
+   "amendment": "H.Amdt. 623",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/623"
+  },
+  "2010-239": {
+   "author": "Velazquez",
+   "purpose": "to eliminate the first round of voting in Section 2 of the bill and insert an option for Commonwealth as a fourth option to the ballot. It also provides for a runoff process if no option receives more than 50 percent of the vote that would be between the two options that received the most votes.",
+   "amendment": "H.Amdt. 624",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/624"
+  },
+  "2010-240": {
+   "author": "Velazquez",
+   "purpose": "to express that it is the Sense of Congress that a proposal for a change of status must come first from the Commonwealth of Puerto Rico before Congress decides to consider the issue, therefore respecting their right of self-determination.",
+   "amendment": "H.Amdt. 625",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/625"
+  },
+  "2010-252": {
+   "author": "Barton (TX)",
+   "purpose": "to strike the provision that permits financing entities to use funds repaid by participants to provide assistance to additional participants.",
+   "amendment": "H.Amdt. 628",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/628"
+  },
+  "2010-253": {
+   "author": "Burgess",
+   "purpose": "to strike the public information campaign (section 109) from the bill and strike the campaign's $12 million authorization.",
+   "amendment": "H.Amdt. 630",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/630"
+  },
+  "2010-262": {
+   "author": "Gordon (TN)",
+   "purpose": "to make technical and clarifying changes to the bill. Would also amend Section 243 (\"Robert Noyce Teacher Scholarship Program\") and Section 702 (\"Persons with Disabilities), and add new Sections 412 (\"Report On the Use of Modeling and Simulation\") and Section 704 (\"Budgetary Effects\"), Section 705 (\"Limitation\"), and Section 706 (\"Prohibition on Lobbying\"), among other changes.",
+   "amendment": "H.Amdt. 636",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/636"
+  },
+  "2010-263": {
+   "author": "Hall (TX)",
+   "purpose": "to strike title V of the bill (Innovation).",
+   "amendment": "H.Amdt. 638",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/638"
+  },
+  "2010-264": {
+   "author": "Markey (MA)",
+   "purpose": "to establish a program to support the development and commercial application of cleamount not more than $10,000,000 per year and is for a period not to exceed 3 years.he Secretary of Energy. The Consortium would be regionally based and include research universities, national labs, industry, and other state and nongovernmental organizations with research or technology transfer expertise in clean energy technology. The Consortium would have a technology focus to which at least 50 percent of support would be directed. The grant to establish and operate the Consortium is for an amount not more than $10,000,000 per year and is for a period not to exceed 3 years.",
+   "amendment": "H.Amdt. 641",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/641"
+  },
+  "2010-265": {
+   "author": "Miller, George",
+   "purpose": "to require public institutions of higher education, with respect to employees who are represented by labor organizations and who work on activities or programs supported by this Act, to maintain a policy to respond to union information requests, for information to which the union is legally entitled, on a timely basis in order to be eligible to receive facilities and administrative costs provided by any of the funding sources authorized by this Act. Failure to comply with such a policy would result in suspension of payments to the institution for facilities and administrative costs until compliance is achieved.",
+   "amendment": "H.Amdt. 642",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/642"
+  },
+  "2010-266": {
+   "author": "Reyes",
+   "purpose": "to require the STEM coordinating committee under OSTP to describe the approaches that will be taken by each agency to conduct outreach designed to promote widespread public understanding of career opportunities in the STEM fields. It also requires the establishment and maintenance of a publicly accessible online database of all federally sponsored STEM education programs.",
+   "amendment": "H.Amdt. 643",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/643"
+  },
+  "2010-267": {
+   "author": "Boccieri",
+   "purpose": "to increase the authorization level for funding for Federal Loan Guarantees for Innovative Technologies in Manufacturing from $50 million to $100 million.",
+   "amendment": "H.Amdt. 646",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/646"
+  },
+  "2010-268": {
+   "author": "Halvorson",
+   "purpose": "to require the Director of the National Science Foundation to give consideration to the goal of promoting the participation of veterans in the postdoctoral research fellowship program established by section 246 (Postdoctoral research fellowships).",
+   "amendment": "H.Amdt. 648",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/648"
+  },
+  "2010-269": {
+   "author": "Flake",
+   "purpose": "to express the sense of Congress that retaining graduate-level talent trained at American universities in STEM fields is critical to enhancing the competitiveness of American businesses.",
+   "amendment": "H.Amdt. 650",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/650"
+  },
+  "2010-310": {
+   "author": "Skelton",
+   "purpose": "to correct a variety of technical errors in the bill.",
+   "amendment": "H.Amdt. 654",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/654"
+  },
+  "2010-311": {
+   "author": "Marshall",
+   "purpose": "to express the sense of Congress that the Chief of the National Guard Bureau should issue fire-resistant utility ensembles to National Guard personnel who are engaged, or likely to become engaged, in defense support to civil authority missions that routinely involve serious fire hazards, such as wildfire recovery efforts.",
+   "amendment": "H.Amdt. 657",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/657"
+  },
+  "2010-312": {
+   "author": "McGovern",
+   "purpose": "to include a Sense of Congress stating that hunger and obesity are impairing military recruitment and must be properly addressed.",
+   "amendment": "H.Amdt. 659",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/659"
+  },
+  "2010-313": {
+   "author": "Inslee",
+   "purpose": "to require the Department of Defense to take into consideration during the KC-X or any successor aerial tanker replacement program any unfair competitive advantage an offeror may possess, and to report any such unfair competitive advantage to Congressional defense committees within 60 days of bid submissions.",
+   "amendment": "H.Amdt. 662",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/662"
+  },
+  "2010-314": {
+   "author": "Gutierrez",
+   "purpose": "to stipulate that, should the Secretary of Defense determine that BP or its subsidiaries performing any contract with the Department are no longer a \"responsible source,\" the Secretary shall consider debarring BP or its subsidiaries from contracting with the Department no later than 90 days after making such determination.",
+   "amendment": "H.Amdt. 665",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/665"
+  },
+  "2010-315": {
+   "author": "Eshoo",
+   "purpose": "to require the DNI to cooperate with GAO inquiries that are initiated by Committees. Would allow all committees of jurisdiction to request that GAO perform audits of the intelligence community. Would allow the DNI to designate certain reports or portions of reports as sources and methods sensitive or reportable only to the intelligence committees, and those reports or portions would go only to the intelligence committees. Would establish certain procedures to ensure that GAO safeguards information.",
+   "amendment": "H.Amdt. 666",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/666"
+  },
+  "2010-316": {
+   "author": "Pingree (ME)",
+   "purpose": "to strike funding for the Joint Strike Fighter's Alternate Engine Program.",
+   "amendment": "H.Amdt. 661",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/661"
+  },
+  "2010-317": {
+   "author": "Murphy, Patrick",
+   "purpose": "to repeal Dont Ask Dont Tell only after: (1) receipt of the recommendations of the Pentagon's Comprehensive Review Working Group on how to implement a repeal of DADT (due December 1, 2010) and (2) a certification by the Secretary of Defense, Chairman of the Joint Chiefs and President that repeal is first, consistent with military readiness, military effectiveness, unit cohesion & recruiting, and second, that the DoD has prepared the necessary policies and regulations to implement its repeal. It would also include a 60 day period after certification before the repeal took effect.",
+   "amendment": "H.Amdt. 672",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/672"
+  },
+  "2010-318": {
+   "author": "Sarbanes",
+   "purpose": "to require non-Defense agencies to establish contractor inventories and insourcing programs to mirror current law for the Department of Defense. It would also prevent agencies from establishing any numerical goal, target, or quota for the conversion to performance by Federal employees, require OMB to report to Congress on agency insourcing policies and GAO to evaluate OMB reporting.",
+   "amendment": "H.Amdt. 667",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/667"
+  },
+  "2010-333": {
+   "author": "",
+   "purpose": "An amendment comprised of the following amendments offered en bloc: amendments nos. 8, 15, 30, 32, as modified, 55, 61, 64, 66, 67, 74, and 77 printed in House Report 111-498.",
+   "amendment": "H.Amdt. 676",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/676"
+  },
+  "2010-347": {
+   "author": "Waters",
+   "purpose": "to provide for various technical corrections, make modifications to the GAO report in section 15 of the bill, provide that the Secretary may increase loan limits for micropolitan counties surrounded by higher cost areas and experiencing significant growth, and address documentation standards for FHA loans.",
+   "amendment": "H.Amdt. 680",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/680"
+  },
+  "2010-348": {
+   "author": "Garrett (NJ)",
+   "purpose": "to raise the FHA down payment requirement from 3.5% to 5% and prohibit closing costs from being rolled in as well.",
+   "amendment": "H.Amdt. 684",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/684"
+  },
+  "2010-349": {
+   "author": "Price (GA)",
+   "purpose": "to cap the number of mortgages the FHA can issue to 10% of total loans originated in the U.S. each year. Within 90 days of enactment, FHA must submit a plan to Congress to roll back FHA market share to 10% of loans originated each year by 2012.",
+   "amendment": "H.Amdt. 686",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/686"
+  },
+  "2010-350": {
+   "author": "Turner",
+   "purpose": "to repeal the emergency authority that allows the FHA to insure loans up to $720,000 in certain high cost areas. The amendment would create a maximum loan limit of $500,000 for a single family unit and a percentage of the same ratio for 2-, 3- or 4-family residences.",
+   "amendment": "H.Amdt. 688",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/688"
+  },
+  "2010-351": {
+   "author": "Edwards (TX)",
+   "purpose": "to require individuals to certify that they have not been convicted of a sex offense against a minor in order to get an FHA mortgage.",
+   "amendment": "H.Amdt. 691",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/691"
+  },
+  "2010-352": {
+   "author": "Maffei",
+   "purpose": "to state that no funds authorized under the act may be used to pay the salary of an employee who has been officially disciplined for viewing, downloading, or exchanging pornography (including child pornography) on a Federal Government computer or while performing official Federal Government duties.",
+   "amendment": "H.Amdt. 692",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/692"
+  },
+  "2010-371": {
+   "author": "Israel",
+   "purpose": "to add veteran- and women- owned businesses to the groups that will receive outreach under the Small Business Lending Fund established by the bill. It adds veteran-owned businesses to those businesses that should receive consideration in the Fund, adds veterans to the study on lending assistance, and requires the study to report not just on the number of loans made to women-, veteran- and minority-owned businesses, but the percent of loans that go to them as a part of the program.",
+   "amendment": "H.Amdt. 694",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/694"
+  },
+  "2010-372": {
+   "author": "Cao",
+   "purpose": "to provide funding to eligible institutions that serve small businesses in communities that have suffered negative economic effects as a result of the Deepwater Horizon oil spill with particular consideration to States along the coast of the Gulf of Mexico.",
+   "amendment": "H.Amdt. 702",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/702"
+  },
+  "2010-373": {
+   "author": "Miller (NC)",
+   "purpose": "to expand the definition of `small business lending' used in the bill to include loans made to small business concerns for the purpose of acquiring, constructing, or improving industrial, commercial, residential, or farm buildings.",
+   "amendment": "H.Amdt. 709",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/709"
+  },
+  "2010-388": {
+   "author": "King (IA)",
+   "purpose": "to eliminate all limitations on federal election campaign contributions.",
+   "amendment": "H.Amdt. 711",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/711"
+  },
+  "2010-389": {
+   "author": "Murphy, Patrick",
+   "purpose": "to ensure that citizens know if special interests outside their district or state are trying to impact an election by enhancing advertisement disclaimers to include the city and state of the ad funder's residence or principle office.",
+   "amendment": "H.Amdt. 714",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/714"
+  },
+  "2010-444": {
+   "author": "Flake",
+   "purpose": "to prohibit funds made available for grants from being used for earmarks.",
+   "amendment": "H.Amdt. 721",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/721"
+  },
+  "2010-445": {
+   "author": "Murphy (NY)",
+   "purpose": "to require all funds authorized under the Act to be expended in a manner consistent with the manual on Standards of Ethical Conduct for Employees of the Executive Branch.",
+   "amendment": "H.Amdt. 728",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/728"
+  },
+  "2010-480": {
+   "author": "Gingrey (GA)",
+   "purpose": "to prohibit any funds appropriated or otherwise made available to the Department of Defense under this Act to be used to renovate or construct any facility within the Continental United States for the purpose of housing any individual who has been detained, at any time after September 11, 2001, at United States Naval Station, Guantanamo Bay, Cuba.",
+   "amendment": "H.Amdt. 737",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/737"
+  },
+  "2010-481": {
+   "author": "Garrett (NJ)",
+   "purpose": "to increase funding for the Grants for Construction of State Veterans Cemeteries account by $7,000,000 and decrease funding for the Grants for Construction, Minor Projects account by $7,000,000.",
+   "amendment": "H.Amdt. 742",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/742"
+  },
+  "2010-488": {
+   "author": "Boehner",
+   "purpose": "to reduce HUD's Transformation Initiative (technical assistance and capacity building) by $40 million.",
+   "amendment": "H.Amdt. 744",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/744"
+  },
+  "2010-489": {
+   "author": "Latham",
+   "purpose": "to cut $1.8 billion from specific accounts that were increased over and above the President's request.",
+   "amendment": "H.Amdt. 749",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/749"
+  },
+  "2010-490": {
+   "author": "Culberson",
+   "purpose": "to reduce the bill's funding level by $12.4 billion dollars, returning the bill to the FY2009 funding level. This is an 18% cut in the bill's spending.",
+   "amendment": "H.Amdt. 751",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/751"
+  },
+  "2010-492": {
+   "author": "Neugebauer",
+   "purpose": "to reduce spending in the bill by $10.52 billion. This amount represents the uncommitted funds from the $61.7 billion in 2009 stimulus funds that were appropriated for transportation and housing related program.",
+   "amendment": "H.Amdt. 755",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/755"
+  },
+  "2010-493": {
+   "author": "Jordan (OH)",
+   "purpose": "to reduce spending by $18,579,000,000 in order to reflect FY 2008 levels.",
+   "amendment": "H.Amdt. 759",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/759"
+  },
+  "2010-494": {
+   "author": "Flake",
+   "purpose": "to reduce funding for Capital and Debt Service Grants to the National Railroad Passenger Corporation for capital investments by $1,203,500,000.",
+   "amendment": "H.Amdt. 760",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/760"
+  },
+  "2010-495": {
+   "author": "Flake",
+   "purpose": "to prohibit $1,000,000 from being made available for the Blackstone River Bikeway in Rhode Island and reduce the overall cost of the bill by the same amount.",
+   "amendment": "H.Amdt. 761",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/761"
+  },
+  "2010-496": {
+   "author": "Flake",
+   "purpose": "to prohibit $1,000,000 from being made available for the downtown Tacoma streetscapes improvement project in Washington and reduce the overall cost of the bill by the same amount.",
+   "amendment": "H.Amdt. 762",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/762"
+  },
+  "2010-497": {
+   "author": "Flake",
+   "purpose": "to prohibit $1,000,000 from being made available for the restoration and improvements to the historical Darwin Martin House Home and complex in New York and reduce the overall cost of the bill by the same amount.",
+   "amendment": "H.Amdt. 763",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/763"
+  },
+  "2010-498": {
+   "author": "Flake",
+   "purpose": "to prohibit $150,000 from being made available for the construction of a children's playground in the Municipality of Yauco, Puerto Rico and reduce the overall cost of the bill by the same amount.",
+   "amendment": "H.Amdt. 764",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/764"
+  },
+  "2010-507": {
+   "author": "Rahall",
+   "purpose": "to clarify certain provisisons in the bill and add various requirements.",
+   "amendment": "H.Amdt. 766",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/766"
+  },
+  "2010-508": {
+   "author": "Kind",
+   "purpose": "to require that no less than 1.5 percent of the Land and Water Conservation Fund each year go toward securing recreational public access to Federal Lands under the jurisdiction of the Secretary of the Interior for hunting, fishing, and other outdoor recreation.",
+   "amendment": "H.Amdt. 768",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/768"
+  },
+  "2010-509": {
+   "author": "Teague",
+   "purpose": "to allow a group of companies to cooperate to meet financial responsibility requirements by pooling of resources or joint insurance coverage.",
+   "amendment": "H.Amdt. 770",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/770"
+  },
+  "2010-510": {
+   "author": "Oberstar",
+   "purpose": "to require, following initial clean-up of a spill, that the National Resources Damages Act trustee give equal and full consideration to all statutorily prescribed natural resource damage remedies to ensure that acquisition of non-impacted land is considered an equal remedy and not given lower priority as is currently provided in statute.",
+   "amendment": "H.Amdt. 771",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/771"
+  },
+  "2010-511": {
+   "author": "Melancon",
+   "purpose": "to seek to end the federal moratorium on deepwater drilling. The moratorium would be prohibited from enforcement on those rigs that meet safety requirements set forth in NTL 05 and NTL 06.",
+   "amendment": "H.Amdt. 773",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/773"
+  },
+  "2010-529": {
+   "author": "Holden",
+   "purpose": "to clarify that loan funds under the bill may not be used to purchase manufactured homes, makes technical corrections to a Comptroller General report, prohibits provision of funds to certain contractors and makes ineligible for loans certain Federal Employees. It also requires the Secretaries of Energy and Agriculture to take steps to prevent misuse of funds. Prohibits any additions to direct spending in regards to provisions within this Act. Does not allow an entity with an ongoing capital repayment obligation to the Treasury due to the Troubled Assets Relief Program to participate in the programs within this Act. Ensures that funds provided under this bill would supplement and not supplant other energy efficiency funding.",
+   "amendment": "H.Amdt. 775",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/775"
+  },
+  "2010-606": {
+   "author": "Butterfield",
+   "purpose": "to change the recommendation of censure contained in the resoluttion to that of reprimand.",
+   "amendment": "H.Amdt. 784",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/784"
+  },
+  "2010-646": {
+   "author": "Levin",
+   "purpose": "to strike Title III of the Senate amendment to H.R. 4583 and amend the bill to provide two years of estate tax relief at 2009 levels. In calendar years 2011 and 2012, the estate tax exemption amount would be $3.5 million ($7 million total for a married couple) and the maximum tax rate on estates would be 45%. Additionally, the amendment would provide estates from decedents in 2010 with the ability to elect to be treated under the 2009 levels or to be treated under current law for tax purposes. This election will allow estates to receive a step up in basis on inherited property rather than the 2010 carryover basis rules. The exemption level and rate are consistent with the estate tax proposal included in the President's FY2010 and FY2011 Budgets. Under the Senate amendment to H.R. 4583, the bill would provide two years of estate tax relief with a $5 million estate tax exemption ($10 million total for a married couple) and a maximum rate of 35%. The amendment saves $23 billion, and affects 6,600 estates in 2011 which would receive an average additional tax cut of more than $1.5 million under the Senate bill.",
+   "amendment": "H.Amdt. 786",
+   "url": "https://www.congress.gov/amendment/111th-congress/house-amendment/786"
+  }
+ }
+}

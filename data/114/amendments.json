@@ -1,0 +1,3185 @@
+{
+ "_comment": "Amendments that got a recorded House vote, keyed by roll call: who offered them and what they did, from the Congress.gov API (fetch_legislation.py). 'bills' records when each bill's amendments were last checked.",
+ "congress": 114,
+ "updated": "2026-11-12",
+ "bills": {
+  "H CON RES 27": "2026-11-12",
+  "H R 1029": "2026-11-12",
+  "H R 1030": "2026-11-12",
+  "H R 1090": "2026-11-12",
+  "H R 1155": "2026-11-12",
+  "H R 1195": "2026-11-12",
+  "H R 1295": "2026-11-12",
+  "H R 1314": "2026-11-12",
+  "H R 1335": "2026-11-12",
+  "H R 1560": "2026-11-12",
+  "H R 1599": "2026-11-12",
+  "H R 1644": "2026-11-12",
+  "H R 1675": "2026-11-12",
+  "H R 1731": "2026-11-12",
+  "H R 1732": "2026-11-12",
+  "H R 1734": "2026-11-12",
+  "H R 1735": "2026-11-12",
+  "H R 1806": "2026-11-12",
+  "H R 185": "2026-11-12",
+  "H R 1927": "2026-11-12",
+  "H R 1937": "2026-11-12",
+  "H R 1994": "2026-11-12",
+  "H R 2017": "2026-11-12",
+  "H R 2028": "2026-11-12",
+  "H R 2029": "2026-11-12",
+  "H R 2042": "2026-11-12",
+  "H R 2130": "2026-11-12",
+  "H R 2146": "2026-11-12",
+  "H R 22": "2026-11-12",
+  "H R 2250": "2026-11-12",
+  "H R 2262": "2026-11-12",
+  "H R 240": "2026-11-12",
+  "H R 2406": "2026-11-12",
+  "H R 2576": "2026-11-12",
+  "H R 2577": "2026-11-12",
+  "H R 2578": "2026-11-12",
+  "H R 2596": "2026-11-12",
+  "H R 2647": "2026-11-12",
+  "H R 2666": "2026-11-12",
+  "H R 2685": "2026-11-12",
+  "H R 2822": "2026-11-12",
+  "H R 2898": "2026-11-12",
+  "H R 3293": "2026-11-12",
+  "H R 34": "2026-11-12",
+  "H R 3438": "2026-11-12",
+  "H R 3442": "2026-11-12",
+  "H R 348": "2026-11-12",
+  "H R 3624": "2026-11-12",
+  "H R 3700": "2026-11-12",
+  "H R 3791": "2026-11-12",
+  "H R 3797": "2026-11-12",
+  "H R 427": "2026-11-12",
+  "H R 4361": "2026-11-12",
+  "H R 4498": "2026-11-12",
+  "H R 4768": "2026-11-12",
+  "H R 4775": "2026-11-12",
+  "H R 4909": "2026-11-12",
+  "H R 4974": "2026-11-12",
+  "H R 5": "2026-11-12",
+  "H R 50": "2026-11-12",
+  "H R 5046": "2026-11-12",
+  "H R 5055": "2026-11-12",
+  "H R 5063": "2026-11-12",
+  "H R 5226": "2026-11-12",
+  "H R 527": "2026-11-12",
+  "H R 5278": "2026-11-12",
+  "H R 5293": "2026-11-12",
+  "H R 5303": "2026-11-12",
+  "H R 5325": "2026-11-12",
+  "H R 5485": "2026-11-12",
+  "H R 5538": "2026-11-12",
+  "H R 5620": "2026-11-12",
+  "H R 5931": "2026-11-12",
+  "H R 5982": "2026-11-12",
+  "H R 6": "2026-11-12",
+  "H R 644": "2026-11-12",
+  "H R 702": "2026-11-12",
+  "H R 712": "2026-11-12",
+  "H R 749": "2026-11-12",
+  "H R 8": "2026-11-12"
+ },
+ "votes": {
+  "2015-23": {
+   "author": "McKinley",
+   "purpose": "ensures that the Agencies, when developing regulations, must take into consideration and account for, low-income populations. Amendment also provides that no particular class or race is excluded when it comes to looking at costs and benefits of the regulation.",
+   "amendment": "H.Amdt. 2",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/2"
+  },
+  "2015-24": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to exempt from the bill all rules or guidance that the Director of OMB determines would result in net job creation.",
+   "amendment": "H.Amdt. 3",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/3"
+  },
+  "2015-25": {
+   "author": "Jackson Lee",
+   "purpose": "sought to exempt from the bill all rules promulgated by the Department of Homeland Security.",
+   "amendment": "H.Amdt. 4",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/4"
+  },
+  "2015-26": {
+   "author": "Connolly",
+   "purpose": "sought to exempt from the bill any rule or guidance pertaining to public health or safety.",
+   "amendment": "H.Amdt. 5",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/5"
+  },
+  "2015-29": {
+   "author": "Aderholt",
+   "purpose": "prevents use of any funds to: (1) carry-out the Executive actions announced on November 20, 2014 to grant deferred action to certain unlawful aliens and for other purposes, or four of the \"Morton Memos\" on prosecutorial discretion and immigration enforcement priorities issued in 2011 and 2012 that effectively prevent certain classes of unlawful aliens from being removed from the country; 2) declares that no funds may be used to carry-out any substantially similar policies to those defunded; 3) declares that the policies defunded and any substantially similar policies have no statutory or constitutional basis and therefore no legal effect; and 4) provides that no funds may be used to grant any Federal benefit to any alien as a result of the policies defunded.",
+   "amendment": "H.Amdt. 6",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/6"
+  },
+  "2015-30": {
+   "author": "Blackburn",
+   "purpose": "prohibits Federal funding, fees, or resources from being used to consider or adjudicate any new, renewal, or previously denied application for any alien requesting consideration for deferred action.",
+   "amendment": "H.Amdt. 7",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/7"
+  },
+  "2015-31": {
+   "author": "DeSantis",
+   "purpose": "requires that DHS treat any alien convicted of any offense involving domestic violence, sexual abuse, child molestation, or child abuse or exploitation as within the categories of aliens subject to DHS's highest civil immigration enforcement.",
+   "amendment": "H.Amdt. 8",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/8"
+  },
+  "2015-32": {
+   "author": "Salmon",
+   "purpose": "expresses the sense of Congress that the Executive Branch should not pursue policies that disadvantage the hiring of U.S. citizens and those lawfully present in the United States by making it economically advantageous to hire workers who came to the country illegally.",
+   "amendment": "H.Amdt. 9",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/9"
+  },
+  "2015-33": {
+   "author": "Schock",
+   "purpose": "expresses the sense of Congress that the Administration should stop putting the interest of immigrants who worked within the legal framework to come to the U.S. behind those who came here illegally.",
+   "amendment": "H.Amdt. 10",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/10"
+  },
+  "2015-61": {
+   "author": "Cummings",
+   "purpose": "sought to strike section 12 of the bill which would require Federal agencies to conduct a retrospective cost-benefit analysis of any regulation at the request of the Chairman or Ranking Member of a Congressional Committee.",
+   "amendment": "H.Amdt. 14",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/14"
+  },
+  "2015-62": {
+   "author": "Connolly",
+   "purpose": "sought to provide that in the event that the average annual rate of real gross domestic product (GDP) growth remains below 5 percent over the first four calendar quarters occurring after the date of enactment of H.R. 50, then the statutory changes made by the bill would be repealed.",
+   "amendment": "H.Amdt. 15",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/15"
+  },
+  "2015-65": {
+   "author": "Schrader",
+   "purpose": "sought to strikes section 10 of the legislation, which creates a duplicative size standard office in the Office of Advocacy without a commensurate reduction in the existing SBA Office of Size Standards.",
+   "amendment": "H.Amdt. 18",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/18"
+  },
+  "2015-66": {
+   "author": "Jackson Lee",
+   "purpose": "sought to exempt from the bill all regulations issued by the Food and Drug Administration relating to consumer safety, including those issued pursuant to the FDA Food Safety Modernization Act.",
+   "amendment": "H.Amdt. 20",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/20"
+  },
+  "2015-95": {
+   "author": "Kennedy",
+   "purpose": "sought to authorize the STEM Gateways grant program as an allowable use of flexible funding received by state educational agencies which would allow States to award grants to LEAs and qualified partner organizations to support the success of women, minorities, and low-income students in rigorous STEM academics.",
+   "amendment": "H.Amdt. 24",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/24"
+  },
+  "2015-96": {
+   "author": "Grothman",
+   "purpose": "sought to shorten authorization from 2021 to 2018.",
+   "amendment": "H.Amdt. 25",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/25"
+  },
+  "2015-97": {
+   "author": "Castro (TX)",
+   "purpose": "sought to appoint a neutral Ombudsman within the Department of Education to ensure K-12 textbooks are held to high academic standards.",
+   "amendment": "H.Amdt. 29",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/29"
+  },
+  "2015-98": {
+   "author": "Quigley",
+   "purpose": "restores to the bill the paraprofessional qualifications which are in place under current law.",
+   "amendment": "H.Amdt. 32",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/32"
+  },
+  "2015-99": {
+   "author": "Moore",
+   "purpose": "sought to ensure that high poverty schools are not adversely affected by the provisions of H.R. 5 with respect to teacher support and the quality of educational services.",
+   "amendment": "H.Amdt. 36",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/36"
+  },
+  "2015-110": {
+   "author": "McClintock",
+   "purpose": "sought to strike section 101 from the bill which provides authorization for Amtrak.",
+   "amendment": "H.Amdt. 72",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/72"
+  },
+  "2015-119": {
+   "author": "McKinley",
+   "purpose": "prohibits individuals from sitting on the Board if they are currently receiving EPA contracts or grants and would conditionally prohibit them from being allowed to apply for any EPA contracts or grants.",
+   "amendment": "H.Amdt. 75",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/75"
+  },
+  "2015-122": {
+   "author": "Edwards",
+   "purpose": "sought to increase the authorization level in the bill for Data Transparency from $1 million to $250 million per year from 2016 through 2019.",
+   "amendment": "H.Amdt. 78",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/78"
+  },
+  "2015-123": {
+   "author": "Kennedy",
+   "purpose": "to allow the EPA to use all peer-reviewed scientific publications.",
+   "amendment": "H.Amdt. 79",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/79"
+  },
+  "2015-136": {
+   "author": "Ellison",
+   "purpose": "in the nature of a substitute printed in House Report 114-49 and numbered 1 was offered as the Congressional Progressive Caucus substitute.",
+   "amendment": "H.Amdt. 81",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/81"
+  },
+  "2015-137": {
+   "author": "Butterfield",
+   "purpose": "in the nature of a substitute printed in House Report 114-49 and numbered 2 was offered as the Congressional Black Caucus substitute.",
+   "amendment": "H.Amdt. 82",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/82"
+  },
+  "2015-138": {
+   "author": "Stutzman",
+   "purpose": "in the nature of a substitute printed in House Report 114-49 and numbered 3 was offered as the Republican Study Committee substitute.",
+   "amendment": "H.Amdt. 83",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/83"
+  },
+  "2015-139": {
+   "author": "Van Hollen",
+   "purpose": "in the nature of a substitute printed in House Report 114-49 and numbered 4 was offered as the Democrat substitute.",
+   "amendment": "H.Amdt. 84",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/84"
+  },
+  "2015-140": {
+   "author": "Price, Tom",
+   "purpose": "in the nature of a substitute printed in House Report 114-49 and numbered 5 was offered as the Budget Committe mark substitute.",
+   "amendment": "H.Amdt. 85",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/85"
+  },
+  "2015-141": {
+   "author": "Price, Tom",
+   "purpose": "in the nature of a substitute printed in House Report 114-49 and numbered 6 was offered as a substitute containing changes with respect to increasing the spending level for the global war on terror and removing the requirement for an offset to accomodate such spending increase.",
+   "amendment": "H.Amdt. 86",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/86"
+  },
+  "2015-165": {
+   "author": "Kuster",
+   "purpose": "requires the CFPB Director to include representatives of minority-and women-owned small business concerns in the membership of the Small Business Advisory Board, and to include financial institutions predominantly serving traditionally under-served communities and populations and their interests in the membership of the Credit Union Advisory Council and Community Bank Advisory Council.",
+   "amendment": "H.Amdt. 90",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/90"
+  },
+  "2015-168": {
+   "author": "Mulvaney",
+   "purpose": "to sunset provisions of the bill after 7 years.",
+   "amendment": "H.Amdt. 95",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/95"
+  },
+  "2015-171": {
+   "author": "Jackson Lee",
+   "purpose": "requires GAO to report to Congress not later than 5 years after enactment of the Act to assess the impact of the legislation on privacy and civil liberties.",
+   "amendment": "H.Amdt. 106",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/106"
+  },
+  "2015-184": {
+   "author": "Van Hollen",
+   "purpose": "sought to strike the first paragraph of title IV. In its entirety, title IV provides funds for Overseas Contingency Operations for the Department of Defense.",
+   "amendment": "H.Amdt. 123",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/123"
+  },
+  "2015-185": {
+   "author": "Mulvaney",
+   "purpose": "sought to strike the second paragraph of title IV. In its entirety, title IV provides funds for Overseas Contingency Operations for the Department of Defense.",
+   "amendment": "H.Amdt. 124",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/124"
+  },
+  "2015-186": {
+   "author": "Mulvaney",
+   "purpose": "sought to strike the third paragraph of title IV. In its entirety, title IV provides funds for Overseas Contingency Operations of the Department of Defense.",
+   "amendment": "H.Amdt. 125",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/125"
+  },
+  "2015-187": {
+   "author": "Nadler",
+   "purpose": "sought to strike section 512 which prohibits use of funds by the DOD to construct, renovate, or expand and facility in the United States, its territories, or possessions to house any individual detained at United States Naval Station, Guantanamo Bay, Cuba, for the purpose of detention or imprisonment.",
+   "amendment": "H.Amdt. 126",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/126"
+  },
+  "2015-188": {
+   "author": "Blumenauer",
+   "purpose": "to prohibit the use of funds to implement, administer, or enforce Veterans Health Administration directive 2011-004 with respect to the prohibition on \"VA providers for completing forms seeking recommendations or opinions regarding a Veteran's participation in a State marijuana program\".",
+   "amendment": "H.Amdt. 130",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/130"
+  },
+  "2015-189": {
+   "author": "Pocan",
+   "purpose": "sought to prevent use of funds from going to companies that have recent wage theft convictions or civil penalties reported in the government's contracting database.",
+   "amendment": "H.Amdt. 138",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/138"
+  },
+  "2015-190": {
+   "author": "Hice, Jody B.",
+   "purpose": "sought to address concerns in which Federal employees are permitted to engage in union-related activities while at work at the VA.",
+   "amendment": "H.Amdt. 149",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/149"
+  },
+  "2015-191": {
+   "author": "King (IA)",
+   "purpose": "to prohibit use of funds to implement, administer, or enforce the prevailing wage requirements under what is commonly known as the Davis-Bacon Act.",
+   "amendment": "H.Amdt. 150",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/150"
+  },
+  "2015-195": {
+   "author": "McClintock",
+   "purpose": "sought to make reductions in funding for various programs not currently authorized and to apply the aggregate savings of $128,920,000 to the spending reduction account.",
+   "amendment": "H.Amdt. 159",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/159"
+  },
+  "2015-196": {
+   "author": "Ruiz",
+   "purpose": "sought to increase funding for Water and Related Resources by $5 million and to reduce funding for Fossil Energy Research and Development by $20 million in order to address drought conditions across the western United States.",
+   "amendment": "H.Amdt. 162",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/162"
+  },
+  "2015-197": {
+   "author": "Griffith",
+   "purpose": "sought to increase funding for Fossil Energy Research and Development by $50 million and to reduce funding for Energy Efficiency and Renewable Energy by a similar amount in order to address regulatory issues in coal-fired power plants.",
+   "amendment": "H.Amdt. 164",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/164"
+  },
+  "2015-198": {
+   "author": "Swalwell (CA)",
+   "purpose": "sought to increase funding for Energy Efficiency and Renewable Energy by $25.5 million and to reduce funding for Fossil Energy by $34 million.",
+   "amendment": "H.Amdt. 167",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/167"
+  },
+  "2015-199": {
+   "author": "Byrne",
+   "purpose": "sought to zero out funding for Energy Efficiency and Renewable Energy and to apply the savings of $1,657,774,000 to the spending reduction account.",
+   "amendment": "H.Amdt. 171",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/171"
+  },
+  "2015-200": {
+   "author": "McClintock",
+   "purpose": "sought to zero out funding for Energy Efficiency and Renewable Energy, reduce funding for Nuclear Energy by $691,886,000, and zero out funding for Fossil Energy and to apply the aggregate savings of $2,954,660,000 to the spending reduction account.",
+   "amendment": "H.Amdt. 172",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/172"
+  },
+  "2015-201": {
+   "author": "Ellison",
+   "purpose": "sought to reduce funding for Fossil Energy Research and Development by $45 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 174",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/174"
+  },
+  "2015-202": {
+   "author": "Swalwell (CA)",
+   "purpose": "sought to increase funding for Advanced Research Projects Agency-Energy (ARPA-E) by $20 million and to reduce funding for Departmental Administration by a similar amount.",
+   "amendment": "H.Amdt. 178",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/178"
+  },
+  "2015-203": {
+   "author": "Quigley",
+   "purpose": "sought to reduce funding for the new nuclear-armed cruise missile by $167.050 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 180",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/180"
+  },
+  "2015-204": {
+   "author": "Garamendi",
+   "purpose": "sought to reduce the Atomic Energy Defense Activities National Nuclear Security Administration, Weapons Activities Account by $25 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 181",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/181"
+  },
+  "2015-205": {
+   "author": "Hudson",
+   "purpose": "sought to reduce funds in the bill by 11.1208 percent except for National Nuclear Security Administration, Environmental and Defense Activities, and Defense Nuclear Facilities Safety Board.",
+   "amendment": "H.Amdt. 188",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/188"
+  },
+  "2015-206": {
+   "author": "Sanford",
+   "purpose": "sought to zero out the funding for the Advanced Technology Vehicles Manufacturing Loan Program and to prohibit the use of funds to provide loans from the program's unused lending capacity.",
+   "amendment": "H.Amdt. 190",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/190"
+  },
+  "2015-207": {
+   "author": "Burgess",
+   "purpose": "sought to prohibit the use of funds to implement or enforce the standards established by tables contained in section 325(i)(1)(B) of the Energy Policy and Conservation Act with respect to BPAR incandescent reflector lamps, BR incandescent reflector lamps, and ER incandescent reflector lamps.",
+   "amendment": "H.Amdt. 192",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/192"
+  },
+  "2015-208": {
+   "author": "Rothfus",
+   "purpose": "to prohibit use of funds to apply the report entitled \"Life Cycle Greenhouse Gas Perspective on Exporting Liquified Natural Gas from the United States\" in any public interest determination under the Natural Gas Act.",
+   "amendment": "H.Amdt. 199",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/199"
+  },
+  "2015-209": {
+   "author": "Gosar",
+   "purpose": "An amendment No. 10 printed in the Congressional Record to prohibit use of funds for the Department of Energy's Climate Model Development and Validation program.",
+   "amendment": "H.Amdt. 203",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/203"
+  },
+  "2015-210": {
+   "author": "Blackburn",
+   "purpose": "An amendment No. 12 printed in the Congressional Record to reduce funding in the bill by 1 percent across-the-board.",
+   "amendment": "H.Amdt. 206",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/206"
+  },
+  "2015-211": {
+   "author": "McClintock",
+   "purpose": "to prohibit use of funds for the purchase of water to supplement or enhance instream water flow requirements in California.",
+   "amendment": "H.Amdt. 208",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/208"
+  },
+  "2015-212": {
+   "author": "LaMalfa",
+   "purpose": "requires the Army Corps of Engineers to apply the provisions of the Clean Water Act as passed by the Congress.",
+   "amendment": "H.Amdt. 209",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/209"
+  },
+  "2015-213": {
+   "author": "LaMalfa",
+   "purpose": "to prohibit use of funds to deliver water to the Trinity River above the minimum requirements of the Trinity Record of Decision or to supplement flows in the Klamath River.",
+   "amendment": "H.Amdt. 210",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/210"
+  },
+  "2015-217": {
+   "author": "Edwards",
+   "purpose": "sought to prohibit the Secretary and the Administrator from issuing any final rule that might expand the scope beyond water bodies covered prior to Supreme Court rulings when implementing the provisions of the bill.",
+   "amendment": "H.Amdt. 212",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/212"
+  },
+  "2015-228": {
+   "author": "Polis",
+   "purpose": "sought to reduce from 11 to 10 the statutory requirement for the number of operational carriers that the U.S. Navy must have.",
+   "amendment": "H.Amdt. 217",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/217"
+  },
+  "2015-229": {
+   "author": "Brooks (AL)",
+   "purpose": "Strike section 538 (page 179, beginning line 6), relating to a sense of the House of Representatives regarding Secretary of Defense review of section 504 of title 10, United States Code, regarding enlisting certain aliens in the Armed Forces.",
+   "amendment": "H.Amdt. 219",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/219"
+  },
+  "2015-230": {
+   "author": "Walorski",
+   "purpose": "extends and strengthens provisions related to detainees at Guantanamo Bay.",
+   "amendment": "H.Amdt. 220",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/220"
+  },
+  "2015-231": {
+   "author": "Smith (WA)",
+   "purpose": "sought to provide a framework for closure of the detention facility at Guantanamo Bay, Cuba, by December 31, 2017.",
+   "amendment": "H.Amdt. 221",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/221"
+  },
+  "2015-232": {
+   "author": "McCaul",
+   "purpose": "provides for inclusion of border security activities to the list of preferred applications the Department of Defense considers when transferring excess property to other federal agencies.",
+   "amendment": "H.Amdt. 222",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/222"
+  },
+  "2015-233": {
+   "author": "Rohrabacher",
+   "purpose": "acknowledges Dr. Afridi's instrumental role in identifying the hiding place of Osama bin Laden and further states that it is the Sense of Congress that Dr. Shakil Afridi is an international hero and that the Government of Pakistan should release him immediately from prison.",
+   "amendment": "H.Amdt. 225",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/225"
+  },
+  "2015-234": {
+   "author": "Lamborn",
+   "purpose": "limits funding for implementing the New START treaty.",
+   "amendment": "H.Amdt. 226",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/226"
+  },
+  "2015-235": {
+   "author": "Blumenauer",
+   "purpose": "sought to require that funding for the Navy's new Ohio-class replacement submarines must come from the shipbuilding budget instead of the Sea-Based Deterrent Fund. Amendment also sought to transfer funds from the Sea-Based Deterrent Fund back into Navy budget lines.",
+   "amendment": "H.Amdt. 227",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/227"
+  },
+  "2015-236": {
+   "author": "Lucas",
+   "purpose": "reverses and prohibits the further listing of the Lesser Prairie Chicken as a threatened or endangered species until 2021, thereby allowing the states to implement their voluntary Range-Wide Conservation Plan for the Lesser Prairie Chicken's habitat. Amendment also de-lists the American Burying Beetle as a threatened or endangered species under the Endangered Species Act.",
+   "amendment": "H.Amdt. 230",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/230"
+  },
+  "2015-237": {
+   "author": "Nadler",
+   "purpose": "sought to strike sec. 3121 which places limits on funding for dismantlement of nuclear weapons.",
+   "amendment": "H.Amdt. 231",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/231"
+  },
+  "2015-245": {
+   "author": "Ratcliffe",
+   "purpose": "zeroes out $5.7 million in funding for the Open World Leadership Center and applies the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 239",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/239"
+  },
+  "2015-246": {
+   "author": "Blackburn",
+   "purpose": "sought to provide for a one percent across-the- board cut excepting funding for Capitol Police, Architect of the Capitol, and the Sergeant at Arms.",
+   "amendment": "H.Amdt. 241",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/241"
+  },
+  "2015-252": {
+   "author": "Johnson, E. B.",
+   "purpose": "sought to strike section 106 of the bill which provides for greater accountability for federal funding for research.",
+   "amendment": "H.Amdt. 244",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/244"
+  },
+  "2015-253": {
+   "author": "Griffith",
+   "purpose": "provides for the Speaker of the House and Senate Majority Leader to appoint members to congressionally created advisory boards.",
+   "amendment": "H.Amdt. 248",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/248"
+  },
+  "2015-254": {
+   "author": "Lowenthal",
+   "purpose": "sought to eliminate additional DOE reporting requirements and restrictions on sound scientific processes to independently verify scientific results.",
+   "amendment": "H.Amdt. 250",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/250"
+  },
+  "2015-255": {
+   "author": "Bonamici",
+   "purpose": "sought to allow the Department of Energy to continue partnering with the Department of Defense to produce biofuels for the military.",
+   "amendment": "H.Amdt. 252",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/252"
+  },
+  "2015-256": {
+   "author": "Beyer",
+   "purpose": "sought to restore the ARPA-E goal of developing energy technologies that result in reductions in energy-related emissions, including greenhouse gases.",
+   "amendment": "H.Amdt. 253",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/253"
+  },
+  "2015-257": {
+   "author": "Johnson, E. B.",
+   "purpose": "in the nature of a substitute sought to insert a complete new text which provided for sustained growth and re-empasized policies across the spectrum of scientific agencies that are in keeping with the goals of the original Competes legislation.",
+   "amendment": "H.Amdt. 254",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/254"
+  },
+  "2015-261": {
+   "author": "Edwards",
+   "purpose": "in the nature of a substitute sought to insert a complete new text comprised of the Senate companion measure, S. 1297.",
+   "amendment": "H.Amdt. 261",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/261"
+  },
+  "2015-264": {
+   "author": "Dingell",
+   "purpose": "sought to eliminate the requirement in the bill to fast-track analyses under the National Environmental Policy Act.",
+   "amendment": "H.Amdt. 262",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/262"
+  },
+  "2015-265": {
+   "author": "Lowenthal",
+   "purpose": "sought to allow the National Ocean Council, operating under Executive Order 13547, to develop a process for decommissioning oil and gas rigs that eliminate harm to the red snapper stock and improve habitat.",
+   "amendment": "H.Amdt. 264",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/264"
+  },
+  "2015-270": {
+   "author": "McClintock",
+   "purpose": "sought to reduce funding for the ITC by $311,788,000 and apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 273",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/273"
+  },
+  "2015-271": {
+   "author": "Esty",
+   "purpose": "sought to increase funding for industrial technologies by $11 million and reduce funding for the Federal prison system by $31 million.",
+   "amendment": "H.Amdt. 277",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/277"
+  },
+  "2015-272": {
+   "author": "Lujan Grisham (NM)",
+   "purpose": "increases funding for the Mentally Ill Offender Treatment and Crime Reduction Act programs by $2 million.",
+   "amendment": "H.Amdt. 289",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/289"
+  },
+  "2015-273": {
+   "author": "Gosar",
+   "purpose": "reduces funding for salaries, expenses, and general legal activities of the DOJ by $1 million and applies the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 293",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/293"
+  },
+  "2015-275": {
+   "author": "Pittenger",
+   "purpose": "sought to increase funding for the FBI by $25 million and reduce funding for administrative provisions of the Legal Services Corporation by a similar amount.",
+   "amendment": "H.Amdt. 294",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/294"
+  },
+  "2015-276": {
+   "author": "Nadler",
+   "purpose": "sought to strike section 527 from the bill which prohibits use of funds to transfer, release, or assist in the transfer or release to or within the U.S., its territories, or possessions Khalid Sheikh Mohammed or any other detainee who is not a U.S. citizen or a member of the Armed Forces of the U.S. and is or was held on or after June 24, 2009, at the U.S. Naval Station, Guantanamo Bay, Cuba, by the Department of Defense.",
+   "amendment": "H.Amdt. 305",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/305"
+  },
+  "2015-277": {
+   "author": "Farr",
+   "purpose": "sought to strike section 540 from the bill which prohibits use of funds to facilitate, permit, license, or promote exports to the Cuban military or intelligence service or to any officer of the Cuban military or intelligence service, or an immediate family member thereof.",
+   "amendment": "H.Amdt. 308",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/308"
+  },
+  "2015-278": {
+   "author": "Blackburn",
+   "purpose": "sought to reduce funds in the bill by 1 percent across-the-board excepting the FBI and specified accounts for the Department of Justice.",
+   "amendment": "H.Amdt. 313",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/313"
+  },
+  "2015-279": {
+   "author": "Foster",
+   "purpose": "to prohibit the use of funds to fund any Experimental Program to Stimulate Competitive Research (EPSCoR) program.",
+   "amendment": "H.Amdt. 317",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/317"
+  },
+  "2015-280": {
+   "author": "Bonamici",
+   "purpose": "to prohibit the use of funds to prevent a State from implementing its own State laws that authorize the use, distribution, possession, or cultivation of industrial hemp.",
+   "amendment": "H.Amdt. 321",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/321"
+  },
+  "2015-281": {
+   "author": "Ellison",
+   "purpose": "sought to prohibit use of funds to enter into contracts with entities that engage in discriminatory profiling based on gender, race, ethnicity, religion, sexual orientation, or national origin.",
+   "amendment": "H.Amdt. 324",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/324"
+  },
+  "2015-282": {
+   "author": "Grayson",
+   "purpose": "to prohibit the use of funds to negotiate or enter into a trade agreement whose negotiating texts are confidential.",
+   "amendment": "H.Amdt. 331",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/331"
+  },
+  "2015-283": {
+   "author": "Rohrabacher",
+   "purpose": "prohibits the use of funds in the bill to supersede State law in those States that have legalized the use of medical marijuana.",
+   "amendment": "H.Amdt. 332",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/332"
+  },
+  "2015-284": {
+   "author": "Grayson",
+   "purpose": "to prohibit the use of funds to compel a person to testify about information or sources that the person states in a motion to quash the subpoena that he has obtained as a journalist or reporter and that he regards as confidential.",
+   "amendment": "H.Amdt. 333",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/333"
+  },
+  "2015-285": {
+   "author": "McClintock",
+   "purpose": "sought to prohibit the use of funds by various states to prevent any of them from implementing their own laws that authorize the use, distribution, possessions, or cultivation of marijuana on non-Federal lands within their respective jurisdictions.",
+   "amendment": "H.Amdt. 334",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/334"
+  },
+  "2015-286": {
+   "author": "Perry",
+   "purpose": "to prohibit the use of funds to take any action to prevent a State from implementing any law that makes it lawful to possess, distribute, or use cannabidiol oil.",
+   "amendment": "H.Amdt. 335",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/335"
+  },
+  "2015-287": {
+   "author": "Garrett",
+   "purpose": "prohibits the use of funds to enforce the Fair Housing Act in a manner that relies upon an allegation of liability under section 100.500 of title 24, Code of Federal Regulations (disparate impact).",
+   "amendment": "H.Amdt. 337",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/337"
+  },
+  "2015-288": {
+   "author": "Massie",
+   "purpose": "prohibits use of funds in contravention of Federal law with respect to cultivation and use of industrial hemp.",
+   "amendment": "H.Amdt. 340",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/340"
+  },
+  "2015-289": {
+   "author": "Massie",
+   "purpose": "to prohibit the use of funds to treat ammunition as armor piercing for purposes of chapter 44 of title 18, United States Code, except for ammunition designed and intended for use in a handgun.",
+   "amendment": "H.Amdt. 341",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/341"
+  },
+  "2015-290": {
+   "author": "Massie",
+   "purpose": "prohibits the use of funds by the National Institute of Standards and Technology to consult with the National Security Agency or the CIA to alter cryptographic or computer standards, except to improve information security.",
+   "amendment": "H.Amdt. 342",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/342"
+  },
+  "2015-291": {
+   "author": "Flores",
+   "purpose": "prohibits the use of funds to implement Executive Order 13547 (75 Fed. Reg. 43023, relating to the stewardship of oceans, coasts, and the Great Lakes), including the National Ocean Policy developed under such Executive Order.",
+   "amendment": "H.Amdt. 346",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/346"
+  },
+  "2015-292": {
+   "author": "Sanford",
+   "purpose": "to reduce funding in the bill by 2.48 percent across-the-board.",
+   "amendment": "H.Amdt. 349",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/349"
+  },
+  "2015-293": {
+   "author": "King (IA)",
+   "purpose": "prohibits the use of funds with respect to the Fifth Circuit Court case of Texas v. U.S., regarding executive amnesty.",
+   "amendment": "H.Amdt. 350",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/350"
+  },
+  "2015-294": {
+   "author": "King (IA)",
+   "purpose": "prohibits use of State and Local Law Enforcement Assistance in contravention of the Immigration Reform and Immigrant Responsibility Act of 1996 (relating to establishment of sanctuary cities).",
+   "amendment": "H.Amdt. 352",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/352"
+  },
+  "2015-295": {
+   "author": "Denham",
+   "purpose": "increases the effectiveness of recovery plans for species of salmon and steelhead listed under the Endangered Species Act of 1973 by ensuring an appropriate focus on predation control efforts.",
+   "amendment": "H.Amdt. 354",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/354"
+  },
+  "2015-298": {
+   "author": "McClintock",
+   "purpose": "sought to zero out the funding for Payments to Air Carriers and apply the savings of $155 million to the spending reduction account.",
+   "amendment": "H.Amdt. 363",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/363"
+  },
+  "2015-299": {
+   "author": "Walberg",
+   "purpose": "strikes section 102 from the bill which allows the Secretary or his designee to engage in activities with States and State legislators to consider proposals related to the reduction of motorcycle fatalities.",
+   "amendment": "H.Amdt. 364",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/364"
+  },
+  "2015-301": {
+   "author": "Cartwright",
+   "purpose": "sought to strike section 134 which prohibits the use of funds to develop, issue, or implement any regulation that increases levels of minimum financial responsibility for transporting passengers or property as in effect on January 1, 2014.",
+   "amendment": "H.Amdt. 371",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/371"
+  },
+  "2015-302": {
+   "author": "Garrett",
+   "purpose": "sought to increase funding for the Federal Railroad Administration's safety and operations account by $16,930,000 and reduce funding for FRA capital investment grants by $83 million.",
+   "amendment": "H.Amdt. 373",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/373"
+  },
+  "2015-303": {
+   "author": "Brooks (AL)",
+   "purpose": "sought to eliminate Federal Government operating subsidies of Amtrak.",
+   "amendment": "H.Amdt. 375",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/375"
+  },
+  "2015-304": {
+   "author": "Brooks (AL)",
+   "purpose": "sought to strike capital and debt service subsidies for Amtrak.",
+   "amendment": "H.Amdt. 377",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/377"
+  },
+  "2015-305": {
+   "author": "Capps",
+   "purpose": "sought to increase funding for the Pipeline and Hazardous Materials Safety Administration's pipeline safety program by $27,604,000.",
+   "amendment": "H.Amdt. 383",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/383"
+  },
+  "2015-306": {
+   "author": "Lee",
+   "purpose": "sought to prohibit use of funds in the bill to implement or enforce sections 193 or 414 which relate to limiting air and ferry travel to Cuba.",
+   "amendment": "H.Amdt. 404",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/404"
+  },
+  "2015-307": {
+   "author": "Stivers",
+   "purpose": "prohibits use of funds during FY 2016 for the Private Enforcement Initiative.",
+   "amendment": "H.Amdt. 393",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/393"
+  },
+  "2015-308": {
+   "author": "Esty",
+   "purpose": "sought to reduce funding for FAA Operations by $3 million and increase funding for Federal Railroad Administration Safety and Operations by a similar amount in order to address funding of rail safety education programs, such as Operation Lifesaver.",
+   "amendment": "H.Amdt. 366",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/366"
+  },
+  "2015-310": {
+   "author": "Blackburn",
+   "purpose": "sought to reduce each amount made available by this Act by 1 percent.",
+   "amendment": "H.Amdt. 397",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/397"
+  },
+  "2015-311": {
+   "author": "Gosar",
+   "purpose": "prohibits the use of funds to carry out the rule entitled \"Affirmatively Furthering Fair Housing\", published by the Department of Housing and Urban Development in the Federal Register on July 19, 2013.",
+   "amendment": "H.Amdt. 399",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/399"
+  },
+  "2015-312": {
+   "author": "Gosar",
+   "purpose": "sought to prohibit the use of funds to implement, administer, or enforce the rule entitled \"Hazardous Materials: Enhanced Tank Car Standards and Operational Controls for High-Hazard Flammable Trains\".",
+   "amendment": "H.Amdt. 401",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/401"
+  },
+  "2015-313": {
+   "author": "Posey",
+   "purpose": "sought to prohibit the use of funds by the Department of Transportation to take any actions with respect to the financing of passenger rail projects along Florida's East Coast.",
+   "amendment": "H.Amdt. 405",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/405"
+  },
+  "2015-314": {
+   "author": "Sessions",
+   "purpose": "sought to prohibit the use of funds to support Amtrak's Sunset Limited line which runs from New Orleans to Los Angeles.",
+   "amendment": "H.Amdt. 407",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/407"
+  },
+  "2015-315": {
+   "author": "Sessions",
+   "purpose": "sought to prohibit the use of funds to support any Amtrak route whose costs exceed 2 times its revenues.",
+   "amendment": "H.Amdt. 409",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/409"
+  },
+  "2015-316": {
+   "author": "Schiff",
+   "purpose": "sought to prohibit the use of funds to enforce section 47524 of title 49, with regard to noise or access restriction of the Bob Hope Airport in Burbank, CA.",
+   "amendment": "H.Amdt. 410",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/410"
+  },
+  "2015-317": {
+   "author": "Posey",
+   "purpose": "sought to prohibit the use of funds by the Department of Transportation to authorize exempt facility bonds to finance passenger rail projects that cannot attain the speed of 150 mph.",
+   "amendment": "H.Amdt. 411",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/411"
+  },
+  "2015-318": {
+   "author": "Posey",
+   "purpose": "sought to prohibit the use of funds by the Department of Transportation to make a loan in an amount that exceeds $600 million under the Railroad Revitalization and Regulatory Reform Act.",
+   "amendment": "H.Amdt. 413",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/413"
+  },
+  "2015-319": {
+   "author": "Yoho",
+   "purpose": "prohibits the use of funds in contravention of current law which prevents illegal immigrants from obtaining housing assistance.",
+   "amendment": "H.Amdt. 420",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/420"
+  },
+  "2015-320": {
+   "author": "Brooks (AL)",
+   "purpose": "prohibits use of funds to subsidize housing assistance for illegal aliens.",
+   "amendment": "H.Amdt. 422",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/422"
+  },
+  "2015-321": {
+   "author": "Hultgren",
+   "purpose": "to prohibit the use of funds by the FAA for the bio-data assessment in hiring of Air Traffic Control Specialists.",
+   "amendment": "H.Amdt. 424",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/424"
+  },
+  "2015-322": {
+   "author": "Meehan",
+   "purpose": "sought to prohibit the use of funds for Amtrak capital grants used for projects off the Northeast Corridor until the level of capital spending by Amtrak for capital projects on the Northeast Corridor during fiscal year 2016 equals the amount of Amtrak's profits from Northeast Corridor operations during FY 2015.",
+   "amendment": "H.Amdt. 425",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/425"
+  },
+  "2015-323": {
+   "author": "Garrett",
+   "purpose": "prohibits use of funds to implement economic sanctions which weaken credit availability and job creation through use of disparate impact.",
+   "amendment": "H.Amdt. 428",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/428"
+  },
+  "2015-324": {
+   "author": "Ellison",
+   "purpose": "sought to prohibit the use of funds for contracts to entities that have violated the Fair Labor Standards Act.",
+   "amendment": "H.Amdt. 429",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/429"
+  },
+  "2015-325": {
+   "author": "Emmer (MN)",
+   "purpose": "sought to prohibit use of funds to carry out enrichments such as artwork, landscaping, and bicycle and pedestrian improvements such as sidewalks, paths, plazas, site and station furniture, site lighting, signage, public artwork, bike facilities, and permanent fencing when processing New Start grant applications.",
+   "amendment": "H.Amdt. 430",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/430"
+  },
+  "2015-326": {
+   "author": "Peters",
+   "purpose": "prohibits use of funds by Federal contractors to discriminate on the basis of sexual orientation or gender identity.",
+   "amendment": "H.Amdt. 435",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/435"
+  },
+  "2015-327": {
+   "author": "Issa",
+   "purpose": "to prohibit the use of funds to acquire a camera for the purpose of collecting or storing vehicle license plate numbers.",
+   "amendment": "H.Amdt. 439",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/439"
+  },
+  "2015-334": {
+   "author": "Lowenthal",
+   "purpose": "sought to increase funding to the STARBASE Youth Program by $5 million.",
+   "amendment": "H.Amdt. 442",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/442"
+  },
+  "2015-335": {
+   "author": "Huffman",
+   "purpose": "strikes section 8053 regarding funds for implementing cost-effective agreements for required heating facility modernization in the Kaiserslautern Military Community in the Federal Republic of Germany.",
+   "amendment": "H.Amdt. 466",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/466"
+  },
+  "2015-336": {
+   "author": "Visclosky",
+   "purpose": "sought to strike section 8100 regarding a prohibition on the use of funds to transfer, release, or assist in the transfer or release to or within the United States, its territories, or possessions, Khalid Sheikh Mohammed or any other detainee not a U.S. citizen or member of the U.S. Armed Forces and who is or was held on or after June 24, 2009, at Guantanamo Bay.",
+   "amendment": "H.Amdt. 467",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/467"
+  },
+  "2015-337": {
+   "author": "Nadler",
+   "purpose": "sought to strike section 8101, regarding prohibition of funds for use in replacement of facilities of any individual located at the United States Naval Station, Guantanamo Bay, Cuba.",
+   "amendment": "H.Amdt. 468",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/468"
+  },
+  "2015-338": {
+   "author": "Nadler",
+   "purpose": "sought to strike section 8102 regarding prohibition of funds to transfer any individual detained at Guantanamo Bay to the custody or control of the individual's country of origin, or any other foreign country.",
+   "amendment": "H.Amdt. 469",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/469"
+  },
+  "2015-339": {
+   "author": "Forbes",
+   "purpose": "strikes section 8122 regarding the prohibition of the transfer of funds to the National Sea Based Deterrent Fund.",
+   "amendment": "H.Amdt. 471",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/471"
+  },
+  "2015-340": {
+   "author": "Poe (TX)",
+   "purpose": "sought to reduce funding for aid to Pakistan by $430 million.",
+   "amendment": "H.Amdt. 473",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/473"
+  },
+  "2015-341": {
+   "author": "Walberg",
+   "purpose": "strikes the proviso allowing $50 million for the Afghanistan security forces fund to be redirected to the Afghanistan infrastructure fund.",
+   "amendment": "H.Amdt. 474",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/474"
+  },
+  "2015-342": {
+   "author": "Nolan",
+   "purpose": "sought to eliminate funding for the Iraq Train and Equip program and apply the savings of $715 million to the spending reduction account.",
+   "amendment": "H.Amdt. 475",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/475"
+  },
+  "2015-343": {
+   "author": "Clawson (FL)",
+   "purpose": "sought to eliminate funding for the Syria Train and Equip program and apply the savings of $600 million to the spending reduction account.",
+   "amendment": "H.Amdt. 476",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/476"
+  },
+  "2015-344": {
+   "author": "Poe (TX)",
+   "purpose": "sought to strike subsection (b) of section 9015 regarding the waiver used by the Secretary of Defense with respect to providing funds to Pakistan.",
+   "amendment": "H.Amdt. 477",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/477"
+  },
+  "2015-346": {
+   "author": "Schiff",
+   "purpose": "sought to prohibit the use of funds for Operation Inherent Resolve in the absence of a law enacted by Congress before such date that specifically authorizes the use of military force against the Islamic State of Iraq and the Levant after March 31, 2016.",
+   "amendment": "H.Amdt. 479",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/479"
+  },
+  "2015-347": {
+   "author": "Lee",
+   "purpose": "sought to prohibit the use of funds to be obligated or expended pursuant to the Authorization for Use of Military Force after December 31, 2015.",
+   "amendment": "H.Amdt. 482",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/482"
+  },
+  "2015-348": {
+   "author": "Lee",
+   "purpose": "sought to prohibit the use of funds for obligation or expenditure pursuant to the Authorization for Use of Military Force Against Iraq Resolution of 2002.",
+   "amendment": "H.Amdt. 484",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/484"
+  },
+  "2015-349": {
+   "author": "Sablan",
+   "purpose": "sought to prohibit use of funds to establish any live-fire range, training course, or maneuver area within the Commonwealth of the Northern Mariana Islands until the Secretary of Defense reaches agreement with the government of the Northern Mariana Islands on the nature and scope of those activities.",
+   "amendment": "H.Amdt. 486",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/486"
+  },
+  "2015-350": {
+   "author": "Gosar",
+   "purpose": "sought to prohibit expenditure of funds by the Department of the Navy to divest or transfer, or prepare to divest or transfer, any search and rescue units from the Marine Corps.",
+   "amendment": "H.Amdt. 489",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/489"
+  },
+  "2015-351": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to prohibit use of funds to transfer flash-bang grenades.",
+   "amendment": "H.Amdt. 490",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/490"
+  },
+  "2015-352": {
+   "author": "Gosar",
+   "purpose": "to prohibit use of funds to procure any Army Aircrew Combat Uniforms.",
+   "amendment": "H.Amdt. 491",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/491"
+  },
+  "2015-353": {
+   "author": "Johnson (GA)",
+   "purpose": "to prohibit use of funds to transfer mine-resistant ambush protected vehicles.",
+   "amendment": "H.Amdt. 493",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/493"
+  },
+  "2015-354": {
+   "author": "Ellison",
+   "purpose": "sought to prohibit use of funds to enter into contract with a government contractor that willfully or repeatedly violated the Fair Labor Standards Act.",
+   "amendment": "H.Amdt. 499",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/499"
+  },
+  "2015-355": {
+   "author": "Smith (MO)",
+   "purpose": "sought to prohibit use of funds to provide for defense counsel for any foreign terrorists detained at Guantanamo Bay.",
+   "amendment": "H.Amdt. 500",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/500"
+  },
+  "2015-356": {
+   "author": "Massie",
+   "purpose": "provides for a limitation on the use of funds for warrantless searches of government databases for information pertaining to U.S. citizens.",
+   "amendment": "H.Amdt. 503",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/503"
+  },
+  "2015-367": {
+   "author": "Schiff",
+   "purpose": "sought to strike four sections of the bill which would add new restrictions to prevent the Administration from closing the Guantanamo Bay Detention Camp.",
+   "amendment": "H.Amdt. 513",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/513"
+  },
+  "2015-381": {
+   "author": "Pallone",
+   "purpose": "sought to require a Governor wishing to opt out of the Clean Power Plan to include a certification that electric generating units are sources of carbon pollution that contribute to human-induced climate change; and that the state or federal plan to reduce carbon emissions from electric generating units would promote national security, economic growth and public health by addressing human induced climate change through the increased use of clean energy, energy efficiency and reductions in carbon pollution.",
+   "amendment": "H.Amdt. 526",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/526"
+  },
+  "2015-382": {
+   "author": "Rush",
+   "purpose": "sought to require a Governor's determination to include certification that the inapplicability of a state or federal plan will not have a significant adverse effect on costs associated with a state's plan to respond to extreme weather events associated with human-caused climate change, including flooding, intense storms, frequent wildfires, and increased drought.",
+   "amendment": "H.Amdt. 527",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/527"
+  },
+  "2015-383": {
+   "author": "McNerney",
+   "purpose": "sought to strike section 2 of the bill, which prevents any rule from taking place until all litigation is complete and sought to replace the ability of states to opt out of the plan with the requirement that the state public utility commissions or public service commissions, as well as the appropriate electric reliability organization, issue reliability analyses on any state or federal plan.",
+   "amendment": "H.Amdt. 529",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/529"
+  },
+  "2015-393": {
+   "author": "Garamendi",
+   "purpose": "sought to add $3,902,000 to the aquatic habitat and species conservation fund which would allow Federal agencies to work with the State and local agencies to attack aquatic plants which overrun the delta at the confluence of the Sacramento and San Joaquin rivers.",
+   "amendment": "H.Amdt. 535",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/535"
+  },
+  "2015-394": {
+   "author": "Capps",
+   "purpose": "sought to reduce funding for the conventional energy account at the Bureau of Ocean Energy Management (BOME) by $5,434,000 and increase funding for oil spill response programs by a similar amount.",
+   "amendment": "H.Amdt. 544",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/544"
+  },
+  "2015-395": {
+   "author": "Sablan",
+   "purpose": "sought to increase funding for territorial assistance initiatives managed by the Interior Department by $5 million.",
+   "amendment": "H.Amdt. 549",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/549"
+  },
+  "2015-396": {
+   "author": "Castor (FL)",
+   "purpose": "sought to increase EPA's Environmental Programs and Management account by $1.9 million (offset by a similar reduction from the Office of the Secretary) in order to restore brownfields funding to FY 2015 levels.",
+   "amendment": "H.Amdt. 550",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/550"
+  },
+  "2015-397": {
+   "author": "Grijalva",
+   "purpose": "sought to strike section 423 which prohibits the use of funds to develop any new interpretation of specified regulations pertaining to surface mining.",
+   "amendment": "H.Amdt. 567",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/567"
+  },
+  "2015-398": {
+   "author": "Tsongas",
+   "purpose": "sought to strike section 425 which prohibits the use of funds to further implement coastal and marine spatial planning and management components of the National Ocean Policy.",
+   "amendment": "H.Amdt. 568",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/568"
+  },
+  "2015-399": {
+   "author": "Grijalva",
+   "purpose": "sought to strike section 433 which relates to vacant public land grazing allotments when an existing allotment is unusable due to drought or wildfire.",
+   "amendment": "H.Amdt. 570",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/570"
+  },
+  "2015-400": {
+   "author": "Polis",
+   "purpose": "sought to strike section 437 which prohibits the use of funds for the social cost of carbon to be incorporated into any rulemaking or guidance document until a new Interagency Working Group revises the estimates using the discount rates and domestic-only limitation on benefits estimates in accordance with Executive Order 12866.",
+   "amendment": "H.Amdt. 571",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/571"
+  },
+  "2015-401": {
+   "author": "Edwards",
+   "purpose": "sought to strike section 438 which prohibits use of funds by the administrator of EPA to propose, promulgate, implement, administer, or enforce a national primary or secondary ambient air quality standard for ozone that is lower than the standard established under the Code of Federal Regulations until at least 85 percent of the counties that were nonattainment areas achieve full compliance with that standard.",
+   "amendment": "H.Amdt. 573",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/573"
+  },
+  "2015-402": {
+   "author": "Lawrence",
+   "purpose": "sought to strike section 439 which prohibits use of funds to implement, administer, or enforce the final rule entitled \"Hydraulic Fracturing on Federal and Indian Lands\" as published in the Federal Register.",
+   "amendment": "H.Amdt. 576",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/576"
+  },
+  "2015-403": {
+   "author": "Polis",
+   "purpose": "sought to add language prohibiting use of funds to pursue any additional extra legal ways to transfer Federal lands to private owners in contravention of existing law.",
+   "amendment": "H.Amdt. 580",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/580"
+  },
+  "2015-404": {
+   "author": "Tsongas",
+   "purpose": "sought to insert language prohibiting use of funds to implement or enforce sections 117, 121, or 122 of the bill. Section 117 relates to Sage-Grouse; section 121 relates to reissuance of rules (wolves); and section 122 relates to the Northern Long Eared Bat.",
+   "amendment": "H.Amdt. 582",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/582"
+  },
+  "2015-405": {
+   "author": "Grijalva",
+   "purpose": "sought to insert language prohibiting use of funds to enforce section 120 of the bill which relates to trafficking of ivory from African elephants.",
+   "amendment": "H.Amdt. 584",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/584"
+  },
+  "2015-406": {
+   "author": "Beyer",
+   "purpose": "sought to insert language prohibiting use of funds on activities that are not in compliance with the President's 2009 executive order on greenhouse gas emissions and energy efficiency and the 2013 executive order on climate change adaptation.",
+   "amendment": "H.Amdt. 588",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/588"
+  },
+  "2015-407": {
+   "author": "Blackburn",
+   "purpose": "to reduce funds in the bill by 1 percent across-the-board.",
+   "amendment": "H.Amdt. 589",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/589"
+  },
+  "2015-408": {
+   "author": "Pearce",
+   "purpose": "to prohibit the use of funds to increase the rate of any royalty required to be paid to the United States for oil and gas produced on Federal land, or to prepare or publish a proposed rule relating to such an increase.",
+   "amendment": "H.Amdt. 591",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/591"
+  },
+  "2015-409": {
+   "author": "Hardy",
+   "purpose": "inserts language prohibiting use of funds by public land management agencies from making declarations under the Antiquities Act in counties where there is significant local opposition.",
+   "amendment": "H.Amdt. 597",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/597"
+  },
+  "2015-410": {
+   "author": "Zeldin",
+   "purpose": "allows a State to withdraw from the Common Core Standards or any other specific standards.",
+   "amendment": "H.Amdt. 53",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/53"
+  },
+  "2015-411": {
+   "author": "Hurd (TX)",
+   "purpose": "expresses the sense of Congress that students' personally identifiable information is important to protect as applied to current law and this Act.",
+   "amendment": "H.Amdt. 54",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/54"
+  },
+  "2015-412": {
+   "author": "Grayson",
+   "purpose": "sought to require the Secretary of Education to conduct an assessment of the impact of school start times on student health, well-being, and performance.",
+   "amendment": "H.Amdt. 55",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/55"
+  },
+  "2015-413": {
+   "author": "Wilson (FL)",
+   "purpose": "sought to provide for school dropout prevention and reentry programs and provides grants to raise academic achievement levels for all students.",
+   "amendment": "H.Amdt. 56",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/56"
+  },
+  "2015-414": {
+   "author": "Carson (IN)",
+   "purpose": "sought to advance assessments of student achievement and instructional practices, effective teacher preparation and continuing professional development, education administration, and international comparisons. Amendment also sought to support development of a national research strategy to ensure that students, particularly at risk students, have effective teachers and are being prepared for the future.",
+   "amendment": "H.Amdt. 58",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/58"
+  },
+  "2015-415": {
+   "author": "Brownley (CA)",
+   "purpose": "sought to create a grant program for States to create or expand biliteracy seal programs to recognize student proficiency in speaking, reading, and writing in both English and a second language for graduating high school seniors.",
+   "amendment": "H.Amdt. 62",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/62"
+  },
+  "2015-416": {
+   "author": "Loebsack",
+   "purpose": "inserts a new title to support the expansion of the use of digital learning through competitive grants to partnerships to implement and evaluate the results of technology-based learning practices, strategies, tools, or programs at rural schools.",
+   "amendment": "H.Amdt. 63",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/63"
+  },
+  "2015-417": {
+   "author": "Polis",
+   "purpose": "sought to insert language authorizing funds for the Secretary of Education to provide grants for early-childhood education scholarships, professional development and licensing credentials, or increased compensation for educators who have attained specific qualifications. Amendment also sought to require each state that desires a grant to include a description of its comprehensive early childhood professional development system in its application, and grant recipients must maintain their fiscal effort for the activities supported by the grant funds for a fiscal year at levels equal to or greater than their fiscal effort for such activities during the preceding fiscal year.",
+   "amendment": "H.Amdt. 64",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/64"
+  },
+  "2015-418": {
+   "author": "Thompson (MS)",
+   "purpose": "sought to require that the Student Success Act shall not go into effect until the Secretary of Education determines that its enactment will not reduce the college and career readiness of racial or ethnic minority students, students with disabilities, English learners, and low-income students and provides written notification to Congress on such determination.",
+   "amendment": "H.Amdt. 65",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/65"
+  },
+  "2015-419": {
+   "author": "Walker",
+   "purpose": "sought to insert the text of the A PLUS Act which would send funding under NCLB back to States in the form of block grants, and States would then be able to direct that funding to any education purpose under State law.",
+   "amendment": "H.Amdt. 639",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/639"
+  },
+  "2015-420": {
+   "author": "Salmon",
+   "purpose": "allows any parents to opt their children out of high-stakes testing and would protect schools from being punished by the Federal Department of Education if parents opted to take their children out of these tests.",
+   "amendment": "H.Amdt. 640",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/640"
+  },
+  "2015-421": {
+   "author": "Scott (VA)",
+   "purpose": "in the nature of a substitute sought to insert a complete new text providing new funding levels, replacing the mandates of No Child Left Behind, and maintaining civil rights and equity protections that ensure all students graduate from high school college- and career-ready.",
+   "amendment": "H.Amdt. 66",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/66"
+  },
+  "2015-427": {
+   "author": "Polis",
+   "purpose": "sought to strike Sec. 203, which relates to the prohibition on restraining orders, preliminary injunctions, and injunctions pending appeals and to strike Title III, which relates to the imposition of a bond requirement as part of a potential legal challenge of certain forest management activities.",
+   "amendment": "H.Amdt. 652",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/652"
+  },
+  "2015-431": {
+   "author": "Brat",
+   "purpose": "sought to reform the NIH and Cures Innovation Fund to make it a discretionary spending program.",
+   "amendment": "H.Amdt. 656",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/656"
+  },
+  "2015-432": {
+   "author": "Lee",
+   "purpose": "sought to strike a provision in the bill that applies to any policy riders included in the annual Labor, Health and Human Services and Agricultural appropriations bills, to the new National Institutes of Health funds, and the Federal Drug Administration funds included in H.R. 6, the 21st Century Cures Act.",
+   "amendment": "H.Amdt. 658",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/658"
+  },
+  "2015-443": {
+   "author": "Garamendi",
+   "purpose": "sought to direct the Secretaries to collaborate with the California Department of Water Resources to install a fish screen at the Delta Cross Channel Gates.",
+   "amendment": "H.Amdt. 666",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/666"
+  },
+  "2015-444": {
+   "author": "LaMalfa",
+   "purpose": "provides contractors of a federal water project in California and Oregon with ESA applicant status, ensuring that contractors are properly informed of and may provide input to ESA consultations that may impact operations of the project.",
+   "amendment": "H.Amdt. 670",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/670"
+  },
+  "2015-445": {
+   "author": "Grijalva",
+   "purpose": "sought to fund water reclamation programs and water reuse projects so that the Bureau of Reclamation may investigate more opportunities to reclaim and reuse wastewater and naturally impaired ground and surface water in the 17 Western states and Hawaii.",
+   "amendment": "H.Amdt. 671",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/671"
+  },
+  "2015-453": {
+   "author": "Pallone",
+   "purpose": "sought to preserve transparency requirements in EPA's final coal ash rule to ensure public access to information and accountability.",
+   "amendment": "H.Amdt. 673",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/673"
+  },
+  "2015-454": {
+   "author": "Connolly",
+   "purpose": "sought to require all inactive surface impoundments that begin closure proceedings to put in place the same groundwater monitoring safeguard procedures that are required in the final Federal rule.",
+   "amendment": "H.Amdt. 675",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/675"
+  },
+  "2015-455": {
+   "author": "Adams",
+   "purpose": "sought to require the owner or operator of a coal combustion residuals surface impoundment to survey all drinking water supply wells that are within a half mile and down-gradient of the established waste boundary and to supply an alternative source of safe drinking water within 24 hours if well water sampling exceeds groundwater standards.",
+   "amendment": "H.Amdt. 676",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/676"
+  },
+  "2015-456": {
+   "author": "Butterfield",
+   "purpose": "sought to allow the Administrator of EPA to prevent the legislation from going into effect if it is determined that implemention would have a negative impact on vulnerable populations such as infants, children, adolescents, pregnant women, the elderly, individuals with preexisting medical conditions, individuals who work at coal combustion residuals treatment or disposal facilities, members of any other appropriate population identified by the Administrator based on consideration of socioeconomic status, racial or ethnic background, or other similar factors identified by the Administrator.",
+   "amendment": "H.Amdt. 677",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/677"
+  },
+  "2015-459": {
+   "author": "DeFazio",
+   "purpose": "sought to require that if a U.S. company or its subsidiary labels its product as containing GMOs in any foreign country, that company must also label the equivalent product the same way in the U.S.",
+   "amendment": "H.Amdt. 678",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/678"
+  },
+  "2015-460": {
+   "author": "Huffman",
+   "purpose": "sought to ensure tribal sovereignty with respect to prohibiting or restricting the cultivation of genetically engineered plants on tribal lands.",
+   "amendment": "H.Amdt. 679",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/679"
+  },
+  "2015-461": {
+   "author": "DeLauro",
+   "purpose": "sought to prohibit the use of the term \"natural\" on food when a food consists of a genetically engineered plant.",
+   "amendment": "H.Amdt. 680",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/680"
+  },
+  "2015-463": {
+   "author": "Polis of Colorado",
+   "purpose": "sought to change the title of the bill.",
+   "amendment": "H.Amdt. 682",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/682"
+  },
+  "2015-473": {
+   "author": "Young (IA)",
+   "purpose": "requires agencies to publish in the federal register a list of information on which a rule is based, including data, scientific and economic studies, and cost-benefit analyses, and where the public can access it online.",
+   "amendment": "H.Amdt. 683",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/683"
+  },
+  "2015-474": {
+   "author": "Smith (MO)",
+   "purpose": "requires congressional approval for all rules proposed under the authority of the Affordable Care Act.",
+   "amendment": "H.Amdt. 684",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/684"
+  },
+  "2015-475": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to add an exception to the bill for rules that the Administrator of the Office of Management and Budget determines would result in net job growth.",
+   "amendment": "H.Amdt. 686",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/686"
+  },
+  "2015-476": {
+   "author": "Capps",
+   "purpose": "sought to provide that any rule intended to ensure the safety of natural gas or hazardous materials pipelines or prevent, mitigate, or reduce the impact of spills from such pipelines is not considered a \"major rule\" under the bill.",
+   "amendment": "H.Amdt. 687",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/687"
+  },
+  "2015-477": {
+   "author": "Cicilline",
+   "purpose": "sought to exempt rules pertaining to the protection of public health or safety from the requirements of the bill.",
+   "amendment": "H.Amdt. 688",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/688"
+  },
+  "2015-478": {
+   "author": "Cicilline",
+   "purpose": "sought to provide a \"special rule\" pertaining to the safety of any products specifically designed to be used or consumed by a child under the age of 2 years (including cribs, car seats, and infant formula).",
+   "amendment": "H.Amdt. 689",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/689"
+  },
+  "2015-479": {
+   "author": "Nadler",
+   "purpose": "sought to exempt from the bill's congressional approval requirement any rule pertaining to nuclear reactor safety standards in order to prevent nuclear meltdowns.",
+   "amendment": "H.Amdt. 690",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/690"
+  },
+  "2015-480": {
+   "author": "Pocan",
+   "purpose": "sought to exempt the Department of Veterans Affairs from the requirements of the bill as they relate to rulemaking for the availability of affordable medication and effective healthcare management for veterans.",
+   "amendment": "H.Amdt. 691",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/691"
+  },
+  "2015-487": {
+   "author": "Takano",
+   "purpose": "in the nature of a substitute sought to provide the VA Secretary the authority to immediately suspend without pay any employee whose performance or misconduct is a threat to health or safety; ensure back pay for whistleblowers unfairly terminated; cap the payment of administrative leave to 14 days; and make the effective date of the back pay provision October 1, 2015.",
+   "amendment": "H.Amdt. 693",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/693"
+  },
+  "2015-508": {
+   "author": "Lowenthal",
+   "purpose": "sought to prevent further evaluation or adoption of proposed project alternatives that do not adequately address risks associated with flooding, wildfire, and climate change.",
+   "amendment": "H.Amdt. 699",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/699"
+  },
+  "2015-509": {
+   "author": "Grijalva",
+   "purpose": "to require an evaluation of each alternative in an environmental impact statement or environmental assessment to identify potential effects on low-income communities and communities of color.",
+   "amendment": "H.Amdt. 700",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/700"
+  },
+  "2015-510": {
+   "author": "Gallego",
+   "purpose": "sought to grant deadline extensions if requested by a State or local elected official or a local tribal official.",
+   "amendment": "H.Amdt. 701",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/701"
+  },
+  "2015-511": {
+   "author": "Jackson Lee",
+   "purpose": "sought to strike the provisions in the bill that deem approved any project for which the reviewing agency does not issue the requested permit or license within the required 90-120 days.",
+   "amendment": "H.Amdt. 702",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/702"
+  },
+  "2015-512": {
+   "author": "Dingell",
+   "purpose": "sought to prevent a project from being approved under the timeline set forth in the bill if the project would limit access to or opportunities for hunting or fishing, or impact an endangered or threatened species under the Endangered Species Act.",
+   "amendment": "H.Amdt. 703",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/703"
+  },
+  "2015-513": {
+   "author": "Peters",
+   "purpose": "sought to strike the section that prohibits agencies from using the social cost of carbon in an environmental review or in any environmental decision making process.",
+   "amendment": "H.Amdt. 704",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/704"
+  },
+  "2015-514": {
+   "author": "Gosar",
+   "purpose": "prohibits federal agencies from following the draft guidance entitled \"the Revised Draft Guidance for Federal Departments and Agencies on Consideration of Greenhouse Gas Emissions and the Effects of Climate change in NEPA Reviews\", issued by the Council on Environmental Quality, 79 Fed. Reg. 77801 (Dec. 24, 2014) when conducting their analyses.",
+   "amendment": "H.Amdt. 705",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/705"
+  },
+  "2015-515": {
+   "author": "Jackson Lee",
+   "purpose": "sought to provide a limiting exception for construction projects that could be potential targets for terrorist acts, such as chemical facilities, nuclear power plants, and other critical infrastructure.",
+   "amendment": "H.Amdt. 706",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/706"
+  },
+  "2015-516": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to clarify that nothing in the bill would have the effect of changing or limiting any law or regulation requiring agencies to allow public comment or public participation in their decision-making process.",
+   "amendment": "H.Amdt. 707",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/707"
+  },
+  "2015-545": {
+   "author": "Amash",
+   "purpose": "sought to remove the provision increasing the authorization of appropriations for the Maritime Security Fleet by $500 million.",
+   "amendment": "H.Amdt. 713",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/713"
+  },
+  "2015-546": {
+   "author": "Messer",
+   "purpose": "ensures that the Administration is able to ban the export of crude oil to state sponsors of terrorism.",
+   "amendment": "H.Amdt. 717",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/717"
+  },
+  "2015-547": {
+   "author": "Messer",
+   "purpose": "prohibits the export of crude oil, refined petroleum products, and petrochemical products to the Islamic Republic of Iran.",
+   "amendment": "H.Amdt. 718",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/718"
+  },
+  "2015-560": {
+   "author": "Lowenthal",
+   "purpose": "sought to replace the bill's definition of \"strategic and critical minerals\" with the accepted definition from the National Research Council.",
+   "amendment": "H.Amdt. 724",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/724"
+  },
+  "2015-561": {
+   "author": "Dingell",
+   "purpose": "sought to strike the functional equivalence provisions of the bill and to clarify that all mine explorations or permits would be considered major Federal actions requiring an environmental impact statement under NEPA.",
+   "amendment": "H.Amdt. 725",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/725"
+  },
+  "2015-562": {
+   "author": "Cartwright",
+   "purpose": "sought to strike title II of the bill that would limit judicial review of agency actions and prevent the awarding of attorney's fees under the Equal Access to Justice Act.",
+   "amendment": "H.Amdt. 726",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/726"
+  },
+  "2015-563": {
+   "author": "Hastings",
+   "purpose": "sought to require proposed \"strategic and critical minerals\" projects to demonstrate that domestic capacity to produce \"strategic and critical minerals\" is less than 80 percent of domestic requirements and also sought to require that unless or until the domestic capacity for a \"strategic and critical mineral\" product exceeds 80 percent of domestic requirements, the public will be notified of the intent to transport or sell any final or intermediate \"strategic and critical mineral\" products outside the United States.",
+   "amendment": "H.Amdt. 728",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/728"
+  },
+  "2015-574": {
+   "author": "Lynch",
+   "purpose": "sought to allow the Department of Labor to complete and adopt a rule to require that investment advisers act solely in the best interests of the workers and retirees who rely upon them in making financial decisions regarding their retirement.",
+   "amendment": "H.Amdt. 732",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/732"
+  },
+  "2015-586": {
+   "author": "Swalwell (CA)",
+   "purpose": "sought to expand the eligibility of the Congestion Mitigation and Air Quality Improvement (CMAQ) program to include innovative shared use mobility projects that can reduce congestion and improve air quality and sought to expand associated transit improvements to include those shared-use projects that directly enhance transit.",
+   "amendment": "H.Amdt. 736",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/736"
+  },
+  "2015-587": {
+   "author": "Gosar",
+   "purpose": "sought to require the Federal Government to track the total number, cost, and time required for each environmental review of transportation projects when reporting the status of these projects to the public.",
+   "amendment": "H.Amdt. 738",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/738"
+  },
+  "2015-588": {
+   "author": "Ribble",
+   "purpose": "sought to give States the option of increasing the truck weight limits on their Interstate Highways from 80,000 pounds to 91,000 pounds if the trucks are equipped with an additional sixth axle. Amendment would not have impacted existing exemptions already enacted under the law.",
+   "amendment": "H.Amdt. 747",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/747"
+  },
+  "2015-589": {
+   "author": "Brown (FL)",
+   "purpose": "creates a National Advisory Committee on Travel and Tourism Infrastructure which will advise the Secretary of Transportation on infrastructure needs related to the use of the nation's intermodal transportation network to facilitate travel and tourism.",
+   "amendment": "H.Amdt. 748",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/748"
+  },
+  "2015-590": {
+   "author": "Lynch",
+   "purpose": "to provides for an additional, independent safety review of an approved pipeline route or segment of route, should a state or tribal government deem it necessary.",
+   "amendment": "H.Amdt. 761",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/761"
+  },
+  "2015-591": {
+   "author": "Takano",
+   "purpose": "sought to allow for a program of eligible projects to count as a single project to meet the $100 million threshold of project costs.",
+   "amendment": "H.Amdt. 763",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/763"
+  },
+  "2015-592": {
+   "author": "Brownley (CA)",
+   "purpose": "sought to increase the freight program small project set aside from 10 percent to 20 percent.",
+   "amendment": "H.Amdt. 764",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/764"
+  },
+  "2015-593": {
+   "author": "Radewagen",
+   "purpose": "sought to require the Secretary to allocate program funds made available to the territories according to quantifiable measures that are indicative of the surface transportation requirements of each of the territories.",
+   "amendment": "H.Amdt. 766",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/766"
+  },
+  "2015-594": {
+   "author": "Hartzler",
+   "purpose": "sought to repeal the authority of the Secretary of Transportation to approve as part of the construction of federal-aid highways the costs of landscape and roadside development.",
+   "amendment": "H.Amdt. 769",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/769"
+  },
+  "2015-595": {
+   "author": "Rooney (FL)",
+   "purpose": "sought to provide that a state may allow, by special permit, the operation of vehicles with a gross vehicle weight of up to 95,000 pounds for the hauling of livestock and also sought to limit the cost of a special permit to $200 per year for such livestock trailers.",
+   "amendment": "H.Amdt. 771",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/771"
+  },
+  "2015-596": {
+   "author": "DeSaulnier",
+   "purpose": "sought to establish a peer review group and a comprehensive risk management plan to prevent cost overruns and project delays for transportation megaprojects exceeding $2.5 billion.",
+   "amendment": "H.Amdt. 773",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/773"
+  },
+  "2015-599": {
+   "author": "DeSaulnier",
+   "purpose": "sought to require State and regional transportation plans to include project descriptions and to score projects based on criteria developed by the State or the region, not the Federal Government.",
+   "amendment": "H.Amdt. 780",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/780"
+  },
+  "2015-600": {
+   "author": "Hunter",
+   "purpose": "sought to establish a program acknowledging contributions of third parties to a State DOT's roadside maintenance through a corporate logo made of live plant materials rather than conventional metallic material.",
+   "amendment": "H.Amdt. 782",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/782"
+  },
+  "2015-601": {
+   "author": "Denham",
+   "purpose": "clarifies the intent of Congress and ensures that the motor-carrier industry can operate under one standard when engaging in commerce and pre-empts a patchwork of 50 different State meal and rest break laws to provide certainty for regional carriers doing business.",
+   "amendment": "H.Amdt. 783",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/783"
+  },
+  "2015-602": {
+   "author": "King (IA)",
+   "purpose": "An amendment No. 12 printed in Part A of House Report 114-326 to require that none of the funds made available by this Act may be used to implement, administer, or enforce the prevailing rate wage requirements of the Davis-Bacon Act.",
+   "amendment": "H.Amdt. 787",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/787"
+  },
+  "2015-603": {
+   "author": "Culberson",
+   "purpose": "sought to require local transit entities to have a debt to equity ratio of at least 1:1 in order to be eligible for Federal funds.",
+   "amendment": "H.Amdt. 789",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/789"
+  },
+  "2015-604": {
+   "author": "Lewis",
+   "purpose": "sought to strike the graduated commercial driver's license program language in the bill and replace it with a study on the safety of intrastate teen truck drivers.",
+   "amendment": "H.Amdt. 795",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/795"
+  },
+  "2015-605": {
+   "author": "Reichert",
+   "purpose": "sought to request a GAO study on the economic impact of contract negotiations in order to evaluate the 2014-2015 West Coast ports slowdown and dispute.",
+   "amendment": "H.Amdt. 800",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/800"
+  },
+  "2015-606": {
+   "author": "DeSantis",
+   "purpose": "sought to express the sense of Congress empowering States with authority for most of the taxing and spending for highway and mass transit programs.",
+   "amendment": "H.Amdt. 802",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/802"
+  },
+  "2015-607": {
+   "author": "Perry",
+   "purpose": "sought to increase by 5% each fiscal year for four years, the percent amount that the Export/Import Bank should make available for small businesses. Non-compliance with such policy would bar Ex/Im from issuing any loans over $100 million.",
+   "amendment": "H.Amdt. 806",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/806"
+  },
+  "2015-608": {
+   "author": "Mulvaney",
+   "purpose": "sought to limit Export-Import Bank authorizations to countervailing purposes in order to meet competition from foreign export credit agencies.",
+   "amendment": "H.Amdt. 807",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/807"
+  },
+  "2015-609": {
+   "author": "Mulvaney",
+   "purpose": "sought to require Export-Import Bank authorizations above $10 million to be contingent on at least two denials of similar assistance from the private sector and stipulated penalties for making false claims when seeking Bank assistance.",
+   "amendment": "H.Amdt. 808",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/808"
+  },
+  "2015-610": {
+   "author": "Mulvaney",
+   "purpose": "sought to prohibit Export-Import Bank authorizations involving countries with a sovereign wealth fund of over $100 billion.",
+   "amendment": "H.Amdt. 809",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/809"
+  },
+  "2015-611": {
+   "author": "Mulvaney",
+   "purpose": "sought to reduce taxpayer exposure by removing Treasury guarantees for losses at the Export-Import Bank and to remove borrowing authority from the Treasury.",
+   "amendment": "H.Amdt. 810",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/810"
+  },
+  "2015-612": {
+   "author": "Mulvaney",
+   "purpose": "sought to limit taxpayer exposure by ensuring diversification of industries and companies at the Export-Import Bank.",
+   "amendment": "H.Amdt. 811",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/811"
+  },
+  "2015-613": {
+   "author": "Rothfus",
+   "purpose": "sought to prohibit the Export-Import Bank from providing a guarantee or extending credit to a foreign borrower in connection with the export of goods or services by a U.S. company unless the U.S. company guarantees repayment of, and pledges collateral in an amount sufficient to cover, a percentage of the amount provided by the Bank and makes that guarantee senior to any other obligation. Amendment also sought to provide an exception to this requirement for small businesses.",
+   "amendment": "H.Amdt. 812",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/812"
+  },
+  "2015-614": {
+   "author": "Royce",
+   "purpose": "sought to prohibit Export-Import Bank assistance to state-sponsors of terrorism.",
+   "amendment": "H.Amdt. 813",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/813"
+  },
+  "2015-615": {
+   "author": "Schweikert",
+   "purpose": "sought to add Fair Value Accounting Principles to the EX-IM provision of the underlying bill.",
+   "amendment": "H.Amdt. 814",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/814"
+  },
+  "2015-616": {
+   "author": "Westmoreland",
+   "purpose": "sought to allow companies to appeal their economic harm protests directly to the Export-Import Bank Board of Directors.",
+   "amendment": "H.Amdt. 815",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/815"
+  },
+  "2015-617": {
+   "author": "Young (IA)",
+   "purpose": "requires the agency to disclose to the public the criteria on which a rule is based, including data, studies, and cost-benefit analyses.",
+   "amendment": "H.Amdt. 816",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/816"
+  },
+  "2015-619": {
+   "author": "Schakowsky",
+   "purpose": "sought to improve quality and quantity of information shared about vehicle safety issues among auto manufacturers, NHTSA, and consumers and also sought to improve the quality and quantity of safety information provided about used cars at point of sale.",
+   "amendment": "H.Amdt. 821",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/821"
+  },
+  "2015-620": {
+   "author": "Mullin",
+   "purpose": "requires the Administrator of the Environmental Protection Agency to ensure that, in promulgating regulations, any preference or incentive provided to electric vehicles is also provided to natural gas vehicles.",
+   "amendment": "H.Amdt. 822",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/822"
+  },
+  "2015-621": {
+   "author": "Burgess",
+   "purpose": "modifies and adds certain provisions to the Senate amendments dealing with the National Highway Traffic Safety Administration, including asking manufacturers to hold on to safety information for a longer period of time; extending the time for free recall fix requirements; adding the text of the Low Volume Motor Vehicle Manufacturers Act of 2015 and providing adjusted funding levels to the NHTSA in order to advance safety work.",
+   "amendment": "H.Amdt. 823",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/823"
+  },
+  "2015-622": {
+   "author": "Neugebauer",
+   "purpose": "executes a liquidation of the Federal Reserve surplus account and remittance of funds to the U.S. Treasury; dissolves the existence of the surplus account on a go-forward basis; and ensures that future net earnings of the Federal Reserve, in excess of dividend paid, are remitted to the U.S. Treasury.",
+   "amendment": "H.Amdt. 824",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/824"
+  },
+  "2015-656": {
+   "author": "Upton",
+   "purpose": "Manager's amendment makes technical and conforming changes to the reported text of H.R. 8, H.R. 2295 and H.R. 2358.",
+   "amendment": "H.Amdt. 839",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/839"
+  },
+  "2015-657": {
+   "author": "Tonko",
+   "purpose": "sought to strike section 1101 of the bill which relates to FERC process coordination.",
+   "amendment": "H.Amdt. 840",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/840"
+  },
+  "2015-658": {
+   "author": "Green, Gene",
+   "purpose": "creates a permitting process through the Department of Energy, FERC, and Department of State for cross-border infrastructure projects.",
+   "amendment": "H.Amdt. 851",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/851"
+  },
+  "2015-659": {
+   "author": "Beyer",
+   "purpose": "sought to strike the repeal of Section 433 of the Energy Independence and Security Act which establishes targets for reducing energy from fossil fuels in Federal buildings.",
+   "amendment": "H.Amdt. 853",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/853"
+  },
+  "2015-660": {
+   "author": "Schakowsky",
+   "purpose": "sought to strike Section 4125 from the bill which eliminates an existing consumer right to recover costs due to manufacturer misrepresentation of EnergyStar products.",
+   "amendment": "H.Amdt. 855",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/855"
+  },
+  "2015-661": {
+   "author": "Tonko",
+   "purpose": "sought to reauthorize the Weatherization Assistance Program and the State Energy Program through Fiscal Year 2020.",
+   "amendment": "H.Amdt. 858",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/858"
+  },
+  "2015-662": {
+   "author": "Castor (FL)",
+   "purpose": "sought to strengthen energy infrastructure resiliency and improve energy efficiency by incentivizing local renewable thermal (heating and cooling) energy and waste heat such as combined heat and power and by providing technical assistance to eligible entities to establish distributed energy systems.",
+   "amendment": "H.Amdt. 859",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/859"
+  },
+  "2015-663": {
+   "author": "Polis",
+   "purpose": "sought to require the Secretary of Interior to notify landowners, and any adjacent landholders, when Federally owned minerals beneath their land have been leased for oil and gas development.",
+   "amendment": "H.Amdt. 860",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/860"
+  },
+  "2015-664": {
+   "author": "Barton",
+   "purpose": "repeals restrictions on the export of crude oil and includes provisions of HR 702 as passed by the House.",
+   "amendment": "H.Amdt. 861",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/861"
+  },
+  "2015-668": {
+   "author": "Cramer",
+   "purpose": "authorizes voluntary vegetation management within 150 feet of the exterior boundary of the right-of-way near structures.",
+   "amendment": "H.Amdt. 862",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/862"
+  },
+  "2015-669": {
+   "author": "Rouzer",
+   "purpose": "to repeal the March 2015 EPA final rule establishing federal standards for residential wood heaters.",
+   "amendment": "H.Amdt. 866",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/866"
+  },
+  "2015-670": {
+   "author": "Pallone",
+   "purpose": "to prohibit the Act from taking effect until after the Energy Information Administration analyzed and published a report on the carbon impacts of the Act's provisions.",
+   "amendment": "H.Amdt. 873",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/873"
+  },
+  "2015-684": {
+   "author": "Cole",
+   "purpose": "Senate amendments insert a complete new text entitled \"Hizballah International Financing Prevention Act of 2015\" and appears on page H9341 of the Congressional Record of December 16, 2015.",
+   "amendment": "H.Amdt. 876",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/876"
+  },
+  "2016-7": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to insert an exception for any rule, consent decree, or settlement agreement that the Director of the Office of Management and Budget determines would result in net job creation and whose benefits exceeds its costs.",
+   "amendment": "H.Amdt. 889",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/889"
+  },
+  "2016-8": {
+   "author": "Cummings",
+   "purpose": "sought to strike the 6 month moratorium on rules imposed by the bill.",
+   "amendment": "H.Amdt. 890",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/890"
+  },
+  "2016-9": {
+   "author": "Lynch",
+   "purpose": "sought to amend title II by requiring Federal agencies to provide an estimate of the benefits of proposed regulations and by requiring the Office of Information and Regulatory Affairs to include the total benefits of proposed and final agency rules in the annual cumulative assessment of agency rule making required by the bill.",
+   "amendment": "H.Amdt. 891",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/891"
+  },
+  "2016-10": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to clarify that rule exceptions should take effect in the event that there is a threat to health or safety or other emergency and not only when such threat is imminent.",
+   "amendment": "H.Amdt. 893",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/893"
+  },
+  "2016-13": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to strike title II of the bill, eliminating the legislation's \"CutGo\" process which requires that agencies eliminate rules identified by the Regulatory Retrospective Review Commission prior to issuing a new rule.",
+   "amendment": "H.Amdt. 880",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/880"
+  },
+  "2016-14": {
+   "author": "Cummings",
+   "purpose": "sought to exempt independent establishments from the requirements of the bill.",
+   "amendment": "H.Amdt. 882",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/882"
+  },
+  "2016-15": {
+   "author": "Cicilline",
+   "purpose": "sought to exempt rules made by the Secretary of Veterans' Affairs from the provisions of the bill.",
+   "amendment": "H.Amdt. 883",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/883"
+  },
+  "2016-16": {
+   "author": "DelBene",
+   "purpose": "sought to create an exemption from regulatory CutGo requirements in the case of an emergency.",
+   "amendment": "H.Amdt. 884",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/884"
+  },
+  "2016-17": {
+   "author": "Cicilline",
+   "purpose": "sought to provide an exemption for any rule issued by the Department of Homeland Security from the provisions of the bill.",
+   "amendment": "H.Amdt. 885",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/885"
+  },
+  "2016-18": {
+   "author": "Pocan",
+   "purpose": "sought to provide an exemption from the provisions of the bill for rules put forth by the FDA for the purposes of consumer safety.",
+   "amendment": "H.Amdt. 886",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/886"
+  },
+  "2016-23": {
+   "author": "Cohen",
+   "purpose": "sought to provide an exception to the bill's required showing for class certification for any claims brought by the victims of a terrorist attack against the attack's perpetrators.",
+   "amendment": "H.Amdt. 895",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/895"
+  },
+  "2016-24": {
+   "author": "Conyers",
+   "purpose": "sought to provide an exception from the provisions of the bill for any claim for monetary relief under the Civil Rights Act.",
+   "amendment": "H.Amdt. 897",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/897"
+  },
+  "2016-25": {
+   "author": "Deutch",
+   "purpose": "sought to provide an exception from the provisions of the bill for any claim brought by a gun owner seeking monetary relief involving the defective design or manufacturing of a firearm.",
+   "amendment": "H.Amdt. 898",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/898"
+  },
+  "2016-26": {
+   "author": "Moore",
+   "purpose": "sought to provide an exception from the provisions of the bill for suits arising out of the Fair Housing Act or the Equal Credit Opportunity Act.",
+   "amendment": "H.Amdt. 899",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/899"
+  },
+  "2016-27": {
+   "author": "Moore",
+   "purpose": "sought to provide an exception from the provisions of the bill for pay equity lawsuits arising from the Civil Rights Act or the Equal Pay Act.",
+   "amendment": "H.Amdt. 900",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/900"
+  },
+  "2016-28": {
+   "author": "Waters, Maxine",
+   "purpose": "sought to provide an exception from the provisions of the bill for suits seeking monetary relief from fraudulent institutions of higher education.",
+   "amendment": "H.Amdt. 901",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/901"
+  },
+  "2016-29": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to remove the scope and economic loss language from the bill.",
+   "amendment": "H.Amdt. 902",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/902"
+  },
+  "2016-30": {
+   "author": "Jackson Lee",
+   "purpose": "sought to provide litigants in a pending class action access to information held in a trust that is directly related to a plaintiff's claim for asbestos exposure.",
+   "amendment": "H.Amdt. 903",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/903"
+  },
+  "2016-31": {
+   "author": "Nadler",
+   "purpose": "sought to replace the bill's requirement for asbestos trusts to disclose detailed personal information with aggregate reporting of demands received and payments made by the trusts.",
+   "amendment": "H.Amdt. 904",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/904"
+  },
+  "2016-38": {
+   "author": "Kildee",
+   "purpose": "sought to prevent any rule that improves drinking water quality from being delayed.",
+   "amendment": "H.Amdt. 906",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/906"
+  },
+  "2016-39": {
+   "author": "Cartwright",
+   "purpose": "sought to direct funding from AML certified States for use in revitalizing economically distressed communities which have been adversely affected by discharge from abandoned mine lands.",
+   "amendment": "H.Amdt. 907",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/907"
+  },
+  "2016-40": {
+   "author": "Sewell (AL)",
+   "purpose": "sought to ensure that rules will not be delayed if such a delay would cause or significantly contribute to the development of a negative, chronic or long-term condition.",
+   "amendment": "H.Amdt. 908",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/908"
+  },
+  "2016-50": {
+   "author": "Palazzo",
+   "purpose": "makes permanent the exception to the PHA resident board member requirement.",
+   "amendment": "H.Amdt. 914",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/914"
+  },
+  "2016-51": {
+   "author": "Green, Al",
+   "purpose": "sought to reauthorize the FHA pilot program to establish an automated process for providing additional credit rating information to help determine creditworthiness for families with insufficient credit histories.",
+   "amendment": "H.Amdt. 919",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/919"
+  },
+  "2016-57": {
+   "author": "DeSaulnier",
+   "purpose": "sought to direct the SEC to study and report to Congress on the prevalence of employee ownership plans within companies that include a flexible or social benefit component in their articles of incorporation.",
+   "amendment": "H.Amdt. 922",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/922"
+  },
+  "2016-58": {
+   "author": "Issa",
+   "purpose": "sought to limit all granted exemptions to only those companies obligated to begin submitting financial disclosures to the Securities and Exchange Commission after the date of enactment.",
+   "amendment": "H.Amdt. 925",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/925"
+  },
+  "2016-59": {
+   "author": "Maloney, Carolyn",
+   "purpose": "sought to strike title IV and preserve the SEC requirement that public companies report their information related to corporate financial performance as searchable data.",
+   "amendment": "H.Amdt. 926",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/926"
+  },
+  "2016-68": {
+   "author": "Johnson, E. B.",
+   "purpose": "sought to ensure that \"Determination\", as contained in the bill, is consistent with the mission of the agency and with the existing merit-review criteria.",
+   "amendment": "H.Amdt. 929",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/929"
+  },
+  "2016-71": {
+   "author": "Kelly (IL)",
+   "purpose": "sought to require the report by the Secretary of the Treasury to include an economic forecast of the negative consequences of failing to raise the debt limit, including costs associated with public health and safety.",
+   "amendment": "H.Amdt. 937",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/937"
+  },
+  "2016-72": {
+   "author": "Duffy",
+   "purpose": "requires the Secretary of the Treasury to notify Congress whether it is able to pay only principal and interest on the national debt, as opposed to other obligations, in the event that the debt limit is reached.",
+   "amendment": "H.Amdt. 938",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/938"
+  },
+  "2016-73": {
+   "author": "Grijalva",
+   "purpose": "sought to require the report by the Secretary of the Treasury to include individual salary and wage information, as well as projections of consumer spending and the impact of spending cuts on gross domestic product.",
+   "amendment": "H.Amdt. 940",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/940"
+  },
+  "2016-74": {
+   "author": "Takano",
+   "purpose": "sought to require the report by the Secretary of the Treasury to include the impact that the threat of default would have on the economy, including, but not limited to, the impact on the Gross Domestic Product (GDP), interest rates, employment, household wealth, and retirement assets.",
+   "amendment": "H.Amdt. 941",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/941"
+  },
+  "2016-79": {
+   "author": "McMorris Rodgers",
+   "purpose": "ensures that businesses will not be penalized for inadvertent human error in preparation or variation of ingredients.",
+   "amendment": "H.Amdt. 942",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/942"
+  },
+  "2016-80": {
+   "author": "Schrader",
+   "purpose": "sought to strike the \"off-premises\" ordering exception from bill.",
+   "amendment": "H.Amdt. 943",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/943"
+  },
+  "2016-87": {
+   "author": "Cartwright",
+   "purpose": "sought to create a separate exception for plaintiffs seeking compensation resulting from the bad faith of an insurer.",
+   "amendment": "H.Amdt. 945",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/945"
+  },
+  "2016-92": {
+   "author": "Beyer",
+   "purpose": "sought to prohibit an individual who is prohibited from possessing a firearm by the Gun Control Act from using a public target range.",
+   "amendment": "H.Amdt. 947",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/947"
+  },
+  "2016-93": {
+   "author": "Jackson Lee",
+   "purpose": "sought to strike title III, the exemption to import polar bear trophies taken in sport.",
+   "amendment": "H.Amdt. 948",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/948"
+  },
+  "2016-94": {
+   "author": "Beyer",
+   "purpose": "sought to strike title XIV which requires State approval of Federal fishing regulations in waters under the jurisdiction of the National Park Service and the Office of National Marine Sanctuaries.",
+   "amendment": "H.Amdt. 953",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/953"
+  },
+  "2016-95": {
+   "author": "Smith (MO)",
+   "purpose": "prohibits USDA and NFS from issuing restrictions and regulations on hunting and recreational fishing in the Mark Twain National Forest.",
+   "amendment": "H.Amdt. 954",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/954"
+  },
+  "2016-96": {
+   "author": "Griffith",
+   "purpose": "allows a person who is not prohibited from possessing, transporting, shipping, or receiving a firearm or ammunition to transport a firearm or ammunition for any lawful purpose from any place where the person may lawfully possess, carry, or transport the firearm or ammunition to any other such place if, during the transportation, the firearm is unloaded.",
+   "amendment": "H.Amdt. 957",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/957"
+  },
+  "2016-97": {
+   "author": "Ribble",
+   "purpose": "provides for reissuing the 2011 U.S. Fish and Wildlife Service decision to delist the gray wolf in the Western Great Lakes and Wyoming from the Endangered Species Act.",
+   "amendment": "H.Amdt. 959",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/959"
+  },
+  "2016-98": {
+   "author": "Young (AK)",
+   "purpose": "prohibits the Fish and Wildlife Service from issuing a final rule that preempts State management authority which is protected by law in Alaska and withdraws a final rule issued by the National Park Service on the same issue.",
+   "amendment": "H.Amdt. 960",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/960"
+  },
+  "2016-99": {
+   "author": "Huffman",
+   "purpose": "sought to designate the Coastal Plain of the Arctic National Wildlife Refuge as wilderness and a part of the National Wilderness Preservation System.",
+   "amendment": "H.Amdt. 961",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/961"
+  },
+  "2016-118": {
+   "author": "Pallone",
+   "purpose": "sought to strike the Cross-State Air Pollution Rule portion of the bill.",
+   "amendment": "H.Amdt. 964",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/964"
+  },
+  "2016-119": {
+   "author": "Pallone",
+   "purpose": "sought to give the Governor of a State the ability to opt out of the Cross-State Air Pollution Rule portion of the bill if the Governor determines that implementing such provision would increase the overall cost of complying with EPA's rule.",
+   "amendment": "H.Amdt. 965",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/965"
+  },
+  "2016-120": {
+   "author": "Bera",
+   "purpose": "sought to require a GAO report on the increase in sulfur dioxide and other air pollution emissions that result from this Act and the effect of such emissions on public health.",
+   "amendment": "H.Amdt. 966",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/966"
+  },
+  "2016-121": {
+   "author": "Veasey",
+   "purpose": "sought to ensure public health is taken into account by the Administrator of the Environmental Protection Agency before law goes into effect.",
+   "amendment": "H.Amdt. 968",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/968"
+  },
+  "2016-147": {
+   "author": "Kelly (IL)",
+   "purpose": "sought to limit the asset threshold increase to $5 billion for bank holding companies and savings and loan holding companies which have submitted to the Board of Governors of the Federal Reserve System a credible plan to expand access to banking accounts and services, consumer and small business credit products, and bank branches in rural, low income, minority, and otherwise under served communities.",
+   "amendment": "H.Amdt. 971",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/971"
+  },
+  "2016-150": {
+   "author": "Yarmuth",
+   "purpose": "sought to clarify that nothing in the bill would prevent the FCC from requiring entities that must submit a public inspection file to do so in a machine-readable format which is easily sortable, searchable, and downloadable.",
+   "amendment": "H.Amdt. 974",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/974"
+  },
+  "2016-151": {
+   "author": "McNerney",
+   "purpose": "sought to preserve the FCC's authority to act in the public interest, convenience, and necessity.",
+   "amendment": "H.Amdt. 975",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/975"
+  },
+  "2016-170": {
+   "author": "Waters, Maxine",
+   "purpose": "sought to stipulate that no sponsor of a demo day can collect finders' fees for connecting investors to companies; sought to limit the relief offered under the bill to actual operating companies in the \"real economy\"; and sought to codify the relief the SEC has already provided for angel investor groups as it relates to demo days.",
+   "amendment": "H.Amdt. 982",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/982"
+  },
+  "2016-186": {
+   "author": "Lynch",
+   "purpose": "sought to provide that grant funding can be used to develop, implement or expand a program to ensure the security of opioids in medical facilities.",
+   "amendment": "H.Amdt. 1006",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1006"
+  },
+  "2016-203": {
+   "author": "McKinley",
+   "purpose": "sought to require the Secretary of Defense to ensure that every tactical missile program of the Department of Defense that uses solid propellant as the primary propulsion system shall have at least two fully certified rocket motor suppliers in the event that one of the rocket motor suppliers is outside the national technology and industrial base.",
+   "amendment": "H.Amdt. 1014",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1014"
+  },
+  "2016-204": {
+   "author": "Nadler",
+   "purpose": "sought to strike sections 1032 and 1033 from the bill which prohibit the use of funds to transfer detainees from Guantanamo Bay, Cuba, to the United States or to construct or expand any facility in the U.S. to house any individual detained at Guantanamo.",
+   "amendment": "H.Amdt. 1016",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1016"
+  },
+  "2016-205": {
+   "author": "Poe (TX)",
+   "purpose": "as originally offered addresses the process of sending excess military equipment, which is not being used, to Border Security personnel to assist with securing U.S. borders. As modified, amendment provides border security preference for a few specific pieces of equipment which are particularly useful for border security applications, including unmanned surveillance vehicles, the Aerostat radar system, night vision goggles and humvees.",
+   "amendment": "H.Amdt. 1019",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1019"
+  },
+  "2016-208": {
+   "author": "Buck",
+   "purpose": "sought to require the Secretary of Defense to evaluate the cost of different types of energy and purchase the most cost effective option available.",
+   "amendment": "H.Amdt. 1029",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1029"
+  },
+  "2016-209": {
+   "author": "Fleming",
+   "purpose": "prohibits funds for Executive Orders 13653 and 13693 that require DOD to meet certain green energy mandates and to incorporate climate change reviews within DOD operations, acquisition, and planning.",
+   "amendment": "H.Amdt. 1030",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1030"
+  },
+  "2016-210": {
+   "author": "Lee",
+   "purpose": "sought to repeal the 2001 AUMF after 90 days of enactment of this Act.",
+   "amendment": "H.Amdt. 1033",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1033"
+  },
+  "2016-211": {
+   "author": "Polis",
+   "purpose": "sought to reduce the authorization level in the bill by 1%.",
+   "amendment": "H.Amdt. 1034",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1034"
+  },
+  "2016-212": {
+   "author": "Ellison",
+   "purpose": "sought to strike provisions in the bill that call on the President to expand the scope of the mission in Afghanistan.",
+   "amendment": "H.Amdt. 1036",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1036"
+  },
+  "2016-213": {
+   "author": "Ellison",
+   "purpose": "sought to return $9,440,300,000 from procurement to the OCO Operations & Maintenance fund in order to fund operations overseas, with $26 million designated for suicide prevention.",
+   "amendment": "H.Amdt. 1037",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1037"
+  },
+  "2016-214": {
+   "author": "Sanford",
+   "purpose": "sought to require the Government Accountability Office to study the Maritime Security Fleet.",
+   "amendment": "H.Amdt. 1041",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1041"
+  },
+  "2016-217": {
+   "author": "Mulvaney",
+   "purpose": "sought to strike the $18.9 million in funding for the Military Construction, Army portion of the OCO account.",
+   "amendment": "H.Amdt. 1057",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1057"
+  },
+  "2016-218": {
+   "author": "Mulvaney",
+   "purpose": "sought to strike the $59.8 million in funding for the Military Construction, Marine Corps portion of the OCO account.",
+   "amendment": "H.Amdt. 1058",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1058"
+  },
+  "2016-219": {
+   "author": "Mulvaney",
+   "purpose": "sought to strike the $88.2 million in funding for the Military Construction, Air Force portion of the OCO account.",
+   "amendment": "H.Amdt. 1059",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1059"
+  },
+  "2016-220": {
+   "author": "Mulvaney",
+   "purpose": "sought to strike the $5 million in funding for the Military Construction, Defense-Wide portion of the OCO account.",
+   "amendment": "H.Amdt. 1060",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1060"
+  },
+  "2016-221": {
+   "author": "Blumenauer",
+   "purpose": "sought to prohibit use of funds to implement, administer, or enforce any Veterans Health Administration Directive relating to the prohibition on VA providers from completing forms seeking recommendations on opinions regarding a veteran's participation in a state marijuana program.",
+   "amendment": "H.Amdt. 1062",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1062"
+  },
+  "2016-222": {
+   "author": "Fleming",
+   "purpose": "to prohibit use of funds to modify a military installation in the U.S., including construction or modification of a facility on a military installation, to produce housing for unaccompanied alien children.",
+   "amendment": "H.Amdt. 1063",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1063"
+  },
+  "2016-223": {
+   "author": "Huffman",
+   "purpose": "prohibits the use of funds for the display of Confederate battle flags in national cemeteries.",
+   "amendment": "H.Amdt. 1064",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1064"
+  },
+  "2016-224": {
+   "author": "Gosar",
+   "purpose": "sought to prohibit the use of funds to implement, administer, or enforce provisions which allow unions to solicit members and dues at VA facilities.",
+   "amendment": "H.Amdt. 1075",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1075"
+  },
+  "2016-225": {
+   "author": "Perry",
+   "purpose": "sought to prohibit the use of funds to enforce the Executive Order which encourages Federal agencies to require project labor agreements (PLA's) on Federal construction projects exceeding $25 million in costs.",
+   "amendment": "H.Amdt. 1076",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1076"
+  },
+  "2016-226": {
+   "author": "Maloney, Sean",
+   "purpose": "prohibits the use of funds in contravention of Executive Orders regarding antidiscrimination.",
+   "amendment": "H.Amdt. 1079",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1079"
+  },
+  "2016-241": {
+   "author": "Clawson (FL)",
+   "purpose": "sought to move $50 million from the Strategic Petroleum Reserve account to the Army Corps of Engineers account which handles U.S. water infrastructure projects.",
+   "amendment": "H.Amdt. 1083",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1083"
+  },
+  "2016-242": {
+   "author": "McNerney",
+   "purpose": "sought to strike provisions in the bill taken from H.R. 2898 which are related to California State water projects.",
+   "amendment": "H.Amdt. 1089",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1089"
+  },
+  "2016-243": {
+   "author": "Griffith",
+   "purpose": "sought to allocate an additional $45 million for fossil energy research and development from the energy efficiency and renewable energy account for the purpose of aiding clean coal technology.",
+   "amendment": "H.Amdt. 1090",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1090"
+  },
+  "2016-244": {
+   "author": "Buck",
+   "purpose": "sought to zero out several Federal agency programs and apply the $3,481,616,000 in savings to the spending reduction account.",
+   "amendment": "H.Amdt. 1092",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1092"
+  },
+  "2016-245": {
+   "author": "Polis",
+   "purpose": "sought to increase funds for energy efficiency and renewable energy by $9.75 million and decrease funds for fossil energy research and development by $13 million.",
+   "amendment": "H.Amdt. 1096",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1096"
+  },
+  "2016-246": {
+   "author": "Polis",
+   "purpose": "sought to reduce funds for fossil energy research and development by $285 million and apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 1098",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1098"
+  },
+  "2016-251": {
+   "author": "Weber (TX)",
+   "purpose": "sought to reduce funding for the Innovative Technology Guarantee program by $7 million and apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 1101",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1101"
+  },
+  "2016-252": {
+   "author": "Ellison",
+   "purpose": "sought to allocate funds to create an Office of Good Jobs in DOE.",
+   "amendment": "H.Amdt. 1103",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1103"
+  },
+  "2016-253": {
+   "author": "Farr",
+   "purpose": "sought to strike section 506 pertaining to the further implementation of the coastal and marine spatial planning and ecosystem-based management components of the National Ocean Policy.",
+   "amendment": "H.Amdt. 1109",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1109"
+  },
+  "2016-254": {
+   "author": "Garamendi",
+   "purpose": "sought to prohibit the use of funds to expand plutonium pit production capacity at the PF-4 facility at Los Alamos National Laboratory.",
+   "amendment": "H.Amdt. 1112",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1112"
+  },
+  "2016-255": {
+   "author": "Pittenger",
+   "purpose": "to prohibit the use of funds to be used to revoke funding previously awarded to or within the State of North Carolina.",
+   "amendment": "H.Amdt. 1115",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1115"
+  },
+  "2016-256": {
+   "author": "Gosar",
+   "purpose": "prohibits the use of funds to prepare, propose, or promulgate any regulation or guidance related to the social cost of carbon.",
+   "amendment": "H.Amdt. 1117",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1117"
+  },
+  "2016-257": {
+   "author": "Foster",
+   "purpose": "sought to prohibit the use of funds to be used by the Secretary of Energy for the Experimental Program to Stimulate Competitive Research.",
+   "amendment": "H.Amdt. 1122",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1122"
+  },
+  "2016-258": {
+   "author": "Maloney, Sean",
+   "purpose": "Amendment, as offered, prohibits the use of funds for government contractors who discriminate against LGBT employees. As amended by the Pitts amendment, the Federal government must not contravene the 1st Amendment, the 14th amendment, or Article I of the Constitution as it deals with contractors.",
+   "amendment": "H.Amdt. 1128",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1128"
+  },
+  "2016-259": {
+   "author": "Byrne",
+   "purpose": "prohibits the use of funds in contravention of the Religious Freedom Restoration Act of 1993, Executive Order 13279, or the Americans with Disabilities Act of 1990.",
+   "amendment": "H.Amdt. 1130",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1130"
+  },
+  "2016-260": {
+   "author": "Blackburn",
+   "purpose": "sought to reduce funding in the bill by 1 percent Across-the-Board.",
+   "amendment": "H.Amdt. 1146",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1146"
+  },
+  "2016-261": {
+   "author": "Smith (MO)",
+   "purpose": "sought to clarify that, with respect to crevassing of levees under the Birds Point-New Madrid Floodway Operations Plan, the Federal government would be responsible for any rebuilding once floodwaters have receded.",
+   "amendment": "H.Amdt. 1147",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1147"
+  },
+  "2016-262": {
+   "author": "Walker",
+   "purpose": "sought to reduce unauthorized nondefense accounts to 2016 levels and also sought to reduce various other programs by $185 million and apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 1148",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1148"
+  },
+  "2016-263": {
+   "author": "DeSantis",
+   "purpose": "to prohibit funds to purchase heavy water from Iran.",
+   "amendment": "H.Amdt. 1149",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1149"
+  },
+  "2016-276": {
+   "author": "Whitfield",
+   "purpose": "to provide that no additional funds are authorized to be appropriated to carry out the requirements of this Act and the amendments made by this Act. Such requirements shall be carried out using amounts otherwise authorized.",
+   "amendment": "H.Amdt. 1150",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1150"
+  },
+  "2016-277": {
+   "author": "Rush",
+   "purpose": "sought to provide Federal, State, local, or tribal permitting agencies the ability to opt-out of section 3(d) if they determine that issuing a preconstruction permit under an outdated and less protective air quality standard will increase air pollution, slow permitting, increase regulatory uncertainty, foster litigation, shift the burden of pollution control from new sources to existing sources, or increase the overall cost of achieving the new or revised national ambient air quality standard in the applicable area.",
+   "amendment": "H.Amdt. 1151",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1151"
+  },
+  "2016-278": {
+   "author": "Pallone",
+   "purpose": "sought to strike the consideration of technological feasibility when determining national ambient air quality standards to preserve health based standards.",
+   "amendment": "H.Amdt. 1152",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1152"
+  },
+  "2016-279": {
+   "author": "Polis",
+   "purpose": "sought to repeal the prohibitions against aggregating emissions from any oil or gas exploration or production well and emissions. Additionally, amendment sought to require the EPA to issue a rule adding hydrogen sulfide to the list of hazardous air pollutants.",
+   "amendment": "H.Amdt. 1154",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1154"
+  },
+  "2016-280": {
+   "author": "Norton",
+   "purpose": "sought to provide that the provisions of the bill would not apply if the Administrator of the Environmental Protection Administration, in consultation with the Clean Air Scientific Advisory Committee, finds that the application of any section could harm human health or the environment.",
+   "amendment": "H.Amdt. 1155",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1155"
+  },
+  "2016-287": {
+   "author": "Torres",
+   "purpose": "sought to strike the provisions in the bill which allow the minimum wage for Puerto Rican workers 25 years old and under to be set at $4.25 an hour for a period of 4 years or as long as the oversight board is in place.",
+   "amendment": "H.Amdt. 1163",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1163"
+  },
+  "2016-289": {
+   "author": "Ellison",
+   "purpose": "sought to reallocate $1 million to create an Office of Good Jobs for the House of Representatives.",
+   "amendment": "H.Amdt. 1164",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1164"
+  },
+  "2016-290": {
+   "author": "Blackburn",
+   "purpose": "sought to provide for a one percent across the board cut to the bill's spending levels. Accounts for the Capitol Police, Architect of the Capitol-Capitol Police Buildings, Grounds and Security, and Office of the Sergeant At Arms shall not be reduced.",
+   "amendment": "H.Amdt. 1167",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1167"
+  },
+  "2016-291": {
+   "author": "Takano",
+   "purpose": "sought to appropriate $2.5 million to re-institute the Office of Technology Assessment (OTA), offset from funds from the Architect of the Capitol's Capital Construction and Operations Account.",
+   "amendment": "H.Amdt. 1171",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1171"
+  },
+  "2016-292": {
+   "author": "Pearce",
+   "purpose": "sought to reduce funding for the Office of Congressional Ethics by $190,970 and apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 1173",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1173"
+  },
+  "2016-306": {
+   "author": "Shuster",
+   "purpose": "sought to restore $170 million to Army Operations & Maintenance (O&M) for the purpose of preventing a cut to depots and the Organic Industrial Base (OIB), offset with funds from Operations & Maintenance Defense-Wide and non-critical environmental restoration accounts.",
+   "amendment": "H.Amdt. 1176",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1176"
+  },
+  "2016-307": {
+   "author": "Ellison",
+   "purpose": "sought to reprogram $1 million in already appropriated funds to create an Office of Good Jobs in the Department of Defense.",
+   "amendment": "H.Amdt. 1183",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1183"
+  },
+  "2016-308": {
+   "author": "Rogers (AL)",
+   "purpose": "sought to allocate an additional $108,515,000 in funding for directed energy and other research and development at the Missile Defense Agency.",
+   "amendment": "H.Amdt. 1186",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1186"
+  },
+  "2016-309": {
+   "author": "Quigley",
+   "purpose": "sought to reduce funding for the Long Range Standoff Weapon by $75,802,000 and apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 1187",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1187"
+  },
+  "2016-310": {
+   "author": "O'Rourke",
+   "purpose": "sought to strike sec. 8121 which prohibits the use of funds for proposing, planning, or executing a new Base Realignment and Closure (BRAC) round.",
+   "amendment": "H.Amdt. 1189",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1189"
+  },
+  "2016-311": {
+   "author": "Huffman",
+   "purpose": "sought to strike sec. 8127 which requires the Air Force to utilize specific energy sourced domestically within the United States as the base load energy for heating at U.S. defense installations in Kaiserslautern, Germany.",
+   "amendment": "H.Amdt. 1190",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1190"
+  },
+  "2016-312": {
+   "author": "Poe (TX)",
+   "purpose": "sought to reduce funding to Pakistan from $900 million to $700 million.",
+   "amendment": "H.Amdt. 1192",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1192"
+  },
+  "2016-313": {
+   "author": "Sanford",
+   "purpose": "sought to ensure that the Department of Defense retains its statutory authority to provide new military recruits a small cash voucher that they can use to purchase running shoes for training.",
+   "amendment": "H.Amdt. 1194",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1194"
+  },
+  "2016-314": {
+   "author": "Buck",
+   "purpose": "prohibits funds to implement Department of Defense (DOD) Directive 4715.21 on Climate Change Adaption and Resilience which requires the Pentagon to prioritize climate change over national security.",
+   "amendment": "H.Amdt. 1195",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1195"
+  },
+  "2016-315": {
+   "author": "Byrne",
+   "purpose": "to prohibit funds to be used to modify a military installation in the United States, including construction or modification of a facility on a military installation, to provide temporary housing for unaccompanied alien children.",
+   "amendment": "H.Amdt. 1197",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1197"
+  },
+  "2016-316": {
+   "author": "King (IA)",
+   "purpose": "prohibits the use of funds for military bases or buildings as venues to house unaccompanied alien children.",
+   "amendment": "H.Amdt. 1198",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1198"
+  },
+  "2016-317": {
+   "author": "Gosar",
+   "purpose": "sought to prohibit the use of funds to enlist DACA aliens in the military, who are currently only considered eligible through the MAVNI program as a result of a September 2014 memo from the administration.",
+   "amendment": "H.Amdt. 1199",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1199"
+  },
+  "2016-318": {
+   "author": "King (IA)",
+   "purpose": "sought to prohibit the use of funds by the Department of Defense to enlist DACA youth in the United States military.",
+   "amendment": "H.Amdt. 1200",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1200"
+  },
+  "2016-319": {
+   "author": "Lamborn",
+   "purpose": "to prohibit the use of funds to survey, assess, or review potential detention locations in the United States to detain any individual presently detained at United States Naval Station, Guantanamo Bay, Cuba.",
+   "amendment": "H.Amdt. 1202",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1202"
+  },
+  "2016-320": {
+   "author": "Massie",
+   "purpose": "sought to block funding for DOD drug interdiction and counter-drug activities in Afghanistan.",
+   "amendment": "H.Amdt. 1203",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1203"
+  },
+  "2016-321": {
+   "author": "Massie",
+   "purpose": "sought to prohibit warrantless searches of government databases for the communications of U.S. persons and to prohibit government agencies from mandating data security vulnerabilities in products or services for surveillance purposes.",
+   "amendment": "H.Amdt. 1204",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1204"
+  },
+  "2016-322": {
+   "author": "McClintock",
+   "purpose": "prohibits the Department of Defense from obligating or expending funds on certain green energy mandates found in various provisions of U.S. Code and two Executive Orders.",
+   "amendment": "H.Amdt. 1205",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1205"
+  },
+  "2016-323": {
+   "author": "Mulvaney",
+   "purpose": "sought to prohibit Overseas Contingency Operation funds found in title IX from being used for anything other than a Contingency Operation as defined by United States Code.",
+   "amendment": "H.Amdt. 1206",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1206"
+  },
+  "2016-324": {
+   "author": "DeSantis",
+   "purpose": "to prohibit funds for any salaries or expenses for the offices of the Special Envoy for Guantanamo Detention Closure or the Principal Director, Detainee Policy.",
+   "amendment": "H.Amdt. 1207",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1207"
+  },
+  "2016-325": {
+   "author": "Rohrabacher",
+   "purpose": "sought to prohibit funds in the bill from being used to provide assistance to Pakistan.",
+   "amendment": "H.Amdt. 1209",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1209"
+  },
+  "2016-326": {
+   "author": "Walberg",
+   "purpose": "prohibits funds from being used by the Secretary of Defense to obligate or expend funds on Afghanistan Infrastructure Fund projects.",
+   "amendment": "H.Amdt. 1210",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1210"
+  },
+  "2016-327": {
+   "author": "Conyers",
+   "purpose": "sought to block funds from being used to transfer or authorize the transfer of cluster munitions to Saudi Arabia.",
+   "amendment": "H.Amdt. 1212",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1212"
+  },
+  "2016-328": {
+   "author": "Gabbard",
+   "purpose": "sought to prohibit use of funds for the Syria Train and Equip Program.",
+   "amendment": "H.Amdt. 1214",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1214"
+  },
+  "2016-329": {
+   "author": "McGovern",
+   "purpose": "to prohibit funds being obligated for combat operations in Iraq or Syria unless an AUMF is enacted.",
+   "amendment": "H.Amdt. 1215",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1215"
+  },
+  "2016-330": {
+   "author": "Lee",
+   "purpose": "sought to require the presence of a new ISIL-specific Authorization for the Use of Military Force by April 30, 2017.",
+   "amendment": "H.Amdt. 1216",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1216"
+  },
+  "2016-331": {
+   "author": "Polis",
+   "purpose": "sought to reduce the total amount appropriated by 1% excluding military personnel and the Defense Health Program account.",
+   "amendment": "H.Amdt. 1217",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1217"
+  },
+  "2016-357": {
+   "author": "Ellison",
+   "purpose": "sought to reprogram already appropriated funds to create an Office of Good Jobs for the Department of Treasury.",
+   "amendment": "H.Amdt. 1226",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1226"
+  },
+  "2016-358": {
+   "author": "Duffy",
+   "purpose": "sought to decrease by $20.7 million, the Community Development Financial Institutions (CDFI) account.",
+   "amendment": "H.Amdt. 1227",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1227"
+  },
+  "2016-359": {
+   "author": "Becerra",
+   "purpose": "sought to strike section 127, which prevents the IRS from issuing guidance to more clearly define political activity for 501(c)(4) organizations.",
+   "amendment": "H.Amdt. 1228",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1228"
+  },
+  "2016-360": {
+   "author": "Ellison",
+   "purpose": "sought to restrict funds tranferred to the Bureau of Consumer Financial Protection's ability to regulate pre-dispute arbitration agreements.",
+   "amendment": "H.Amdt. 1229",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1229"
+  },
+  "2016-361": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of amendments 5, 6, and 7 printed in House Report 114-639. See page D750 of the Congressional Record of July 6, 2016 for description of en bloc amendments.",
+   "amendment": "H.Amdt. 1230",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1230"
+  },
+  "2016-362": {
+   "author": "Himes",
+   "purpose": "sought to increase funding for the SEC by $50 million.",
+   "amendment": "H.Amdt. 1231",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1231"
+  },
+  "2016-363": {
+   "author": "DeFazio",
+   "purpose": "sought to decrease funding for the Selective Service System by $22,703,000 and apply the savings to spending reduction account.",
+   "amendment": "H.Amdt. 1232",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1232"
+  },
+  "2016-364": {
+   "author": "Grayson",
+   "purpose": "sought to strike section 613, to prohibit funds to pay for abortions under the Federal employees health benefit program.",
+   "amendment": "H.Amdt. 1233",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1233"
+  },
+  "2016-365": {
+   "author": "Kildee",
+   "purpose": "sought to strike section 625, to prevent the SEC from developing or finalizing a rule that requires the disclosure of political contributions to tax exempt organizations.",
+   "amendment": "H.Amdt. 1234",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1234"
+  },
+  "2016-366": {
+   "author": "Eshoo",
+   "purpose": "sought to strike section 632 related to the FCC's matter of protecting and promoting the open Internet.",
+   "amendment": "H.Amdt. 1235",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1235"
+  },
+  "2016-367": {
+   "author": "Ellison",
+   "purpose": "sought to strike section 637 related to prohibiting funds being used to take any action on the basis of an individual being a mortgage originator as definded in the Truth in Lending Act.",
+   "amendment": "H.Amdt. 1236",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1236"
+  },
+  "2016-368": {
+   "author": "Ellison",
+   "purpose": "sought to strike section 638 related to section 129 of the Truth in Lending Act (15 U.S.C. 1639).",
+   "amendment": "H.Amdt. 1237",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1237"
+  },
+  "2016-369": {
+   "author": "Sewell (AL)",
+   "purpose": "sought to strike section 639 which prohibits funds from being used by the Bureau of Consumer Financial Protection (CFPB) to enforce regulations or rules with respect to payday loans, vehicle title loans, or other similar loans during FY 2017.",
+   "amendment": "H.Amdt. 1238",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1238"
+  },
+  "2016-370": {
+   "author": "Norton",
+   "purpose": "sought to strike section 638 related to the repeal of the District of Columbia budget autonomy amendment act of 2012.",
+   "amendment": "H.Amdt. 1239",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1239"
+  },
+  "2016-371": {
+   "author": "Amodei",
+   "purpose": "prohibits funds from being used by the FEC to enforce the prior approval requirement for trade associations.",
+   "amendment": "H.Amdt. 1240",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1240"
+  },
+  "2016-372": {
+   "author": "Blackburn",
+   "purpose": "to prohibit the use of funds to implement, administer or enforce any of the rules proposed in the Notice of Proposed Rulemaking adopted by the FCC on March 31, 2016 (FCC 16-39), intended to regulate consumer privacy obligations as necessitated by the FCC's net neutrality regime.",
+   "amendment": "H.Amdt. 1241",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1241"
+  },
+  "2016-373": {
+   "author": "Norton",
+   "purpose": "sought to strike sections that extend probationary periods, modify suspension and termination procedures, or forced mandatory leave provisions.",
+   "amendment": "H.Amdt. 1224",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1224"
+  },
+  "2016-374": {
+   "author": "Watson Coleman",
+   "purpose": "sought to exempt from the midnight rules moratorium any rule that has been included in the Unified Regulatory Agenda for at least one year.",
+   "amendment": "H.Amdt. 1225",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1225"
+  },
+  "2016-377": {
+   "author": "Blackburn",
+   "purpose": "sought to provide for a one percent across the board cut to the bill's discretionary spending levels.",
+   "amendment": "H.Amdt. 1242",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1242"
+  },
+  "2016-378": {
+   "author": "Buck",
+   "purpose": "sought to reduce the salary of the IRS Commissioner to $0 annually from the date of enactment through January 20, 2017.",
+   "amendment": "H.Amdt. 1243",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1243"
+  },
+  "2016-379": {
+   "author": "Davidson",
+   "purpose": "prohibits the use of funds to change the Selective Service System registration requirements.",
+   "amendment": "H.Amdt. 1244",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1244"
+  },
+  "2016-380": {
+   "author": "Garrett",
+   "purpose": "prohibits the Securities and Exchange Commission from proposing or implementing a rule that mandates the use of universal proxy ballots during proxy contests.",
+   "amendment": "H.Amdt. 1247",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1247"
+  },
+  "2016-381": {
+   "author": "Garrett",
+   "purpose": "prohibits the use of funds to designate any nonbank financial company as \"too big to fail\" or as a \"systemically important financial institution\".",
+   "amendment": "H.Amdt. 1248",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1248"
+  },
+  "2016-382": {
+   "author": "Gosar",
+   "purpose": "prohibits funds within this act from being used in contravention of Federal immigration law for sanctuary city policies.",
+   "amendment": "H.Amdt. 1250",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1250"
+  },
+  "2016-383": {
+   "author": "Guinta",
+   "purpose": "prohibits funds available to the Bureau of Consumer Financial Protection to enforce or administer any guidance with respect to indirect auto lending.",
+   "amendment": "H.Amdt. 1251",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1251"
+  },
+  "2016-384": {
+   "author": "Huizenga (MI)",
+   "purpose": "prohibits funds appropriated in this Act to be used to enforce a SEC rule pursuant to section 1502 of Dodd-Frank relating to \"conflict minerals\".",
+   "amendment": "H.Amdt. 1253",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1253"
+  },
+  "2016-385": {
+   "author": "Huizenga (MI)",
+   "purpose": "prohibits funds to finalize, implement, administer, or enforce the Securities and Exchange Commission's Pay Ratio Disclosure rules.",
+   "amendment": "H.Amdt. 1254",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1254"
+  },
+  "2016-386": {
+   "author": "King (IA)",
+   "purpose": "sought to prohibit funds for Executive Order 13166 which directs Federal agencies to provide foreign-language services to anyone who might seek to engage with federal, state, and local governments.",
+   "amendment": "H.Amdt. 1256",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1256"
+  },
+  "2016-389": {
+   "author": "Messer",
+   "purpose": "prohibits funds to be used by the CFPB to commence any administrative adjudication or civil action beyond the 3 year statute of limitation established by the Dodd-Frank Wall Street Reform and Consumer Protection Act.",
+   "amendment": "H.Amdt. 1258",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1258"
+  },
+  "2016-390": {
+   "author": "Palmer",
+   "purpose": "prohibits funds from being used to implement the District of Columbia's Reproductive Health Non-Discrimination Amendment Act.",
+   "amendment": "H.Amdt. 1259",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1259"
+  },
+  "2016-391": {
+   "author": "Mullin",
+   "purpose": "to prohibit the use of funds from being used to finalize, implement, administer or enforce CPSC's proposed rule on Voluntary Remedial Actions and Guidelines for Voluntary Recall Notices.",
+   "amendment": "H.Amdt. 1260",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1260"
+  },
+  "2016-392": {
+   "author": "Posey",
+   "purpose": "to prohibit the use of funds under this Act from being used to implement, administer, enforce, or codify into regulation, the SEC's guidance relating to \"Commission Guidance Regarding Disclosure Related to Climate Change\".",
+   "amendment": "H.Amdt. 1261",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1261"
+  },
+  "2016-393": {
+   "author": "Carney",
+   "purpose": "sought to extend the redesignation period for HUBZones to 7 years.",
+   "amendment": "H.Amdt. 1265",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1265"
+  },
+  "2016-394": {
+   "author": "Yarmuth",
+   "purpose": "to prohibit funds from being used in contravention of Section 317 of the Communications Act of 1934.",
+   "amendment": "H.Amdt. 1268",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1268"
+  },
+  "2016-395": {
+   "author": "Gallego",
+   "purpose": "to specify that no funds may be used to revise any policy or directive related to hiring preferences for veterans of the Armed Forces.",
+   "amendment": "H.Amdt. 1270",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1270"
+  },
+  "2016-396": {
+   "author": "Hartzler",
+   "purpose": "to prohibit the CFPB from implementing any contract with a vendor to provide informational messages.",
+   "amendment": "H.Amdt. 1271",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1271"
+  },
+  "2016-411": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to exempt from the bill rules issued by the Environmental Protection Agency pertaining to regulation of lead or copper in drinking water.",
+   "amendment": "H.Amdt. 1272",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1272"
+  },
+  "2016-412": {
+   "author": "Meeks",
+   "purpose": "sought to exempt from the bill rules issued by the Department of Housing and Urban Development.",
+   "amendment": "H.Amdt. 1274",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1274"
+  },
+  "2016-413": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to exempt from the bill rules issued pursuant to an express grant of authority from Congress.",
+   "amendment": "H.Amdt. 1275",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1275"
+  },
+  "2016-414": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to preserve judicial deference to agency expertise during the review of consumer safety rules issued by the Commissioner of the Food and Drug Administration.",
+   "amendment": "H.Amdt. 1276",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1276"
+  },
+  "2016-417": {
+   "author": "Castor (FL)",
+   "purpose": "sought to increase funding for the United States Fish and Wildlife Service Resource Management account by $2,434,000 and decrease the Departmental Operations Office of the Secretary account by a similar amount.",
+   "amendment": "H.Amdt. 1280",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1280"
+  },
+  "2016-418": {
+   "author": "Himes",
+   "purpose": "sought to redirect $300,000 within the National Park Service Operations account.",
+   "amendment": "H.Amdt. 1282",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1282"
+  },
+  "2016-419": {
+   "author": "Ellison",
+   "purpose": "sought to redirect $1 million in funding within the Departmental Operations Office of the Secretary account.",
+   "amendment": "H.Amdt. 1286",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1286"
+  },
+  "2016-420": {
+   "author": "Norcross",
+   "purpose": "sought to increase funding to the Hazardous Substance Superfund by $13,060,000 and reduce funding for Payments In Lieu of Taxes by a similar amount.",
+   "amendment": "H.Amdt. 1287",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1287"
+  },
+  "2016-421": {
+   "author": "Beyer",
+   "purpose": "sought to strike lines 4 through 19 on page 67 related to the rule entitled \"Stream Protection Rule\" signed by the Assistant Secretary for Land and Minerals Management of the Department of the Interior.",
+   "amendment": "H.Amdt. 1288",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1288"
+  },
+  "2016-422": {
+   "author": "Huffman",
+   "purpose": "sought to prohibit use of funds to be used to finalize, implement, or enforce the Bureau of Land Management's proposed rule regarding Waste Prevention, Production Subject to Royalties and Resource Conservation published February 8, 2016.",
+   "amendment": "H.Amdt. 1289",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1289"
+  },
+  "2016-423": {
+   "author": "Castor (FL)",
+   "purpose": "sought to strike section 124 pertaining to drilling margins or static downhole mud weight.",
+   "amendment": "H.Amdt. 1290",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1290"
+  },
+  "2016-424": {
+   "author": "Huffman",
+   "purpose": "sought to strike section 127 from the bill pertaining to the limitation on use of funds for Air Quality Regulations.",
+   "amendment": "H.Amdt. 1291",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1291"
+  },
+  "2016-425": {
+   "author": "Smith (MO)",
+   "purpose": "sought to reduce the Environmental Protection Agency Science and Technology account by $88,282,000 and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 1292",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1292"
+  },
+  "2016-426": {
+   "author": "Palmer",
+   "purpose": "sought to reduce funding for Diesel Emission Reduction Grants by $100,000,000 and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 1298",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1298"
+  },
+  "2016-427": {
+   "author": "Lujan, Ben Ray (NM)",
+   "purpose": "redirects $6,000,000 within the State and Tribal Assistance Grants account.",
+   "amendment": "H.Amdt. 1299",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1299"
+  },
+  "2016-428": {
+   "author": "Dingell",
+   "purpose": "sought to remove language that would exempt a number of damaging activities in National Forests from consideration, including public notice and comment and alternatives analysis, under the National Environmental Policy Act.",
+   "amendment": "H.Amdt. 1300",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1300"
+  },
+  "2016-429": {
+   "author": "Cartwright",
+   "purpose": "sought to strike language pertaining to the delayed implementation of the EPA Lead Renovation, Repair, and Painting Rule.",
+   "amendment": "H.Amdt. 1303",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1303"
+  },
+  "2016-430": {
+   "author": "Becerra",
+   "purpose": "sought to strike language to prohibit funds to develop, propose, finalize, implement, enforce, or administer any regulation that would establish new financial responsibility requirements pursuant to section 108(b) of the Comprehensive Environmental Response, Compensation, and Liability Act.",
+   "amendment": "H.Amdt. 1304",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1304"
+  },
+  "2016-431": {
+   "author": "Peters",
+   "purpose": "sought to strike section 431 pertaining to GHG NSPS of the Clean Air Act.",
+   "amendment": "H.Amdt. 1305",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1305"
+  },
+  "2016-432": {
+   "author": "Peters",
+   "purpose": "sought to strike section 436 to allow federal agencies to use the social cost of carbon in rule makings and guidance documents.",
+   "amendment": "H.Amdt. 1307",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1307"
+  },
+  "2016-433": {
+   "author": "Grijalva",
+   "purpose": "sought to strike section 453 pertaining to the Limitation on Use of Funds for Designated Representatives as published in the Federal Register on November 2, 2015.",
+   "amendment": "H.Amdt. 1308",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1308"
+  },
+  "2016-434": {
+   "author": "Polis",
+   "purpose": "sought to strike section 439, regarding methane emissions.",
+   "amendment": "H.Amdt. 1309",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1309"
+  },
+  "2016-435": {
+   "author": "Lowenthal",
+   "purpose": "sought to strike section 440 to prohibit the use of funds to implement any changes to royalty rates or product valuation regulations under Federal coal, oil, and gas leasing programs.",
+   "amendment": "H.Amdt. 1310",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1310"
+  },
+  "2016-436": {
+   "author": "",
+   "purpose": "Amendments comprised of amendments numbered 35, 36, 37, 38, 39, and 40 printed in House Report 114-683. See pages D790 and D791 of the Congressional Record of July 12, 2016 for description of en bloc amendments.",
+   "amendment": "H.Amdt. 1311",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1311"
+  },
+  "2016-437": {
+   "author": "Grijalva",
+   "purpose": "sought to strike section 453 to prohibit funds to make Presidential declarations by public proclamation of a national monument under chapter 3203 of title 54, United States Code.",
+   "amendment": "H.Amdt. 1312",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1312"
+  },
+  "2016-438": {
+   "author": "Blackburn",
+   "purpose": "to impose a 1 percent across-the-board spending cut to the bill.",
+   "amendment": "H.Amdt. 1314",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1314"
+  },
+  "2016-444": {
+   "author": "Boustany",
+   "purpose": "prohibits the use of funds for the implementation of the Well Control Rule.",
+   "amendment": "H.Amdt. 1316",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1316"
+  },
+  "2016-445": {
+   "author": "Byrne",
+   "purpose": "to prohibit funding from being used to implement, administer, or enforce the Obama administration's National Ocean Policy.",
+   "amendment": "H.Amdt. 1321",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1321"
+  },
+  "2016-446": {
+   "author": "Goodlatte",
+   "purpose": "prohibits the Environmental Protection Agency from using any funds to take retaliatory, or EPA described \"backstop\" actions, against any of the six states in the Chesapeake Bay Watershed in the event that a state does not meet the goals mandated by the EPA's Chesapeake Bay Total Maximum Daily Load.",
+   "amendment": "H.Amdt. 1326",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1326"
+  },
+  "2016-447": {
+   "author": "Graham",
+   "purpose": "sought to prohibit the use of funds being used to research, investigate, or study offshore drilling in the Eastern Gulf of Mexico Planning Area.",
+   "amendment": "H.Amdt. 1329",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1329"
+  },
+  "2016-448": {
+   "author": "King (IA)",
+   "purpose": "sought to prohibit the use of funds being used to implement, administer, or enforce Davis-Bacon prevailing rate wage requirements.",
+   "amendment": "H.Amdt. 1330",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1330"
+  },
+  "2016-449": {
+   "author": "Lamborn",
+   "purpose": "prohibits the use of funds to implement or enforce the threatened species or endangered species listing of any plant or wildlife that has not undergone a periodic 5 year review as required by section 4(c)(2) of the Endangered Species Act of 1973.",
+   "amendment": "H.Amdt. 1332",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1332"
+  },
+  "2016-450": {
+   "author": "Lamborn",
+   "purpose": "At the end of the bill (before the short title), insert the following: SEC.___. None of the funds made available by this Act may be used to implement or enforce the threatened species listing of the Preble's meadow jumping mouse under the Endangered Species Act of 1973 (16 U.S.C. 1531 et seq.).",
+   "amendment": "H.Amdt. 1333",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1333"
+  },
+  "2016-451": {
+   "author": "Murphy (FL)",
+   "purpose": "An amendment No. 72 printed in House Report 114-683 to prohibit use of funds to carry out seismic airgun testing or seismic airgun surveys in the OCS Planning Areas located within the EEZ bordering the State of Florida.",
+   "amendment": "H.Amdt. 1337",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1337"
+  },
+  "2016-452": {
+   "author": "Newhouse",
+   "purpose": "An amendment No. 73 printed in House Report 114-683 to prohibit the use of funds by the U.S. Fish & Wildlife Service and the Department of Interior to treat any Gray Wolf in the 48 contiguous states as an endangered or threatened species under the Endangered Species Act after June 13, 2017.",
+   "amendment": "H.Amdt. 1338",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1338"
+  },
+  "2016-453": {
+   "author": "Palmer",
+   "purpose": "sought to prohibit funds to be used for the Environmental Protection Agency's Criminal Enforcement Division.",
+   "amendment": "H.Amdt. 1342",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1342"
+  },
+  "2016-454": {
+   "author": "Gosar",
+   "purpose": "to remove federal protections for the Mexican Wolf under the Endangered Species Act (ESA) and would prevent the expansion of the species habitat outside of its historic range.",
+   "amendment": "H.Amdt. 1344",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1344"
+  },
+  "2016-455": {
+   "author": "Perry",
+   "purpose": "to prohibit the use of funds to develop, administer, purchase, acquire, or operate an unmanned aircraft system owned by the Department of Interior or the Environmental Protection Agency to perform surveying, mapping, or collecting remote sensing data.",
+   "amendment": "H.Amdt. 1345",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1345"
+  },
+  "2016-456": {
+   "author": "Perry",
+   "purpose": "to reduce Appropriations made in this Act for the Environmental Protection Agency by 17 percent.",
+   "amendment": "H.Amdt. 1346",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1346"
+  },
+  "2016-457": {
+   "author": "Ratcliffe",
+   "purpose": "to prohibit funds from being used to finalize, implement, administer, or enforce the proposed rule entitled `Clean Energy Incentive Program Design Details.",
+   "amendment": "H.Amdt. 1350",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1350"
+  },
+  "2016-458": {
+   "author": "Smith (MO)",
+   "purpose": "to block the use of funds to carry out the third sentence of section 107(f )(1) (CERCLA).",
+   "amendment": "H.Amdt. 1351",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1351"
+  },
+  "2016-459": {
+   "author": "Smith (MO)",
+   "purpose": "prohibits the use of funds to pay legal fees under any lawsuit settlement regarding a case that arises under the Clean Air Act, the Clean Water Act, and the Endangered Species Act.",
+   "amendment": "H.Amdt. 1353",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1353"
+  },
+  "2016-460": {
+   "author": "Young (AK)",
+   "purpose": "to prohibit funds to be used to implement a final plan to designate areas of the Arctic National Wildlife Refuge in Alaska as wilderness.",
+   "amendment": "H.Amdt. 1355",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1355"
+  },
+  "2016-461": {
+   "author": "Young (AK)",
+   "purpose": "prohibits the use of funds to be used to remove 3 Arctic Sales from the 2017-2022 Outer Continental Shelf Oil and Gas Leasing Proposed Program.",
+   "amendment": "H.Amdt. 1357",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1357"
+  },
+  "2016-462": {
+   "author": "Zeldin",
+   "purpose": "prohibits funds from being used to designate a National Marine Monument in the EEZ via presidential proclamation.",
+   "amendment": "H.Amdt. 1360",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1360"
+  },
+  "2016-463": {
+   "author": "Beyer",
+   "purpose": "sought to prohibit funds from being used to block science-based protections for imperiled wildlife that has or may need Endangered Species Act protections.",
+   "amendment": "H.Amdt. 1361",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1361"
+  },
+  "2016-464": {
+   "author": "Beyer",
+   "purpose": "sought to prohibit the use of funds to be used in contravention of Executive Order 13653 or Executive Order 13693 pertaining to climate change adaptation and sustainability.",
+   "amendment": "H.Amdt. 1362",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1362"
+  },
+  "2016-465": {
+   "author": "Beyer",
+   "purpose": "sought to prohibit the use of funds to authorize, permit, or conduct geological or geophysical activities in support of oil, gas, or methane hydrate exploration and development in the Atlantic.",
+   "amendment": "H.Amdt. 1363",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1363"
+  },
+  "2016-468": {
+   "author": "Beyer",
+   "purpose": "sought to prohibit the use of funds to be used to implement or enforce section 120, 425, 426, or 427 pertaining to water riders in the bill.",
+   "amendment": "H.Amdt. 1364",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1364"
+  },
+  "2016-469": {
+   "author": "Capps",
+   "purpose": "At the end of the bill (before the short title), insert the following: SEC.___. None of the funds made available by this Act may be used to process any application under the Outer Continental Shelf Lands Act (43 U.S.C. 1331 et seq.) for a permit to drill or a permit to modify, that would authorize use of hydraulic fracturing or acid well stimulation treatment in the Pacific Outer Continental Shelf.",
+   "amendment": "H.Amdt. 1365",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1365"
+  },
+  "2016-470": {
+   "author": "Grijalva",
+   "purpose": "sought to prevent funds in the bill from being used to abolish law enforcement offices at the Bureau of Land Management and the U.S. Forest Service.",
+   "amendment": "H.Amdt. 1366",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1366"
+  },
+  "2016-471": {
+   "author": "Lowenthal",
+   "purpose": "At the end of the bill (before the short title), insert the following: SEC. __. None of the funds made available by this Act may be used in contravention of Secretarial Order 3289, issued by the Secretary of the Interior on September 14, 2009, and addressing the impacts of climate change on America's water, land, and other natural and cultural resources.",
+   "amendment": "H.Amdt. 1368",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1368"
+  },
+  "2016-472": {
+   "author": "Pocan",
+   "purpose": "sought to protect the Administration's climate change and environmental sustainability executive order to ensure that no funds be used to weaken the Executive Order 13693.",
+   "amendment": "H.Amdt. 1369",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1369"
+  },
+  "2016-473": {
+   "author": "Polis",
+   "purpose": "sought to prohibit the use of funds to pursue any additional legal ways to transfer Federal lands to private owners in contravention of existing law.",
+   "amendment": "H.Amdt. 1370",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1370"
+  },
+  "2016-474": {
+   "author": "Tsongas",
+   "purpose": "sought to prevent a provision of the bill that would block BLM resource management plans from going into effect if failing to implement the plans would limit BLM's ability to meet its multiple use obligations, including providing opportunities for hunting, fishing, and outdoor recreation.",
+   "amendment": "H.Amdt. 1372",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1372"
+  },
+  "2016-475": {
+   "author": "Norcross",
+   "purpose": "sought to redirect $15,282,000 within the Hazardous Substance Superfund account.",
+   "amendment": "H.Amdt. 1375",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1375"
+  },
+  "2016-476": {
+   "author": "Gallego",
+   "purpose": "sought to prohibit funds from being used to issue grazing permits or leases in contravention of BLM regulations.",
+   "amendment": "H.Amdt. 1379",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1379"
+  },
+  "2016-483": {
+   "author": "Conyers",
+   "purpose": "sought to exempt from the bill any settlement pertaining to discrimination based on race, religion, national origin, or any other protected category.",
+   "amendment": "H.Amdt. 1382",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1382"
+  },
+  "2016-484": {
+   "author": "Cicilline",
+   "purpose": "sought to exempt settlement agreements that strengthen the personal privacy of Americans from the blanket prohibition.",
+   "amendment": "H.Amdt. 1383",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1383"
+  },
+  "2016-485": {
+   "author": "Jackson Lee",
+   "purpose": "sought to exempt settlement agreements that resolve a civil action or potential civil action in relation to sexual harassment, violence, or discrimination in the work place.",
+   "amendment": "H.Amdt. 1385",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1385"
+  },
+  "2016-486": {
+   "author": "Gosar",
+   "purpose": "sought to cap settlement payments for attorney fees provided in relation to environmental cases at $125 per hour.",
+   "amendment": "H.Amdt. 1386",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1386"
+  },
+  "2016-508": {
+   "author": "Boustany",
+   "purpose": "requires the results of a Regulatory Impact Analysis (RIA) or a similar cost-benefit analysis, as well as the formula and data for the analysis to be included in the details disclosed by the agency on either regulations.gov or on the executive agency's website.",
+   "amendment": "H.Amdt. 1415",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1415"
+  },
+  "2016-511": {
+   "author": "Walz",
+   "purpose": "sought to remove all accountability provisions from the bill by striking sections 2 through 8 and section 10.",
+   "amendment": "H.Amdt. 1394",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1394"
+  },
+  "2016-512": {
+   "author": "Takano",
+   "purpose": "sought to replace section 3 with a new provision allowing the Secretary to suspend without pay any VA employee whose performance or misconduct threatens public health or safety, including the health and safety of veterans; and may remove a suspended employee after such investigation and review as the Secretary considers necessary.",
+   "amendment": "H.Amdt. 1395",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1395"
+  },
+  "2016-513": {
+   "author": "Kuster",
+   "purpose": "sought to expedite the removal or demotion of a member of the Senior Executive Service.",
+   "amendment": "H.Amdt. 1397",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1397"
+  },
+  "2016-514": {
+   "author": "Takano",
+   "purpose": "extends the Department of Veterans Affairs authority for the performance of medical disability evaluations by contract physicians by one year.",
+   "amendment": "H.Amdt. 1406",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1406"
+  },
+  "2016-515": {
+   "author": "Takano",
+   "purpose": "enables any person who is entitled to retired pay for nonregular (reserve) service or who, but for age, would be so entitled to be honored as a veteran. A person shall not be entitled to any benefit by reason of such recognition.",
+   "amendment": "H.Amdt. 1410",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1410"
+  },
+  "2016-516": {
+   "author": "Takano",
+   "purpose": "allows the Secretary of the VA to furnish rehabilitative equipment to Veterans entitled to prosthetic appliances, and modify non-rehabilitative equipment owned by the Veteran to meet that purpose.",
+   "amendment": "H.Amdt. 1411",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1411"
+  },
+  "2016-517": {
+   "author": "Duffy",
+   "purpose": "Senate amendment inserts a complete new text entitled \"Eliminate, Neutralize, and Disrupt Wildlife Trafficking Act of 2016\" and appears on page H5741 of the Congressional Record of September 21, 2016.",
+   "amendment": "H.Amdt. 1412",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1412"
+  },
+  "2016-532": {
+   "author": "Cicilline",
+   "purpose": "sought to exempt from the requirements of the legislation any rule that would reduce the cost of healthcare for people over the age of 65.",
+   "amendment": "H.Amdt. 1424",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1424"
+  },
+  "2016-533": {
+   "author": "DelBene",
+   "purpose": "sought to exempt from the bill's requirements rules relating to improving the affordability of higher education.",
+   "amendment": "H.Amdt. 1425",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1425"
+  },
+  "2016-553": {
+   "author": "Engel",
+   "purpose": "sought to require the President to notify Congress of a payment made to any state sponsor of terrorism or North Korea pursuant to a settlement or judgment against the United States.",
+   "amendment": "H.Amdt. 1433",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1433"
+  },
+  "2016-568": {
+   "author": "Graves (LA)",
+   "purpose": "sought to allow the non-federal interest to execute a project or project component when they determine that it can be done at lower cost and/or faster time. Also, the amendment directs 20% of the cost savings back to the United States Treasury for deficit reduction.",
+   "amendment": "H.Amdt. 1446",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1446"
+  },
+  "2016-569": {
+   "author": "Joyce",
+   "purpose": "amends the Clean Water Act to reauthorize the Great Lakes Restoration Initiative.",
+   "amendment": "H.Amdt. 1474",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1474"
+  },
+  "2016-570": {
+   "author": "Kildee",
+   "purpose": "authorizes the Secretary to provide additional assistance under section 219 of the Water Resources Development Act of 1992 for certain communities for the repair or replacement of public and private infrastructure in any State for which the President has declared an emergency under the Stafford Act as a result of the presence of chemical, physical, or biological constituents, including lead or other contaminants in the eligible system.",
+   "amendment": "H.Amdt. 1478",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1478"
+  },
+  "2016-581": {
+   "author": "Conyers",
+   "purpose": "sought to exempt from the bill rules that are necessary to prevent an imminent threat to health or safety or other emergency.",
+   "amendment": "H.Amdt. 1481",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1481"
+  },
+  "2016-582": {
+   "author": "Jackson Lee",
+   "purpose": "sought to exempt any rule promulgated to prevent, respond to, or mitigate matters of national security.",
+   "amendment": "H.Amdt. 1483",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1483"
+  },
+  "2016-583": {
+   "author": "",
+   "purpose": "Amendments consisting of amendments numbered 4 and 5 printed Part B of House Report 114-818. See page D1054 of the Congressional Record of November 17, 2016 for a description of amendments.",
+   "amendment": "H.Amdt. 1484",
+   "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/1484"
+  }
+ }
+}

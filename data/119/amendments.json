@@ -1,0 +1,547 @@
+{
+ "_comment": "Amendments that got a recorded House vote, keyed by roll call: who offered them and what they did, from the Congress.gov API (fetch_legislation.py). 'bills' records when each bill's amendments were last checked.",
+ "congress": 119,
+ "updated": "2026-11-12",
+ "bills": {
+  "H R 1048": "2026-11-12",
+  "H R 2483": "2026-11-12",
+  "H R 27": "2026-11-12",
+  "H R 2988": "2026-11-12",
+  "H R 3383": "2026-11-12",
+  "H R 3838": "2026-11-12",
+  "H R 3944": "2026-11-12",
+  "H R 4016": "2026-11-12",
+  "H R 4553": "2026-11-12",
+  "H R 4776": "2026-11-12",
+  "H R 7006": "2026-11-12",
+  "H R 7148": "2026-11-12",
+  "H R 7567": "2026-11-12",
+  "H R 8469": "2026-11-12",
+  "H R 8595": "2026-11-12",
+  "H R 8800": "2026-11-12"
+ },
+ "votes": {
+  "2025-32": {
+   "author": "Trahan",
+   "purpose": "to delay the enactment of this bill until the Secretary of Health and Human Services and the Attorney General each certify that the bill will lead to a reduction in overdose deaths.",
+   "amendment": "H.Amdt. 5",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/5"
+  },
+  "2025-79": {
+   "author": "Scott (VA)",
+   "purpose": "sought to amend section 117 to streamline foreign gift and contract reporting, align reporting with other federal research security compliance requirements, establish sanctions for noncompliance and require the Secretary of Education to conduct negotiated rulemaking to receive stakeholder feedback.",
+   "amendment": "H.Amdt. 12",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/12"
+  },
+  "2025-80": {
+   "author": "Self",
+   "purpose": "sought to amend the threshold value at which gifts must be reported from $50,000 to $1.",
+   "amendment": "H.Amdt. 13",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/13"
+  },
+  "2025-81": {
+   "author": "Tlaib",
+   "purpose": "sought to amend the definition of \"Foreign Country Of Concern\".",
+   "amendment": "H.Amdt. 14",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/14"
+  },
+  "2025-82": {
+   "author": "Tlaib",
+   "purpose": "sought to amend the definition of \"Investment of Concern\" to include any entity that the Secretary of State determines consistently, knowingly, and directly facilitates and enables state violence and repression, war and occupation, or severe violations of international law and human rights.",
+   "amendment": "H.Amdt. 15",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/15"
+  },
+  "2025-150": {
+   "author": "Pettersen",
+   "purpose": "sought to codify Biden-era guidance to ensure that budget neutrality requirements for section 1115 waivers take into account downstream savings.",
+   "amendment": "H.Amdt. 25",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/25"
+  },
+  "2025-180": {
+   "author": "",
+   "purpose": "en bloc No. 2 comprised of the amendments numbered 1, 14, 15, 19, 25, 28, and 32, printed in House Report 119-167.",
+   "amendment": "H.Amdt. 35",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/35"
+  },
+  "2025-204": {
+   "author": "Greene (GA)",
+   "purpose": "sought to eliminate the account for Overseas Humanitarian, Disaster, and Civic Aid.",
+   "amendment": "H.Amdt. 52",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/52"
+  },
+  "2025-205": {
+   "author": "Greene (GA)",
+   "purpose": "sought to strike funding for the Taiwan Security Cooperation Initiative.",
+   "amendment": "H.Amdt. 53",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/53"
+  },
+  "2025-206": {
+   "author": "Greene (GA)",
+   "purpose": "sought to strike funding for HIV prevention educational activities in foreign countries.",
+   "amendment": "H.Amdt. 54",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/54"
+  },
+  "2025-207": {
+   "author": "Greene (GA)",
+   "purpose": "sought to strike funding for the Israeli Cooperative Programs.",
+   "amendment": "H.Amdt. 55",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/55"
+  },
+  "2025-208": {
+   "author": "Greene (GA)",
+   "purpose": "sought to strike funding to support the armed forces of Jordan.",
+   "amendment": "H.Amdt. 56",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/56"
+  },
+  "2025-209": {
+   "author": "Greene (GA)",
+   "purpose": "to strike funds from being used for assistance to Ukraine.",
+   "amendment": "H.Amdt. 57",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/57"
+  },
+  "2025-210": {
+   "author": "Steube",
+   "purpose": "to prohibit all assistance to the Lebanese Armed Forces.",
+   "amendment": "H.Amdt. 60",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/60"
+  },
+  "2025-227": {
+   "author": "Perry",
+   "purpose": "to prohibit the use of funds for the Delaware River Basin \"Commission to implement or enforce the final rule entitled, Comprehensive Plan and Special Regulations With Respect to High Volume Hydraulic Fracturing; Rules of Practice and Procedure Regarding Project Review Classifications and Fees.\".",
+   "amendment": "H.Amdt. 66",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/66"
+  },
+  "2025-228": {
+   "author": "Perry",
+   "purpose": "to prohibit funding for the Delaware River Basin Commission.",
+   "amendment": "H.Amdt. 67",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/67"
+  },
+  "2025-229": {
+   "author": "Perry",
+   "purpose": "sought to reduce funding for Advanced Research Projects Agency-Energy by $350 million and apply the savings to the Spending Reduction Account by a similar amount.",
+   "amendment": "H.Amdt. 68",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/68"
+  },
+  "2025-230": {
+   "author": "Perry",
+   "purpose": "sought to reduce funding for the Advanced Technology Vehicles Manufacturing Loan Program by $13 million and apply the savings to the Spending Reduction Account by a similar amount.",
+   "amendment": "H.Amdt. 69",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/69"
+  },
+  "2025-231": {
+   "author": "Perry",
+   "purpose": "sought to reduce the account for the Title 17 loan program by $35 million and apply the savings to the Spending Reduction Account by a similar amount.",
+   "amendment": "H.Amdt. 70",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/70"
+  },
+  "2025-232": {
+   "author": "Perry",
+   "purpose": "sought to reduce the account for the Northern Border Regional Commission by $13,319,727 and apply the savings to the Spending Reduction Account by a similar amount.",
+   "amendment": "H.Amdt. 71",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/71"
+  },
+  "2025-233": {
+   "author": "Perry",
+   "purpose": "sought to reduce funding for the Southwest Border Regional Commission by $2,063,381 and apply the savings to the Spending Reduction Account by a similar amount.",
+   "amendment": "H.Amdt. 72",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/72"
+  },
+  "2025-234": {
+   "author": "Perry",
+   "purpose": "sought to reduce funding for the Southeast Crescent Regional Commission by $16,003,526 and apply the savings to the Spending Reduction Account by a similar amount.",
+   "amendment": "H.Amdt. 73",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/73"
+  },
+  "2025-235": {
+   "author": "Perry",
+   "purpose": "sought to reduce the account for the Great Lakes Authority by $2,063,381 and apply the savings to the Spending Reduction Account by a similar amount.",
+   "amendment": "H.Amdt. 74",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/74"
+  },
+  "2025-236": {
+   "author": "Perry",
+   "purpose": "sought to strike all funding for the Office of Energy Efficiency and Renewable Energy.",
+   "amendment": "H.Amdt. 75",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/75"
+  },
+  "2025-237": {
+   "author": "Schweikert",
+   "purpose": "sought to reduce unobligated funds from top-line accounts totaling $37,353,345,385.09.",
+   "amendment": "H.Amdt. 76",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/76"
+  },
+  "2025-244": {
+   "author": "Meeks",
+   "purpose": "repeals the 2002 and 1991 Authorization for Use of Military Force (AUMFs).",
+   "amendment": "H.Amdt. 99",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/99"
+  },
+  "2025-245": {
+   "author": "Norman",
+   "purpose": "prohibits the provision of gender transition procedures, including surgery or medication, through the Exceptional Family Medical Program.",
+   "amendment": "H.Amdt. 85",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/85"
+  },
+  "2025-246": {
+   "author": "Mace",
+   "purpose": "prohibits the Department of Defense from covering or furnishing gender-related medical treatment under TRICARE.",
+   "amendment": "H.Amdt. 86",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/86"
+  },
+  "2025-247": {
+   "author": "Mace",
+   "purpose": "prohibits the Superintendent of a Service Academy from allowing a cadet or midshipman who is male from participating in an athletic program or activity that is designated exclusively for females.",
+   "amendment": "H.Amdt. 87",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/87"
+  },
+  "2025-248": {
+   "author": "Mace",
+   "purpose": "prohibits the Secretary of Defense from soliciting information through a form or survey regarding the gender identity of an individual, providing an option to indicate the sex or gender of an individual is something other than male or female, and requires the Secretary reject a response other than male or female to a required question on a form or survey regarding sex or gender.",
+   "amendment": "H.Amdt. 88",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/88"
+  },
+  "2025-249": {
+   "author": "Mace",
+   "purpose": "prohibits individuals from accessing or using single-sex spaces on military installations which do not correspond to the biological sex of the individual.",
+   "amendment": "H.Amdt. 89",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/89"
+  },
+  "2025-250": {
+   "author": "Smith (NJ)",
+   "purpose": "sought to require the Secretary of Defense to certify that offshore wind projects in the North Atlantic and Mid-Atlantic Planning Areas will not interfere with radar capabilities.",
+   "amendment": "H.Amdt. 78",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/78"
+  },
+  "2025-251": {
+   "author": "Patronis",
+   "purpose": "eliminates the preference for motor vehicles using electric or hybrid propulsion systems and related requirements of the Department of Defense.",
+   "amendment": "H.Amdt. 79",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/79"
+  },
+  "2025-252": {
+   "author": "Wilson (SC)",
+   "purpose": "increases penalties for entering a military installation or violating national defense area security regulations.",
+   "amendment": "H.Amdt. 81",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/81"
+  },
+  "2025-253": {
+   "author": "Mills",
+   "purpose": "restricts base commanders' ability to fly unauthorized flags at their discretion.",
+   "amendment": "H.Amdt. 90",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/90"
+  },
+  "2025-254": {
+   "author": "Greene (GA)",
+   "purpose": "to ban the research, development, procurement and promotion of cell cultured meat by the DOD.",
+   "amendment": "H.Amdt. 91",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/91"
+  },
+  "2025-255": {
+   "author": "Greene (GA)",
+   "purpose": "to prohibit assistance to Ukraine.",
+   "amendment": "H.Amdt. 93",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/93"
+  },
+  "2025-256": {
+   "author": "Greene (GA)",
+   "purpose": "sought to strike funding for the Overseas Humanitarian, Disaster, and Civic Aid program.",
+   "amendment": "H.Amdt. 94",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/94"
+  },
+  "2025-257": {
+   "author": "Greene (GA)",
+   "purpose": "sought to strike foreign aid funding for the Taiwan Security Cooperation Initiative.",
+   "amendment": "H.Amdt. 95",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/95"
+  },
+  "2025-258": {
+   "author": "McCormick",
+   "purpose": "modifies section 1555 of the National Defense Authorization Act, FY 2024, regarding contracting for military recruitment to prohibit the Department of Defense from contracting with certain entities that perform fact-checking and information-grading services.",
+   "amendment": "H.Amdt. 96",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/96"
+  },
+  "2025-259": {
+   "author": "Biggs (AZ)",
+   "purpose": "sought to prohibit the designation of military and certain National Guard lands as critical habitats under the Endangered Species Act when deemed necessary by the Department of Defense, and to exempt military personnel from Endangered Species Act prohibitions during national defense-related operations, including incidental harm to protected species.",
+   "amendment": "H.Amdt. 97",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/97"
+  },
+  "2025-260": {
+   "author": "Rose",
+   "purpose": "requires the Secretary of Defense to submit a report to the House and Senate Committees on Armed Services on the fraud scheme perpetrated by Janet Yamanaka Mello, a civilian employee of the Department of the Army who was indicted and pleaded guilty to stealing over $100 million in 4-H Military Partnership Grant program funds.",
+   "amendment": "H.Amdt. 100",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/100"
+  },
+  "2025-325": {
+   "author": "Self",
+   "purpose": "sought to strike section 307 relating to enhancing multi-class share disclosures.",
+   "amendment": "H.Amdt. 123",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/123"
+  },
+  "2025-326": {
+   "author": "Waters",
+   "purpose": "sought to require investment advisers and hedge funds to perform know-your-customer verification and implement anti-money laundering procedures for foreign clients.",
+   "amendment": "H.Amdt. 125",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/125"
+  },
+  "2025-327": {
+   "author": "Waters",
+   "purpose": "sought to define and prohibit fees charged by Securities and Exchange Commission-registered individuals and entities that are not clearly disclosed or proportional to the services provided.",
+   "amendment": "H.Amdt. 127",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/127"
+  },
+  "2025-352": {
+   "author": "Clyde",
+   "purpose": "sought to clarify that direct harm does not include emotional, aesthetic, or recreational harm unaccompanied by a material physical or property harm.",
+   "amendment": "H.Amdt. 138",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/138"
+  },
+  "2025-353": {
+   "author": "Roy",
+   "purpose": "sought to clarify that the National Environmental Policy Act reviews only apply to environmental impacts that the lead agency or cooperating federal agencies have the legal authority to regulate.",
+   "amendment": "H.Amdt. 139",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/139"
+  },
+  "2025-354": {
+   "author": "Roy",
+   "purpose": "sought to define further what significant effects will trigger an Environmental Impact Statement.",
+   "amendment": "H.Amdt. 140",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/140"
+  },
+  "2026-26": {
+   "author": "Roy",
+   "purpose": "sought to reduce the District of Columbia District and Appeals Court funding by 20% and to strike the salary and expense funding for Judges Boasberg's and Judge Boardman's staffs.",
+   "amendment": "H.Amdt. 149",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/149"
+  },
+  "2026-27": {
+   "author": "Crane",
+   "purpose": "sought to eliminate funding for the National Endowment for Democracy.",
+   "amendment": "H.Amdt. 150",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/150"
+  },
+  "2026-29": {
+   "author": "Huizenga",
+   "purpose": "requires the Government Accountability Office to publish a study on brokerage accounts.",
+   "amendment": "H.Amdt. 152",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/152"
+  },
+  "2026-43": {
+   "author": "Massie",
+   "purpose": "sought to prohibit the use of funds to implement section 24220 of the Infrastructure Investment and Jobs Act, including any requirements enabling or supporting vehicle \"kill switch\" technology, and to prohibit federal spending for the execution or enforcement of such authorities.",
+   "amendment": "H.Amdt. 155",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/155"
+  },
+  "2026-44": {
+   "author": "Norman",
+   "purpose": "sought to prohibit the use of funds for certain community funding projects.",
+   "amendment": "H.Amdt. 156",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/156"
+  },
+  "2026-144": {
+   "author": "Bentz",
+   "purpose": "sought to modify the Renewable Fuel Standard's definition of \"renewable biomass\".",
+   "amendment": "H.Amdt. 181",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/181"
+  },
+  "2026-145": {
+   "author": "Crawford",
+   "purpose": "adds hot rotisserie chicken as an eligible item to be purchased by SNAP benefits.",
+   "amendment": "H.Amdt. 186",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/186"
+  },
+  "2026-146": {
+   "author": "Grothman",
+   "purpose": "to mandate a USDA report to Congress (after the SNAP restrictions pilots are completed) on implementation of the restrictions, outcomes, recommendations to Congress.",
+   "amendment": "H.Amdt. 191",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/191"
+  },
+  "2026-147": {
+   "author": "Grothman",
+   "purpose": "sought to repeal and prohibit future implementation of the Animal and Plant Health Inspection Service (APHIS) rule mandating electronic identification (EID) eartags for bison and cattle moving interstate.",
+   "amendment": "H.Amdt. 193",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/193"
+  },
+  "2026-148": {
+   "author": "Luna",
+   "purpose": "strikes several sections relating to pesticide labeling requirements.",
+   "amendment": "H.Amdt. 196",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/196"
+  },
+  "2026-149": {
+   "author": "Moore (WV)",
+   "purpose": "sought to preserve greyhound racing operations in West Virginia.",
+   "amendment": "H.Amdt. 200",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/200"
+  },
+  "2026-150": {
+   "author": "Scholten",
+   "purpose": "revises the Agriculture Advanced Research and Development Authority program to provide federal support for sustainable agriculture and innovative sustainability solutions.",
+   "amendment": "H.Amdt. 202",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/202"
+  },
+  "2026-151": {
+   "author": "Self",
+   "purpose": "sought to add \"soda\" to the definition of ineligible items and defines soda as a carbonated beverage containing more than 1 gram of added sugar, artificial sweetener, or flavoring per serving.",
+   "amendment": "H.Amdt. 206",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/206"
+  },
+  "2026-152": {
+   "author": "Spartz",
+   "purpose": "removes certain emissions standards on farm equipment.",
+   "amendment": "H.Amdt. 207",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/207"
+  },
+  "2026-174": {
+   "author": "Steube",
+   "purpose": "sought to redirect $481,832,000 from the NATO Security Investment Program account to the Military Construction, Defense-Wide account.",
+   "amendment": "H.Amdt. 219",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/219"
+  },
+  "2026-241": {
+   "author": "Boebert",
+   "purpose": "sought to eliminate funding for the Fulbright Program.",
+   "amendment": "H.Amdt. 232",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/232"
+  },
+  "2026-242": {
+   "author": "Fine",
+   "purpose": "sought to strike the $139,575,000 for the Global Environment Facility.",
+   "amendment": "H.Amdt. 234",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/234"
+  },
+  "2026-243": {
+   "author": "Massie",
+   "purpose": "sought to prohibit funds appropriated by the Act from being used for Israel, and accordingly reduces the Foreign Military Financing Program account by $3,300,000,000.",
+   "amendment": "H.Amdt. 235",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/235"
+  },
+  "2026-244": {
+   "author": "Massie",
+   "purpose": "sought to prohibit funds appropriated by the Act from being used for Jordan, and accordingly reduces the National Security Investment Programs, the Foreign Military Financing Program, the Global Health Programs, and other programs accounts, collectively, by $2,100,000,000.",
+   "amendment": "H.Amdt. 236",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/236"
+  },
+  "2026-245": {
+   "author": "Roy",
+   "purpose": "to prohibit any funds from being made available to the United Nations.",
+   "amendment": "H.Amdt. 237",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/237"
+  },
+  "2026-255": {
+   "author": "Boebert",
+   "purpose": "sought to strike section 1213, relating to the deadline for the Afghanistan War Commission's final report, and maintain the current statutory reporting deadline.",
+   "amendment": "H.Amdt. 242",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/242"
+  },
+  "2026-256": {
+   "author": "Boebert",
+   "purpose": "sought to strike section 521 and replace it with a prohibition on foreign nationals attending the United States Military Academies.",
+   "amendment": "H.Amdt. 243",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/243"
+  },
+  "2026-257": {
+   "author": "Boebert",
+   "purpose": "sought to strike section 524, which removes the existing statutory limit on the number of cadets who may receive alternative service obligations to pursue professional athletic careers, thereby preserving the current cap.",
+   "amendment": "H.Amdt. 244",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/244"
+  },
+  "2026-258": {
+   "author": "Boebert",
+   "purpose": "strikes section 518, relating to the pilot program on modernization of drug testing using voice-based risk assessment technology to identify servicemembers for drug testing.",
+   "amendment": "H.Amdt. 245",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/245"
+  },
+  "2026-259": {
+   "author": "Hunt",
+   "purpose": "sought to amend the bill to ensure that no court may issue injunctions that impair military readiness, military fuel supply, or defense-related logistical support.",
+   "amendment": "H.Amdt. 247",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/247"
+  },
+  "2026-260": {
+   "author": "Hunt",
+   "purpose": "modifies the bill to protect a critical component of California's defense fuel supply chain by ensuring the continued operation of the Santa Ynez Pipeline System, which transports domestically produced crude oil to refineries that supply Department of Defense installations.",
+   "amendment": "H.Amdt. 248",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/248"
+  },
+  "2026-261": {
+   "author": "Gallagher",
+   "purpose": "sought to conduct a study to explore mechanisms by which federal authority can preempt or otherwise mitigate state actions that effectively undermine domestic refining capacity critical to national defense.",
+   "amendment": "H.Amdt. 249",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/249"
+  },
+  "2026-262": {
+   "author": "Carter (GA)",
+   "purpose": "sought to preempt state and local laws that impose requirements different from federal standards on certain defense-related recycling, disposal, and materials recovery activities.",
+   "amendment": "H.Amdt. 250",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/250"
+  },
+  "2026-263": {
+   "author": "Crane",
+   "purpose": "sought to prohibit the Department of Defense from using taxpayer funds to cover the costs of foreign military personnel participating in bilateral or multilateral military exercises conducted with the United States unless the Secretary of Defense waives the prohibition when necessary to support a U.S. national security interest.",
+   "amendment": "H.Amdt. 251",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/251"
+  },
+  "2026-264": {
+   "author": "Crane",
+   "purpose": "to prohibit funds for Ukraine Security Assistance except for U.S. embassy security in Ukraine.",
+   "amendment": "H.Amdt. 252",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/252"
+  },
+  "2026-265": {
+   "author": "Crank",
+   "purpose": "establishes a presumption of approval for qualified Department of Defense servicemembers and civilian employees seeking authorization from their facility commander to carry personal firearms on military installations.",
+   "amendment": "H.Amdt. 253",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/253"
+  },
+  "2026-266": {
+   "author": "Boebert",
+   "purpose": "sought to codify Executive Order 14183, which implements a ban on transgender service members by requiring all personnel to serve in accordance with their biological sex, citing military readiness and discipline.",
+   "amendment": "H.Amdt. 254",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/254"
+  },
+  "2026-267": {
+   "author": "Mace",
+   "purpose": "prohibits gender-related medical care under TRICARE and prevents TRICARE from covering certain gender-related medical procedures and treatments.",
+   "amendment": "H.Amdt. 255",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/255"
+  },
+  "2026-268": {
+   "author": "Mace",
+   "purpose": "prohibits male participation in female sports at Department of Defense Education Activity schools.",
+   "amendment": "H.Amdt. 256",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/256"
+  },
+  "2026-269": {
+   "author": "McDowell",
+   "purpose": "sought to authorize the Secretary of Defense to establish a school choice pilot program for members of the Armed Forces.",
+   "amendment": "H.Amdt. 257",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/257"
+  },
+  "2026-273": {
+   "author": "Self",
+   "purpose": "codifies protections and responsibilities for chaplains and subjects such protections to prosecution under the Uniform Code of Military Justice.",
+   "amendment": "H.Amdt. 258",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/258"
+  },
+  "2026-274": {
+   "author": "Issa",
+   "purpose": "sought to authorize the Secretary to approve any eligible investor and cleared investment professional who meets the program's statutory and regulatory requirements to assess potential investment opportunities that match with the Department of War's requirements or potential requirements. It sought to make clear that the program is not capped, allowing an unlimited number of qualified investors, cleared personnel, and covered companies to participate at the discretion of the Secretary of War.",
+   "amendment": "H.Amdt. 259",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/259"
+  },
+  "2026-275": {
+   "author": "Harrigan",
+   "purpose": "prohibits the use of automated speed enforcement cameras on military installations.",
+   "amendment": "H.Amdt. 261",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/261"
+  },
+  "2026-276": {
+   "author": "Grothman",
+   "purpose": "sought to require the Secretary of Defense to submit a report detailing options for reducing the number of civilians employed by the Department of Defense by 200,000.",
+   "amendment": "H.Amdt. 266",
+   "url": "https://www.congress.gov/amendment/119th-congress/house-amendment/266"
+  }
+ }
+}

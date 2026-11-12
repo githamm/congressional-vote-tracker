@@ -1,0 +1,2169 @@
+{
+ "_comment": "Amendments that got a recorded House vote, keyed by roll call: who offered them and what they did, from the Congress.gov API (fetch_legislation.py). 'bills' records when each bill's amendments were last checked.",
+ "congress": 116,
+ "updated": "2026-11-12",
+ "bills": {
+  "H J RES 37": "2026-11-12",
+  "H R 1": "2026-11-12",
+  "H R 1112": "2026-11-12",
+  "H R 1140": "2026-11-12",
+  "H R 1146": "2026-11-12",
+  "H R 1230": "2026-11-12",
+  "H R 1309": "2026-11-12",
+  "H R 1373": "2026-11-12",
+  "H R 1423": "2026-11-12",
+  "H R 1500": "2026-11-12",
+  "H R 1585": "2026-11-12",
+  "H R 1644": "2026-11-12",
+  "H R 1815": "2026-11-12",
+  "H R 1941": "2026-11-12",
+  "H R 2": "2026-11-12",
+  "H R 205": "2026-11-12",
+  "H R 2157": "2026-11-12",
+  "H R 2181": "2026-11-12",
+  "H R 2474": "2026-11-12",
+  "H R 2500": "2026-11-12",
+  "H R 2513": "2026-11-12",
+  "H R 2534": "2026-11-12",
+  "H R 2546": "2026-11-12",
+  "H R 2639": "2026-11-12",
+  "H R 268": "2026-11-12",
+  "H R 2740": "2026-11-12",
+  "H R 3": "2026-11-12",
+  "H R 3055": "2026-11-12",
+  "H R 3351": "2026-11-12",
+  "H R 3494": "2026-11-12",
+  "H R 3621": "2026-11-12",
+  "H R 3624": "2026-11-12",
+  "H R 3877": "2026-11-12",
+  "H R 397": "2026-11-12",
+  "H R 4447": "2026-11-12",
+  "H R 4617": "2026-11-12",
+  "H R 4863": "2026-11-12",
+  "H R 535": "2026-11-12",
+  "H R 5687": "2026-11-12",
+  "H R 582": "2026-11-12",
+  "H R 6172": "2026-11-12",
+  "H R 6395": "2026-11-12",
+  "H R 7": "2026-11-12",
+  "H R 729": "2026-11-12",
+  "H R 7608": "2026-11-12",
+  "H R 7617": "2026-11-12",
+  "H R 790": "2026-11-12",
+  "H R 8": "2026-11-12",
+  "H R 823": "2026-11-12",
+  "H R 8294": "2026-11-12",
+  "H R 840": "2026-11-12",
+  "H R 9": "2026-11-12",
+  "H R 986": "2026-11-12",
+  "H R 987": "2026-11-12"
+ },
+ "votes": {
+  "2019-37": {
+   "author": "McGovern",
+   "purpose": "prohibits the use of the funds for the Army Corps of Engineers or Department of Homeland Security to plan, develop, or construct the border wall.",
+   "amendment": "H.Amdt. 3",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/3"
+  },
+  "2019-62": {
+   "author": "Trahan",
+   "purpose": "clarified the eligibility of any IRS employee for a pay increase of 2.6 percent.",
+   "amendment": "H.Amdt. 19",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/19"
+  },
+  "2019-72": {
+   "author": "Bergman",
+   "purpose": "sought to prohibit the VA from constructing new structures to be used as childcare centers.",
+   "amendment": "H.Amdt. 23",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/23"
+  },
+  "2019-73": {
+   "author": "Sherrill",
+   "purpose": "states that child care providers may not provide child care if they employ an individual who has been convicted of a sex crime, an offense involving a child victim, a violent crime, a drug felony, or other offense the Secretary deems appropriate.",
+   "amendment": "H.Amdt. 38",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/38"
+  },
+  "2019-81": {
+   "author": "Buck",
+   "purpose": "ensures that the U.S. may continue intelligence collection, analysis, and sharing operations with other nations.",
+   "amendment": "H.Amdt. 41",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/41"
+  },
+  "2019-96": {
+   "author": "Lesko",
+   "purpose": "sought to allow gun owners to legally transfer their firearms to individuals who have been approved and are participants in TSA's PreCheck program.",
+   "amendment": "H.Amdt. 44",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/44"
+  },
+  "2019-97": {
+   "author": "Horn, Kendra S.",
+   "purpose": "clarifies that \"great bodily harm\" includes domestic violence, dating partner violence, sexual assault, stalking, and domestic abuse.",
+   "amendment": "H.Amdt. 46",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/46"
+  },
+  "2019-100": {
+   "author": "Schneider",
+   "purpose": "requires the FBI to report on the number of petitions it was not able to make a determination on within the 10-day period.",
+   "amendment": "H.Amdt. 50",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/50"
+  },
+  "2019-101": {
+   "author": "Van Drew",
+   "purpose": "allows an individual or a company who contacts NICS, and who was not notified that the transfer is legally permissible within 3 business days of the initial date of contact, to rely on information provided by NICS respecting a transfer for 25 days after the transfer becomes legally permissible.",
+   "amendment": "H.Amdt. 53",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/53"
+  },
+  "2019-109": {
+   "author": "Raskin",
+   "purpose": "prevents corporate expenditures for campaign purposes unless the corporation has established a process for determining the political will of its shareholders.",
+   "amendment": "H.Amdt. 56",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/56"
+  },
+  "2019-110": {
+   "author": "Cole",
+   "purpose": "sought to strike Title IV, subtitle G, to restore a provision currently in law that bars government contractors from disclosing campaign contributions as part of the bidding process.",
+   "amendment": "H.Amdt. 58",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/58"
+  },
+  "2019-111": {
+   "author": "Pressley",
+   "purpose": "sought to lower the mandatory minimum voting age to 16 in federal elections.",
+   "amendment": "H.Amdt. 76",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/76"
+  },
+  "2019-112": {
+   "author": "Green (TN)",
+   "purpose": "sought to express a sense of Congress that free speech should be protected.",
+   "amendment": "H.Amdt. 77",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/77"
+  },
+  "2019-113": {
+   "author": "Davidson (OH)",
+   "purpose": "sought to strike Title IV, subtitle F, which allows the SEC to require disclosure of political contributions made by public corporations.",
+   "amendment": "H.Amdt. 84",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/84"
+  },
+  "2019-114": {
+   "author": "Davidson (OH)",
+   "purpose": "sought to strike Title IV, subtitle E, which strikes a provision intended to allow for additional IRS regulation of 501(c)4s.",
+   "amendment": "H.Amdt. 85",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/85"
+  },
+  "2019-115": {
+   "author": "Brindisi",
+   "purpose": "directs States to equalize polling hours across the state within certain parameters. Also, provides exceptions for municipalities to set longer hours.",
+   "amendment": "H.Amdt. 95",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/95"
+  },
+  "2019-116": {
+   "author": "Neguse",
+   "purpose": "allows 16 and 17-year-olds to pre-register to vote ahead of their 18th birthdays.",
+   "amendment": "H.Amdt. 105",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/105"
+  },
+  "2019-132": {
+   "author": "Beyer",
+   "purpose": "exempts employers with fewer than 100 employees from reporting compensation data and requires those with more than 100 to report.",
+   "amendment": "H.Amdt. 114",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/114"
+  },
+  "2019-147": {
+   "author": "Jeffries",
+   "purpose": "modifies the bill to ensure that the materials distributed to victims and survivors are available in commonly encountered languages.",
+   "amendment": "H.Amdt. 117",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/117"
+  },
+  "2019-148": {
+   "author": "Scanlon",
+   "purpose": "requires the Comptroller General of the United States to submit to Congress a report on the return on investment for legal assistance grants awarded pursuant to section 1201 of division B of the Victims of Trafficking and Violence Protection Act of 2000.",
+   "amendment": "H.Amdt. 118",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/118"
+  },
+  "2019-149": {
+   "author": "Waters",
+   "purpose": "would create a new purpose area for section 303 grants, which allows funding to be used by higher education institutions to train employees on how to conduct victim-centered, trauma-informed interviews with the students who report being a victim of sexual assault, domestic violence, stalking, or harassment. The employee would be trained to communicate in a manner which does not blame or judge the survivor for the crimes he or she reports.",
+   "amendment": "H.Amdt. 123",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/123"
+  },
+  "2019-150": {
+   "author": "Wagner",
+   "purpose": "ensures that the Creating Hope through Outreach, Options, Service, and Education for Children and Youth (CHOOSE Children and Youth) Program can continue to include programs that address sex trafficking.",
+   "amendment": "H.Amdt. 126",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/126"
+  },
+  "2019-154": {
+   "author": "Torres Small (NM)",
+   "purpose": "to ensure all provisions of the bill comply with immigration laws.",
+   "amendment": "H.Amdt. 156",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/156"
+  },
+  "2019-163": {
+   "author": "Delgado",
+   "purpose": "requires GAO to produce a report, within 1 year, reviewing the benefits to consumers of broadband internet access providers offering broadband internet access service on a standalone basis and what steps Congress can take to increase the availability of standalone broadband internet access service to consumers, particularly those living in rural areas.",
+   "amendment": "H.Amdt. 160",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/160"
+  },
+  "2019-164": {
+   "author": "Wexton",
+   "purpose": "requires the Federal Communications Commission to submit to Congress within 30 days a plan for how the Commission will evaluate and address problems with the collection on Form 477 of data regarding the deployment of broadband Internet access service.",
+   "amendment": "H.Amdt. 162",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/162"
+  },
+  "2019-165": {
+   "author": "McAdams",
+   "purpose": "affirms that the bill preserves broadband internet service providers' ability to block unlawful content such as child pornography or copyright-infringing materials.",
+   "amendment": "H.Amdt. 168",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/168"
+  },
+  "2019-175": {
+   "author": "Espaillat",
+   "purpose": "clarifies that the Paris Agreement seeks to address issues of environmental justice and the disparate impact climate change is having and will continue to have on vulnerable communities and people of color.",
+   "amendment": "H.Amdt. 169",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/169"
+  },
+  "2019-176": {
+   "author": "Gosar",
+   "purpose": "to include findings that the Paris Agreement is a treaty and should be treated as such.",
+   "amendment": "H.Amdt. 177",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/177"
+  },
+  "2019-177": {
+   "author": "Gosar",
+   "purpose": "sought to strike section 3, a prohibition on use of funds to advance the withdrawal of the United States from the Paris Agreement.",
+   "amendment": "H.Amdt. 178",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/178"
+  },
+  "2019-178": {
+   "author": "Porter",
+   "purpose": "to include findings that recognize the importance of clean energy technology development for the implementation of mitigation and adaptation actions of the agreements under the Paris Climate Accord.",
+   "amendment": "H.Amdt. 186",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/186"
+  },
+  "2019-179": {
+   "author": "Fletcher",
+   "purpose": "to state that noting in this Act may be construed to require or prohibit the inclusion of a specific energy technology or technologies in the President's plan.",
+   "amendment": "H.Amdt. 189",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/189"
+  },
+  "2019-180": {
+   "author": "Schrier",
+   "purpose": "ensures that voluntary agricultural practices can be included to meet the goals and ambitions of the Paris Agreement.",
+   "amendment": "H.Amdt. 191",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/191"
+  },
+  "2019-181": {
+   "author": "Van Drew",
+   "purpose": "adds to the findings the importance of averting, minimizing and addressing loss and damage associated with the adverse effects of climate change.",
+   "amendment": "H.Amdt. 193",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/193"
+  },
+  "2019-182": {
+   "author": "Engel",
+   "purpose": "requires the President's plan to take into consideration populations, regions, industries, and constituencies affected, including American jobs, consumer energy costs, and the ability to develop and deploy new technologies.",
+   "amendment": "H.Amdt. 196",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/196"
+  },
+  "2019-191": {
+   "author": "Brown (MD)",
+   "purpose": "to ensure that nothing in the bill will be construed to affect the approval of waivers under section 1332 of the ACA that establish reinsurance programs that lower health insurance premiums, and protect health insurance coverage for people with preexisting conditions.",
+   "amendment": "H.Amdt. 199",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/199"
+  },
+  "2019-192": {
+   "author": "Holding",
+   "purpose": "to change the title of bill to \"Insert Politically Punchy Title That Doesn't Reflect the Bill Substance Act.",
+   "amendment": "H.Amdt. 203",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/203"
+  },
+  "2019-193": {
+   "author": "Malinowski",
+   "purpose": "to prohibit the Secretaries from taking any action that would reduce the affordability of comprehensive coverage for individuals with pre-existing conditions.",
+   "amendment": "H.Amdt. 207",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/207"
+  },
+  "2019-194": {
+   "author": "Wild",
+   "purpose": "to prohibit any action that would raise health insurance premiums.",
+   "amendment": "H.Amdt. 208",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/208"
+  },
+  "2019-197": {
+   "author": "Perlmutter",
+   "purpose": "increases funding by $5 million for NOAA's weather forecasting, modeling, and cloud computing programs, including the Earth Prediction Innovation Center.",
+   "amendment": "H.Amdt. 209",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/209"
+  },
+  "2019-198": {
+   "author": "Sablan",
+   "purpose": "increases funding for waste water treatment plants impacted by Typhoon Yutu by $8,800,000 based on EPA cost estimates for repair and resiliency updated on March 20, 2019.",
+   "amendment": "H.Amdt. 211",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/211"
+  },
+  "2019-199": {
+   "author": "Huffman",
+   "purpose": "prohibits the use of funds to enforce regulations requiring within two years construction of agency relief projects funded by the Federal Highway Administration.",
+   "amendment": "H.Amdt. 214",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/214"
+  },
+  "2019-200": {
+   "author": "Fletcher",
+   "purpose": "shortens the time requirement for the publication of rules of the Department of Housing and Urban Development Community Development Fund from 90 days to 14 days.",
+   "amendment": "H.Amdt. 216",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/216"
+  },
+  "2019-210": {
+   "author": "McKinley",
+   "purpose": "sought to strike title II, Health Insurance Market Stabilization.",
+   "amendment": "H.Amdt. 221",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/221"
+  },
+  "2019-211": {
+   "author": "Harder (CA)",
+   "purpose": "provides opioid specific education and training to the Navigators and the Certified Application Counselors (CACs) that ensures they can best educate individuals on the marketplace plans specifically for opioid health care treatment.",
+   "amendment": "H.Amdt. 225",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/225"
+  },
+  "2019-212": {
+   "author": "Wexton",
+   "purpose": "includes findings that the final rule on short-term, limited duration insurance weakens protections for the millions of Americans living with preexisting health conditions, including children with complex medical needs and disabilities and their families.",
+   "amendment": "H.Amdt. 240",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/240"
+  },
+  "2019-222": {
+   "author": "Steil",
+   "purpose": "sought to strike the findings in the bill and insert language requiring the Comptroller General to conduct a study of the effectiveness and efficiency of the Consumer Financial Protection Bureau (CFPB) in meeting its statutorily mandated obligations, the prevalence of discriminatory practices in lending, and the workplace rights of CFPB staff.",
+   "amendment": "H.Amdt. 248",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/248"
+  },
+  "2019-223": {
+   "author": "Burgess",
+   "purpose": "sought to strike the section requiring all consumer complaints to be made available to the public on a CFPB website.",
+   "amendment": "H.Amdt. 252",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/252"
+  },
+  "2019-224": {
+   "author": "Burgess",
+   "purpose": "sought to permanently subject the funding of the Consumer Financial Protection Bureau to congressional appropriation and to authorize funding for fiscal year 2020 at the fiscal year 2019 level.",
+   "amendment": "H.Amdt. 253",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/253"
+  },
+  "2019-225": {
+   "author": "Stevens",
+   "purpose": "to ensure that the Consumer Advisory Board is comprised of individuals who represent community banks, credit unions, small business owners, or economic growth experts.",
+   "amendment": "H.Amdt. 260",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/260"
+  },
+  "2019-226": {
+   "author": "Green (TX)",
+   "purpose": "reinstates the Consumer Financial Protection Bureau's final rule governing forced arbitration, within 60 days of enactment.",
+   "amendment": "H.Amdt. 263",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/263"
+  },
+  "2019-251": {
+   "author": "McGovern",
+   "purpose": "ensures medically-tailored nutrition interventions are included in evidence-based practices for enhancing senior nutrition under the Older Americans Act.",
+   "amendment": "H.Amdt. 268",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/268"
+  },
+  "2019-252": {
+   "author": "Shalala",
+   "purpose": "increases funding for refugee and entrant assistance by $10 million.",
+   "amendment": "H.Amdt. 270",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/270"
+  },
+  "2019-253": {
+   "author": "DeSaulnier",
+   "purpose": "increases and decreases funding for the Bureau of Labor Statistics by $1 million to allow the Bureau of Labor Statistics to collect data on job loss.",
+   "amendment": "H.Amdt. 271",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/271"
+  },
+  "2019-254": {
+   "author": "DeSaulnier",
+   "purpose": "increases and decreases funding for the National Cancer Institute by $1 million to support a National Cancer Institute study on how to improve communication between cancer care providers, cancer patients, and survivors.",
+   "amendment": "H.Amdt. 272",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/272"
+  },
+  "2019-255": {
+   "author": "DeSaulnier",
+   "purpose": "increases and decreases funding for Innovation and Improvement at the Department of Education by $1 million to encourage the Department to ensure that Statewide Family Engagement Center grantees receive full and adequate funding.",
+   "amendment": "H.Amdt. 273",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/273"
+  },
+  "2019-256": {
+   "author": "DeSaulnier",
+   "purpose": "redirects funding for Children's Mental Health Services Grants by $5 million to support school-based, early childhood mental health interventions.",
+   "amendment": "H.Amdt. 274",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/274"
+  },
+  "2019-257": {
+   "author": "Smith (NJ)",
+   "purpose": "transfers $1 million from the Departmental Management General Departmental Management account to the Emerging and Zoonotic and Infectious Diseases account for the control and prevention for Lyme Disease.",
+   "amendment": "H.Amdt. 277",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/277"
+  },
+  "2019-258": {
+   "author": "Scott (VA)",
+   "purpose": "to prohibit the Occupational Safety and Health Administration (OSHA) from using funds appropriated in this Act to finalize or implement a proposed rule to weaken health protections in OSHA's existing beryllium standards that cover construction and maritime workers.",
+   "amendment": "H.Amdt. 278",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/278"
+  },
+  "2019-259": {
+   "author": "DeFazio",
+   "purpose": "prohibits any funds appropriated to the Job Corps program from being used to either alter or terminate the Interagency Agreement between the U.S. Departments of Labor and Agriculture that governs the Job Corps Civilian Conservation Center (CCC) program.",
+   "amendment": "H.Amdt. 279",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/279"
+  },
+  "2019-260": {
+   "author": "Jackson Lee",
+   "purpose": "redirects $10 million in funding to support greater diversity in the pool of diabetes research professionals and patients participating in clinical trials.",
+   "amendment": "H.Amdt. 280",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/280"
+  },
+  "2019-261": {
+   "author": "Jackson Lee",
+   "purpose": "redirects $10 million in funding to support programs providing outreach and support services targeting program participants at greatest risk of not completing a college degree.",
+   "amendment": "H.Amdt. 281",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/281"
+  },
+  "2019-262": {
+   "author": "Pascrell",
+   "purpose": "increases funding for the National Institute for Occupational Safety and Health (NIOSH) by $900,000 and decrease the General Departmental Management for the Department of Health and Human Services (HHS) by a similar amount.",
+   "amendment": "H.Amdt. 282",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/282"
+  },
+  "2019-263": {
+   "author": "Davis, Danny K.",
+   "purpose": "increases funding to the Birth Defects, Development Disabilities, Disabilities and Health account by $2 million and decreases the administration account in the Office of the Secretary of Health and Human Services account by a similar amount.",
+   "amendment": "H.Amdt. 283",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/283"
+  },
+  "2019-266": {
+   "author": "Cole",
+   "purpose": "sought to strike the provision in the underlying bill that blocks conscience protections at the Department of Health and Human Services.",
+   "amendment": "H.Amdt. 267",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/267"
+  },
+  "2019-267": {
+   "author": "Roby",
+   "purpose": "sought to strike language that prevents the implementation of the Administration's rule requiring all Title X grant recipients to be \"physically and financially separate from abortion-providing facilities.\".",
+   "amendment": "H.Amdt. 275",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/275"
+  },
+  "2019-268": {
+   "author": "Buchanan",
+   "purpose": "redirects $6,250,000 in funding for the National Institute of Environmental Health Sciences under the National Institute of Health in order to support research into the impact of red tide and other Harmful Algal Blooms on human health.",
+   "amendment": "H.Amdt. 284",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/284"
+  },
+  "2019-269": {
+   "author": "Langevin",
+   "purpose": "increases funding for the Lifespan Respite Care Program by $4.5 million.",
+   "amendment": "H.Amdt. 285",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/285"
+  },
+  "2019-270": {
+   "author": "Foster",
+   "purpose": "strikes section 510, which prohibits HHS from spending any federal dollars to promulgate or adopt a national patient identifier.",
+   "amendment": "H.Amdt. 286",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/286"
+  },
+  "2019-271": {
+   "author": "Foster",
+   "purpose": "redirects $1 for the Substance Abuse Treatment account.",
+   "amendment": "H.Amdt. 287",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/287"
+  },
+  "2019-272": {
+   "author": "Foster",
+   "purpose": "redirects funding for the Bureau of Labor Statistics Salaries and Expenses account by $1 for the purpose of instructing BLS to accept a wider and more forward-looking range of inputs into its range of projections for its workforce of the future.",
+   "amendment": "H.Amdt. 288",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/288"
+  },
+  "2019-273": {
+   "author": "Foster",
+   "purpose": "increases the Biomedical Advanced Research and Development Authority account by $1,000,000 to support increased R&D for biosecurity.",
+   "amendment": "H.Amdt. 289",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/289"
+  },
+  "2019-274": {
+   "author": "Schiff",
+   "purpose": "redirects $5 million in funding within the Departmental Management General Departmental Management account to amplify a public health campaign to promote vaccine usage.",
+   "amendment": "H.Amdt. 290",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/290"
+  },
+  "2019-275": {
+   "author": "McKinley",
+   "purpose": "provides $10 million in funding for a new program at the Substance Abuse and Mental Health Services Administration to develop best practices for emergency treatment and the coordination and continuation of care for overdose patients.",
+   "amendment": "H.Amdt. 291",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/291"
+  },
+  "2019-276": {
+   "author": "Butterfield",
+   "purpose": "provides $2 million in funds to expand the National Survey of Child and Adolescent Well-Being to include a study of children impacted by a parents substance addiction to better understand the opioid epidemics impact on maltreated children.",
+   "amendment": "H.Amdt. 292",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/292"
+  },
+  "2019-277": {
+   "author": "Johnson (OH)",
+   "purpose": "funds the Regional Centers of Excellence in Substance Use Disorder Education, which allows the program to increase the amount of education that health professional students receive on substance use disorder, pain management, and addiction.",
+   "amendment": "H.Amdt. 293",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/293"
+  },
+  "2019-278": {
+   "author": "Moore",
+   "purpose": "provides additional resources to the CDC to address and better understand the causes of the thousands of sudden unexpected deaths of children and infants that occur annually in the United States.",
+   "amendment": "H.Amdt. 294",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/294"
+  },
+  "2019-279": {
+   "author": "Moore",
+   "purpose": "increases funding for the CDC's Domestic Violence Community Projects by $4.5 million.",
+   "amendment": "H.Amdt. 295",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/295"
+  },
+  "2019-280": {
+   "author": "Matsui",
+   "purpose": "increases by $2 million the administration for community living aging and disability services programs to support innovative programs that assist young people with developmental disabilities in obtaining and sustaining long term employment, and that prepare employers to support the success of those employees and decreases the general department management account by a similar amount.",
+   "amendment": "H.Amdt. 297",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/297"
+  },
+  "2019-281": {
+   "author": "Barr",
+   "purpose": "increases funding for the Substance Abuse Treatment program by $1,000,000.",
+   "amendment": "H.Amdt. 298",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/298"
+  },
+  "2019-282": {
+   "author": "Cleaver",
+   "purpose": "increases funding for the substance abuse and mental health services administration by $6.5 million in order to support youth suicide prevention strategies.",
+   "amendment": "H.Amdt. 299",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/299"
+  },
+  "2019-283": {
+   "author": "Castor (FL)",
+   "purpose": "to prohibit the use of funds to be used to implement, administer or enforce the Trump administration's short-term, limited duration insurance rule.",
+   "amendment": "H.Amdt. 300",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/300"
+  },
+  "2019-284": {
+   "author": "Hill (AR)",
+   "purpose": "sought to strike $90 million from the Patient Protection and Affordable Care Act's navigator program.",
+   "amendment": "H.Amdt. 301",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/301"
+  },
+  "2019-285": {
+   "author": "Hill (AR)",
+   "purpose": "sought to allow grant funds for apprenticeships to be used for apprenticeship programs registered with the U.S. Department of Labor (DOL) as well as industry-recognized apprenticeship programs.",
+   "amendment": "H.Amdt. 302",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/302"
+  },
+  "2019-286": {
+   "author": "Pressley",
+   "purpose": "increases funding for the CDC's Rape Prevention and Education program.",
+   "amendment": "H.Amdt. 303",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/303"
+  },
+  "2019-287": {
+   "author": "Khanna",
+   "purpose": "increases funding for the National Institute of Allergy and Infectious Disease by $3 million.",
+   "amendment": "H.Amdt. 304",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/304"
+  },
+  "2019-288": {
+   "author": "Richmond",
+   "purpose": "increases funding for Maternal and Child Health accounts by $7,000,000.",
+   "amendment": "H.Amdt. 305",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/305"
+  },
+  "2019-289": {
+   "author": "Banks",
+   "purpose": "to reduce spending for each amount in Division A by 14 percent.",
+   "amendment": "H.Amdt. 306",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/306"
+  },
+  "2019-290": {
+   "author": "Keating",
+   "purpose": "redirects $1 million in funding to examine how HHS can facilitate ways to include programs for social determinants of health under the same roof as traditional health services, and estimate what amount of additional funding might be required.",
+   "amendment": "H.Amdt. 307",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/307"
+  },
+  "2019-291": {
+   "author": "Miller",
+   "purpose": "increases funding for Neonatal Abstinence Syndrome research by $2 million, offset by spending in the Office of the Secretary.",
+   "amendment": "H.Amdt. 308",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/308"
+  },
+  "2019-292": {
+   "author": "Cicilline",
+   "purpose": "increases funding for American History and Civics National Activities under the Elementary and Secondary Education Act by $500,000.",
+   "amendment": "H.Amdt. 309",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/309"
+  },
+  "2019-293": {
+   "author": "Bera",
+   "purpose": "redirects funding by $1 for SAMHSA Mental Health account to specify that SAMHSA should explore using its funds to explore peer to peer mental health programs for first responders.",
+   "amendment": "H.Amdt. 310",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/310"
+  },
+  "2019-294": {
+   "author": "Castro (TX)",
+   "purpose": "ensures that the Office of Refugee Resettlement reports all child deaths that occur while children are in their custody.",
+   "amendment": "H.Amdt. 311",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/311"
+  },
+  "2019-295": {
+   "author": "Jeffries",
+   "purpose": "to prohibit funds from being used to limit the functions of the Department of Education Office for Civil Rights.",
+   "amendment": "H.Amdt. 312",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/312"
+  },
+  "2019-296": {
+   "author": "Maloney, Sean",
+   "purpose": "redirects $5,000,000 in funds to be used to specifically study the impact of firearm violence in elementary and secondary schools and higher education institutions.",
+   "amendment": "H.Amdt. 313",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/313"
+  },
+  "2019-297": {
+   "author": "Adams",
+   "purpose": "increases funds in the Higher Education account by $500,000.",
+   "amendment": "H.Amdt. 314",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/314"
+  },
+  "2019-298": {
+   "author": "Adams",
+   "purpose": "increases funding for the Children and Families Services Programs account by $3 million.",
+   "amendment": "H.Amdt. 315",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/315"
+  },
+  "2019-299": {
+   "author": "Beyer",
+   "purpose": "redirects funds by $500,000 to support the Secretary of Health and Human Services to conduct a feasibility study on allowing geolocation services with respect to the location of callers to the suicide prevention lifeline referred to in section 520E3 of the Public Health Service Act.",
+   "amendment": "H.Amdt. 316",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/316"
+  },
+  "2019-300": {
+   "author": "Beyer",
+   "purpose": "requires the Office of Refugee Resettlement to provide a monthly census of unaccompanied children in their custody to Congressional committees of jurisdiction and legal orientation providers.",
+   "amendment": "H.Amdt. 317",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/317"
+  },
+  "2019-301": {
+   "author": "Blunt Rochester",
+   "purpose": "redirects $1 in funding from the Health Resources and Services Administration with respect to the health workforce and health professional staffing shortages.",
+   "amendment": "H.Amdt. 318",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/318"
+  },
+  "2019-302": {
+   "author": "Murphy",
+   "purpose": "increases the Substance Abuse and Mental Health Services Administration, Mental Health by $2,000,000, and decreases the Substance Abuse and Mental Health Services Administration, Health Surveillance and Program Support by a similar amount.",
+   "amendment": "H.Amdt. 319",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/319"
+  },
+  "2019-303": {
+   "author": "Ocasio-Cortez",
+   "purpose": "redirects $15 million in the HIV/AIDS, Viral Hepatitis, Sexually Transmitted Diseases, and Tuberculosis Prevention account in order to support Opioid Related Infectious Disease under the Center for Disease Control.",
+   "amendment": "H.Amdt. 320",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/320"
+  },
+  "2019-304": {
+   "author": "Ocasio-Cortez",
+   "purpose": "sought strike section 509, which prohibits the use of funds to be used for any activity that promotes the legalization of any drug or other substance included in schedule I of the schedules of controlled substances established under section 202 of the Controlled Substances Act.",
+   "amendment": "H.Amdt. 321",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/321"
+  },
+  "2019-305": {
+   "author": "McAdams",
+   "purpose": "increases CDC's Injury Prevention and Control Suicide Program funding to enhance youth suicide awareness, research, and prevention efforts by $2 million, and decreases the HHS General Departmental Management account by a similar amount.",
+   "amendment": "H.Amdt. 322",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/322"
+  },
+  "2019-306": {
+   "author": "Schrier",
+   "purpose": "clarifies that early childhood developmental screenings can be considered an allowable medical service for donation to children in the care of the Office of Refugee Resettlement.",
+   "amendment": "H.Amdt. 323",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/323"
+  },
+  "2019-307": {
+   "author": "Lee (NV)",
+   "purpose": "increases funding for Graduate Medical Education slots by $5 million and decreases funding from the Office of the Secretary of Educations departmental fund by a similar amount.",
+   "amendment": "H.Amdt. 324",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/324"
+  },
+  "2019-308": {
+   "author": "Craig",
+   "purpose": "increases the Health Resources and Services Administration's (HRSA) Rural Health Programs by $1 million to prioritize ongoing coordination with the U.S. Department of Agricultures establishment of a Rural Health Liaison as directed by P.L. 115-334 (Agriculture Improvement Act of 2018).",
+   "amendment": "H.Amdt. 325",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/325"
+  },
+  "2019-309": {
+   "author": "Craig",
+   "purpose": "redirects $1 million in funding within the Department of Education's grants to states under the Individuals with Disabilities Education Act (IDEA) to support funding for special education.",
+   "amendment": "H.Amdt. 326",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/326"
+  },
+  "2019-310": {
+   "author": "Craig",
+   "purpose": "redirects $1 million in funding for Career, Technical, and Adult Education in order to support the Department of Education in carrying out the Carl D. Perkins Career and Technical Education Act of 2006 (Perkins Act) and the Adult Education and Family Literacy Act (AEFLA).",
+   "amendment": "H.Amdt. 327",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/327"
+  },
+  "2019-311": {
+   "author": "Porter",
+   "purpose": "increases funds for the Senior Medicare Patrols within the Health Care Fraud and Abuse Control Account by $2,000,000.",
+   "amendment": "H.Amdt. 328",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/328"
+  },
+  "2019-312": {
+   "author": "Porter",
+   "purpose": "redirects $1 million in funding to support the Intimate Partner Violence Strategy at the Health Resources and Services Administration across the relevant bureaus at the agency.",
+   "amendment": "H.Amdt. 329",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/329"
+  },
+  "2019-313": {
+   "author": "Porter",
+   "purpose": "ensures that ACA open enrollment data is disaggregated by race, ethnicity, preferred language, age and sex to support better understanding of enrollment information.",
+   "amendment": "H.Amdt. 330",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/330"
+  },
+  "2019-314": {
+   "author": "Mucarsel-Powell",
+   "purpose": "increases $5 million in funding to the Secretary's Minority AIDS Initiative Fund (SMAIF).",
+   "amendment": "H.Amdt. 331",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/331"
+  },
+  "2019-315": {
+   "author": "Levin (MI)",
+   "purpose": "increases funds for the Office of Inspector General at the Department of Education by $4 million.",
+   "amendment": "H.Amdt. 332",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/332"
+  },
+  "2019-316": {
+   "author": "Pressley",
+   "purpose": "provides an additional $5 million to fund School-Based Health Centers to support preventative and mental health services for children and adolescents in school.",
+   "amendment": "H.Amdt. 333",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/333"
+  },
+  "2019-317": {
+   "author": "Spanberger",
+   "purpose": "increases funding for the chronic disease prevention and health promotion program by $3 million to be directed towards colorectal cancer and decreases funding for the HHS General Departmental Management account by a similar amount.",
+   "amendment": "H.Amdt. 334",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/334"
+  },
+  "2019-318": {
+   "author": "Delgado",
+   "purpose": "provides additional funding for the prevention, diagnosis and treatment of Lyme Disease due to the increased threat of vector borne pathogens.",
+   "amendment": "H.Amdt. 335",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/335"
+  },
+  "2019-319": {
+   "author": "Crow",
+   "purpose": "redirects $5 million to support the Project SERV program which provides funding for grants to LEAs for the purposes of mental health, counseling, and technical assistance in the wake of traumatic events at schools that are disruptive to learning.",
+   "amendment": "H.Amdt. 336",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/336"
+  },
+  "2019-320": {
+   "author": "Houlahan",
+   "purpose": "redirects $1 million in funding within the Department of Education's Education for the Disadvantaged account with the intent to support Comprehensive Literacy Development Grants with an appropriate offset.",
+   "amendment": "H.Amdt. 337",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/337"
+  },
+  "2019-321": {
+   "author": "Pocan",
+   "purpose": "prohibits the use of funds for the implementation of a new HHS policy announced on June 5, 2019, that would restrict fetal tissue research.",
+   "amendment": "H.Amdt. 338",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/338"
+  },
+  "2019-322": {
+   "author": "Pascrell",
+   "purpose": "provides $10 million to the Alternatives to Opioids in the Emergency Department, as authorized in Section 7091 of the SUPPORT for Patients and Communities Act, P.L. 115-271.",
+   "amendment": "H.Amdt. 339",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/339"
+  },
+  "2019-324": {
+   "author": "Lesko",
+   "purpose": "sought to strike the requirement that not less than $750,000,000 of Global Health Programs shall be made available for family planning/reproductive health.",
+   "amendment": "H.Amdt. 340",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/340"
+  },
+  "2019-325": {
+   "author": "Jackson Lee",
+   "purpose": "redirects $1 million to combat the practice of Female Genital Mutilation.",
+   "amendment": "H.Amdt. 341",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/341"
+  },
+  "2019-326": {
+   "author": "Jackson Lee",
+   "purpose": "redirects $1 million to combat the trafficking of endangered species.",
+   "amendment": "H.Amdt. 342",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/342"
+  },
+  "2019-327": {
+   "author": "Gosar",
+   "purpose": "sought to prohibit the use of funds for contributions on behalf of the United States to or for the Intergovernmental Panel on Climate Change, the United Nations Framework Convention on Climate Change, or the Green Climate Fund.",
+   "amendment": "H.Amdt. 343",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/343"
+  },
+  "2019-328": {
+   "author": "Grijalva",
+   "purpose": "redirects $4 million within the International Border and Water Commission for the use of taking responsibility for the International Outfall Interceptor (IOI).",
+   "amendment": "H.Amdt. 344",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/344"
+  },
+  "2019-329": {
+   "author": "Gosar",
+   "purpose": "to prohibit the use of funds for the United Nations Framework Convention on Climate Change.",
+   "amendment": "H.Amdt. 345",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/345"
+  },
+  "2019-330": {
+   "author": "Speier",
+   "purpose": "redirects $40 million in funding from Assistance for Europe and Eurasia to fund Armenian democracy assistance.",
+   "amendment": "H.Amdt. 346",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/346"
+  },
+  "2019-331": {
+   "author": "Meadows",
+   "purpose": "withholds an additional $33 million in aid to Pakistan.",
+   "amendment": "H.Amdt. 347",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/347"
+  },
+  "2019-332": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of the following amendments printed in Part B of House Report 116-109 as en bloc No. 1: Nos. 86, 88, 90, 95, 97, 99, 100, 101, 102,103, 104, 105, and 106.",
+   "amendment": "H.Amdt. 348",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/348"
+  },
+  "2019-334": {
+   "author": "Grothman",
+   "purpose": "to reduce the amount of funding provided by Division D by 2.1 percent across-the-board.",
+   "amendment": "H.Amdt. 349",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/349"
+  },
+  "2019-335": {
+   "author": "Walker",
+   "purpose": "sought to eliminate $19.1 billion in funding for the bilateral economic assistance and independent agency programs within the Department of State.",
+   "amendment": "H.Amdt. 351",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/351"
+  },
+  "2019-336": {
+   "author": "Palmer",
+   "purpose": "sought to strike the paragraph that prevents the U.S. withdrawal from the Paris Climate Agreement and strike the paragraph that allows for payments for the agreement.",
+   "amendment": "H.Amdt. 352",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/352"
+  },
+  "2019-337": {
+   "author": "Arrington",
+   "purpose": "to prevent funds from being used to contribute to the United Nations Framework Convention on Climate Change.",
+   "amendment": "H.Amdt. 353",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/353"
+  },
+  "2019-338": {
+   "author": "Banks",
+   "purpose": "to reduce spending for each amount in Division D, except those amounts made available to the Department of Defense, by 14 percent.",
+   "amendment": "H.Amdt. 354",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/354"
+  },
+  "2019-339": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of the following amendments printed in Part A of House Report 116-111 as en bloc No.1: Nos. 1 and 3.",
+   "amendment": "H.Amdt. 350",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/350"
+  },
+  "2019-340": {
+   "author": "Allen",
+   "purpose": "to reduce spending in Division D, State, Foreign Operations, and Related Agencies, by 1 percent.",
+   "amendment": "H.Amdt. 355",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/355"
+  },
+  "2019-341": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of the following amendments printed in Part A of House Report 116-111 as en bloc No. 2: 6, 7, 9, 10, 11, 12, 14, 16, 17, 18, 20, 22, 23, 26, 27, 28, 30, 31, 32, 35, 37, 42, 46, 48, 49, 52, 53, 54, 55, 56, 57, 58, 62.",
+   "amendment": "H.Amdt. 358",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/358"
+  },
+  "2019-342": {
+   "author": "Langevin",
+   "purpose": "increases funding for the Naval Railgun for common mount development by $10,000,000, and decreases funding for the Strategic Capabilities Office by a similar amount.",
+   "amendment": "H.Amdt. 359",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/359"
+  },
+  "2019-343": {
+   "author": "Langevin",
+   "purpose": "increases funding for civics educantion grants under the National Defense Education Program by $2 million.",
+   "amendment": "H.Amdt. 360",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/360"
+  },
+  "2019-344": {
+   "author": "Brown (MD)",
+   "purpose": "prevents the DOD from spending funds to implement the ban on open transgender service.",
+   "amendment": "H.Amdt. 362",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/362"
+  },
+  "2019-345": {
+   "author": "Amash",
+   "purpose": "sought to limit the collection of certain communications under section 702 of FISA.",
+   "amendment": "H.Amdt. 363",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/363"
+  },
+  "2019-346": {
+   "author": "Kuster (NH)",
+   "purpose": "redirects $5 million to fund research to increase the capacity of the defense industry to produce lead-free electronics and for the defense industry to integrate cutting edge civilian technology to meet military requirements.",
+   "amendment": "H.Amdt. 366",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/366"
+  },
+  "2019-347": {
+   "author": "Visclosky",
+   "purpose": "increases funding for the Future Vertical Lift Advanced Technologies program by $9 million.",
+   "amendment": "H.Amdt. 367",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/367"
+  },
+  "2019-348": {
+   "author": "Visclosky",
+   "purpose": "redirects $500,000 within the Department of Defense Operation and Maintenance, Defense-Wide Fund to provide funding for additional reporting on the immediate risks to U.S. national security posed by climate change and its impacts to the Department.",
+   "amendment": "H.Amdt. 368",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/368"
+  },
+  "2019-349": {
+   "author": "Lieu, Ted",
+   "purpose": "prohibits the use of funds for the issuance of export licenses for any defense article or service as described in 22 enumerated certification transmittal documents designated by the Department of State.",
+   "amendment": "H.Amdt. 371",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/371"
+  },
+  "2019-350": {
+   "author": "Gallagher",
+   "purpose": "sought to restore $96 million in research and development funds for INF-range conventional missile systems, offset by corresponding reduction to defense-wide operation and maintenance.",
+   "amendment": "H.Amdt. 372",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/372"
+  },
+  "2019-351": {
+   "author": "Gallagher",
+   "purpose": "sought to increase funding for the Weapons Procurement, Navy account by $19.6 million.",
+   "amendment": "H.Amdt. 373",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/373"
+  },
+  "2019-352": {
+   "author": "Blunt Rochester",
+   "purpose": "redirects $1 million in funding for the Operations & Maintenance, Defense-Wide account which funds the Space-Available flights program and for the purpose of instructing the Department to provide Congress with an assessment of possible concerns or issues in expanding eligibility for the Space-A program to include caregivers and spouses when accompanying 100% disabled veterans.",
+   "amendment": "H.Amdt. 374",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/374"
+  },
+  "2019-353": {
+   "author": "Jayapal",
+   "purpose": "sought to prohibit the use of funds for research on the Long Range Stand Off Weapon (LRSO).",
+   "amendment": "H.Amdt. 375",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/375"
+  },
+  "2019-354": {
+   "author": "Crow",
+   "purpose": "increases and decreases the Defense-wide Operation and Maintenance account by $13 million in order to support the Department of Defense's Readiness and Environmental Protection Integration program.",
+   "amendment": "H.Amdt. 376",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/376"
+  },
+  "2019-355": {
+   "author": "Cox (CA)",
+   "purpose": "decreases funds for the Operation and Maintenance Account, Defense-Wide by $10 million and increases funds for medical research concerning traumatic brain injury, posttraumatic stress disorder, and psychological health by a similar amount.",
+   "amendment": "H.Amdt. 378",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/378"
+  },
+  "2019-358": {
+   "author": "Burgess",
+   "purpose": "sought to reduce spending in the Energy and Water Development Division by 5 percent.",
+   "amendment": "H.Amdt. 379",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/379"
+  },
+  "2019-359": {
+   "author": "Burgess",
+   "purpose": "sought to strike section 108 in Division E that prohibits any funding from being used for border security infrastructure along the southern border.",
+   "amendment": "H.Amdt. 380",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/380"
+  },
+  "2019-360": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of the following amendments printed in Part A of House Report 116-111 as en bloc No. 3: 65, 71, 73, 83, 88, 94, 105, 106, and 108.",
+   "amendment": "H.Amdt. 381",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/381"
+  },
+  "2019-361": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of the following amendments printed in Part A of House Report 116-111 as en bloc No. 4: 66, 67, 68, 69, 70, 72, 74, 75, 76, 77, 78, 79, 81, 82, 84, 85, 86, 87, 92, 93, 95, 96, 98, 99, 100, 101, 102, 104, 107, 109, 110, 111, 112, and 113.",
+   "amendment": "H.Amdt. 382",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/382"
+  },
+  "2019-362": {
+   "author": "Mullin",
+   "purpose": "sought to prohibit the use of funds to prepare, propose, or promulgate any regulation or guidance that references or relies on analysis of the cost of social carbon under certain Technical Support Documents published by the Interagency Working Group on Social Cost of Carbon.",
+   "amendment": "H.Amdt. 383",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/383"
+  },
+  "2019-363": {
+   "author": "Huffman",
+   "purpose": "prohibits the use of funds for the Army Corps of Engineers to finalize the environmental impact statement for the proposed Pebble Mine project.",
+   "amendment": "H.Amdt. 384",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/384"
+  },
+  "2019-364": {
+   "author": "Graves (LA)",
+   "purpose": "sought to strike section 106 of Division E, which states that none of the funds made available by this Act may be used to reorganize or to transfer the Civil Works functions or authority of the Corps of Engineers or the Secretary of the Army to another department or agency.",
+   "amendment": "H.Amdt. 385",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/385"
+  },
+  "2019-365": {
+   "author": "Banks",
+   "purpose": "to reduce spending for each amount in Division E, except those amounts made available to the Department of Defense, by 14 percent.",
+   "amendment": "H.Amdt. 386",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/386"
+  },
+  "2019-368": {
+   "author": "Rutherford",
+   "purpose": "sought to increase the NOAA Operations, Research, and Facilities account by $3.5 million for third party data collection of reef fish in the South Atlantic.",
+   "amendment": "H.Amdt. 389",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/389"
+  },
+  "2019-369": {
+   "author": "King (IA)",
+   "purpose": "sought to strike lines 14-18 (Section 534, pg. 107), which states that none of the funds made available in this Act or any other Act may be used by the Department of Commerce to incorporate into the 2020 Decennial Census any question that was not included in the 2018 End-to-End Census Test in Providence County, Rhode Island.",
+   "amendment": "H.Amdt. 393",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/393"
+  },
+  "2019-370": {
+   "author": "Blumenauer",
+   "purpose": "prohibits the Department of Justice from interfering with state cannabis programs.",
+   "amendment": "H.Amdt. 398",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/398"
+  },
+  "2019-371": {
+   "author": "Banks",
+   "purpose": "to decrease amounts made available in Division A, other than amounts made available to the Department of Defense, by 14 percent.",
+   "amendment": "H.Amdt. 402",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/402"
+  },
+  "2019-372": {
+   "author": "Golden",
+   "purpose": "sought to state that none of the funds may be used for NOAA to utilize a North Atlantic right whale Risk Reduction Decision Support Tool.",
+   "amendment": "H.Amdt. 411",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/411"
+  },
+  "2019-373": {
+   "author": "Stevens",
+   "purpose": "redirects $2,000,000 from the Legal Activities account at the Department of Justice for the purpose of instructing the Environment and Natural Resources Division to allocate more resources to the enforcement of animal cruelty laws.",
+   "amendment": "H.Amdt. 423",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/423"
+  },
+  "2019-374": {
+   "author": "Underwood",
+   "purpose": "prevents the Department of Justice from using federal funds for litigation that undermines the Affordable Care Act.",
+   "amendment": "H.Amdt. 424",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/424"
+  },
+  "2019-375": {
+   "author": "Banks",
+   "purpose": "to reduce spending for each amount in Division B by 14 percent.",
+   "amendment": "H.Amdt. 426",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/426"
+  },
+  "2019-376": {
+   "author": "Pence",
+   "purpose": "increases funding for the rural broadband Distance Learning and Telemedicine Grant Program by $25,000,000, and decreases funding for the Office of the Chief Information Officer Fund by a similar amount.",
+   "amendment": "H.Amdt. 428",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/428"
+  },
+  "2019-377": {
+   "author": "Spanberger",
+   "purpose": "increases funding for USDA's Rural E-Connectivity (ReConnect) program by $55 million.",
+   "amendment": "H.Amdt. 429",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/429"
+  },
+  "2019-378": {
+   "author": "Wasserman Schultz",
+   "purpose": "prohibits the use of funds from being expended by the Department of the Interior to conduct oil and gas pre-leasing, leasing, and related activities in outer continental shelf planning areas around Florida.",
+   "amendment": "H.Amdt. 432",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/432"
+  },
+  "2019-379": {
+   "author": "Pallone",
+   "purpose": "establishes a Department of Interior moratorium on oil and gas drilling and related activities in the Atlantic, including the North Atlantic, Mid-Atlantic, and the South Atlantic Outer Continental Shelf Planning Areas.",
+   "amendment": "H.Amdt. 434",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/434"
+  },
+  "2019-380": {
+   "author": "Buchanan",
+   "purpose": "prevents funds from being used by USFWS to issue permits for the importation of elephant or lion trophies from Zimbabwe, Zambia or Tanzania.",
+   "amendment": "H.Amdt. 435",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/435"
+  },
+  "2019-381": {
+   "author": "Duncan",
+   "purpose": "sought to prohibit the use of funds to enforce certain final Clean Power Plan rules.",
+   "amendment": "H.Amdt. 437",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/437"
+  },
+  "2019-382": {
+   "author": "Blumenauer",
+   "purpose": "to prohibit the use of funds to plan, design, study, or construct, for the purpose of harvesting timber by private entities or individuals, a forest development road in the Tongass National Forest.",
+   "amendment": "H.Amdt. 438",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/438"
+  },
+  "2019-383": {
+   "author": "Gosar",
+   "purpose": "sought to prohibit the use of funds for carrying out EPAs Endangerment Finding.",
+   "amendment": "H.Amdt. 439",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/439"
+  },
+  "2019-384": {
+   "author": "Duncan",
+   "purpose": "sought to strike section 118 from the bill that prevents energy leases in ANWR.",
+   "amendment": "H.Amdt. 441",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/441"
+  },
+  "2019-385": {
+   "author": "Mullin",
+   "purpose": "sought to prohibit the use of funds to enforce the rule entitled \"Oil and Natural Gas Sector: Emission Standards for New, Reconstructed, and Modified Sources\".",
+   "amendment": "H.Amdt. 442",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/442"
+  },
+  "2019-386": {
+   "author": "Mullin",
+   "purpose": "sought to prohibit the use of funds to prepare, propose, or promulgate any regulation or guidance that references or relies on analysis of the cost of social carbon under certain Technical Support Documents published by the Interagency Working Group on Social Cost of Carbon.",
+   "amendment": "H.Amdt. 443",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/443"
+  },
+  "2019-387": {
+   "author": "Graves (LA)",
+   "purpose": "sought to strike section 117 of division C which prohibits funds for a new Proposed Outer Continental Shelf Oil and Gas Leasing Program and Notice of Intent to Prepare a Programmatic Environmental Impact Statement Plan.",
+   "amendment": "H.Amdt. 446",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/446"
+  },
+  "2019-388": {
+   "author": "Hice (GA)",
+   "purpose": "to decrease funding made available by the bill (other than an amount required to be made available by a provision of law) by 23.6 percent to match the President's budget request.",
+   "amendment": "H.Amdt. 447",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/447"
+  },
+  "2019-389": {
+   "author": "Banks",
+   "purpose": "to decrease spending for each amount available in Division C by 14 percent.",
+   "amendment": "H.Amdt. 448",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/448"
+  },
+  "2019-390": {
+   "author": "Biggs",
+   "purpose": "to prohibit the use of funds for the Integrated Risk Information System of the Environmental Protection Agency.",
+   "amendment": "H.Amdt. 449",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/449"
+  },
+  "2019-391": {
+   "author": "Cunningham",
+   "purpose": "prohibits the use of funds for use by BOEM to issue permits for oil and gas exploration, including for seismic airgun blasting, in the Atlantic.",
+   "amendment": "H.Amdt. 450",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/450"
+  },
+  "2019-392": {
+   "author": "Cunningham",
+   "purpose": "redirects $5,000,000 to prioritize the Land and Water Conservation Fund.",
+   "amendment": "H.Amdt. 451",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/451"
+  },
+  "2019-393": {
+   "author": "Carbajal",
+   "purpose": "prohibits the use of funds made available by this Act to be used on offshore oil and gas leasing off the Washington/Oregon, Northern California, Central California, and Southern California Outer Continental Shelf (OCS) Planning Areas for FY2020.",
+   "amendment": "H.Amdt. 452",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/452"
+  },
+  "2019-394": {
+   "author": "Hill (CA)",
+   "purpose": "increases DOI and Forest Service accounts for wildfire preparedness, wildfire suppression operations, emergency rehabilitation, and hazardous fuels management by $7 million.",
+   "amendment": "H.Amdt. 453",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/453"
+  },
+  "2019-395": {
+   "author": "Schrier",
+   "purpose": "prohibits the use of funds to be used for reducing the EPA Mercury and Air Toxics Standard (MATS).",
+   "amendment": "H.Amdt. 454",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/454"
+  },
+  "2019-396": {
+   "author": "Bost",
+   "purpose": "prohibits the use of funds in contravention of the Executive Order titled \"Strengthening Buy-American Preferences for Infrastructure Projects.\".",
+   "amendment": "H.Amdt. 459",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/459"
+  },
+  "2019-397": {
+   "author": "Golden",
+   "purpose": "increases funding for VA medical facilities and provides additional bed space for veterans requiring overnight mental health care.",
+   "amendment": "H.Amdt. 461",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/461"
+  },
+  "2019-398": {
+   "author": "McAdams",
+   "purpose": "redirects $1 with the intent to instruct the Department of Veterans Affairs to improve veteran credit reporting and to implement important financial protections for veterans.",
+   "amendment": "H.Amdt. 462",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/462"
+  },
+  "2019-399": {
+   "author": "DeFazio",
+   "purpose": "to prohibit authorizing the transportation of liquefied natural gas by rail tank car and to prohibit the Secretary of Transportation from using funds to authorize transportation of liquefied natural gas by rail tank car by issuance of a special permit or approval.",
+   "amendment": "H.Amdt. 468",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/468"
+  },
+  "2019-400": {
+   "author": "Duncan",
+   "purpose": "sought strike section 236 which prohibits funds from being used to implement, administer, or enforce the HUD \"Equal Access in Accordance With an Individual's Gender Identity in Community Planning and Development Programs\" rule.",
+   "amendment": "H.Amdt. 469",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/469"
+  },
+  "2019-401": {
+   "author": "Duncan",
+   "purpose": "sought to strike section 237 which prohibits the HUD notice \"Appropriate Placement for Transgender Persons in Single-Sex Emergency Shelters and Other Facilities\" from having the force and effect of law.",
+   "amendment": "H.Amdt. 470",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/470"
+  },
+  "2019-402": {
+   "author": "Grothman",
+   "purpose": "to decrease funds made available to division E by 4.6 percent.",
+   "amendment": "H.Amdt. 472",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/472"
+  },
+  "2019-405": {
+   "author": "Banks",
+   "purpose": "sought to decrease funding made available in Division E, other than amounts made available to the Department of Defense, by 14 percent.",
+   "amendment": "H.Amdt. 474",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/474"
+  },
+  "2019-406": {
+   "author": "Jayapal",
+   "purpose": "redirects $1,000,000 to fund transitional housing and homelessness services.",
+   "amendment": "H.Amdt. 477",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/477"
+  },
+  "2019-411": {
+   "author": "King (IA)",
+   "purpose": "sought to strike section 126 which prohibits the use of funds from the Department of the Treasury's Forfeiture Fund to plan, design, construct or carry out a project to construct a southern border wall or barrier along the southern border of the US.",
+   "amendment": "H.Amdt. 484",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/484"
+  },
+  "2019-412": {
+   "author": "Norton",
+   "purpose": "to prohibit the use of funds from being used to relocate the National Institute of Food and Agriculture or the Economic Research Service outside of the National Capital Region.",
+   "amendment": "H.Amdt. 485",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/485"
+  },
+  "2019-415": {
+   "author": "Grothman",
+   "purpose": "to decrease each amount appropriated or made available in the bill by 3.1 percent.",
+   "amendment": "H.Amdt. 494",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/494"
+  },
+  "2019-416": {
+   "author": "",
+   "purpose": "comprised of the following amendments printed in Part B of House Report 116-126 as en bloc No. 2: Nos. 16, 24, 28, 30, 36, 41, 43, 44, 45, and 46.",
+   "amendment": "H.Amdt. 495",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/495"
+  },
+  "2019-417": {
+   "author": "Banks",
+   "purpose": "to decrease spending for each amount made available by this bill, except amounts made available to the Department of Defense, by 14 percent.",
+   "amendment": "H.Amdt. 497",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/497"
+  },
+  "2019-418": {
+   "author": "Suozzi",
+   "purpose": "increases funding for the Small Business Administration's Entrepreneurial Development Programs, for the SBA's Veterans Business Outreach Centers by $1 million.",
+   "amendment": "H.Amdt. 498",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/498"
+  },
+  "2019-419": {
+   "author": "Lee (NV)",
+   "purpose": "provides an additional $1,000,000 to the Drug-Free Communities Program account.",
+   "amendment": "H.Amdt. 499",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/499"
+  },
+  "2019-420": {
+   "author": "Dean",
+   "purpose": "increases CDFI Program Integration for Individuals with Disabilities dedicated funding by $2,000,000.",
+   "amendment": "H.Amdt. 500",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/500"
+  },
+  "2019-421": {
+   "author": "Kim",
+   "purpose": "increases funding for the Small Business Administration's Entrepreneurial Development Programs by $1,000,000 to be directed towards Small Business Development Centers and Veterans Business Outreach Centers.",
+   "amendment": "H.Amdt. 501",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/501"
+  },
+  "2019-422": {
+   "author": "Malinowski",
+   "purpose": "increases the minimum amount to be directed toward IRS' Tax Counseling for the Elderly Program by $1 million.",
+   "amendment": "H.Amdt. 502",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/502"
+  },
+  "2019-438": {
+   "author": "Smith (WA)",
+   "purpose": "requires an annual report on strikes undertaken by the United States against terrorist targets to be submitted by the Director of National Intelligence instead of the Secretary of Defense.",
+   "amendment": "H.Amdt. 507",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/507"
+  },
+  "2019-439": {
+   "author": "Speier",
+   "purpose": "requires that qualifications for eligibility to serve in the armed forces account only for the ability of an individual to meet gender-neutral occupational standards and not include any criteria relating to the race, color, national origin, religion, or sex (including gender identity or sexual orientation) of an individual.",
+   "amendment": "H.Amdt. 509",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/509"
+  },
+  "2019-440": {
+   "author": "Speier",
+   "purpose": "requires the Department of Defense to establish a standardized educational program on family planning for all branches of the military and requires the program to be provided during the first year of an individual's military service.",
+   "amendment": "H.Amdt. 510",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/510"
+  },
+  "2019-441": {
+   "author": "Brindisi",
+   "purpose": "requires stainless steel flatware procured by the Department of Defense to be reprocessed, reused, or produced in the United States.",
+   "amendment": "H.Amdt. 511",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/511"
+  },
+  "2019-442": {
+   "author": "Torres (CA)",
+   "purpose": "to prohibit the President from removing items from Categories I through III of the United States Munitions List, including firearms, close assault weapons and combat shotguns, guns and armament, and ammunition and ordnance.",
+   "amendment": "H.Amdt. 512",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/512"
+  },
+  "2019-443": {
+   "author": "Connolly",
+   "purpose": "prohibits the President or his designee from transferring or consolidating any functions, responsibilities, programs, staff or resources of the Office of Personnel.",
+   "amendment": "H.Amdt. 513",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/513"
+  },
+  "2019-444": {
+   "author": "Shalala",
+   "purpose": "requires the Secretary of Defense to publish online the distribution of DOD Tuition Assistance Funds at institutions of higher education, and audit any proprietary institution receiving DOD Tuition Assistance funds that fails to meet the Financial Responsibility Standards in the Higher Education Act of 1965.",
+   "amendment": "H.Amdt. 515",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/515"
+  },
+  "2019-445": {
+   "author": "Omar",
+   "purpose": "requires the Secretary of Defense to submit a report to Congress on the financial costs and national security benefits of operating, improving, and maintaining overseas military infrastructure.",
+   "amendment": "H.Amdt. 516",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/516"
+  },
+  "2019-446": {
+   "author": "Smith (WA)",
+   "purpose": "modifies the current statutory prohibition on members of Congress contracting with the federal government to include the President, Vice President, and any Cabinet member.",
+   "amendment": "H.Amdt. 517",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/517"
+  },
+  "2019-447": {
+   "author": "Sherman",
+   "purpose": "to prohibit funds from being used to transfer defense articles or services to Azerbaijan unless the President certifies to Congress that the articles or services do not threaten civil aviation.",
+   "amendment": "H.Amdt. 521",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/521"
+  },
+  "2019-448": {
+   "author": "Lieu, Ted",
+   "purpose": "prohibits the use of funds from the Special Defense Acquisition Fund to aid Saudi Arabia or the United Arab Emirates if such assistance could be used to conduct or continue hostilities in Yemen.",
+   "amendment": "H.Amdt. 522",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/522"
+  },
+  "2019-449": {
+   "author": "Lieu, Ted",
+   "purpose": "prohibits the use of funds to transfer any defense articles or services to Saudi Arabia or the United Arab Emirates under the emergency authority of the Arms Export Control Act that circumvent congressional review.",
+   "amendment": "H.Amdt. 523",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/523"
+  },
+  "2019-450": {
+   "author": "Smith (WA)",
+   "purpose": "prohibits support to and participation in the Saudi-led coalition military operations against the Houthis in Yemen.",
+   "amendment": "H.Amdt. 524",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/524"
+  },
+  "2019-451": {
+   "author": "Cicilline",
+   "purpose": "repeals existing restrictions on the United States from transferring and exporting weapons, defense articles, and services to the Republic of Cyprus.",
+   "amendment": "H.Amdt. 525",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/525"
+  },
+  "2019-452": {
+   "author": "Engel",
+   "purpose": "requires an analysis to compare Defense Department civilian casualty estimates to reported civilian casualty figures.",
+   "amendment": "H.Amdt. 526",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/526"
+  },
+  "2019-453": {
+   "author": "Engel",
+   "purpose": "expresses the sense of Congress that the United States should extend the New START Treaty with Russia and require a series of reports on potential consequences if the treaty lapses.",
+   "amendment": "H.Amdt. 527",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/527"
+  },
+  "2019-454": {
+   "author": "Blumenauer",
+   "purpose": "sought to require an independent study on options to extend the life of the Minuteman III intercontinental ballistic missiles and delay the ground-based strategic deterrent program. Also, the amendment sought to prevent 10 percent of funds for the Secretary of Defense from being distributed until the study was completed.",
+   "amendment": "H.Amdt. 528",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/528"
+  },
+  "2019-455": {
+   "author": "Blumenauer",
+   "purpose": "sought to require the Under Secretary for Nuclear Security to conduct a study on the unexpected cost increases for the W80-4 nuclear warhead life extension program and limit funding for the program until the study was completed.",
+   "amendment": "H.Amdt. 529",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/529"
+  },
+  "2019-456": {
+   "author": "Frankel",
+   "purpose": "prohibits the use of funds for missiles noncompliant with the Intermediate-Range Nuclear Forces Treaty until the Secretary of Defense meets certain conditions.",
+   "amendment": "H.Amdt. 530",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/530"
+  },
+  "2019-457": {
+   "author": "Lieu, Ted",
+   "purpose": "prohibits the use of funds from being obligated or expended at properties owned by the President or that bear his name, with a waiver made available if the President reimburses the Department of the Treasury for the amount associated with the expense.",
+   "amendment": "H.Amdt. 534",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/534"
+  },
+  "2019-458": {
+   "author": "Raskin",
+   "purpose": "prohibits the use of funds for an exhibition or parade of military forces and hardware, except for the display of small arms and munitions appropriate for customary ceremonial honors.",
+   "amendment": "H.Amdt. 535",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/535"
+  },
+  "2019-459": {
+   "author": "Lee (CA)",
+   "purpose": "sought to decrease funding for the Overseas Contingency Operations (OCO) account by $16.8 billion.",
+   "amendment": "H.Amdt. 538",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/538"
+  },
+  "2019-460": {
+   "author": "Amash",
+   "purpose": "sought to eliminate indefinite military detention of any person detained under AUMF authority in the U.S., territories, or possessions by providing immediate transfer to trial and proceedings by a court established under Article III of the Constitution of the United States or by an appropriate state court.",
+   "amendment": "H.Amdt. 539",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/539"
+  },
+  "2019-461": {
+   "author": "Tipton",
+   "purpose": "expresses the sense of Congress that military aviation training in Colorado, including the training conducted at the High-Altitude Army National Guard Aviation Training Site, is critical to the national security of the United States and the readiness of the Armed Forces.",
+   "amendment": "H.Amdt. 552",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/552"
+  },
+  "2019-462": {
+   "author": "Turner",
+   "purpose": "sought to prohibit the use of funds for the deployment of certain low-yield ballistic missile warheads and require the Secretary of Defense to certify on the availability of proportional response options.",
+   "amendment": "H.Amdt. 553",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/553"
+  },
+  "2019-463": {
+   "author": "Khanna",
+   "purpose": "prohibits unauthorized military force in or against Iran.",
+   "amendment": "H.Amdt. 554",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/554"
+  },
+  "2019-464": {
+   "author": "Lee (CA)",
+   "purpose": "to repeal the Authorization for Use of Military Force Against Iraq Resolution of 2002.",
+   "amendment": "H.Amdt. 555",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/555"
+  },
+  "2019-465": {
+   "author": "Lee (CA)",
+   "purpose": "expresses the sense of Congress that the 2001 AUMF has been utilized beyond the scope that Congress intended, and that any new authorization for the use of military force to replace the 2001 AUMF should include a sunset clause, a clear and specific expression of objectives, targets, geographic scope, and reporting requirements.",
+   "amendment": "H.Amdt. 556",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/556"
+  },
+  "2019-466": {
+   "author": "Garcia (TX)",
+   "purpose": "sought to prevent Department of Defense facilities from being used to house or detain unaccompanied migrant children.",
+   "amendment": "H.Amdt. 557",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/557"
+  },
+  "2019-467": {
+   "author": "Ocasio-Cortez",
+   "purpose": "sought to prohibit the use of funds for the executive branch to deploy troops to the southern border if the purpose of such deployment is to enforce immigration law.",
+   "amendment": "H.Amdt. 558",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/558"
+  },
+  "2019-468": {
+   "author": "Ocasio-Cortez",
+   "purpose": "to prohibit the President from using the authorized funds to detain undocumented immigrants in Department of Defense facilities.",
+   "amendment": "H.Amdt. 559",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/559"
+  },
+  "2019-469": {
+   "author": "Thompson (MS)",
+   "purpose": "prohibits DoD funding to house any foreign nationals who are in the custody of and detained by U.S. Immigration and Customs Enforcement.",
+   "amendment": "H.Amdt. 560",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/560"
+  },
+  "2019-470": {
+   "author": "Malinowski",
+   "purpose": "provides for a one-year prohibition on the sale of air-to-ground munitions used in the conflict in Yemen to the Kingdom of Saudi Arabia and the United Arab Emirates, and provides for an exemption for any export or license suspensions that would incur a cost to the United States Government.",
+   "amendment": "H.Amdt. 561",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/561"
+  },
+  "2019-471": {
+   "author": "Jayapal",
+   "purpose": "requires the Comptroller General of the United States to submit to Congress independent studies regarding potential cost savings with respect to the nuclear security enterprise and force structure.",
+   "amendment": "H.Amdt. 563",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/563"
+  },
+  "2019-490": {
+   "author": "Chabot",
+   "purpose": "sought to strike section 401 of the bill which establishes the Climate Security Advisory Council under the Director of National Intelligence.",
+   "amendment": "H.Amdt. 571",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/571"
+  },
+  "2019-491": {
+   "author": "Kennedy",
+   "purpose": "establishes the Foreign Threat Response Center to provide comprehensive assessment of foreign efforts to influence United States' political processes and elections by the governments of Russia, Iran, North Korea, China, and any other foreign country the Director determines appropriate.",
+   "amendment": "H.Amdt. 575",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/575"
+  },
+  "2019-494": {
+   "author": "O'Halleran",
+   "purpose": "requires the Government Accountability Office to submit a report to Congress on the economic and employment impacts of the four minimum wage increases in the bill to be prepared after the second wage increase and before the third wage increase. Also, the amendment requires Congress to assess the report's findings and to take any appropriate legislative action, including action to delay or otherwise modify the next scheduled wage increases.",
+   "amendment": "H.Amdt. 596",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/596"
+  },
+  "2019-503": {
+   "author": "Roe, David P.",
+   "purpose": "sought to set the loan interest rates at 5% per annum for the first 5 years and 9% per annum thereafter.",
+   "amendment": "H.Amdt. 600",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/600"
+  },
+  "2019-512": {
+   "author": "Massie",
+   "purpose": "to change the title of the bill to read \"A bill to kick the can down the road, and for other purposes.\".",
+   "amendment": "H.Amdt. 605",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/605"
+  },
+  "2019-520": {
+   "author": "Gosar",
+   "purpose": "sought to postpone the bill from going into effect until the DOI, in consultation with the DOL, certifies that the offshore energy moratorium in the bill would not eliminate a substantial number of minority and women jobs.",
+   "amendment": "H.Amdt. 616",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/616"
+  },
+  "2019-522": {
+   "author": "Gosar",
+   "purpose": "sought to change the name of the bill to the Russian Energy Reliance and U.S. Poverty Act.",
+   "amendment": "H.Amdt. 607",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/607"
+  },
+  "2019-523": {
+   "author": "Gosar",
+   "purpose": "sought to postpone the bill from going into effect until the DOI, in consultation with DOL, certifies that the offshore energy moratorium in the bill would not eliminate a substantial number of minority and women jobs.",
+   "amendment": "H.Amdt. 612",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/612"
+  },
+  "2019-526": {
+   "author": "Young",
+   "purpose": "to prohibit the repeal of the Arctic National Wildlife Refuge oil and gas program until the Alaska Natives who live and work closest to the proposed oil and gas development in the Coastal Plain of ANWR are thoroughly consulted regarding the effect of the bill on their quality of life and future.",
+   "amendment": "H.Amdt. 617",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/617"
+  },
+  "2019-527": {
+   "author": "Gosar",
+   "purpose": "to allow the bill to go into effect when DOI, in consultation with DOL, certifies that the offshore energy moratorium in the bill will not eliminate a substantial number of Native American, minority and women jobs.",
+   "amendment": "H.Amdt. 618",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/618"
+  },
+  "2019-528": {
+   "author": "Gosar",
+   "purpose": "to allow the bill to go into effect when DOI, in consultation with USFWS, certifies that the bill will not harm caribou herd populations.",
+   "amendment": "H.Amdt. 619",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/619"
+  },
+  "2019-539": {
+   "author": "Jordan",
+   "purpose": "sought to strike safe-harbor provisions from the bill.",
+   "amendment": "H.Amdt. 621",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/621"
+  },
+  "2019-561": {
+   "author": "Huizenga",
+   "purpose": "sought to exempt Form CRS, a disclosure document from the bill's investor testing requirements.",
+   "amendment": "H.Amdt. 627",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/627"
+  },
+  "2019-562": {
+   "author": "Gottheimer",
+   "purpose": "requires the SEC to include a specific consideration of the unique challenges senior investors face as part of their overall investor testing.",
+   "amendment": "H.Amdt. 628",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/628"
+  },
+  "2019-563": {
+   "author": "Wagner",
+   "purpose": "sought to apply the bill's investor testing requirements only to applicable disclosure documents developed after January 21, 2021.",
+   "amendment": "H.Amdt. 629",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/629"
+  },
+  "2019-565": {
+   "author": "Huizenga",
+   "purpose": "sought to exempt issuers from making additional disclosures if they are required to make a CEO pay ratio disclosure or disclosures relating to conflict minerals.",
+   "amendment": "H.Amdt. 631",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/631"
+  },
+  "2019-566": {
+   "author": "Hill (AR)",
+   "purpose": "sought to require disclosure of the information under the bill only if that information is material information for investors.",
+   "amendment": "H.Amdt. 632",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/632"
+  },
+  "2019-573": {
+   "author": "Burgess",
+   "purpose": "requires an annual report to Congress of anonymized data on the number of beneficial owners per reporting corporation or LLC, the industry of each reporting corporation or LLC, and the location of the beneficial owners.",
+   "amendment": "H.Amdt. 633",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/633"
+  },
+  "2019-574": {
+   "author": "Maloney, Carolyn B.",
+   "purpose": "to ensure FinCEN may use the information obtained by this bill to notify industry and the public about criminal trends, while maintaining safeguards on personal privacy.",
+   "amendment": "H.Amdt. 636",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/636"
+  },
+  "2019-575": {
+   "author": "Davidson (OH)",
+   "purpose": "sought to strike the bill's reporting mandate on small businesses, terminate the Customer Due Diligence Rule, and require the Department of the Treasury to conduct a study about all existing federal information databases available to law enforcement to discern the beneficial ownership of companies.",
+   "amendment": "H.Amdt. 637",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/637"
+  },
+  "2019-581": {
+   "author": "Lesko",
+   "purpose": "sought to remove the requirement that the Attorney General communicate corrective actions to the public.",
+   "amendment": "H.Amdt. 639",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/639"
+  },
+  "2019-593": {
+   "author": "Gosar",
+   "purpose": "sought to allow conveyance or exchange of federal land within the withdrawal area to or with state trust land entities, as well as Indian tribes.",
+   "amendment": "H.Amdt. 656",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/656"
+  },
+  "2019-594": {
+   "author": "Gosar",
+   "purpose": "to delay permanent mineral withdrawal until Secretary of the Interior determines that the withdrawal wont impact the ability to develop or the economic value of mineral rights held by Native Americans in the withdrawal area or the great Chaco region.",
+   "amendment": "H.Amdt. 657",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/657"
+  },
+  "2019-595": {
+   "author": "Arrington",
+   "purpose": "sought to allow operators to continue new oil and gas development in the proposed exclusionary zone if operators have previously been in accordance with the Historic Preservation Act as well as existing rules and regulations for archaeological sites and areas of sensitivity in Chaco Canyon Historical Park.",
+   "amendment": "H.Amdt. 658",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/658"
+  },
+  "2019-598": {
+   "author": "Gosar",
+   "purpose": "to specify the Act shall not become effective until the Secretary of the Interior, in consultation with the Secretary of Labor, finds that the withdrawal will not adversely affect jobs available to Native Americans, other minorities, and women.",
+   "amendment": "H.Amdt. 652",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/652"
+  },
+  "2019-599": {
+   "author": "Gosar",
+   "purpose": "to exclude lands in the 4th Congressional District of Arizona from the permanent mineral withdrawal under the Act.",
+   "amendment": "H.Amdt. 653",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/653"
+  },
+  "2019-600": {
+   "author": "Gosar",
+   "purpose": "to delay permanent mineral withdrawal under the Act until the Secretary of the Interior completes a mineral survey of proposed withdrawal area (including uranium, rare earth elements, geothermal resources and oil and natural gas) and determines there are no mineral resources, geothermal resources, or critical minerals present other than uranium.",
+   "amendment": "H.Amdt. 654",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/654"
+  },
+  "2019-605": {
+   "author": "Curtis",
+   "purpose": "to any lands or waters within the Third Congressional District of Colorado.",
+   "amendment": "H.Amdt. 659",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/659"
+  },
+  "2019-606": {
+   "author": "Tipton",
+   "purpose": "sought to limit lands being transferred from Forest Service to National Park Service based on management under a current memorandum of understanding.",
+   "amendment": "H.Amdt. 663",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/663"
+  },
+  "2019-607": {
+   "author": "Crow",
+   "purpose": "to reaffirm the critical importance of Federal public lands to the Colorado High-Altitude Army National Guard Aviation Training Site (HAATS).",
+   "amendment": "H.Amdt. 664",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/664"
+  },
+  "2019-617": {
+   "author": "Torres (CA)",
+   "purpose": "ensures the Export-Import Bank will not provide credit to any individual who is subject to sanctions related to serious violations of human rights or free speech.",
+   "amendment": "H.Amdt. 666",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/666"
+  },
+  "2019-618": {
+   "author": "Flores",
+   "purpose": "sought to strike section 13, and create the office of energy efficiency and clean energy exports which would have sought to advise the Export-Import Bank board on ways to improve the export of goods and services that increase energy efficiency and clean energy abroad.",
+   "amendment": "H.Amdt. 667",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/667"
+  },
+  "2019-619": {
+   "author": "McAdams",
+   "purpose": "expands the prohibition on the Board of Directors of the Export-Import Bank from approving a transaction unless the person receiving the Agency's support certifies that the individual does not engage in any activity in contravention of any U.S. law, regulation, or order concerning sanctions relating to the illegal trafficking of synthetic opioids, including any sanctions imposed pursuant to the Foreign Narcotics Kingpin Designation Act.",
+   "amendment": "H.Amdt. 668",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/668"
+  },
+  "2019-620": {
+   "author": "Davidson (OH)",
+   "purpose": "sought to prohibit Agency assistance for the governments of certain countries unless the President certifies that the government is cooperating with the U.S. to prevent illegal trafficking of synthetic opioids.",
+   "amendment": "H.Amdt. 669",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/669"
+  },
+  "2019-621": {
+   "author": "Stevens",
+   "purpose": "requires the United States Export Finance Agency to emphasize outreach to small businesses in sectors that have been impacted by retaliatory tariffs.",
+   "amendment": "H.Amdt. 682",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/682"
+  },
+  "2019-622": {
+   "author": "Torres Small (NM)",
+   "purpose": "prohibits the Export-Import Bank from providing financing to a person involved in sanctionable activity relating to human rights abuses, specifically human trafficking including sex trafficking.",
+   "amendment": "H.Amdt. 685",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/685"
+  },
+  "2019-637": {
+   "author": "Byrne",
+   "purpose": "sought to require the Occupational Safety and Health Administration to promulgate a final standard on workplace violence prevention for health care and social service workers.",
+   "amendment": "H.Amdt. 688",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/688"
+  },
+  "2019-638": {
+   "author": "Harder (CA)",
+   "purpose": "to ensure that nothing in this Act shall be construed to limit or prevent healthcare workers from reporting violent incidents to appropriate law enforcement.",
+   "amendment": "H.Amdt. 689",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/689"
+  },
+  "2019-639": {
+   "author": "Wexton",
+   "purpose": "to ensure that nothing in this Act shall be construed to limit or diminish any protections in relevant federal, state or local law related to domestic violence, stalking, dating violence, and sexual assault.",
+   "amendment": "H.Amdt. 694",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/694"
+  },
+  "2019-640": {
+   "author": "Delgado",
+   "purpose": "to direct OSHA to prioritize providing technical assistance and advice to employers throughout the first year of the Act to ensure businesses are in compliance.",
+   "amendment": "H.Amdt. 695",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/695"
+  },
+  "2019-648": {
+   "author": "Huizenga",
+   "purpose": "sought to strike the term \"aware of\" included in the bill and replaces with the term \"using\".",
+   "amendment": "H.Amdt. 697",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/697"
+  },
+  "2019-660": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of the following amendments printed in House Report 116-330 as en bloc No. 1: 1, 2, 3, 5, 7, 10, 11, 13, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 27, and 28, which appears on pages H9989-H9991 of the Congressional Record of December 10, 2019.",
+   "amendment": "H.Amdt. 700",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/700"
+  },
+  "2019-661": {
+   "author": "Brown (MD)",
+   "purpose": "authorizes the NOAA Administrator to award grants to eligible entities for collaborative research projects on the conservation, restoration, or management of oysters in the Chesapeake Bay.",
+   "amendment": "H.Amdt. 701",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/701"
+  },
+  "2019-662": {
+   "author": "Crist",
+   "purpose": "includes projects to address harmful algal blooms under the Climate Change Adaptation Preparedness and Response Program.",
+   "amendment": "H.Amdt. 705",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/705"
+  },
+  "2019-663": {
+   "author": "Panetta",
+   "purpose": "adds a finding that collaborations and partnerships between institutions of higher education and Federal agencies help ensure digital data focused on coastal management issues are communicated effectively between such entities.",
+   "amendment": "H.Amdt. 706",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/706"
+  },
+  "2019-664": {
+   "author": "Mucarsel-Powell",
+   "purpose": "includes corals as a natural element eligible for grants provided for by the Living Shoreline Grant Program.",
+   "amendment": "H.Amdt. 707",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/707"
+  },
+  "2019-665": {
+   "author": "Luria",
+   "purpose": "directs NOAA to consider the potential of a living shoreline project to support the resiliency of military communities when developing criteria for grant applications.",
+   "amendment": "H.Amdt. 708",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/708"
+  },
+  "2019-666": {
+   "author": "Johnson (LA)",
+   "purpose": "sought to amend the Marine Mammal Protection Act of 1972 to limit the scope of the moratorium on taking and importing marine mammals and marine mammal products, and revise the requirements for obtaining an authorization for incidentally taking by harassment marine mammals.",
+   "amendment": "H.Amdt. 709",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/709"
+  },
+  "2019-676": {
+   "author": "Walden",
+   "purpose": "sought to strike all after the enacting clause and insert new text entitled, \"Lower Costs, More Cures Act of 2019\" which appears on page H10167 of the Congressional Record of December 12, 2019.",
+   "amendment": "H.Amdt. 711",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/711"
+  },
+  "2019-677": {
+   "author": "O'Halleran",
+   "purpose": "creates a grant program within HHS for hospitals located in rural and medically underserved areas, including Critical Access Hospitals, to cover the start-up costs for establishing a Graduate Medical Education (GME) program or a partnership with a hospital that has an existing program. Amendment includes a reporting requirement for GAO to analyze whether residents continue to practice in a rural or medically underserved area after completing their training.",
+   "amendment": "H.Amdt. 715",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/715"
+  },
+  "2019-678": {
+   "author": "Gottheimer",
+   "purpose": "requires an HHS study to identify conditions without an FDA-approved treatment where the development of a treatment would fill an unmet medical need for a serious or life-threatening condition or rare disease. Also, the amendment requires HHS to identify appropriate incentives that would lead to the development of such treatments.",
+   "amendment": "H.Amdt. 717",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/717"
+  },
+  "2019-679": {
+   "author": "Luria",
+   "purpose": "to clarify that federal employee health plans are covered by the price reduction provisions of the bill.",
+   "amendment": "H.Amdt. 720",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/720"
+  },
+  "2019-680": {
+   "author": "Cunningham",
+   "purpose": "allows the Department of Veterans Affairs to benefit from Maximum Fair Pricing guidelines.",
+   "amendment": "H.Amdt. 721",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/721"
+  },
+  "2020-9": {
+   "author": "Burgess",
+   "purpose": "sought to remove the section of the bill that directs the EPA to designate PFAS as hazardous substances under the Comprehensive Environmental Response, Compensation, and Liability Act.",
+   "amendment": "H.Amdt. 728",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/728"
+  },
+  "2020-10": {
+   "author": "Balderson",
+   "purpose": "to prevent implementation of the bill's provisions until after the EPA Administrator certifies that its own PFAS Action Plan is completed.",
+   "amendment": "H.Amdt. 731",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/731"
+  },
+  "2020-11": {
+   "author": "Pappas",
+   "purpose": "requires the Administrator of the Environmental Protection Agency to review and develop effluent standards, pretreatment standards, and water quality criteria for PFAS under the Federal Water Pollution Control Act.",
+   "amendment": "H.Amdt. 738",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/738"
+  },
+  "2020-19": {
+   "author": "Allen",
+   "purpose": "sought to prevent the bill's provisions from taking effect until the Government Accountability Office reports to Congress on whether the Supreme Court's decisions in Gross v. FBL Financial Services, Inc., 557 U.S. 167 (2009), and Texas Southwestern Medical Center v. Nassar, 570 U.S. 338 (2013), discouraged individuals from filing age discrimination charges and title VII retaliation charges with the Equal Employment Opportunity Commission.",
+   "amendment": "H.Amdt. 750",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/750"
+  },
+  "2020-28": {
+   "author": "Clay",
+   "purpose": "clarifies the Federal law for reporting certain positive consumer credit information to Credit Reporting Agecies (CRA), and seeks to expand access to credit through use of alternative data.",
+   "amendment": "H.Amdt. 756",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/756"
+  },
+  "2020-29": {
+   "author": "Brown (MD)",
+   "purpose": "reaffirms Congressional efforts to enhance cybersecurity and implement routine security updates of databases maintained by nationwide consumer reporting agencies that contain sensitive consumer data as critical to the national security of the United States. Additionally, consumer reporting agencies will meet minimum training and ongoing certification requirements as established by the Director of The Bureau of Consumer Financial Protection, and the amendment includes a budgetary offset.",
+   "amendment": "H.Amdt. 765",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/765"
+  },
+  "2020-41": {
+   "author": "Stevens",
+   "purpose": "to clarify that the ABC test included in the PRO Act does not preempt any State laws governing the wages, work hours, workers compensation, or unemployment insurance of employees.",
+   "amendment": "H.Amdt. 767",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/767"
+  },
+  "2020-42": {
+   "author": "Foxx (NC)",
+   "purpose": "to strike the provision requiring that employers turn over employees personal information to a labor union within two days of the National Labor Relations Board ordering a representation election.",
+   "amendment": "H.Amdt. 768",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/768"
+  },
+  "2020-43": {
+   "author": "Roe, David P.",
+   "purpose": "sought to strike the provision allowing unions to be certified without winning a secret ballot election under certain circumstances and replace it with a requirement that all unions win a secret-ballot election in order to be certified.",
+   "amendment": "H.Amdt. 770",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/770"
+  },
+  "2020-44": {
+   "author": "Wild",
+   "purpose": "to clarify that this bill shall not be construed to affect the privacy of employees with respect to voters' lists provided to labor organizations by employers pursuant to elections directed by the Board.",
+   "amendment": "H.Amdt. 771",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/771"
+  },
+  "2020-45": {
+   "author": "Allen",
+   "purpose": "sought to strike the provision overturning state right-to-work laws.",
+   "amendment": "H.Amdt. 772",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/772"
+  },
+  "2020-46": {
+   "author": "Meadows",
+   "purpose": "sought to strike the bill's provisions that limit states' ability to enact right-to-work laws.",
+   "amendment": "H.Amdt. 776",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/776"
+  },
+  "2020-47": {
+   "author": "Jackson Lee",
+   "purpose": "provides whistleblower protections to employees who report violations of the Labor Management Reporting and Disclosure Act.",
+   "amendment": "H.Amdt. 777",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/777"
+  },
+  "2020-48": {
+   "author": "Rouda",
+   "purpose": "to state that nothing in the bill shall be construed to affect the jurisdictional standards of the NLRB with respect to small businesses.",
+   "amendment": "H.Amdt. 782",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/782"
+  },
+  "2020-52": {
+   "author": "Shalala",
+   "purpose": "increases funding to conduct a study on the impacts on educational attainment, long-term economic opportunities and well-being of students from Puerto Rico who have had to disrupt or change their educational path due to a natural disaster.",
+   "amendment": "H.Amdt. 783",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/783"
+  },
+  "2020-60": {
+   "author": "DeGette",
+   "purpose": "adds four unique wilderness areas to the state of Colorado.",
+   "amendment": "H.Amdt. 789",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/789"
+  },
+  "2020-61": {
+   "author": "McClintock",
+   "purpose": "to delay wilderness designations under the Act until the affected county formally approves such designation.",
+   "amendment": "H.Amdt. 790",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/790"
+  },
+  "2020-62": {
+   "author": "McClintock",
+   "purpose": "sought to allow the Secretary of Agriculture or the Secretary of the Interior, as appropriate, to exclude from wilderness designations under this Act any areas that do not meet the definition of wilderness in the Wilderness Act.",
+   "amendment": "H.Amdt. 791",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/791"
+  },
+  "2020-63": {
+   "author": "Panetta",
+   "purpose": "to state that the Secretary of the Interior or the Secretary of Agriculture may manage for fire, insects, and diseases in wilderness areas designated by this Act.",
+   "amendment": "H.Amdt. 793",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/793"
+  },
+  "2020-64": {
+   "author": "Westerman",
+   "purpose": "to allow the Secretary of Agriculture or Secretary of the Interior, as appropriate, to exempt from wilderness designations under the Act any area determined by the Secretary to be at high risk of wildfire.",
+   "amendment": "H.Amdt. 794",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/794"
+  },
+  "2020-65": {
+   "author": "Westerman",
+   "purpose": "sought to strike all potential wilderness designations under the bill.",
+   "amendment": "H.Amdt. 795",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/795"
+  },
+  "2020-66": {
+   "author": "Cunningham",
+   "purpose": "to ensure that military aircraft overflights, units of special air space, and flight training routes are allowed over wilderness areas designated by this Act.",
+   "amendment": "H.Amdt. 796",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/796"
+  },
+  "2020-67": {
+   "author": "Tipton",
+   "purpose": "sought to remove the designation of certain lands in Montezuma County, Colorado, as wilderness areas under the bill.",
+   "amendment": "H.Amdt. 797",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/797"
+  },
+  "2020-87": {
+   "author": "Cisneros",
+   "purpose": "to require the Secretary of Homeland Security to prioritize the hiring of veterans and related preference eligible individuals, including disabled veterans and widows or widowers of veterans, for positions within the Transportation Security Administration.",
+   "amendment": "H.Amdt. 809",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/809"
+  },
+  "2020-88": {
+   "author": "Mucarsel-Powell",
+   "purpose": "ensures the Administrator of TSA is in coordination with the Director of CDC and NIAID and shall ensure that TSA employees are provided the proper guidance regarding prevention and protections against coronavirus, including guidance and resources.",
+   "amendment": "H.Amdt. 811",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/811"
+  },
+  "2020-99": {
+   "author": "Buck",
+   "purpose": "to change the title to read \"A bill to be known as the Federal Initiative to Spy on Americans (FISA) Act\".",
+   "amendment": "H.Amdt. 814",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/814"
+  },
+  "2020-132": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of amendments numbered 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, and 45, printed in part B of House Report 116-438 and printed on page H2939 of the Congressional Record dated June 30, 2020.",
+   "amendment": "H.Amdt. 821",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/821"
+  },
+  "2020-133": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of amendments numbered 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, and 28, printed in part D of House Report 116-438 and printed on page H2963 of the Congressional Record dated June 30, 2020.",
+   "amendment": "H.Amdt. 823",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/823"
+  },
+  "2020-134": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of amendments numbered 1, 2, 3, 4, 5, 6, 7, and 8, printed in part G of House Report 116-438.",
+   "amendment": "H.Amdt. 826",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/826"
+  },
+  "2020-135": {
+   "author": "Foxx (NC)",
+   "purpose": "sought to eliminate the requirement that all laborers and mechanics working on federal-aid highway and public transportation projects shall be paid wages at rates not less than the locally prevailing wage rate.",
+   "amendment": "H.Amdt. 827",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/827"
+  },
+  "2020-136": {
+   "author": "Tlaib",
+   "purpose": "increases funding for comprehensive lead service line replacement program by $4.44 billion and requires the administrator to give priority to eligible entities serving disadvantaged communities.",
+   "amendment": "H.Amdt. 829",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/829"
+  },
+  "2020-141": {
+   "author": "Escobar",
+   "purpose": "requires certifications be made to Congress when the President deploys active duty military within the United States during civil unrest by amending the Insurrection Act in Title 10, Chapter 13 of U.S. Code.",
+   "amendment": "H.Amdt. 833",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/833"
+  },
+  "2020-142": {
+   "author": "McAdams",
+   "purpose": "prohibits the use of funds for new nuclear testing in fiscal year 2021.",
+   "amendment": "H.Amdt. 834",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/834"
+  },
+  "2020-143": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of the following amendments printed in House Report 116-457 as en bloc No.1: Nos. 1, 2, 10, 12, 14, 15, 16, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, and 407.",
+   "amendment": "H.Amdt. 841",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/841"
+  },
+  "2020-144": {
+   "author": "Omar",
+   "purpose": "sought to establish a policy framework for the accelerated withdrawal of U.S. forces from Afghanistan.",
+   "amendment": "H.Amdt. 835",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/835"
+  },
+  "2020-145": {
+   "author": "Jayapal",
+   "purpose": "sought to strike the statutory requirement that the Pentagon provide annual Unfunded Priorities lists to Congress.",
+   "amendment": "H.Amdt. 836",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/836"
+  },
+  "2020-146": {
+   "author": "DeGette",
+   "purpose": "adds the text of H.R. 2546, the Protecting America's Wilderness Act, to the bill.",
+   "amendment": "H.Amdt. 837",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/837"
+  },
+  "2020-147": {
+   "author": "Neguse",
+   "purpose": "adds the text of H.R. 823, the Colorado Outdoor Recreation and Economy Act, to the bill and permanently withdraws one million acres of public land surrounding Grand Canyon National Park that are already (as of 2012) subject to a 20-year moratorium on new mining claims.",
+   "amendment": "H.Amdt. 838",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/838"
+  },
+  "2020-148": {
+   "author": "Pocan",
+   "purpose": "sought to reduce the overall authorization level by 10%; excluding military personnel, DoD federal civilian workforce, and defense health program accounts from the 10% reduction.",
+   "amendment": "H.Amdt. 839",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/839"
+  },
+  "2020-149": {
+   "author": "Dean",
+   "purpose": "provides up to $10,000 in immediate assistance to pay down the balance of private student loans, and requires the servicer to modify the loan when borrower payments resume.",
+   "amendment": "H.Amdt. 840",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/840"
+  },
+  "2020-150": {
+   "author": "Takano",
+   "purpose": "makes military education benefits count as federal educational assistance funds and limits the availability of federal funds for proprietary for-profit institutions unless the institution derives at least 10% of funds from sources other than federal funds.",
+   "amendment": "H.Amdt. 845",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/845"
+  },
+  "2020-159": {
+   "author": "Allen",
+   "purpose": "sought to reduce spending in Division A (State, Foreign Operations, and Related Programs) by 5 percent.",
+   "amendment": "H.Amdt. 849",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/849"
+  },
+  "2020-160": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of the following amendments printed in House Report 116-459 as en bloc No. 2: Nos. 3, 4, 5, 6, 7, 8, 9, 10, 13, 17, 18, 21, 22, 23, 24, 27, 28, 29, 31, 33, 39, 58, 61, 64, 65, 70, 72, 78, 83, 84, 85, 87, 91, 92, 93, 94, 97, 98, 105, and 110.",
+   "amendment": "H.Amdt. 851",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/851"
+  },
+  "2020-161": {
+   "author": "",
+   "purpose": "Amendments en bloc comprised of the following amendments printed in House Report 116-459 as en bloc No. 3: Nos. 15, 25, 36, 68, 74, 76, 77, 88, 89, 90, 95, 96, 101, 112, 120, and 124.",
+   "amendment": "H.Amdt. 852",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/852"
+  },
+  "2020-162": {
+   "author": "Allen",
+   "purpose": "sought to reduce spending in Division C (Department of the Interior, Environment, and Related Agencies) by 5 percent.",
+   "amendment": "H.Amdt. 853",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/853"
+  },
+  "2020-163": {
+   "author": "Tonko",
+   "purpose": "to prohibit funds from being used by the EPA to finalize, implement, or en force the proposed rule, Review of the National Ambient Air Quality Standards for Particulate Matter published in the Federal Register by the Environmental Protection Agency on April 30, 2020 (85 Fed. Reg. 24094 et seq.), which fails to protect, within an adequate margin of safety, communities of color from harmful air pollution during a global public health pandemic, where those communities are experiencing a disproportionately high death rate made worse by decades of exposure to toxic pollution.",
+   "amendment": "H.Amdt. 854",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/854"
+  },
+  "2020-164": {
+   "author": "Smith (MO)",
+   "purpose": "sought to reduce funding for the EPA Environmental programs and management to match the President's FY 21 budget request.",
+   "amendment": "H.Amdt. 856",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/856"
+  },
+  "2020-173": {
+   "author": "Ocasio-Cortez",
+   "purpose": "to prohibit the use of funds for military recruitment via Twitch and e-sports activities.",
+   "amendment": "H.Amdt. 863",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/863"
+  },
+  "2020-174": {
+   "author": "Blumenauer",
+   "purpose": "An prohibits the Department of Justice from interfering with state and tribal cannabis programs. The term state includes the District of Columbia, the Commonwealth of the Northern Mariana Islands, Guam, the Virgin Islands, and Puerto Rico.",
+   "amendment": "H.Amdt. 864",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/864"
+  },
+  "2020-175": {
+   "author": "Underwood",
+   "purpose": "prevents the Department of Justice from using federal funds for litigation that undermines the Affordable Care Act.",
+   "amendment": "H.Amdt. 865",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/865"
+  },
+  "2020-176": {
+   "author": "Allen",
+   "purpose": "to reduce funds made available in Division F (LHHS) by 5 percent.",
+   "amendment": "H.Amdt. 869",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/869"
+  },
+  "2020-187": {
+   "author": "Allen",
+   "purpose": "to provide school districts flexibility with their funds under the Student Support and Academic Enrichment Grants to carry out integration activities.",
+   "amendment": "H.Amdt. 877",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/877"
+  },
+  "2020-188": {
+   "author": "Moulton",
+   "purpose": "to expand the allowable uses of implementation grants to include creating or improving a one-stop enrollment process for students with multiple public school options, including making school information and data more accessible and easier to understand.",
+   "amendment": "H.Amdt. 880",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/880"
+  },
+  "2020-202": {
+   "author": "",
+   "purpose": "Amendments en bloc No. 1 consisting of amendment Nos. 1, 14, 15, 18, 23, 24, 26, 29, 39, 40, 41, 42, 47, 49, 50, 54, 64, 69, 72, 77, 78, 79, 80, 81, 94, and 98, printed in Part B of House Report 116-528 which appears on H4899 of the Congressional Record dated September 24, 2020.",
+   "amendment": "H.Amdt. 889",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/889"
+  },
+  "2020-203": {
+   "author": "Haaland",
+   "purpose": "increases authorizations for energy R&D accounts by 50 percent and adds an authorization for total funding for research, development, demonstration and commercialization activities for EERE.",
+   "amendment": "H.Amdt. 892",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/892"
+  },
+  "2020-204": {
+   "author": "",
+   "purpose": "Amendments en bloc 4 consisting of amendment Nos. 33, 34,46,53,62,63,68,76,82,and 92, printed in Part B of House Report 116-528 which appears on H4939 of the Congressional Record dated September 24, 2020.",
+   "amendment": "H.Amdt. 893",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/893"
+  },
+  "2020-225": {
+   "author": "Levin (MI)",
+   "purpose": "establishes that any eligible entity applying for a title II grant should be partnering with a labor or joint labor-management organization, to the extent practicable.",
+   "amendment": "H.Amdt. 901",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/901"
+  },
+  "2020-226": {
+   "author": "Smucker",
+   "purpose": "sought to provide authority for additional programs of work-based learning, strike the establishment of the National Advisory Committee and interagency agreement, and provide additional flexibility for the state plan process.",
+   "amendment": "H.Amdt. 902",
+   "url": "https://www.congress.gov/amendment/116th-congress/house-amendment/902"
+  }
+ }
+}

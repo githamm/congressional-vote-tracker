@@ -1,0 +1,2817 @@
+{
+ "_comment": "Amendments that got a recorded House vote, keyed by roll call: who offered them and what they did, from the Congress.gov API (fetch_legislation.py). 'bills' records when each bill's amendments were last checked.",
+ "congress": 110,
+ "updated": "2026-11-12",
+ "bills": {
+  "H CON RES 312": "2026-11-12",
+  "H CON RES 99": "2026-11-12",
+  "H R 1100": "2026-11-12",
+  "H R 1227": "2026-11-12",
+  "H R 1257": "2026-11-12",
+  "H R 1286": "2026-11-12",
+  "H R 1338": "2026-11-12",
+  "H R 1361": "2026-11-12",
+  "H R 1401": "2026-11-12",
+  "H R 1424": "2026-11-12",
+  "H R 1427": "2026-11-12",
+  "H R 1429": "2026-11-12",
+  "H R 1538": "2026-11-12",
+  "H R 1585": "2026-11-12",
+  "H R 1684": "2026-11-12",
+  "H R 1851": "2026-11-12",
+  "H R 1852": "2026-11-12",
+  "H R 1867": "2026-11-12",
+  "H R 1873": "2026-11-12",
+  "H R 1908": "2026-11-12",
+  "H R 2016": "2026-11-12",
+  "H R 2082": "2026-11-12",
+  "H R 2206": "2026-11-12",
+  "H R 2262": "2026-11-12",
+  "H R 2316": "2026-11-12",
+  "H R 2419": "2026-11-12",
+  "H R 2446": "2026-11-12",
+  "H R 249": "2026-11-12",
+  "H R 2537": "2026-11-12",
+  "H R 2634": "2026-11-12",
+  "H R 2638": "2026-11-12",
+  "H R 2641": "2026-11-12",
+  "H R 2642": "2026-11-12",
+  "H R 2643": "2026-11-12",
+  "H R 2669": "2026-11-12",
+  "H R 2693": "2026-11-12",
+  "H R 2761": "2026-11-12",
+  "H R 2764": "2026-11-12",
+  "H R 2768": "2026-11-12",
+  "H R 2771": "2026-11-12",
+  "H R 2786": "2026-11-12",
+  "H R 2829": "2026-11-12",
+  "H R 2830": "2026-11-12",
+  "H R 2857": "2026-11-12",
+  "H R 2881": "2026-11-12",
+  "H R 2895": "2026-11-12",
+  "H R 3021": "2026-11-12",
+  "H R 3036": "2026-11-12",
+  "H R 3043": "2026-11-12",
+  "H R 3074": "2026-11-12",
+  "H R 3093": "2026-11-12",
+  "H R 3121": "2026-11-12",
+  "H R 3161": "2026-11-12",
+  "H R 3221": "2026-11-12",
+  "H R 3222": "2026-11-12",
+  "H R 327": "2026-11-12",
+  "H R 3355": "2026-11-12",
+  "H R 3521": "2026-11-12",
+  "H R 3524": "2026-11-12",
+  "H R 363": "2026-11-12",
+  "H R 3667": "2026-11-12",
+  "H R 3678": "2026-11-12",
+  "H R 3685": "2026-11-12",
+  "H R 3690": "2026-11-12",
+  "H R 3773": "2026-11-12",
+  "H R 3915": "2026-11-12",
+  "H R 3920": "2026-11-12",
+  "H R 3996": "2026-11-12",
+  "H R 3997": "2026-11-12",
+  "H R 3999": "2026-11-12",
+  "H R 4120": "2026-11-12",
+  "H R 4137": "2026-11-12",
+  "H R 415": "2026-11-12",
+  "H R 493": "2026-11-12",
+  "H R 5140": "2026-11-12",
+  "H R 547": "2026-11-12",
+  "H R 5501": "2026-11-12",
+  "H R 5522": "2026-11-12",
+  "H R 5540": "2026-11-12",
+  "H R 556": "2026-11-12",
+  "H R 5658": "2026-11-12",
+  "H R 569": "2026-11-12",
+  "H R 5715": "2026-11-12",
+  "H R 5781": "2026-11-12",
+  "H R 5818": "2026-11-12",
+  "H R 5819": "2026-11-12",
+  "H R 5876": "2026-11-12",
+  "H R 5959": "2026-11-12",
+  "H R 6": "2026-11-12",
+  "H R 6003": "2026-11-12",
+  "H R 6052": "2026-11-12",
+  "H R 6063": "2026-11-12",
+  "H R 6460": "2026-11-12",
+  "H R 6599": "2026-11-12",
+  "H R 6842": "2026-11-12",
+  "H R 700": "2026-11-12",
+  "H R 720": "2026-11-12",
+  "H R 7321": "2026-11-12",
+  "H R 800": "2026-11-12",
+  "H R 928": "2026-11-12",
+  "H R 976": "2026-11-12",
+  "H R 985": "2026-11-12"
+ },
+ "votes": {
+  "2007-81": {
+   "author": "Eshoo",
+   "purpose": "to insert a new paragraph in lieu of the matter proposed to be inserted by the Burgess amendment to section 3. The new matter seeks to insert text regarding strategies to minimize emissions from infrastructure.",
+   "amendment": "H.Amdt. 3",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/3"
+  },
+  "2007-84": {
+   "author": "Dent",
+   "purpose": "to add provisions which allow fuel distributors and retailers to transform their businesses by dispensing hydrogen, reformed on site from various feedstocks, or delivered by pipeline or tube trucks, resulting in new storage, handling, and equipment challenges necessary beyond that carried out under the Energy Policy Act of 2005.",
+   "amendment": "H.Amdt. 6",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/6"
+  },
+  "2007-87": {
+   "author": "Hastings (FL)",
+   "purpose": "to include language which encourages the Assistant Administrator to utilize Land Grant Institutions, Historically Black Colleges and Universities, Hispanic Serving Institutions and other minority serving institutions among other resources to undertake research for programs covered by the bill.",
+   "amendment": "H.Amdt. 4",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/4"
+  },
+  "2007-88": {
+   "author": "Rogers (MI)",
+   "purpose": "to add a new paragraph to section 3, Biofuel Infrastructure and Additives Research and Development, to include issues with respect to where in the fuel supply chain additives optimally should be added to fuels.",
+   "amendment": "H.Amdt. 7",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/7"
+  },
+  "2007-89": {
+   "author": "Weller",
+   "purpose": "to add a new paragraph to section 3 which includes issues with respect to certification by a nationally recognized testing laboratory of compenents for fuel dispensing devises that specifically reference compatibility with alcohol blended and biofuels that contain greater than 15 percent alcohol.",
+   "amendment": "H.Amdt. 5",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/5"
+  },
+  "2007-90": {
+   "author": "Cantor",
+   "purpose": "to add a new section 7 entitled Additional Funding.",
+   "amendment": "H.Amdt. 11",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/11"
+  },
+  "2007-106": {
+   "author": "McCaul (TX)",
+   "purpose": "to insert a new paragraph entitled Contents of Report Related to Barriers to Investment into the United States and specifies for inclusion in the report a detailed discussion of factors including the effective rate of taxation on entrepeneurs and businesess and other sources of capital in the U.S. as compared to other countries.",
+   "amendment": "H.Amdt. 18",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/18"
+  },
+  "2007-107": {
+   "author": "McCaul (TX)",
+   "purpose": "to insert a new paragraph entitled Contents of Report Related to Barriers to Investment into the United States and specifies for inclusion in the report a detailed discussion of factors including the amount of burdensome regulation in the United States as compared to other countries that affect the number of filings, changes in the types of business sectors involved in filings, and changes in the number of investments originating from specific countries.",
+   "amendment": "H.Amdt. 19",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/19"
+  },
+  "2007-108": {
+   "author": "McCaul (TX)",
+   "purpose": "to insert a new paragraph entitled Contents of Report Related to Barriers to Investment into the United States and specifies for inclusion in the report a detailed discussion of factors including trend information on the number of jobs in the United States related to foreign investment resulting from covered transactions, that affect the number of filings, changes in the type of business sectors involved in filings, and changes in the number of investments originating from specific countries.",
+   "amendment": "H.Amdt. 20",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/20"
+  },
+  "2007-114": {
+   "author": "King (IA)",
+   "purpose": "to add a section to the bill to amend the National Labor Relations Act to discourage the practice of `salting'. This amendment will change the NLRA to ensure that a company's workers are employed for the sole benefit of that company.",
+   "amendment": "H.Amdt. 21",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/21"
+  },
+  "2007-115": {
+   "author": "Foxx",
+   "purpose": "to promulgate standards and a model notice for an employee to put him- or herself on a `do not call or contact' list to avoid union solicitation.",
+   "amendment": "H.Amdt. 22",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/22"
+  },
+  "2007-116": {
+   "author": "McKeon",
+   "purpose": "would strike the underlying text and insert in its place the text of H.R. 866, the Secret Ballot Protection Act. The amendment would prohibit the recognition of unions via card check, and provide that a union may only be recognized and certified after a secret ballot election conducted by the National Labor Relations Board.",
+   "amendment": "H.Amdt. 23",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/23"
+  },
+  "2007-123": {
+   "author": "Price (GA)",
+   "purpose": "to add a new section to the bill requiring offsets.",
+   "amendment": "H.Amdt. 25",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/25"
+  },
+  "2007-128": {
+   "author": "Price (GA)",
+   "purpose": "to add a new section at the end of the bill to require offsets.",
+   "amendment": "H.Amdt. 30",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/30"
+  },
+  "2007-133": {
+   "author": "Baker",
+   "purpose": "to strike the Davis-Bacon section of the bill.",
+   "amendment": "H.Amdt. 35",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/35"
+  },
+  "2007-150": {
+   "author": "Sali",
+   "purpose": "to remove the provision that would make influencing federally funded scientific research a prohibited personnel practice.",
+   "amendment": "H.Amdt. 44",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/44"
+  },
+  "2007-151": {
+   "author": "Stupak",
+   "purpose": "to clarifies that instances of political interference with science are to be considered `abuses of authority' and their disclosure therefore protected. The Stupak amendment adds an example of such interference, namely preventing a federal scientist or grantee from publishing or presenting their research.",
+   "amendment": "H.Amdt. 41",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/41"
+  },
+  "2007-164": {
+   "author": "Hensarling",
+   "purpose": "to require recipients of rental assistance under the bill to perform 20 hours per week of approved `work activities.' Approved activities include work, preparation to find work, vocational education, community service, and providing child care services. Exemptions are provided for senior citizens, the disabled, those already exempt from TANF work requirements, and those who cannot access child care.",
+   "amendment": "H.Amdt. 52",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/52"
+  },
+  "2007-165": {
+   "author": "Biggert",
+   "purpose": "to require that, instead of replacing all pre-Katrina public housing units, only the number of public housing units occupied pre-Katrina be replaced.",
+   "amendment": "H.Amdt. 53",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/53"
+  },
+  "2007-168": {
+   "author": "Neugebauer",
+   "purpose": "to strike section 306 of the bill. Section 306 authorizes funds for eligible families to continue receiving voucher assistance after the termination of the Disaster Voucher Program.",
+   "amendment": "H.Amdt. 55",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/55"
+  },
+  "2007-169": {
+   "author": "Price (GA)",
+   "purpose": "to strike section 103 of the bill. Section 103 eliminates the prohibition of use for match requirement.",
+   "amendment": "H.Amdt. 56",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/56"
+  },
+  "2007-170": {
+   "author": "Green, Al",
+   "purpose": "to extend FEMA housing assistance for evacuees of Hurricanes Katrina, Rita, and Wilma until December 31, 2007 and provide tenant-based rental assistance upon termination of FEMA housing assistance.",
+   "amendment": "H.Amdt. 54",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/54"
+  },
+  "2007-196": {
+   "author": "Sessions",
+   "purpose": "to prohibit funds in this act, except those noted in Section 108, from being used by Amtrak for any of the Top 10 worst revenue losing long-distance routes as noted by its September 2006 monthly performance report. This amendment provides a waiver from this provision should the Secretary deem a route or a portion of a route as critical to homeland security.",
+   "amendment": "H.Amdt. 64",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/64"
+  },
+  "2007-197": {
+   "author": "Flake",
+   "purpose": "to strike the section of the bill that provides a new Homeland Security grant program, `Over-The-Road Bus Security Assistance.'.",
+   "amendment": "H.Amdt. 66",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/66"
+  },
+  "2007-198": {
+   "author": "Thompson (MS)",
+   "purpose": "to make technical and clerical changes to H.R. 1401, as reported by the Committee on Homeland Security. It also clarifies the relationship between the Department of Homeland Security and Transportation in carrying out certain portions of the bill, and modifies the whistleblower protections for federal employees and contractors to make them more similar to those granted in H.R. 985.",
+   "amendment": "H.Amdt. 60",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/60"
+  },
+  "2007-199": {
+   "author": "Cohen",
+   "purpose": "to establish a program to coordinate with state and local governments to enable minimize the need for transportation of toxic inhalation hazardous materials by rail.",
+   "amendment": "H.Amdt. 62",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/62"
+  },
+  "2007-207": {
+   "author": "Sestak",
+   "purpose": "to require the Secretary of the Department of Defense to develop and implement a plan to help prevent Post-Traumatic Stress Disorder and other stress-related psychopathologies (including substance abuse conditions) from developing in our military service members. In addition, this amendment would establish a new Peer-Reviewed research program within the Defense Health Program's research and development function to research the prevention of Post-Traumatic Stress Disorder and how to best strengthen the psychological resiliency of our military service members.",
+   "amendment": "H.Amdt. 75",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/75"
+  },
+  "2007-209": {
+   "author": "Kilpatrick",
+   "purpose": "An amendment in the nature of a substitute numbered 1 printed in House Report 110-79 to balance the budget in FY 2012, and produce a total cumulative deficit that is $339 billion lower than that of the President's budget. The amendment also funds essential programs and services, especially in the areas of health care, education and Gulf Coast reconstruction, and provides for additional services for veterans and homeland security, including port and rail security.",
+   "amendment": "H.Amdt. 82",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/82"
+  },
+  "2007-210": {
+   "author": "Woolsey",
+   "purpose": "to balance the budget by FY 2010. It spends $395 billion on defense while projecting complete U.S. military redeployment out of Iraq during 2007. It also projects enactment of the Common Sense Budget Act, which would save at least $60 billion per year on largely obsolete Cold War weapons systems plus tens of billions more in waste, fraud, and abuse in DOD spending identified by the nonpartisan Government Accounting Office (GAO). It repeals the Bush tax cuts for the top 1% of taxpayers and cracks down on corporate welfare by eliminating certain tax breaks and corporate loopholes. It includes the SMART Security Alternative to Preemption Doctrine, which shifts some spending and increases other non-military spending to enhance homeland security and fight the root causes of terrorism through 21st century diplomacy and meeting basic human needs (e.g. HIV/AIDS/TB, universal basic education for all). It provides funding for immediate, cost-effective steps to redress global warming and the rapid acceleration of renewable energy development. It fully funds NCLB and IDEA to improve Teacher Corps and job training. It also fully funds the S-CHIP program to ensure every American child eligible is covered for basic health insurance. It ensures whatever federal funding is needed.to provide health care (including mental health care) for all American veterans (including but not limited to veterans of the Iraq and Afghanistan military operations). Finally, the substitute increases funding for Community Development Block Grants, Hurricane Katrina relief and reconstruction, community policing, and priority clean-up of leaking underground storage tanks that threaten the drinking water of nearly half of all Americans.",
+   "amendment": "H.Amdt. 83",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/83"
+  },
+  "2007-211": {
+   "author": "Ryan (WI)",
+   "purpose": "An amendment in the nature of a substitute numbered 3 printed in House Report 110-79 to retain the 2001 and 2003 tax provisions, and provides for one-year extensions of alternative minimum tax [AMT] relief, the State and local sales tax deduction, and the research and experimentation [R&E] tax credit. It sets discretionary spending at $1,079.6 billion in fiscal year 2008 and $5,079.8 billion over 5 years. Defense discretionary spending equals the President's request for 2008 and 2009--including funds for overseas operations in Iraq and Afghanistan. Non-defense discretionary spending totals $433.9 billion in 2008, essentially freezing the 2007 level (excluding emergencies). Within this amount, the budget accommodates priority increases above the freeze for Homeland Security, Veterans' Health Care, National Institutes of Health, Community Development Block Grants, and Science and Technology. Additionally, the budget calls for continued reforms to make the government's major entitlements more responsive, flexible, and sustainable--and in the process saves $279 billion over 5 years. Finally, the substitute includes emergency set-aside, Legislative Line Item Veto, PAYGO for spending only, and discretionary spending caps.",
+   "amendment": "H.Amdt. 84",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/84"
+  },
+  "2007-222": {
+   "author": "Chabot",
+   "purpose": "to strike section 211, thereby requiring anyone receiving both a grant and a disaster loan to use the grant to repay the disaster loan thereby preventing the government from compensating the same person twice for the same disaster.",
+   "amendment": "H.Amdt. 85",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/85"
+  },
+  "2007-223": {
+   "author": "Chabot",
+   "purpose": "An amendment numbered 2 in House Report 110-97 to strike section 210, thereby eliminating the authority of the Administrator of the Small Business Administration to offer grants to certain small businesses that were severely affected by Hurricanes Katrina, Rita, or Wilma but that were denied disaster loans.",
+   "amendment": "H.Amdt. 86",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/86"
+  },
+  "2007-236": {
+   "author": "Sessions",
+   "purpose": "to add a requirement for disclosure of activities to influence votes.",
+   "amendment": "H.Amdt. 92",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/92"
+  },
+  "2007-237": {
+   "author": "Garrett (NJ)",
+   "purpose": "to insert a new paragraph outlining conditions triggering a vote.",
+   "amendment": "H.Amdt. 93",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/93"
+  },
+  "2007-238": {
+   "author": "Campbell (CA)",
+   "purpose": "to add a new paragraph providing for a majority-elected board exemption.",
+   "amendment": "H.Amdt. 94",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/94"
+  },
+  "2007-239": {
+   "author": "McHenry",
+   "purpose": "to insert a new paragraph providing that a shareholder who is casting a permitted vote shall be required to disclose to beneficiaries whether such vote was cast to approve or disapprove compensation.",
+   "amendment": "H.Amdt. 95",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/95"
+  },
+  "2007-240": {
+   "author": "Price (GA)",
+   "purpose": "to insert a complete new text consisting of a section inserting provisions for disclosure of executive compensation.",
+   "amendment": "H.Amdt. 101",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/101"
+  },
+  "2007-241": {
+   "author": "Putnam",
+   "purpose": "to insert provisions regarding a deferred compensation exemption.",
+   "amendment": "H.Amdt. 102",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/102"
+  },
+  "2007-242": {
+   "author": "Price (GA)",
+   "purpose": "to insert conditional implementation provisions.",
+   "amendment": "H.Amdt. 103",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/103"
+  },
+  "2007-255": {
+   "author": "Gillibrand",
+   "purpose": "to insert a new section providing for a new undergraduate scholarships program for science, technology, engineering and mathematics and known as US-STEM.",
+   "amendment": "H.Amdt. 109",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/109"
+  },
+  "2007-267": {
+   "author": "Price (GA)",
+   "purpose": "to not either increase the Federal deficit or reduce the Federal surplus.",
+   "amendment": "H.Amdt. 115",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/115"
+  },
+  "2007-277": {
+   "author": "Price (GA)",
+   "purpose": "to allow eight states to coordinate Head Start with state-run early childhood development programs through a demonstration program.",
+   "amendment": "H.Amdt. 117",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/117"
+  },
+  "2007-278": {
+   "author": "Sestak",
+   "purpose": "to authorize the Education Secretary to carry out a program to forgive student loans for Head Start and Early Head Start teachers who have earned a bachelor's degree in a field related to early childhood education and who commit to teach in the program for a minimum of 3 years.",
+   "amendment": "H.Amdt. 118",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/118"
+  },
+  "2007-279": {
+   "author": "Hirono",
+   "purpose": "to revise the trai ning and technical assistance program for Early Head Start by ensuring that training and technical assistance are provided by entities with specific expertise in infant and toddler development. The amendment also directs 50 percent of training and technical assistance funds directly to the grantees for the purposes of program improvement.",
+   "amendment": "H.Amdt. 119",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/119"
+  },
+  "2007-280": {
+   "author": "Mica",
+   "purpose": "to amend Section 18 of the bill to require that the Secretary certify that at least 50 percent of all Head Start teachers nationwide meet certain degree requirements by September 30, 2011, two years earlier than required under the current legislation.",
+   "amendment": "H.Amdt. 120",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/120"
+  },
+  "2007-281": {
+   "author": "Putnam",
+   "purpose": "to strike the deve lopment and implementation of the application review system, including the expert panel provision. In addition, the amendment strikes designation when no entity has priority and instead designates competition--calling for the automatic recompetition for agency designation every five years, regardless of performance.",
+   "amendment": "H.Amdt. 122",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/122"
+  },
+  "2007-282": {
+   "author": "Carnahan",
+   "purpose": "An amendment numbered 9 printed House Report 110-116 to provide that, in the event that the amounts appropriated to carry out the program do not exceed the funds appropriated for the prior year, Head Start grantees may negotiate with the Secretary a reduced funded enrollment level if the grantee can demonstrate that such reduction is necessary to maintain the quality of service.",
+   "amendment": "H.Amdt. 124",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/124"
+  },
+  "2007-283": {
+   "author": "Shuler",
+   "purpose": "to outline the history and importance of allowing faith-based and community-based organizations to participate in Head Start programs. It inserts language into the Head Start Reauthorization that explicitly states that faith-based and community-based organizations will continue to be eligible to participate in the Head Start program on the same basis as other organizations.",
+   "amendment": "H.Amdt. 126",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/126"
+  },
+  "2007-287": {
+   "author": "Sullivan",
+   "purpose": "to insert a new paragraph after paragraph 1 of the Honda amendment to clarify what such materials, exhibits, and multimedia presentations shall reflect.",
+   "amendment": "H.Amdt. 129",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/129"
+  },
+  "2007-288": {
+   "author": "Honda",
+   "purpose": "to add a new subsection at the end of section 3 with respect to global warming education.",
+   "amendment": "H.Amdt. 128",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/128"
+  },
+  "2007-289": {
+   "author": "Campbell (CA)",
+   "purpose": "to prohibit the use of funds in the bill for specified research activities.",
+   "amendment": "H.Amdt. 131",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/131"
+  },
+  "2007-290": {
+   "author": "Campbell (CA)",
+   "purpose": "to reduce funds authorized in section 3 by 1 percent.",
+   "amendment": "H.Amdt. 132",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/132"
+  },
+  "2007-291": {
+   "author": "Garrett (NJ)",
+   "purpose": "to reduce each of the amounts authorized to be appropriated or made available by 0.5 percent.",
+   "amendment": "H.Amdt. 133",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/133"
+  },
+  "2007-292": {
+   "author": "Flake",
+   "purpose": "to Strike section 6.",
+   "amendment": "H.Amdt. 135",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/135"
+  },
+  "2007-293": {
+   "author": "Matsui",
+   "purpose": "to provide grant supplements, on a competitive, merit-reviewed basis, to institutions receiving awards under the Integrative Graduate Education and Research Traineeship program.",
+   "amendment": "H.Amdt. 136",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/136"
+  },
+  "2007-294": {
+   "author": "Price (GA)",
+   "purpose": "to authorize appropriations made by this Act or other provisions of this Act that results in costs to the Federal Government.",
+   "amendment": "H.Amdt. 139",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/139"
+  },
+  "2007-315": {
+   "author": "Davis, Tom",
+   "purpose": "to remove section 407 of the bill, which requires that identification cards, uniforms, protective gear, and badges of Homeland Security personnel be manufactured in the United States.",
+   "amendment": "H.Amdt. 147",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/147"
+  },
+  "2007-316": {
+   "author": "Thompson (MS)",
+   "purpose": "to add reporting requirements, revise annuitant provisions, and require a GAO report on law enforcement retirement systems. The amendment also adds a provision related to travel efficiency. The amendment also strikes some provisions of the bill.",
+   "amendment": "H.Amdt. 146",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/146"
+  },
+  "2007-319": {
+   "author": "Sestak",
+   "purpose": "to close a loophole in the current bill that allows agencies to avoid doing small business impact studies by designating contracts as \"transformed\". It also lowers the new dollar threshold to ensure a greater portion of contracts are reviewed for their impact on small business as well as taxpayer savings.",
+   "amendment": "H.Amdt. 163",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/163"
+  },
+  "2007-320": {
+   "author": "Shuler",
+   "purpose": "to extend small business contracting goals to overseas contracts.",
+   "amendment": "H.Amdt. 165",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/165"
+  },
+  "2007-321": {
+   "author": "Bean",
+   "purpose": "to raise the government-wide small business procurement goal from 25 percent to 30 percent.",
+   "amendment": "H.Amdt. 166",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/166"
+  },
+  "2007-337": {
+   "author": "Hoekstra",
+   "purpose": "to strike section 407, which requires that a National Intelligence Estimate on global climate change be submitted to Congress.",
+   "amendment": "H.Amdt. 174",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/174"
+  },
+  "2007-338": {
+   "author": "Rogers (MI)",
+   "purpose": "to place a limit on the number of personnel in the Office of the Director of National Intelligence (ODNI). ODNI would only be authorized the number of personnel as were serving in the office on May 1, 2007.",
+   "amendment": "H.Amdt. 177",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/177"
+  },
+  "2007-339": {
+   "author": "Schiff",
+   "purpose": "to state that the Foreign Intelligence Surveillance Act of 1978 (FISA) shall be the exclusive means by which domestic electronic surveillance for the purpose of gathering foreign intelligence information may be conducted, and makes clear that this applies until specific statutory authorization for electronic surveillance, other than as an amendment to FISA, is enacted.",
+   "amendment": "H.Amdt. 182",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/182"
+  },
+  "2007-364": {
+   "author": "Andrews",
+   "purpose": "to prevent funds authorized in the bill for the wars in Iraq and Afghanistan from being obligated or expended to plan a contingency operation in Iran.",
+   "amendment": "H.Amdt. 186",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/186"
+  },
+  "2007-365": {
+   "author": "DeFazio",
+   "purpose": "to clarify that no previously enacted law authorizes military action against Iran. It also prohibits funding authorized by the bill or in any other act from being used to take military action against Iran without specific authorization from Congress unless there is a `national emergency created by an attack by Iran upon the United States, its territories or possessions or its armed forces' (language taken directly from the War Powers Resolution, P.L. 93-148).",
+   "amendment": "H.Amdt. 187",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/187"
+  },
+  "2007-366": {
+   "author": "Woolsey",
+   "purpose": "to require the Secretary of Defense to issue a report on the continued use, need, relevance, and cost of weapons systems designed to fight the Cold War and the former Soviet Union.",
+   "amendment": "H.Amdt. 188",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/188"
+  },
+  "2007-367": {
+   "author": "Tierney",
+   "purpose": "to reduce the $8.1 billion specified for Missile Defense Agency (MDA) activities by $1.084 billion from specified programs.",
+   "amendment": "H.Amdt. 193",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/193"
+  },
+  "2007-368": {
+   "author": "Franks (AZ)",
+   "purpose": "to increase by $764 million the amount authorized for ballistic missile defense.",
+   "amendment": "H.Amdt. 194",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/194"
+  },
+  "2007-369": {
+   "author": "King (IA)",
+   "purpose": "to add language to section 1222 to explain that the bill's prohibition on the establishment of permanent military bases in Iraq should not be construed to prohibit the United States from establishing a temporary military base or installation by entering into basing rights agreements between the United States and Iraq. The amendment also states that Congress recognizes the United States has not established any permanent military installations inside or outside the United States.",
+   "amendment": "H.Amdt. 196",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/196"
+  },
+  "2007-370": {
+   "author": "Moran (VA)",
+   "purpose": "An amendement numbered 15 printed in House Report 110-151 to require the Office of the Secretary of Defense to submit a report identifying the current capacity at Department of Defense facilities in the United States to securely hold and try before a military commission the detainees currently held at Guantanamo Bay, Cuba. The report shall include the Department's estimated number of detainees that will be 1) charged with a crime, 2) subject to a release or transfer, or 3) held without being charged with a crime, but whom the Department wishes to detain. The report shall also describe actions required by the Secretary and Congress to ensure that detainees who are scheduled for release are released no later than December 31, 2007.",
+   "amendment": "H.Amdt. 197",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/197"
+  },
+  "2007-371": {
+   "author": "Holt",
+   "purpose": "to require the videotaping of interrogations and other pertinent interacti ons between U.S. military personnel and/or contractors and detainees arrested and held. Directs the Judge Advocates General of the respective military services to develop uniform guidelines for such videotaping. Provides access to detainees for representatives of the International Red Cross and Red Crescent, the UN High Commissioner for Human Rights, and the UN Special Rapporteur on Torture for independent monitoring of detainee conditions and treatment.",
+   "amendment": "H.Amdt. 198",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/198"
+  },
+  "2007-378": {
+   "author": "Bachus",
+   "purpose": "to strike section 139 pertaining to affordable housing fund.",
+   "amendment": "H.Amdt. 203",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/203"
+  },
+  "2007-379": {
+   "author": "Hensarling",
+   "purpose": "to provide that the director shall temporarily suspend allocations if it is determined that allocations are contributing to an increase in the cost or mortgages to homebuyers.",
+   "amendment": "H.Amdt. 205",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/205"
+  },
+  "2007-380": {
+   "author": "McHenry",
+   "purpose": "to add a new subsection on determination and suspension of allocations.",
+   "amendment": "H.Amdt. 209",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/209"
+  },
+  "2007-381": {
+   "author": "Kanjorski",
+   "purpose": "to clarify the director's authority to determine the appropriate size of the board of directors of the Federal National Mortgage Association between 7 and 15 members.",
+   "amendment": "H.Amdt. 210",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/210"
+  },
+  "2007-382": {
+   "author": "Roskam",
+   "purpose": "to add a new paragraph limiting contributions to affordable housing fund when the government has an on-budget and an off-budget surplus.",
+   "amendment": "H.Amdt. 211",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/211"
+  },
+  "2007-383": {
+   "author": "Garrett (NJ)",
+   "purpose": "to insert new language requiring GSEs to limit their retained portfolios to mortgages and mortgage backed securities that exclusivley support affordable housing, and particularly mortgages extended to households having incomes below the median income for the area in which the property subject to the mortgage is located.",
+   "amendment": "H.Amdt. 213",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/213"
+  },
+  "2007-386": {
+   "author": "Feeney",
+   "purpose": "to strike low-income housing grants from the affordable housing fund and to insert housing assistance provisions for the areas affected by Hurricanes Katrina and Rita; strike language outlining affordable housing grant formulas for Indian tribal members and directs funds to be allocated \"based on the formula used for the Continuum of Care competition of the Department of Housing and Urban Development\"; and insert language requiring that affordable housing grants after 2007 be reserved only for rental housing voucher assistance in accordance with the Housing act of 1937.",
+   "amendment": "H.Amdt. 215",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/215"
+  },
+  "2007-387": {
+   "author": "Price (GA)",
+   "purpose": "to prevent illegal immigrants from owning or renting housing built by funds from the affordable housing fund by requiring adult occupants of that housing to establish their legal residency through the use of secure forms of identification.",
+   "amendment": "H.Amdt. 216",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/216"
+  },
+  "2007-388": {
+   "author": "Sessions",
+   "purpose": "to requrie the Director of the new GSE Regulator to provide information to mortgage originators about any added mortgage costs to consumers associated with the new Housing Fund; in turn, originators would have to furnish this written information to homebuyers at or before closing to qualify their mortgages for purchase, service, holding, lending on the security of or selling by the GSE's. The amendment provides that all of the costs associated with the new regulatory requirement created would be paid for with funds from the new Housing Fund.",
+   "amendment": "H.Amdt. 217",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/217"
+  },
+  "2007-389": {
+   "author": "Brady (TX)",
+   "purpose": "to redistribute the affordable housing grants for use in disaster areas from a ratio of 75% for Louisiana and 25% for Mississippi to create 10% for Texas by taking 5% each from the allotment for Louisiana and Mississippi.",
+   "amendment": "H.Amdt. 218",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/218"
+  },
+  "2007-390": {
+   "author": "Price (GA)",
+   "purpose": "to require that the director of a GSE study and certify to Congress that its contributions to the affordable housing fund wouldn't contribute to its financial instability or impair its safety and soundness.",
+   "amendment": "H.Amdt. 222",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/222"
+  },
+  "2007-391": {
+   "author": "Doolittle",
+   "purpose": "to prohibit all three mortgage lending government-sponsored enterprises (GSE's) from obtaining primary residential mortgages being granted to any person who does not have a valid Social Security number.",
+   "amendment": "H.Amdt. 223",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/223"
+  },
+  "2007-392": {
+   "author": "Hensarling",
+   "purpose": "to strike the Affordable Housing Trust Fund budgetary placeholder language in the bill.",
+   "amendment": "H.Amdt. 225",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/225"
+  },
+  "2007-393": {
+   "author": "Neugebauer",
+   "purpose": "to set a cap on the amount of funds available in the Affordable Housing Fund.",
+   "amendment": "H.Amdt. 226",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/226"
+  },
+  "2007-394": {
+   "author": "Neugebauer",
+   "purpose": "to clarify that potential risks should be posed to the enterprises with respect to the nature of portfolio holdings.",
+   "amendment": "H.Amdt. 207",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/207"
+  },
+  "2007-406": {
+   "author": "Bishop (UT)",
+   "purpose": "to delay the acquisition of any new land for the Carl Sandburg Home National Historic Site until after deferred maintenance has been completed at the site.",
+   "amendment": "H.Amdt. 227",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/227"
+  },
+  "2007-407": {
+   "author": "Heller",
+   "purpose": "to eliminate the use of appropriated funds to acquire 110 acres of land for the Carl Sandburg Home National Historic Site, but still allows the land to be acquired by donation, purchase with donated funds, or by exchange with other lands.",
+   "amendment": "H.Amdt. 229",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/229"
+  },
+  "2007-421": {
+   "author": "Conyers",
+   "purpose": "to place a one-year ban on flag and general officers of the Armed Services from receiving compensation from any company that does greater than $50 million in business with the Department of Defense. This ban will take place 120 days from the enactment of the legislation.",
+   "amendment": "H.Amdt. 234",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/234"
+  },
+  "2007-435": {
+   "author": "Kirk",
+   "purpose": "to allow the Secretary of State, at her discretion, to make payments from the Rewards for Justice Program to officers or employees of the Afghan or Pakistani government who provide information leading to the capture of exceptional and high-profile terrorists committing acts in Afghanistan.",
+   "amendment": "H.Amdt. 245",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/245"
+  },
+  "2007-436": {
+   "author": "Kucinich",
+   "purpose": "to divert $500,000 in authorization authority for the United States contribution to the Post-Operations Humanitarian Relief Fund of the International Security Assistance Force (ISAF).",
+   "amendment": "H.Amdt. 246",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/246"
+  },
+  "2007-453": {
+   "author": "Crowley",
+   "purpose": "to increase funding, by transfer, the appropriation for state and local programs under Protection, Preparedness, Response and Recovery by $50,000,000.",
+   "amendment": "H.Amdt. 251",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/251"
+  },
+  "2007-454": {
+   "author": "Campbell (CA)",
+   "purpose": "to reduce the appropriation for the Office of the Secretary and Executive Management by $9,961,000.",
+   "amendment": "H.Amdt. 252",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/252"
+  },
+  "2007-455": {
+   "author": "Reichert",
+   "purpose": "to reduce appropriation for the Office of the Secretary of Homeland Security by $1,000,000 and reduce appropriation for the Office of the Under Secretary for Management by $11,000,000.",
+   "amendment": "H.Amdt. 254",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/254"
+  },
+  "2007-456": {
+   "author": "King (IA)",
+   "purpose": "to reduce appropriation for the Office of the Secretary and Executive Management by $79,000.",
+   "amendment": "H.Amdt. 255",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/255"
+  },
+  "2007-457": {
+   "author": "Lamborn",
+   "purpose": "to reduce appropriation for the Office of the Secretary and Executive Management by $300,000.",
+   "amendment": "H.Amdt. 256",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/256"
+  },
+  "2007-466": {
+   "author": "McHenry",
+   "purpose": "to replace the dollar amount proposed in the Foxx amendment for the Office of the Secretary and Executive Management with \"$8,961,000\".",
+   "amendment": "H.Amdt. 258",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/258"
+  },
+  "2007-467": {
+   "author": "Foxx",
+   "purpose": "to reduce appropriation for the Office of the Secretary and Executive Management by $1,241.000.",
+   "amendment": "H.Amdt. 257",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/257"
+  },
+  "2007-468": {
+   "author": "Fallin",
+   "purpose": "to reduce appropriation for the Office of Secretary and Executive Management by $138,000.",
+   "amendment": "H.Amdt. 259",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/259"
+  },
+  "2007-469": {
+   "author": "Drake",
+   "purpose": "to reduce appropriation for the Office of the Under Secretary for Management by $10,400,000, and increase appropriation for the Office of Immigration and Customs Enforcement by $9,100,000.",
+   "amendment": "H.Amdt. 260",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/260"
+  },
+  "2007-470": {
+   "author": "King (NY)",
+   "purpose": "to increase funding (by transfer) for the domestic nuclear detection office management and administration account by $40 million.",
+   "amendment": "H.Amdt. 261",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/261"
+  },
+  "2007-471": {
+   "author": "Brown-Waite, Ginny",
+   "purpose": "to increase funding (by transfer) for the border security fencing, infrastructure, and technology account by $89.125 million.",
+   "amendment": "H.Amdt. 262",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/262"
+  },
+  "2007-472": {
+   "author": "Burgess",
+   "purpose": "to increase funding (by transfer) for the transportation threat assessment and credentialing.",
+   "amendment": "H.Amdt. 263",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/263"
+  },
+  "2007-473": {
+   "author": "Ferguson",
+   "purpose": "to increase funding (by transfer) buffer zone protection under the Stat e and local programs account by $50 million.",
+   "amendment": "H.Amdt. 264",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/264"
+  },
+  "2007-474": {
+   "author": "McHenry",
+   "purpose": "to increase funding (by transfer) for the United States Citizenship and Immigration Services by $30 million.",
+   "amendment": "H.Amdt. 265",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/265"
+  },
+  "2007-475": {
+   "author": "Pearce",
+   "purpose": "to increase funds (by transfer) to the United States Customs and Border Protection Salaries and Expenses by $125 million.",
+   "amendment": "H.Amdt. 268",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/268"
+  },
+  "2007-476": {
+   "author": "Carter",
+   "purpose": "to strike the proviso regarding border fencing requirements under the Border Security, Fencing, Infrastructure, and Technology heading.",
+   "amendment": "H.Amdt. 273",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/273"
+  },
+  "2007-477": {
+   "author": "McCaul (TX)",
+   "purpose": "to strike the proviso for the Commissioner of United States Customs and Border Protection heading.",
+   "amendment": "H.Amdt. 277",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/277"
+  },
+  "2007-478": {
+   "author": "King (IA)",
+   "purpose": "to increase and decrease the United States Immigration and Customs Enforcement salaries and expenses account by $5,000,000.",
+   "amendment": "H.Amdt. 278",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/278"
+  },
+  "2007-479": {
+   "author": "Bilbray",
+   "purpose": "to reduce appropriation for the Coast Gaurd construction by $150,000,000, and increase the State and local terrorism prevention activities by $150,000,000.",
+   "amendment": "H.Amdt. 280",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/280"
+  },
+  "2007-480": {
+   "author": "McCaul (TX)",
+   "purpose": "to strike section 531 from the bill. Section 531 prohibits use of funds for the MAX HR project.",
+   "amendment": "H.Amdt. 284",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/284"
+  },
+  "2007-481": {
+   "author": "Rogers (KY)",
+   "purpose": "to prohibit that none of the funds in this Act be used to recruit or hire more than 45,000 full-time equivalent airport screeners.",
+   "amendment": "H.Amdt. 287",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/287"
+  },
+  "2007-482": {
+   "author": "Poe",
+   "purpose": "to prohibit funds to be used by the Secretary of Homeland Security to develop a plan that permits travel into the United States from foreign countries using any document other than a passport.",
+   "amendment": "H.Amdt. 290",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/290"
+  },
+  "2007-483": {
+   "author": "LaTourette",
+   "purpose": "to prohibit funds to be used by the Secretary of Homeland Security to develop any plan under the Intelligence Reform and Terrorism Prevention Act of 2004 before June 1, 2009.",
+   "amendment": "H.Amdt. 291",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/291"
+  },
+  "2007-484": {
+   "author": "Tancredo",
+   "purpose": "to prohibit funds of this Act to carry out the visa waiver program.",
+   "amendment": "H.Amdt. 292",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/292"
+  },
+  "2007-485": {
+   "author": "Tancredo",
+   "purpose": "to prohibit funds to be used in contravention of the Illegal Immigration Reform and Immigrant Responsibility Act of 1996.",
+   "amendment": "H.Amdt. 294",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/294"
+  },
+  "2007-486": {
+   "author": "Royce",
+   "purpose": "to prohibit funds made available for customs and border protection fencing, infrastructure, and technology from being used for anything but at least two layers of reinforced fencing and roads.",
+   "amendment": "H.Amdt. 295",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/295"
+  },
+  "2007-487": {
+   "author": "Forbes",
+   "purpose": "to prohibits funds to be used to extend the designation of any foreign state under the Immigration and Nationality Act.",
+   "amendment": "H.Amdt. 296",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/296"
+  },
+  "2007-488": {
+   "author": "Rogers (KY)",
+   "purpose": "to prohibit use of funds in the bill to implement section 536 relating to Davis-Bacon provisions.",
+   "amendment": "H.Amdt. 297",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/297"
+  },
+  "2007-489": {
+   "author": "Rogers (KY)",
+   "purpose": "to reduce funding for the Department of Homeland Security by 5.7 percent over the next year.",
+   "amendment": "H.Amdt. 298",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/298"
+  },
+  "2007-492": {
+   "author": "Hayes",
+   "purpose": "to reduce appropriation for the North Atlantic Treaty Organization Security Investment Program by $30,000,000, and increase the Department of Defense Base Closure Account by $30,000,000.",
+   "amendment": "H.Amdt. 301",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/301"
+  },
+  "2007-493": {
+   "author": "Blumenauer",
+   "purpose": "An amendment regarding funding for BRAC 1990.",
+   "amendment": "H.Amdt. 302",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/302"
+  },
+  "2007-494": {
+   "author": "Price (GA)",
+   "purpose": "to reduce appropriation for BRAC by $50,000,000, and increase the Veterans Health Administration medical services by $22,000,000.",
+   "amendment": "H.Amdt. 303",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/303"
+  },
+  "2007-495": {
+   "author": "Moran (KS)",
+   "purpose": "to increase (by transfer) for the Medical Administration by $125 million.",
+   "amendment": "H.Amdt. 305",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/305"
+  },
+  "2007-496": {
+   "author": "Garrett (NJ)",
+   "purpose": "to increase (by transfer) for grants for construction of State Extended Care Facilities by $10 million.",
+   "amendment": "H.Amdt. 308",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/308"
+  },
+  "2007-497": {
+   "author": "Musgrave",
+   "purpose": "to add a new section prohibiting the use of funds for any action that is related to or promotes the expansion of the boundaries or size of the Pinon Canyon Maneuver Site in southeastern Colorado.",
+   "amendment": "H.Amdt. 311",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/311"
+  },
+  "2007-502": {
+   "author": "Westmoreland",
+   "purpose": "to reduce funding for Investigations including recession of funds by $30 million.",
+   "amendment": "H.Amdt. 316",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/316"
+  },
+  "2007-503": {
+   "author": "Westmoreland",
+   "purpose": "to reduce appropriation for construction including recession of funds by $481,186,000.",
+   "amendment": "H.Amdt. 317",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/317"
+  },
+  "2007-504": {
+   "author": "Westmoreland",
+   "purpose": "to reduced funds for the Mississippi River and Tributaries by $18 million.",
+   "amendment": "H.Amdt. 318",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/318"
+  },
+  "2007-505": {
+   "author": "Westmoreland",
+   "purpose": "to reduce funds for the Operation and Maintenance by $184,241,000.",
+   "amendment": "H.Amdt. 319",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/319"
+  },
+  "2007-506": {
+   "author": "Sessions",
+   "purpose": "to striking the prohibition of funds under the OMB Circular A-76 or any other administrative regulation, directive, or policy for the Corps of Engineers program, project or activity.",
+   "amendment": "H.Amdt. 320",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/320"
+  },
+  "2007-507": {
+   "author": "Hensarling",
+   "purpose": "to reduced funds for the Water and Related Resources Account by $55 million.",
+   "amendment": "H.Amdt. 321",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/321"
+  },
+  "2007-508": {
+   "author": "Lamborn",
+   "purpose": "to reduce funds of the Bureau of Reclamation under the Policy and Administration section by $1,236,000.",
+   "amendment": "H.Amdt. 322",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/322"
+  },
+  "2007-509": {
+   "author": "Campbell (CA)",
+   "purpose": "to reduce the appropriation in the bill for Energy Efficiency and Renewable Energy by $101,550,000.",
+   "amendment": "H.Amdt. 323",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/323"
+  },
+  "2007-510": {
+   "author": "Stearns",
+   "purpose": "to redirect $20 million in funding within the Nuclear Energy account.",
+   "amendment": "H.Amdt. 324",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/324"
+  },
+  "2007-511": {
+   "author": "Kline (MN)",
+   "purpose": "to reduce funding in the Fossil Energy Research and Development account by $142 million.",
+   "amendment": "H.Amdt. 326",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/326"
+  },
+  "2007-516": {
+   "author": "Porter",
+   "purpose": "to strike the provisions in the bill for nuclear waste disposal activities.",
+   "amendment": "H.Amdt. 327",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/327"
+  },
+  "2007-517": {
+   "author": "Foxx",
+   "purpose": "to reduce funding for Departmental Administration account by $27,950,000.",
+   "amendment": "H.Amdt. 331",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/331"
+  },
+  "2007-518": {
+   "author": "Udall (NM)",
+   "purpose": "to increase funding (by transfer) for the National Nuclear Security Administration by $192.123 million.",
+   "amendment": "H.Amdt. 333",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/333"
+  },
+  "2007-519": {
+   "author": "Neugebauer",
+   "purpose": "to strike the $35 million appropriation for the Appalachian Regional Commission.",
+   "amendment": "H.Amdt. 334",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/334"
+  },
+  "2007-520": {
+   "author": "Musgrave",
+   "purpose": "to reduce the appropriation in the bill by 0.5 percent across-the-board.",
+   "amendment": "H.Amdt. 337",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/337"
+  },
+  "2007-521": {
+   "author": "Bishop (NY)",
+   "purpose": "to add a paragraph prohibiting use of funds for review of the application for the Broadwater Energy Proposal.",
+   "amendment": "H.Amdt. 340",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/340"
+  },
+  "2007-522": {
+   "author": "Jordan",
+   "purpose": "to reduce total amounts appropriated in the bill by $1.305 million.",
+   "amendment": "H.Amdt. 341",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/341"
+  },
+  "2007-523": {
+   "author": "Shadegg",
+   "purpose": "to limit the use of funds to breach or remove hydropower dams.",
+   "amendment": "H.Amdt. 346",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/346"
+  },
+  "2007-524": {
+   "author": "Price (GA)",
+   "purpose": "to reduce amounts appropriated in the bill by 1 percent across-the-board.",
+   "amendment": "H.Amdt. 348",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/348"
+  },
+  "2007-525": {
+   "author": "Wilson (SC)",
+   "purpose": "to reduce total amounts appropriated in the bill by $1,130,000,000.",
+   "amendment": "H.Amdt. 349",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/349"
+  },
+  "2007-526": {
+   "author": "Hinchey",
+   "purpose": "to assure that no funds be made available to designate any geographic area as a national interest electric transmission corridor under the Federal Power Act by the Secretary of Energy.",
+   "amendment": "H.Amdt. 350",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/350"
+  },
+  "2007-527": {
+   "author": "Diaz-Balart, L.",
+   "purpose": "to decrease funding for the Department of State, Administration of Foreign Affairs by $36,700,000, and to increase funding for the Economic Support Fund by the same amount in order to address funding for Cuba Democracy assistance programs.",
+   "amendment": "H.Amdt. 351",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/351"
+  },
+  "2007-528": {
+   "author": "Wolf",
+   "purpose": "to increase funding (by transfer) for assistance programs for Iraq by $158,000,000.",
+   "amendment": "H.Amdt. 352",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/352"
+  },
+  "2007-529": {
+   "author": "Shays",
+   "purpose": "to provide additional funding (by transfer) for the Iraq Study Group in the amount of $1 million.",
+   "amendment": "H.Amdt. 353",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/353"
+  },
+  "2007-530": {
+   "author": "Garrett (NJ)",
+   "purpose": "to increase funding (by transfer) for anti-terrorism programs by $20 million.",
+   "amendment": "H.Amdt. 354",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/354"
+  },
+  "2007-531": {
+   "author": "Foxx",
+   "purpose": "to reduce the appropriation for contributions to international organizations by $203,082,000.",
+   "amendment": "H.Amdt. 355",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/355"
+  },
+  "2007-532": {
+   "author": "Pitts",
+   "purpose": "to restore the President's emergency plan for AIDS relief authorization provision requiring 33% of HIV/AIDS prevention funding to be spent on abstinence and fidelity promotion program.",
+   "amendment": "H.Amdt. 364",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/364"
+  },
+  "2007-533": {
+   "author": "Lowey",
+   "purpose": "to insert provisions to Section 622 to prevent unintended pregnancies, abortions,and the transmission of sexually transmitted infections, including HIV/AIDS; and to provide that no contract or grant for exclusive purpose of providing donated contraceptives in developing countries shall be denied to any nongovernmental organization solely on the basis of the policy contained in the President's March 28, 2001, Memorandum to the Administrator of USAID with respect to providing contraceptives in developing countries, or any comparable administration policy regarding the provision of contraceptives.",
+   "amendment": "H.Amdt. 367",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/367"
+  },
+  "2007-534": {
+   "author": "Smith (NJ)",
+   "purpose": "to strike the last proviso in section 622 of the bill regarding the Mexico City policy on family planning assistance.",
+   "amendment": "H.Amdt. 368",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/368"
+  },
+  "2007-535": {
+   "author": "Boustany",
+   "purpose": "to strike section 699 from the bill. Section 699 relates to assistance for Egypt.",
+   "amendment": "H.Amdt. 370",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/370"
+  },
+  "2007-536": {
+   "author": "McGovern",
+   "purpose": "to prohibit use of funds for programs at the Western Hemisphere Institute for Security Cooperation located at Fort Benning, Georgia.",
+   "amendment": "H.Amdt. 378",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/378"
+  },
+  "2007-537": {
+   "author": "Jordan",
+   "purpose": "to reduce appropriations in the bill by $2,956,000,000.",
+   "amendment": "H.Amdt. 382",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/382"
+  },
+  "2007-538": {
+   "author": "Price (GA)",
+   "purpose": "to reduce appropriations in the bill by $342,430,000 across-the-board.",
+   "amendment": "H.Amdt. 383",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/383"
+  },
+  "2007-539": {
+   "author": "Musgrave",
+   "purpose": "to reduce the total appropriation in the bill (other than for assistance for Israel) by 0.5 percent across-the-board.",
+   "amendment": "H.Amdt. 384",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/384"
+  },
+  "2007-540": {
+   "author": "Pence",
+   "purpose": "to prohibit funds to provide direct aid to the Palestinian Authority, except as otherwise provided by existing law.",
+   "amendment": "H.Amdt. 388",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/388"
+  },
+  "2007-541": {
+   "author": "King (IA)",
+   "purpose": "to prohibit the use of funds for travel by the Speaker of the House of Representatives to countries that are State sponsors of terrorism.",
+   "amendment": "H.Amdt. 390",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/390"
+  },
+  "2007-545": {
+   "author": "Flake",
+   "purpose": "to reduce funding for the Government Printing Office--Congressional Printing and Binding by $3,200,000.",
+   "amendment": "H.Amdt. 393",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/393"
+  },
+  "2007-546": {
+   "author": "Jordan",
+   "purpose": "to reduce appropri ations in the bill by 4% across the board.",
+   "amendment": "H.Amdt. 394",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/394"
+  },
+  "2007-551": {
+   "author": "King (IA)",
+   "purpose": "to increase funds by $100,000,000 for the operation of the National Park System. And, reduce funds for the EPA by $163,000,000.",
+   "amendment": "H.Amdt. 399",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/399"
+  },
+  "2007-552": {
+   "author": "Peterson (PA)",
+   "purpose": "An amendment number 1 by Peterson(PA) to insert language on page 50, line 3, after the period stating \"The preceding sentence shall not apply with respect to natural gas offshore preleasing, leasing, and related activities beyond 25 miles from the coastline\":.",
+   "amendment": "H.Amdt. 405",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/405"
+  },
+  "2007-553": {
+   "author": "Conaway",
+   "purpose": "to strike sections 104 and 105 regarding the conduct of offshore preleasing, leasing and relative activities and regarding funds to conduct oil and natural gas preleasing, leasing and related activities in the Mid-Atlantic and South Atlantic.",
+   "amendment": "H.Amdt. 407",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/407"
+  },
+  "2007-554": {
+   "author": "Bishop (UT)",
+   "purpose": "to increase funding by $13 million for the Forest and Rangeland Research and decrease funding by $31.588 million for Grants and Adminstration under the National Endowment for the Arts.",
+   "amendment": "H.Amdt. 413",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/413"
+  },
+  "2007-555": {
+   "author": "Barton (TX)",
+   "purpose": "to strike section 501 expressing the sense of Congress on Global Climate Change.",
+   "amendment": "H.Amdt. 416",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/416"
+  },
+  "2007-556": {
+   "author": "Johnson, E. B.",
+   "purpose": "to prohibit funds to be used to promulgate or implement the Environmental Protection Agency proposed regulations published in the Federal Register on January 3, 2007.",
+   "amendment": "H.Amdt. 418",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/418"
+  },
+  "2007-557": {
+   "author": "Dent",
+   "purpose": "to prohibit the use of funds to be used to implement, administer, or enfore section 20(b)(1) of the Indian Gaming Regulatory Act.",
+   "amendment": "H.Amdt. 421",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/421"
+  },
+  "2007-558": {
+   "author": "Pearce",
+   "purpose": "to prohibit use of funds for the continued operation of the Mexican Wolf Recovery program.",
+   "amendment": "H.Amdt. 423",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/423"
+  },
+  "2007-559": {
+   "author": "Hensarling",
+   "purpose": "to prohibit funds to be used for the Clover Bend Historic Site.",
+   "amendment": "H.Amdt. 425",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/425"
+  },
+  "2007-560": {
+   "author": "Hensarling",
+   "purpose": "to prohibit the use of funds to be used for the St. Joseph's College Theater.",
+   "amendment": "H.Amdt. 426",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/426"
+  },
+  "2007-561": {
+   "author": "Hensarling",
+   "purpose": "to prohibit funds to be used for the Maverick Concert Hall.",
+   "amendment": "H.Amdt. 427",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/427"
+  },
+  "2007-562": {
+   "author": "Hensarling",
+   "purpose": "to prohibit funds to be used for the Bremerton Public Library.",
+   "amendment": "H.Amdt. 428",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/428"
+  },
+  "2007-563": {
+   "author": "Andrews",
+   "purpose": "to prohibit funds to be used to plan, design, study, or construct, for the purpose of harvesting timber by private entities or individuals, a forest development road i the Tongass National Forest.",
+   "amendment": "H.Amdt. 429",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/429"
+  },
+  "2007-564": {
+   "author": "Brown-Waite, Ginny",
+   "purpose": "to reduce funds for the National Foundation on the Arts and the Humanities(NEA) by $32,000,000.",
+   "amendment": "H.Amdt. 431",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/431"
+  },
+  "2007-565": {
+   "author": "Campbell (CA)",
+   "purpose": "to prohibit funds to be used for Wetzel County Courthouse, New Martinsville, West Virginia.",
+   "amendment": "H.Amdt. 432",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/432"
+  },
+  "2007-566": {
+   "author": "Campbell (CA)",
+   "purpose": "to prohibit funds to be used for the Conte Anadromous Fish Laboratory.",
+   "amendment": "H.Amdt. 434",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/434"
+  },
+  "2007-567": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds to be used for W.A. Young & Sons Foundry Greene County Pennsylvania.",
+   "amendment": "H.Amdt. 436",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/436"
+  },
+  "2007-568": {
+   "author": "Flake",
+   "purpose": "to prohibit funds to be used for the Columbus Fire Fighters Union in Columbus, Ohio.",
+   "amendment": "H.Amdt. 437",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/437"
+  },
+  "2007-569": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds to be used for the Southwestern Pennsylvania Heritage Preservation Commission in Hollidaysburg, Pennsylvania; the Westsylvania Heritage Corporation in Hollidaysburg, Pennsylvania; and the Progress Fund in Greensburg, Pennsylvania.",
+   "amendment": "H.Amdt. 440",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/440"
+  },
+  "2007-570": {
+   "author": "Jordan",
+   "purpose": "to provide that each amount appropriated or otherwise made available by this Act that is not required to be appropriated or otherwise made available by a provision of law is reduced by 4.3 percent.",
+   "amendment": "H.Amdt. 442",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/442"
+  },
+  "2007-571": {
+   "author": "Price (GA)",
+   "purpose": "to reduce appropriations in the bill by $276,330,000 (or 1 percent).",
+   "amendment": "H.Amdt. 443",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/443"
+  },
+  "2007-572": {
+   "author": "Musgrave",
+   "purpose": "to reduce each amount appropriated or otherwise made available in the bill that is not required to be appropriated or otherwise made available by a provision of law by 0.5 percent.",
+   "amendment": "H.Amdt. 444",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/444"
+  },
+  "2007-573": {
+   "author": "Inslee",
+   "purpose": "to prohibit use of funds in the bill to issue any permit for, or otherwise approve or allow, importation of any polar bear or polar bear part.",
+   "amendment": "H.Amdt. 447",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/447"
+  },
+  "2007-575": {
+   "author": "Lamborn",
+   "purpose": "to eliminate funding for the National Endowment for the Arts.",
+   "amendment": "H.Amdt. 451",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/451"
+  },
+  "2007-576": {
+   "author": "Cannon",
+   "purpose": "to prohibit use of funds in the bill relating to oil-shale leasing in the States of Utah or Wyoming.",
+   "amendment": "H.Amdt. 452",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/452"
+  },
+  "2007-577": {
+   "author": "Udall (CO)",
+   "purpose": "to prohibit use of funds in the bill to prepare or publish final regulations regarding a commercial leasing program for oil shale resources on public lands or to conduct an oil shale lease sale.",
+   "amendment": "H.Amdt. 448",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/448"
+  },
+  "2007-584": {
+   "author": "Cardoza",
+   "purpose": "to reduce funding for the General Activites under the General Services Administration by $8 million and increase funding for the Office of Inspector General under the General Services Administration by $6 million.",
+   "amendment": "H.Amdt. 457",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/457"
+  },
+  "2007-585": {
+   "author": "DeFazio",
+   "purpose": "to reduce funds for Selective Service System by $10,000,000 and increase funds for the Small Business Administration by $10,000,000.",
+   "amendment": "H.Amdt. 458",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/458"
+  },
+  "2007-586": {
+   "author": "Price (GA)",
+   "purpose": "to stike section 738 regarding requirement for Public-Private Competition.",
+   "amendment": "H.Amdt. 459",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/459"
+  },
+  "2007-587": {
+   "author": "Davis, Tom",
+   "purpose": "to decrease funding (by transfer) regarding the Salaries and Expenses of the Office of Special Counsel by $1 million.",
+   "amendment": "H.Amdt. 460",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/460"
+  },
+  "2007-588": {
+   "author": "Garrett (NJ)",
+   "purpose": "to prohibit funds to be used by the SEC to enforce the requirements of section 404 of the Sarbanes-Oxley Act.",
+   "amendment": "H.Amdt. 463",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/463"
+  },
+  "2007-589": {
+   "author": "Souder",
+   "purpose": "to prohibit the use of funds to be used for the Prevention Works or Whitman-Walker Clinic needle exchange programs.",
+   "amendment": "H.Amdt. 466",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/466"
+  },
+  "2007-590": {
+   "author": "Flake",
+   "purpose": "to prohibit funds for the Grace Johnstown Area Regional Industries Incubator and Workforce Development program.",
+   "amendment": "H.Amdt. 469",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/469"
+  },
+  "2007-591": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds to be used for a project for Barracks Row Main Street, Inc.",
+   "amendment": "H.Amdt. 470",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/470"
+  },
+  "2007-592": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds for the San Francisco Planning and Urban Research Association, SPUR Urban Center.",
+   "amendment": "H.Amdt. 471",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/471"
+  },
+  "2007-593": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds to be used for the Mitchell County Development Foundation, Inc. for the Home of the Perfect Christmas Tree Project.",
+   "amendment": "H.Amdt. 472",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/472"
+  },
+  "2007-594": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds for the West Virginia University Research Corporation for renovations of a small business incubator.",
+   "amendment": "H.Amdt. 477",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/477"
+  },
+  "2007-595": {
+   "author": "Campbell (CA)",
+   "purpose": "to prohibit use of funds for the Abraham Lincoln National Airport Commission.",
+   "amendment": "H.Amdt. 479",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/479"
+  },
+  "2007-596": {
+   "author": "Emanuel",
+   "purpose": "to prohibit use of funds in the bill for the Office of the Vice President.",
+   "amendment": "H.Amdt. 480",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/480"
+  },
+  "2007-597": {
+   "author": "Campbell (CA)",
+   "purpose": "to prohibit use of funds for a list of sundry projects contained in the bill.",
+   "amendment": "H.Amdt. 482",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/482"
+  },
+  "2007-598": {
+   "author": "Wicker",
+   "purpose": "to limit the use of funds to implement section 5112 of title 31 United States Code.",
+   "amendment": "H.Amdt. 483",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/483"
+  },
+  "2007-599": {
+   "author": "Pence",
+   "purpose": "to prohibit the use of funds to be used by the Federal Communications Commission to implement the Fairness Doctrine, as repealed in General Fairness Doctrine Obligations of Broadcast Licensees or any other regulations having the same substances.",
+   "amendment": "H.Amdt. 484",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/484"
+  },
+  "2007-600": {
+   "author": "Jordan",
+   "purpose": "to provide that each amount appropriated or otherwise made available by this Act that is not required to be appropriated or otherwise made available by a provision of law is reduced by 8.9 percent.",
+   "amendment": "H.Amdt. 485",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/485"
+  },
+  "2007-601": {
+   "author": "Price (GA)",
+   "purpose": "to reduce appropriations in the bill by $214,340,000.",
+   "amendment": "H.Amdt. 486",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/486"
+  },
+  "2007-602": {
+   "author": "Musgrave",
+   "purpose": "to require that each amount appropriated or othewise made avaiable by this Act is hereby reduced by 0.5 percent.",
+   "amendment": "H.Amdt. 488",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/488"
+  },
+  "2007-603": {
+   "author": "Goode",
+   "purpose": "to prohibit funds to be used to implement or enforce the Health Care Benefits Expansion Act of 1992.",
+   "amendment": "H.Amdt. 489",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/489"
+  },
+  "2007-604": {
+   "author": "Stearns",
+   "purpose": "to prohibit funds to be used by the Internal Revenue Service to implement a Spanish-language version of the \"Where's my Refund?\" service.",
+   "amendment": "H.Amdt. 490",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/490"
+  },
+  "2007-611": {
+   "author": "McKeon",
+   "purpose": "An amendment in the nature of a substitute printed in part B of House Report 110-224 to reduce subsidies in the loan programs an d invests the majority of the savings in the Pell Grant program by providing increases of $350 in 2008 and $100 each year thereafter. It also provides a plan for improved consumer information and public accountability with respect to college costs.",
+   "amendment": "H.Amdt. 492",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/492"
+  },
+  "2007-625": {
+   "author": "Miller, Gary",
+   "purpose": "to impose a 7-year time limit on participation in the Section 8 program. The amendment excludes the elderly and disabled from this requirement. In addition, the amendment provides for a hardship exception.",
+   "amendment": "H.Amdt. 495",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/495"
+  },
+  "2007-626": {
+   "author": "Chabot",
+   "purpose": "to strike the authorization of appropriations for the creation of 20,000 new vouchers each year for years FY 2008 through FY 2012.",
+   "amendment": "H.Amdt. 497",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/497"
+  },
+  "2007-627": {
+   "author": "Hensarling",
+   "purpose": "to require that all adults in a household receiving Section 8 tenant assistance for more than 7 consecutive years must perform 20 hours per week of approved `work activities.' Exemptions are provided for senior citizens, the disabled, those already exempt from TANF work requirements, and those who cannot access child care.",
+   "amendment": "H.Amdt. 498",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/498"
+  },
+  "2007-636": {
+   "author": "Flake",
+   "purpose": "to prohibit use of funds in the bill for the Center for Instrumented Critical Infrastructure in Pennsylvania.",
+   "amendment": "H.Amdt. 503",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/503"
+  },
+  "2007-637": {
+   "author": "Hensarling",
+   "purpose": "to prohibit use of funds for the South Carolina HBCU Science and Technology Initiative.",
+   "amendment": "H.Amdt. 504",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/504"
+  },
+  "2007-638": {
+   "author": "Hensarling",
+   "purpose": "to prohibit use of funds for the Emmanuel College Center for Science Partnership.",
+   "amendment": "H.Amdt. 506",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/506"
+  },
+  "2007-639": {
+   "author": "Hensarling",
+   "purpose": "to prohibit use of funds for Nanosys, Inc.",
+   "amendment": "H.Amdt. 508",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/508"
+  },
+  "2007-640": {
+   "author": "Campbell (CA)",
+   "purpose": "to prohibit use of funds for each earmark listed in the bill.",
+   "amendment": "H.Amdt. 509",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/509"
+  },
+  "2007-642": {
+   "author": "Kline (MN)",
+   "purpose": "to increase appropriations for the Employment Standards Administration and reduce appropriations for the Departmental Management account.",
+   "amendment": "H.Amdt. 511",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/511"
+  },
+  "2007-643": {
+   "author": "Platts",
+   "purpose": "to reduce appropriations for the Bureau of Labor Statistics and increase appropriations for education for the disadvantaged.",
+   "amendment": "H.Amdt. 512",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/512"
+  },
+  "2007-644": {
+   "author": "Marchant",
+   "purpose": "to reduce the amount appropriated for the Salaries and Expenses account by $58,419,000.",
+   "amendment": "H.Amdt. 514",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/514"
+  },
+  "2007-645": {
+   "author": "Jindal",
+   "purpose": "to reduce the appropriation (by transfer) for the Salaries and Expenses by $50 million.",
+   "amendment": "H.Amdt. 517",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/517"
+  },
+  "2007-646": {
+   "author": "Sessions",
+   "purpose": "to prohibit the use of appropriated funds to be used to carry out a public-private competition or direct conversion under OMB Circular A-76 or any successor.",
+   "amendment": "H.Amdt. 519",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/519"
+  },
+  "2007-647": {
+   "author": "Stearns",
+   "purpose": "to increase the appropriation (by transfer) for Health Resources and Services by $12.5 million.",
+   "amendment": "H.Amdt. 520",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/520"
+  },
+  "2007-648": {
+   "author": "Jindal",
+   "purpose": "to redirect $37,200,000 in funding with respect to the Health Resources and Services account.",
+   "amendment": "H.Amdt. 522",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/522"
+  },
+  "2007-649": {
+   "author": "Barton (TX)",
+   "purpose": "to strike the proviso on page 36, beginning at line 5 which states that within the amounts provided for part A of title XXVI of the Public Health Service Act, funds are included to ensure that the amount of any funding provided under such part to a metropolitan area for the program year beginning in 2007 is not reduced by an amount that is more than 8.4 percent, and the amount of any funding provided under subpart II of such part to a transitional area is not reduced by an amount that is more than 13.4 percent, relative to the amount of the total funding provided under such part to the metropolitan area or transitional area, respectively, for the program year beginning in fiscal year 2006.",
+   "amendment": "H.Amdt. 524",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/524"
+  },
+  "2007-650": {
+   "author": "Graves",
+   "purpose": "to reduce appropriations for the National Institute of Allergy and Infectious Diseases (by transfer), and redirect $125 million to Special Education.",
+   "amendment": "H.Amdt. 527",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/527"
+  },
+  "2007-651": {
+   "author": "Hensarling",
+   "purpose": "to reduce appropriations for Children and Families Services Programs by $8 million.",
+   "amendment": "H.Amdt. 530",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/530"
+  },
+  "2007-652": {
+   "author": "Hensarling",
+   "purpose": "to reduce appropriations for Children and Families Services Programs by $5 million.",
+   "amendment": "H.Amdt. 531",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/531"
+  },
+  "2007-653": {
+   "author": "Price (GA)",
+   "purpose": "to reduce appropriations for School Improvement Programs (by transfer), and redirect $21 million to ESEA.",
+   "amendment": "H.Amdt. 536",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/536"
+  },
+  "2007-654": {
+   "author": "Garrett (NJ)",
+   "purpose": "to reduce appropriations on Page 80, line 2, by $33,907,000.",
+   "amendment": "H.Amdt. 537",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/537"
+  },
+  "2007-655": {
+   "author": "Foxx",
+   "purpose": "to reduce (by transfer) the Innovation and Improvement account by $10 million.",
+   "amendment": "H.Amdt. 538",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/538"
+  },
+  "2007-656": {
+   "author": "Shadegg",
+   "purpose": "to reduce the Innovation and Improvement account by $10,695,000.",
+   "amendment": "H.Amdt. 539",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/539"
+  },
+  "2007-657": {
+   "author": "Westmoreland",
+   "purpose": "to reduce the Innovation and Improvement account by $23,533,000.",
+   "amendment": "H.Amdt. 540",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/540"
+  },
+  "2007-658": {
+   "author": "Ferguson",
+   "purpose": "to increase (by transfer) for Special Education account by $50 million.",
+   "amendment": "H.Amdt. 542",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/542"
+  },
+  "2007-659": {
+   "author": "Garrett (NJ)",
+   "purpose": "to reduce Rehabilitation Services and Disability Research account by $2,279,000.",
+   "amendment": "H.Amdt. 543",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/543"
+  },
+  "2007-660": {
+   "author": "Price (GA)",
+   "purpose": "to reduce funding for the Student Financial Assistance account by $64,987,000.",
+   "amendment": "H.Amdt. 544",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/544"
+  },
+  "2007-661": {
+   "author": "Shadegg",
+   "purpose": "An amendment numbered 17 printed in the Congressional Record reduce appropriations for the Corporation for National and Community Service.",
+   "amendment": "H.Amdt. 548",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/548"
+  },
+  "2007-662": {
+   "author": "Lamborn",
+   "purpose": "to strike line 7 and all that follows through the comma on page 104, line 12.",
+   "amendment": "H.Amdt. 549",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/549"
+  },
+  "2007-663": {
+   "author": "Obey",
+   "purpose": "to strike a sundry list of projects contained in the bill.",
+   "amendment": "H.Amdt. 550",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/550"
+  },
+  "2007-664": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds to be used for the Exploratorium, San Francisco, California, for its Bay Area Science Teacher Recruitment, Retention, and Improvement Initiative.",
+   "amendment": "H.Amdt. 552",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/552"
+  },
+  "2007-665": {
+   "author": "Dingell",
+   "purpose": "to prohibit the use of funds be used to pay the basic pay of any individual serving as Deputy Commissioner of Social Security, Social Security Administration, whose appointment to such position has not been confirmed by a vote of the Senate pursuant to section 702(b)(1) of the Social Security Act.",
+   "amendment": "H.Amdt. 553",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/553"
+  },
+  "2007-666": {
+   "author": "Barton (TX)",
+   "purpose": "to prohibit the use of funds for activities under section 241(a) of the Public Health Service Act.",
+   "amendment": "H.Amdt. 555",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/555"
+  },
+  "2007-667": {
+   "author": "Hensarling",
+   "purpose": "to prohibit the use of funds for the On Location Entertainment Industry Craft and Technician Training project, West Los Angeles College, Culver City, CA.",
+   "amendment": "H.Amdt. 559",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/559"
+  },
+  "2007-668": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds for the American Ballet Theatre, New York, New York, for educational activities.",
+   "amendment": "H.Amdt. 560",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/560"
+  },
+  "2007-669": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds for the South Carolina Aquarium, Charleston, South Carolina, for exhibits and curriculum.",
+   "amendment": "H.Amdt. 561",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/561"
+  },
+  "2007-670": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds for the Kansas Regional Prisons Museum, Lansing, Kansas, for educational and outreach programs.",
+   "amendment": "H.Amdt. 562",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/562"
+  },
+  "2007-671": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds for the Corporation for Jefferson's Poplar Forest, Forest, Virginia, for expansion of exhibits and outreach.",
+   "amendment": "H.Amdt. 564",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/564"
+  },
+  "2007-672": {
+   "author": "Davis (KY)",
+   "purpose": "to prohibit funds to be used to pay a bonus or other performance-based cash award to any employee of the Social Security Administration or the Centers for Medicare & Medicaid Services who holds a position to which such employee was appointed by the President, by and with the advice and consent of the Senate, or a Senior Executive Service position.",
+   "amendment": "H.Amdt. 565",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/565"
+  },
+  "2007-673": {
+   "author": "Gingrey",
+   "purpose": "to prohibit use of funds by the SSA to administer Socia Security benefit payments, under any agreement between the United States and Mexico establishing totalization arrangements between the two countries.",
+   "amendment": "H.Amdt. 571",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/571"
+  },
+  "2007-674": {
+   "author": "Souder",
+   "purpose": "to prohibit use of funds in the bill by the NLRB to recognize as the exclusive bargaining representative of employees any labor organization that has not been certified as such by the NLRB.",
+   "amendment": "H.Amdt. 572",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/572"
+  },
+  "2007-675": {
+   "author": "Camp (MI)",
+   "purpose": "to add a new section prohibiting use of funds to implement any policy prohibiting a Medicare beneficiary from electing during a coverage election period, to receive health care benefits under title XVIII of such Act through enrollment in a Medicare Advantage plan.",
+   "amendment": "H.Amdt. 575",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/575"
+  },
+  "2007-676": {
+   "author": "Westmoreland",
+   "purpose": "to limit the use of funds for the publication of certain student loan applications.",
+   "amendment": "H.Amdt. 580",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/580"
+  },
+  "2007-677": {
+   "author": "Lewis (GA)",
+   "purpose": "to limit the use of funds regarding certain Medicare regulations.",
+   "amendment": "H.Amdt. 581",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/581"
+  },
+  "2007-678": {
+   "author": "Campbell (CA)",
+   "purpose": "to prohibit the use of funds for the Charles B. Rangel Center for Public Service, City College of New York, NY.",
+   "amendment": "H.Amdt. 587",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/587"
+  },
+  "2007-679": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds for the American Jazz Museum in Kansas City, Missouri, for exhibits, education programs, and an archival project.",
+   "amendment": "H.Amdt. 589",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/589"
+  },
+  "2007-680": {
+   "author": "Jordan",
+   "purpose": "to provide that each amount appropriated or otherwise made available by this Act that is not required to be appropriated or otherwise made available by a provision of law is hereby reduced by 4.6 percent.",
+   "amendment": "H.Amdt. 590",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/590"
+  },
+  "2007-681": {
+   "author": "Price (GA)",
+   "purpose": "to decrease spending in the bill by 1% across-the board.",
+   "amendment": "H.Amdt. 591",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/591"
+  },
+  "2007-682": {
+   "author": "Musgrave",
+   "purpose": "to reduce spending amounts in the bill by .5% across-the-board.",
+   "amendment": "H.Amdt. 592",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/592"
+  },
+  "2007-683": {
+   "author": "Campbell (CA)",
+   "purpose": "to reduce amounts appropriated in the bill by 0.25% across-the-board.",
+   "amendment": "H.Amdt. 593",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/593"
+  },
+  "2007-684": {
+   "author": "Pence",
+   "purpose": "to prohibit use of funds in the bill for Planned Parenthood.",
+   "amendment": "H.Amdt. 594",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/594"
+  },
+  "2007-691": {
+   "author": "Mica",
+   "purpose": "to strike the proviso pertaining to the Highway Trust Fund account.",
+   "amendment": "H.Amdt. 598",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/598"
+  },
+  "2007-692": {
+   "author": "Bachmann",
+   "purpose": "to reduce funding (by transfer) for Operating Grants to the National Railroad Passenger Corporation account by $106,000,000.",
+   "amendment": "H.Amdt. 599",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/599"
+  },
+  "2007-693": {
+   "author": "Flake",
+   "purpose": "to strike the $475 million appropriation for the Operating Grants to the National Railroad Passenger Corporation account.",
+   "amendment": "H.Amdt. 600",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/600"
+  },
+  "2007-694": {
+   "author": "Flake",
+   "purpose": "to reduce the Capital and Debt Service Grants to the National Railroad Passenger Corporation account by $425 million.",
+   "amendment": "H.Amdt. 601",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/601"
+  },
+  "2007-695": {
+   "author": "Chabot",
+   "purpose": "to reduce by $330 million the appropriation for Public and Indian Housing account.",
+   "amendment": "H.Amdt. 603",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/603"
+  },
+  "2007-696": {
+   "author": "Westmoreland",
+   "purpose": "to strike the Native Hawaiin Housing Block Grant program.",
+   "amendment": "H.Amdt. 605",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/605"
+  },
+  "2007-697": {
+   "author": "Sessions",
+   "purpose": "to limit the use of funds to used to support Amtrak's route with the highest loss, measured by passenger per mile cost as based on the National Railroad Passenger Corporation's September 2006 Financial Performance of Routes Report.",
+   "amendment": "H.Amdt. 612",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/612"
+  },
+  "2007-698": {
+   "author": "Flake",
+   "purpose": "to strike the $300,000 appropriation in the bill for the Belmont Complex in Armstrong County, Pennsylvania.",
+   "amendment": "H.Amdt. 613",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/613"
+  },
+  "2007-699": {
+   "author": "Flake",
+   "purpose": "to strike the $400,000 appropriation in the bill for the North Central Wisconsin Regional Planning Commission in Wausau, Wisconsin.",
+   "amendment": "H.Amdt. 615",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/615"
+  },
+  "2007-700": {
+   "author": "Flake",
+   "purpose": "to strike the $50,000 appropriation in the bill for the National Forest Recreation Association in Woodlake, California.",
+   "amendment": "H.Amdt. 616",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/616"
+  },
+  "2007-701": {
+   "author": "Flake",
+   "purpose": "to limit the use of funds for the Friends of the Cheat Rails to Trails Program.",
+   "amendment": "H.Amdt. 620",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/620"
+  },
+  "2007-702": {
+   "author": "Flake",
+   "purpose": "to limit the use of funds for the Houston Zoo, in Houston, Texas.",
+   "amendment": "H.Amdt. 621",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/621"
+  },
+  "2007-703": {
+   "author": "Hastings (FL)",
+   "purpose": "to prohibit the use of funds by the Federal Aviation Administration to eliminate, consolidate, de-consolidate, co-locate, execute inter-facility reorganization, or plan for the consolidation/deconsolidation, inter-facility reorganization, or co-location of any FAA air traffic control facility or service, with exception of the reversal of the transfer of the radar functions from the Palm Springs Terminal Radar Approach Control (TRACON) to the Southern California TRACON.",
+   "amendment": "H.Amdt. 622",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/622"
+  },
+  "2007-704": {
+   "author": "Frelinghuysen",
+   "purpose": "to prohibit the use of funds by the Federal Aviation Administration to implement its preferred alternative of the New York/New Jersey/ Philadelphia Airspace Redesign project.",
+   "amendment": "H.Amdt. 623",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/623"
+  },
+  "2007-705": {
+   "author": "Hensarling",
+   "purpose": "to prohibit use of funds in the bill for the Edmunds Center for the Arts, City of Edmunds, WA.",
+   "amendment": "H.Amdt. 626",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/626"
+  },
+  "2007-706": {
+   "author": "Hensarling",
+   "purpose": "to prohibit use of funds in the bill for parking facilities.",
+   "amendment": "H.Amdt. 627",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/627"
+  },
+  "2007-707": {
+   "author": "Hunter",
+   "purpose": "An amendment prohibiting the use of funds to participate in a working group pursuant to the Security and Prosperity Partnership.",
+   "amendment": "H.Amdt. 630",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/630"
+  },
+  "2007-708": {
+   "author": "Jordan",
+   "purpose": "to reduce the total amount appropriated in this Act by $3.2 billion.",
+   "amendment": "H.Amdt. 631",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/631"
+  },
+  "2007-709": {
+   "author": "Price (GA)",
+   "purpose": "to reduce appropriations in this Act by $507,767,000.",
+   "amendment": "H.Amdt. 632",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/632"
+  },
+  "2007-710": {
+   "author": "Musgrave",
+   "purpose": "to reduce the total amount appropriated in this Act by $253,690,000.",
+   "amendment": "H.Amdt. 633",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/633"
+  },
+  "2007-711": {
+   "author": "Price (GA)",
+   "purpose": "to prohibit the use of funds for the mortgage insurance programs under title II of the National Housing Act may be used for any housing trust fund established under title II of the Cranston-Gonzalez National Affordable Housing Act.",
+   "amendment": "H.Amdt. 634",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/634"
+  },
+  "2007-712": {
+   "author": "King (IA)",
+   "purpose": "to prohibit the use of funds be used to implement the provisions of subchapter IV of chapter 31 of title 40, United States Code (relating to wage rate requirements; commonly known as the Davis-Bacon Act).",
+   "amendment": "H.Amdt. 638",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/638"
+  },
+  "2007-713": {
+   "author": "Frank (MA)",
+   "purpose": "to prohibit the use of funds to be used to implement or enforce the requirement under section 12(c) of the United States Housing Act of 1937.",
+   "amendment": "H.Amdt. 618",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/618"
+  },
+  "2007-720": {
+   "author": "Rogers (MI)",
+   "purpose": "to increase appropriations for the International Trade Administration (by transfer) by $6 million, and reduce appropriations for the Bureau of the Census.",
+   "amendment": "H.Amdt. 643",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/643"
+  },
+  "2007-721": {
+   "author": "Sessions",
+   "purpose": "to reduce appropriations for the Economic Development Assistance Programs by $100,000,000, and increase appropriations for the Federal Bureau of Investigation by $6,000,000.",
+   "amendment": "H.Amdt. 644",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/644"
+  },
+  "2007-722": {
+   "author": "Capito",
+   "purpose": "to reduce appropriations (by transfer) for the Periodic Censuses and Programs by $10 million, and increase appropriations for the Office of Justice Programs.",
+   "amendment": "H.Amdt. 645",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/645"
+  },
+  "2007-723": {
+   "author": "Shimkus",
+   "purpose": "to increase appropriations (by transfer) for the National Telecommunications and Information Administration by $5 million, and reduce appropriations for General Administration.",
+   "amendment": "H.Amdt. 646",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/646"
+  },
+  "2007-724": {
+   "author": "English (PA)",
+   "purpose": "to reduce appropriations for the National Oceanic and Atmospheric Administration (NOAA) by $2 million, and increase appropriations for the International Trade Commission by $1 million.",
+   "amendment": "H.Amdt. 647",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/647"
+  },
+  "2007-725": {
+   "author": "Lofgren, Zoe",
+   "purpose": "to reduce appropriations for Departmental Management of the Department of Commerce and General Administration of the Department of Justice, and increase appropriations for State and Local Law Enforcement Assistance programs, and the State Criminal Alien Asstistance Program (SCAAP).",
+   "amendment": "H.Amdt. 652",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/652"
+  },
+  "2007-726": {
+   "author": "King (IA)",
+   "purpose": "to redirect appropriations for the FBI by $1 million.",
+   "amendment": "H.Amdt. 656",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/656"
+  },
+  "2007-727": {
+   "author": "Capito",
+   "purpose": "to increase appropriations (by transfer) for the Violence Against Women Prevention and Prosecution Programs, and reduce appropriations for the National Science Foundation operations and award management program by $10 million.",
+   "amendment": "H.Amdt. 659",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/659"
+  },
+  "2007-728": {
+   "author": "Etheridge",
+   "purpose": "to increase appropriations for the Office of Justice Programs by $1,747,111.",
+   "amendment": "H.Amdt. 661",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/661"
+  },
+  "2007-729": {
+   "author": "Sessions",
+   "purpose": "to strike section 213.",
+   "amendment": "H.Amdt. 663",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/663"
+  },
+  "2007-730": {
+   "author": "Inslee",
+   "purpose": "to revise amounts appropriated for the \"General Administration--Salaries and Expenses\" account, and increasing the amount made available for the \"Office on Violence Against Women--Violence Against Women Prevention and Prosecution Programs\".",
+   "amendment": "H.Amdt. 664",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/664"
+  },
+  "2007-731": {
+   "author": "Poe",
+   "purpose": "to strike \"$625 million\" and insert, \"$635 million\" on page 75, line 24.",
+   "amendment": "H.Amdt. 668",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/668"
+  },
+  "2007-732": {
+   "author": "Reichert",
+   "purpose": "to add a new section pertaining to reducing the amount available for Departmental Management-Salaries and Expenses and increasing the amount made available for Office on Violence Against Women-Violence Against Women Prevention and Prosecution Programs.",
+   "amendment": "H.Amdt. 669",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/669"
+  },
+  "2007-733": {
+   "author": "Hinchey",
+   "purpose": "to prohibit the use of funds made available in this Act to the Department of Justice may be used, with respect to certain states, to prevent such States from implementing their own State laws that authorize the use, distribution, possession, or cultivation of medical marijuana.",
+   "amendment": "H.Amdt. 674",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/674"
+  },
+  "2007-734": {
+   "author": "Stearns",
+   "purpose": "to prohibit use of funds for the EEOC may be used for litigation expenses incurred in connection with cases commenced after the date of the enactment of this Act against employers on the grounds that such employers require employees to speak English.",
+   "amendment": "H.Amdt. 678",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/678"
+  },
+  "2007-735": {
+   "author": "Flake",
+   "purpose": "to strike the $200,000 appropriation in the bill for the Lobster Institute at the University of Maine in Orono, Maine.",
+   "amendment": "H.Amdt. 679",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/679"
+  },
+  "2007-736": {
+   "author": "Flake",
+   "purpose": "to limit the use of funds to be used for the East Coast Shellfish Research Institute at the East Coast Shellfish Growers Association, Toms River, New Jersey.",
+   "amendment": "H.Amdt. 685",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/685"
+  },
+  "2007-737": {
+   "author": "Pence",
+   "purpose": "to prohibit use of funds in the bill to enforce the amendments made by subtitle A of title II of Public Law 107-155.",
+   "amendment": "H.Amdt. 682",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/682"
+  },
+  "2007-738": {
+   "author": "Upton",
+   "purpose": "to prohibit funds to be used to purchase light bulbs unless the light bulb have the \"ENERGY STAR\" or \"Federal Energy Management Program\" designation.",
+   "amendment": "H.Amdt. 692",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/692"
+  },
+  "2007-739": {
+   "author": "Jordan",
+   "purpose": "to provide that each amount appropriated or otherwise made available by this Act that is not required to be appropriated or otherwise made available by a provision of law is reduced by 3.0 percent.",
+   "amendment": "H.Amdt. 693",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/693"
+  },
+  "2007-740": {
+   "author": "Price (GA)",
+   "purpose": "to make the total appropriations made in this Act (other than appropriations required to be made by a provision of law) are hereby reduced by $750,000,000.",
+   "amendment": "H.Amdt. 694",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/694"
+  },
+  "2007-741": {
+   "author": "Musgrave",
+   "purpose": "to reduce funds in the bill by 0.5 percent.",
+   "amendment": "H.Amdt. 696",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/696"
+  },
+  "2007-742": {
+   "author": "Campbell (CA)",
+   "purpose": "to reduce the total amount appropriated in this Act by 0.05 percent.",
+   "amendment": "H.Amdt. 697",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/697"
+  },
+  "2007-747": {
+   "author": "Kind",
+   "purpose": "to reform the farmer safety net to work better for small farmers at lower cost, reallocate funding to nutrition, conservation, specialty crops and healthy foods, rural development, and programs that benefit socially disadvantaged farmers.",
+   "amendment": "H.Amdt. 700",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/700"
+  },
+  "2007-748": {
+   "author": "Jackson-Lee (TX)",
+   "purpose": "to express the sense of Congress that the food available to schoolchildren under the school breakfast and lunch program should be selected so as to reduce the incidence of juvenile obesity and to maximize nutritional value.",
+   "amendment": "H.Amdt. 706",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/706"
+  },
+  "2007-749": {
+   "author": "Rangel",
+   "purpose": "to remove certain banking restrictions related to Cuba's payment for agricultural purchases from U.S. producers. It also authorizes direct transfers between Cuban banks and U.S. banks and allows visas to be issued to conduct activities related to purchasing U.S. agricultural goods.",
+   "amendment": "H.Amdt. 707",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/707"
+  },
+  "2007-750": {
+   "author": "Boehner",
+   "purpose": "to replace the current daily posted county prices (PCPs) used for determing loan deficiency payment rates and repayment rates for marketing assistance loans with a monthly PCP for each crop. It would revise requirements for establishing a producer's loan deficiency payment (LDP) and loan repayment rate to be based on the month that beneficial interest is lost. The amendment aims to address farmers taking advantage of short-term market events to lock in artificially high loan deficiency payments, while actually selling the commodity later at prices well above loan rate.",
+   "amendment": "H.Amdt. 708",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/708"
+  },
+  "2007-751": {
+   "author": "Davis (IL)",
+   "purpose": "to strike the sugar sections in the commodity title as well as the feedstock flexibility program for bioenergy producers, extending current programs until 2012.",
+   "amendment": "H.Amdt. 713",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/713"
+  },
+  "2007-752": {
+   "author": "Udall (CO)",
+   "purpose": "to reduce the direct payment rate for cotton by 2/3 of a cent in order to fund enrollment of 224,000 additional acres in the Grasslands Reserve Program.",
+   "amendment": "H.Amdt. 715",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/715"
+  },
+  "2007-753": {
+   "author": "Putnam",
+   "purpose": "to prohibit individuals from receiving farm conservation payments if their income exceeds $1 million, unless 75% of the income comes from farm income.",
+   "amendment": "H.Amdt. 716",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/716"
+  },
+  "2007-754": {
+   "author": "Cooper",
+   "purpose": "to comprehensively reform the federal crop insurance program, including the Administration's farm bill crop insurance proposals. The amendment saves approximately $4 billion while adding resources to the Grassland Reserve Program.",
+   "amendment": "H.Amdt. 717",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/717"
+  },
+  "2007-803": {
+   "author": "Sessions",
+   "purpose": "to strike language from the bill prohibiting use of funds by the USDA Chief Financial Officer for \"competitive sourcing\" activities until the Secretary of Agriculture submits a report on the Department's contracting out policies and budget.",
+   "amendment": "H.Amdt. 731",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/731"
+  },
+  "2007-804": {
+   "author": "Hensarling",
+   "purpose": "to reduce funds provided in the bill for rural community facilities programs by $6,287,000.",
+   "amendment": "H.Amdt. 732",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/732"
+  },
+  "2007-805": {
+   "author": "Hensarling",
+   "purpose": "to reduce funds in the bill for grants to finance broadband transmission in rural areas by $8,910,000.",
+   "amendment": "H.Amdt. 733",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/733"
+  },
+  "2007-806": {
+   "author": "Kingston",
+   "purpose": "to strike section 726 from the bill relating to importation of prescription drugs.",
+   "amendment": "H.Amdt. 734",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/734"
+  },
+  "2007-807": {
+   "author": "Kingston",
+   "purpose": "to prohibit use of funds in the bill to apply labor standards under the Davis-Bacon Act to contracts for construction of renewable energy systems.",
+   "amendment": "H.Amdt. 735",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/735"
+  },
+  "2007-808": {
+   "author": "Jordan",
+   "purpose": "to reduce discretionary funding in the bill by 5.5% across-the-board.",
+   "amendment": "H.Amdt. 736",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/736"
+  },
+  "2007-809": {
+   "author": "Flake",
+   "purpose": "to prohibit use of funds for the Catfish Pathogen Genomic Project in Auburn, Alabama.",
+   "amendment": "H.Amdt. 737",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/737"
+  },
+  "2007-810": {
+   "author": "Flake",
+   "purpose": "to prohibit use of funds for grape genetics research in Geneva, NY.",
+   "amendment": "H.Amdt. 738",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/738"
+  },
+  "2007-811": {
+   "author": "Flake",
+   "purpose": "to prohibit use of funds for the Alternative Uses of Tobacco (MD) grant.",
+   "amendment": "H.Amdt. 739",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/739"
+  },
+  "2007-812": {
+   "author": "Flake",
+   "purpose": "to prohibit use of funds for the Ruminant Nutrition Consortium (MT, ND, SD, and WY).",
+   "amendment": "H.Amdt. 740",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/740"
+  },
+  "2007-813": {
+   "author": "Flake",
+   "purpose": "to prohibit the use of funds for the Wood Utilization (OR,MS,NC,MN,ME,MI,ID,TN,AK,WV) grant.",
+   "amendment": "H.Amdt. 741",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/741"
+  },
+  "2007-827": {
+   "author": "Udall (NM)",
+   "purpose": "to require electric suppliers, other than governmental entities and rural electric cooperatives, to provide 15 percent of their electricity using renewable energy resources by the year 2020. Allows 4 percent of the requirement to be satisfied with electricity efficiency measures.",
+   "amendment": "H.Amdt. 748",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/748"
+  },
+  "2007-828": {
+   "author": "Arcuri",
+   "purpose": "to repeal the availability of Federal eminent domain authority for use by companies permitted by FERC to construct or modify transmission lines within National Interest Electric Transmission Corridors. In place of this, the amendment would amend section 216(e) of the Federal Power Act to require permitted companies to proceed in accordance with state law.",
+   "amendment": "H.Amdt. 751",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/751"
+  },
+  "2007-829": {
+   "author": "Sali",
+   "purpose": "to provide a sense of the Congress to recognize and support large and small scale conventional hydropower.",
+   "amendment": "H.Amdt. 755",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/755"
+  },
+  "2007-830": {
+   "author": "Cleaver",
+   "purpose": "to prohibit any Federal agency, including any office of the legislative branch, from acquiring a light duty motor vehicle or medium duty motor vehicle that is not a low greenhouse gas emitting vehicle.",
+   "amendment": "H.Amdt. 764",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/764"
+  },
+  "2007-838": {
+   "author": "Sessions",
+   "purpose": "to prohibit the uses of funds to be used to perform any cost study pursuant to the provisions of OMB Circular A-76 if the study being performed exceeds a period of 24 months after initiation of such study with respect to a single function activity or 30 months after initiation of such study for a multi-function activity.",
+   "amendment": "H.Amdt. 769",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/769"
+  },
+  "2007-839": {
+   "author": "Flake",
+   "purpose": "to limit the use of funds for the Presidio Trust.",
+   "amendment": "H.Amdt. 770",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/770"
+  },
+  "2007-840": {
+   "author": "Franks (AZ)",
+   "purpose": "to revise by reducing the amounts made available under the heading \"RESEARCH, DEVELOPMENT, TEST AND EVALUATION- Research, Development, Test, and Evaluation, Defense-wide\", and increasing the amounts made available under that heading by $97,200,000.",
+   "amendment": "H.Amdt. 772",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/772"
+  },
+  "2007-841": {
+   "author": "Walberg",
+   "purpose": "to prohibit the use of funds to be used to award a grant or contract based on the race, ethnicity, or sex of the grant applicant or prospective contractor.",
+   "amendment": "H.Amdt. 775",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/775"
+  },
+  "2007-842": {
+   "author": "Campbell (CA)",
+   "purpose": "to prohibit the use of funds under the heading \"Research, Development, Test, and Evaluation, Army\" may be used for the Paint Shield for Protecting People From Microbial Threats.",
+   "amendment": "H.Amdt. 776",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/776"
+  },
+  "2007-843": {
+   "author": "Flake",
+   "purpose": "to prohibit funds to be used for the Doyle Center for Manufacturing Technology.",
+   "amendment": "H.Amdt. 780",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/780"
+  },
+  "2007-844": {
+   "author": "Flake",
+   "purpose": "to prohibit funds to be used for the Lewis Center for Education Research.",
+   "amendment": "H.Amdt. 781",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/781"
+  },
+  "2007-845": {
+   "author": "Flake",
+   "purpose": "to prohibit funds to be used for the National Drug Intelligence Center, Johnstown, Pennsylvania.",
+   "amendment": "H.Amdt. 782",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/782"
+  },
+  "2007-856": {
+   "author": "Westmoreland",
+   "purpose": "to strike the section providing housing asstistance for native Hawaiians.",
+   "amendment": "H.Amdt. 786",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/786"
+  },
+  "2007-857": {
+   "author": "King (IA)",
+   "purpose": "to prohibit use of funds in the bill to employ certain workers under the Immigration and Nationality Act.",
+   "amendment": "H.Amdt. 787",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/787"
+  },
+  "2007-858": {
+   "author": "Price (GA)",
+   "purpose": "to add a new section providing for offsets of spending authorized by the bill.",
+   "amendment": "H.Amdt. 788",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/788"
+  },
+  "2007-862": {
+   "author": "Conyers",
+   "purpose": "to incorporate a number of revisions including revisions to the sections on damages, willful infringement, prior user rights, post-grant review, venue, inequitable conduct, applicant disclosure information and inventor's oath requirements, among others.",
+   "amendment": "H.Amdt. 789",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/789"
+  },
+  "2007-873": {
+   "author": "Hensarling",
+   "purpose": "to strike the allowable use of FHA savings for an affordable housing fund.",
+   "amendment": "H.Amdt. 798",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/798"
+  },
+  "2007-874": {
+   "author": "Biggert",
+   "purpose": "An amendment in the nature of a substitute numbered 7 printed in House Report 110-330 to reform the Federal Housing Administration's (FHA) single-family mortgage insurance activities and would allow FHA to base each borrower's mortgage insurance premiums on the risk that the borrower poses to the FHA Mortgage Insurance Fund, with slight variations. Under this proposal, mortgage insurance premiums will be based on the borrower's credit history, loan-to-value ratio, debt-to-income ratio, and on FHA's historical experience with similar borrowers. This amendment maintains FHA reserves within the insurance fund to preserve the future solvency of the FHA program.",
+   "amendment": "H.Amdt. 800",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/800"
+  },
+  "2007-881": {
+   "author": "Frank (MA)",
+   "purpose": "to clarify the certification process for acts of NBCR (nuclear, biological, chemical, or radiological) terrorism; apply the reset mechanism to the NBCR deductible, and provide that the Consumer Price Index will be used to adjust for inflation the dollar amounts used in TRIA. The amendment also makes technical and conforming changes.",
+   "amendment": "H.Amdt. 801",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/801"
+  },
+  "2007-882": {
+   "author": "Pearce",
+   "purpose": "to raise the deductible set at 5% above $1,000,000,000 by 1% each program year, rather than by .5% as the bill is written.",
+   "amendment": "H.Amdt. 802",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/802"
+  },
+  "2007-889": {
+   "author": "Neugebauer",
+   "purpose": "to require the Administrator of the Federal Aviation Administration to carry out a study on the feasibility of developing a publicly searchable, Internet Web-based resource that provides information regarding the acceptable height and distance that wind turbines may be installed in relation to aviation sites and the level of obstruction such turbines may present to such sites.",
+   "amendment": "H.Amdt. 810",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/810"
+  },
+  "2007-912": {
+   "author": "Wilson (SC)",
+   "purpose": "to require the Occupational Safety and Health Administration to wait until the National Institute for Occupational Safety and Health (NIOSH) concludes there is sufficient data to support a recommended exposure limit and establishes such recommended exposure limit before issuing a final standard.",
+   "amendment": "H.Amdt. 813",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/813"
+  },
+  "2007-919": {
+   "author": "Taylor",
+   "purpose": "to allow multiple peril and flood insurance coverage of apartment buildings up to the total of the number of dwelling units times the maximum coverage limit per residential unit.",
+   "amendment": "H.Amdt. 821",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/821"
+  },
+  "2007-935": {
+   "author": "Conyers",
+   "purpose": "to provide that the Department of Justice (DOJ) Inspector General is not required to refer to the Counsel of the Office of Professional Responsibility (OPR) of DOJ, allegations of misconduct involving DOJ attorneys and related personnel where the allegations relate to the exercise of the authority of an attorney to investigate, litigate, or provide legal advice.",
+   "amendment": "H.Amdt. 831",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/831"
+  },
+  "2007-955": {
+   "author": "Frank (MA)",
+   "purpose": "to establish a state minimum allocation percentage, under which every state will receive at least one half of one percent (.5%) of the total funds available each year that are allocated to states, Indian Tribes, and insular areas. Allocations to all other states would be reduced pro rata to bring these states up to this .5% minimum. The amendment would also provide that the local jurisdiction in each state that is slated to receive the largest amount by formula in such state would be entitled to receive such funds directly [notwithstanding the bill's provision that jurisdictions entitled to their state in any year that nationwide funding is less than $2 billion]. The amendment includes a technical clarification to ensure that the mixed income limitation capping the number of units initially rented to extremely low income families at 50% applies to all of the units in a project [not just those units assisted by trust fund dollars]. The amendment would provide that the exception to the mixed income rule applies to all `elderly only' projects, not just those projects of 25 or fewer units.",
+   "amendment": "H.Amdt. 843",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/843"
+  },
+  "2007-956": {
+   "author": "Neugebauer",
+   "purpose": "to establish a National Affordable Housing Grant Fund program within the HOME program, which is currently administered through the U.S. Department of Housing and Urban Development.",
+   "amendment": "H.Amdt. 850",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/850"
+  },
+  "2007-1024": {
+   "author": "McCrery",
+   "purpose": "to reauthorize the Trade AdjustmentAssistance (TAA) programs for workers, firms and farmers for 5 years. Restructures the TAA to increase training options while retaining the current two years of income support for TAA for workers program participants who remain unemployed and train full-time. Increases the federal share of monthly TAA participant premiums for the Health Coverage Tax Credit (HCTC) from 65% today to 70% and continues HCTC. Allows States to apply for waivers of unemployment compensation program rules. Expands the new markets tax credit to benefit firms and workers in local communities impacted by trade, globalization, and other causes of job loss. Extends Workforce Investment Act (WIA) employment and training programs, creates a consolidated funding stream, and increases State and local flexibility. Provides for collection of Unemployment Insurance overpayments.",
+   "amendment": "H.Amdt. 875",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/875"
+  },
+  "2007-1030": {
+   "author": "Pearce",
+   "purpose": "to strike the definition of `undue degradation' in the legislation.",
+   "amendment": "H.Amdt. 877",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/877"
+  },
+  "2007-1031": {
+   "author": "Cannon",
+   "purpose": "to strike section 517--Mineral materials.",
+   "amendment": "H.Amdt. 880",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/880"
+  },
+  "2007-1054": {
+   "author": "Miller, George",
+   "purpose": "An amendment numbered 1 printed House Report 110-422 to (1) provide explicitly that any religious corporation, school, association or society that is exempt under either Section 702(a) or 703(e)(2) of Title VII's religious exemptions is exempt under ENDA. It clarifies that the scope of Title VII's exemption is exactly the scope of ENDA's exemption (if a school is exempt from Title VII's religious discrimination prohibitions, it will also be exempt from ENDA); and (2) clarify that ENDA does not alter the Defense of Marriage Act (DOMA) in any way. It strikes language referencing `a same-sex couple who are not married' in the Employee Benefits section of ENDA. It also inserts language clarifying that the term `married' has the meaning given such term in DOMA, directly incorporating DOMA's definition of marriage.",
+   "amendment": "H.Amdt. 882",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/882"
+  },
+  "2007-1055": {
+   "author": "Souder",
+   "purpose": "to strike paragraph (3) of section 8(a), which prohibits employers from conditioning employment on a person being married or being eligible to be married.",
+   "amendment": "H.Amdt. 883",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/883"
+  },
+  "2007-1068": {
+   "author": "Klein (FL)",
+   "purpose": "to make technical and conforming changes; add a new title which inserts new provisions on reinsurance coverage for qualified reinsurance programs; and to insert provisions requiring a study on the need for conditional coverage of commercial residential lines of insurance.",
+   "amendment": "H.Amdt. 885",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/885"
+  },
+  "2007-1069": {
+   "author": "Roskam",
+   "purpose": "to insert clarifying language to the bill relating to best practices in building codes.",
+   "amendment": "H.Amdt. 886",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/886"
+  },
+  "2007-1070": {
+   "author": "Roskam",
+   "purpose": "to insert clarifying language with respect to catastrophic loans and losses covered by such loans.",
+   "amendment": "H.Amdt. 888",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/888"
+  },
+  "2007-1071": {
+   "author": "Manzullo",
+   "purpose": "to insert clarifying language relating to delinquency of loans made for assistance in connection with a natural or other major disaster.",
+   "amendment": "H.Amdt. 890",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/890"
+  },
+  "2007-1072": {
+   "author": "Shays",
+   "purpose": "An amendment in the nature of a substitute numbered 5 printed in the Congressional Record to insert a complete new text.",
+   "amendment": "H.Amdt. 895",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/895"
+  },
+  "2007-1112": {
+   "author": "Watt",
+   "purpose": "to allow for actual damages in the liability section.",
+   "amendment": "H.Amdt. 902",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/902"
+  },
+  "2007-1114": {
+   "author": "Price (GA)",
+   "purpose": "to exempt prime loans from the bill.",
+   "amendment": "H.Amdt. 903",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/903"
+  },
+  "2007-1115": {
+   "author": "Garrett (NJ)",
+   "purpose": "to strike the rebuttable presumption under section 203, stating that all qualified safe harbor loans that meet the requirements listed in section 203(c)(3)(C) fall under the safe harbor.",
+   "amendment": "H.Amdt. 911",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/911"
+  },
+  "2007-1116": {
+   "author": "McHenry",
+   "purpose": "to strike Title III--High-Cost Mortgages from the bill.",
+   "amendment": "H.Amdt. 914",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/914"
+  },
+  "2008-5": {
+   "author": "Miller, George",
+   "purpose": "to provide the mining industry with more time to install a new generation of fire-resistant conveyor belts. The amendment would also provide funds for MSHA to purchase a new generation of dust monitoring devices to limit black lung disease, and ensure that breathable air requirements of the MINER Act of 2006 are properly implemented. In addition, the amendment requires that the Secretary of Labor conduct a study on substance abuse by miners with recommendations for policy changes, in consultation with all interested parties. The Secretary shall report the findings within six months of the bill's enactment and, if she deems it feasible and effective, shall be authorized to establish a miner substance abuse testing, rehabilitation, and treatment program within MSHA in consultation with the interested parties.",
+   "amendment": "H.Amdt. 919",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/919"
+  },
+  "2008-6": {
+   "author": "Boucher",
+   "purpose": "to authorize $10,000,000 to award grants to provide rehabilitation service s to current and former miners suffering from mental health impairments, including drug addiction and substance abuse issues, which may have been caused or exacerbated by their work as miners.",
+   "amendment": "H.Amdt. 920",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/920"
+  },
+  "2008-7": {
+   "author": "Ellsworth",
+   "purpose": "to offer relief to mine operators that have been assessed penalties and pa y them in a timely fashion. It also establishes a trust fund within Treasury, composed of mine safety civil penalties. Funds from the trust fund can be used for mine safety inspections and investigations only.",
+   "amendment": "H.Amdt. 921",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/921"
+  },
+  "2008-8": {
+   "author": "Wilson (SC)",
+   "purpose": "An amendment in the nature of a substitute numbered 4 printed in House Report 110-508 to promote the continued robust implementa tion of the 2006 MINER Act, increases worker safety by providing miners the opportunity to have a voice in mine safety, expands substance abuse programs to all mines to ensure safe working conditions for all miners, and addresses issues raised by the recent Crandall Canyon disaster.",
+   "amendment": "H.Amdt. 922",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/922"
+  },
+  "2008-12": {
+   "author": "Waters",
+   "purpose": "to make a number of technical and conforming changes as well as enhancemen ts to the bill, including the following: (1) redefines the scope of the 1 for 1 replacement requirement by requiring the replacement of all units in existence as of January 1, 2005, and provides a limited waiver from the replacement requirement; (2) extends the timeline for rebuilding replacement housing units to 54 months from the date of execution of the grant agreement, consistent with current HUD practice; (3) clarifies procedural requirements for making any significant amendments or changes to a revitalization plan; (4) removes specific references to LEED for non-residential construction and excludes costs associated with green development compliance from HUD's Total Development Cost calculation; (5) clarifies eligibility and occupancy standards; and (6) clarifies that no person not lawfully permitted to be in, or remain in, the United States is eligible for housing assistance under this bill.",
+   "amendment": "H.Amdt. 923",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/923"
+  },
+  "2008-13": {
+   "author": "Neugebauer",
+   "purpose": "to apply the one-to-one replacement requirement for units demolished under a HOPE VI grant only to units that are occupied prior to demolition.",
+   "amendment": "H.Amdt. 924",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/924"
+  },
+  "2008-14": {
+   "author": "Sessions",
+   "purpose": "to maintain HUD's authority to issue demolition-only grants.",
+   "amendment": "H.Amdt. 926",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/926"
+  },
+  "2008-15": {
+   "author": "King (IA)",
+   "purpose": "to prevent appropriations for Davis-Bacon wages.",
+   "amendment": "H.Amdt. 928",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/928"
+  },
+  "2008-16": {
+   "author": "Capito",
+   "purpose": "to substitute the green building requirement, which is part of the mandatory core component of the underlying bill, with a provision that includes green building as part of the mandatory graded section. It also strikes references in the bill to specific green building standards and instead requires the Secretary of HUD to select a rating system, standard, or code for green buildings. This standard shall meet certain criteria and the Secretary shall conduct a study every 5 years to evaluate and compare third party green building standards to see if they meet the criteria.",
+   "amendment": "H.Amdt. 929",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/929"
+  },
+  "2008-36": {
+   "author": "Petri",
+   "purpose": "to require the existing Education-Treasury Study Group to evaluate the feasibility of an alternative market-based reform to the Federal Family Education Loan Program. The recommended alternative should reduce federal costs to taxpayers and use savings to increase need-based grant aid to low-income students.",
+   "amendment": "H.Amdt. 936",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/936"
+  },
+  "2008-37": {
+   "author": "Petri",
+   "purpose": "to extend the new audit and reporting provisions applied only to the Direct Loan program to the Federal Family Education Loan Program.",
+   "amendment": "H.Amdt. 937",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/937"
+  },
+  "2008-38": {
+   "author": "Davis (IL)",
+   "purpose": "to restore protections to private student loan borrowers similar to those afforded other unsecured debtors by allowing the discharge of private student loans via bankruptcy.",
+   "amendment": "H.Amdt. 939",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/939"
+  },
+  "2008-75": {
+   "author": "Sires",
+   "purpose": "to HUD for \"stop-loss\" do not have their applications rejected on the basis that the management and related fees they establish pursuant to this bill are not reasonable as defined by HUD. Additionally, the amendment is a restatement of current law with respect to the ineligibility of illegal immigrants for assistance.",
+   "amendment": "H.Amdt. 956",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/956"
+  },
+  "2008-76": {
+   "author": "Meek (FL)",
+   "purpose": "numbered 2 printed in House Report 110-524 holds HUD re sponsible, in the case of receivership, for performing the same responsibilities that the local housing agencies have in respect to working with tenant associations before building public housing. Additionally, in the case of receivership, before building new public housing HUD must honor any formal agreements entered into before the commencement of such receivership between the local housing authority and the tenant association.",
+   "amendment": "H.Amdt. 957",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/957"
+  },
+  "2008-105": {
+   "author": "Flake",
+   "purpose": "to strike the \"summer of service\" grant program and reduce the authorized amount designated for the program.",
+   "amendment": "H.Amdt. 968",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/968"
+  },
+  "2008-106": {
+   "author": "Inslee",
+   "purpose": "to add an Energy Conservation Corps, which would seek to address the nation's energy and transportation infrastructure needs while providing work and service opportunities.",
+   "amendment": "H.Amdt. 969",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/969"
+  },
+  "2008-137": {
+   "author": "Kilpatrick",
+   "purpose": "An amendment in the nature of a substitute numbered 1 printed in House Report 110-548 and submitted on behalf of the Congressional Black Caucus, to seek an alternative budget that balances the budget in FY 2012. The CBC budget funds programs and services in the areas of health care, education, veterans benefits and services for low-income families. It also provides for additional services for the administration of justice and funds the recommendations of the House Committee on Homeland Security.",
+   "amendment": "H.Amdt. 970",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/970"
+  },
+  "2008-138": {
+   "author": "Lee",
+   "purpose": "An amendment in the nature of a substitute numbered 2 printed in House Report 110-548 submitted from the Congressional Progressive Caucus to provide at least $551.7 billion for domestic, non-military discretionary spending in FY09; provides a $118.9 billion economic stimulus package; extends unemployment insurance, food stamp benefits, and Medicaid payments to states; and, spends $468.3 billion on defense. The Progressive Caucus budget balances by FY12 and rebalances again in FY18, upon completion of our Reinvest and Rebuild America Initiative.",
+   "amendment": "H.Amdt. 971",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/971"
+  },
+  "2008-140": {
+   "author": "Ryan (WI)",
+   "purpose": "An amendment in the nature of a substitute numbered 3 printed in House Report 110-548 to balance the budget by 2012, retain provisions enacted in 2001/2003, prevent expansion of the AMT for the next 3 years, and achieve full repeal in 2013. Provides total discretionary budget authority of $1.04 trillion in fiscal year 2009, a 4.3-percent increase from 2008 enacted level. It imposes a moratorium on congressional earmarks for the balance of the 110th Congress; requires a separate vote on increasing the public debt; requires cost estimates on conference reports and unreported bills; prohibits domestic add-ons to emergency war spending bills; limits long-term spending commitments; prevents use of reconciliation to increase spending; limits `advance appropriations' to $23.565 billion in 2010; provides a $7.3-billion domestic emergency reserve fund; provides for contingency war funds; incorporates bipartisan Legislative Line Item Veto. Calls for 1 percent decrease in entitlement program spending.",
+   "amendment": "H.Amdt. 972",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/972"
+  },
+  "2008-156": {
+   "author": "Carson",
+   "purpose": "to direct the Coordinator of United States Government Activities to Combat HIV/AIDS Globally and the Administrator of the United States Agency for International Development to expand their plan for strengthening health systems of host countries by allowing for postsecondary educational institutions, particularly in Africa, to collaborate with United States postsecondary educational institutions and specifically historically black colleges and universities.",
+   "amendment": "H.Amdt. 976",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/976"
+  },
+  "2008-167": {
+   "author": "Grijalva",
+   "purpose": "to reiterate that nothing in the bill shall impede efforts by the Department of Homeland Security to secure the borders of the United States.",
+   "amendment": "H.Amdt. 980",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/980"
+  },
+  "2008-168": {
+   "author": "Bishop (UT)",
+   "purpose": "An amendment numbered 3 in House Report 110-573 to strike the preamble to the establishment of the National Landscape Conservation System.",
+   "amendment": "H.Amdt. 982",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/982"
+  },
+  "2008-169": {
+   "author": "Bishop (UT)",
+   "purpose": "to strike Section 3(c)(2) and inserts language directing the Interior Secretary to manage the system in accordance with each applicable law (including regulations) relating to each component of the system included under subsection (b).",
+   "amendment": "H.Amdt. 983",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/983"
+  },
+  "2008-170": {
+   "author": "Bishop (UT)",
+   "purpose": "to provide that in clusion in the National Landscape Conservation System does not additionally restrict or hinder energy development within the System.",
+   "amendment": "H.Amdt. 984",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/984"
+  },
+  "2008-171": {
+   "author": "Altmire",
+   "purpose": "to provide that the bill does not in any way limit access for hunting, fishing, trapping or recreational shooting on the 27 million acres administered by the Bureau of Land Management. It also provides that H.R. 2016 does not in any way infringe on a state's right to manage, control or regulate its hunting, fishing, trapping and recreational shooting activities on these lands.",
+   "amendment": "H.Amdt. 985",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/985"
+  },
+  "2008-172": {
+   "author": "Pearce",
+   "purpose": "to provide that in clusion in the National Landscape Conservation System does not affect existing grazing rights or operations on those Bureau of Land Management lands.",
+   "amendment": "H.Amdt. 986",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/986"
+  },
+  "2008-182": {
+   "author": "Flake",
+   "purpose": "to add a new paragraph prohibiting use of funds for Congressional earmarks.",
+   "amendment": "H.Amdt. 988",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/988"
+  },
+  "2008-196": {
+   "author": "Frank (MA)",
+   "purpose": "to make various technical corrections within the bill's `Findings' section, and adds under the eligibility criteria the requirement that a country must also be complying with minimum standards for eliminating human trafficking; must be cooperating with American efforts to stop illegal immigration to the United States; and be committed to free and fair elections.",
+   "amendment": "H.Amdt. 991",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/991"
+  },
+  "2008-197": {
+   "author": "Rohrabacher",
+   "purpose": "to add a provision to Section 1626, defining an `eligible low-income country' to include that the government shall have been chosen by, and permits, free elections.",
+   "amendment": "H.Amdt. 992",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/992"
+  },
+  "2008-203": {
+   "author": "Miller, George",
+   "purpose": "to make technical and conforming changes; state that loan limit increases available under this Act are available only to students meeting the requirements of section 484(a) of the HEA; target the loan limit increases to those students and families in most need; in regard to school-wide lender-of-last-resort eligibility, specifies that the Secretary of Education shall determine whether a school qualifies and provides criteria for the Secretary to consider in making the determination; specifies that funds received by lenders from loan sales be used to originate new loans; clarifiy that the Secretary has the authority to enter into forward commitments to purchase new loans; and clarifies that, at the discretion of the Secretary, a loan purchased by the Secretary may continue to be serviced by the current lender.",
+   "amendment": "H.Amdt. 1004",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1004"
+  },
+  "2008-213": {
+   "author": "Matheson",
+   "purpose": "to give priority to small businesses and organizations, in the awarding of SBIR, STTR, and FAST grants, that are making significant contributions towards energy efficiency, including those that are making efforts to reduce their carbon footprint or are carbon neutral.",
+   "amendment": "H.Amdt. 1011",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1011"
+  },
+  "2008-214": {
+   "author": "Capito",
+   "purpose": "to change section 104, regarding the SBIR Advisory Board. It would add to small business concerns owned and controlled by service-disabled veterans to the groups to be targeted by the board to make applications for SBIR grants.",
+   "amendment": "H.Amdt. 1018",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1018"
+  },
+  "2008-215": {
+   "author": "Foster",
+   "purpose": "to require SBIR awardees to be owned and controlled by at least one individual, or a business concern owned and controlled by individuals, who are a citizens of, or permanent resident aliens in, the United States. Any applicant found knowingly hiring, recruiting, or referring for a fee, an unauthorized alien shall not be eligible for the receipt of future awards.",
+   "amendment": "H.Amdt. 1022",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1022"
+  },
+  "2008-220": {
+   "author": "Poe",
+   "purpose": "to state the findings of Congress that stateless submersible or semi-submersible vessels on international voyages are a serious international problem, facilitate international crimes, and are a threat to the safety and security of the United States. The amendment would make it a federal criminal offense subject to fines, imprisonment, or both for the operation and embarkation of any stateless submersible or semi-submersible vessel.",
+   "amendment": "H.Amdt. 1026",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1026"
+  },
+  "2008-221": {
+   "author": "McNerney",
+   "purpose": "to state that the marine safety provisions of the bill shall not impair the legal authority of the Coast Guard to carry out its homeland security mission, including protecting ports and waterways, stopping human smuggling, and preventing terrorist organizations from attacking the United States.",
+   "amendment": "H.Amdt. 1027",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1027"
+  },
+  "2008-230": {
+   "author": "Miller, George",
+   "purpose": "to make four adjustments to the bill: (1) correct the short title; (2) provide that engineering controls required by the interim standard shall be effective 6 months after issuance of the standard (rather than 30 days); (3) maintain the provision that DOL shall include appropriate and relevant NFPA standards in the final standard but eliminates references to specific NFPA standards; and (4) clarifie that the final standard shall be conducted in accordance with usual rulemaking procedural requirements, including those that provide for small business review.",
+   "amendment": "H.Amdt. 1037",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1037"
+  },
+  "2008-231": {
+   "author": "Wilson (SC)",
+   "purpose": "to direct OSHA to wait for the outcome of the Imperial Sugar investigation and findings from the combustible dust National Emphasis Program before deciding on whether to move forward with a standard.",
+   "amendment": "H.Amdt. 1038",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1038"
+  },
+  "2008-293": {
+   "author": "Waters",
+   "purpose": "to provide for direct allocations to qualified metropolitan cities and qualified urban counties, makes the definition of operating expenses consistent with other HUD programs, and caps purchase price under the loan program at the current appraised value of the foreclosed property.",
+   "amendment": "H.Amdt. 1039",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1039"
+  },
+  "2008-294": {
+   "author": "Capito",
+   "purpose": "to direct the funds to be administered through the Office of Community Planning and Development of the Department of Housing and Urban Development rather than directing the Secretary to create a new program within the Department.",
+   "amendment": "H.Amdt. 1040",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1040"
+  },
+  "2008-295": {
+   "author": "Hensarling",
+   "purpose": "to strike all references in the bill to providing grants to states, but leave the underlying loan program intact. Money from the grant portion of the bill ($7.5 billion) would be re-directed to the loan portion (for a total of $15 billion in loans).",
+   "amendment": "H.Amdt. 1042",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1042"
+  },
+  "2008-297": {
+   "author": "Altmire",
+   "purpose": "to clarify that illegal immigrants shall be ineligible for financial assistance under the bill.",
+   "amendment": "H.Amdt. 1045",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1045"
+  },
+  "2008-355": {
+   "author": "Akin",
+   "purpose": "to increase funding (by offset) for Future Combat Systems by $193 million.",
+   "amendment": "H.Amdt. 1048",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1048"
+  },
+  "2008-356": {
+   "author": "Franks (AZ)",
+   "purpose": "to add $719 million to the Missile Defense Agency's Budget.",
+   "amendment": "H.Amdt. 1050",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1050"
+  },
+  "2008-357": {
+   "author": "Tierney",
+   "purpose": "to reduce funding for the Missile Defense Agency by $966.2 million.",
+   "amendment": "H.Amdt. 1051",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1051"
+  },
+  "2008-358": {
+   "author": "Pearce",
+   "purpose": "to remove $10 million in funding for energy conservation on military installations and increase funding for the Reliable Replacement Warhead program by $10 million.",
+   "amendment": "H.Amdt. 1052",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1052"
+  },
+  "2008-359": {
+   "author": "Lee",
+   "purpose": "to provide that no provision in any status of forces agreement negotiated between the United States and the Government of Iraq that obligates the United States to the defense of Iraq from internal or external threats shall have any legal effect unless the agreement is in the form of a treaty requiring the advice and consent of the Senate, or is specifically authorized by an Act of Congress.",
+   "amendment": "H.Amdt. 1055",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1055"
+  },
+  "2008-360": {
+   "author": "Braley (IA)",
+   "purpose": "to require the President to submit a report to Congress on the long-term costs of Operation Iraqi Freedom and Operation Enduring Freedom within 90 days of enactment. The amendment directs the estimate to be based on certain scenarios; make projections through at least Fiscal Year 2068; and take into account and specify various factors, including operational costs, reconstruction costs, and the cost of providing health care and disability benefits.",
+   "amendment": "H.Amdt. 1057",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1057"
+  },
+  "2008-361": {
+   "author": "Price (NC)",
+   "purpose": "to prohibit agencies under the Department of Defense from using contractors to perform interrogations. The amendment would allow the use of contractors for interpretation.",
+   "amendment": "H.Amdt. 1061",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1061"
+  },
+  "2008-362": {
+   "author": "Holt",
+   "purpose": "to require the videotaping or electronic recording of detainee interrogations in the custody of or under the effective control of the Department of Defense. Directs the Judge Advocates General of the respective military services to develop uniform guidelines for such videotaping or electronic recording, and for said guidelines to be provided to Congress.",
+   "amendment": "H.Amdt. 1062",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1062"
+  },
+  "2008-363": {
+   "author": "McGovern",
+   "purpose": "to require the Defense Secretary to release to the public, upon request, the names, ranks, countries of origin, and other information of students and instructors of the Western Hemisphere Institute for Security Cooperation (\"WHINSEC\"). The amendment covers fiscal years 2005-2008 and any fiscal year thereafter.",
+   "amendment": "H.Amdt. 1063",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1063"
+  },
+  "2008-374": {
+   "author": "Kildee",
+   "purpose": "to makin various technical changes in addition to clarifing or adding certain allowable uses of funds, clarifing the Act's green building requirements, and adding certain reporting requirements.",
+   "amendment": "H.Amdt. 1069",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1069"
+  },
+  "2008-375": {
+   "author": "Ehlers",
+   "purpose": "to establish a moratorium on using federal funds to purchase carbon offsets with the funding authorized in the bill.",
+   "amendment": "H.Amdt. 1070",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1070"
+  },
+  "2008-376": {
+   "author": "Welch (VT)",
+   "purpose": "to allow funding authorized by the bill to be used for renewable energy generation and heating systems in schools.",
+   "amendment": "H.Amdt. 1071",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1071"
+  },
+  "2008-377": {
+   "author": "Matheson",
+   "purpose": "to provide that schools and local educational agencies receiving grants under this bill shall report, if they installed flooring, whether it was (1) low- or no-VOC (Volatile Organic Compounds) flooring, (2) made from sustainable materials, and (3) cost effective.",
+   "amendment": "H.Amdt. 1074",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1074"
+  },
+  "2008-384": {
+   "author": "Bishop (UT)",
+   "purpose": "to change the bill's permanent authorization of appropriations to an authorization for five years.",
+   "amendment": "H.Amdt. 1076",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1076"
+  },
+  "2008-397": {
+   "author": "Sessions",
+   "purpose": "to prohibit funds from being used for the long distance Amtrak route with the highest cost per seat/mile according to Amtrak's March 2008 monthly performance report unless the Secretary has transmitted a waiver for this route or a portion of it because the Secretary considers it critical to homeland security.",
+   "amendment": "H.Amdt. 1080",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1080"
+  },
+  "2008-398": {
+   "author": "Davis, Tom",
+   "purpose": "to authorize the Transportation Secretary to make grants to the Washington Metropolitan Area Transit Authority to finance in part the capital and preventive maintenance projects included in the Capital Improvement Program approved by the Board of Directors of the Transit Authority; and prohibit funds to the Transit Authority unless the Authority ensures its rail customers have access to any services provided by any licensed wireless provider that notifies the Authority of its intent to offer services to the public.",
+   "amendment": "H.Amdt. 1078",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1078"
+  },
+  "2008-418": {
+   "author": "Lampson",
+   "purpose": "to exempt NASA from Section 526(a) of the Energy Independence and Security Act of 2007 if the contract does not specifically require the contractor to provide an alternative or synthetic fuel or fuel from a nonconventional source, the purpose of the contract is not to obtain an alternative or synthetic fuel or fuel from a nonconventional petroleum source, and the contract does not provide incentives for a refinery upgrade or expansion to allow a refinery to use or increase its use of fuel from a nonconventional petroleum source.",
+   "amendment": "H.Amdt. 1089",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1089"
+  },
+  "2008-419": {
+   "author": "Hodes",
+   "purpose": "to establish a scholarship program in honor of Christa McAulliffe, a teacher from Concord, New Hampshire who died in the 1986 Challenger Space Shuttle disaster. The scholarship would go to women pursuing degrees in mathematics, science, and engineering.",
+   "amendment": "H.Amdt. 1094",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1094"
+  },
+  "2008-426": {
+   "author": "Davis (IL)",
+   "purpose": "to make certain technical and conforming changes to the bill, would strike a requirement for a study by the Government Accountability Office, and would make section 4 not effective with respect to births or placements occurring within 6 months of the enactment of the Act.",
+   "amendment": "H.Amdt. 1097",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1097"
+  },
+  "2008-444": {
+   "author": "Miller, George",
+   "purpose": "to make three changes to the definition of \"covered program.\" It expands the definition to include public residential programs, and it strikes the exclusion of psychiatric residential treatment facilities and the exclusion of foster care group homes. The amendment strikes the requirement for the Secretary of HHS to make unannounced site inspections of covered programs at least once every two years, and it strikes Section 5. The amendment requires the Secretary to report to Congress on the activities of the national toll-free hotline, directs the Secretary to conduct a study on the outcomes of residential programs, and amends one of the standards to require a timeline about notifying parents.",
+   "amendment": "H.Amdt. 1098",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1098"
+  },
+  "2008-465": {
+   "author": "Mahoney (FL)",
+   "purpose": "to provide an exception to section 526 of the Energy Independence and Security Act (regarding procurement and acquisition of alternative fuels) by exempting contracts for generally available fuels that are not predominantly produced from noncontroversial petroleum sources if (1) the contract does not require the contractor to provide alternative fuels, (2) the purpose of the contract is not to obtain an alternative fuel, and (3) the contract does not provide incentives for a refinery upgrade or expansion to allow a refinery to use or increase its use of fuel from a nonconventional petroleum source.",
+   "amendment": "H.Amdt. 1104",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1104"
+  },
+  "2008-482": {
+   "author": "Pearce",
+   "purpose": "to require the Secretary to complete and submit to Congress a report on the energy resources included in the Washington-Rochambeau Revolutionary Route National Historic Trail.",
+   "amendment": "H.Amdt. 1110",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1110"
+  },
+  "2008-499": {
+   "author": "Hoekstra",
+   "purpose": "to express the sense of Congress that (1) the defeat of Colombian paramilitary organizations is in the national interest of the United States; (2) the recent rescue of hostages held by the FARC demonstrates the professionalism of Colombian forces; (3) U.S. intelligence and other assistance played a key role in developing and reinforcing Colombian capabilities; and (4) it is critical that U.S. assistance to the Government of Colombia continue.",
+   "amendment": "H.Amdt. 1112",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1112"
+  },
+  "2008-500": {
+   "author": "Hoekstra",
+   "purpose": "to bar the use of funds to prohibit or discourage the use of the phrases `jihadist,' `jihad,' `Islamo-fascism,' `caliphate,' `Islamist,' or `Islamic terrorist' within the Intelligence Community or the Federal Government.",
+   "amendment": "H.Amdt. 1114",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1114"
+  },
+  "2008-501": {
+   "author": "Kirk",
+   "purpose": "to require the Director of National Intelligence to submit to Congress a National Intelligence Estimate on the production and sale of narcotics in support of international terrorism, including the support the Taliban and al Qaeda receive from the sale of narcotics and the shift in production from opium to hashish in Afghanistan.",
+   "amendment": "H.Amdt. 1116",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1116"
+  },
+  "2008-503": {
+   "author": "Bishop (UT)",
+   "purpose": "to remove from the bill the designation as a recreational river of a 9-mile segment of the Taunton River from Muddy Cove to the confluence with the Quequechan River at the Route 195 Bridge in Fall River.",
+   "amendment": "H.Amdt. 1121",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1121"
+  },
+  "2008-504": {
+   "author": "Shuler",
+   "purpose": "to amend the bill to state that nothing in this Act shall be construed as affecting the authority, jurisdiction, or responsibility of the Commonwealth of Massachusetts to manage, control, or regulate fish and resident wildlife under State law or regulations, including the regulation of hunting, fishing, trapping, and recreational shooting, and that nothing in the Act shall be construed as limiting access for hunting, fishing, trapping, or recreational shooting.",
+   "amendment": "H.Amdt. 1122",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1122"
+  },
+  "2008-505": {
+   "author": "Boyda (KS)",
+   "purpose": "to require that nothing in the bill impact the supply of domestically-produced energy resources.",
+   "amendment": "H.Amdt. 1124",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1124"
+  },
+  "2008-528": {
+   "author": "Childers",
+   "purpose": "to provide that none of the funds may be used to employ workers in violation of section 274A of the Immigration and Nationality Act.",
+   "amendment": "H.Amdt. 1142",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1142"
+  },
+  "2008-551": {
+   "author": "Price (GA)",
+   "purpose": "to direct the Secretary of Labor to study and report back to Congress within 90 days the effect of the Equal Pay Act amendments contained in the bill (section 3) on employers' ability to recruit and hire employees regardless of gender; the effective date of these amendments is delayed pending the Secretary's report. If the Secretary finds that these amendments are likely to significantly hinder employers' ability to hire and recruit employees regardless of gender, they do not go into effect.",
+   "amendment": "H.Amdt. 1145",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1145"
+  },
+  "2008-552": {
+   "author": "Altmire",
+   "purpose": "to delay the effective date of the bill by six months from the time of enactment. The amendment requires the Department of Labor to educate small businesses about what is required under law and assist them with compliance.",
+   "amendment": "H.Amdt. 1146",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1146"
+  },
+  "2008-553": {
+   "author": "Giffords",
+   "purpose": "to clarify that a plaintiff must show intent (malice or reckless indifference) to recover punitive damages.",
+   "amendment": "H.Amdt. 1147",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1147"
+  },
+  "2008-554": {
+   "author": "Cazayoux",
+   "purpose": "to clarify that nothing in the Paycheck Fairness Act would affect the obligation of employers and employees to fully comply with all the applicable immigration laws.",
+   "amendment": "H.Amdt. 1148",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1148"
+  },
+  "2008-558": {
+   "author": "Garrett (NJ)",
+   "purpose": "to increase funding, by transfer, for the grants for construction of state extended care facilities account by $18,018,000.",
+   "amendment": "H.Amdt. 1152",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1152"
+  },
+  "2008-559": {
+   "author": "McCaul (TX)",
+   "purpose": "to prohibit the use of funds for a project or program named for an individual then serving as a Member, Delegate, Resident Commissioner, or Senator of the United States Congress.",
+   "amendment": "H.Amdt. 1161",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1161"
+  },
+  "2008-560": {
+   "author": "Flake",
+   "purpose": "to insert a new section at the end of the bill for the elimination of military construction congressional earmarks.",
+   "amendment": "H.Amdt. 1165",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1165"
+  },
+  "2008-561": {
+   "author": "King (IA)",
+   "purpose": "to prohibit the use of funds to enforce subchapter IV of Chapter 31 of title 40, United States Code (commonly referred to as the Davis-Bacon Act).",
+   "amendment": "H.Amdt. 1167",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1167"
+  },
+  "2008-581": {
+   "author": "Grijalva",
+   "purpose": "to amend the bill by requiring that the proposed study analyze any potential impacts on the possession or use of a weapon, trap, or net, including a concealed weapon.",
+   "amendment": "H.Amdt. 1168",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1168"
+  },
+  "2008-600": {
+   "author": "Childers",
+   "purpose": "An amendment in the nature of a substitute printed in House Report 110-852 to insert a complete new text entitled \"Second Amendment Enforcement Act\".",
+   "amendment": "H.Amdt. 1171",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1171"
+  },
+  "2008-612": {
+   "author": "Sarbanes",
+   "purpose": "to clarify that funds issued under the National Capacity Environmental Education Grant Program may be used to address environmental justice issues that may arise in low income communities. The amendment also provides that funds may be used to develop and implement policy approaches to environmental education including specified topics.",
+   "amendment": "H.Amdt. 1173",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1173"
+  },
+  "2008-689": {
+   "author": "LaTourette",
+   "purpose": "to require that any lending assistance provided under TARP or EISA to an insured depository institution shall report the amount of any increase and decrease in new lending attributed to the TARP and EISA assistance.",
+   "amendment": "H.Amdt. 1194",
+   "url": "https://www.congress.gov/amendment/110th-congress/house-amendment/1194"
+  }
+ }
+}

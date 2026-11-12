@@ -15,6 +15,8 @@ For each roll call ("2026-317"):
             the bills a debate rule set up, or HOUSE_BUSINESS
   kind      final / rule / amendment / recommit / other
   topics    Congress.gov policy areas (a rule takes its bills' topics)
+  amendment for an amendment vote: who offered it and what it did
+            (from amendments.json, written by fetch_legislation.py)
 """
 
 import csv
@@ -25,6 +27,7 @@ from typing import Optional
 
 VOTE_INFO_NAME = "vote_info.json"
 TOPICS_NAME = "bill_topics.json"
+AMENDMENTS_NAME = "amendments.json"
 VOTES_NAME = "all_votes.csv"
 
 # Votes on no bill (quorum calls, the Journal, adjournment, Speaker elections).
@@ -170,10 +173,11 @@ def topics(row: dict, bills: dict) -> list[str]:
     return out
 
 
-def classify(rows: list[dict], bills: Optional[dict] = None) -> dict[str, dict]:
+def classify(rows: list[dict], bills: Optional[dict] = None, amendments: Optional[dict] = None) -> dict[str, dict]:
     """{roll_key: info} for every roll call, in the rows' order. Falsy
-    fields are left out to keep the file small."""
-    bills = bills or {}
+    fields are left out to keep the file small. amendments: amendments.json's
+    "votes", keyed by roll call."""
+    bills, amendments = bills or {}, amendments or {}
     out: dict[str, dict] = {}
     for row, final in zip(rows, final_flags(rows, bills)):
         info: dict = {"kind": vote_kind(row, final, bills), "groups": group_keys(row, bills)}
@@ -188,7 +192,10 @@ def classify(rows: list[dict], bills: Optional[dict] = None) -> dict[str, dict]:
         t = topics(row, bills)
         if t:
             info["topics"] = t
-        out[roll_key(row["Year"], row["Roll Call Number"])] = info
+        key = roll_key(row["Year"], row["Roll Call Number"])
+        if info["kind"] == "amendment" and key in amendments:
+            info["amendment"] = amendments[key]
+        out[key] = info
     return out
 
 
@@ -196,6 +203,12 @@ def load_bills(congress_dir: Path) -> dict:
     """bill_topics.json's "bills" for a Congress, or {} if it isn't there yet."""
     path = Path(congress_dir) / TOPICS_NAME
     return json.loads(path.read_text(encoding="utf-8")).get("bills", {}) if path.exists() else {}
+
+
+def load_amendments(congress_dir: Path) -> dict:
+    """amendments.json's "votes" for a Congress, or {} if it isn't there yet."""
+    path = Path(congress_dir) / AMENDMENTS_NAME
+    return json.loads(path.read_text(encoding="utf-8")).get("votes", {}) if path.exists() else {}
 
 
 def write_vote_info(congress_dir: Path) -> Optional[Path]:
@@ -207,7 +220,7 @@ def write_vote_info(congress_dir: Path) -> Optional[Path]:
         return None
     with votes_path.open(newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
-    info = classify(rows, load_bills(congress_dir))
+    info = classify(rows, load_bills(congress_dir), load_amendments(congress_dir))
     header = {
         "_comment": "How each roll call is classified, from vote_rules.py (see its docstring for the "
                     "fields). Written by vote_scraper.py and fetch_legislation.py; the page reads it "

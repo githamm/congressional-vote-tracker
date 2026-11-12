@@ -1,0 +1,1174 @@
+{
+ "_comment": "Each Colorado member's record in every Congress in this repo: party loyalty (withParty of counted yes-or-no votes; rank of 'of' in their party), missed votes (of total while in office), and bills sponsored or co-led and how many became law. Built by history.py from house_loyalty.json and legislation.json.",
+ "members": {
+  "D000197": {
+   "name": "Diana DeGette",
+   "congresses": {
+    "108": {
+     "party": "D",
+     "district": 1,
+     "withParty": 1069,
+     "counted": 1126,
+     "rank": 49,
+     "of": 206,
+     "missed": 92,
+     "total": 1221,
+     "bills": 20,
+     "becameLaw": 0
+    },
+    "109": {
+     "party": "D",
+     "district": 1,
+     "withParty": 1093,
+     "counted": 1159,
+     "rank": 57,
+     "of": 202,
+     "missed": 49,
+     "total": 1214,
+     "bills": 19,
+     "becameLaw": 0
+    },
+    "110": {
+     "party": "D",
+     "district": 1,
+     "withParty": 1741,
+     "counted": 1766,
+     "rank": 26,
+     "of": 241,
+     "missed": 98,
+     "total": 1876,
+     "bills": 39,
+     "becameLaw": 1
+    },
+    "111": {
+     "party": "D",
+     "district": 1,
+     "withParty": 1553,
+     "counted": 1570,
+     "rank": 28,
+     "of": 260,
+     "missed": 76,
+     "total": 1655,
+     "bills": 40,
+     "becameLaw": 0
+    },
+    "112": {
+     "party": "D",
+     "district": 1,
+     "withParty": 1505,
+     "counted": 1566,
+     "rank": 8,
+     "of": 195,
+     "missed": 32,
+     "total": 1606,
+     "bills": 27,
+     "becameLaw": 1
+    },
+    "113": {
+     "party": "D",
+     "district": 1,
+     "withParty": 1095,
+     "counted": 1134,
+     "rank": 7,
+     "of": 202,
+     "missed": 67,
+     "total": 1204,
+     "bills": 27,
+     "becameLaw": 0
+    },
+    "114": {
+     "party": "D",
+     "district": 1,
+     "withParty": 1272,
+     "counted": 1299,
+     "rank": 13,
+     "of": 188,
+     "missed": 21,
+     "total": 1325,
+     "bills": 27,
+     "becameLaw": 0
+    },
+    "115": {
+     "party": "D",
+     "district": 1,
+     "withParty": 1079,
+     "counted": 1127,
+     "rank": 94,
+     "of": 195,
+     "missed": 78,
+     "total": 1210,
+     "bills": 34,
+     "becameLaw": 2
+    },
+    "116": {
+     "party": "D",
+     "district": 1,
+     "withParty": 926,
+     "counted": 938,
+     "rank": 98,
+     "of": 234,
+     "missed": 14,
+     "total": 954,
+     "bills": 46,
+     "becameLaw": 0
+    },
+    "117": {
+     "party": "D",
+     "district": 1,
+     "withParty": 983,
+     "counted": 990,
+     "rank": 36,
+     "of": 224,
+     "missed": 5,
+     "total": 998,
+     "bills": 36,
+     "becameLaw": 0
+    },
+    "118": {
+     "party": "D",
+     "district": 1,
+     "withParty": 1174,
+     "counted": 1202,
+     "rank": 75,
+     "of": 216,
+     "missed": 13,
+     "total": 1241,
+     "bills": 34,
+     "becameLaw": 1
+    },
+    "119": {
+     "party": "D",
+     "district": 1,
+     "withParty": 655,
+     "counted": 668,
+     "rank": 63,
+     "of": 216,
+     "missed": 11,
+     "total": 683,
+     "bills": 33,
+     "becameLaw": 0
+    }
+   }
+  },
+  "U000038": {
+   "name": "Mark Udall",
+   "congresses": {
+    "108": {
+     "party": "D",
+     "district": 2,
+     "withParty": 1064,
+     "counted": 1145,
+     "rank": 123,
+     "of": 206,
+     "missed": 71,
+     "total": 1221,
+     "bills": 51,
+     "becameLaw": 2
+    },
+    "109": {
+     "party": "D",
+     "district": 2,
+     "withParty": 1098,
+     "counted": 1185,
+     "rank": 108,
+     "of": 202,
+     "missed": 23,
+     "total": 1214,
+     "bills": 68,
+     "becameLaw": 3
+    },
+    "110": {
+     "party": "D",
+     "district": 2,
+     "withParty": 1610,
+     "counted": 1681,
+     "rank": 192,
+     "of": 241,
+     "missed": 185,
+     "total": 1876,
+     "bills": 94,
+     "becameLaw": 2
+    }
+   }
+  },
+  "M000477": {
+   "name": "Scott McInnis",
+   "congresses": {
+    "108": {
+     "party": "R",
+     "district": 3,
+     "withParty": 1020,
+     "counted": 1074,
+     "rank": 123,
+     "of": 231,
+     "missed": 144,
+     "total": 1221,
+     "bills": 37,
+     "becameLaw": 3
+    }
+   }
+  },
+  "M001152": {
+   "name": "Marilyn Musgrave",
+   "congresses": {
+    "108": {
+     "party": "R",
+     "district": 4,
+     "withParty": 1105,
+     "counted": 1195,
+     "rank": 186,
+     "of": 231,
+     "missed": 22,
+     "total": 1221,
+     "bills": 34,
+     "becameLaw": 0
+    },
+    "109": {
+     "party": "R",
+     "district": 4,
+     "withParty": 1080,
+     "counted": 1164,
+     "rank": 135,
+     "of": 235,
+     "missed": 44,
+     "total": 1214,
+     "bills": 34,
+     "becameLaw": 2
+    },
+    "110": {
+     "party": "R",
+     "district": 4,
+     "withParty": 1676,
+     "counted": 1791,
+     "rank": 44,
+     "of": 205,
+     "missed": 73,
+     "total": 1876,
+     "bills": 33,
+     "becameLaw": 1
+    }
+   }
+  },
+  "H000444": {
+   "name": "Joel Hefley",
+   "congresses": {
+    "108": {
+     "party": "R",
+     "district": 5,
+     "withParty": 1048,
+     "counted": 1195,
+     "rank": 223,
+     "of": 231,
+     "missed": 22,
+     "total": 1221,
+     "bills": 35,
+     "becameLaw": 0
+    },
+    "109": {
+     "party": "R",
+     "district": 5,
+     "withParty": 1010,
+     "counted": 1162,
+     "rank": 211,
+     "of": 235,
+     "missed": 45,
+     "total": 1214,
+     "bills": 24,
+     "becameLaw": 0
+    }
+   }
+  },
+  "T000458": {
+   "name": "Tom Tancredo",
+   "congresses": {
+    "108": {
+     "party": "R",
+     "district": 6,
+     "withParty": 1037,
+     "counted": 1168,
+     "rank": 219,
+     "of": 231,
+     "missed": 37,
+     "total": 1221,
+     "bills": 49,
+     "becameLaw": 2
+    },
+    "109": {
+     "party": "R",
+     "district": 6,
+     "withParty": 979,
+     "counted": 1136,
+     "rank": 221,
+     "of": 235,
+     "missed": 66,
+     "total": 1214,
+     "bills": 38,
+     "becameLaw": 1
+    },
+    "110": {
+     "party": "R",
+     "district": 6,
+     "withParty": 1235,
+     "counted": 1391,
+     "rank": 161,
+     "of": 205,
+     "missed": 457,
+     "total": 1876,
+     "bills": 37,
+     "becameLaw": 0
+    }
+   }
+  },
+  "B001240": {
+   "name": "Bob Beauprez",
+   "congresses": {
+    "108": {
+     "party": "R",
+     "district": 7,
+     "withParty": 1150,
+     "counted": 1199,
+     "rank": 74,
+     "of": 231,
+     "missed": 18,
+     "total": 1221,
+     "bills": 20,
+     "becameLaw": 0
+    },
+    "109": {
+     "party": "R",
+     "district": 7,
+     "withParty": 1059,
+     "counted": 1137,
+     "rank": 120,
+     "of": 235,
+     "missed": 72,
+     "total": 1214,
+     "bills": 25,
+     "becameLaw": 0
+    }
+   }
+  },
+  "S001158": {
+   "name": "John Salazar",
+   "congresses": {
+    "109": {
+     "party": "D",
+     "district": 3,
+     "withParty": 1039,
+     "counted": 1178,
+     "rank": 166,
+     "of": 202,
+     "missed": 30,
+     "total": 1214,
+     "bills": 19,
+     "becameLaw": 0
+    },
+    "110": {
+     "party": "D",
+     "district": 3,
+     "withParty": 1763,
+     "counted": 1837,
+     "rank": 184,
+     "of": 241,
+     "missed": 27,
+     "total": 1876,
+     "bills": 51,
+     "becameLaw": 0
+    },
+    "111": {
+     "party": "D",
+     "district": 3,
+     "withParty": 1535,
+     "counted": 1583,
+     "rank": 166,
+     "of": 260,
+     "missed": 63,
+     "total": 1655,
+     "bills": 34,
+     "becameLaw": 1
+    }
+   }
+  },
+  "P000593": {
+   "name": "Ed Perlmutter",
+   "congresses": {
+    "110": {
+     "party": "D",
+     "district": 7,
+     "withParty": 1753,
+     "counted": 1812,
+     "rank": 167,
+     "of": 241,
+     "missed": 54,
+     "total": 1876,
+     "bills": 25,
+     "becameLaw": 1
+    },
+    "111": {
+     "party": "D",
+     "district": 7,
+     "withParty": 1572,
+     "counted": 1601,
+     "rank": 88,
+     "of": 260,
+     "missed": 45,
+     "total": 1655,
+     "bills": 39,
+     "becameLaw": 0
+    },
+    "112": {
+     "party": "D",
+     "district": 7,
+     "withParty": 1348,
+     "counted": 1562,
+     "rank": 169,
+     "of": 195,
+     "missed": 36,
+     "total": 1606,
+     "bills": 14,
+     "becameLaw": 0
+    },
+    "113": {
+     "party": "D",
+     "district": 7,
+     "withParty": 1029,
+     "counted": 1129,
+     "rank": 161,
+     "of": 202,
+     "missed": 71,
+     "total": 1204,
+     "bills": 16,
+     "becameLaw": 2
+    },
+    "114": {
+     "party": "D",
+     "district": 7,
+     "withParty": 1188,
+     "counted": 1253,
+     "rank": 147,
+     "of": 188,
+     "missed": 67,
+     "total": 1325,
+     "bills": 27,
+     "becameLaw": 0
+    },
+    "115": {
+     "party": "D",
+     "district": 7,
+     "withParty": 1078,
+     "counted": 1148,
+     "rank": 158,
+     "of": 195,
+     "missed": 56,
+     "total": 1210,
+     "bills": 23,
+     "becameLaw": 0
+    },
+    "116": {
+     "party": "D",
+     "district": 7,
+     "withParty": 898,
+     "counted": 908,
+     "rank": 75,
+     "of": 234,
+     "missed": 43,
+     "total": 954,
+     "bills": 34,
+     "becameLaw": 0
+    },
+    "117": {
+     "party": "D",
+     "district": 7,
+     "withParty": 980,
+     "counted": 990,
+     "rank": 88,
+     "of": 224,
+     "missed": 5,
+     "total": 998,
+     "bills": 40,
+     "becameLaw": 0
+    }
+   }
+  },
+  "L000564": {
+   "name": "Doug Lamborn",
+   "congresses": {
+    "110": {
+     "party": "R",
+     "district": 5,
+     "withParty": 1672,
+     "counted": 1844,
+     "rank": 131,
+     "of": 205,
+     "missed": 18,
+     "total": 1876,
+     "bills": 31,
+     "becameLaw": 0
+    },
+    "111": {
+     "party": "R",
+     "district": 5,
+     "withParty": 1507,
+     "counted": 1623,
+     "rank": 116,
+     "of": 181,
+     "missed": 23,
+     "total": 1655,
+     "bills": 37,
+     "becameLaw": 0
+    },
+    "112": {
+     "party": "R",
+     "district": 5,
+     "withParty": 1471,
+     "counted": 1555,
+     "rank": 63,
+     "of": 242,
+     "missed": 46,
+     "total": 1606,
+     "bills": 33,
+     "becameLaw": 2
+    },
+    "113": {
+     "party": "R",
+     "district": 5,
+     "withParty": 1127,
+     "counted": 1186,
+     "rank": 82,
+     "of": 237,
+     "missed": 15,
+     "total": 1204,
+     "bills": 26,
+     "becameLaw": 2
+    },
+    "114": {
+     "party": "R",
+     "district": 5,
+     "withParty": 1240,
+     "counted": 1279,
+     "rank": 30,
+     "of": 248,
+     "missed": 39,
+     "total": 1325,
+     "bills": 29,
+     "becameLaw": 0
+    },
+    "115": {
+     "party": "R",
+     "district": 5,
+     "withParty": 1156,
+     "counted": 1190,
+     "rank": 75,
+     "of": 244,
+     "missed": 16,
+     "total": 1210,
+     "bills": 29,
+     "becameLaw": 1
+    },
+    "116": {
+     "party": "R",
+     "district": 5,
+     "withParty": 870,
+     "counted": 913,
+     "rank": 32,
+     "of": 202,
+     "missed": 38,
+     "total": 954,
+     "bills": 27,
+     "becameLaw": 1
+    },
+    "117": {
+     "party": "R",
+     "district": 5,
+     "withParty": 920,
+     "counted": 975,
+     "rank": 95,
+     "of": 219,
+     "missed": 20,
+     "total": 998,
+     "bills": 38,
+     "becameLaw": 0
+    },
+    "118": {
+     "party": "R",
+     "district": 5,
+     "withParty": 1117,
+     "counted": 1175,
+     "rank": 38,
+     "of": 226,
+     "missed": 42,
+     "total": 1241,
+     "bills": 54,
+     "becameLaw": 1
+    }
+   }
+  },
+  "P000598": {
+   "name": "Jared Polis",
+   "congresses": {
+    "111": {
+     "party": "D",
+     "district": 2,
+     "withParty": 1574,
+     "counted": 1621,
+     "rank": 161,
+     "of": 260,
+     "missed": 25,
+     "total": 1655,
+     "bills": 79,
+     "becameLaw": 0
+    },
+    "112": {
+     "party": "D",
+     "district": 2,
+     "withParty": 1294,
+     "counted": 1466,
+     "rank": 165,
+     "of": 195,
+     "missed": 131,
+     "total": 1606,
+     "bills": 70,
+     "becameLaw": 0
+    },
+    "113": {
+     "party": "D",
+     "district": 2,
+     "withParty": 983,
+     "counted": 1093,
+     "rank": 172,
+     "of": 202,
+     "missed": 107,
+     "total": 1204,
+     "bills": 74,
+     "becameLaw": 1
+    },
+    "114": {
+     "party": "D",
+     "district": 2,
+     "withParty": 1204,
+     "counted": 1300,
+     "rank": 164,
+     "of": 188,
+     "missed": 20,
+     "total": 1325,
+     "bills": 69,
+     "becameLaw": 0
+    },
+    "115": {
+     "party": "D",
+     "district": 2,
+     "withParty": 948,
+     "counted": 1029,
+     "rank": 175,
+     "of": 195,
+     "missed": 175,
+     "total": 1210,
+     "bills": 64,
+     "becameLaw": 2
+    }
+   }
+  },
+  "M001172": {
+   "name": "Betsy Markey",
+   "congresses": {
+    "111": {
+     "party": "D",
+     "district": 4,
+     "withParty": 1510,
+     "counted": 1602,
+     "rank": 218,
+     "of": 260,
+     "missed": 44,
+     "total": 1655,
+     "bills": 39,
+     "becameLaw": 1
+    }
+   }
+  },
+  "C001077": {
+   "name": "Mike Coffman",
+   "congresses": {
+    "111": {
+     "party": "R",
+     "district": 6,
+     "withParty": 1531,
+     "counted": 1618,
+     "rank": 58,
+     "of": 181,
+     "missed": 28,
+     "total": 1655,
+     "bills": 24,
+     "becameLaw": 0
+    },
+    "112": {
+     "party": "R",
+     "district": 6,
+     "withParty": 1449,
+     "counted": 1591,
+     "rank": 175,
+     "of": 242,
+     "missed": 10,
+     "total": 1606,
+     "bills": 24,
+     "becameLaw": 0
+    },
+    "113": {
+     "party": "R",
+     "district": 6,
+     "withParty": 1097,
+     "counted": 1192,
+     "rank": 175,
+     "of": 237,
+     "missed": 9,
+     "total": 1204,
+     "bills": 35,
+     "becameLaw": 3
+    },
+    "114": {
+     "party": "R",
+     "district": 6,
+     "withParty": 1223,
+     "counted": 1309,
+     "rank": 173,
+     "of": 248,
+     "missed": 9,
+     "total": 1325,
+     "bills": 40,
+     "becameLaw": 1
+    },
+    "115": {
+     "party": "R",
+     "district": 6,
+     "withParty": 1111,
+     "counted": 1197,
+     "rank": 199,
+     "of": 244,
+     "missed": 9,
+     "total": 1210,
+     "bills": 52,
+     "becameLaw": 3
+    }
+   }
+  },
+  "T000470": {
+   "name": "Scott Tipton",
+   "congresses": {
+    "112": {
+     "party": "R",
+     "district": 3,
+     "withParty": 1461,
+     "counted": 1596,
+     "rank": 166,
+     "of": 242,
+     "missed": 5,
+     "total": 1606,
+     "bills": 20,
+     "becameLaw": 1
+    },
+    "113": {
+     "party": "R",
+     "district": 3,
+     "withParty": 1084,
+     "counted": 1167,
+     "rank": 157,
+     "of": 237,
+     "missed": 34,
+     "total": 1204,
+     "bills": 17,
+     "becameLaw": 1
+    },
+    "114": {
+     "party": "R",
+     "district": 3,
+     "withParty": 1236,
+     "counted": 1304,
+     "rank": 130,
+     "of": 248,
+     "missed": 14,
+     "total": 1325,
+     "bills": 24,
+     "becameLaw": 0
+    },
+    "115": {
+     "party": "R",
+     "district": 3,
+     "withParty": 1106,
+     "counted": 1185,
+     "rank": 188,
+     "of": 244,
+     "missed": 21,
+     "total": 1210,
+     "bills": 57,
+     "becameLaw": 3
+    },
+    "116": {
+     "party": "R",
+     "district": 3,
+     "withParty": 886,
+     "counted": 945,
+     "rank": 83,
+     "of": 202,
+     "missed": 6,
+     "total": 954,
+     "bills": 57,
+     "becameLaw": 2
+    }
+   }
+  },
+  "G000562": {
+   "name": "Cory Gardner",
+   "congresses": {
+    "112": {
+     "party": "R",
+     "district": 4,
+     "withParty": 1470,
+     "counted": 1577,
+     "rank": 119,
+     "of": 242,
+     "missed": 24,
+     "total": 1606,
+     "bills": 13,
+     "becameLaw": 0
+    },
+    "113": {
+     "party": "R",
+     "district": 4,
+     "withParty": 1091,
+     "counted": 1177,
+     "rank": 163,
+     "of": 237,
+     "missed": 24,
+     "total": 1204,
+     "bills": 36,
+     "becameLaw": 1
+    }
+   }
+  },
+  "B001297": {
+   "name": "Ken Buck",
+   "congresses": {
+    "114": {
+     "party": "R",
+     "district": 4,
+     "withParty": 1139,
+     "counted": 1253,
+     "rank": 217,
+     "of": 248,
+     "missed": 65,
+     "total": 1325,
+     "bills": 15,
+     "becameLaw": 0
+    },
+    "115": {
+     "party": "R",
+     "district": 4,
+     "withParty": 1072,
+     "counted": 1177,
+     "rank": 218,
+     "of": 244,
+     "missed": 30,
+     "total": 1210,
+     "bills": 38,
+     "becameLaw": 0
+    },
+    "116": {
+     "party": "R",
+     "district": 4,
+     "withParty": 745,
+     "counted": 839,
+     "rank": 166,
+     "of": 202,
+     "missed": 112,
+     "total": 954,
+     "bills": 27,
+     "becameLaw": 0
+    },
+    "117": {
+     "party": "R",
+     "district": 4,
+     "withParty": 764,
+     "counted": 940,
+     "rank": 200,
+     "of": 219,
+     "missed": 55,
+     "total": 998,
+     "bills": 52,
+     "becameLaw": 1
+    },
+    "118": {
+     "party": "R",
+     "district": 4,
+     "withParty": 611,
+     "counted": 751,
+     "rank": 219,
+     "of": 226,
+     "missed": 56,
+     "total": 828,
+     "bills": 32,
+     "becameLaw": 1
+    }
+   }
+  },
+  "C001121": {
+   "name": "Jason Crow",
+   "congresses": {
+    "116": {
+     "party": "D",
+     "district": 6,
+     "withParty": 914,
+     "counted": 945,
+     "rank": 200,
+     "of": 234,
+     "missed": 6,
+     "total": 954,
+     "bills": 48,
+     "becameLaw": 0
+    },
+    "117": {
+     "party": "D",
+     "district": 6,
+     "withParty": 974,
+     "counted": 989,
+     "rank": 156,
+     "of": 224,
+     "missed": 6,
+     "total": 998,
+     "bills": 89,
+     "becameLaw": 2
+    },
+    "118": {
+     "party": "D",
+     "district": 6,
+     "withParty": 1149,
+     "counted": 1161,
+     "rank": 3,
+     "of": 216,
+     "missed": 55,
+     "total": 1241,
+     "bills": 63,
+     "becameLaw": 0
+    },
+    "119": {
+     "party": "D",
+     "district": 6,
+     "withParty": 664,
+     "counted": 677,
+     "rank": 57,
+     "of": 216,
+     "missed": 3,
+     "total": 683,
+     "bills": 61,
+     "becameLaw": 0
+    }
+   }
+  },
+  "N000191": {
+   "name": "Joe Neguse",
+   "congresses": {
+    "116": {
+     "party": "D",
+     "district": 2,
+     "withParty": 933,
+     "counted": 947,
+     "rank": 121,
+     "of": 234,
+     "missed": 4,
+     "total": 954,
+     "bills": 73,
+     "becameLaw": 3
+    },
+    "117": {
+     "party": "D",
+     "district": 2,
+     "withParty": 989,
+     "counted": 994,
+     "rank": 11,
+     "of": 224,
+     "missed": 1,
+     "total": 998,
+     "bills": 127,
+     "becameLaw": 4
+    },
+    "118": {
+     "party": "D",
+     "district": 2,
+     "withParty": 1205,
+     "counted": 1214,
+     "rank": 1,
+     "of": 216,
+     "missed": 2,
+     "total": 1241,
+     "bills": 142,
+     "becameLaw": 3
+    },
+    "119": {
+     "party": "D",
+     "district": 2,
+     "withParty": 666,
+     "counted": 679,
+     "rank": 55,
+     "of": 216,
+     "missed": 1,
+     "total": 683,
+     "bills": 148,
+     "becameLaw": 0
+    }
+   }
+  },
+  "B000825": {
+   "name": "Lauren Boebert",
+   "congresses": {
+    "117": {
+     "party": "R",
+     "district": 3,
+     "withParty": 726,
+     "counted": 970,
+     "rank": 214,
+     "of": 219,
+     "missed": 24,
+     "total": 998,
+     "bills": 57,
+     "becameLaw": 0
+    },
+    "118": {
+     "party": "R",
+     "district": 3,
+     "withParty": 985,
+     "counted": 1149,
+     "rank": 195,
+     "of": 226,
+     "missed": 68,
+     "total": 1241,
+     "bills": 62,
+     "becameLaw": 1
+    },
+    "119": {
+     "party": "R",
+     "district": 4,
+     "withParty": 573,
+     "counted": 649,
+     "rank": 207,
+     "of": 221,
+     "missed": 31,
+     "total": 683,
+     "bills": 66,
+     "becameLaw": 1
+    }
+   }
+  },
+  "C001134": {
+   "name": "Yadira Caraveo",
+   "congresses": {
+    "118": {
+     "party": "D",
+     "district": 8,
+     "withParty": 1062,
+     "counted": 1181,
+     "rank": 209,
+     "of": 216,
+     "missed": 35,
+     "total": 1241,
+     "bills": 75,
+     "becameLaw": 0
+    }
+   }
+  },
+  "P000620": {
+   "name": "Brittany Pettersen",
+   "congresses": {
+    "118": {
+     "party": "D",
+     "district": 7,
+     "withParty": 1167,
+     "counted": 1208,
+     "rank": 132,
+     "of": 216,
+     "missed": 8,
+     "total": 1241,
+     "bills": 67,
+     "becameLaw": 1
+    },
+    "119": {
+     "party": "D",
+     "district": 7,
+     "withParty": 555,
+     "counted": 575,
+     "rank": 147,
+     "of": 216,
+     "missed": 105,
+     "total": 683,
+     "bills": 99,
+     "becameLaw": 2
+    }
+   }
+  },
+  "L000604": {
+   "name": "Greg Lopez",
+   "congresses": {
+    "118": {
+     "party": "R",
+     "district": 4,
+     "withParty": 168,
+     "counted": 179,
+     "rank": 73,
+     "of": 226,
+     "missed": 2,
+     "total": 181,
+     "bills": 9,
+     "becameLaw": 0
+    }
+   }
+  },
+  "C001137": {
+   "name": "Jeff Crank",
+   "congresses": {
+    "119": {
+     "party": "R",
+     "district": 5,
+     "withParty": 643,
+     "counted": 678,
+     "rank": 163,
+     "of": 221,
+     "missed": 2,
+     "total": 683,
+     "bills": 26,
+     "becameLaw": 0
+    }
+   }
+  },
+  "E000300": {
+   "name": "Gabe Evans",
+   "congresses": {
+    "119": {
+     "party": "R",
+     "district": 8,
+     "withParty": 661,
+     "counted": 680,
+     "rank": 107,
+     "of": 221,
+     "missed": 0,
+     "total": 683,
+     "bills": 63,
+     "becameLaw": 0
+    }
+   }
+  },
+  "H001100": {
+   "name": "Jeff Hurd",
+   "congresses": {
+    "119": {
+     "party": "R",
+     "district": 3,
+     "withParty": 655,
+     "counted": 676,
+     "rank": 120,
+     "of": 221,
+     "missed": 4,
+     "total": 683,
+     "bills": 52,
+     "becameLaw": 1
+    }
+   }
+  }
+ }
+}

@@ -20,6 +20,7 @@ Usage:
 
 import argparse
 import collections
+import csv
 import datetime as dt
 import json
 import os
@@ -32,6 +33,8 @@ from pathlib import Path
 
 import requests
 
+import vote_rules
+from history import write_history
 from vote_rules import write_vote_info
 
 ROOT = Path(__file__).resolve().parent
@@ -274,6 +277,145 @@ def write_topics(path, congress, today, cache):
     path.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
 
 
+# ---------------------------------------------------------------- amendments
+# Who offered each amendment that got a recorded vote, and what it did. A
+# bill's amendment list (one call per bill) gives each amendment's purpose
+# and latest action, which for a recorded vote usually ends "(Roll no. 274)".
+# Amendments whose latest action came after the vote are looked up one by
+# one in their action histories. Cached in data/<c>/amendments.json; the
+# page gets them through vote_info.json.
+AMENDMENTS_NAME = "amendments.json"
+ROLL_NO = re.compile(r"\(Roll no\. (\d+)\)")
+AMDT_AUTHOR = re.compile(r"\bthe (.+?) amendment\b", re.IGNORECASE)
+PURPOSE_PREFIX = re.compile(
+    r"^(?:An )?amendment\b(?: numbered \d+)?(?: printed in [^,]*?)?,?\s+(?=(?:to|sought|seeks|would)\b)", re.IGNORECASE)
+API_BILL_TYPE = {"H R": "hr", "H RES": "hres", "H J RES": "hjres", "H CON RES": "hconres",
+                 "S": "s", "S RES": "sres", "S J RES": "sjres", "S CON RES": "sconres"}
+AMDT_LABEL = {"HAMDT": ("H.Amdt.", "house-amendment"), "SAMDT": ("S.Amdt.", "senate-amendment"),
+              "SUAMDT": ("S.Amdt.", "senate-amendment")}
+MAX_HISTORY_LOOKUPS = 25  # per bill, for amendments whose latest action isn't the vote
+
+
+def clean_purpose(text):
+    """"An amendment numbered 38 printed in the Congressional Record to
+    prohibit ..." -> "to prohibit ..."; "Amendment sought to ..." -> "sought
+    to ..."; "Amendment prohibits ..." -> "prohibits ..."."""
+    t = " ".join((text or "").split())
+    m = PURPOSE_PREFIX.match(t)
+    if m and t[m.end():]:
+        return t[m.end():]
+    # "Amendment prohibits ..." (the wording for amendments that passed) -> "prohibits ..."
+    return re.sub(r"^Amendment (?=[a-z])", "", t)
+
+
+def amendment_record(congress, item, action_text):
+    kind = (item.get("type") or "HAMDT").upper()
+    label, slug = AMDT_LABEL.get(kind, ("Amdt.", "house-amendment"))
+    author = AMDT_AUTHOR.search(action_text or "")
+    return {
+        "author": author.group(1).strip() if author else "",
+        "purpose": clean_purpose(item.get("purpose") or item.get("description") or ""),
+        "amendment": f"{label} {item.get('number')}",
+        "url": f"https://www.congress.gov/amendment/{congress}{ordinal_suffix(int(congress))}-congress/{slug}/{item.get('number')}",
+    }
+
+
+def amendment_votes(congress):
+    """{bill: {roll_key: vote date}} for every amendment vote in the Congress."""
+    folder = ROOT / "data" / str(congress)
+    with (folder / "all_votes.csv").open(newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    info = vote_rules.classify(rows, vote_rules.load_bills(folder))
+    out = collections.defaultdict(dict)
+    for r in rows:
+        key = vote_rules.roll_key(r["Year"], r["Roll Call Number"])
+        if info[key]["kind"] == "amendment" and api_bill(r["Bill Number"]):
+            out[r["Bill Number"]][key] = r["Date"]
+    return out
+
+
+def api_bill(bill):
+    """Whether a Clerk bill number is one the API's bill endpoints take."""
+    m = CSV_BILL_RE.match(bill or "")
+    return bool(m and m.group(1) in API_BILL_TYPE)
+
+
+def update_amendments(client, congress):
+    folder = ROOT / "data" / str(congress)
+    path = folder / AMENDMENTS_NAME
+    cache = json.loads(path.read_text()) if path.exists() else {}
+    checked, found = cache.get("bills", {}), cache.get("votes", {})
+    wanted = amendment_votes(congress)
+    today = dt.date.today()
+    todo = [b for b, keys in wanted.items()
+            if any(k not in found for k in keys)
+            and (b not in checked or (today - dt.date.fromisoformat(checked[b])).days >= RECHECK_DAYS)]
+
+    def look_up(bill):
+        btype, number = bill.rsplit(" ", 1)
+        base = f"/bill/{congress}/{API_BILL_TYPE[btype]}/{number}/amendments"
+        items, offset = [], 0
+        while True:
+            data = client.get(base, limit=PAGE, offset=offset)
+            page = data.get("amendments") or []
+            items.extend(page)
+            offset += PAGE
+            if not page or offset >= (data.get("pagination") or {}).get("count", 0):
+                break
+        got = {}
+        for it in items:
+            act = it.get("latestAction") or {}
+            m = ROLL_NO.search(act.get("text") or "")
+            if m and act.get("actionDate"):
+                got[vote_rules.roll_key(act["actionDate"][:4], m.group(1))] = amendment_record(congress, it, act.get("text"))
+        missing = {k for k in wanted[bill] if k not in got}
+        if missing:
+            # The vote isn't the latest action: read the histories of amendments
+            # that weren't settled by voice vote, newest first.
+            years = {k.split("-")[0] for k in missing}
+            candidates = [it for it in items
+                          if not ROLL_NO.search((it.get("latestAction") or {}).get("text") or "")
+                          and "voice vote" not in ((it.get("latestAction") or {}).get("text") or "")
+                          and ((it.get("latestAction") or {}).get("actionDate") or "")[:4] >= min(years)]
+            for it in candidates[:MAX_HISTORY_LOOKUPS]:
+                if not missing:
+                    break
+                kind = (it.get("type") or "hamdt").lower()
+                acts = client.get(f"/amendment/{congress}/{kind}/{it.get('number')}/actions", limit=PAGE).get("actions") or []
+                for a in acts:
+                    for rv in a.get("recordedVotes") or []:
+                        key = vote_rules.roll_key((rv.get("date") or a.get("actionDate") or "")[:4], rv.get("rollNumber"))
+                        if key in missing and (rv.get("chamber") or "House") == "House":
+                            got[key] = amendment_record(congress, it, a.get("text"))
+                            missing.discard(key)
+        return bill, got
+
+    def save():
+        out = {
+            "_comment": "Amendments that got a recorded House vote, keyed by roll call: who offered them "
+                        "and what they did, from the Congress.gov API (fetch_legislation.py). 'bills' records "
+                        "when each bill's amendments were last checked.",
+            "congress": int(congress),
+            "updated": today.isoformat(),
+            "bills": dict(sorted(checked.items())),
+            "votes": dict(sorted(found.items(), key=lambda kv: [int(x) for x in kv[0].split("-")])),
+        }
+        path.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
+
+    if todo:
+        print(f"  {congress}: looking up amendments on {len(todo)} bills...", flush=True)
+        with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+            for i, (bill, got) in enumerate(pool.map(look_up, todo), 1):
+                checked[bill] = today.isoformat()
+                found.update({k: v for k, v in got.items() if k in wanted[bill]})
+                if i % 50 == 0:
+                    save()
+    save()
+    total = sum(len(v) for v in wanted.values())
+    have = sum(1 for keys in wanted.values() for k in keys if k in found)
+    print(f"Wrote {path.relative_to(ROOT)}: {have} of {total} amendment votes identified")
+
+
 # ---------------------------------------------------------------- progress
 # How far each bill a member sponsored or co-led got, from its action
 # history. Congress.gov tags the key steps with these action codes.
@@ -503,9 +645,11 @@ def main():
         path.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
         print(f"Wrote {path.relative_to(ROOT)}")
         update_bill_topics(client, c)
+        update_amendments(client, c)
         # Topics tell debate rules apart and group votes by bill, so the
         # page's vote classifications are rebuilt with them.
         write_vote_info(ROOT / "data" / c)
+    write_history()
     print(f"{client.calls} API calls.")
 
 

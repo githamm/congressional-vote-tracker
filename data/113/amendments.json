@@ -1,0 +1,2842 @@
+{
+ "_comment": "Amendments that got a recorded House vote, keyed by roll call: who offered them and what they did, from the Congress.gov API (fetch_legislation.py). 'bills' records when each bill's amendments were last checked.",
+ "congress": 113,
+ "updated": "2026-11-12",
+ "bills": {
+  "H CON RES 25": "2026-11-12",
+  "H CON RES 96": "2026-11-12",
+  "H J RES 124": "2026-11-12",
+  "H J RES 59": "2026-11-12",
+  "H J RES 80": "2026-11-12",
+  "H R 10": "2026-11-12",
+  "H R 1062": "2026-11-12",
+  "H R 1105": "2026-11-12",
+  "H R 1406": "2026-11-12",
+  "H R 1422": "2026-11-12",
+  "H R 1459": "2026-11-12",
+  "H R 152": "2026-11-12",
+  "H R 1526": "2026-11-12",
+  "H R 1582": "2026-11-12",
+  "H R 1613": "2026-11-12",
+  "H R 1874": "2026-11-12",
+  "H R 1900": "2026-11-12",
+  "H R 1947": "2026-11-12",
+  "H R 1960": "2026-11-12",
+  "H R 1965": "2026-11-12",
+  "H R 2216": "2026-11-12",
+  "H R 2217": "2026-11-12",
+  "H R 2218": "2026-11-12",
+  "H R 2231": "2026-11-12",
+  "H R 2279": "2026-11-12",
+  "H R 2374": "2026-11-12",
+  "H R 2397": "2026-11-12",
+  "H R 2609": "2026-11-12",
+  "H R 2610": "2026-11-12",
+  "H R 2641": "2026-11-12",
+  "H R 2728": "2026-11-12",
+  "H R 2804": "2026-11-12",
+  "H R 2824": "2026-11-12",
+  "H R 2954": "2026-11-12",
+  "H R 3": "2026-11-12",
+  "H R 3080": "2026-11-12",
+  "H R 3136": "2026-11-12",
+  "H R 3189": "2026-11-12",
+  "H R 3193": "2026-11-12",
+  "H R 3301": "2026-11-12",
+  "H R 3309": "2026-11-12",
+  "H R 3547": "2026-11-12",
+  "H R 3590": "2026-11-12",
+  "H R 367": "2026-11-12",
+  "H R 3826": "2026-11-12",
+  "H R 3865": "2026-11-12",
+  "H R 3964": "2026-11-12",
+  "H R 3973": "2026-11-12",
+  "H R 4012": "2026-11-12",
+  "H R 4138": "2026-11-12",
+  "H R 4315": "2026-11-12",
+  "H R 4413": "2026-11-12",
+  "H R 4435": "2026-11-12",
+  "H R 444": "2026-11-12",
+  "H R 4486": "2026-11-12",
+  "H R 4487": "2026-11-12",
+  "H R 4660": "2026-11-12",
+  "H R 4745": "2026-11-12",
+  "H R 4795": "2026-11-12",
+  "H R 4800": "2026-11-12",
+  "H R 4870": "2026-11-12",
+  "H R 4899": "2026-11-12",
+  "H R 4923": "2026-11-12",
+  "H R 4984": "2026-11-12",
+  "H R 5": "2026-11-12",
+  "H R 5016": "2026-11-12",
+  "H R 5021": "2026-11-12",
+  "H R 5078": "2026-11-12",
+  "H R 527": "2026-11-12",
+  "H R 6": "2026-11-12",
+  "H R 624": "2026-11-12",
+  "H R 678": "2026-11-12",
+  "H R 687": "2026-11-12",
+  "H R 761": "2026-11-12",
+  "H R 803": "2026-11-12",
+  "H R 807": "2026-11-12",
+  "H R 899": "2026-11-12",
+  "H R 982": "2026-11-12",
+  "S 47": "2026-11-12"
+ },
+ "votes": {
+  "2013-14": {
+   "author": "Mulvaney",
+   "purpose": "to the pending Rogers (KY) language sought to provide an offset of the $17 billion in emergency funding made available to address immediate needs for victims and communities affected by Hurricane Sandy. The offset would have been achieved by an across the board cut of 1.63 percent to all discretionary appropriations for fiscal year 2013.",
+   "amendment": "H.Amdt. 4",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/4"
+  },
+  "2013-15": {
+   "author": "Rogers (KY)",
+   "purpose": "in the nature of a substitute printed in part A of House Report 113-1 and made in order as original text for the purpose of further amendment under the 5-minute rule. Amendment provides $17 billion in emergency funding to address immediate needs for victims and communities affected by Hurricane Sandy.",
+   "amendment": "H.Amdt. 3",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/3"
+  },
+  "2013-16": {
+   "author": "Flores",
+   "purpose": "strikes the $150 million for Regional Ocean Partnership grants.",
+   "amendment": "H.Amdt. 6",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/6"
+  },
+  "2013-17": {
+   "author": "Broun (GA)",
+   "purpose": "sought to strike $13 million in funding for National Weather Service's ground readiness project.",
+   "amendment": "H.Amdt. 8",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/8"
+  },
+  "2013-18": {
+   "author": "Duncan (SC)",
+   "purpose": "sought to strike $1 million in the bill for the Legal Services Corporation (LSC) and to replace it with language prohibiting use of funds in the bill for LSC.",
+   "amendment": "H.Amdt. 9",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/9"
+  },
+  "2013-19": {
+   "author": "Fleming",
+   "purpose": "to cut $9,800,000 from the Fish & Wildlife Service for rebuilding seawalls and buildings on uninhabited islands in the Stewart McKinney National Wildlife Refuge in Connecticut.",
+   "amendment": "H.Amdt. 13",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/13"
+  },
+  "2013-20": {
+   "author": "Benishek",
+   "purpose": "sought to strike the proviso on line 20, restoring the requirement that local investments would be required in Historic Preservation Grants.",
+   "amendment": "H.Amdt. 14",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/14"
+  },
+  "2013-21": {
+   "author": "Bishop (UT)",
+   "purpose": "to prohibit the Secretaries of the Interior or Agriculture from acquiring any more federal land using funds provided under this emergency supplemental appropriations bill for Hurricane Sandy relief.",
+   "amendment": "H.Amdt. 15",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/15"
+  },
+  "2013-22": {
+   "author": "Frelinghuysen",
+   "purpose": "provides an additional $33.677 billion in total spending to cover current and anticipated needs in the wake of Hurricane Sandy. As amended, see item 40 (Fleming amendment) and item 42 (Bishop (UT) amendment).",
+   "amendment": "H.Amdt. 5",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/5"
+  },
+  "2013-35": {
+   "author": "Takano",
+   "purpose": "sought to make changes to the findings section, clarifying that Congress holds responsibility for passing budgets and appropriating funds.",
+   "amendment": "H.Amdt. 18",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/18"
+  },
+  "2013-36": {
+   "author": "Schrader",
+   "purpose": "sought to add findings stating that Simpson-Bowles created a balanced package of revenue and spending reforms which should form the basis for meeting the requirements of the bill.",
+   "amendment": "H.Amdt. 19",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/19"
+  },
+  "2013-54": {
+   "author": "McMorris Rodgers",
+   "purpose": "in the nature of a substitute sought to insert a complete new text entitled \"Violence Against Women Reauthorization Act of 2013\".",
+   "amendment": "H.Amdt. 23",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/23"
+  },
+  "2013-73": {
+   "author": "Tierney",
+   "purpose": "in the nature of a substitute sought to reauthorize the Workforce Investment Act in such a way that workers can be assured of obtaining jobs and building careers through strategic partnerships and that businesses are more easily enabled to identify and hire qualified personnel in order to further facilitate the economic recovery.",
+   "amendment": "H.Amdt. 31",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/31"
+  },
+  "2013-83": {
+   "author": "Mulvaney",
+   "purpose": "in the nature of a substitute numbered 1 printed in House Report 113-21 consisting of the provisions of the Senate's Concurrent Resolution on the Budget for fiscal year 2014.",
+   "amendment": "H.Amdt. 32",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/32"
+  },
+  "2013-84": {
+   "author": "Scott (VA)",
+   "purpose": "in the nature of a substitute numbered 2 printed in House Report 113-21 and offered as the Congressional Black Caucus proposal.",
+   "amendment": "H.Amdt. 33",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/33"
+  },
+  "2013-85": {
+   "author": "Grijalva",
+   "purpose": "in the nature of a substitute numbered 3 printed in House Report 113-21 and offered as the Congressional Progressive Caucus proposal.",
+   "amendment": "H.Amdt. 34",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/34"
+  },
+  "2013-86": {
+   "author": "Woodall",
+   "purpose": "in the nature of a substitute numbered 4 printed in House Report 113-21 and offered as the Republican Study Committee proposal.",
+   "amendment": "H.Amdt. 35",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/35"
+  },
+  "2013-87": {
+   "author": "Van Hollen",
+   "purpose": "in the nature of a substitute numbered 5 printed in House Report 113-21 and offered as the Democratic Caucus proposal.",
+   "amendment": "H.Amdt. 36",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/36"
+  },
+  "2013-94": {
+   "author": "Napolitano",
+   "purpose": "sought to strike the paragraph in the bill containing requirements regarding the application of the National Environmental Policy Act of 1969 to small conduit hydropower development and changing the definition of small conduit hydropower to mean a facility capable of producing 15 megawatts or less of electric capacity.",
+   "amendment": "H.Amdt. 38",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/38"
+  },
+  "2013-110": {
+   "author": "Rogers (MI)",
+   "purpose": "corrects reported language concerning a reference in subsection (c)(4) to the procedures created in (c)(7) by clarifying that library records, firearm sales records, medical records and tax returns are not included in any information voluntarily shared with the government under CISPA.",
+   "amendment": "H.Amdt. 42",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/42"
+  },
+  "2013-111": {
+   "author": "Connolly",
+   "purpose": "further defines how classified cyber threat intelligence may be shared and used, and adds an additional provision stipulating that classified threat intelligence may only be used, retained, or further disclosed by a certified entity specifically for cybersecurity purposes.",
+   "amendment": "H.Amdt. 43",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/43"
+  },
+  "2013-112": {
+   "author": "Langevin",
+   "purpose": "replaces the term \"local\" with \"political subdivision\", which allows the inclusion of \"utility districts\" that would not otherwise be covered but that were intended to be covered in the bill.",
+   "amendment": "H.Amdt. 45",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/45"
+  },
+  "2013-113": {
+   "author": "Sinema",
+   "purpose": "adds the Inspector General (IG) of DHS to the omnibus IG reporting requirement; adds the DHS IG to the rest of the group responsible for submitting an annual report to Congress and adds the House Committee on Homeland Security and the Senate Committee on Homeland Security and Governmental Affairs to the list of recipients of the report.",
+   "amendment": "H.Amdt. 46",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/46"
+  },
+  "2013-114": {
+   "author": "LaMalfa",
+   "purpose": "clarifies that nothing in this bill authorizes the government to target a US person for surveillance.",
+   "amendment": "H.Amdt. 48",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/48"
+  },
+  "2013-115": {
+   "author": "McCaul",
+   "purpose": "establishes a primary point of receipt in the Federal Government for cyber threat information sharing by designating an entity within the Department of Homeland Security as the civilian Federal entity interface to receive cyber threat information from the private sector.",
+   "amendment": "H.Amdt. 52",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/52"
+  },
+  "2013-126": {
+   "author": "Dent",
+   "purpose": "sought to ensure the continued supply of helium for end users while requiring the Bureau of Land Management (BLM) to honor existing contracts for the supply and delivery of helium and also sought to affirm that the federal government will honor existing contracts that are set to expire October 1, 2015.",
+   "amendment": "H.Amdt. 55",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/55"
+  },
+  "2013-135": {
+   "author": "Gibson",
+   "purpose": "adds a new section 5 requiring GAO to submit a report to Congress on the usage of compensatory time allowed under the Act and which details any complaints filed or any enforcement actions taken for alleged violations of the Act.",
+   "amendment": "H.Amdt. 59",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/59"
+  },
+  "2013-140": {
+   "author": "Camp",
+   "purpose": "clarifies that any debt issued pursuant to the bill may not be used to pay salaries of Members of Congress and also clarifies that the Secretary must report weekly on the amount of debt issued as well as the reason for such issuance.",
+   "amendment": "H.Amdt. 61",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/61"
+  },
+  "2013-157": {
+   "author": "Hurt",
+   "purpose": "expresses the sense of Congress that rules adopted by the Public Company Accounting Oversight Board (PCAOB) comply with the same standards that are required of the SEC; and requires the SEC to ensure that any rules adopted by the Municipal Securities Rulemaking Board (MSRB) and other national securities associations comply with the standards set forth in the bill.",
+   "amendment": "H.Amdt. 64",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/64"
+  },
+  "2013-158": {
+   "author": "Maloney, Carolyn",
+   "purpose": "sought to insert a complete new text comprised of findings and a sense of Congress that the SEC is required to conduct economic analysis as part of its rulemaking.",
+   "amendment": "H.Amdt. 65",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/65"
+  },
+  "2013-169": {
+   "author": "Weber (TX)",
+   "purpose": "adds to the findings in Section 2 highlighting the State Department's scientific and environmental findings which conclude that the Keystone XL pipeline is a safe and environmentally sound project.",
+   "amendment": "H.Amdt. 66",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/66"
+  },
+  "2013-170": {
+   "author": "Waxman",
+   "purpose": "sought to add a finding that the reliance on oil sands crudes for transportation fuels would likely result in an increase in incremental greenhouse gas emissions in the United States equivalent to approximately that of 4.3 million passenger vehicles. The amendment also sought to provide that the bill would not go into effect unless the President found that TransCanada or tar sands producers could fully offset the additional greenhouse gas emissions produced annually.",
+   "amendment": "H.Amdt. 67",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/67"
+  },
+  "2013-171": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to require the completion of a study on the health impacts of increased air pollution in communities surrounding the refineries that will transport diluted bitumen through the proposed Keystone XL pipeline prior to its operation.",
+   "amendment": "H.Amdt. 68",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/68"
+  },
+  "2013-172": {
+   "author": "Connolly",
+   "purpose": "sought to require that the Pipeline and Hazardous Materials Safety Administration, in consultation with the Department of Homeland Security, conduct a study of the vulnerabilities of the Keystone XL pipeline to a terrorist attack and certify that necessary protections have been put in place.",
+   "amendment": "H.Amdt. 69",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/69"
+  },
+  "2013-173": {
+   "author": "Rahall",
+   "purpose": "sought to strike section 3 of the bill (Keystone XL Permit Approval) which states that the Keystone XL pipeline does not require a permit to cross the international border between Canada and the United States.",
+   "amendment": "H.Amdt. 70",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/70"
+  },
+  "2013-174": {
+   "author": "Esty",
+   "purpose": "sought to remove the mandate to allow one specifically named company to never receive appropriate oversight through the permit process for operation and/or maintenance--in perpetuity, while allowing construction permit fast-track.",
+   "amendment": "H.Amdt. 71",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/71"
+  },
+  "2013-175": {
+   "author": "Jackson Lee",
+   "purpose": "sought to lengthen the time period for filing a claim under the Act from 60 days to 1 year.",
+   "amendment": "H.Amdt. 72",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/72"
+  },
+  "2013-176": {
+   "author": "Chu",
+   "purpose": "sought to require the GAO to conduct a study and prepare a report of the Keystone XL pipeline to determine the total projected costs of pipeline spill cleanup, including the potential impacts of a petroleum spill on public health and the environment and the quantity and quality of water available for agricultural and municipal purposes.",
+   "amendment": "H.Amdt. 73",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/73"
+  },
+  "2013-177": {
+   "author": "Holt",
+   "purpose": "sought to require that all oil and refined fuels transported through the Keystone XL Pipeline be used here in the United States and not exported, unless the President finds that an exception is required by law or in the national interest.",
+   "amendment": "H.Amdt. 75",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/75"
+  },
+  "2013-188": {
+   "author": "Broun (GA)",
+   "purpose": "sought to zero out the amount made available for the new NATO headquarters in Brussels and apply the savings of $38.513 million to the spending reduction account.",
+   "amendment": "H.Amdt. 77",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/77"
+  },
+  "2013-189": {
+   "author": "Amodei",
+   "purpose": "provides that the $44 million in funding within the General Operating Expenses account of the Veterans Benefits Administration should be used for increased staffing in certain regional Veterans Affairs offices.",
+   "amendment": "H.Amdt. 82",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/82"
+  },
+  "2013-190": {
+   "author": "Moran",
+   "purpose": "sought to strike section 413 which prohibits use of funds to construct, renovate, or expand any facility in the United States to house any individual detained at Guantanamo Bay, Cuba, for the purposes of detention or imprisonment.",
+   "amendment": "H.Amdt. 84",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/84"
+  },
+  "2013-191": {
+   "author": "King (IA)",
+   "purpose": "to prohibit the use of funds to be used to administer the wage-rate requirements of subchapter IV of chapter 31 of title 40, United States Code (Davis-Bacon Act).",
+   "amendment": "H.Amdt. 96",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/96"
+  },
+  "2013-194": {
+   "author": "Moore",
+   "purpose": "sought to increase funding for the Office of Civil Rights and Civil Liberties by $3.346 million and to reduce funding for the U.S. Customs Border Protection Automation Modernization account by $4 million.",
+   "amendment": "H.Amdt. 97",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/97"
+  },
+  "2013-195": {
+   "author": "Polis",
+   "purpose": "sought to strike the $43,592,000 in funding for the 287(g) program and increase funding for the Office of Civil Rights and Civil Liberties account by $4,359,200 with the balance going to deficit reduction.",
+   "amendment": "H.Amdt. 99",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/99"
+  },
+  "2013-196": {
+   "author": "Heck (NV)",
+   "purpose": "sought to increase funding (by offset) for the Urban Area Security Initiative by $22 million.",
+   "amendment": "H.Amdt. 101",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/101"
+  },
+  "2013-197": {
+   "author": "Garcia",
+   "purpose": "sought to increase funding for Customs and Border Protection staffing by $10 million and decrease funding for the 287(g) program by a similar amount.",
+   "amendment": "H.Amdt. 105",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/105"
+  },
+  "2013-198": {
+   "author": "Deutch",
+   "purpose": "sought to strike the provision in the bill requiring that U.S. Immigration and Customs Enforcement maintain a level of not less than 34,000 detention beds through September 30, 2014.",
+   "amendment": "H.Amdt. 107",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/107"
+  },
+  "2013-199": {
+   "author": "Bishop (NY)",
+   "purpose": "sought to strike the $404 million in funding for the National Bio- and Agro-Defense Facility (NBAF) planned for Manhattan, KS, and to apply the savings to the deficit reduction account.",
+   "amendment": "H.Amdt. 115",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/115"
+  },
+  "2013-200": {
+   "author": "Moran",
+   "purpose": "sought to prohibit use of funds for the transport, release, or assistance in the transfer or release of any Guantanamo detainee housed in Cuba on or after December 31, 2005.",
+   "amendment": "H.Amdt. 116",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/116"
+  },
+  "2013-201": {
+   "author": "Garrett",
+   "purpose": "sought to prohibit use of funds from being utilized by mobile Visible Intermodal Protection and Response teams (VIPR).",
+   "amendment": "H.Amdt. 117",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/117"
+  },
+  "2013-202": {
+   "author": "Ryan (OH)",
+   "purpose": "sought to prohibit use of funds in the bill to pay the salary of any officer or employee of the Department of Homeland Security who approves immigration petitions for relatives, fiances, or workers coming from Brazil.",
+   "amendment": "H.Amdt. 120",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/120"
+  },
+  "2013-203": {
+   "author": "Cassidy",
+   "purpose": "to prohibit the use of funds to implement, carry out, administer, or enforce section 1308(h) of the National Flood Insurance Act of 1968 (42 U.S.C. 4015(h)).",
+   "amendment": "H.Amdt. 121",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/121"
+  },
+  "2013-204": {
+   "author": "Meadows",
+   "purpose": "to prohibit the use of funds to enter into a new contract for the purposes of purchasing ammunition before the date the report required by section 567(a) is submitted to Congress.",
+   "amendment": "H.Amdt. 123",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/123"
+  },
+  "2013-205": {
+   "author": "Thompson (MS)",
+   "purpose": "to prohibit the use of funds to be used by the Transportation Security Administration for the Behavior Detection Officer program.",
+   "amendment": "H.Amdt. 127",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/127"
+  },
+  "2013-206": {
+   "author": "Runyan",
+   "purpose": "sought to delay the increase in flood insurance premiums in New Jersey and New York until the end of FY 2014.",
+   "amendment": "H.Amdt. 129",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/129"
+  },
+  "2013-207": {
+   "author": "Lujan, Ben Ray (NM)",
+   "purpose": "provides an additional $10 million for State and local grant programs to ensure that local towns and communities can be prepared for the prospect of catastrophic wildfires.",
+   "amendment": "H.Amdt. 134",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/134"
+  },
+  "2013-208": {
+   "author": "King (IA)",
+   "purpose": "prohibits use of funds to finalize, implement, administer, or enforce the documents known as \"Morton memos\".",
+   "amendment": "H.Amdt. 136",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/136"
+  },
+  "2013-209": {
+   "author": "Blackburn",
+   "purpose": "to prohibit the use of funds to be used for any activity by Transportation Security Administration Transportation Security Officers outside an airport as defined in section 47102 of title 49, United States Code.",
+   "amendment": "H.Amdt. 138",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/138"
+  },
+  "2013-222": {
+   "author": "Blumenauer",
+   "purpose": "sought to reduce from 11 to 10 the statutory requirement for the number of operational carriers that the U.S. Navy must have.",
+   "amendment": "H.Amdt. 142",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/142"
+  },
+  "2013-223": {
+   "author": "Lummis",
+   "purpose": "requires DOD to preserve current active ICBM silos in warm status.",
+   "amendment": "H.Amdt. 143",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/143"
+  },
+  "2013-224": {
+   "author": "Coffman",
+   "purpose": "sought to cut $250 million from the Defense Rapid Innovation Program (DRIP), and move the money to alleviate training and readiness shortfalls.",
+   "amendment": "H.Amdt. 145",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/145"
+  },
+  "2013-225": {
+   "author": "Rigell",
+   "purpose": "sought to modify the temporary suspension of public-private competitions for conversion of Department of Defense functions to contractor performance and permit the Secretary of Defense to exempt existing public-private partnerships from the OMB Budget Circular A-76 process.",
+   "amendment": "H.Amdt. 148",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/148"
+  },
+  "2013-226": {
+   "author": "McGovern",
+   "purpose": "requires the President to complete the accelerated transition of combat operations from U.S. Armed Forces to the Government of Afghanistan no later than by the end of 2013; the accelerated transition of military and security operations by the end of 2014, including the redeployment of U.S. troops; and to pursue robust negotiations to address Afghanistan's and the region's security and stability. Amendment also establishes the sense of Congress that should the President determine the necessity for post 2014 deployment of U.S. troops in Afghanistan, the Congress should vote to authorize such a presence and mission by no later than June 2014.",
+   "amendment": "H.Amdt. 149",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/149"
+  },
+  "2013-227": {
+   "author": "Goodlatte",
+   "purpose": "requires the government, in habeas proceedings for United States citizens apprehended in the United States pursuant to the AUMF, to prove by clear and convincing evidence that the citizen is an unprivileged enemy combatant and there is not presumption that the government's evidence is accurate and authentic.",
+   "amendment": "H.Amdt. 150",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/150"
+  },
+  "2013-228": {
+   "author": "Smith (WA)",
+   "purpose": "sought to eliminate indefinite military detention of any person detained under AUMF authority in the United States, territories or possessions by providing immediate transfer to trial and proceedings by a court established under Article III of the Constitution or by an appropriate state court. Amendment also sought to strike section 1022 which provides for mandatory military custody of covered parties.",
+   "amendment": "H.Amdt. 152",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/152"
+  },
+  "2013-229": {
+   "author": "Turner",
+   "purpose": "requires the President of the United States to convey to Congress the details of any proposed deals with the Russian Federation concerning the missile defense or nuclear arms of the United States.",
+   "amendment": "H.Amdt. 155",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/155"
+  },
+  "2013-230": {
+   "author": "Holt",
+   "purpose": "sought to strike all of the missile-defense related portions of the bill with the exception of the Iron Dome program.",
+   "amendment": "H.Amdt. 157",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/157"
+  },
+  "2013-231": {
+   "author": "McCollum",
+   "purpose": "sought to prohibit any funds authorized in the bill from being used to sponsor Army National Guard professional wrestling sports sponsorships or motor sports sponsorships but did not seek to prohibit recruiters from making direct personal contact with secondary school students and other prospective recruits.",
+   "amendment": "H.Amdt. 158",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/158"
+  },
+  "2013-232": {
+   "author": "Nolan",
+   "purpose": "sought to reduce total funds authorized in this Act by $60 Billion.",
+   "amendment": "H.Amdt. 159",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/159"
+  },
+  "2013-233": {
+   "author": "Larsen (WA)",
+   "purpose": "sought to reinstate the New START funding.",
+   "amendment": "H.Amdt. 161",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/161"
+  },
+  "2013-234": {
+   "author": "Gibson",
+   "purpose": "sought to strike section 1251 which expresses the Sense of Congress on the conflict in Syria.",
+   "amendment": "H.Amdt. 162",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/162"
+  },
+  "2013-235": {
+   "author": "Coffman",
+   "purpose": "sought to direct the President to end the permanent basing of the 2nd Cavalry Regiment (2CR) in Vilseck, Germany and return the Brigade Combat Team currently stationed in Europe to the United States without permanent replacement.",
+   "amendment": "H.Amdt. 163",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/163"
+  },
+  "2013-236": {
+   "author": "Walorski",
+   "purpose": "prohibits the Secretary of Defense from using any funds authorized to the department for the transfer or release of Guantanamo detainees to Yemen.",
+   "amendment": "H.Amdt. 167",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/167"
+  },
+  "2013-237": {
+   "author": "Smith (WA)",
+   "purpose": "sought to provide framework to close the detention facility at Guantanamo Bay, Cuba, by December 1, 2014.",
+   "amendment": "H.Amdt. 168",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/168"
+  },
+  "2013-238": {
+   "author": "Polis",
+   "purpose": "to allow those certified by recognized nontheistic organizations to be appointed as officers in the chaplain core in order to fully serve nontheistic or nonreligious servicemembers.",
+   "amendment": "H.Amdt. 169",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/169"
+  },
+  "2013-239": {
+   "author": "Polis",
+   "purpose": "sought to limit funding for advanced procurement of inefficient ground-based interceptor rocket motor sets and the costly refurbishment of Missile Field 1 at Fort Greely, Alaska, until the Secretary of Defense makes certain certifications to Congress, including that the Commander of the United States Northern Command has full confidence in the homeland missile defense system.",
+   "amendment": "H.Amdt. 170",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/170"
+  },
+  "2013-240": {
+   "author": "Van Hollen",
+   "purpose": "sought to match the President's budget request for Overseas Contingency Operations.",
+   "amendment": "H.Amdt. 171",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/171"
+  },
+  "2013-241": {
+   "author": "Blumenauer",
+   "purpose": "provides for improvement of the Iraq and Afghanistan Special Immigration Visa programs and expresses the sense of the Congress that these programs are of significant importance to the U.S. mission and should be extended before their expiration.",
+   "amendment": "H.Amdt. 174",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/174"
+  },
+  "2013-242": {
+   "author": "DeLauro",
+   "purpose": "prohibits the Defense Department from continuing to purchase equipment from the Russian arms dealer Rosoboronexport unless the Secretary of Defense certifies that the firm is cooperating with a Defense Contract Audit Agency audit; is not delivering S-300 missile defense batteries to Syria; and that no new contracts have been signed by the firm with Syria since January 1, 2013. Amendment also provides a national security waiver with a requirement that the Secretary justify the waiver in a report to Congress 30 days prior to the purchase of any equipment from Rosoboronexport.",
+   "amendment": "H.Amdt. 175",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/175"
+  },
+  "2013-256": {
+   "author": "McGovern",
+   "purpose": "sought to restore the $20.5 billion cuts in SNAP by offsetting the Farm Risk Management Election Program and the Supplemental Coverage Option.",
+   "amendment": "H.Amdt. 176",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/176"
+  },
+  "2013-257": {
+   "author": "Foxx",
+   "purpose": "caps spending on the Farm Risk Management Election program at 110% of CBO-predicted levels for the first five (5) years in which payments are disbursed (FY 2016-2020).",
+   "amendment": "H.Amdt. 179",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/179"
+  },
+  "2013-258": {
+   "author": "Broun (GA)",
+   "purpose": "sought to repeal the dairy price support law enacted as part of the Agriculture Act of 1949.",
+   "amendment": "H.Amdt. 181",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/181"
+  },
+  "2013-259": {
+   "author": "Blumenauer",
+   "purpose": "sought to require that twenty percent of the acreage enrolled in the Conservation Reserve Program be set aside for the Conservation Reserve Enhancement Program and the Continuous Conservation Reserve Program, which allows states to target high priority and environmentally sensitive land, and to continuously re-enroll that land in CRP.",
+   "amendment": "H.Amdt. 184",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/184"
+  },
+  "2013-260": {
+   "author": "Blumenauer",
+   "purpose": "sought to reform the Environmental Quality Incentives Program to increase access for farmers, and eliminate payments to projects that do not show strong conservation benefits.",
+   "amendment": "H.Amdt. 185",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/185"
+  },
+  "2013-261": {
+   "author": "Kaptur",
+   "purpose": "improves federal coordination in addressing the documented decline of managed and native pollinators and promotes the long-term viability of honey bee, wild bees, and other beneficial insects in agriculture.",
+   "amendment": "H.Amdt. 189",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/189"
+  },
+  "2013-262": {
+   "author": "Royce",
+   "purpose": "sought to reform U.S. international food aid to allow for not more than 45 percent of authorized funds to be used for assistance other than U.S. agricultural commodities.",
+   "amendment": "H.Amdt. 190",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/190"
+  },
+  "2013-263": {
+   "author": "Chabot",
+   "purpose": "sought to repeal Section 3102, which reauthorizes the Market Access Program (MAP) until 2018.",
+   "amendment": "H.Amdt. 191",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/191"
+  },
+  "2013-264": {
+   "author": "Brooks (AL)",
+   "purpose": "sought to terminate funding for the Emerging Markets Program (EMP) after September 30, 2013.",
+   "amendment": "H.Amdt. 193",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/193"
+  },
+  "2013-265": {
+   "author": "Butterfield",
+   "purpose": "sought to add language providing for inclusion of items for personal hygiene for household use in the Supplemental Nutrition Assistance Program.",
+   "amendment": "H.Amdt. 198",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/198"
+  },
+  "2013-266": {
+   "author": "Marino",
+   "purpose": "sought to direct the Comptroller General to establish a pilot program within nine states that would collect the data that is currently required to be reported under the Food and Nutrition Act of 2008 and under the benefit redemption requirements applicable to households under the Act. Amendment also sought to require the Comptroller General, at the end of the pilot program, to determine whether item specific data purchased with SNAP benefits can be collected using existing reporting requirements and how to improve current SNAP reporting.",
+   "amendment": "H.Amdt. 199",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/199"
+  },
+  "2013-267": {
+   "author": "Schweikert",
+   "purpose": "sought to strike the Healthy Food Financing Initiative (HFFI) from the bill.",
+   "amendment": "H.Amdt. 203",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/203"
+  },
+  "2013-268": {
+   "author": "Tierney",
+   "purpose": "sought to allow commercial fishermen to be eligible recipients of the Emergency Disaster Loan program.",
+   "amendment": "H.Amdt. 204",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/204"
+  },
+  "2013-269": {
+   "author": "Polis",
+   "purpose": "allows institutions of higher education to grow or cultivate industrial hemp for the purpose of agricultural or academic research. Amendment applies only to states that already permit industrial hemp growth and cultivation under state law.",
+   "amendment": "H.Amdt. 208",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/208"
+  },
+  "2013-270": {
+   "author": "Garamendi",
+   "purpose": "sought to modify the Forest Legacy program to allow qualified third party, non-governmental entities to hold the conservation easements financed with Forest Legacy revenue.",
+   "amendment": "H.Amdt. 209",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/209"
+  },
+  "2013-271": {
+   "author": "Marino",
+   "purpose": "sought to repeal the Biodiesel Fuel Education Program which awards federal grants to educate fleet operators and the public on the benefits of using biodiesel fuels, instead of fossil fuels.",
+   "amendment": "H.Amdt. 211",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/211"
+  },
+  "2013-272": {
+   "author": "McClintock",
+   "purpose": "sought to strike Section 10003, the Farmers Market and Local Food Promotion Program.",
+   "amendment": "H.Amdt. 212",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/212"
+  },
+  "2013-273": {
+   "author": "Gibson",
+   "purpose": "strikes the olive oil import restriction contained in Section 10010 of the bill.",
+   "amendment": "H.Amdt. 213",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/213"
+  },
+  "2013-274": {
+   "author": "Walorski",
+   "purpose": "sought to continue the prohibition on the Christmas tree tax by striking the section of the bill that lifts the stay on the tax.",
+   "amendment": "H.Amdt. 214",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/214"
+  },
+  "2013-275": {
+   "author": "Courtney",
+   "purpose": "sought to add farmed shellfish to the list of specialty crops listed in Section 3 of the Specialty Crops Competitiveness Act of 2004 which would have allowed these products to be eligible for USDA marketing and research assistance.",
+   "amendment": "H.Amdt. 215",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/215"
+  },
+  "2013-276": {
+   "author": "Kind",
+   "purpose": "sought to limit premium subsidies to those producers wth an AGI under $250,000, limit per person premium subsidies to $50,000 and cap crop insurance providers' reimbursement of administrative and operating at $900 million and reduce their rate of return to 12%.",
+   "amendment": "H.Amdt. 216",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/216"
+  },
+  "2013-277": {
+   "author": "Carney",
+   "purpose": "sought to strike section 11012 which requires that any savings from future Standard Reinsurance Agreements be put back into the Federal crop insurance program.",
+   "amendment": "H.Amdt. 217",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/217"
+  },
+  "2013-278": {
+   "author": "Goodlatte",
+   "purpose": "provides dairy producers with the option to annually enroll in a new margin insurance program at levels of $4.00 and up to $8.00 in increments of fifty cents. Based on the highest annual of three previous calendar years of their milk marketings, dairy producers are allowed to elect their coverage level and the percentage of coverage up to 80% at the start of the program and annually thereafter. Amendment requires the Secretary to make payments to dairy producers enrolled in the program whenever the actual dairy producer margin drops below $4.00 (or below a higher level of coverage up to $8.00).",
+   "amendment": "H.Amdt. 228",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/228"
+  },
+  "2013-279": {
+   "author": "Radel",
+   "purpose": "repeals the National Sheep Industry Improvement Center.",
+   "amendment": "H.Amdt. 218",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/218"
+  },
+  "2013-280": {
+   "author": "Walberg",
+   "purpose": "strikes the addition of \"natural stone\" to the list of commodity products that can petition the USDA for the issuance of a promotion and research order.",
+   "amendment": "H.Amdt. 219",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/219"
+  },
+  "2013-281": {
+   "author": "Pitts",
+   "purpose": "sought to reform the Federal sugar program.",
+   "amendment": "H.Amdt. 227",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/227"
+  },
+  "2013-282": {
+   "author": "Fortenberry",
+   "purpose": "reduces farm program payment limits, capping commodity payments at $250,000 per year for any one farm. Amendment also closes loopholes in current law to ensure that payments reach working farmers, their intended recipients.",
+   "amendment": "H.Amdt. 229",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/229"
+  },
+  "2013-283": {
+   "author": "Huelskamp",
+   "purpose": "sought to create additional work requirements for Supplemental Nutrition Assistance Program (SNAP) recipients and raise the total reduction in spending to $31 billion.",
+   "amendment": "H.Amdt. 230",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/230"
+  },
+  "2013-284": {
+   "author": "Southerland",
+   "purpose": "applies federal welfare work requirements to the food stamp program (SNAP) at state option.",
+   "amendment": "H.Amdt. 231",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/231"
+  },
+  "2013-291": {
+   "author": "Grayson",
+   "purpose": "to ensure that no portion of this legislation is construed as affecting the right of any state to prohibit the management, leasing, developing, and use of lands (including offshore oil drilling) beneath navigable waters within its boundaries.",
+   "amendment": "H.Amdt. 232",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/232"
+  },
+  "2013-295": {
+   "author": "Hastings (FL)",
+   "purpose": "strikes section 204 which seeks to limit the ability to conduct a comprehensive Environmental Impact Statement (EIS).",
+   "amendment": "H.Amdt. 235",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/235"
+  },
+  "2013-296": {
+   "author": "Flores",
+   "purpose": "limits Bureau of Ocean Energy and Ocean Energy Safety Service activities related to the National Ocean Policy developed under Executive Order 13547. Amendment requires a report be submitted to Congress identifying expenditures for fiscal years 2011-2013 by the Bureau of Ocean Energy, Ocean Energy Safety Service, and their predecessor agencies.",
+   "amendment": "H.Amdt. 237",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/237"
+  },
+  "2013-297": {
+   "author": "Cassidy",
+   "purpose": "lifts the offshore energy revenue sharing cap, as provided by the Gulf of Mexico Energy Security Act of 2006, from $500 million to $999 million for each of fiscal years 2024 through 2055.",
+   "amendment": "H.Amdt. 238",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/238"
+  },
+  "2013-298": {
+   "author": "Rigell",
+   "purpose": "to require the Bureau of Ocean Energy Management to permit seismic testing in the Atlantic Outer Continental Shelf of the United States by December 31, 2013.",
+   "amendment": "H.Amdt. 240",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/240"
+  },
+  "2013-299": {
+   "author": "DeFazio",
+   "purpose": "sought to prohibit offshore oil and gas leases in Bristol Bay off the coast of Alaska.",
+   "amendment": "H.Amdt. 241",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/241"
+  },
+  "2013-300": {
+   "author": "Broun (GA)",
+   "purpose": "provides that all claims arising from projects taking place under the bill are to be filed within 60 days and resolved within 180 days. Amendment also places restrictions on appeals and institutes a \"loser pays\" requirement on individuals or entities filing suit, except in specified circumstances, and stipulates that the amendment only applies to individuals or entities which are not parties to the pending leases.",
+   "amendment": "H.Amdt. 242",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/242"
+  },
+  "2013-301": {
+   "author": "Grayson",
+   "purpose": "to ensure that no portion of this legislation is construed as affecting the right of any state to prohibit the management, leasing, developing, and use of lands (including offshore oil drilling) beneath navigable waters within its boundaries.",
+   "amendment": "H.Amdt. 243",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/243"
+  },
+  "2013-302": {
+   "author": "Capps",
+   "purpose": "sought to ensure that section 203, relating to oil and gas lease sales in the Southern California planning area, and Title III, relating to OCS revenue sharing with coastal states, have no force or effect.",
+   "amendment": "H.Amdt. 244",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/244"
+  },
+  "2013-311": {
+   "author": "Moran",
+   "purpose": "sought to strike section 107 of the bill, which prohibits the use of funds to implement regulations pertaining to the definition of waters under the jurisdiction of the Federal Water Pollution Control Act.",
+   "amendment": "H.Amdt. 246",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/246"
+  },
+  "2013-312": {
+   "author": "Moran",
+   "purpose": "sought to strike section 112 which pertains to the definition of fill material or discharge of fill material for the purposes of the Federal Water Pollution Control Act.",
+   "amendment": "H.Amdt. 247",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/247"
+  },
+  "2013-313": {
+   "author": "Takano",
+   "purpose": "sought to increase funding for the Renewable Energy, Energy Reliability and Efficiency account (for advanced manufacturing) by $245 million and to decrease funding for Weapons Activities by a similar amount.",
+   "amendment": "H.Amdt. 251",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/251"
+  },
+  "2013-314": {
+   "author": "Perry",
+   "purpose": "sought to increase funding for Renewable Energy, Energy Reliability and Efficiency (for water power energy) by $31 million and to decrease funding for Departmental Administration by a similar amount.",
+   "amendment": "H.Amdt. 252",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/252"
+  },
+  "2013-315": {
+   "author": "Broun (GA)",
+   "purpose": "sought to reduce funding for Renewable Energy, Energy Reliability, and Efficiency by $9,826,370 and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 254",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/254"
+  },
+  "2013-316": {
+   "author": "Cohen",
+   "purpose": "sought to increase funding for Renewable Energy, Energy Reliability, and Efficiency by $50 million and to reduce funding for Weapons Activities by a similar amount.",
+   "amendment": "H.Amdt. 255",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/255"
+  },
+  "2013-317": {
+   "author": "Broun (GA)",
+   "purpose": "sought to reduce the Renewable Energy, Energy Reliability, and Efficiency account by $4,751,000 and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 256",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/256"
+  },
+  "2013-318": {
+   "author": "Swalwell (CA)",
+   "purpose": "sought to increase funding for Renewable Energy, Energy Reliablity, and Efficiency by $1 million and to reduce funding for Departmental Administration by a similar amount.",
+   "amendment": "H.Amdt. 257",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/257"
+  },
+  "2013-319": {
+   "author": "McClintock",
+   "purpose": "sought to reduce funding for Renewable Energy, Energy Reliability, and Efficiency, Nuclear Energy, and Fossil Energy Research and Development by a total of $1,543,929,000 and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 258",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/258"
+  },
+  "2013-320": {
+   "author": "Peters (CA)",
+   "purpose": "sought to increase funding for Renewable Energy, Energy Reliability, and Efficiency (electric delivery and energy reliability) by $10 million and to reduce funding for Departmental Administration by a similar amount.",
+   "amendment": "H.Amdt. 259",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/259"
+  },
+  "2013-321": {
+   "author": "Perlmutter",
+   "purpose": "sought to increase funding for Renewable Energy, Energy Reliability, and Efficiency (facilities and infrastructure) by $15 million and to reduce funding for Weapons Activities by a similar amount.",
+   "amendment": "H.Amdt. 260",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/260"
+  },
+  "2013-322": {
+   "author": "Connolly",
+   "purpose": "sought to increase funding for Renewable Energy, Energy Reliability, and Efficiency (combined heat and power systems) by $15.5 million and to reduce funding for Weapons Activities by a similar amount.",
+   "amendment": "H.Amdt. 261",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/261"
+  },
+  "2013-323": {
+   "author": "Takano",
+   "purpose": "sought to increase funding for Renewable Energy, Energy Reliability, and Efficiency (zero emission cargo transport grant) by $20 million and to reduce funding for Weapons Activities by a similar amount.",
+   "amendment": "H.Amdt. 263",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/263"
+  },
+  "2013-324": {
+   "author": "Takano",
+   "purpose": "sought to increase funding for Renewable Energy, Energy Reliability, and Efficiency (weatherization assistance) by $40 million and to reduce funding for Weapons Activities by a similar amount.",
+   "amendment": "H.Amdt. 264",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/264"
+  },
+  "2013-325": {
+   "author": "Heck (NV)",
+   "purpose": "sought to reduce funding for Nuclear Energy (Yucca Mountain high-level waste repository) by $25 million and to increase funding for Science (high energy physics) by a similar amount.",
+   "amendment": "H.Amdt. 265",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/265"
+  },
+  "2013-326": {
+   "author": "Butterfield",
+   "purpose": "sought to increase funding for ARPA-E by $127 million and to reduce funding for Weapons Activities by $98 million and Fossil Energy by $29 million.",
+   "amendment": "H.Amdt. 267",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/267"
+  },
+  "2013-327": {
+   "author": "Foster",
+   "purpose": "sought to increase funding for the Office of Science by $500 million and to reduce funding for Weapons Activities by a similar amount.",
+   "amendment": "H.Amdt. 271",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/271"
+  },
+  "2013-328": {
+   "author": "Hastings (FL)",
+   "purpose": "sought to increase funds in the Science account by $223 million and reduce funds in the Weapons Activities account by a similar amount.",
+   "amendment": "H.Amdt. 270",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/270"
+  },
+  "2013-329": {
+   "author": "Garamendi",
+   "purpose": "sought to increase funds in the Advanced Research Projects Agency - Energy (ARPA-E) account by $329 million and to reduce funds in the Weapons Activites account by a similar amount.",
+   "amendment": "H.Amdt. 272",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/272"
+  },
+  "2013-330": {
+   "author": "Broun (GA)",
+   "purpose": "sought to eliminate the remaining funding for the Advanced Technology Vehicles Manufacturing Loan program and to apply the $6 million in savings to the spending reduction account.",
+   "amendment": "H.Amdt. 274",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/274"
+  },
+  "2013-331": {
+   "author": "Jackson Lee",
+   "purpose": "sought to increase funding in the Departmental Administration account by $1 million for environmental justice activities and to reduce funding in the Weapons Activities account by $1.2 million.",
+   "amendment": "H.Amdt. 275",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/275"
+  },
+  "2013-332": {
+   "author": "Quigley",
+   "purpose": "sought to reduce funding in the Weapons Activities account (for the B61 nuclear weapon) by $23.7 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 277",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/277"
+  },
+  "2013-333": {
+   "author": "Heck (NV)",
+   "purpose": "sought to increase funding for the Weapons Activities account by $14 million and to reduce funding for the Defense Nuclear Nonproliferation account by $16.546 million in order to direct monies for use in further securing United States facilities containing nuclear materials.",
+   "amendment": "H.Amdt. 278",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/278"
+  },
+  "2013-334": {
+   "author": "Polis",
+   "purpose": "sought to reduce funding for Weapons Activities (submarine launched ballistic missile) by $13.072 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 279",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/279"
+  },
+  "2013-335": {
+   "author": "Burgess",
+   "purpose": "sought to reduce funding for Defense Nuclear Nonproliferation (USEC) by $48 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 280",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/280"
+  },
+  "2013-336": {
+   "author": "Burgess",
+   "purpose": "sought to strike the language allowing the Secretary of Energy to make $48 million available for the purpose of carrying out domestic uranium enrichment research, development, and demonstration activities.",
+   "amendment": "H.Amdt. 281",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/281"
+  },
+  "2013-337": {
+   "author": "Titus",
+   "purpose": "sought to strike section 509 from the bill which prohibits the use of funds to conduct closure of adjudicatory functions, technical review, or support activities associated with the Yucca Mountain geologic repository license application, or for actions that irrevocably remove the possibility that Yucca Mountain may be a repository option in the future.",
+   "amendment": "H.Amdt. 284",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/284"
+  },
+  "2013-338": {
+   "author": "Lynch",
+   "purpose": "to increase the Department of Army Corps of Engineers funds by $20,000,000, and decrease the Fossil fuel research program by $20,000,000.",
+   "amendment": "H.Amdt. 289",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/289"
+  },
+  "2013-339": {
+   "author": "Whitfield",
+   "purpose": "to prohibit use of funds in the bill by the Department of Energy for wind energy programs.",
+   "amendment": "H.Amdt. 297",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/297"
+  },
+  "2013-340": {
+   "author": "Fleming",
+   "purpose": "prohibits use of funds for enforcement of the borrowing authority in the Western Area Power Administration's Transmission Infrastructure Program.",
+   "amendment": "H.Amdt. 303",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/303"
+  },
+  "2013-341": {
+   "author": "Garamendi",
+   "purpose": "sought to transfer $100 million in funding from weapons systems accounts to the Army Corps of Engineers for flood control projects.",
+   "amendment": "H.Amdt. 304",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/304"
+  },
+  "2013-342": {
+   "author": "Speier",
+   "purpose": "to provide that the amount otherwise made available for \"Department of Energy--Energy Programs--Fossil Energy Research and Development\" is reduced by $30 million.",
+   "amendment": "H.Amdt. 308",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/308"
+  },
+  "2013-343": {
+   "author": "Chabot",
+   "purpose": "to reduce the funding levels for \"Appalachian Regional Commi ssion\", \"Delta Regional Authority\", \"Denali Commission\", \"Northern Border Regional Commission\", and \"Southeast Crescent Regional Commission\" to $0.",
+   "amendment": "H.Amdt. 310",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/310"
+  },
+  "2013-367": {
+   "author": "Young (AK)",
+   "purpose": "inserts a new Title VI which outlines the Federal government's trust responsibility to American Indian, Alaska Native, and Native Hawaiian Education.",
+   "amendment": "H.Amdt. 319",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/319"
+  },
+  "2013-368": {
+   "author": "Luetkemeyer",
+   "purpose": "expresses the sense of the Congress that States and local education agencies should maintain the rights and responsibilities of determining curriculum and assessments for elementary and secondary education.",
+   "amendment": "H.Amdt. 321",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/321"
+  },
+  "2013-369": {
+   "author": "Meehan",
+   "purpose": "ensures that greater authority and governance are restored to local educational agencies as delegated by their States. Amendment also provides that the Secretary of Education shall not impose any additional requirements or burdens on local educational agencies unless explicitly authorized by federal law.",
+   "amendment": "H.Amdt. 328",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/328"
+  },
+  "2013-370": {
+   "author": "Culberson",
+   "purpose": "gives States the option of accepting or rejecting federal grant money with any such rejected funds being dedicated to paying off the national debt.",
+   "amendment": "H.Amdt. 339",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/339"
+  },
+  "2013-371": {
+   "author": "Jackson Lee",
+   "purpose": "sought to require a study and a report containing recommendations regarding the advisability of authorizing a state education authority to close a school district over the opposition of a locally elected school board, and regarding best practices governing the exercise of authority by a state education agency in monitoring, supervising and controlling under-performing school districts with particular emphasis on rural and underserved school districts.",
+   "amendment": "H.Amdt. 341",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/341"
+  },
+  "2013-372": {
+   "author": "Miller, George",
+   "purpose": "in the nature of a substitute sought to reauthorize the Elementary and Secondary Education Act with a focus on maintaining the civil rights and equity of the law by ensuring all students have access to an education. Amendment also sought to support all students through access to high quality state-developed standards, a flexible accountability and school improvement system, improved and targeted professional development and working conditions for teachers and school leaders, as well as additional learning time and after-school programs.",
+   "amendment": "H.Amdt. 343",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/343"
+  },
+  "2013-379": {
+   "author": "Gabbard",
+   "purpose": "sought to provide an additional $104 million for Navy Research and Development, which would have had the effect of authorizing the full request in the President's budget.",
+   "amendment": "H.Amdt. 346",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/346"
+  },
+  "2013-380": {
+   "author": "Blumenauer",
+   "purpose": "sought to increase funding for the cleanup and environmental restoration of formerly used defense sites by $25.1 million and to decrease funding for Army Research and Development, specifically the Ground Combat Vehicle Program, by a similar amount.",
+   "amendment": "H.Amdt. 352",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/352"
+  },
+  "2013-381": {
+   "author": "Polis",
+   "purpose": "sought to reduce funding for the Ground-Based Midcourse Defense Program by $107 million and to apply the savings to the Spending Reduction account.",
+   "amendment": "H.Amdt. 356",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/356"
+  },
+  "2013-382": {
+   "author": "Blumenauer",
+   "purpose": "sought to reduce funding for Research, Development, Test and Evaluation for the Ohio class Ballistic Missile Submarines by $85 million.",
+   "amendment": "H.Amdt. 357",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/357"
+  },
+  "2013-383": {
+   "author": "Nugent",
+   "purpose": "sought to provide an additional $10.5 million in funding for the Counter-electronics High Power Microwave Missile Project and to reduce funding for the Rapid Innovation Fund by a similar amount.",
+   "amendment": "H.Amdt. 359",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/359"
+  },
+  "2013-384": {
+   "author": "Nadler",
+   "purpose": "sought to reduce funding for an East Coast Missile defense site by $70.2 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 362",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/362"
+  },
+  "2013-385": {
+   "author": "Moran",
+   "purpose": "sought to strike sections 8107, 8108, and 8109, which limit the transfer of detainees out of Guantanamo Bay, Cuba.",
+   "amendment": "H.Amdt. 365",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/365"
+  },
+  "2013-386": {
+   "author": "Poe (TX)",
+   "purpose": "sought to reduce funding for Pakistan by $600 million.",
+   "amendment": "H.Amdt. 367",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/367"
+  },
+  "2013-387": {
+   "author": "Walberg",
+   "purpose": "reduces funding for the Afghanistan Infrastructure Fund by $79 million and applies the savings to the Spending Reduction account.",
+   "amendment": "H.Amdt. 369",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/369"
+  },
+  "2013-388": {
+   "author": "Cicilline",
+   "purpose": "sought to reduce funding for the Afghanistan Infrastructure Fund by $279 million and to apply the savings to the Spending Reduction account.",
+   "amendment": "H.Amdt. 371",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/371"
+  },
+  "2013-389": {
+   "author": "Cohen",
+   "purpose": "reduces funding for the Afghanistan Infrastructure Fund by $139 million and applies the savings to the Spending Reduction account.",
+   "amendment": "H.Amdt. 372",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/372"
+  },
+  "2013-390": {
+   "author": "Coffman",
+   "purpose": "reduces funding for the Afghanistan National Security Force by $553.8 million in order to limit the purchase of Mi-17 helicopters and applies the savings to the Spending Reduction account.",
+   "amendment": "H.Amdt. 373",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/373"
+  },
+  "2013-391": {
+   "author": "Garamendi",
+   "purpose": "sought to reduce funding for the Afghan National Security Force by $2.615 billion.",
+   "amendment": "H.Amdt. 374",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/374"
+  },
+  "2013-392": {
+   "author": "Fleming",
+   "purpose": "prohibits the use of funds to appoint chaplains without an endorsing agency.",
+   "amendment": "H.Amdt. 375",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/375"
+  },
+  "2013-393": {
+   "author": "Rigell",
+   "purpose": "Page 157, after line 2, add the following new section: SEC. 10002. None of the funds made available by this Act for the \"Afghanistan Infrastructure Fund\" may be used to plan, develop, or construct any project for which construction has not commenced before the date of the enactment of this Act.",
+   "amendment": "H.Amdt. 376",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/376"
+  },
+  "2013-394": {
+   "author": "Flores",
+   "purpose": "prohibits the use of funds in the bill to enforce section 526 of the Energy Independence and Security Act, which prohibits federal agencies from entering into contracts for the procurement of an alternative fuel unless its lifecycle greenhouse gas emissions are less than or equal to emissions from an equivalent conventional fuel produced from conventional petroleum sources.",
+   "amendment": "H.Amdt. 380",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/380"
+  },
+  "2013-395": {
+   "author": "DeLauro",
+   "purpose": "At the end of the bill (before the short title), add the following: SEC. ___. None of the funds made available by this Act may be obligated or expended to train the Afghan National Security Forces Special Mission Wing to operate or maintain Mi-17 helicopters.",
+   "amendment": "H.Amdt. 382",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/382"
+  },
+  "2013-396": {
+   "author": "Lee (CA)",
+   "purpose": "sought to reduce the total amount appropriated by 1%, with exceptions for Military personnel accounts and health care programs.",
+   "amendment": "H.Amdt. 383",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/383"
+  },
+  "2013-397": {
+   "author": "Quigley",
+   "purpose": "At the end of the bill (before the short title), insert the following: SEC.___. None of the funds made available by this Act may be used to operate or maintain more than 300 land-based intercontinental ballistic missiles.",
+   "amendment": "H.Amdt. 384",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/384"
+  },
+  "2013-398": {
+   "author": "Denham",
+   "purpose": "At the end of the bill (before the short title) insert the following: SEC.___. None of the funds appropriated or otherwise made available in this Act may be used to implement the Trans Regional Web Initiative.",
+   "amendment": "H.Amdt. 385",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/385"
+  },
+  "2013-401": {
+   "author": "Jones",
+   "purpose": "An amendment No. 48 printed in House Report 113-170 to restrict the use of funds approved by this Act from being used to carry out activities under the United States-Afghanistan Strategic Partnership Agreement, without being approved by Members of Congress.",
+   "amendment": "H.Amdt. 386",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/386"
+  },
+  "2013-402": {
+   "author": "LaMalfa",
+   "purpose": "An amendment No. 51 printed in House Report 113-170 to provide that none of the funds made available in this act may be used to pay any fine assessed against a military installation by the California Air Resources Board.",
+   "amendment": "H.Amdt. 388",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/388"
+  },
+  "2013-403": {
+   "author": "Mulvaney",
+   "purpose": "An amendment No. 55 printed in House Report 113-170 to reduce funds made available in the Overseas Contingency Operations budget by $3,546,000,000 to better correspond with the Presidents request. Protects all amounts made available for the National Guard and Reserve Component Equipment modernization shortfalls for homeland defense and emergency response.",
+   "amendment": "H.Amdt. 392",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/392"
+  },
+  "2013-404": {
+   "author": "Stockman",
+   "purpose": "An amendment No. 60 printed in House Report 113-170 to prohibit participation by the Peoples Republic of China in joint U.S. military exercises.",
+   "amendment": "H.Amdt. 397",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/397"
+  },
+  "2013-405": {
+   "author": "Walorski",
+   "purpose": "An amendment No. 62 printed in House Report 113-170 to prohibit any funds made available by this Act from being used to transfer or release detainees from Guantanamo Bay to Yemen.",
+   "amendment": "H.Amdt. 399",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/399"
+  },
+  "2013-406": {
+   "author": "Bonamici",
+   "purpose": "prohibits the use of funds to retire, divest or transfer C-23 aircraft assigned to the Army.",
+   "amendment": "H.Amdt. 400",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/400"
+  },
+  "2013-407": {
+   "author": "Kilmer",
+   "purpose": "prohibits the use of funds to deny security clearance to civillian employees of the Department of Defense due to a \"furlough caused by sequestration\".",
+   "amendment": "H.Amdt. 402",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/402"
+  },
+  "2013-408": {
+   "author": "Nadler",
+   "purpose": "to prevent the further detention of Guantanamo Bay detainees that have already been cleared for release.",
+   "amendment": "H.Amdt. 403",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/403"
+  },
+  "2013-409": {
+   "author": "Nadler",
+   "purpose": "to prevent further construction or expansion of existing facilities at Guantanamo Bay, Cuba.",
+   "amendment": "H.Amdt. 404",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/404"
+  },
+  "2013-410": {
+   "author": "Schiff",
+   "purpose": "sought to prohibit funding for the use of force pursuant to the Authorization for Use of Military Force, or AUMF, effective on December 31, 2014, when the last American combat troops will rotate out of Afghanistan and the responsibility for security will have passed to the Afghan people.",
+   "amendment": "H.Amdt. 407",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/407"
+  },
+  "2013-411": {
+   "author": "Pompeo",
+   "purpose": "prohibits the use of funds by the NSA to target a U.S. person or acquire and store the content of a U.S. person's communications, including phone calls and e-mails.",
+   "amendment": "H.Amdt. 412",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/412"
+  },
+  "2013-412": {
+   "author": "Amash",
+   "purpose": "sought to end authority for the blanket collection of records under the Patriot Act. The amendment also sought to bar the NSA and other agencies from using Section 215 of the Patriot Act to collect records, including telephone call records, that pertain to persons who are not subject to an investigation under Section 215.",
+   "amendment": "H.Amdt. 413",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/413"
+  },
+  "2013-415": {
+   "author": "Waxman",
+   "purpose": "sought to provide that State permit programs would be protective of human health and the environment.",
+   "amendment": "H.Amdt. 415",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/415"
+  },
+  "2013-416": {
+   "author": "Tonko",
+   "purpose": "sought to require the EPA Administrator to find a State coal combustion residual permit program deficient if the implementation of the program threatens human health or the environment in any other State. Under the amendment, any State could request that the EPA Administrator review another State's coal combustion residuals permit program for deficiency.",
+   "amendment": "H.Amdt. 416",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/416"
+  },
+  "2013-419": {
+   "author": "Gallego",
+   "purpose": "strikes the the words \"not to exceed\" in reference to the available funding amount for the Office of Intelligence, Security, and Emergency Response in order to provide spending flexibility for DOT with respect to emergency responses and security issues.",
+   "amendment": "H.Amdt. 418",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/418"
+  },
+  "2013-420": {
+   "author": "Young (AK)",
+   "purpose": "exempts Alaska and Hawaii from the per passenger subsidy cap of $500 for the essential air service program.",
+   "amendment": "H.Amdt. 420",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/420"
+  },
+  "2013-421": {
+   "author": "Grayson",
+   "purpose": "sought to cap the per passenger subsidy for essential air service at $250 in lieu of the $500 level in the bill.",
+   "amendment": "H.Amdt. 421",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/421"
+  },
+  "2013-422": {
+   "author": "McClintock",
+   "purpose": "sought to reduce the funding for Essential Air Service by $100 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 422",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/422"
+  },
+  "2013-423": {
+   "author": "Hastings (FL)",
+   "purpose": "sought to increase funding for NextGen by $3,497,000.",
+   "amendment": "H.Amdt. 424",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/424"
+  },
+  "2013-424": {
+   "author": "Hastings (FL)",
+   "purpose": "sought to make $870,031,000 available for NextGen capital programs.",
+   "amendment": "H.Amdt. 425",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/425"
+  },
+  "2013-425": {
+   "author": "Hastings (FL)",
+   "purpose": "sought to make $61,960,000 available for NextGen research and development.",
+   "amendment": "H.Amdt. 426",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/426"
+  },
+  "2013-428": {
+   "author": "Waxman",
+   "purpose": "sought to strike section 2 of the bill which allows DOE to effectively veto EPA rules.",
+   "amendment": "H.Amdt. 444",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/444"
+  },
+  "2013-429": {
+   "author": "Connolly",
+   "purpose": "sought to prevent section 2 of the bill from applying to rules related to protecting air and water quality.",
+   "amendment": "H.Amdt. 445",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/445"
+  },
+  "2013-430": {
+   "author": "Murphy (PA)",
+   "purpose": "prohibits the EPA from using the \"social cost of carbon\" valuation for any energy-related rule that costs more than $1 billion unless and until a Federal law is enacted authorizing such use.",
+   "amendment": "H.Amdt. 447",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/447"
+  },
+  "2013-437": {
+   "author": "Scalise",
+   "purpose": "requires the Administration to receive approval from Congress before implementing a carbon tax.",
+   "amendment": "H.Amdt. 448",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/448"
+  },
+  "2013-438": {
+   "author": "Smith (MO)",
+   "purpose": "requires Congressional approval for all rules under the authority of the Affordable Care Act.",
+   "amendment": "H.Amdt. 450",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/450"
+  },
+  "2013-439": {
+   "author": "Latham",
+   "purpose": "clarifies that the report required to be submitted to Congress by Federal agencies promulgating a rule under the Act, must include a list of any other related regulatory actions taken by, or that will be taken by, any other Federal agency with authority to implement the same statutory provision or regulatory objective.",
+   "amendment": "H.Amdt. 451",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/451"
+  },
+  "2013-440": {
+   "author": "Nadler",
+   "purpose": "sought to exempt from the bill's Congressional approval requirement any rule pertaining to nuclear reactor safety standards in order to prevent nuclear meltdowns like the one in Fukushima. The amendment would have also ensured that enhanced nuclear safety protection requirements could go into effect.",
+   "amendment": "H.Amdt. 453",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/453"
+  },
+  "2013-441": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to exempt from the provisions of the bill any rule that the Office of Management and Budget determines would result in net job creation.",
+   "amendment": "H.Amdt. 454",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/454"
+  },
+  "2013-442": {
+   "author": "Jackson Lee",
+   "purpose": "sought to exempt from the bill's Congressional approval requirement any rule promulgated by the Department of Homeland Security.",
+   "amendment": "H.Amdt. 455",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/455"
+  },
+  "2013-443": {
+   "author": "Moore",
+   "purpose": "sought to exempt rules pertaining to veterans from the provisions of the bill.",
+   "amendment": "H.Amdt. 458",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/458"
+  },
+  "2013-466": {
+   "author": "Lowenthal",
+   "purpose": "sought to clarify that the definition of Strategic and Critical Minerals includes only the minerals identified by the National Research Council (NRC) as strategic and critical minerals (and any additional minerals added by the Secretary that meet the NRCs criteria). Amendment also sought to clarify that the definition of Mineral Exploration or Mine Permit in the underlying legislation refers only to mineral exploration or mine permit for strategic and critical minerals.",
+   "amendment": "H.Amdt. 463",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/463"
+  },
+  "2013-467": {
+   "author": "Veasey",
+   "purpose": "to designate the Secretary of Interior to publish no later than 60 days after enactment of the bill a list of `Strategic and Critical Minerals' for the purpose of the bill. The Secretary must update the list every 5 years.",
+   "amendment": "H.Amdt. 464",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/464"
+  },
+  "2013-468": {
+   "author": "Connolly",
+   "purpose": "sought to require mineral exploration and mining projects to be subjected to an Environmental Impact Statement review prior to approval and sought to remove the arbitrary limit on the time frame for such reviews.",
+   "amendment": "H.Amdt. 465",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/465"
+  },
+  "2013-469": {
+   "author": "Hastings (FL)",
+   "purpose": "sought to require that the cost of cleanup be included in financial assurance and that financial insurance instruments shall be in the form of a surety bond, letter of credit or other instrument that would routinely be accepted in commerce.",
+   "amendment": "H.Amdt. 466",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/466"
+  },
+  "2013-479": {
+   "author": "Daines",
+   "purpose": "protects forest preserve projects from delay by precluding Court-issued injunctions based on alleged violations of procedural requirements in selecting, planning, or analyzing the project.",
+   "amendment": "H.Amdt. 468",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/468"
+  },
+  "2013-480": {
+   "author": "McClintock",
+   "purpose": "waives judicial review on any timber salvage project resulting from a wildfire occurring in 2013.",
+   "amendment": "H.Amdt. 470",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/470"
+  },
+  "2013-481": {
+   "author": "McClintock",
+   "purpose": "At the end of the bill, add the following new section: SEC. 508. PROHIBITION ON CERTAIN ACTIONS REGARDING FOREST SERVICE ROADS AND TRAILS. The Forest Service shall not remove or otherwise eliminate or obliterate any legally created road or trail unless there has been a specific decision, which included adequate and appropriate public involvement, to decommission the specific road or trail in question. The fact that any road or trail is not a Forest System road or trail, or does not appear on a Motor Vehicle Use Map, shall not constitute a decision.",
+   "amendment": "H.Amdt. 472",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/472"
+  },
+  "2013-489": {
+   "author": "Grijalva",
+   "purpose": "sought to require that the Remote Operations Center be located in the town of Superior, Arizona, or adjacent to another mining community within the Copper Triangle.",
+   "amendment": "H.Amdt. 476",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/476"
+  },
+  "2013-490": {
+   "author": "Napolitano",
+   "purpose": "sought to protect water quality and water quantity for the people living and working near this proposed mine, given estimates that mining operations will consume the equivalent of the annual water supply for 20,000 homes.",
+   "amendment": "H.Amdt. 478",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/478"
+  },
+  "2013-549": {
+   "author": "Grayson",
+   "purpose": "to strike the title of H.J. Res. 80 and insert the following \"Making continuing appropriations for the Bureau of Indian Affairs, the Bureau of Indian Education, and the Indian Health Service for fiscal year 2014, and for other purposes, although we prefer - and would support - a comprehensive, clean continuing resolution to end the government shutdown.\".",
+   "amendment": "H.Amdt. 480",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/480"
+  },
+  "2013-556": {
+   "author": "DeFazio",
+   "purpose": "sought to delay the application of environmental \"streamlining\" provisions in the bill until the Secretary certifies that there is sufficient funding to reduce the current backlog of authorized Corps projects to less than $20 billion.",
+   "amendment": "H.Amdt. 482",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/482"
+  },
+  "2013-557": {
+   "author": "Flores",
+   "purpose": "prohibits programs or actions authorized under this Act from further implementation of coastal and marine spatial planning and ecosystem-based management components under Executive Order 13547; requires the Secretary of the Army to conduct and submit a study detailing all activities engaged in and resources expended in furtherance of Executive Order 13547; requires such study to include any budget requests for fiscal year 2014 for support of implementation of Executive Order 13547; and requires that the study be submitted to the House Committee on Transportation and Infrastructure and Senate Committee on Commerce, Science, and Transportation.",
+   "amendment": "H.Amdt. 483",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/483"
+  },
+  "2013-558": {
+   "author": "Hastings (FL)",
+   "purpose": "At the end of title I, add the following: SEC. 139. ANNUAL OPERATIONS AND MAINTENANCE BUDGET. The Secretary shall include operation and maintenance costs associated with sand transfer plants in the annual operations and maintenance budget of the Corps of Engineers.",
+   "amendment": "H.Amdt. 486",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/486"
+  },
+  "2013-559": {
+   "author": "Richmond",
+   "purpose": "directs the Corps to calculate the national benefits of proposed flood protection projects, including benefits from a reduction in national and regional economic losses, as well as the protection of evacuation routes.",
+   "amendment": "H.Amdt. 490",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/490"
+  },
+  "2013-565": {
+   "author": "Miller, George",
+   "purpose": "sought to authorize the Department of Labor to issue a fiduciary duty rule that protects access to investment education and advice and assures the availability of reasonable compensation to financial service providers. Amendment also sought to require a study of the effect of current investment industry practices on the standard of care provided to investors by persons providing investment advice, including the effect on low-income investors.",
+   "amendment": "H.Amdt. 493",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/493"
+  },
+  "2013-575": {
+   "author": "Cohen",
+   "purpose": "sought to exempt from provisions of the bill, asbestos trusts with internal anti-fraud procedures.",
+   "amendment": "H.Amdt. 494",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/494"
+  },
+  "2013-576": {
+   "author": "Nadler",
+   "purpose": "sought to protect public health and safety by adding a requirement that any party seeking payment information from a trust must also make available information relevant to such action that pertains to public health or safety.",
+   "amendment": "H.Amdt. 495",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/495"
+  },
+  "2013-577": {
+   "author": "Jackson Lee",
+   "purpose": "sought to apply the transparency rules in the bill equally to asbestos industry defendants by requiring asbestos companies to report information about the location of their asbestos-containing products and also sought to provide an exception for trade secrets.",
+   "amendment": "H.Amdt. 496",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/496"
+  },
+  "2013-594": {
+   "author": "Jackson Lee",
+   "purpose": "sought to preserve the First Amendment Right to Petition.",
+   "amendment": "H.Amdt. 498",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/498"
+  },
+  "2013-595": {
+   "author": "Lowenthal",
+   "purpose": "sought to allow the Secretary of the Interior to continue to review actions that generally qualify for Categorical Exclusions to NEPA for possible Extraordinary Circumstances (e.g. Violations of a Federal law, or a State, local, or tribal law or requirement) which would then supersede the Categorical Exclusion and require further NEPA review.",
+   "amendment": "H.Amdt. 499",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/499"
+  },
+  "2013-596": {
+   "author": "Jackson Lee",
+   "purpose": "sought to eliminate prohibition of award of attorney fees which otherwise would be recoverable under Equal Access to Justice Act.",
+   "amendment": "H.Amdt. 500",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/500"
+  },
+  "2013-597": {
+   "author": "Polis",
+   "purpose": "sought to require the National Academy of Sciences to study and report to Congress regarding the impact of flooding on oil and gas facilities and the resulting instances of leaking and spills from tanks, wells, and pipelines.",
+   "amendment": "H.Amdt. 503",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/503"
+  },
+  "2013-598": {
+   "author": "DeFazio",
+   "purpose": "sought to authorize $10 million of the revenue generated by the bill for the Commodity Futures Trading Commission to use existing authority to limit speculation in energy markets.",
+   "amendment": "H.Amdt. 504",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/504"
+  },
+  "2013-601": {
+   "author": "Holt",
+   "purpose": "sought to allow the Secretary of the Interior to issue regulations to reduce methane emissions from oil and gas drilling operations on public lands.",
+   "amendment": "H.Amdt. 507",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/507"
+  },
+  "2013-602": {
+   "author": "DeFazio",
+   "purpose": "to prohibit the export of natural gas produced from public lands.",
+   "amendment": "H.Amdt. 510",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/510"
+  },
+  "2013-605": {
+   "author": "Tonko",
+   "purpose": "sought to require an application for a natural gas pipeline to include information ensuring that methane emissions will be minimized before such application can be considered for approval.",
+   "amendment": "H.Amdt. 512",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/512"
+  },
+  "2013-606": {
+   "author": "Castor (FL)",
+   "purpose": "sought to strike the provision in the bill which requires FERC to automatically issue permits generated by other agencies if the deadline is missed.",
+   "amendment": "H.Amdt. 513",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/513"
+  },
+  "2013-607": {
+   "author": "Speier",
+   "purpose": "sought to ensure that FERC would consider and respond to local and State concerns submitted as part of a permit application before a natural gas pipeline permit is approved.",
+   "amendment": "H.Amdt. 514",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/514"
+  },
+  "2013-608": {
+   "author": "Jackson Lee",
+   "purpose": "sought to delay the implementation of the bill, if enacted, so long as sequestration is in effect.",
+   "amendment": "H.Amdt. 515",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/515"
+  },
+  "2013-609": {
+   "author": "Dingell",
+   "purpose": "sought to replace the bill with a requirement that GAO complete a study on what, if any, delays are expected by FERC or other Federal, State, or local permitting authorities in issuing permits regarding the siting, construction, expansion, or operation of any natural gas pipeline project.",
+   "amendment": "H.Amdt. 516",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/516"
+  },
+  "2013-620": {
+   "author": "Maloney, Carolyn",
+   "purpose": "sought to require private equity fund advisers to register with the SEC and sought to direct the SEC to create a simplified registration and disclosure regime for small private equity fund advisers.",
+   "amendment": "H.Amdt. 519",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/519"
+  },
+  "2013-623": {
+   "author": "Goodlatte",
+   "purpose": "Manager's amendment makes technical and clarifying changes including clarifications and edits to the limitations on discovery prior to a Markman or a claim construction hearing; makes clarifications to the bankruptcy provisions ensuring that U.S. law is followed and not foreign law; includes modifications to the deadlines for various studies to provide agencies enough time to prepare and develop their reports; and makes necessary and positive improvements to the patent system.",
+   "amendment": "H.Amdt. 520",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/520"
+  },
+  "2013-624": {
+   "author": "Watt",
+   "purpose": "to bring the fee shifting provision in the underlying bill more closely aligned with the Equal Access to Justice Act. Allows a judge to consider dilatory or other abusive tactics by the prevailing party in determining whether to reduce or deny a fee award.",
+   "amendment": "H.Amdt. 521",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/521"
+  },
+  "2013-625": {
+   "author": "Massie",
+   "purpose": "sought to strike section 5 entitled \"Customer-Suit Exemption\" which inserts a new provision into the patent code requiring a court to grant a motion to stay a pattern infringement suit against certain \"covered customers\".",
+   "amendment": "H.Amdt. 523",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/523"
+  },
+  "2013-626": {
+   "author": "Jackson Lee",
+   "purpose": "sought to expand the covered customer definition to all small businesses so long as their annual revenue does not exceed $25 million.",
+   "amendment": "H.Amdt. 524",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/524"
+  },
+  "2013-627": {
+   "author": "Rohrabacher",
+   "purpose": "strikes section 9(a) from the bill which relates to preservation of the right for judicial review of American inventors making application to the patent system.",
+   "amendment": "H.Amdt. 526",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/526"
+  },
+  "2013-628": {
+   "author": "Conyers",
+   "purpose": "in the nature of a substitute sought to insert a complete new text entitled \"Deceptive Patent Practices Reduction Act\" which promoted transparency in patent ownership; protected customers who are targeted in infringement suits; directed the PTO to develop educational resources for small businesses; and instructed the PTO and others to prepare reports on several issues including the use of deceptive demand letters.",
+   "amendment": "H.Amdt. 527",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/527"
+  },
+  "2014-7": {
+   "author": "Sinema",
+   "purpose": "sought to strike language that would expand eligibility for the National Priorities List (NPL) in Section 204 which is overseen by the Environmental Protection Agency and sought to reinstate language that directs listing of the \"highest priority facilities\" for cleanup.",
+   "amendment": "H.Amdt. 528",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/528"
+  },
+  "2014-8": {
+   "author": "Tonko",
+   "purpose": "to block implementation of the bill if any provision would increase litigation, reduce funds available for cleaning up contaminated sites, or that would delay clean up of contaminated sites.",
+   "amendment": "H.Amdt. 529",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/529"
+  },
+  "2014-38": {
+   "author": "DeFazio",
+   "purpose": "sought to strike the National Environmental Policy Act waivers in the bill.",
+   "amendment": "H.Amdt. 537",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/537"
+  },
+  "2014-39": {
+   "author": "Holt",
+   "purpose": "to promote the Secretary of the Interior's authority to consider climate change when making decisions related to recreation and conservation on public lands.",
+   "amendment": "H.Amdt. 541",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/541"
+  },
+  "2014-42": {
+   "author": "Napolitano",
+   "purpose": "sought to remove the subsidy for agricultural loans and to require that interest be repaid on the capital costs of a project.",
+   "amendment": "H.Amdt. 543",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/543"
+  },
+  "2014-43": {
+   "author": "Matsui",
+   "purpose": "sought to change the language in the bill regarding the elimination of water for the delta environment and sought to preserve senior water rights in Northern California.",
+   "amendment": "H.Amdt. 544",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/544"
+  },
+  "2014-44": {
+   "author": "Bera",
+   "purpose": "sought to delay implementation of the act until it is determined that it will not have a negative impact on the quantity, quality, and safety of drinking water in the California Delta region.",
+   "amendment": "H.Amdt. 545",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/545"
+  },
+  "2014-45": {
+   "author": "Capps",
+   "purpose": "sought to require GAO to conduct a study on the resiliency and adaptability of all Bureau of Reclamation projects and facilities to any ongoing or forecasted changes to the quality, quantity, or reliability of water resources.",
+   "amendment": "H.Amdt. 546",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/546"
+  },
+  "2014-46": {
+   "author": "Huffman",
+   "purpose": "to prevent provisions of the bill from taking effect until it has been determined that it will not interfere with the State of California's Delta and water management reform and funding Acts of 2009, including SB7x-1, SB7x-2, SB7x-6, and SB7x-7.",
+   "amendment": "H.Amdt. 548",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/548"
+  },
+  "2014-47": {
+   "author": "McNerney",
+   "purpose": "sought to prevent several provisions of the Act from taking effect until it is determined that it will not harm water quality or water availability for agricultural producers in California's Delta region (Contra Costa, Sacramento, San Joaquin, Solano, and Yolo Counties).",
+   "amendment": "H.Amdt. 549",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/549"
+  },
+  "2014-48": {
+   "author": "Peters (CA)",
+   "purpose": "sought to stipulate that the bill cannot go into effect until the Secretary confirms that the act does not adversely affect any community's water supply or water budget.",
+   "amendment": "H.Amdt. 550",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/550"
+  },
+  "2014-51": {
+   "author": "Grijalva",
+   "purpose": "sought to strike the restriction on federal land acquisition.",
+   "amendment": "H.Amdt. 551",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/551"
+  },
+  "2014-52": {
+   "author": "Labrador",
+   "purpose": "requires the non-prevailing, not directly affected party in a challenge to the Secretary's final grazing decision to pay the directly affected prevailing party incurred fees and expenses and also clarifies the definition of a directly affected party.",
+   "amendment": "H.Amdt. 553",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/553"
+  },
+  "2014-70": {
+   "author": "Polis",
+   "purpose": "to strike the title of H.R. 3865 and insert the following to protect anonymous special interests by prohibiting the Internal Revenue Service from modifying the standard for determining whether an organization is operated exclusively for the promotion of social welfare for purposes of section 501(c)(4) of the Internal Revenue Code of 1986.",
+   "amendment": "H.Amdt. 558",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/558"
+  },
+  "2014-71": {
+   "author": "Rothfus",
+   "purpose": "adds terms to define a negative-impact on a jobs and wages rule; helps agencies identify a negative-impact on a jobs and wages rule; and requires agency heads approving a negative-impact on a jobs and wages rule to submit a statement that they approved the rule knowing of its negative-impact on jobs and wages.",
+   "amendment": "H.Amdt. 561",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/561"
+  },
+  "2014-72": {
+   "author": "Connolly",
+   "purpose": "sought to insert an exception for any rule pertaining to air quality or water quality.",
+   "amendment": "H.Amdt. 565",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/565"
+  },
+  "2014-73": {
+   "author": "Jackson Lee",
+   "purpose": "sought to insert an exception for rules made by the Secretary of Homeland Security or any consent decree or settlement made as a result of the rule.",
+   "amendment": "H.Amdt. 566",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/566"
+  },
+  "2014-74": {
+   "author": "Jackson Lee",
+   "purpose": "sought to insert an exception for any rule, consent decree, or settlement agreement that the Director of the Office of Management and Budget determines would result in net job creation or whose benefits exceeds its costs.",
+   "amendment": "H.Amdt. 567",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/567"
+  },
+  "2014-75": {
+   "author": "Miller, George",
+   "purpose": "sought to insert an exception for regulations proposed by the Occupational Safety and Health Administration to prevent combustible dust explosions and fires.",
+   "amendment": "H.Amdt. 568",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/568"
+  },
+  "2014-76": {
+   "author": "Miller, George",
+   "purpose": "sought to insert an exception for any regulations, or modifications thereto, which have been recommended in writing by the Inspector General of a federal agency, including but not limited to those which would improve protections for taxpayers, students, public and workplace safety and health, or otherwise increase the effectiveness or efficiency of agency activities.",
+   "amendment": "H.Amdt. 569",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/569"
+  },
+  "2014-81": {
+   "author": "Rigell",
+   "purpose": "requires the Consumer Financial Protection Bureau to (1) submit an analysis on the impact of its proposed rule or regulation on the financial industry, and (2) submit an analysis of consumer and small business access to credit as a result of the regulation, to the Financial Stability Oversight Council for the purposes of public review.",
+   "amendment": "H.Amdt. 570",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/570"
+  },
+  "2014-82": {
+   "author": "DeSantis",
+   "purpose": "repeals the exclusive rulemaking authority of the Consumer Financial Protection Bureau.",
+   "amendment": "H.Amdt. 571",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/571"
+  },
+  "2014-83": {
+   "author": "Moore",
+   "purpose": "sought to add Findings and Sense of Congress language to the end of the bill that acknowledges and honors the work of the Consumer Financial Protection Bureau in providing protection and relief to consumers from instances of unfair, deceptive, and abusive practices in financial markets.",
+   "amendment": "H.Amdt. 572",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/572"
+  },
+  "2014-86": {
+   "author": "Cummings",
+   "purpose": "sought to strike section 5 of the bill which would eliminate the current exemption from the Unfunded Mandate Reform Act for certain independent agencies.",
+   "amendment": "H.Amdt. 573",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/573"
+  },
+  "2014-87": {
+   "author": "Connolly",
+   "purpose": "sought to ensure that other impacted entities, such as public interest organizations, are provided the opportunity for consultation afforded to the private sector under the Act.",
+   "amendment": "H.Amdt. 574",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/574"
+  },
+  "2014-88": {
+   "author": "Jackson Lee",
+   "purpose": "sought to add a section to the bill to clarify that the requirements of UMRA, as amended, do not apply if a cost-benefit analysis demonstrates that the benefits of the regulatory action exceed its costs.",
+   "amendment": "H.Amdt. 575",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/575"
+  },
+  "2014-101": {
+   "author": "Smith (TX)",
+   "purpose": "sought to require EPA to rely on proven technologies when it sets rules for any power plant.",
+   "amendment": "H.Amdt. 576",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/576"
+  },
+  "2014-102": {
+   "author": "Capps",
+   "purpose": "sought to allow the EPA to consider all pollution control technologies being used in the United States or elsewhere when setting new power plant emission standards.",
+   "amendment": "H.Amdt. 577",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/577"
+  },
+  "2014-103": {
+   "author": "Schakowsky",
+   "purpose": "to accept the scientific finding of the EPA that greenhouse gas pollution is \"contributing to long-lasting changes in our climate that can have a range of negative effects\".",
+   "amendment": "H.Amdt. 581",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/581"
+  },
+  "2014-104": {
+   "author": "Waxman",
+   "purpose": "sought to add a section setting effective date guidelines which take effect when the Administrator of the EIA certifies that another Federal program, other than one under section 111 of the Clean Air Act, will reduce carbon pollution in at least equivalent quantities, with similar timing and from the same sources as the reductions required under the rules and guidelines nullified by section 4.",
+   "amendment": "H.Amdt. 583",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/583"
+  },
+  "2014-108": {
+   "author": "Jackson Lee",
+   "purpose": "sought to strike the \"deemed approved\" language in the bill for any project for which an agency does not meet the deadlines outlined in the bill.",
+   "amendment": "H.Amdt. 584",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/584"
+  },
+  "2014-109": {
+   "author": "McKinley",
+   "purpose": "prohibits agencies from taking into account the \"social cost of carbon\" from the \"Technical Support Document: Social Cost of Carbon for Regulatory Impact Analysis Under Executive Order 12866 from May 2013 or November 2013.\".",
+   "amendment": "H.Amdt. 585",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/585"
+  },
+  "2014-110": {
+   "author": "Nadler",
+   "purpose": "sought to exempt from the bill any construction project for a nuclear facility planned in an area designated as an earthquake fault zone.",
+   "amendment": "H.Amdt. 587",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/587"
+  },
+  "2014-111": {
+   "author": "Johnson (GA)",
+   "purpose": "sought to clarify that nothing in the bill will change or limit any law or regulation allowing for public comment or participation in an agency decision making process.",
+   "amendment": "H.Amdt. 588",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/588"
+  },
+  "2014-120": {
+   "author": "Conyers",
+   "purpose": "sought to exclude from the bill's scope any executive actions taken to combat discrimination or to protect civil rights.",
+   "amendment": "H.Amdt. 589",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/589"
+  },
+  "2014-121": {
+   "author": "Nadler",
+   "purpose": "sought to clarify that nothing in the act limits or otherwise affects the constitutional authority of the executive branch to exercise prosecutorial discretion.",
+   "amendment": "H.Amdt. 590",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/590"
+  },
+  "2014-122": {
+   "author": "Jackson Lee",
+   "purpose": "sought to protect the ability of the Executive Branch to comply with judicial decisions interpreting the Constitution or Federal laws.",
+   "amendment": "H.Amdt. 591",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/591"
+  },
+  "2014-127": {
+   "author": "Ellison",
+   "purpose": "sought to waive reporting requirements provided in the bill if sufficient funds are not available to generate the increased volume of reports.",
+   "amendment": "H.Amdt. 594",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/594"
+  },
+  "2014-130": {
+   "author": "Polis",
+   "purpose": "in the nature of a substitute sought to mandate that the U.S. Forest Service may not condition ski area permits on the transfer of title of any water right or require any ski area permittee to acquire a water right in the name of the United States.",
+   "amendment": "H.Amdt. 597",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/597"
+  },
+  "2014-138": {
+   "author": "Lowenthal",
+   "purpose": "sought to require States to implement the June 30, 1983 Office of Surface Mining Reclamation and Enforcement stream buffer zone rule, unless a State has a program with greater stream protection.",
+   "amendment": "H.Amdt. 599",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/599"
+  },
+  "2014-139": {
+   "author": "Cartwright",
+   "purpose": "sought to ensure that States maintain the ability to issue their own stream buffer rules.",
+   "amendment": "H.Amdt. 600",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/600"
+  },
+  "2014-145": {
+   "author": "Tsongas",
+   "purpose": "sought to preserve the ability of the President to declare as national monuments those that provide for the \"protection or conservation of historic or cultural resources related to American military history,\" regardless of their size.",
+   "amendment": "H.Amdt. 603",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/603"
+  },
+  "2014-159": {
+   "author": "Connolly",
+   "purpose": "sought to subject Congressional appropriations bills to dynamic scoring and to change the threshold to trigger such scoring to $1 billion.",
+   "amendment": "H.Amdt. 605",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/605"
+  },
+  "2014-160": {
+   "author": "Israel",
+   "purpose": "sought to add impact on State and local governments to the parameters that CBO must analyze in a supplemental analysis under the bill.",
+   "amendment": "H.Amdt. 606",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/606"
+  },
+  "2014-161": {
+   "author": "Cicilline",
+   "purpose": "sought to require CBO to include jobs impact statements (estimates of the number of jobs which would be created, sustained, or lost in carrying out applicable bills or resolutions) using the CBO's existing analytical principles and procedures.",
+   "amendment": "H.Amdt. 607",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/607"
+  },
+  "2014-162": {
+   "author": "Jackson Lee",
+   "purpose": "sought to require CBO to include as part of their macroeconomic analysis, estimates of the potential impact on HUB ZONE areas as defined by the Small Business Act.",
+   "amendment": "H.Amdt. 609",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/609"
+  },
+  "2014-171": {
+   "author": "Mulvaney",
+   "purpose": "in the nature of a substitute comprises the President's budget proposal and appears on page H3097 of the Congressional Record of April 9, 2014.",
+   "amendment": "H.Amdt. 612",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/612"
+  },
+  "2014-172": {
+   "author": "Moore",
+   "purpose": "in the nature of a substitute comprises the budget proposal of the Congressional Black Caucus and appears on page H3104 of the Congressional Record of April 9, 2014.",
+   "amendment": "H.Amdt. 613",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/613"
+  },
+  "2014-173": {
+   "author": "Grijalva",
+   "purpose": "in the nature of a substitute comprises the budget proposal of the Congressional Progressive Caucus and appears on page H3114 of the Congressional Record of April 9, 2014.",
+   "amendment": "H.Amdt. 614",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/614"
+  },
+  "2014-175": {
+   "author": "Woodall",
+   "purpose": "in the nature of a substitute comprises the budget proposal of the Republican Study Committee and appears on page H3149 of the Congressional Record of April 10, 2014.",
+   "amendment": "H.Amdt. 615",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/615"
+  },
+  "2014-176": {
+   "author": "Van Hollen",
+   "purpose": "in the nature of a substitute comprises the budget proposal of the Democratic Caucus and appears on page H3166 of the Congressional Record of April 10, 2014.",
+   "amendment": "H.Amdt. 616",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/616"
+  },
+  "2014-185": {
+   "author": "Moran",
+   "purpose": "sought to strike section 411 from the bill which prohibits the use of funds to construct, renovate, or expand any facility in the United States, its territories, or possessions to house any individual detained at United States Naval Station, Guantanamo Bay, Cuba, for the purposes of detention or imprisonment in the custody or under the control of the Department of Defense.",
+   "amendment": "H.Amdt. 625",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/625"
+  },
+  "2014-186": {
+   "author": "Blumenauer",
+   "purpose": "sought to prohibit the use of funds to implement Veterans Health Administration directive 2011-004 with respect to the prohibition on VA providers from completing forms seeking recommendations or opinions regarding a Veteran's participation in a State marijuana program.",
+   "amendment": "H.Amdt. 630",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/630"
+  },
+  "2014-188": {
+   "author": "Nugent",
+   "purpose": "sought to prohibit the CAO of the House of Representatives from making any payments from any Members' Representational Allowance for the leasing of a vehicle, excluding mobile district offices and short-term vehicle rentals.",
+   "amendment": "H.Amdt. 642",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/642"
+  },
+  "2014-189": {
+   "author": "Gosar",
+   "purpose": "reduces the amount provided for the Botanic Garden by $3,166,946, to the fiscal year 2014 level and applies the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 644",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/644"
+  },
+  "2014-190": {
+   "author": "Broun (GA)",
+   "purpose": "sought to reduce the funding for the Capitol Visitor Center by $243,000 and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 645",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/645"
+  },
+  "2014-191": {
+   "author": "Holt",
+   "purpose": "sought to reallocate $2.5 million to the Office of Technology Assessment (OTA), offset from funds in the House Historic Buildings Revitalization Trust Fund.",
+   "amendment": "H.Amdt. 649",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/649"
+  },
+  "2014-212": {
+   "author": "Castor (FL)",
+   "purpose": "sought to require the Secretary of the Department of Education to develop and enforce conflict of interest guidelines for all charter schools receiving federal assistance.",
+   "amendment": "H.Amdt. 655",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/655"
+  },
+  "2014-213": {
+   "author": "Jackson Lee",
+   "purpose": "sought to direct that Web site publications by charter schools contain material regarding student recruitment, orientation materials, enrollment criteria, student discipline policies, behavior codes, and parent contract requirements (including any financial obligations such as fees for tutoring, extra-curicular activities, etc.).",
+   "amendment": "H.Amdt. 659",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/659"
+  },
+  "2014-214": {
+   "author": "Wilson (FL)",
+   "purpose": "provides for the collection and public dissemination of information by charter schools on demographics, quality of education, school attendance, average class size, academic achievement gains, parental involvement and discipline.",
+   "amendment": "H.Amdt. 660",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/660"
+  },
+  "2014-215": {
+   "author": "Langevin",
+   "purpose": "adds comprehensive career counseling to the criteria that the Secretary will take into account when prioritizing grants awarded under the bill.",
+   "amendment": "H.Amdt. 661",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/661"
+  },
+  "2014-216": {
+   "author": "Bonamici",
+   "purpose": "clarifies the reporting requirements of State entities by asking State entities to include in their reports on charter school programs the extent to which best practices in instruction and professional development and curricular programs are being adopted and implemented by traditional public schools.",
+   "amendment": "H.Amdt. 662",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/662"
+  },
+  "2014-225": {
+   "author": "Blumenauer",
+   "purpose": "sought to authorize the Secretary of the Air Force to procure not more than 10 AESA radar upgrades for the Air National Guard F-15C/D aircraft offset by cuts to levels authorized beyond the President's Budget Request, spread across 9 accounts.",
+   "amendment": "H.Amdt. 664",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/664"
+  },
+  "2014-226": {
+   "author": "Sanchez, Loretta",
+   "purpose": "sought to give DOD authority to transfer funds to nuclear nonproliferation and not just to weapons activities and naval reactors as was allowed for in the bill.",
+   "amendment": "H.Amdt. 666",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/666"
+  },
+  "2014-227": {
+   "author": "Daines",
+   "purpose": "strikes language in the bill which terminates in 2021 the requirement that ICBM silos remain in at least warm status.",
+   "amendment": "H.Amdt. 669",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/669"
+  },
+  "2014-231": {
+   "author": "McKinley",
+   "purpose": "prohibits use of funds by the Administration to conduct its anti-fossil fuel climate change agenda, which includes the National Climate Assessment, the IPCC report, the UN's Agenda 21, and the Social Cost of Carbon.",
+   "amendment": "H.Amdt. 671",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/671"
+  },
+  "2014-232": {
+   "author": "Shimkus",
+   "purpose": "delays agreeing to any proposal relating to the relinquishment of the responsibility of NTIA over Internet domain name system functions by the Assistant Secretary of Commerce for Communications and Information until GAO submits a report to Congress on the role of the NTIA with respect to the Internet domain name system.",
+   "amendment": "H.Amdt. 674",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/674"
+  },
+  "2014-233": {
+   "author": "Smith (WA)",
+   "purpose": "sought to provide a framework for closure of the detention facility at Guantanamo Bay, Cuba, by December 31, 2016.",
+   "amendment": "H.Amdt. 675",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/675"
+  },
+  "2014-234": {
+   "author": "Smith (WA)",
+   "purpose": "sought to change section 1021 of the FY 2012 NDAA to eliminate indefinite military detention of any person detained under AUMF authority in the United States, its territories, or possessions, by providing for immediate transfer to trial and proceedings by a court established under Article III of the U.S. Constitution or by an appropriate state court and sought to strike section 1022 of the same Act, which provides for mandatory military custody of covered parties.",
+   "amendment": "H.Amdt. 676",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/676"
+  },
+  "2014-235": {
+   "author": "Jenkins",
+   "purpose": "sought to create a moratorium on the insourcing of previously contracted activities within DOD with exceptions made (1) if the activity was \"inherently governmental\"; and (2) if DOD would employ a \"reverse A-76\" to itemize specific costs saved to taxpayers should DOD be able to perform the commercial activity more efficiently.",
+   "amendment": "H.Amdt. 678",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/678"
+  },
+  "2014-236": {
+   "author": "Lamborn",
+   "purpose": "limits the use of funds for implementing the New START treaty until certification is in place that the Russian Federation is respecting Ukrainian sovereignty and is no longer violating the INF or CFE treaties.",
+   "amendment": "H.Amdt. 679",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/679"
+  },
+  "2014-237": {
+   "author": "Schiff",
+   "purpose": "sought to sunset the 2001 AUMF effective 12 months from date of enactment of the bill.",
+   "amendment": "H.Amdt. 680",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/680"
+  },
+  "2014-238": {
+   "author": "Blumenauer",
+   "purpose": "requires CBO to update, on an annual basis, their report on the projected costs of U.S. nuclear forces.",
+   "amendment": "H.Amdt. 681",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/681"
+  },
+  "2014-243": {
+   "author": "Pompeo",
+   "purpose": "sought to strike the $247.5 million in funding for Economic Development Assistance Programs and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 696",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/696"
+  },
+  "2014-244": {
+   "author": "McNerney",
+   "purpose": "reduces funding for periodic censuses and programs by $3 million and increases funding for COPS programs by a similar amount.",
+   "amendment": "H.Amdt. 698",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/698"
+  },
+  "2014-245": {
+   "author": "Bridenstine",
+   "purpose": "reduces funding for periodic censuses and programs by $12 million and increases funding for the National Oceanic and Atmospheric Administration for the purpose of weather research by a similar amount.",
+   "amendment": "H.Amdt. 699",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/699"
+  },
+  "2014-246": {
+   "author": "King (IA)",
+   "purpose": "allocates $5 million in the General Administration account of the Department of Justice to investigate the release of criminal aliens by the Department of Homeland Security.",
+   "amendment": "H.Amdt. 708",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/708"
+  },
+  "2014-247": {
+   "author": "First Cohen",
+   "purpose": "sought to increase funding for Administrative Review and Appeals by $2 million and to decrease funding for Salaries and Expenses of the Federal Prison System by a similar amount.",
+   "amendment": "H.Amdt. 714",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/714"
+  },
+  "2014-248": {
+   "author": "Cohen",
+   "purpose": "sought to reduce funding for salaries and expenses, Drug Enforcement Administration, by $18 million and to increase funding for payment to the Legal Services Corporation by $15 million.",
+   "amendment": "H.Amdt. 718",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/718"
+  },
+  "2014-249": {
+   "author": "Thompson (CA)",
+   "purpose": "increases funding for the National Instant Criminal Background Check system by $19.5 million and reduces funding for Departmental Management by $1 million; Justice Information Sharing Technology by $3 million; Buildings and Facilities by $5.5 million; and Agency Operations and Awards Management by $10 million.",
+   "amendment": "H.Amdt. 704",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/704"
+  },
+  "2014-250": {
+   "author": "Polis",
+   "purpose": "sought to reduce funding for the Salaries and Expenses, Drug Enforcement Administration by $35 million and return to the FY 2014 funding level.",
+   "amendment": "H.Amdt. 719",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/719"
+  },
+  "2014-251": {
+   "author": "Cicilline",
+   "purpose": "sought to increase funding for the Violent Gang and Gun Crime Reduction Program by $8.5 million and to reduce funding for NASA's Construction and Environmental Compliance and Restoration account by a similar amount.",
+   "amendment": "H.Amdt. 727",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/727"
+  },
+  "2014-252": {
+   "author": "Smith (TX)",
+   "purpose": "freezes the current funding level for the National Science Foundation's Social, Behavioral, and Economic Sciences directorate by reducing the FY 2015 funding amount by $15,350,000.",
+   "amendment": "H.Amdt. 734",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/734"
+  },
+  "2014-253": {
+   "author": "Scott, Austin",
+   "purpose": "sought to strike the $350 million in funding for the Legal Services Corporation and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 736",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/736"
+  },
+  "2014-254": {
+   "author": "Moran",
+   "purpose": "sought to strike sections 528 and 529 which prohibit the use of funds to be used to transfer or release any detainee who is or was held at Guantanamo Bay, Cuba or to construct any facility in the U.S. to house any detainee held at Guantanamo Bay, Cuba.",
+   "amendment": "H.Amdt. 738",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/738"
+  },
+  "2014-255": {
+   "author": "Blackburn",
+   "purpose": "sought to reduce the funds made available by this Act by 1%, with the exception of funds made available to the Federal Bureau of Investigation.",
+   "amendment": "H.Amdt. 742",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/742"
+  },
+  "2014-256": {
+   "author": "Blackburn",
+   "purpose": "to prohibit the use of funds for operation, renovation, or construction at Thomson Correctional Facility in Illinois.",
+   "amendment": "H.Amdt. 744",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/744"
+  },
+  "2014-257": {
+   "author": "Bonamici",
+   "purpose": "to prohibit the use of funds to prevent a State from implementing its own State laws that authorize the use, distribution, possession, or cultivation of industrial hemp, as defined in section 7606 of the Agricultural Act of 2014 (Public Law 113-79).",
+   "amendment": "H.Amdt. 745",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/745"
+  },
+  "2014-258": {
+   "author": "Rohrabacher",
+   "purpose": "prohibits the use of funds to prevent certain States from implementing their own State laws that authorize the use, distribution, possession, or cultivation of medical marijuana.",
+   "amendment": "H.Amdt. 748",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/748"
+  },
+  "2014-259": {
+   "author": "Holding",
+   "purpose": "to prohibit the use of funds to transfer or temporarily assign employees to the Office of the Pardon Attorney for the purpose of screening clemency applications.",
+   "amendment": "H.Amdt. 750",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/750"
+  },
+  "2014-260": {
+   "author": "Massie",
+   "purpose": "to prohibit the use of funds in contravention of section 7606 (\"Legitimacy of Industrial Hemp Research\") of the Agricultural Act of 2014 (Public Law No. 113-79) by the Department of Justice or the Drug Enforcement Administration.",
+   "amendment": "H.Amdt. 754",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/754"
+  },
+  "2014-261": {
+   "author": "Southerland",
+   "purpose": "sought to prohibit the use of funds to develop, approve, or implement a new limited access privilege program that are not already developed, approved, or implemented for any fishery under the jurisdiction of the South Atlantic, Mid-Atlantic, New England, or Gulf of Mexico Fishery Management Council.",
+   "amendment": "H.Amdt. 756",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/756"
+  },
+  "2014-262": {
+   "author": "Ellison",
+   "purpose": "sought to deny Federal contracts to those who violate the Fair Labor Standards Act to deny workers pay they have earned.",
+   "amendment": "H.Amdt. 759",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/759"
+  },
+  "2014-263": {
+   "author": "Grayson",
+   "purpose": "to prohibit the use of funds to compel a journalist or a reporter to testify about information or sources that the journalist or reporter states in a motion to quash the subpoena that he has obtained as a journalist or reporter and that he regards as confidential.",
+   "amendment": "H.Amdt. 763",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/763"
+  },
+  "2014-264": {
+   "author": "Duffy",
+   "purpose": "to prohibit the use of funds to relinquish the responsibility of the NTIA with respect to Internet domain name system functions, including responsibility with respect to the authoritative root zone file and the Internet Assigned Numbers Authority functions.",
+   "amendment": "H.Amdt. 767",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/767"
+  },
+  "2014-265": {
+   "author": "Garrett",
+   "purpose": "inserts language preventing the Justice Department from utilizing disparate impact theory as a means for alleging discrimination on the basis of race or other factors relying on statistical analysis that finds disproportionate results among different groups of people.",
+   "amendment": "H.Amdt. 768",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/768"
+  },
+  "2014-266": {
+   "author": "King (IA)",
+   "purpose": "prohibits use of funds from going to cities that have passed and enacted sanctuary cities or sanctuary political subdivisions.",
+   "amendment": "H.Amdt. 770",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/770"
+  },
+  "2014-267": {
+   "author": "Meadows",
+   "purpose": "prohibits the use of funds to negotiate or enter into a trade agreement that establishes a limit on greenhouse gas emissions. The limitation described in the section shall not apply in the case of the administration of a tax or tariff.",
+   "amendment": "H.Amdt. 771",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/771"
+  },
+  "2014-273": {
+   "author": "Broun (GA)",
+   "purpose": "sought to reduce funding for Amtrak by $34 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 783",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/783"
+  },
+  "2014-274": {
+   "author": "Chabot",
+   "purpose": "sought to reduce section 8 spending across-the-board by a total of $2,910,252,900 and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 787",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/787"
+  },
+  "2014-276": {
+   "author": "Gohmert",
+   "purpose": "sought to reduce funding for the Public Housing Capital Fund by $7.1 million; to reduce funding for the Public Housing Operating Fund by $17.6 million and to apply the total savings of $24.7 million to the spending reduction account.",
+   "amendment": "H.Amdt. 789",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/789"
+  },
+  "2014-277": {
+   "author": "Nadler",
+   "purpose": "sought to increase funding for Community Planning and Development, Housing Opportunities for Persons With AIDS, by $29.1 million and to reduce funding for Information Technology by a similar amount.",
+   "amendment": "H.Amdt. 790",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/790"
+  },
+  "2014-278": {
+   "author": "Capito",
+   "purpose": "sought to increase funding for the Community Development Block Grant by $100 million and to reduce funding for the Home Investment Partnerships Program by a similar amount.",
+   "amendment": "H.Amdt. 791",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/791"
+  },
+  "2014-279": {
+   "author": "Broun (GA)",
+   "purpose": "sought to reduce funding for the Community Development Fund by $20 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 793",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/793"
+  },
+  "2014-280": {
+   "author": "Broun (GA)",
+   "purpose": "sought to reduce funding for Rental Housing Assistance by $7 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 796",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/796"
+  },
+  "2014-281": {
+   "author": "Broun (GA)",
+   "purpose": "sought to reduce funding for the National Railroad Passenger Corporation Office of Inspector General by $1 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 801",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/801"
+  },
+  "2014-282": {
+   "author": "Hartzler",
+   "purpose": "sought to prohibit use of funds for highway beautification.",
+   "amendment": "H.Amdt. 804",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/804"
+  },
+  "2014-283": {
+   "author": "Daines",
+   "purpose": "prohibits use of funds by the Federal Motor Carrier Safety Administration from moving forward with a rulemaking action which would increase the minimum financial liability insurance requirements for truck and bus companies during FY 2015.",
+   "amendment": "H.Amdt. 806",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/806"
+  },
+  "2014-284": {
+   "author": "Gosar",
+   "purpose": "sought to prohibit use of funds by HUD to retain any legal counsel who is not an employee of HUD or the Department of Justice.",
+   "amendment": "H.Amdt. 812",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/812"
+  },
+  "2014-285": {
+   "author": "Gosar",
+   "purpose": "to prohibit use of funds to implement, administer, or enforce the proposed rule entitle \"Affirmatively Furthering Fair Housing\", published by HUD on July 19, 2013 in the Federal Register.",
+   "amendment": "H.Amdt. 813",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/813"
+  },
+  "2014-286": {
+   "author": "Fleming",
+   "purpose": "to prohibit use of funds to acquire a camera for the purpose of collecting or storing vehicle license plate numbers.",
+   "amendment": "H.Amdt. 815",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/815"
+  },
+  "2014-288": {
+   "author": "Denham",
+   "purpose": "to prohibit the use of the funds for high-speed rail in the State of California or for the California High-Speed Rail Authority.",
+   "amendment": "H.Amdt. 823",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/823"
+  },
+  "2014-289": {
+   "author": "Blackburn",
+   "purpose": "sought to reduce each amount made available by the bill by 1%.",
+   "amendment": "H.Amdt. 824",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/824"
+  },
+  "2014-290": {
+   "author": "Schock",
+   "purpose": "prohibits the use of funds by HUD for super vouchers.",
+   "amendment": "H.Amdt. 827",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/827"
+  },
+  "2014-291": {
+   "author": "Gosar",
+   "purpose": "sought to reduce the amount made available for \"Department of Housing and Urban Development-Management and Administration-Executive Offices\" by $2 million.",
+   "amendment": "H.Amdt. 830",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/830"
+  },
+  "2014-292": {
+   "author": "Gosar",
+   "purpose": "sought to reduce the amount made available for \"Department of Housing and Urban Development-Management and Administration- Administrative Support Offices\" by 4.2%.",
+   "amendment": "H.Amdt. 831",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/831"
+  },
+  "2014-293": {
+   "author": "Schiff",
+   "purpose": "sought to prohibit the use of funds to enforce section 47524 of title 49, United States Code, or part 161 of title 14, Code of Federal Regulations, with regard to noise or access restrictions or to enforce section 47107 of title 49, United States Code, with regard to access restriction on the operation of aircraft by the operator of Bob Hope Airport in Burbank, California.",
+   "amendment": "H.Amdt. 832",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/832"
+  },
+  "2014-294": {
+   "author": "Sessions",
+   "purpose": "sought to prohibit the use of funds to support any Amtrak route whose costs exceed 2 times its revenues, as based on the National Railroad Passenger Corporation Fiscal Years 2013-2017 Five Year Plan from May 2013.",
+   "amendment": "H.Amdt. 844",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/844"
+  },
+  "2014-295": {
+   "author": "Gingrey (GA)",
+   "purpose": "prohibits use of funds to pay a Federal employee for any period of time during which such an employee is using official time.",
+   "amendment": "H.Amdt. 839",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/839"
+  },
+  "2014-300": {
+   "author": "Broun (GA)",
+   "purpose": "sought to reduce funding made available to seven undersecretaries' offices and one assistant secretary's office totaling $40,000 and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 851",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/851"
+  },
+  "2014-301": {
+   "author": "Broun (GA)",
+   "purpose": "sought to reduce funding for the Economic Research Service by $7,726,000 and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 854",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/854"
+  },
+  "2014-302": {
+   "author": "Royce",
+   "purpose": "reduces funding for the Agricultural Marketing Service by $15.5 million and increases funding for the Foreign Agricultural Service by $10 million.",
+   "amendment": "H.Amdt. 856",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/856"
+  },
+  "2014-303": {
+   "author": "Grayson",
+   "purpose": "sought to increase funds for the Grain Inspection, Packers and Stockyards Administration Food Safety and Inspection Service by $5.5 million and decrease funds for the Farm Service Agency Salaries and Expenses by a similar amount.",
+   "amendment": "H.Amdt. 858",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/858"
+  },
+  "2014-304": {
+   "author": "Garamendi",
+   "purpose": "sought to ensure that $50 million will be available for the Emergency Conservation Program (drought relief) under the Agricultural Credit Act of 1978.",
+   "amendment": "H.Amdt. 860",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/860"
+  },
+  "2014-305": {
+   "author": "Duncan (TN)",
+   "purpose": "sought to reduce funding for the Watershed Rehabilitation Program by $10 million and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 862",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/862"
+  },
+  "2014-306": {
+   "author": "Broun (GA)",
+   "purpose": "sought to zero out the $25 million in funding for the Watershed Rehabilitation Program and to apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 861",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/861"
+  },
+  "2014-307": {
+   "author": "DeLauro",
+   "purpose": "sought to reduce funding for the Commodity Futures Trading Commission by $17,578,000.",
+   "amendment": "H.Amdt. 864",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/864"
+  },
+  "2014-318": {
+   "author": "Gohmert",
+   "purpose": "sought to reduce funds for the Operation and Maintenance Account, Defense-Wide by $35,956,000 and to increase funds for the National Guard counter-drug program by a similar amount.",
+   "amendment": "H.Amdt. 878",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/878"
+  },
+  "2014-319": {
+   "author": "Blumenauer",
+   "purpose": "sought to increase funds for Environmental Restoration, Formerly Used Defense Sites, by $3.4 million and to reduce funds for a program that provides the Air Force with a new air-launched cruise missile by a similar amount.",
+   "amendment": "H.Amdt. 885",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/885"
+  },
+  "2014-320": {
+   "author": "Nadler",
+   "purpose": "sought to strike Section 8132 of the bill which relates to a prohibition on use of funds with respect to any nondeployed status of Minuteman III ballistic missiles.",
+   "amendment": "H.Amdt. 896",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/896"
+  },
+  "2014-321": {
+   "author": "Walorski",
+   "purpose": "to prohibit use of funds to transfer or release to the Republic of Yemen (or any entity within Yemen) a detainee who is or was held, detained, or otherwise in the custody of DOD on or after June 24, 2009, at the United States Naval Station, Guantanamo Bay, Cuba.",
+   "amendment": "H.Amdt. 901",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/901"
+  },
+  "2014-322": {
+   "author": "Miller (MI)",
+   "purpose": "to prohibit use of funds to divest, retire, transfer, or place in storage, or prepare to divest, retire, transfer, or place in storage, any A-10 aircraft, or to disestablish any units of the active or reserve component associated with such aircraft.",
+   "amendment": "H.Amdt. 903",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/903"
+  },
+  "2014-323": {
+   "author": "Cotton",
+   "purpose": "to prohibit the use of funds to transfer or release any individual detained at United States Naval Station, Guantanamo Bay, Cuba to the individual's country of origin or to any other foreign country.",
+   "amendment": "H.Amdt. 905",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/905"
+  },
+  "2014-324": {
+   "author": "Moran",
+   "purpose": "sought to prohibit use of funds to carry out sections 8107 and 8108 of the bill which deal with the disposition of detainees held at Guantanamo.",
+   "amendment": "H.Amdt. 907",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/907"
+  },
+  "2014-325": {
+   "author": "Lee (CA)",
+   "purpose": "to prohibit the use of funds to be used for the purposes of conducting combat operations in Iraq.",
+   "amendment": "H.Amdt. 908",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/908"
+  },
+  "2014-326": {
+   "author": "Lee (CA)",
+   "purpose": "An amendment No. 33 printed in the Congressional Record to prohibit use of funds to be obligated or expended pursuant to the Authorization for Use of Military Force Against Iraq Resolution of 2002.",
+   "amendment": "H.Amdt. 912",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/912"
+  },
+  "2014-327": {
+   "author": "Massie",
+   "purpose": "prohibits the use of funds by an officer or employee of the United States to query a collection of foreign intelligence information acquired under FISA using a United States person identifier except in specified instances.",
+   "amendment": "H.Amdt. 935",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/935"
+  },
+  "2014-328": {
+   "author": "Fortenberry",
+   "purpose": "to prohibit use of funds to provide weapons in Syria.",
+   "amendment": "H.Amdt. 917",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/917"
+  },
+  "2014-329": {
+   "author": "Grayson",
+   "purpose": "to prohibit use of funds to transfer aircraft (including unmanned aerial vehicles), armored vehicles, grenade launchers, silencers, toxicological agents, launch vehicles, guided missiles, ballistic missiles, rockets, torpedoes, bombs, mines, or nuclear weapons through the DOD Excess Personal Property Program established pursuant to the National Defense Authorization Act for Fiscal Year 1997.",
+   "amendment": "H.Amdt. 918",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/918"
+  },
+  "2014-330": {
+   "author": "Lee (CA)",
+   "purpose": "An amendment No. 34 printed in the Congressional Record to prohibit use of funds to be obligated or expended pursuant to the Authorization for Use of Military of Force after December 31, 2014.",
+   "amendment": "H.Amdt. 922",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/922"
+  },
+  "2014-331": {
+   "author": "Ellison",
+   "purpose": "to prohibit use of funds to enter into a contract with any person whose disclosures of a proceeding with a disposition listed in section 2313(c)(1) of title 41, United States Code, in the Federal Awardee Performance and Integrity Information System include the term \"Fair Labor Standards Act\".",
+   "amendment": "H.Amdt. 926",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/926"
+  },
+  "2014-332": {
+   "author": "Lee (CA)",
+   "purpose": "to prohibit use of funds for the purpose of conducting combat operations in Afghanistan after December 31, 2014.",
+   "amendment": "H.Amdt. 928",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/928"
+  },
+  "2014-333": {
+   "author": "Rohrabacher",
+   "purpose": "to prohibit the use of funds made available by this Act for Pakistan.",
+   "amendment": "H.Amdt. 938",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/938"
+  },
+  "2014-334": {
+   "author": "Gosar",
+   "purpose": "to prohibit the use of funds to enter into any contract after the date of the enactment of this Act for the procurement of production of any non-petroleum based fuel for use as the same purpose or as a drop-in substitute for petroleum.",
+   "amendment": "H.Amdt. 942",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/942"
+  },
+  "2014-335": {
+   "author": "Gosar",
+   "purpose": "to prohibit the use of funds for the following entities or in contravention of Title 18 U.S.C., Section 2339B: 1) The Government Iran; 2) The Government of Syria; 3) The Palestinian Authority; 4) Hamas; 5) The Islamic State of Iraq and Syria.",
+   "amendment": "H.Amdt. 944",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/944"
+  },
+  "2014-336": {
+   "author": "Franks (AZ)",
+   "purpose": "to prohibit the use of funds to transfer or divest the Electronic Proving Grounds at Fort Huachuca, Arizona.",
+   "amendment": "H.Amdt. 945",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/945"
+  },
+  "2014-343": {
+   "author": "Jackson Lee",
+   "purpose": "sought to require a study on entities regulated by the Commodities Futures Trading Commission.",
+   "amendment": "H.Amdt. 948",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/948"
+  },
+  "2014-344": {
+   "author": "Waters",
+   "purpose": "sought to prohibit judicial review of any consideration by the CFTC of the costs and benefits of its rules and orders.",
+   "amendment": "H.Amdt. 950",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/950"
+  },
+  "2014-345": {
+   "author": "Moore",
+   "purpose": "sought to strike section 203, and replace it with a Sense of Congress that the Commodities Future Trading Commission is already required by law to consider costs and benefits when promulgating rules and issuing orders, and is held accountable to this requirement by courts.",
+   "amendment": "H.Amdt. 951",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/951"
+  },
+  "2014-346": {
+   "author": "Jackson Lee",
+   "purpose": "sought to provide that when a legal challenge to a CFTC regulation is first reviewed by the district court, any appeal to such decision would then go to the court of appeals.",
+   "amendment": "H.Amdt. 952",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/952"
+  },
+  "2014-347": {
+   "author": "Garrett",
+   "purpose": "exempts Registered Investment Companies (RICs) that are currently registered with the Securities and Exchange Commission (SEC) under the Investment Company Act of 1940 from duplicative registration requirements with the Commodity Futures Trading Commission (CFTC) allowing the SEC to continue to have full regulatory oversight and enforcement authority over RICs. Amendment does not remove the jurisdiction and regulatory authority that the CFTC has over all futures, options and swaps transactions that the RICs invest in on behalf of their customers who are pensioners, retirees, and savers.",
+   "amendment": "H.Amdt. 954",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/954"
+  },
+  "2014-350": {
+   "author": "Pallone",
+   "purpose": "sought to ensure that the complete length of cross-border projects would be subject to full environmental review under the National Environmental Policy Act (NEPA).",
+   "amendment": "H.Amdt. 955",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/955"
+  },
+  "2014-351": {
+   "author": "Waxman",
+   "purpose": "sought to exclude any project with a pending permit application from the new approval requirements in the bill.",
+   "amendment": "H.Amdt. 956",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/956"
+  },
+  "2014-352": {
+   "author": "Welch",
+   "purpose": "sought to ensure that pipeline modifications receive a thorough environmental review process.",
+   "amendment": "H.Amdt. 957",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/957"
+  },
+  "2014-357": {
+   "author": "DeFazio",
+   "purpose": "sought to require an applicant to disclose any intention to use eminent domain for any construction necessary for LNG exports.",
+   "amendment": "H.Amdt. 961",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/961"
+  },
+  "2014-360": {
+   "author": "Wittman",
+   "purpose": "grants the Secretary of the Interior the ability to add a lease sale area to a finalized 5 year plan, as long as all of the National Environmental Policy Act requirements have been met on that specific area within the last 5 years.",
+   "amendment": "H.Amdt. 962",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/962"
+  },
+  "2014-361": {
+   "author": "Lowenthal",
+   "purpose": "sought to strike section 10410 which prohibits BOEM and BSEE from coordinating coastal and marine spatial planning under the National Ocean Policy.",
+   "amendment": "H.Amdt. 963",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/963"
+  },
+  "2014-362": {
+   "author": "Capps",
+   "purpose": "An amendment No. 5 printed in House Report 113-493 to require the Secretary of the Interior to notify all relevant state and local regulatory agencies and publish a notice in the Federal Register, within 30 days after receiving any application for a permit that would allow the conduct of any offshore oil and gas well stimulation activities.",
+   "amendment": "H.Amdt. 966",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/966"
+  },
+  "2014-363": {
+   "author": "Deutch",
+   "purpose": "sought to strike the provision stating that an action involving a covered energy decision shall take precedence over all other pending matters before the district court.",
+   "amendment": "H.Amdt. 967",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/967"
+  },
+  "2014-364": {
+   "author": "Blumenauer",
+   "purpose": "sought to require companies holding leases which allow them to drill on public lands off-shore without paying a royalty, to renegotiate those leases prior to bidding on new leases issued pursuant to Title I of the Act.",
+   "amendment": "H.Amdt. 968",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/968"
+  },
+  "2014-365": {
+   "author": "Bishop (UT)",
+   "purpose": "prohibits the Secretary from canceling, deferring or withdrawing any lease previously announced to be auctioned based on public comments received by the Department after the public comment period has expired.",
+   "amendment": "H.Amdt. 969",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/969"
+  },
+  "2014-366": {
+   "author": "DeFazio",
+   "purpose": "sought to authorize $10 million of the revenue generated by the underlying bill for the Commodity Futures Trading Commission to use existing authority to limit speculation in energy markets.",
+   "amendment": "H.Amdt. 971",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/971"
+  },
+  "2014-371": {
+   "author": "McAllister",
+   "purpose": "sought to increase funding for Corps of Engineers Flood Damage Reduction projects in the Mississippi River Valley below Cape Girardeau, Missouri by $47 million and reduce funding for Renewable Energy Programs Construction by $127 million.",
+   "amendment": "H.Amdt. 977",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/977"
+  },
+  "2014-372": {
+   "author": "Hahn",
+   "purpose": "to increase funding for the Corps of Engineers Operation and Maintenance account (harbor maintenance) by $57.6 million and reduce funding for Nuclear Energy Programs by $73,309,100.",
+   "amendment": "H.Amdt. 979",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/979"
+  },
+  "2014-373": {
+   "author": "Gosar",
+   "purpose": "sought to reduce funding for Corps of Engineers Expenses by $4 million and apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 982",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/982"
+  },
+  "2014-374": {
+   "author": "Wenstrup",
+   "purpose": "sought to direct $15 million to the Uranium Enrichment Decontamination and Decommissioning Fund for the purpose of the decommissioning and cleaning of the Portsmouth plant in Pike County, Ohio. The redirection would have been offset by reductions in funding for administrative and energy accounts.",
+   "amendment": "H.Amdt. 988",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/988"
+  },
+  "2014-375": {
+   "author": "Swalwell (CA)",
+   "purpose": "sought to increase funding for Energy Efficiency and Renewable Energy by $111,641,000 and reduce funding for Fossil Energy Research and Development by $161,879,450.",
+   "amendment": "H.Amdt. 989",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/989"
+  },
+  "2014-376": {
+   "author": "Byrne",
+   "purpose": "sought to strike all of the funding for the Department of Energy's Energy Efficiency and Renewable Energy program and apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 990",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/990"
+  },
+  "2014-377": {
+   "author": "McClintock",
+   "purpose": "sought to reduce funding for Energy Efficiency and Renewable Energy by $1,789,000,000; Nuclear Energy Programs by $717 million; Fossil Energy Research and Development Programs by $593 million and apply $3,099,000,000 to the spending reduction account.",
+   "amendment": "H.Amdt. 992",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/992"
+  },
+  "2014-379": {
+   "author": "McClintock",
+   "purpose": "sought to reduce funding for Energy Efficiency and Renewable Energy Programs by $22 million; Nuclear Energy Programs by $9,810,000; Fossil Energy Research and Development by $30,935,000; Department of Energy Departmental Administration by $9,551,000; Salaries and Expenses for Nuclear Regulatory Commission by $49,062,000 and apply the savings of $121,358,000 to the spending reduction account.",
+   "amendment": "H.Amdt. 993",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/993"
+  },
+  "2014-380": {
+   "author": "Bonamici",
+   "purpose": "increases funding for the Water Power program by $9 million and reduces funding for Departmental Administration by a similar amount.",
+   "amendment": "H.Amdt. 995",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/995"
+  },
+  "2014-381": {
+   "author": "Speier",
+   "purpose": "sought to reduce funding for Fossil Energy Research Development by $30,935,000 and apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 997",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/997"
+  },
+  "2014-382": {
+   "author": "Titus",
+   "purpose": "sought to strike the funding for the Yucca Mountain Nuclear Waste Disposal Plan and apply the $150 million in savings to the spending reduction account.",
+   "amendment": "H.Amdt. 1002",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1002"
+  },
+  "2014-383": {
+   "author": "Schiff",
+   "purpose": "increases funding for the Advanced Research Projects Agency - Energy (ARPA-E) account by $20 million and reduces funding for DOE's Departmental Administration account by a similar amount.",
+   "amendment": "H.Amdt. 1003",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1003"
+  },
+  "2014-384": {
+   "author": "Quigley",
+   "purpose": "sought to reduce funds for the National Nuclear Security Administration, Weapons Activities account (specifically the Long Range Standoff Cruise Missile Warhead Study) by $7.6 million and apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 1005",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1005"
+  },
+  "2014-385": {
+   "author": "Chabot",
+   "purpose": "sought to strike the $10 million in funding for the Denali Commission and apply the savings to the spending reduction account.",
+   "amendment": "H.Amdt. 1008",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1008"
+  },
+  "2014-386": {
+   "author": "Titus",
+   "purpose": "sought to strike Sec. 506 from the bill which prohibits DOE from closing Yucca Mountain.",
+   "amendment": "H.Amdt. 1010",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1010"
+  },
+  "2014-387": {
+   "author": "DeLauro",
+   "purpose": "to prohibit the use of funds to enter into any contract with an incorporated entity if such entity's sealed bid or competitive proposal shows that such entity is incorporated or chartered in Bermuda or the Cayman Islands.",
+   "amendment": "H.Amdt. 1012",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1012"
+  },
+  "2014-388": {
+   "author": "King (IA)",
+   "purpose": "sought to prohibit the use of funds to enforce the Davis-Bacon wage scale.",
+   "amendment": "H.Amdt. 1013",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1013"
+  },
+  "2014-389": {
+   "author": "Lankford",
+   "purpose": "adds a new section prohibiting the use of funds to prepare, propose, or promulgate any regulation or guidance that references or relies on the analysis contained in specified documents on the subject of the Social Cost of Carbon.",
+   "amendment": "H.Amdt. 1015",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1015"
+  },
+  "2014-390": {
+   "author": "Cassidy",
+   "purpose": "prohibits the use of funds by the Department of Energy to apply the report entitled \"Life Cycle Greenhouse Gas Perspective on Exporting Liquefied Natural Gas from the United States\" in any public interest determination under the Natural Gas Act.",
+   "amendment": "H.Amdt. 1016",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1016"
+  },
+  "2014-393": {
+   "author": "Burgess",
+   "purpose": "prohibits the use of funds to enforce standards of the Energy Policy and Conservation Act with respect to BPAR and ER incandescent reflector lamps.",
+   "amendment": "H.Amdt. 1020",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1020"
+  },
+  "2014-394": {
+   "author": "LaMalfa",
+   "purpose": "prohibits the use of funds to regulate activites or to limit exemptions contained in the Water Pollution Control Act with respect to established or ongoing operations.",
+   "amendment": "H.Amdt. 1024",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1024"
+  },
+  "2014-395": {
+   "author": "Stockman",
+   "purpose": "to prohbit the use of funds for the Department of Energy's Loan Program Office.",
+   "amendment": "H.Amdt. 1032",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1032"
+  },
+  "2014-396": {
+   "author": "Stockman",
+   "purpose": "to prohibit the use of funds by the Department of Energy to block approval of offshore drilling permits.",
+   "amendment": "H.Amdt. 1033",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1033"
+  },
+  "2014-397": {
+   "author": "McKinley",
+   "purpose": "prohibits the use of funds to design, implement, administer or carry out specified assessments regarding climate change.",
+   "amendment": "H.Amdt. 1040",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1040"
+  },
+  "2014-398": {
+   "author": "Blackburn",
+   "purpose": "An amendment No. 22 printed in the Congressional Record to reduce the level of funding in the bill by 1 percent across-the-board.",
+   "amendment": "H.Amdt. 1043",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1043"
+  },
+  "2014-399": {
+   "author": "Gosar",
+   "purpose": "to prohibit use of funds for the Department of Energy's Climate Model Development and Validation program.",
+   "amendment": "H.Amdt. 1045",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1045"
+  },
+  "2014-400": {
+   "author": "Hudson",
+   "purpose": "sought to make an across-the-board reduction of 7.4831 percent bringing the level back to FY 2008 amounts. Defense accounts would have been excepted from the reduction.",
+   "amendment": "H.Amdt. 1049",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1049"
+  },
+  "2014-409": {
+   "author": "Jackson Lee",
+   "purpose": "sought to reduce funding for salaries and expenses of the Financial Crimes Enforcement Network by $200,000 and to increase funding for taxpayer services at the IRS by $100,000.",
+   "amendment": "H.Amdt. 1055",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1055"
+  },
+  "2014-410": {
+   "author": "Roskam",
+   "purpose": "increases funding for taxpayer services at IRS by $10 million and reduces funding for enforcement at IRS by a similar amount.",
+   "amendment": "H.Amdt. 1058",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1058"
+  },
+  "2014-411": {
+   "author": "Moore",
+   "purpose": "sought to strike section 501 from the bill which relates to administrative provisions of the Consumer Financial Protection Bureau.",
+   "amendment": "H.Amdt. 1065",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1065"
+  },
+  "2014-412": {
+   "author": "Waters",
+   "purpose": "sought to provide $300 million in funding for the SEC thereby bringing the level up to the President's request of $1.7 billion.",
+   "amendment": "H.Amdt. 1067",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1067"
+  },
+  "2014-415": {
+   "author": "Fleming",
+   "purpose": "to prohibit the use of funds to implement guidance FIN-2014-G001 (relating to BSA Expectations Regarding Marijuana-Related Businesses) issued on February 14, 2014.",
+   "amendment": "H.Amdt. 1078",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1078"
+  },
+  "2014-416": {
+   "author": "Gosar",
+   "purpose": "to prohibit the use of funds to pay performance awards to employees of the IRS.",
+   "amendment": "H.Amdt. 1079",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1079"
+  },
+  "2014-417": {
+   "author": "Grayson",
+   "purpose": "sought to provide that the Federal Government may not pay anyone less than $10.10 an hour.",
+   "amendment": "H.Amdt. 1083",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1083"
+  },
+  "2014-418": {
+   "author": "Heck (WA)",
+   "purpose": "to prohibit use of funds with respect to specified States, to penalize a financial institution solely because the institution provides financial services to an entity that is a manufacturer, producer, or a person that participates in any business or organized activity that involves handling marijuana or marijuana products and engages in such activity pursuant to a law established by a State or local government and engages in such activity pursuant to a law established by a State or local government.",
+   "amendment": "H.Amdt. 1086",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1086"
+  },
+  "2014-419": {
+   "author": "DeSantis",
+   "purpose": "to prohibit the use of funds to be used by the IRS to create machine-readable materials that are not subject to the safeguards established pursuant to section 3105 of title 44, United States Code.",
+   "amendment": "H.Amdt. 1089",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1089"
+  },
+  "2014-420": {
+   "author": "DeSantis",
+   "purpose": "to prohibit the use of funds to the IRS may be obligated or expended on conferences.",
+   "amendment": "H.Amdt. 1090",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1090"
+  },
+  "2014-421": {
+   "author": "Blackburn",
+   "purpose": "sought to reduce funds made available in the bill by 1 percent except for specified accounts.",
+   "amendment": "H.Amdt. 1091",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1091"
+  },
+  "2014-422": {
+   "author": "Blackburn",
+   "purpose": "to prohibit the use of funds for Hardest Hit Fund Program for any State or local government for the purpose of funding pension obligations.",
+   "amendment": "H.Amdt. 1092",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1092"
+  },
+  "2014-423": {
+   "author": "Blackburn",
+   "purpose": "to prohibit the use of funds with respect to specified States, to prevent such States from implementing their own State laws with respect to the provision of broadband Internet access service by the State or a municipality or other political subdivision of the State.",
+   "amendment": "H.Amdt. 1093",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1093"
+  },
+  "2014-424": {
+   "author": "Blackburn",
+   "purpose": "to prohibit the use of funds by the Consumer Product Safety Commission to finalize, implement, or enforce the proposed rule entitled \"Voluntary Remedial Actions and Guidelines for Voluntary Recall Notices\".",
+   "amendment": "H.Amdt. 1094",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1094"
+  },
+  "2014-425": {
+   "author": "Massie",
+   "purpose": "prohibits the use of funds by the District of Columbia to prevent individuals from possessing, using, or transporting a firearm.",
+   "amendment": "H.Amdt. 1098",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1098"
+  },
+  "2014-439": {
+   "author": "Gowdy",
+   "purpose": "permits participation of dual enrollment programs in demonstration projects.",
+   "amendment": "H.Amdt. 1112",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1112"
+  },
+  "2014-444": {
+   "author": "Kilmer",
+   "purpose": "ensures that each individual is aware of financial management resources provided by the Treasury Department's Financial Literacy and Education Commission.",
+   "amendment": "H.Amdt. 1117",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1117"
+  },
+  "2014-460": {
+   "author": "DeFazio",
+   "purpose": "sought to exclude scientific information published solely in internal Interior Department publications from the definition of \"best available science.\".",
+   "amendment": "H.Amdt. 1128",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1128"
+  },
+  "2014-461": {
+   "author": "Holt",
+   "purpose": "sought to strike a provision which automatically defines all data submitted by State, County or Tribal governments as the \"best available science,\" regardless of its merit.",
+   "amendment": "H.Amdt. 1129",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1129"
+  },
+  "2014-486": {
+   "author": "Bishop (NY)",
+   "purpose": "sought to provide policy provisions that the Secretary and Administrator would be prohibited from including in a final rule.",
+   "amendment": "H.Amdt. 1138",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1138"
+  },
+  "2014-487": {
+   "author": "Bishop (NY)",
+   "purpose": "sought to limit the impact of the underlying bill if the administration determined that the bill was likely to (1) increase the interstate movements of pollutants through surface waters; (2) increase the costs incurred by a downstream State to maintain or achieve approved water quality standards for that State; and (3) cause or contribute to the impairment of the surface or coastal waters of another State.",
+   "amendment": "H.Amdt. 1139",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1139"
+  },
+  "2014-507": {
+   "author": "McKeon",
+   "purpose": "authorizes the Secretary of Defense, in coordination with the Secretary of State, to train and equip appropriately vetted elements of the Syrian opposition and other appropriately vetted Syrian groups or individuals; strengthens congressional oversight by requiring detailed reports (including progress reports) on the plan, vetting process, and procedures for monitoring unauthorized end-use of provided training and equipment; requires the President to report on how this authority fits within a larger regional strategy; allows DOD to submit a reprogramming request to Congress should the President request DOD funds to execute this authority; and permits the Secretary of Defense to accept foreign contributions.",
+   "amendment": "H.Amdt. 1141",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1141"
+  },
+  "2014-523": {
+   "author": "Stewart",
+   "purpose": "makes sundry technical and conforming changes to the bill in order to allow the measure to be properly applied to existing statute.",
+   "amendment": "H.Amdt. 1145",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1145"
+  },
+  "2014-526": {
+   "author": "Kennedy",
+   "purpose": "sought to allow the EPA to use all peer-reviewed scientific publications.",
+   "amendment": "H.Amdt. 1147",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1147"
+  },
+  "2014-529": {
+   "author": "Waxman",
+   "purpose": "sought to include language stating that outdated air quality standards would not apply toward a preconstruction permit if the applicable federal, state, or local permitting agency determines that applying it would likely increase air pollution, slow permitting, or increase regulatory uncertainty.",
+   "amendment": "H.Amdt. 1148",
+   "url": "https://www.congress.gov/amendment/113th-congress/house-amendment/1148"
+  }
+ }
+}

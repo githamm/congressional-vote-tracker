@@ -101,7 +101,7 @@ def test_vote_info_matches_votes(c):
     keys = [vr.roll_key(r["Year"], r["Roll Call Number"]) for r in rows]
     assert list(info["rollCalls"]) == keys, "vote_info.json doesn't cover the same roll calls"
     # And it's current: what the rules give today.
-    assert info["rollCalls"] == vr.classify(rows, vr.load_bills(DATA / c)), "vote_info.json is stale: run vote_rules.py"
+    assert info["rollCalls"] == vr.classify(rows, vr.load_bills(DATA / c), vr.load_amendments(DATA / c)), "vote_info.json is stale: run vote_rules.py"
     assert any(v.get("final") for v in info["rollCalls"].values())
 
 
@@ -125,3 +125,10 @@ def test_bill_lists_are_complete(c):
         # Every member cosponsors something over two years; 0 means the
         # list was cut short.
         assert entry["cosponsored"]["count"] > 0, f"{m['displayName']}: 0 cosponsored bills"
+
+
+def test_history_is_current():
+    import history
+    path = DATA / history.HISTORY_NAME
+    assert path.exists(), "no history.json: run history.py"
+    assert json.loads(path.read_text(encoding="utf-8")) == history.build_history(ROOT), "history.json is stale: run history.py"
