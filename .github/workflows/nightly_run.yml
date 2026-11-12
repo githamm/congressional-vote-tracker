@@ -2,7 +2,10 @@ name: Scrape Colorado congressional votes
 
 on:
   schedule:
+    # 22:00 UTC (afternoon in Washington) and 04:00 UTC, which catches
+    # votes taken in the evening Eastern time the same night.
     - cron: '0 22 * * *'
+    - cron: '0 4 * * *'
   workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab, for testing
 
 permissions:
@@ -36,12 +39,39 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      # The Congresses to update: this year's, plus last year's during the
+      # first week of January so late-December votes and corrections land
+      # (Jan. 1-2 of an odd year still belong to the old Congress).
+      - name: Work out which years and Congresses to update
+        id: when
+        run: |
+          year=$(date -u +%Y)
+          years="$year"
+          if [ "$(date -u +%m)" = "01" ] && [ "$(date -u +%-d)" -le 7 ]; then years="$((year - 1)) $year"; fi
+          congresses=$(for y in $years; do echo $(( (y - 1789) / 2 + 1 )); done | sort -u | tr '\n' ' ')
+          echo "years=$years" >> "$GITHUB_OUTPUT"
+          echo "congresses=$congresses" >> "$GITHUB_OUTPUT"
+          echo "Years: $years; Congresses: $congresses"
+
       - name: Run scraper (incremental)
         id: scrape
         # Writes data/<congress>/all_votes.csv (members come from members.json).
         # --copy-to keeps the root all_votes.csv current for the previously
         # deployed page; drop it once the website runs the new index.html.
-        run: python vote_scraper.py --year "$(date -u +%Y)" --incremental --copy-to all_votes.csv
+        # Exit code 3 means members.json has no delegation for that Congress
+        # yet (see NEW_CONGRESS.md): a warning, not a failure.
+        run: |
+          current=$(date -u +%Y)
+          for y in ${{ steps.when.outputs.years }}; do
+            extra=""; [ "$y" = "$current" ] && extra="--copy-to all_votes.csv"
+            status=0
+            python vote_scraper.py --year "$y" --incremental $extra || status=$?
+            if [ "$status" = "3" ]; then
+              echo "::warning title=Delegation missing::members.json has no Colorado delegation for the Congress that $y belongs to; its votes weren't scraped. See NEW_CONGRESS.md."
+            elif [ "$status" != "0" ]; then
+              exit "$status"
+            fi
+          done
 
       # Sponsored/cosponsored bills from the Congress.gov API, written to
       # data/<congress>/legislation.json. Needs the CONGRESS_API_KEY
@@ -52,7 +82,11 @@ jobs:
         continue-on-error: true
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
-        run: python fetch_legislation.py
+        # The same Congresses as the scraper, skipping any members.json
+        # doesn't list yet.
+        run: |
+          have=$(python -c "import json,sys; c=json.load(open('members.json'))['congresses']; print(' '.join(k for k in sys.argv[1:] if c.get(k, {}).get('members')))" ${{ steps.when.outputs.congresses }})
+          if [ -n "$have" ]; then python fetch_legislation.py --congress $have; else echo "No delegation listed yet; skipping."; fi
 
       - name: Write job summary
         run: |

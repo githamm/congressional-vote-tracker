@@ -72,6 +72,21 @@ def congress_for_year(year: int) -> int:
     return (year - 1789) // 2 + 1
 
 
+# Exit code when members.json has no delegation for the Congress yet, e.g.
+# the first days of a new Congress. The nightly workflow reports it as a
+# warning rather than a failure, so the rest of the run still happens.
+EXIT_NO_DELEGATION = 3
+
+
+class NoDelegation(Exception):
+    pass
+
+
+def ordinal(n: int) -> str:
+    suffix = "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+    return f"{n}{suffix}"
+
+
 def load_members(congress: int) -> dict[str, str]:
     """Return {member_id: csv_name} for one Congress from members.json,
     sorted by ID so the CSV column order is stable."""
@@ -79,9 +94,9 @@ def load_members(congress: int) -> dict[str, str]:
         config = json.load(f)
     entry = config.get("congresses", {}).get(str(congress))
     if not entry or not entry.get("members"):
-        raise SystemExit(
-            f"No members listed for the {congress}th Congress in {MEMBERS_FILE.name}. "
-            "Add the delegation's Bioguide IDs there before scraping."
+        raise NoDelegation(
+            f"No members listed for the {ordinal(congress)} Congress in {MEMBERS_FILE.name}. "
+            "Add the Colorado delegation there (see NEW_CONGRESS.md); nothing was scraped for it."
         )
     return {m["id"]: m["csvName"] for m in sorted(entry["members"], key=lambda m: m["id"])}
 
@@ -1028,7 +1043,11 @@ def main(argv=None) -> int:
         # label them by their ID.
         member_ids = {m: m for m in args.members}
     else:
-        member_ids = load_members(congress)
+        try:
+            member_ids = load_members(congress)
+        except NoDelegation as exc:
+            log.error("%s", exc)
+            return EXIT_NO_DELEGATION
 
     if args.output is None:
         args.output = Path("data") / str(congress) / "all_votes.csv"
@@ -1078,6 +1097,12 @@ def main(argv=None) -> int:
         all_results.extend(year_results)
 
     if not all_results and not existing_rows:
+        if args.incremental:
+            # Normal before a new Congress's first vote (or a session's).
+            log.info("No roll calls yet for %s; nothing to write.", ", ".join(str(y) for y in args.year))
+            emit_github_output("new_count", "0")
+            emit_github_output("total_count", "0")
+            return 0
         log.error("No roll calls were collected. Check the --year/--start/--end values.")
         return 1
 

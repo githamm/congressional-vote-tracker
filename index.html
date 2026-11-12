@@ -1776,13 +1776,18 @@
         function showError(msg) { var s = $('status'); s.textContent = msg; s.classList.add('error'); s.hidden = false; }
         function optional(u) { return fetch(u).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
 
-        function loadCongress(c, keepMember) {
+        // fallbacks: older Congresses to try if this one has no votes yet (the
+        // first days of a new Congress), so the page opens on real data.
+        function loadCongress(c, keepMember, fallbacks) {
             CONGRESS = c;
             setMembers(CONFIG.congresses[c].members);
             $('status').textContent = 'Loading…'; $('status').classList.remove('error'); $('status').hidden = false;
             $('card').hidden = true; $('intro').hidden = true;
             return Promise.all([
-                fetch(url.votes(c)).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); }),
+                fetch(url.votes(c)).then(function (r) {
+                    if (!r.ok) { var e = new Error('HTTP ' + r.status); e.status = r.status; throw e; }
+                    return r.text();
+                }),
                 optional(url.loyalty(c)), optional(url.legislation(c)), optional(url.topics(c))
             ]).then(function (res) {
                 var parsed = Papa.parse(res[0], { header: true, skipEmptyLines: true, dynamicTyping: true });
@@ -1802,7 +1807,15 @@
                 }
                 syncURL();
                 render();
-            }).catch(function (err) { showError('Couldn’t load vote data (' + err.message + ').'); });
+            }).catch(function (err) {
+                if (err.status === 404 && fallbacks && fallbacks.length) {
+                    $('congress-select').value = fallbacks[0];
+                    return loadCongress(fallbacks[0], keepMember, fallbacks.slice(1));
+                }
+                showError(err.status === 404
+                    ? 'No votes have been recorded yet for the ' + ordinal(+c) + ' Congress.'
+                    : 'Couldn’t load vote data (' + err.message + ').');
+            });
         }
 
         fetch(url.config).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
@@ -1821,7 +1834,9 @@
                 $('congress-select').hidden = keys.length < 2;
                 state.tab = TABS.indexOf(params.get('tab')) >= 0 ? params.get('tab') : 'record';
                 PENDING_BILL = params.get('bill') || '';
-                return loadCongress(c, params.get('member') || '').then(function () {
+                // Only the default Congress falls back; one asked for by URL doesn't.
+                var older = ok(want) ? [] : keys.filter(function (k) { return +k < +c; });
+                return loadCongress(c, params.get('member') || '', older).then(function () {
                     if (PENDING_BILL && !state.member && $('dv-heading').scrollIntoView) $('dv-heading').scrollIntoView();
                     PENDING_BILL = '';
                 });
