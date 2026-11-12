@@ -41,6 +41,7 @@ from urllib3.util import Retry
 
 # Which votes are final, party majorities, delegates and so on: one home for
 # the rules, shared with vote_info.json (which the page reads).
+from history import write_history
 from vote_rules import NON_STATE_CODES, final_flags, load_bills, party_majority, roll_key, write_vote_info
 
 log = logging.getLogger("vote_scraper")
@@ -1086,6 +1087,7 @@ def main(argv=None) -> int:
     if not args.members:
         update_house_files(args.output, all_results, args.incremental)
         write_vote_info(args.output.parent)
+        write_history()
 
     if args.copy_to and args.copy_to.resolve() != args.output.resolve():
         shutil.copyfile(args.output, args.copy_to)

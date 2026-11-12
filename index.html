@@ -305,6 +305,29 @@
         .bars .count { font-family: var(--font-mono); font-size: 9.5px; fill: var(--ink); font-weight: 600; }
         .bars .base { stroke: var(--rule-strong); }
 
+        /* Across Congresses: three small charts, then the same numbers as a table */
+        .hist { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 6px 16px; }
+        .hist-chart { margin: 0; }
+        .hist-chart figcaption { font-size: 0.74rem; font-weight: 600; margin: 0 0 2px; }
+        .hist-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+        .hist .grid { stroke: var(--rule); stroke-width: 1; }
+        .hist .tick { font-size: 9.5px; fill: var(--ink-soft); font-variant-numeric: tabular-nums; }
+        .hist .val { font-size: 10px; font-weight: 700; fill: var(--ink); font-variant-numeric: tabular-nums; }
+        .hist .line { fill: none; stroke-width: 2; stroke-linejoin: round; }
+        .hist .line.dem { stroke: var(--dem-blue); } .hist .line.rep { stroke: var(--gop-rust); }
+        .hist .pt { stroke: var(--paper-raised); stroke-width: 2; }
+        .hist .pt.dem, .hist .bar.dem { fill: var(--dem-blue); } .hist .pt.rep, .hist .bar.rep { fill: var(--gop-rust); }
+        .hist .pt.here { stroke: var(--ink); stroke-width: 2; }
+        .hist .bar.here { stroke: var(--ink); stroke-width: 1.5; }
+        .hist .bar.zero { fill: var(--rule-strong); }
+        .hist .hit { fill: transparent; }
+        .hist-table { margin-top: 8px; font-size: 0.8rem; }
+        .hist-table summary { cursor: pointer; color: var(--dp-red); font-weight: 600; font-size: 0.76rem; }
+        .hist-table table { margin-top: 6px; }
+        .hist-table tr.here th, .hist-table tr.here td { background: var(--paper); }
+        .hist-table tbody th { text-align: left; text-transform: none; letter-spacing: 0; font-size: 0.82rem; font-weight: 600; color: var(--ink);
+            padding: 8px 8px 8px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+
         /* Stand-out votes */
         .so-list { list-style: none; margin: 0; padding: 0; }
         .so { padding: 8px 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.4; }
@@ -318,6 +341,8 @@
         .so-what { margin: 0; color: var(--ink-soft); }
         .so-what strong { color: var(--ink); }
         .so-part { margin: 2px 0 0; font-size: 0.74rem; color: var(--ink-soft); }
+        .amdt-name { font-weight: 600; color: var(--ink); }
+        .amdt-name a { color: inherit; }
         .so-part .link-btn { margin: 0; text-align: left; }
         .link-btn { all: unset; cursor: pointer; color: var(--dp-red); font-size: 0.76rem; font-weight: 600; text-decoration: underline; margin-top: 6px; display: inline-block; }
         .link-btn:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
@@ -528,6 +553,7 @@
         var BASE = IS_LOCAL ? '' : 'https://raw.githubusercontent.com/githamm/congressional-vote-tracker/main/';
         var url = {
             config: BASE + 'members.json',
+            history: BASE + 'data/history.json',
             votes: function (c) { return BASE + 'data/' + c + '/all_votes.csv'; },
             loyalty: function (c) { return BASE + 'data/' + c + '/house_loyalty.json'; },
             legislation: function (c) { return BASE + 'data/' + c + '/legislation.json'; },
@@ -537,7 +563,7 @@
 
         // ================= State =================
         var CONFIG = null, CONGRESS = null, MEMBERS = [], ROWS = [], HOUSE = null, LEG = null, TOPICS = null, BILL_ROWS = {};
-        var INFO = {}, HOUSE_BUSINESS = '__house';   // vote_info.json; its group key for votes on no bill
+        var INFO = {}, HOUSE_BUSINESS = '__house', HISTORY = null;   // vote_info.json; its group key for votes on no bill
         var state = { member: '', search: '', brokeOnly: false, listLimit: 40, open: {}, soExpanded: false, legExpanded: false, topic: '', tab: 'record', billRole: 'all', billStage: -1, bill: '', ownOnly: false };
 
         function $(id) { return document.getElementById(id); }
@@ -665,6 +691,7 @@
             row.__groups = info.groups || [HOUSE_BUSINESS];
             row.__kind = info.kind || 'other';
             row.__topics = info.topics || [];
+            row.__amendment = info.amendment || null;   // { author, purpose, amendment, url }
             // Broke with party: voted yes or no against most of their party.
             row.__broke = {};
             var majority = info.majority || {};
@@ -899,6 +926,24 @@
             if (key === HOUSE_BUSINESS) return (q || r['Bill Number'] || 'Vote') + (desc ? ' — ' + desc : '');
             return q + (k === 'amendment' && desc ? ' — ' + desc : '');
         }
+        // An amendment vote's label: "Grothman amendment: sought to require ...",
+        // the name linking to the amendment on Congress.gov. HTML.
+        var PURPOSE_MAX = 170;
+        function amendmentName(a) { return a.author ? a.author + ' amendment' : (a.amendment || 'Amendment'); }
+        function amendmentPurpose(a) {
+            var p = String(a.purpose || '');
+            if (p.length <= PURPOSE_MAX) return escapeHTML(p);
+            var cut = p.slice(0, PURPOSE_MAX).replace(/\s+\S*$/, '');
+            return '<span title="' + escapeHTML(p) + '">' + escapeHTML(cut) + '&hellip;</span>';
+        }
+        function amendmentHTML(a) {
+            var name = escapeHTML(amendmentName(a));
+            var link = /^https:\/\/www\.congress\.gov\//.test(a.url || '') ? '<a href="' + escapeHTML(a.url) + '" target="_blank" rel="noopener">' + name + '</a>' : name;
+            return '<strong class="amdt-name">' + link + '</strong>' + (a.purpose ? ': ' + amendmentPurpose(a) : '');
+        }
+        function subLabelHTML(r, key) {
+            return r.__amendment ? amendmentHTML(r.__amendment) : escapeHTML(subLabel(r, key));
+        }
         function groupHeadRowFor(key) { var g = GROUP_BY_KEY[key], h = g && groupHead(g); return h ? h.row : {}; }
         function groupMatchesSearch(g, q) {
             if (!q) return true;
@@ -908,7 +953,10 @@
             // A search shaped like a bill number matches only that bill: "H.R. 1" shouldn't find "H.R. 1013" in a title.
             if (/^(hr|hres|hjres|hconres|s|sres|sjres|sconres)\d+$/.test(qb)) return false;
             var e = TOPICS && TOPICS.bills && TOPICS.bills[g.key];
-            var text = g.title + ' ' + (e && e.policyArea || '') + ' ' + g.rows.map(function (r) { return title(r) + ' ' + (r['Description'] || ''); }).join(' ');
+            var text = g.title + ' ' + (e && e.policyArea || '') + ' ' + g.rows.map(function (r) {
+                var a = r.__amendment;
+                return title(r) + ' ' + (r['Description'] || '') + (a ? ' ' + a.author + ' ' + a.purpose : '');
+            }).join(' ');
             return text.toLowerCase().indexOf(q) >= 0;
         }
 
@@ -983,7 +1031,7 @@
                     if (open) {
                         html += '<ol class="dvsubs">' + others.slice().reverse().map(function (x) {
                             return '<li class="dvrow dvsub"><div><div class="dv-meta">' + apDate(x.__date) + ' · ' + resultHTML(x) + '</div>' +
-                                '<p class="dv-sublabel">' + escapeHTML(subLabel(x, g.key)) + '</p>' +
+                                '<p class="dv-sublabel">' + subLabelHTML(x, g.key) + '</p>' +
                                 (x.__setAside ? '<p class="dv-note">' + setAsideNote(x) + '</p>' : '') + '</div>' +
                                 '<div class="dv-strip">' + cellsHTML(x) + '</div></li>';
                         }).join('') + '</ol>';
@@ -1064,6 +1112,7 @@
             rec.push('<section class="block"><h3>Missed votes by month</h3>' +
                 '<p class="block-dek">Roll-call votes ' + escapeHTML(m.displayName) + ' missed each month' +
                 '.</p><div class="bars" id="bars"></div></section>');
+            rec.push(historyHTML(m));
             $('panel-record').innerHTML = rec.join('');
 
             // ----- Bills tab
@@ -1092,7 +1141,7 @@
             });
             // Charts measure their container, so draw them once it's visible.
             var m = member(state.member);
-            if (m && tab === 'record') { renderSwarm(m); renderBars(m, baseRows()); }
+            if (m && tab === 'record') { renderSwarm(m); renderBars(m, baseRows()); renderHistory(m); }
             syncURL();
             if (scroll) {
                 var top = $('tabs-band');
@@ -1341,7 +1390,9 @@
                 return '<li class="so"><div class="so-meta"><time>' + apDate(r.__date) + '</time>' +
                     (it.decided ? '<span class="margin-badge">&#9733; Bigger than the margin</span>' : '') + '</div>' +
                     '<p class="so-title">' + (link ? '<a href="' + link + '" target="_blank" rel="noopener">' + t + '</a>' : t) + '</p>' +
-                    '<p class="so-what">' + escapeHTML(r['Vote Question'] || '') + ': ' + what + '</p>' + partOfHTML(r) + '</li>';
+                    '<p class="so-what">' + (r.__amendment ? '<strong class="amdt-name">' + escapeHTML(amendmentName(r.__amendment)) + '</strong>' : escapeHTML(r['Vote Question'] || '')) + ': ' + what + '</p>' +
+                    (r.__amendment && r.__amendment.purpose ? '<p class="so-part">' + (/^[a-z]/.test(r.__amendment.purpose) ? 'The amendment ' : '') + amendmentPurpose(r.__amendment) + '</p>' : '') +
+                    partOfHTML(r) + '</li>';
             }).join('');
             var more = so.length > 4
                 ? '<button type="button" class="link-btn" data-action="so-more">' + (state.soExpanded ? 'Show fewer' : 'Show all ' + so.length) + '</button>'
@@ -1454,6 +1505,107 @@
             svg.addEventListener('pointerleave', hide);
         }
 
+        // ---------- Across Congresses (data/history.json, from history.py) ----------
+        // Small multiples: party loyalty and missed votes as lines, bills that
+        // became law as bars, one point per Congress the member served in. The
+        // Congress on screen is ringed; the table below has every number.
+        function historyFor(m) {
+            var h = HISTORY && HISTORY.members && HISTORY.members[m.id];
+            if (!h) return null;
+            var cs = Object.keys(h.congresses).sort(function (a, b) { return a - b; });
+            return cs.length > 1 ? cs.map(function (c) { return Object.assign({ c: c }, h.congresses[c]); }) : null;
+        }
+        function congressYears(c) {
+            var y = ((CONFIG.congresses[c] || {}).years) || [];
+            return y.length ? y[0] + '–' + String(y[y.length - 1]).slice(2) : '';
+        }
+        function historyHTML(m) {
+            var rows = historyFor(m);
+            if (!rows) return '';
+            var first = rows[0], last = rows[rows.length - 1];
+            var table = rows.map(function (r) {
+                var here = r.c === String(CONGRESS);
+                return '<tr' + (here ? ' class="here"' : '') + '><th scope="row">' +
+                    (here ? escapeHTML(ordinal(+r.c)) : '<button type="button" class="link-btn inline" data-action="go-congress" data-congress="' + r.c + '">' + escapeHTML(ordinal(+r.c)) + '</button>') +
+                    ' <span class="ov-sub">' + congressYears(r.c) + '</span></th>' +
+                    '<td>' + pct(r.withParty, r.counted) + (r.rank ? '<span class="ov-sub">' + ordinal(r.rank) + ' of ' + r.of + '</span>' : '') + '</td>' +
+                    '<td>' + r.missed + '<span class="ov-sub">' + pct(r.missed, r.total) + ' of votes</span></td>' +
+                    '<td>' + (r.counted - r.withParty) + '</td>' +
+                    '<td>' + (r.bills === undefined ? '—' : r.becameLaw + '<span class="ov-sub">of ' + r.bills + '</span>') + '</td></tr>';
+            }).join('');
+            return '<section class="block"><h3>Across Congresses</h3>' +
+                '<p class="block-dek">' + escapeHTML(m.displayName) + '’s record in each Congress from the ' + ordinal(+first.c) + ' (' + congressYears(first.c) + ') to the ' +
+                    ordinal(+last.c) + '. The ringed point is the Congress shown above; choose one in the table to switch to it.</p>' +
+                '<div class="hist" id="hist"></div>' +
+                '<details class="hist-table"><summary>Show as a table</summary><table class="ov-table"><thead><tr><th scope="col">Congress</th>' +
+                    '<th scope="col">Votes with party</th><th scope="col">Missed votes</th><th scope="col">Broke with party</th><th scope="col">Bills became law</th></tr></thead>' +
+                    '<tbody>' + table + '</tbody></table></details></section>';
+        }
+        function renderHistory(m) {
+            var holder = $('hist'), rows = historyFor(m);
+            if (!holder || !rows) return;
+            var cls = partyClass(m), n = rows.length, here = String(CONGRESS);
+            var W = 300, H = 120, padL = 30, padR = 10, padT = 18, padB = 22, plotW = W - padL - padR, plotH = H - padT - padB;
+            function x(i) { return padL + (n === 1 ? plotW / 2 : plotW * i / (n - 1)); }
+            function axisX() {
+                // Label the first and last Congress, and the one on screen.
+                return rows.map(function (r, i) {
+                    if (i !== 0 && i !== n - 1 && r.c !== here) return '';
+                    return '<text class="tick" x="' + x(i).toFixed(1) + '" y="' + (H - 6) + '" text-anchor="' + (i === 0 ? 'start' : i === n - 1 ? 'end' : 'middle') + '">' + ordinal(+r.c) + '</text>';
+                }).join('');
+            }
+            function grid(lo, hi, ticks, fmt, y) {
+                return ticks.map(function (t) {
+                    return '<line class="grid" x1="' + padL + '" x2="' + (W - padR) + '" y1="' + y(t).toFixed(1) + '" y2="' + y(t).toFixed(1) + '"></line>' +
+                        '<text class="tick" x="' + (padL - 5) + '" y="' + (y(t) + 3).toFixed(1) + '" text-anchor="end">' + fmt(t) + '</text>';
+                }).join('');
+            }
+            function lineChart(title, values, lo, hi, ticks, fmt, tip) {
+                function y(v) { return padT + plotH * (1 - (v - lo) / (hi - lo)); }
+                var pts = values.map(function (v, i) { return v === null ? null : [x(i), y(v)]; });
+                var path = pts.filter(Boolean).map(function (p, i) { return (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1); }).join('');
+                var marks = pts.map(function (p, i) {
+                    if (!p) return '';
+                    var isHere = rows[i].c === here;
+                    return '<g><title>' + escapeHTML(tip(rows[i])) + '</title>' +
+                        '<circle class="hit" cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="11"></circle>' +
+                        '<circle class="pt ' + cls + (isHere ? ' here' : '') + '" cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="' + (isHere ? 5 : 4) + '"></circle>' +
+                        (isHere ? '<text class="val" x="' + p[0].toFixed(1) + '" y="' + (p[1] - 9).toFixed(1) + '" text-anchor="' + (i === n - 1 ? 'end' : i === 0 ? 'start' : 'middle') + '">' + fmt(values[i]) + '</text>' : '') + '</g>';
+                }).join('');
+                return chart(title, grid(lo, hi, ticks, fmt, y) + '<path class="line ' + cls + '" d="' + path + '"></path>' + marks);
+            }
+            function chart(title, inner) {
+                return '<figure class="hist-chart"><figcaption>' + title + '</figcaption><svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + escapeHTML(title + ', by Congress; the numbers are in the table below') + '">' +
+                    inner + axisX() + '</svg></figure>';
+            }
+            // Votes with party: from a round number below the lowest point, to 100%.
+            var loy = rows.map(function (r) { return r.counted ? 100 * r.withParty / r.counted : null; });
+            var lo = Math.max(0, Math.floor((Math.min.apply(null, loy.filter(function (v) { return v !== null; })) - 2) / 5) * 5);
+            var parts = [lineChart('Votes with party', loy, lo, 100, [lo, 100], function (v) { return Math.round(v) + '%'; },
+                function (r) { return ordinal(+r.c) + ' Congress: ' + pct(r.withParty, r.counted) + ' with party' + (r.rank ? ', ' + ordinal(r.rank) + ' of ' + r.of : ''); })];
+            // Missed votes: from zero.
+            var mis = rows.map(function (r) { return r.total ? 100 * r.missed / r.total : null; });
+            var top = Math.max(5, Math.ceil(Math.max.apply(null, mis.filter(function (v) { return v !== null; })) / 5) * 5);
+            parts.push(lineChart('Missed votes', mis, 0, top, [0, top], function (v) { return Math.round(v) + '%'; },
+                function (r) { return ordinal(+r.c) + ' Congress: missed ' + r.missed + ' of ' + r.total + ' votes (' + pct(r.missed, r.total) + ')'; }));
+            // Bills that became law: bars from zero.
+            if (rows.some(function (r) { return r.bills !== undefined; })) {
+                var maxLaw = Math.max(2, Math.max.apply(null, rows.map(function (r) { return r.becameLaw || 0; })));
+                var y = function (v) { return padT + plotH * (1 - v / maxLaw); };
+                var bw = Math.max(6, Math.min(18, plotW / n - 6));
+                var bars = rows.map(function (r, i) {
+                    if (r.bills === undefined) return '';
+                    var v = r.becameLaw || 0, isHere = r.c === here, top = y(v), h = Math.max(v ? 2 : 1, padT + plotH - top);
+                    return '<g><title>' + escapeHTML(ordinal(+r.c) + ' Congress: ' + v + ' of ' + r.bills + ' bills they sponsored or co-led became law') + '</title>' +
+                        '<rect class="hit" x="' + (x(i) - 11).toFixed(1) + '" y="' + padT + '" width="22" height="' + plotH + '"></rect>' +
+                        '<rect class="bar ' + cls + (v ? '' : ' zero') + (isHere ? ' here' : '') + '" x="' + (x(i) - bw / 2).toFixed(1) + '" y="' + (padT + plotH - h).toFixed(1) + '" width="' + bw.toFixed(1) + '" height="' + h.toFixed(1) + '" rx="2"></rect>' +
+                        (isHere ? '<text class="val" x="' + x(i).toFixed(1) + '" y="' + (padT + plotH - h - 4).toFixed(1) + '" text-anchor="middle">' + v + '</text>' : '') + '</g>';
+                }).join('');
+                parts.push(chart('Bills that became law', grid(0, maxLaw, [0, maxLaw], String, y) + bars));
+            }
+            holder.innerHTML = parts.join('');
+        }
+
         // ---------- Missed votes by month ----------
         function renderBars(m, rows) {
             var holder = $('bars');
@@ -1552,7 +1704,7 @@
                 var y = num(r['Yea Total']), n = num(r['Nay Total']);
                 var label;
                 if (sub) {
-                    label = '<span class="vtitle"><span class="vsub-label">' + escapeHTML(subLabel(r, g.key)) + '</span>' +
+                    label = '<span class="vtitle"><span class="vsub-label">' + subLabelHTML(r, g.key) + '</span>' +
                         (r.__setAside ? '<span class="vtopic">' + setAsideNote(r) + '</span>' : '') + '</span>';
                 } else {
                     var link = g.key === HOUSE_BUSINESS ? null : billLink(Object.assign({}, r, { 'Bill Number': g.key }));
@@ -1706,6 +1858,12 @@
                 renderVotes(); showTab('votes', 'force');
             }
             if (action === 'vg-open') { var k = b.getAttribute('data-key'); state.open[k] = !state.open[k]; renderVotes(); }
+            if (action === 'go-congress') {
+                var gc = b.getAttribute('data-congress');
+                $('congress-select').value = gc;
+                loadCongress(gc, state.member);
+                if ($('card').scrollIntoView) $('card').scrollIntoView({ block: 'start' });
+            }
             if (action === 'clear-bill') { state.bill = ''; state.listLimit = 40; renderVotes(); }
         });
         var searchTimer = null;
@@ -1774,6 +1932,7 @@
         fetch(url.config).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
             .then(function (config) {
                 CONFIG = config;
+                optional(url.history).then(function (h) { HISTORY = h; if (state.member) renderCard(); });
                 var params = new URL(location.href).searchParams;
                 var want = params.get('congress');
                 var ok = function (k) { return config.congresses[k] && config.congresses[k].members && config.congresses[k].members.length; };

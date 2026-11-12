@@ -26,8 +26,10 @@ it reads the files next to it.
 | `data/<c>/house_matches.json` | The House members who vote most like each Colorado member | `vote_scraper.py` |
 | `data/<c>/legislation.json` | Bills each Colorado member sponsored or co-led, and how far they got | `fetch_legislation.py` |
 | `data/<c>/bill_topics.json` | Each voted-on bill's title and Congress.gov topic; which bills each debate rule set up | `fetch_legislation.py` |
+| `data/<c>/amendments.json` | Who offered each amendment that got a recorded vote, and what it did | `fetch_legislation.py` |
 | `data/<c>/bill_progress.json` | Cache of bill actions, so later runs make fewer API calls (not read by the page) | `fetch_legislation.py` |
 | `data/<c>/vote_info.json` | How each roll call is classified (see below) | `vote_rules.py`, called by both scripts |
+| `data/history.json` | Each Colorado member's party loyalty, missed votes and bills, Congress by Congress, for the page's "Across Congresses" view | `history.py`, called by both scripts |
 | `data/house_names.json` | Full names for House members shown as closest matches | `vote_scraper.py` |
 
 The root `all_votes.csv` is a copy of the current Congress's file for the
@@ -83,6 +85,7 @@ vote-tracker/bin/python vote_scraper.py --year 2026 --incremental   # new roll c
 vote-tracker/bin/python fetch_legislation.py                        # bills, current Congress
 vote-tracker/bin/python fetch_legislation.py --congress 118 119     # bills, other Congresses
 vote-tracker/bin/python vote_rules.py                               # rebuild vote_info.json
+vote-tracker/bin/python history.py                                  # rebuild history.json
 python3 -m http.server                                              # then open http://localhost:8000/
 vote-tracker/bin/python -m pytest -q                                # tests
 ```
@@ -95,7 +98,7 @@ fetch, plus checks on the real data:
 
 - no roll calls missing from a year, including at the end of a finished year
 - every member has votes (an empty column means a wrong ID)
-- `vote_info.json` matches the votes and the current rules
+- `vote_info.json` and `history.json` match the data and the current rules
 - bill lists for finished Congresses aren't cut short
 - the page's script parses (needs Node; skipped without it)
 
@@ -140,6 +143,11 @@ vote-tracker/bin/python backfill.py --dry-run 110
   Congress takes about 2,000-3,000. The script waits out the limit, so a
   full backfill runs for hours: start it in your own terminal (with
   `caffeinate -i` on a Mac).
+- Amendment details come from each bill's amendment list on Congress.gov,
+  matched to roll calls by the "(Roll no. N)" in their latest action, or
+  by reading the amendment's history when a later action came after the
+  vote. About 98% of amendment votes since 2003 are matched; the rest show
+  just the question ("On Agreeing to the Amendment").
 - Some roll calls have no XML file at the Clerk, e.g. 2007's 1000-1186;
   the scraper reads the Clerk's HTML vote page for those instead.
 
