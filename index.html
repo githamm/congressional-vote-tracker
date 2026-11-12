@@ -260,8 +260,9 @@
         .member-head-cell {
             justify-content: center;
             align-items: flex-end;
-            padding: 10px 0 8px;
-            min-height: 160px;
+            /* No fixed height: the header grows to fit the longest
+               rotated name, so it stays snug whoever is in the delegation. */
+            padding: 8px 0 6px;
             font-size: 0.7rem;
             font-weight: 700;
             text-transform: none;
@@ -385,30 +386,34 @@
             letter-spacing: 1px;
             margin: 0 0 8px;
         }
+        /* Fixed column counts, not auto-fill: 8 members split evenly into
+           4+4 (one row per party) on article-width pages and 2-up on phones,
+           so there's never an orphan row. Cards are ~160px wide either way. */
         .summary-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+            grid-template-columns: repeat(2, minmax(0, 1fr));
             gap: 8px;
         }
-        @media (max-width: 420px) {
-            .summary-grid { grid-template-columns: 1fr 1fr; }
+        @media (min-width: 600px) {
+            .summary-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
         }
         .summary-card {
             background: var(--paper-raised);
             border: 1px solid var(--rule);
             border-top: 3px solid var(--rule-strong);
             border-radius: var(--radius);
-            padding: 9px 11px 10px;
-            font-size: 0.78rem;
+            padding: 8px 9px 9px;
+            font-size: 0.74rem;
             min-width: 0;
         }
         .summary-card.dem { border-top-color: var(--dem-blue); }
         .summary-card.rep { border-top-color: var(--gop-rust); }
         .summary-card.highlighted { background: var(--highlight-bg); }
-        .summary-name { font-weight: 700; font-size: 0.86rem; margin: 0 0 4px; }
-        .summary-name .district { font-weight: 400; color: var(--ink-soft); font-size: 0.74rem; }
-        .summary-stat { display: flex; justify-content: space-between; gap: 6px; color: var(--ink-soft); }
-        .summary-stat strong { font-family: var(--font-mono); color: var(--ink); font-weight: 600; }
+        .summary-name { font-weight: 700; font-size: 0.86rem; line-height: 1.2; margin: 0 0 1px; }
+        .summary-stat { display: flex; justify-content: space-between; align-items: baseline; gap: 4px; color: var(--ink-soft); }
+        .summary-stat span { min-width: 0; }
+        .summary-stat strong { font-family: var(--font-mono); color: var(--ink); font-weight: 600; white-space: nowrap; }
+        .summary-stat small { font-size: 0.85em; font-weight: 400; color: var(--ink-soft); }
         .summary-card button.broke {
             all: unset;
             box-sizing: border-box;
@@ -427,6 +432,31 @@
         .summary-card button.broke:hover { border-color: var(--dp-red); color: var(--dp-red); }
         .summary-card button.broke[aria-pressed="true"] { background: var(--dp-red); border-color: var(--dp-red); color: #fff; }
         .summary-card button.broke:disabled { cursor: default; color: var(--ink-soft); border-style: dashed; }
+        .summary-party { margin: 0 0 6px; font-size: 0.7rem; color: var(--ink-soft); }
+        .summary-card.dem .summary-party { color: var(--dem-blue); }
+        .summary-card.rep .summary-party { color: var(--gop-rust); }
+
+        .note-marker {
+            font-family: var(--font-ui);
+            font-size: 0.62rem;
+            font-weight: 700;
+            vertical-align: super;
+            line-height: 0;
+            margin-left: 2px;
+            text-decoration: none;
+            color: var(--dp-red);
+        }
+        .summary-footnotes {
+            list-style: none;
+            margin: 8px 0 0;
+            padding: 0;
+            font-size: 0.72rem;
+            line-height: 1.4;
+            color: var(--ink-soft);
+        }
+        .summary-footnotes li { margin: 0 0 3px; }
+        .summary-footnotes .note-num { font-weight: 700; color: var(--dp-red); font-size: 0.62rem; vertical-align: super; line-height: 0; }
+        .summary-footnotes li:target { background: var(--highlight-bg); }
         .summary-note { font-size: 0.72rem; color: var(--ink-soft); margin: 6px 0 0; line-height: 1.4; }
 
         /* ---------------- Status / source line ---------------- */
@@ -468,6 +498,7 @@
     <section class="member-summary" id="member-summary" aria-labelledby="summary-heading" hidden>
         <h2 id="summary-heading">How each member votes</h2>
         <div class="summary-grid" id="summary-grid"></div>
+        <ol class="summary-footnotes" id="summary-footnotes" hidden></ol>
         <p class="summary-note">Party loyalty is the share of a member&rsquo;s yes/no votes that matched the majority of their party in the full House. Ties and votes without party totals are left out. &ldquo;Broke with party&rdquo; lists the votes where they didn&rsquo;t match.</p>
     </section>
 
@@ -535,7 +566,10 @@
 
         function setMembers(list) {
             MEMBERS = list.map(function (m) {
-                return { id: m.id, displayName: m.displayName, party: m.party, district: m.district,
+                return { id: m.id, displayName: m.displayName, fullName: m.fullName || m.displayName,
+                         party: m.party, district: m.district,
+                         note: m.note || '',
+                         noteUrl: /^https:\/\//i.test(m.noteUrl || '') ? m.noteUrl : '',
                          csvKey: m.csvName + ' (' + m.id + ')' };
             });
             DEM = MEMBERS.filter(function (m) { return m.party === 'D'; });
@@ -738,7 +772,12 @@
                 }
                 if (av < bv) return -1 * dir;
                 if (av > bv) return 1 * dir;
-                return 0;
+                // Ties (same outcome, same title, same day): newest first,
+                // by date and then roll call number, whatever the sort column.
+                var ad = a.__date ? a.__date.getTime() : 0;
+                var bd = b.__date ? b.__date.getTime() : 0;
+                if (ad !== bd) return bd - ad;
+                return (Number(b['Roll Call Number']) || 0) - (Number(a['Roll Call Number']) || 0);
             });
             return out;
         }
@@ -791,6 +830,7 @@
             finalToggle: document.getElementById('final-toggle'),
             summary: document.getElementById('member-summary'),
             summaryGrid: document.getElementById('summary-grid'),
+            summaryFootnotes: document.getElementById('summary-footnotes'),
             sortableButtons: null
         };
 
@@ -918,7 +958,14 @@
             });
         }
 
-        function pct(part, whole) { return whole ? Math.round(100 * part / whole) + '%' : '—'; }
+        function pct(part, whole) {
+            if (!whole) return '—';
+            var p = 100 * part / whole;
+            // Don't round a real, small share down to "0%" (or up to "100%").
+            if (p > 0 && p < 1) return '<1%';
+            if (p > 99 && p < 100) return '>99%';
+            return Math.round(p) + '%';
+        }
 
         function memberById(id) {
             for (var i = 0; i < MEMBERS.length; i++) if (MEMBERS[i].id === id) return MEMBERS[i];
@@ -932,21 +979,38 @@
             var stats = memberStats(base);
             var byId = {};
             stats.forEach(function (s) { byId[s.member.id] = s; });
-            els.summaryGrid.innerHTML = DEM.concat(REP).map(function (m) {
+            var ordered = DEM.concat(REP);
+            // Notes become numbered footnotes under the grid so every card
+            // stays the same height.
+            var noted = ordered.filter(function (m) { return m.note; });
+            els.summaryGrid.innerHTML = ordered.map(function (m) {
                 var s = byId[m.id];
                 var pressed = filters.brokeWith === m.id;
-                var district = m.district ? ' <span class="district">CO-' + m.district + '</span>' : '';
+                var partyLine = (m.party === 'D' ? 'Democrat' : m.party === 'R' ? 'Republican' : m.party) +
+                    (m.district ? ' · CO-' + m.district : '');
+                var noteNum = noted.indexOf(m) + 1;
+                var marker = noteNum
+                    ? '<a class="note-marker" href="#member-note-' + m.id + '" aria-label="See note ' + noteNum + '">' + noteNum + '</a>'
+                    : '';
                 return (
                     '<div class="summary-card ' + (m.party === 'D' ? 'dem' : 'rep') + '" data-member="' + m.id + '">' +
-                    '<p class="summary-name">' + escapeHTML(m.displayName) + ' (' + m.party + ')' + district + '</p>' +
-                    '<div class="summary-stat"><span>Party loyalty</span><strong>' + pct(s.withParty, s.counted) + '</strong></div>' +
-                    '<div class="summary-stat"><span>Missed votes</span><strong>' + s.missed + ' <small>(' + pct(s.missed, s.total) + ')</small></strong></div>' +
+                    '<p class="summary-name">' + escapeHTML(m.fullName) + '</p>' +
+                    '<p class="summary-party">' + escapeHTML(partyLine) + '</p>' +
+                    '<div class="summary-stat"><span>Party loyalty</span><strong>' + escapeHTML(pct(s.withParty, s.counted)) + '</strong></div>' +
+                    '<div class="summary-stat"><span>Missed votes</span><strong title="' + escapeHTML(pct(s.missed, s.total) + ' of ' + s.total + ' votes') + '">' + s.missed + marker + '</strong></div>' +
                     '<button type="button" class="broke" data-broke="' + m.id + '" aria-pressed="' + pressed + '"' + (s.broke ? '' : ' disabled') + '>' +
                         'Broke with party: ' + s.broke +
                     '</button>' +
                     '</div>'
                 );
             }).join('');
+            els.summaryFootnotes.innerHTML = noted.map(function (m, i) {
+                return '<li id="member-note-' + m.id + '"><span class="note-num">' + (i + 1) + '</span> <strong>' +
+                    escapeHTML(m.fullName) + ':</strong> ' + escapeHTML(m.note) +
+                    (m.noteUrl ? ' <a href="' + escapeHTML(m.noteUrl) + '" target="_blank" rel="noopener">Read more</a>' : '') +
+                    '</li>';
+            }).join('');
+            els.summaryFootnotes.hidden = !noted.length;
             els.summary.removeAttribute('hidden');
         }
 

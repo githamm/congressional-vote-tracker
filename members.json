@@ -1,18 +1,20 @@
 {
-  "_comment": "Colorado House delegation by Congress. Shared by vote_scraper.py and index.html. 'csvName' + ' (' + id + ')' is the CSV column header, so never change csvName for a Congress that already has data. 'current' is the Congress the page shows by default. IDs are Bioguide IDs (bioguide.congress.gov), which match the name-id attributes in the Clerk's roll-call XML.",
+  "_comment": "Colorado House delegation by Congress. Shared by vote_scraper.py and index.html. 'csvName' + ' (' + id + ')' is the CSV column header, so never change csvName for a Congress that already has data. 'displayName' is the short name for table headers; 'fullName' is shown on summary cards. Optional 'note' is shown on the member's summary card (context for readers, e.g. an extended absence); optional 'noteUrl' (https only) adds a 'Read more' link after it. 'current' is the Congress the page shows by default. IDs are Bioguide IDs (bioguide.congress.gov), which match the name-id attributes in the Clerk's roll-call XML.",
   "current": "119",
   "congresses": {
     "119": {
       "years": [2025, 2026],
       "members": [
-        { "id": "C001121", "csvName": "Crow",       "displayName": "Crow",      "party": "D", "district": 6 },
-        { "id": "D000197", "csvName": "DeGette",    "displayName": "DeGette",   "party": "D", "district": 1 },
-        { "id": "N000191", "csvName": "Neguse",     "displayName": "Neguse",    "party": "D", "district": 2 },
-        { "id": "P000620", "csvName": "Pettersen",  "displayName": "Pettersen", "party": "D", "district": 7 },
-        { "id": "B000825", "csvName": "Boebert",    "displayName": "Boebert",   "party": "R", "district": 4 },
-        { "id": "C001137", "csvName": "Crank",      "displayName": "Crank",     "party": "R", "district": 5 },
-        { "id": "E000300", "csvName": "Evans (CO)", "displayName": "Evans",     "party": "R", "district": 8 },
-        { "id": "H001100", "csvName": "Hurd (CO)",  "displayName": "Hurd",      "party": "R", "district": 3 }
+        { "id": "C001121", "csvName": "Crow",       "displayName": "Crow", "fullName": "Jason Crow",      "party": "D", "district": 6 },
+        { "id": "D000197", "csvName": "DeGette",    "displayName": "DeGette", "fullName": "Diana DeGette",   "party": "D", "district": 1 },
+        { "id": "N000191", "csvName": "Neguse",     "displayName": "Neguse", "fullName": "Joe Neguse",    "party": "D", "district": 2 },
+        { "id": "P000620", "csvName": "Pettersen",  "displayName": "Pettersen", "fullName": "Brittany Pettersen", "party": "D", "district": 7,
+          "note": "Missed 41 straight votes, Jan. 13 to Feb. 25, 2025, after giving birth; House rules didn't allow proxy voting at the time.",
+          "noteUrl": "https://www.denverpost.com/2025/01/27/brittany-pettersen-congress-parent-newborn-baby-proxy-voting/" },
+        { "id": "B000825", "csvName": "Boebert",    "displayName": "Boebert", "fullName": "Lauren Boebert",   "party": "R", "district": 4 },
+        { "id": "C001137", "csvName": "Crank",      "displayName": "Crank", "fullName": "Jeff Crank",     "party": "R", "district": 5 },
+        { "id": "E000300", "csvName": "Evans (CO)", "displayName": "Evans", "fullName": "Gabe Evans",     "party": "R", "district": 8 },
+        { "id": "H001100", "csvName": "Hurd (CO)",  "displayName": "Hurd", "fullName": "Jeff Hurd",      "party": "R", "district": 3 }
       ]
     },
     "120": {
