@@ -1,7 +1,7 @@
 {
  "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
  "congress": 119,
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "members": {
   "C001121": {
    "sponsored": {
@@ -48,7 +48,7 @@
       "title": "Providing for consideration of the bill (H.R. 9899) to designate Afghanistan under section 244 of the Immigration and Nationality Act to permit nationals of Afghanistan to be eligible for temporary protected status under such section, and for other purposes.",
       "introduced": "2026-10-01",
       "policyArea": "Congress",
-      "latestAction": "Motion to Discharge Committee filed by Mr. Crow. Petition No: 119-28.",
+      "latestAction": "Motion to Discharge Committee filed by Mr. Crow. Petition No: 119-28. (<a href=\"https://clerk.house.gov/DischargePetition/2026110928\">Discharge petition</a> text with signatures.)",
       "latestActionDate": "2026-11-09",
       "law": null,
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1596",
@@ -1549,7 +1549,7 @@
   },
   "N000191": {
    "sponsored": {
-    "count": 94,
+    "count": 95,
     "becameLaw": 0,
     "topics": [
      {
@@ -1574,6 +1574,18 @@
      }
     ],
     "bills": [
+     {
+      "type": "HR",
+      "number": "11006",
+      "title": "Sergeant Sam Wybenga Housing Fairness for Veteran Families Act",
+      "introduced": "2026-11-11",
+      "policyArea": "",
+      "latestAction": "Referred to the House Committee on Veterans' Affairs.",
+      "latestActionDate": "2026-11-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11006",
+      "stages": {}
+     },
      {
       "type": "HR",
       "number": "10916",
@@ -3009,15 +3021,16 @@
       "title": "Bankruptcy Threshold Adjustment Act",
       "introduced": "2026-02-26",
       "policyArea": "Finance and Financial Sector",
-      "latestAction": "Presented to President.",
-      "latestActionDate": "2026-11-05",
+      "latestAction": "Signed by President.",
+      "latestActionDate": "2026-11-10",
       "law": null,
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/7730",
       "stages": {
        "reported": "2026-08-27",
        "house": "2026-09-16",
        "senate": "2026-09-28",
-       "president": "2026-11-05"
+       "president": "2026-11-05",
+       "law": "2026-11-10"
       },
       "sponsor": {
        "id": "C001118",
@@ -5392,7 +5405,7 @@
     ]
    },
    "cosponsored": {
-    "count": 452,
+    "count": 453,
     "becameLaw": 6,
     "topics": [
      {
@@ -5401,7 +5414,7 @@
      },
      {
       "name": "Government Operations and Politics",
-      "count": 37
+      "count": 38
      },
      {
       "name": "Crime and Law Enforcement",
@@ -5420,7 +5433,7 @@
   },
   "B000825": {
    "sponsored": {
-    "count": 22,
+    "count": 23,
     "becameLaw": 0,
     "topics": [
      {
@@ -5445,6 +5458,18 @@
      }
     ],
     "bills": [
+     {
+      "type": "HRES",
+      "number": "1657",
+      "title": "Condemning the Taliban's systematic erasure of women and girls from public life in Afghanistan, and calling for United States leadership in response.",
+      "introduced": "2026-11-11",
+      "policyArea": "",
+      "latestAction": "Referred to the House Committee on Foreign Affairs.",
+      "latestActionDate": "2026-11-11",
+      "law": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1657",
+      "stages": {}
+     },
      {
       "type": "HR",
       "number": "10648",
@@ -9030,7 +9055,7 @@
     "topics": [
      {
       "name": "Taxation",
-      "count": 25
+      "count": 26
      },
      {
       "name": "Crime and Law Enforcement",
