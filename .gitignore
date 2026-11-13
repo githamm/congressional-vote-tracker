@@ -11,3 +11,9 @@ backfill.log
 
 # Test cache
 .pytest_cache/
+
+# Downloaded Census boundary files (district_maps.py)
+.cache/
+
+# Photo originals (crop_photos.py publishes only the crops)
+photos/originals/

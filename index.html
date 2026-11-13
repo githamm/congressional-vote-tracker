@@ -57,7 +57,7 @@
         html, body { margin: 0; padding: 0; background: var(--page); color: var(--ink); font-family: var(--font-ui); line-height: 1.4; }
         /* Figures line up in columns, as in the results tables */
         .stat-num, .step-num, .vdate, .vresult, .topic-val, .view-meta, .bill-meta, .vote-count, .so-meta, .tip, svg text { font-variant-numeric: tabular-nums; }
-        body { max-width: 800px; margin: 0 auto; padding: 22px 16px 40px; }
+        body { max-width: 711px; box-sizing: border-box; margin: 0 auto; padding: 22px 16px 40px; }   /* the Post's article column */
         a { color: var(--dp-red); }
         a:hover { color: var(--dp-red-ink); }
         :focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; border-radius: 2px; }
@@ -93,23 +93,13 @@
         .toggle:has(input:focus-visible) { outline: 2px solid var(--focus-ring); outline-offset: 1px; }
         .view-meta { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-soft); margin-left: auto; }
 
-        /* ---------- Member picker ---------- */
-        .picker-label { font-family: var(--font-head); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; }
-        .picker { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 0 0 18px; }
-        @media (min-width: 720px) { .picker { grid-template-columns: repeat(var(--picker-cols, 4), minmax(0, 1fr)); } }
-        .pick {
-            all: unset; box-sizing: border-box; display: flex; align-items: center; gap: 9px; min-width: 0;
-            padding: 8px 10px; background: var(--paper-raised); border: 1px solid var(--rule); border-radius: var(--radius);
-            cursor: pointer; transition: border-color 0.12s, box-shadow 0.12s;
-        }
-        .pick:hover { border-color: var(--rule-strong); box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
-        .pick:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
-        .pick[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
-        .pick-text { min-width: 0; }
-        .pick-name { display: block; font-weight: 700; font-size: 0.86rem; line-height: 1.2; overflow-wrap: break-word; }
-        .pick-sub { display: block; font-size: 0.7rem; color: var(--ink-soft); }
-        .pick.dem .pick-sub { color: var(--dem-text); }
-        .pick.rep .pick-sub { color: var(--gop-text); }
+        /* ---------- Member page nav: back to the delegation, or another member ---------- */
+        .member-nav { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px;
+            margin: 0 0 12px; padding: 0 0 12px; border-bottom: 1px solid var(--rule); }
+        .member-nav[hidden] { display: none; }
+        .member-switch { display: inline-flex; align-items: center; gap: 8px; font: 600 0.78rem var(--font-ui); color: var(--ink-soft); }
+        .member-switch select { font: 600 13px var(--font-ui); padding: 6px 8px; max-width: 100%; color: var(--ink);
+            background: var(--paper-raised); border: 1px solid var(--rule-strong); border-radius: var(--radius); }
 
         /* Photo slot: initials for now; an <img> drops into the same circle. */
         .photo {
@@ -120,7 +110,6 @@
         .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 15%; }
         .dem .photo { border-color: var(--dem-blue); background: var(--dem-tint); color: var(--dem-text); }
         .rep .photo { border-color: var(--gop-rust); background: var(--gop-tint); color: var(--gop-text); }
-        .pick .photo { width: 38px; height: 38px; font-size: 0.8rem; }
 
         /* Delegation overview, shown until a member is chosen */
         .overview { margin-bottom: 18px; }
@@ -129,7 +118,11 @@
         .ov-table th { font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.6px; color: var(--ink-soft);
             text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--rule-strong); vertical-align: bottom; }
         .ov-table th:first-child, .ov-table td:first-child { text-align: left; padding-left: 0; }
-        .ov-table td { text-align: right; padding: 8px; border-bottom: 1px solid var(--rule); font-variant-numeric: tabular-nums; vertical-align: top; }
+        .ov-table td { text-align: right; padding: 8px; border-bottom: 1px solid var(--rule); font-variant-numeric: tabular-nums; vertical-align: middle; }
+        .ov-who { display: flex; align-items: center; gap: 10px; }
+        .ov-photo { width: 42px; height: 42px; font-size: 0.78rem; cursor: pointer; }
+        @media (min-width: 481px) { .ov-table .ov-name { white-space: nowrap; } }
+        @media (max-width: 480px) { .ov-who { gap: 7px; } .ov-photo { width: 34px; height: 34px; font-size: 0.68rem; } }
         .ov-table .ov-sub { display: block; font-size: 0.68rem; color: var(--ink-soft); }
         .ov-name { all: unset; cursor: pointer; font-weight: 700; color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
         .ov-name:hover { color: var(--dp-red); text-decoration-color: currentColor; }
@@ -211,6 +204,12 @@
         }
         @media (max-width: 480px) { .ov-table .ov-hide { display: none; } .ov-table td, .ov-table th { padding: 7px 4px; } }
 
+        /* ---------- Back to the delegation ---------- */
+        .home-link { all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+            font-size: 0.86rem; font-weight: 700; color: var(--dp-red); }
+        .home-link:hover { text-decoration: underline; }
+        .home-link:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+
         /* ---------- Member card ---------- */
         .card {
             background: var(--paper-raised); border: 1px solid var(--rule); border-top: 5px solid var(--rule-strong);
@@ -218,15 +217,30 @@
         }
         .card.dem { border-top-color: var(--dem-blue); }
         .card.rep { border-top-color: var(--gop-rust); }
-        .card-head { display: flex; align-items: center; gap: 18px; margin-bottom: 16px; }
+        .card-head { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 14px 18px; margin-bottom: 16px; }
         .card-head .photo { width: 120px; height: 120px; font-size: 2.2rem; border-width: 3px; }
-        .card-name { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.3px; font-size: clamp(1.6rem, 6vw, 2.1rem); line-height: 1.1; margin: 0 0 4px; }
+        .card-name { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.3px; font-size: clamp(1.6rem, 6vw, 2rem); line-height: 1.1; margin: 0 0 4px; }
         .card-party { font-size: 0.9rem; font-weight: 600; margin: 0 0 2px; }
         .card.dem .card-party { color: var(--dem-text); }
         .card.rep .card-party { color: var(--gop-text); }
         .card-tenure { font-size: 0.84rem; color: var(--ink-soft); margin: 0; }
+        /* District map: state-wide, or zoomed in on a small Denver-area district */
+        .card-map { margin: 0; width: 180px; }
+        .card-map[hidden] { display: none; }
+        .card-map svg { display: block; width: 180px; height: auto; }
+        .card-map path { stroke: #fff; stroke-width: 0.8px; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+        .card-map .off { fill: #E6E3DC; }
+        .card.dem .card-map .on { fill: var(--dem-blue); }
+        .card.rep .card-map .on { fill: var(--gop-rust); }
+        .card-map .capital circle { fill: #fff; stroke: var(--ink); stroke-width: 1.2px; vector-effect: non-scaling-stroke; }
+        .card-map .capital polygon { fill: var(--ink); }
+        .card-map .frame, .card-map .box { fill: none; stroke: var(--ink); stroke-width: 1px; vector-effect: non-scaling-stroke; }
+        .card-map .loc-bg { fill: #fff; stroke: var(--rule-strong); stroke-width: 1px; vector-effect: non-scaling-stroke; }
+        @media (max-width: 600px) {
+            .card-map { grid-column: 1 / -1; justify-self: center; }
+        }
         @media (max-width: 460px) {
-            .card-head { flex-direction: column; text-align: center; gap: 10px; }
+            .card-head { grid-template-columns: minmax(0, 1fr); justify-items: center; text-align: center; gap: 10px; }
             .card-head .photo { width: 104px; height: 104px; }
         }
 
@@ -491,13 +505,15 @@
         <span class="view-meta" id="view-meta"></span>
     </section>
 
-    <p class="picker-label" id="picker-label">Choose a member</p>
-    <div class="picker" id="picker" role="group" aria-labelledby="picker-label"></div>
+    <nav class="member-nav" id="member-nav" aria-label="Members" hidden>
+        <button type="button" class="home-link" id="home-link"><span aria-hidden="true">&larr;</span> The whole delegation</button>
+        <label class="member-switch">Switch to <select id="member-select"></select></label>
+    </nav>
 
     <p class="status" id="status" role="status">Loading&hellip;</p>
     <section class="overview" id="intro" aria-labelledby="overview-heading" hidden>
         <h2 id="overview-heading">The delegation at a glance</h2>
-        <p class="block-dek">Choose a member above or below for their full record.</p>
+        <p class="block-dek">Choose a member for their full record.</p>
         <div id="overview"></div>
         <section class="block dv" aria-labelledby="dv-heading">
             <h3 id="dv-heading">How Colorado voted</h3>
@@ -567,12 +583,16 @@
             loyalty: function (c) { return BASE + 'data/' + c + '/house_loyalty.json'; },
             legislation: function (c) { return BASE + 'data/' + c + '/legislation.json'; },
             topics: function (c) { return BASE + 'data/' + c + '/bill_topics.json'; },
-            info: function (c) { return BASE + 'data/' + c + '/vote_info.json'; }
+            info: function (c) { return BASE + 'data/' + c + '/vote_info.json'; },
+            mapIndex: BASE + 'data/maps/index.json',
+            photos: BASE + 'photos/index.json',
+            photo: function (id, small) { return BASE + 'photos/' + id + (small ? '-sm' : '') + '.jpg'; },
+            map: function (lines) { return BASE + 'data/maps/' + lines + '.json'; }
         };
 
         // ================= State =================
         var CONFIG = null, CONGRESS = null, MEMBERS = [], ROWS = [], HOUSE = null, LEG = null, TOPICS = null, BILL_ROWS = {};
-        var INFO = {}, HOUSE_BUSINESS = '__house', HISTORY = null;   // vote_info.json; its group key for votes on no bill
+        var INFO = {}, HOUSE_BUSINESS = '__house', HISTORY = null, PHOTOS = {};   // PHOTOS: photos/index.json   // vote_info.json; its group key for votes on no bill
         var state = { member: '', search: '', brokeOnly: false, listLimit: 40, open: {}, soExpanded: false, legExpanded: false, topic: '', tab: 'record', billRole: 'all', billStage: -1, bill: '', ownOnly: false };
 
         function $(id) { return document.getElementById(id); }
@@ -798,25 +818,88 @@
             return out;
         }
 
-        // ================= Rendering: picker =================
-        function photoHTML(m, cls) {
-            var inner = m.photo
-                ? '<img src="' + escapeHTML(m.photo) + '" alt="">'
+        // ================= Rendering: member nav =================
+        // small: the 100px crop, for the overview table (crop_photos.py makes both).
+        function photoHTML(m, cls, small) {
+            var src = m.photo || (PHOTOS[m.id] ? url.photo(m.id, small) : '');
+            var inner = src
+                ? '<img src="' + escapeHTML(src) + '" alt="">'
                 : escapeHTML(initials(m.fullName));
             return '<span class="photo ' + (cls || '') + '" aria-hidden="true">' + inner + '</span>';
         }
         function partyClass(m) { return m.party === 'D' ? 'dem' : m.party === 'R' ? 'rep' : ''; }
 
-        function renderPicker() {
-            var el = $('picker');
-            var n = MEMBERS.length;
-            el.style.setProperty('--picker-cols', (n % 4 === 0 || n % 3 !== 0) ? 4 : 3);
-            el.innerHTML = MEMBERS.map(function (m) {
-                return '<button type="button" class="pick ' + partyClass(m) + '" data-id="' + m.id + '" aria-pressed="' + (state.member === m.id) + '">' +
-                    photoHTML(m) +
-                    '<span class="pick-text"><span class="pick-name">' + escapeHTML(m.fullName) + '</span>' +
-                    '<span class="pick-sub">' + (m.party || '') + (m.district ? ' · CO-' + m.district : '') + '</span></span></button>';
+        function renderMemberNav() {
+            $('member-select').innerHTML = MEMBERS.map(function (m) {
+                return '<option value="' + m.id + '"' + (state.member === m.id ? ' selected' : '') + '>' +
+                    escapeHTML(m.fullName) + ' (' + (m.party || '') + (m.district ? ', CO-' + m.district : '') + ')</option>';
             }).join('');
+        }
+
+        // ================= Rendering: district map =================
+        // data/maps/<lines>.json, built by district_maps.py: SVG paths for
+        // Colorado's districts under each set of lines, which the page only draws.
+        var MAP_CACHE = {};
+        function loadJSON(u) {
+            if (!MAP_CACHE[u]) MAP_CACHE[u] = optional(u);
+            return MAP_CACHE[u];
+        }
+        function loadMap(congress) {
+            return loadJSON(url.mapIndex).then(function (idx) {
+                var lines = idx && Object.keys(idx.lines).filter(function (k) {
+                    var e = idx.lines[k];
+                    return +congress >= e.first && (e.last == null || +congress <= e.last);
+                })[0];
+                return lines ? loadJSON(url.map(lines)) : null;
+            });
+        }
+
+        function mapSVG(map, district) {
+            var d = String(district), zoom = map.zoom && map.zoom[d];
+            var view = zoom || [-4, -4, map.width + 8, map.height + 8];
+            var px = view[2] / 180;   // map units per screen pixel at 180px wide
+            var shapes = zoom ? map.detail.districts : map.districts;
+            var parts = [];
+            if (zoom) parts.push('<defs><clipPath id="map-clip"><rect x="' + view[0] + '" y="' + view[1] + '" width="' + view[2] + '" height="' + view[3] + '"/></clipPath></defs>');
+            parts.push('<g' + (zoom ? ' clip-path="url(#map-clip)"' : '') + '>' + Object.keys(shapes).map(function (k) {
+                return '<path class="' + (k === d ? 'on' : 'off') + '" d="' + shapes[k] + '"/>';
+            }).join('') + '</g>');
+            // Denver, as a capital: a star in a circle, no name.
+            var cap = map.capital, lw = 54 * px, k = lw / map.width, lh = map.height * k;
+            var lx = view[0] + view[2] - lw - 4 * px, ly = view[1] + view[3] - lh - 4 * px;
+            if (cap) {
+                var R = 5.5 * px, star = [];
+                for (var i = 0; i < 10; i++) {
+                    var a = -Math.PI / 2 + i * Math.PI / 5, rr = (i % 2 ? 1.6 : 4) * px;
+                    star.push((cap[0] + rr * Math.cos(a)).toFixed(1) + ',' + (cap[1] + rr * Math.sin(a)).toFixed(1));
+                }
+                parts.push('<g class="capital"><circle cx="' + cap[0] + '" cy="' + cap[1] + '" r="' + R.toFixed(1) + '"/>' +
+                    '<polygon points="' + star.join(' ') + '"/></g>');
+            }
+            if (zoom) {
+                // A small state outline in the corner shows where the zoomed view is.
+                parts.push('<rect class="loc-bg" x="' + (lx - 2 * px).toFixed(1) + '" y="' + (ly - 2 * px).toFixed(1) + '" width="' + (lw + 4 * px).toFixed(1) + '" height="' + (lh + 4 * px).toFixed(1) + '"/>' +
+                    '<g transform="translate(' + lx.toFixed(1) + ',' + ly.toFixed(1) + ') scale(' + k.toFixed(5) + ')">' +
+                    Object.keys(map.districts).map(function (k2) { return '<path class="off" d="' + map.districts[k2] + '"/>'; }).join('') + '</g>' +
+                    '<rect class="box" x="' + (lx + view[0] * k).toFixed(1) + '" y="' + (ly + view[1] * k).toFixed(1) + '" width="' + Math.max(view[2] * k, 3 * px).toFixed(1) + '" height="' + Math.max(view[3] * k, 3 * px).toFixed(1) + '"/>');
+                parts.push('<rect class="frame" x="' + view[0] + '" y="' + view[1] + '" width="' + view[2] + '" height="' + view[3] + '"/>');
+            }
+            return '<svg viewBox="' + view.join(' ') + '" aria-hidden="true">' + parts.join('') + '</svg>';
+        }
+
+        function renderCardMap(m) {
+            var c = CONGRESS;
+            if (!m.district) return;
+            loadMap(c).then(function (map) {
+                var fig = $('card-map');
+                if (!fig || !map || !map.districts[String(m.district)] || state.member !== m.id || CONGRESS !== c) return;
+                var zoomed = map.zoom && map.zoom[String(m.district)];
+                fig.innerHTML = mapSVG(map, m.district);
+                fig.setAttribute('aria-label', 'Map of Colorado’s ' + ordinal(m.district) + ' District' +
+                    (zoomed ? ', in the Denver area' : '') + (map.last != null ? ', as drawn for ' + map.years : '') +
+                    '. The star marks Denver.');
+                fig.hidden = false;
+            });
         }
 
         // ================= Rendering: card =================
@@ -839,8 +922,9 @@
             var body = MEMBERS.map(function (m) {
                 var s = memberStats(m, rows), h = houseEntry(m.id), leg = legFor(m);
                 var laws = leg ? progress(m, 'all').counts[ST_LAW] : null;
-                return '<tr class="' + partyClass(m) + '"><td><button type="button" class="ov-name" data-id="' + m.id + '">' + escapeHTML(m.fullName) + '</button>' + (m.noteOn === 'missed' ? '' : mark(m)) +
-                        '<span class="ov-sub party">' + escapeHTML((PARTY_NAME[m.party] || m.party) + (m.district ? ' · CO-' + m.district : '')) + '</span></td>' +
+                return '<tr class="' + partyClass(m) + '"><td><div class="ov-who">' + photoHTML(m, 'ov-photo', true).replace('<span ', '<span data-id="' + m.id + '" ') +
+                        '<div><button type="button" class="ov-name" data-id="' + m.id + '">' + escapeHTML(m.fullName) + '</button>' + (m.noteOn === 'missed' ? '' : mark(m)) +
+                        '<span class="ov-sub party">' + escapeHTML((PARTY_NAME[m.party] || m.party) + (m.district ? ' · CO-' + m.district : '')) + '</span></div></div></td>' +
                     '<td>' + pct(s.withParty, s.counted) + (h && h.rank ? '<span class="ov-sub">' + ordinal(h.rank) + ' of ' + h.of + '</span>' : '') + '</td>' +
                     '<td>' + s.missed + (m.noteOn === 'missed' ? mark(m) : '') + (cMissed ? '*' : '') + '<span class="ov-sub">' + pct(s.missed, s.total) + ' of votes</span></td>' +
                     '<td>' + s.broke + '</td>' +
@@ -1076,6 +1160,7 @@
         function renderCard() {
             var m = member(state.member);
             var card = $('card');
+            $('member-nav').hidden = !m;
             if (!m) { card.hidden = true; renderOverview(); $('intro').hidden = false; return; }
             $('intro').hidden = true;
 
@@ -1100,7 +1185,7 @@
                     (m.district ? ' · Colorado’s ' + ordinal(m.district) + ' District' : '') + '</p>' +
                 (t ? '<p class="card-tenure">' + (t.firstTerm ? 'First term in Congress' : t.years + (t.years === 1 ? ' year' : ' years') + ' in Congress') +
                     ' · since ' + apDate(t.since) + '</p>' : '') +
-                '</div></div>');
+                '</div><figure class="card-map" id="card-map" role="img" hidden></figure></div>');
             if (m.note) {
                 top.push('<p class="callout">' + escapeHTML(m.note) +
                     (m.noteUrl ? ' <a href="' + escapeHTML(m.noteUrl) + '" target="_blank" rel="noopener">Read more</a>' : '') + '</p>');
@@ -1123,6 +1208,7 @@
                 statTile(String(s.broke), 'Broke with party', s.broke ? 'See these votes &rarr;' : 'Never', s.broke ? ' data-action="show-broke"' : '') +
                 lawTile + '</div>');
             $('card-top').innerHTML = top.join('');
+            renderCardMap(m);
 
             // ----- Voting record tab: the news first, then loyalty in context
             var rec = [];
@@ -1786,11 +1872,11 @@
         function render() {
             var rows = baseRows(), latest = latestDate(ROWS);
             $('view-meta').textContent = rows.length + ' roll-call votes' + (latest ? ' · through ' + apDate(latest) : '');
-            renderPicker();
+            renderMemberNav();
             renderCard();
         }
 
-        function syncURL() {
+        function syncURL(push) {
             try {
                 var u = new URL(location.href);
                 u.searchParams.set('congress', CONGRESS);
@@ -1799,7 +1885,7 @@
                 if (g) u.searchParams.set('bill', qb); else u.searchParams.delete('bill');
                 if (state.member) u.searchParams.set('member', state.member); else u.searchParams.delete('member');
                 if (state.member && state.tab !== 'record') u.searchParams.set('tab', state.tab); else u.searchParams.delete('tab');
-                history.replaceState(null, '', u);
+                if (push && u.href !== location.href) history.pushState(null, '', u); else history.replaceState(null, '', u);
             } catch (e) { /* convenience only */ }
         }
 
@@ -1807,28 +1893,45 @@
             state.search = ''; state.brokeOnly = false; state.ownOnly = false; state.topic = ''; state.bill = ''; state.listLimit = 40; state.open = {};
             $('vote-search').value = ''; $('broke-only').checked = false; $('own-only').checked = false;
         }
-        function selectMember(id) {
+        // push: add a browser history entry, so Back returns to the previous view.
+        function selectMember(id, push) {
             state.member = id;
             state.soExpanded = false; state.legExpanded = false; state.billRole = 'all'; state.billStage = -1;
             resetVoteFilters();
-            syncURL();
+            syncURL(push !== false);
             render();
         }
+        function goHome() {
+            if (!state.member) return;
+            state.tab = 'record';
+            selectMember('');
+            var top = $('intro');
+            if (top.scrollIntoView) top.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        $('home-link').addEventListener('click', goHome);
+        // Back and Forward move between the delegation and members' pages.
+        window.addEventListener('popstate', function () {
+            var params = new URL(location.href).searchParams;
+            var c = params.get('congress') || CONGRESS, id = params.get('member') || '';
+            state.tab = TABS.indexOf(params.get('tab')) >= 0 ? params.get('tab') : 'record';
+            if (CONFIG && CONFIG.congresses[c] && c !== CONGRESS) {
+                $('congress-select').value = c;
+                loadCongress(c, id);
+            } else if (id !== state.member) {
+                selectMember(member(id) ? id : '', false);
+            } else if (state.member) {
+                showTab(state.tab, false);
+            }
+        });
 
         // ================= Events =================
-        $('picker').addEventListener('click', function (e) {
-            var b = e.target.closest('button.pick');
-            if (!b) return;
-            selectMember(b.getAttribute('data-id'));
-            var card = $('card');
-            if (card.scrollIntoView) card.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        });
+        $('member-select').addEventListener('change', function () { selectMember($('member-select').value); });
         $('overview').addEventListener('click', function (e) {
-            var b = e.target.closest('button.ov-name');
+            var b = e.target.closest('button.ov-name, .ov-photo');
             if (!b) return;
             selectMember(b.getAttribute('data-id'));
-            var card = $('card');
-            if (card.scrollIntoView) card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            var nav = $('member-nav');
+            if (nav.scrollIntoView) nav.scrollIntoView({ block: 'start' });
         });
         var dvTimer = null;
         $('dv-search').addEventListener('input', function () {
@@ -1972,6 +2075,7 @@
             .then(function (config) {
                 CONFIG = config;
                 optional(url.history).then(function (h) { HISTORY = h; if (state.member) renderCard(); });
+                optional(url.photos).then(function (p) { PHOTOS = (p && p.photos) || {}; if (ROWS.length) render(); });
                 var params = new URL(location.href).searchParams;
                 var want = params.get('congress');
                 var ok = function (k) { return config.congresses[k] && config.congresses[k].members && config.congresses[k].members.length; };

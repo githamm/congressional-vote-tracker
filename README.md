@@ -31,6 +31,8 @@ it reads the files next to it.
 | `data/<c>/vote_info.json` | How each roll call is classified (see below) | `vote_rules.py`, called by both scripts |
 | `data/history.json` | Each Colorado member's party loyalty, missed votes and bills, Congress by Congress, for the page's "Across Congresses" view | `history.py`, called by both scripts |
 | `data/house_names.json` | Full names for House members shown as closest matches | `vote_scraper.py` |
+| `photos/<id>.jpg`, `photos/<id>-sm.jpg`, `photos/index.json` | Member photos, cropped around the face (400px for the card, 100px for the table), and which members have one | `crop_photos.py`, run by hand on a Mac |
+| `data/maps/<lines>.json`, `data/maps/index.json` | Colorado's district maps for the 2002, 2012 and 2022 lines (Census Bureau, public domain), and which Congresses used each | `district_maps.py`, run by hand |
 
 The root `all_votes.csv` is a copy of the current Congress's file for the
 previously deployed page; it can go once that page is retired.
@@ -86,6 +88,7 @@ vote-tracker/bin/python fetch_legislation.py                        # bills, cur
 vote-tracker/bin/python fetch_legislation.py --congress 118 119     # bills, other Congresses
 vote-tracker/bin/python vote_rules.py                               # rebuild vote_info.json
 vote-tracker/bin/python history.py                                  # rebuild history.json
+vote-tracker/bin/python district_maps.py                            # rebuild district maps
 python3 -m http.server                                              # then open http://localhost:8000/
 vote-tracker/bin/python -m pytest -q                                # tests
 ```
@@ -156,6 +159,24 @@ vote-tracker/bin/python backfill.py --dry-run 110
 See [NEW_CONGRESS.md](NEW_CONGRESS.md). In short: add the new delegation
 to `members.json` before Jan. 3, and set `current` once the first votes
 are in.
+
+After the 2030 census, Colorado's district lines change for the 123rd
+Congress (2033): add the new lines to `ERAS` in `district_maps.py`, set
+the 2022 lines' `last` to 122, and run it. Until then, the maps for new
+Congresses keep using the 2022 lines.
+
+## Member photos
+
+Put originals in `photos/originals/` (git-ignored; only the crops are
+published), named by member ID or name (`B000825.jpg`,
+`Lauren-Boebert.jpg`), at any size or framing; a face at least 120 pixels
+tall gives a sharp crop. Then `vote-tracker/bin/python crop_photos.py` on a
+Mac finds each face with macOS's Vision framework, crops a square around
+it and writes `.cache/contact-sheet.html` to check the results (open it
+through `python3 -m http.server`). Adjust any crop, or add a photo credit,
+in `photos/crops.json`; see the script's docstring. Members without a
+photo show their initials. Use only photos the Post has the right to
+publish.
 
 ## Editorial conventions
 
