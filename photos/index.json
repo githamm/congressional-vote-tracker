@@ -1,0 +1,12 @@
+{
+ "_comment": "Members with a photo: photos/<id>.jpg (400px) and photos/<id>-sm.jpg (100px). Built by crop_photos.py.",
+ "photos": {
+  "B000825": {},
+  "C001121": {},
+  "D000197": {},
+  "E000300": {},
+  "H001100": {},
+  "N000191": {},
+  "P000620": {}
+ }
+}
