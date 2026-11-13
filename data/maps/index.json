@@ -1,0 +1,20 @@
+{
+ "_comment": "Which district lines each Congress used: data/maps/<lines>.json covers Congresses first through last (null: still in use). Built by district_maps.py.",
+ "lines": {
+  "2002": {
+   "first": 108,
+   "last": 112,
+   "years": "2003–2012"
+  },
+  "2012": {
+   "first": 113,
+   "last": 117,
+   "years": "2013–2022"
+  },
+  "2022": {
+   "first": 118,
+   "last": null,
+   "years": "2023–"
+  }
+ }
+}
