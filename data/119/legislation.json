@@ -1,7 +1,7 @@
 {
  "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
  "congress": 119,
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "members": {
   "C001121": {
    "sponsored": {
@@ -2728,7 +2728,7 @@
    },
    "coled": {
     "count": 54,
-    "becameLaw": 0,
+    "becameLaw": 1,
     "bills": [
      {
       "type": "HR",
@@ -3021,9 +3021,9 @@
       "title": "Bankruptcy Threshold Adjustment Act",
       "introduced": "2026-02-26",
       "policyArea": "Finance and Financial Sector",
-      "latestAction": "Signed by President.",
+      "latestAction": "Became Public Law No: 119-142.",
       "latestActionDate": "2026-11-10",
-      "law": null,
+      "law": "119-142",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/7730",
       "stages": {
        "reported": "2026-08-27",
@@ -3777,7 +3777,7 @@
    },
    "cosponsored": {
     "count": 623,
-    "becameLaw": 5,
+    "becameLaw": 7,
     "topics": [
      {
       "name": "Armed Forces and National Security",
@@ -3804,7 +3804,7 @@
   },
   "P000620": {
    "sponsored": {
-    "count": 48,
+    "count": 49,
     "becameLaw": 0,
     "topics": [
      {
@@ -3829,6 +3829,18 @@
      }
     ],
     "bills": [
+     {
+      "type": "HR",
+      "number": "11025",
+      "title": "Stand By NICU Babies and Families Act",
+      "introduced": "2026-11-12",
+      "policyArea": "",
+      "latestAction": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Oversight and Government Reform, and House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "latestActionDate": "2026-11-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11025",
+      "stages": {}
+     },
      {
       "type": "HR",
       "number": "10894",
@@ -4411,9 +4423,28 @@
     ]
    },
    "coled": {
-    "count": 51,
+    "count": 52,
     "becameLaw": 2,
     "bills": [
+     {
+      "type": "HR",
+      "number": "11009",
+      "title": "To stop the criminalization of miscarriages, and for other purposes.",
+      "introduced": "2026-11-12",
+      "policyArea": "",
+      "latestAction": "Referred to the House Committee on the Judiciary.",
+      "latestActionDate": "2026-11-12",
+      "law": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11009",
+      "stages": {},
+      "sponsor": {
+       "id": "B001281",
+       "name": "Joyce Beatty",
+       "party": "D",
+       "state": "OH"
+      },
+      "originalCosponsors": 2
+     },
      {
       "type": "HR",
       "number": "10916",
@@ -5405,7 +5436,7 @@
     ]
    },
    "cosponsored": {
-    "count": 453,
+    "count": 454,
     "becameLaw": 6,
     "topics": [
      {
