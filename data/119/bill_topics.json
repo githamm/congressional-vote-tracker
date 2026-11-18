@@ -1,7 +1,7 @@
 {
  "_comment": "Congress.gov policy area (topic) for each bill voted on in this Congress, keyed by the Clerk's bill number as in all_votes.csv. Special rules (resolutions 'providing for consideration of' other bills) are all filed under 'Congress'; 'ruleFor' lists the bills they set up, so the page shows those bills' topics instead. Written by fetch_legislation.py.",
  "congress": 119,
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "bills": {
   "H CON RES 108": {
    "policyArea": "International Affairs",
@@ -1438,6 +1438,11 @@
    "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
    "checked": "2026-11-11"
   },
+  "H R 8483": {
+   "policyArea": "Native Americans",
+   "title": "Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act of 2026",
+   "checked": "2026-11-18"
+  },
   "H R 856": {
    "policyArea": "Government Operations and Politics",
    "title": "Safe and Smart Federal Purchasing Act",
@@ -1542,6 +1547,11 @@
    "policyArea": "Crime and Law Enforcement",
    "title": "National Fraud Enforcement Division Act of 2026",
    "checked": "2026-11-11"
+  },
+  "H R 9600": {
+   "policyArea": "Public Lands and Natural Resources",
+   "title": "Common Sense 250 Act of 2026",
+   "checked": "2026-11-18"
   },
   "H R 9612": {
    "policyArea": "Energy",
@@ -1943,7 +1953,7 @@
   "H RES 1655": {
    "policyArea": "",
    "title": "Impeaching Peter Brian Hegseth, Secretary of Defense, for high crimes and misdemeanors.",
-   "checked": "2026-11-11"
+   "checked": "2026-11-18"
   },
   "H RES 177": {
    "policyArea": "Congress",
