@@ -1,7 +1,7 @@
 {
  "_comment": "Cache for fetch_legislation.py, keyed by the Clerk's bill number. 'originals': Bioguide IDs of each bill's original cosponsors. 'stages': first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law). 'sponsors': sponsor of each co-led bill.",
  "congress": 119,
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "originals": {
   "H CON RES 114": {
    "originals": [
@@ -3192,7 +3192,7 @@
     "G000604"
    ],
    "total": 2,
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   },
   "H R 1076": {
    "originals": [
@@ -3303,8 +3303,8 @@
     "D000631",
     "W000797"
    ],
-   "total": 35,
-   "checked": "2026-11-18"
+   "total": 36,
+   "checked": "2026-11-19"
   },
   "H R 1083": {
    "originals": [
@@ -3473,6 +3473,11 @@
    "total": 4,
    "checked": "2026-11-11"
   },
+  "H R 10974": {
+   "originals": [],
+   "total": 12,
+   "checked": "2026-11-19"
+  },
   "H R 10975": {
    "originals": [
     "G000586",
@@ -3485,7 +3490,7 @@
     "V000130"
    ],
    "total": 9,
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   },
   "H R 1099": {
    "originals": [
@@ -3522,8 +3527,26 @@
     "H001068",
     "M001241"
    ],
-   "total": 13,
-   "checked": "2026-11-18"
+   "total": 16,
+   "checked": "2026-11-19"
+  },
+  "H R 11003": {
+   "originals": [
+    "L000601",
+    "B001324",
+    "M001143",
+    "H001068",
+    "A000381",
+    "L000562",
+    "D000617",
+    "B001285",
+    "N000147",
+    "C001059",
+    "A000380",
+    "C001072"
+   ],
+   "total": 15,
+   "checked": "2026-11-19"
   },
   "H R 11009": {
    "originals": [
@@ -3531,7 +3554,7 @@
     "P000620"
    ],
    "total": 2,
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   },
   "H R 1101": {
    "originals": [
@@ -34491,8 +34514,8 @@
     "B001298",
     "K000375"
    ],
-   "total": 35,
-   "checked": "2026-11-18"
+   "total": 37,
+   "checked": "2026-11-19"
   },
   "H R 992": {
    "originals": [
@@ -38036,8 +38059,8 @@
     "H001096",
     "J000304"
    ],
-   "total": 103,
-   "checked": "2026-11-18"
+   "total": 105,
+   "checked": "2026-11-19"
   },
   "H RES 166": {
    "originals": [
@@ -38195,6 +38218,43 @@
    ],
    "total": 230,
    "checked": "2026-11-11"
+  },
+  "H RES 1666": {
+   "originals": [
+    "W000822",
+    "S001190",
+    "P000620",
+    "G000586",
+    "M001241",
+    "R000305",
+    "T000468",
+    "C001055",
+    "N000147",
+    "V000136",
+    "W000830",
+    "J000288",
+    "C001059",
+    "G000559",
+    "J000309",
+    "V000130",
+    "C001080",
+    "S001231",
+    "S001156",
+    "P000607",
+    "T000472",
+    "L000593",
+    "B001300",
+    "B001315",
+    "N000015",
+    "M001196",
+    "B001313",
+    "T000488",
+    "G000587",
+    "C001125",
+    "L000397"
+   ],
+   "total": 31,
+   "checked": "2026-11-19"
   },
   "H RES 189": {
    "originals": [
@@ -42706,7 +42766,8 @@
    "latestActionDate": "2025-01-15"
   },
   "H R 4464": {
-   "latestActionDate": "2026-09-16"
+   "reported": "2026-11-17",
+   "latestActionDate": "2026-11-17"
   },
   "H R 448": {
    "latestActionDate": "2025-01-15"
@@ -43191,8 +43252,9 @@
    "latestActionDate": "2026-03-12"
   },
   "H R 7954": {
+   "house": "2026-11-17",
    "reported": "2026-10-29",
-   "latestActionDate": "2026-10-29"
+   "latestActionDate": "2026-11-17"
   },
   "H R 7978": {
    "latestActionDate": "2026-03-18"
@@ -43469,7 +43531,7 @@
    "latestActionDate": "2026-07-30"
   },
   "H R 9999": {
-   "latestActionDate": "2026-09-10"
+   "latestActionDate": "2026-09-16"
   },
   "H RES 1069": {
    "latestActionDate": "2026-02-20"
