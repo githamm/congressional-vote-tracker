@@ -1,7 +1,7 @@
 {
  "_comment": "Bills and resolutions each Colorado House member sponsored or co-led in this Congress, from the Congress.gov API (fetch_legislation.py). Amendments are not included. 'Co-led' means the member was one of 5 or fewer original cosponsors. 'stages' gives the first date of each key action (reported by committee, passed House, passed Senate, presented to the President, vetoed, became law); 'law' is the public law number. Bills whose text was folded into a different law are not counted as becoming law. 'cosponsored' counts every bill the member cosponsored, co-led or not.",
  "congress": 119,
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "members": {
   "C001121": {
    "sponsored": {
@@ -1524,7 +1524,7 @@
     ]
    },
    "cosponsored": {
-    "count": 305,
+    "count": 306,
     "becameLaw": 1,
     "topics": [
      {
@@ -1552,7 +1552,7 @@
   },
   "N000191": {
    "sponsored": {
-    "count": 95,
+    "count": 96,
     "becameLaw": 0,
     "topics": [
      {
@@ -1577,6 +1577,18 @@
      }
     ],
     "bills": [
+     {
+      "type": "HR",
+      "number": "11138",
+      "title": "To require the Commissioner of Social Security to take certain actions to improve the processing of claims and appeals for disability insurance benefits and supplemental security income, and for other purposes.",
+      "introduced": "2026-11-20",
+      "policyArea": "",
+      "latestAction": "Referred to the House Committee on Ways and Means.",
+      "latestActionDate": "2026-11-20",
+      "law": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11138",
+      "stages": {}
+     },
      {
       "type": "HR",
       "number": "11006",
@@ -5439,7 +5451,7 @@
     ]
    },
    "cosponsored": {
-    "count": 457,
+    "count": 458,
     "becameLaw": 6,
     "topics": [
      {
